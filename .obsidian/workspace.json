@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "6613b033d8591f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "ced3f490c89c3b86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16302879f6d796be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/TypeScript.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8cbd0e401b1b5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c3f28ac734669e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c14788910bdc99d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba47a3e729818a43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd575a825e06a2f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 373.5
+  },
+  "right": {
+    "id": "15b898fb046d868c",
+    "type": "split",
+    "children": [
+      {
+        "id": "14692fddb86374b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7a26c722fa83837",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TypeScript/TypeScript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73ff1d619d76b761",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TypeScript/TypeScript.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4511f0eb1490985f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2474871231c54c76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TypeScript/TypeScript.md"
+              }
+            }
+          },
+          {
+            "id": "77236f44d4c5128c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "16302879f6d796be",
+  "lastOpenFiles": [
+    "TypeScript/Общее ~ Common/lib.d.ts.md",
+    "TypeScript/Общее ~ Common/Декларация окружения ~ Declaration of environment.md",
+    "Декларация окружения ~ Declaration of environment.md",
+    "Специальные типы.md",
+    "lib.d.ts.md",
+    "TypeScript/TypeScript.md",
+    "TypeScript/Система типов ~ Type system/Шаблонные литеральные типы ~ Template Literal Type.md",
+    "TypeScript/Система типов ~ Type system/Составляемые типы ~ Mapped Types.md",
+    "TypeScript/Система типов ~ Type system/Индексные типы ~ Index Types.md",
+    "TypeScript/Система типов ~ Type system/Условные типы ~ Conditional Types.md",
+    "TypeScript/Система типов ~ Type system/Примитивные типы ~ Primitive Types.md",
+    "TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
+    "TypeScript/Общее ~ Common/tsconfig.json.md",
+    "TypeScript/Система типов ~ Type system/Литеральные типы ~ Literals Types.md",
+    "Система типов ~ Type system.md",
+    "TypeScript/Общее ~ Common",
+    "TypeScript/Система типов ~ Type system",
+    "TypeScript"
+  ]
+}
