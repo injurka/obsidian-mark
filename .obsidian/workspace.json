@@ -8,14 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16302879f6d796be",
+            "id": "548978f9fb5975fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/TypeScript.md",
+                "file": "Common/nginx.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript/TypeScript.md",
+                "file": "Common/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript/TypeScript.md",
+                "file": "Common/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/TypeScript.md"
+                "file": "Common/nginx.md"
               }
             }
           },
@@ -154,25 +154,53 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "16302879f6d796be",
+  "active": "548978f9fb5975fa",
   "lastOpenFiles": [
+    "ComputerScience/UUID ~ Universally Unique Identifier.md",
+    "Common/nginx.md",
+    "Common",
+    "ComputerScience/Virtual Memory Overview.md",
+    "TypeScript/Общее ~ Common/base.md",
+    "ComputerScience/Mutable vs Immutable Data Types.md",
+    "Web/Event loop ~ Цикл событий.md",
+    "ComputerScience",
+    "Pattern/Pattern.md",
+    "Web",
+    "base.md",
     "TypeScript/Общее ~ Common/lib.d.ts.md",
-    "TypeScript/Общее ~ Common/Декларация окружения ~ Declaration of environment.md",
-    "Декларация окружения ~ Declaration of environment.md",
-    "Специальные типы.md",
-    "lib.d.ts.md",
     "TypeScript/TypeScript.md",
-    "TypeScript/Система типов ~ Type system/Шаблонные литеральные типы ~ Template Literal Type.md",
-    "TypeScript/Система типов ~ Type system/Составляемые типы ~ Mapped Types.md",
-    "TypeScript/Система типов ~ Type system/Индексные типы ~ Index Types.md",
-    "TypeScript/Система типов ~ Type system/Условные типы ~ Conditional Types.md",
-    "TypeScript/Система типов ~ Type system/Примитивные типы ~ Primitive Types.md",
+    "TypeScript/Общее ~ Common/Декларация окружения ~ Declaration of environment.md",
+    "Solid/Solid.md",
+    "Solid/Dependency Inversion Principle.md",
+    "Solid/Interface Segregation Principle.md",
+    "Solid/Liskov substitution Principle.md",
+    "Solid/Open closed Principle.md",
+    "Solid/Single Responsibility Principle.md",
+    "Solid/s",
+    "Solid/l",
+    "Solid/o",
+    "Solid/i",
+    "Solid/d",
+    "Solid",
+    "solid/s/readme.md",
+    "solid/s",
+    "solid/o/readme.md",
+    "solid/l/readme.md",
+    "solid/i/readme.md",
+    "solid/d/readme.md",
+    "solid/readme.md",
     "TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
-    "TypeScript/Общее ~ Common/tsconfig.json.md",
-    "TypeScript/Система типов ~ Type system/Литеральные типы ~ Literals Types.md",
-    "Система типов ~ Type system.md",
-    "TypeScript/Общее ~ Common",
-    "TypeScript/Система типов ~ Type system",
-    "TypeScript"
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/Цепочка обязанностей ~ Chain of responsibility.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/Фабричный метод ~ Factory Method.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/assets/Фабричный метод ~ Factory Method 2.png",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/assets/Фабричный метод ~ Factory Method 1.png",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 3.png",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 2.png",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 1.png",
+    "Pattern/Структурные шаблоны ~ Structural patterns/assets/Адаптер ~ Adapter.png",
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Стратегия ~ Strategy.png",
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Шаблонный метод ~ Template Method.png",
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Издатель-Подписчик ~ Pub Sub.png",
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Наблюдатель ~ Observer.png"
   ]
 }

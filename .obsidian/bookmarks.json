@@ -4,6 +4,18 @@
       "type": "file",
       "ctime": 1703249227567,
       "path": "TypeScript/TypeScript.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1703345013616,
+      "path": "Pattern/Pattern.md",
+      "title": "Pattern"
+    },
+    {
+      "type": "file",
+      "ctime": 1703345437220,
+      "path": "Solid/Solid.md",
+      "title": "Solid"
     }
   ]
 }
