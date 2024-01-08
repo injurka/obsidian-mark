@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ced3f490c89c3b86",
+        "id": "7050023484d52f47",
         "type": "tabs",
         "children": [
           {
-            "id": "548978f9fb5975fa",
+            "id": "dc19e02c775a061f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common/nginx.md",
+                "file": "Git/Git.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "82c5515ce2a5110c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Команды ~ Commands/stash.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 456.5
   },
   "right": {
     "id": "15b898fb046d868c",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common/nginx.md",
+                "file": "Git/Команды ~ Commands/stash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common/nginx.md",
+                "file": "Git/Команды ~ Commands/stash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common/nginx.md"
+                "file": "Git/Команды ~ Commands/stash.md"
               }
             }
           },
@@ -154,53 +167,53 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "548978f9fb5975fa",
+  "active": "82c5515ce2a5110c",
   "lastOpenFiles": [
-    "ComputerScience/UUID ~ Universally Unique Identifier.md",
-    "Common/nginx.md",
-    "Common",
-    "ComputerScience/Virtual Memory Overview.md",
-    "TypeScript/Общее ~ Common/base.md",
-    "ComputerScience/Mutable vs Immutable Data Types.md",
-    "Web/Event loop ~ Цикл событий.md",
-    "ComputerScience",
-    "Pattern/Pattern.md",
-    "Web",
-    "base.md",
-    "TypeScript/Общее ~ Common/lib.d.ts.md",
+    "Git/Git.md",
+    "Git/Команды ~ Commands/stash.md",
     "TypeScript/TypeScript.md",
-    "TypeScript/Общее ~ Common/Декларация окружения ~ Declaration of environment.md",
+    "Web/Event loop ~ Цикл событий.md",
+    "Git/Команды ~ Commands/status.md",
+    "Git/Команды ~ Commands/add.md",
+    "Git/Команды ~ Commands/assets/OTpcn.png",
+    "Git/Команды ~ Commands/assets",
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/Цепочка обязанностей ~ Chain of responsibility.md",
+    "Pattern/Pattern.md",
+    "Git/Команды ~ Commands",
+    "TypeScript/Общее ~ Common/base.md",
+    "Git",
+    "TypeScript/Общее ~ Common/lib.d.ts.md",
+    "TypeScript/Задачи ~ Tasks/Квизы ~ Quiz.md",
+    "TypeScript/Задачи ~ Tasks/Испытания ~ Challenge.md",
+    "Solid/Liskov substitution Principle.md",
     "Solid/Solid.md",
+    "Solid/Single Responsibility Principle.md",
+    "Solid/Open closed Principle.md",
     "Solid/Dependency Inversion Principle.md",
     "Solid/Interface Segregation Principle.md",
-    "Solid/Liskov substitution Principle.md",
-    "Solid/Open closed Principle.md",
-    "Solid/Single Responsibility Principle.md",
+    "Pattern/Структурные шаблоны ~ Structural patterns/Структурные шаблоны ~ Structural patterns.md",
+    "Pattern/Структурные шаблоны ~ Structural patterns/Адаптер ~ Adapter.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/Фабричный метод ~ Factory Method.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/Строитель ~ Builder.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Фабричный метод ~ Factory Method 2.png",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Фабричный метод ~ Factory Method 1.png",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/Прототип ~ Prototype.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/Одиночка ~ Singleton.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/Абстрактная фабрика ~ Abstract Factory.md",
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/Шаблонный метод ~ Template Method.md",
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Издатель-Подписчик ~ Pub Sub.png",
+    "TypeScript/Задачи ~ Tasks",
+    "JavaScript",
+    "Common",
+    "ComputerScience",
+    "Web",
     "Solid/s",
     "Solid/l",
-    "Solid/o",
-    "Solid/i",
-    "Solid/d",
-    "Solid",
-    "solid/s/readme.md",
-    "solid/s",
-    "solid/o/readme.md",
-    "solid/l/readme.md",
-    "solid/i/readme.md",
-    "solid/d/readme.md",
-    "solid/readme.md",
-    "TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/Цепочка обязанностей ~ Chain of responsibility.md",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/Фабричный метод ~ Factory Method.md",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/assets/Фабричный метод ~ Factory Method 2.png",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/assets/Фабричный метод ~ Factory Method 1.png",
     "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 3.png",
     "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 2.png",
     "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 1.png",
     "Pattern/Структурные шаблоны ~ Structural patterns/assets/Адаптер ~ Adapter.png",
     "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Стратегия ~ Strategy.png",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Шаблонный метод ~ Template Method.png",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Издатель-Подписчик ~ Pub Sub.png",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Наблюдатель ~ Observer.png"
+    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Шаблонный метод ~ Template Method.png"
   ]
 }

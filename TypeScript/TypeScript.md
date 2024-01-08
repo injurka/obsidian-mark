@@ -7,13 +7,12 @@
 - #### [[Условные типы ~ Conditional Types]]
 - #### [[Шаблонные литеральные типы ~ Template Literal Type]]
 
-## Общее
+## Общее ~ Common
 - #### [[tsconfig.json]]
 - #### [[lib.d.ts]]
 - #### [[Декларация окружения ~ Declaration of environment]]
-
-## Частые практики
-- ### [[base]]
+## Задачи
+- ### [[Квизы ~ Quiz]]
 
 ## Полезные ссылки
 - #### [TypeScript  глубокое погружение](https://igorfonin.gitbook.io/typescript-book-ru/typescript-type-system/callable#newable)
