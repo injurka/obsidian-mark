@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "970e8943a636d1a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "46c451da625f1501",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f76697ca9de4b7c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/esm-cjs.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "afab1583e6e6bf1a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e3000b09f8711958",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cf5977f2da64dcce",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "045efcb27ee63fb4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "421ede3e5b51d24c",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "9c112e0e5d632deb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4be91a77ad1a5e89",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Web/esm-cjs.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "ef3b6e7a7fee44b5",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Web/esm-cjs.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "50389afb709e0b50",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Web/esm-cjs.md"
+          }
+        }
+      },
+      {
+        "id": "722d94f3ed4feb36",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f76697ca9de4b7c9",
+  "lastOpenFiles": [
+    "Git/Git.md",
+    "Git/Команды ~ Commands/Save ~ Сохранение/git add.md",
+    "2024-01-09.md",
+    "Git/Команды ~ Commands/add.md"
+  ]
+}

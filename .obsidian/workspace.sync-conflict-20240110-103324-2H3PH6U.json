@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/esm-cjs.md",
-                "mode": "preview",
+                "file": "2024-01-09.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/esm-cjs.md",
+                "file": "2024-01-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/esm-cjs.md",
+                "file": "2024-01-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/esm-cjs.md"
+                "file": "2024-01-09.md"
               }
             }
           },
@@ -156,9 +156,9 @@
   },
   "active": "dead353c669945ba",
   "lastOpenFiles": [
-    "Common/ssh config.md",
-    "Web/esm-cjs.md",
+    "Solid/Dependency Inversion.md",
     "2024-01-09.md",
+    "Common/ssh config.md",
     "Common/bash alias.md",
     "Git/Git.md",
     "Git/Команды ~ Commands/Cancel ~ Отмена/git reset.md",

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/esm-cjs.md",
-                "mode": "preview",
+                "file": "TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/esm-cjs.md",
+                "file": "TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/esm-cjs.md",
+                "file": "TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/esm-cjs.md"
+                "file": "TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md"
               }
             }
           },
@@ -156,11 +156,20 @@
   },
   "active": "dead353c669945ba",
   "lastOpenFiles": [
-    "Common/ssh config.md",
-    "Web/esm-cjs.md",
-    "2024-01-09.md",
-    "Common/bash alias.md",
+    "TypeScript/Система типов ~ Type system/Литеральные типы ~ Literals Types.md",
+    "TypeScript/Система типов ~ Type system/Составляемые типы ~ Mapped Types.md",
+    "Web/Web.md",
+    "Web/Event loop ~ Цикл событий.md",
+    "Pattern/Pattern.md",
+    "Pattern/Порождающие шаблоны ~ Creational patterns/Одиночка ~ Singleton.md",
     "Git/Git.md",
+    "Solid/Liskov substitution.md",
+    "Solid/Open closed.md",
+    "Solid/Single Responsibility.md",
+    "2024-01-09.md",
+    "Solid/Dependency Inversion.md",
+    "Common/ssh config.md",
+    "Common/bash alias.md",
     "Git/Команды ~ Commands/Cancel ~ Отмена/git reset.md",
     "Git/Команды ~ Commands/Cancel ~ Отмена/git clean.md",
     "Git/Команды ~ Commands/Save ~ Сохранение/git add.md",
@@ -172,23 +181,14 @@
     "Git/Команды ~ Commands/Cancel ~ Отмена",
     "Git/Команды ~ Commands/Check ~ Проверка",
     "Git/Команды ~ Commands/Save ~ Сохранение",
-    "Web/Web.md",
     "Common/nginx.md",
-    "Web/Event loop ~ Цикл событий.md",
     "TypeScript/TypeScript.md",
     "Git/Команды ~ Commands/Save ~ Сохранение/assets",
     "Pattern/Поведенческие шаблоны ~ Behavioral patterns/Цепочка обязанностей ~ Chain of responsibility.md",
-    "Pattern/Pattern.md",
     "Git/Команды ~ Commands",
     "TypeScript/Общее ~ Common/base.md",
     "Git",
     "TypeScript/Общее ~ Common/lib.d.ts.md",
-    "TypeScript/Задачи ~ Tasks/Квизы ~ Quiz.md",
-    "TypeScript/Задачи ~ Tasks/Испытания ~ Challenge.md",
-    "Solid/Liskov substitution Principle.md",
-    "Solid/Solid.md",
-    "Solid/Single Responsibility Principle.md",
-    "Solid/Open closed Principle.md",
     "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Фабричный метод ~ Factory Method 2.png",
     "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Фабричный метод ~ Factory Method 1.png",
     "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Издатель-Подписчик ~ Pub Sub.png",
