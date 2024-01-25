@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "8541d1d05cc33d6b",
+        "id": "f3213b91822a5f64",
         "type": "tabs",
         "children": [
           {
-            "id": "dead353c669945ba",
+            "id": "2816ba79e298fda3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/esm-cjs.md",
-                "mode": "preview",
+                "file": "Linux/Прочее/systemd.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce02be010a747022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-01-25.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "384983866cae6f28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/JavaScript/Разнообразный синтаксис/for...of.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90fbb29e5f0b270b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/JavaScript/Разнообразный синтаксис/for...in.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +86,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,11 +102,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 402.5
   },
   "right": {
     "id": "15b898fb046d868c",
@@ -85,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/esm-cjs.md",
+                "file": "2024-01-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/esm-cjs.md",
+                "file": "2024-01-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/esm-cjs.md"
+                "file": "2024-01-25.md"
               }
             }
           },
@@ -151,56 +189,59 @@
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "workspaces:Пространства": false,
+      "zk-prefixer:Создать заметку с уникальным идентификатором": false,
+      "random-note:Открыть случайную заметку": false
     }
   },
-  "active": "dead353c669945ba",
+  "active": "ce02be010a747022",
   "lastOpenFiles": [
-    "Common/ssh config.md",
-    "Web/esm-cjs.md",
-    "2024-01-09.md",
-    "Common/bash alias.md",
-    "Git/Git.md",
-    "Git/Команды ~ Commands/Cancel ~ Отмена/git reset.md",
-    "Git/Команды ~ Commands/Cancel ~ Отмена/git clean.md",
-    "Git/Команды ~ Commands/Save ~ Сохранение/git add.md",
-    "Git/Команды ~ Commands/Save ~ Сохранение/git stash.md",
-    "Git/Команды ~ Commands/Check ~ Проверка/git status.md",
-    "Git/Команды ~ Commands/Check ~ Проверка/git log.md",
-    "reset.md",
-    "Git/Команды ~ Commands/Save ~ Сохранение/assets/OTpcn.png",
-    "Git/Команды ~ Commands/Cancel ~ Отмена",
-    "Git/Команды ~ Commands/Check ~ Проверка",
-    "Git/Команды ~ Commands/Save ~ Сохранение",
-    "Web/Web.md",
-    "Common/nginx.md",
-    "Web/Event loop ~ Цикл событий.md",
-    "TypeScript/TypeScript.md",
-    "Git/Команды ~ Commands/Save ~ Сохранение/assets",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/Цепочка обязанностей ~ Chain of responsibility.md",
-    "Pattern/Pattern.md",
-    "Git/Команды ~ Commands",
-    "TypeScript/Общее ~ Common/base.md",
-    "Git",
-    "TypeScript/Общее ~ Common/lib.d.ts.md",
-    "TypeScript/Задачи ~ Tasks/Квизы ~ Quiz.md",
-    "TypeScript/Задачи ~ Tasks/Испытания ~ Challenge.md",
-    "Solid/Liskov substitution Principle.md",
-    "Solid/Solid.md",
-    "Solid/Single Responsibility Principle.md",
-    "Solid/Open closed Principle.md",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Фабричный метод ~ Factory Method 2.png",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Фабричный метод ~ Factory Method 1.png",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Издатель-Подписчик ~ Pub Sub.png",
-    "TypeScript/Задачи ~ Tasks",
-    "JavaScript",
-    "Common",
-    "ComputerScience",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 3.png",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 2.png",
-    "Pattern/Порождающие шаблоны ~ Creational patterns/assets/Абстрактная фабрика ~ Abstract Factory 1.png",
-    "Pattern/Структурные шаблоны ~ Structural patterns/assets/Адаптер ~ Adapter.png",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Стратегия ~ Strategy.png",
-    "Pattern/Поведенческие шаблоны ~ Behavioral patterns/assets/Шаблонный метод ~ Template Method.png"
+    "Backend/Bun/Установка.md",
+    "2024-01-25.md",
+    "Backend/NodeJs/NodeJs.md",
+    "Backend/Bun/Bun.md",
+    "Backend/Backend.md",
+    "Linux/Linux.md",
+    "Backend/Bun",
+    "Common/Common.md",
+    "Linux/Arch/Arch.md",
+    "Linux/Прочее/Прочее.md",
+    "Linux/Прочее/flameshot fix.md",
+    "Linux/Прочее/systemd.md",
+    "Linux/Прочее",
+    "Linux/Arch/Оптимизация.md",
+    "Linux/Arch/Очистка системы.md",
+    "Linux/Arch",
+    "Backend/NodeJs/Руководство.md",
+    "Common/Docker/Multi stage.md",
+    "Common/Docker/Docker.md",
+    "Common/Docker/Commands.md",
+    "Common/Docker/Dockerfile/Node multi stage.md",
+    "Common/Docker/Dockerfile",
+    "Frontend/Frontend.md",
+    "Backend/NodeJs/assets/freecodecamp-9.png",
+    "Backend/NodeJs/assets/freecodecamp-1.png",
+    "Backend/NodeJs/assets/freecodecamp-10.png",
+    "Backend/NodeJs/assets/freecodecamp-11.png",
+    "Backend/NodeJs/assets/freecodecamp-12.png",
+    "Backend/NodeJs/assets/freecodecamp-8.png",
+    "Backend/NodeJs/assets/freecodecamp-2.png",
+    "Backend/NodeJs/assets/freecodecamp-3.png",
+    "Backend/NodeJs/assets/freecodecamp-4.png",
+    "Backend/NodeJs/assets/freecodecamp-5.png",
+    "Backend/NodeJs/assets",
+    "Frontend/Vue/Extra/Rendering Mechanism.md",
+    "Без названия.md",
+    "Backend/NodeJs",
+    "Backend",
+    "Frontend/JavaScript/Прочее/Well-known Symbols.md",
+    "Frontend/JavaScript/Прочее/Поверхностное и глубокое копирование.md",
+    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Combine selectors ~ Комбинировние селекторов.md",
+    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Specificity ~ Специфичность.md",
+    "Frontend/CSS/Base ~ Основы/BEM ~ БЭМ.md",
+    "Frontend/JavaScript/Разнообразный синтаксис",
+    "Frontend/JavaScript/Структура данных/Типы данных",
+    "Linux"
   ]
 }

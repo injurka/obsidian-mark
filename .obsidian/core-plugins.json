@@ -15,7 +15,11 @@
   "slash-command",
   "editor-status",
   "bookmarks",
+  "zk-prefixer",
+  "random-note",
   "outline",
   "word-count",
+  "slides",
+  "workspaces",
   "file-recovery"
 ]

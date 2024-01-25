@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/esm-cjs.md",
+                "file": "Backend/NodeJs/NodeJs.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,8 +86,8 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Web/esm-cjs.md",
-            "collapseAll": false,
+            "file": "Backend/NodeJs/NodeJs.md",
+            "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
@@ -102,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Web/esm-cjs.md",
+            "file": "Backend/NodeJs/NodeJs.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Web/esm-cjs.md"
+            "file": "Backend/NodeJs/NodeJs.md"
           }
         }
       },
@@ -127,10 +128,13 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -141,9 +145,51 @@
   },
   "active": "f76697ca9de4b7c9",
   "lastOpenFiles": [
-    "Git/Git.md",
-    "Git/Команды ~ Commands/Save ~ Сохранение/git add.md",
-    "2024-01-09.md",
-    "Git/Команды ~ Commands/add.md"
+    "Backend/NodeJs/Руководство.md",
+    "Backend/NodeJs/NodeJs.md",
+    "Frontend/Frontend.md",
+    "Frontend/JavaScript/JavaScript.md",
+    "Chinese/Результативные морфемы/到 dào ~  见 jiàn.md",
+    "Web/JavaScript/Прочее/Well-known Symbols.md",
+    "Common/Docker/Dockerfile/Node multi stage.md",
+    "Common/Docker/Multi stage.md",
+    "Common/Docker/Commands.md",
+    "Common/Docker/Docker.md",
+    "Common/Docker/Dockerfile",
+    "Common/Docker",
+    "Common/docker/commands.md",
+    "Common/docker/dockerfile/Node multi stage.md",
+    "Common/docker/dockerfile",
+    "Frontend/Vue/Extra/assets/phases.png",
+    "Frontend/Vue/Essentials/assets/lifecycle.png",
+    "Frontend/TypeScript/Система типов ~ Type system/assets/types.png",
+    "Frontend/JavaScript/Структура данных/Типы данных/Undefined.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/Number.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/String.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/Null.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/Symbol.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/BigInt.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/Object.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/Boolean.md",
+    "Frontend/JavaScript/Структура данных/Типы данных/Типы данных.md",
+    "Frontend/JavaScript/Прочее/assets/loadash1.png",
+    "Frontend/JavaScript/Прочее/assets/loadash2.jpeg",
+    "Frontend/JavaScript/DOM/assets/shadow-dom-say-hello.png",
+    "Frontend/JavaScript/DOM/assets/shadow-dom-range.png",
+    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Combine selectors ~ Комбинировние селекторов.md",
+    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Specificity ~ Специфичность.md",
+    "Frontend/Browser ~ Браузер/Общее ~ Common/assets/reflow-2.webp",
+    "Frontend/Browser ~ Браузер/Общее ~ Common/assets/reflow.webp",
+    "Frontend/Browser ~ Браузер/Общее ~ Common/assets/dom.webp",
+    "Frontend/Vue/Extra/Server-Side Rendering (SSR).md",
+    "Frontend/Vue/Extra/Comparison with Other Frameworks.md",
+    "Frontend/Vue/Extra/Rendering Mechanism.md",
+    "Frontend/Vue/Extra/assets",
+    "Frontend/Vue/Essentials/assets",
+    "Frontend/TypeScript/Система типов ~ Type system/assets",
+    "Frontend/JavaScript/Структура данных/Типы данных",
+    "Frontend/JavaScript/Прочее/assets",
+    "Frontend/JavaScript/DOM/assets",
+    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы"
   ]
 }

@@ -1,0 +1,38 @@
+.parentxy,
+.parentxy2,
+.parentxy3,
+.form,
+.example {
+    border: 1px solid rgb(133, 114, 201);
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.parentxy > li {
+    border: 1px solid rgb(55, 0, 255);
+}
+
+.parentxy2 div ~ p {
+    color: red;
+}
+
+.parentxy3 div + p {
+    color: red;
+}
+
+.form input[type="text"]:disabled {
+    background: #d6dbff;
+    color: black;
+}
+
+.container A {
+    background: orange;
+}
+.list A {
+    background: mediumspringgreen;
+}
+
+div.element#this {
+    color: green;
+    border: 10px solid red;
+}

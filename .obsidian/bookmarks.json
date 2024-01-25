@@ -2,32 +2,45 @@
   "items": [
     {
       "type": "file",
-      "ctime": 1703249227567,
-      "path": "TypeScript/TypeScript.md"
+      "ctime": 1705070942125,
+      "path": "Frontend/JavaScript/JavaScript.md"
     },
     {
       "type": "file",
-      "ctime": 1703345013616,
-      "path": "Pattern/Pattern.md",
-      "title": "Pattern"
+      "ctime": 1705070952619,
+      "path": "ComputerScience/ComputerScience.md"
     },
     {
       "type": "file",
-      "ctime": 1703345437220,
-      "path": "Solid/Solid.md",
-      "title": "Solid"
+      "ctime": 1705070957990,
+      "path": "Git/Git.md"
     },
     {
       "type": "file",
-<<<<<<< Updated upstream
-      "ctime": 1704733254361,
-      "path": "Git/Git.md",
-      "title": "Git"
-=======
-      "ctime": 1703846390317,
-      "path": "Web/Web.md",
+      "ctime": 1705070964134,
+      "path": "Pattern/Pattern.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1705070971094,
+      "path": "Frontend/TypeScript/TypeScript.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1705070978489,
+      "path": "PrinciplesProgramming/SOLID/SOLID.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1705070986097,
+      "path": "Frontend/Frontend.md",
       "title": "Web"
->>>>>>> Stashed changes
+    },
+    {
+      "type": "group",
+      "ctime": 1705071046474,
+      "items": [],
+      "title": "Untitled group"
     }
   ]
 }
