@@ -11,13 +11,8 @@
             "id": "f76697ca9de4b7c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/NodeJs/NodeJs.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -35,7 +30,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabeticalReverse"
           }
         }
       },
@@ -86,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Backend/NodeJs/NodeJs.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Backend/NodeJs/NodeJs.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Backend/NodeJs/NodeJs.md"
-          }
+          "state": {}
         }
       },
       {
@@ -145,51 +136,52 @@
   },
   "active": "f76697ca9de4b7c9",
   "lastOpenFiles": [
-    "Backend/NodeJs/Руководство.md",
-    "Backend/NodeJs/NodeJs.md",
-    "Frontend/Frontend.md",
+    "Computer Science/Cryptography/_/hash-functions.png",
+    "Computer Science/Cryptography/_/hash-functions_3.png",
+    "_/hash-functions.md",
+    "Frontend/Web/Безопасность/CORS.md",
+    "Frontend/TypeScript/Общее ~ Common/lib.d.ts.md",
+    "Frontend/JavaScript/Разнообразный синтаксис/generator.md",
     "Frontend/JavaScript/JavaScript.md",
-    "Chinese/Результативные морфемы/到 dào ~  见 jiàn.md",
-    "Web/JavaScript/Прочее/Well-known Symbols.md",
-    "Common/Docker/Dockerfile/Node multi stage.md",
-    "Common/Docker/Multi stage.md",
-    "Common/Docker/Commands.md",
-    "Common/Docker/Docker.md",
-    "Common/Docker/Dockerfile",
-    "Common/Docker",
-    "Common/docker/commands.md",
-    "Common/docker/dockerfile/Node multi stage.md",
-    "Common/docker/dockerfile",
-    "Frontend/Vue/Extra/assets/phases.png",
-    "Frontend/Vue/Essentials/assets/lifecycle.png",
-    "Frontend/TypeScript/Система типов ~ Type system/assets/types.png",
-    "Frontend/JavaScript/Структура данных/Типы данных/Undefined.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/Number.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/String.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/Null.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/Symbol.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/BigInt.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/Object.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/Boolean.md",
-    "Frontend/JavaScript/Структура данных/Типы данных/Типы данных.md",
-    "Frontend/JavaScript/Прочее/assets/loadash1.png",
-    "Frontend/JavaScript/Прочее/assets/loadash2.jpeg",
-    "Frontend/JavaScript/DOM/assets/shadow-dom-say-hello.png",
-    "Frontend/JavaScript/DOM/assets/shadow-dom-range.png",
-    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Combine selectors ~ Комбинировние селекторов.md",
-    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Specificity ~ Специфичность.md",
-    "Frontend/Browser ~ Браузер/Общее ~ Common/assets/reflow-2.webp",
-    "Frontend/Browser ~ Браузер/Общее ~ Common/assets/reflow.webp",
-    "Frontend/Browser ~ Браузер/Общее ~ Common/assets/dom.webp",
-    "Frontend/Vue/Extra/Server-Side Rendering (SSR).md",
-    "Frontend/Vue/Extra/Comparison with Other Frameworks.md",
-    "Frontend/Vue/Extra/Rendering Mechanism.md",
-    "Frontend/Vue/Extra/assets",
-    "Frontend/Vue/Essentials/assets",
-    "Frontend/TypeScript/Система типов ~ Type system/assets",
-    "Frontend/JavaScript/Структура данных/Типы данных",
-    "Frontend/JavaScript/Прочее/assets",
-    "Frontend/JavaScript/DOM/assets",
-    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы"
+    "Database/Теория баз данных/Теория баз данных.md",
+    "Транзакции.md",
+    "Chinese/Грамматика/Результативные морфемы/到 dào ~ 见 jiàn.md",
+    "4.md",
+    "Computer Science/Computer Science.md",
+    "Computer Science/Data structure/Tree.md",
+    "Database/Database.md",
+    "Database/Теория баз данных/­Шардинг.md",
+    "Database/Теория баз данных/­Транзакции.md",
+    "Шардинг.md",
+    "Computer Science/Cryptography/Hashing.md",
+    "Computer Science/Networks/assets/приоритезация_потоков_2.png",
+    "Computer Science/Networks/assets/приоритезация_потоков_1.png",
+    "Computer Science/Networks/assets/http1.1.png",
+    "Computer Science/Networks/assets/http1.1-conveer.png",
+    "imgs/02_01_crypto_case.png.md",
+    "imgs",
+    "Architectural/Architectural Patterns/Event sourcing.md",
+    "Architectural/Architectural Patterns/Health Endpoint Monitoring.md",
+    "Architectural/Architectural Patterns/MVC.md",
+    "Architectural/Architectural Patterns/MVP.md",
+    "Architectural/Architectural Patterns/MVVM.md",
+    "Architectural/Architectural Patterns/Pure.md",
+    "Architectural/Architectural Patterns/Rate Limiting.md",
+    "Architectural/Architectural Patterns/Saga.md",
+    "Computer Science/Networks/assets/htpp_v.png",
+    "Computer Science/Networks/assets/tcp-vs-udp.png",
+    "Computer Science/Networks/assets/osi-big.png",
+    "Computer Science/Networks/assets/tcp_udp_format.jpeg",
+    "Computer Science/Networks/assets",
+    "Computer Science/Networks",
+    "Computer Science/Other/assets/osi-big.png",
+    "Computer Science/Other/assets",
+    "Computer Science/Other",
+    "Computer Science/Architectural/assets",
+    "Computer Science/Architectural",
+    "Computer Science/Algorithm/Sort",
+    "Computer Science/Algorithm/Search",
+    "Computer Science/Algorithm",
+    "Untitled.canvas"
   ]
 }

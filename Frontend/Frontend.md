@@ -1,12 +1,14 @@
-## [[Browser ~ Браузер]]
+- ### [[Web]]
+- ### [[HTML]]
+- ### [[CSS]]
+- ### [[JavaScript]]
+- ### [[TypeScript]]
+- ### [[Vue]]
+- ### [[React]]
+- ### [[Code handbook]]
+- ### [[Прочее]]
 
-## [[HTML]]
-## [[CSS]]
-## [[JavaScript]]
-## [[TypeScript]]
-## [[Vue]]
-## [[CodeHandbook]]
-## [[Прочее ~ Other]]
+---
 
 ## Полезные ссылки
 - #### [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)

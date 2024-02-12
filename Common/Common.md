@@ -1,4 +1,3 @@
 - ### [[nginx]]
 - ### [[bash alias]]
 - ### [[ssh config]]
-- ### [[Docker]]

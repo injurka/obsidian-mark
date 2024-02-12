@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "6613b033d8591f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3213b91822a5f64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "384983866cae6f28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Combine selectors ~ Комбинировние селекторов.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cdd4b2e3741d1c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8cbd0e401b1b5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c3f28ac734669e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c14788910bdc99d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba47a3e729818a43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd575a825e06a2f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 402.5
+  },
+  "right": {
+    "id": "15b898fb046d868c",
+    "type": "split",
+    "children": [
+      {
+        "id": "14692fddb86374b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7a26c722fa83837",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/Linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73ff1d619d76b761",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/Linux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4511f0eb1490985f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2474871231c54c76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/Linux.md"
+              }
+            }
+          },
+          {
+            "id": "77236f44d4c5128c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "4cdd4b2e3741d1c0",
+  "lastOpenFiles": [
+    "Linux/Прочее/Прочее.md",
+    "Linux/Linux.md",
+    "Linux/Прочее/LookingGlass.md",
+    "Chinese/Chinese.md",
+    "Chinese/Грамматика/Грамматика.md",
+    "Chinese/Грамматика/Количество ~ Счёт/Количество ~ Счёт.md",
+    "Chinese/Грамматика/Количество ~ Счёт/二 er ~ 两 liang.md",
+    "Chinese/Грамматика/Послеслоги/Послелоги ~ 后置词 hòuzhìcí.md",
+    "Chinese/Грамматика/Мочь уметь/能 néng.md",
+    "Chinese/Грамматика/Мочь уметь/可以 keyi.md",
+    "Chinese/Грамматика/Мочь уметь/会 hui.md",
+    "Chinese/Грамматика/Мочь уметь/Разница 会 hui 能 neng 可以 keyi.md",
+    "Chinese/Грамматика/Мочь уметь/Мочь уметь.md",
+    "Chinese/Грамматика/Направление/Направление.md",
+    "Chinese/Грамматика/Мочь уметь/错 cuo.md",
+    "Chinese/Грамматика/Послеслоги",
+    "Chinese/Глоссарий/Глоссарий.md",
+    "Frontend/Untitled",
+    "Chinese/Грамматика/Направление",
+    "Chinese/Грамматика/Количество ~ Счёт",
+    "二 er ~ 两 liang.md",
+    "Chinese/Глоссарий/Послелоги",
+    "Chinese/Глоссарий",
+    "Linux/Прочее/openvpn.md",
+    "Linux/LookingGlass",
+    "Linux/错 cuo.md",
+    "Chinese/Результативные морфемы/错 cuo.sync-conflict-20240129-150716-WIFOV24.md",
+    "Chinese/Ключи.md",
+    "Linux/Arch/Hyprland.md",
+    "Chinese/Грамматика/Мочь уметь",
+    "Linux/Прочее/systemd.md",
+    "Chinese/Грамматика/Результативные морфемы/Результативные морфемы.md",
+    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Combine selectors ~ Комбинировние селекторов.md",
+    "Chinese/Грамматика/Начинающая ~ HSK-1",
+    "Backend/NodeJs/assets/roadmap.png",
+    "Backend/Bun",
+    "Backend/NodeJs/assets/freecodecamp-9.png",
+    "Backend/NodeJs/assets/freecodecamp-1.png",
+    "Backend/NodeJs/assets/freecodecamp-10.png",
+    "Backend/NodeJs/assets/freecodecamp-11.png",
+    "Backend/NodeJs/assets/freecodecamp-12.png",
+    "Backend/NodeJs/assets/freecodecamp-8.png",
+    "Backend/NodeJs/assets/freecodecamp-2.png",
+    "Backend/NodeJs/assets/freecodecamp-3.png",
+    "Backend/NodeJs/assets/freecodecamp-4.png"
+  ]
+}

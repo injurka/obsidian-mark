@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "6613b033d8591f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "3789cc7fce9aa9b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44bcfd4f9568dd4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Networks/COMET.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "860e563728cb0f51",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8cbd0e401b1b5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c3f28ac734669e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c14788910bdc99d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba47a3e729818a43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd575a825e06a2f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "15b898fb046d868c",
+    "type": "split",
+    "children": [
+      {
+        "id": "14692fddb86374b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7a26c722fa83837",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Networks/COMET.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73ff1d619d76b761",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Science/Networks/COMET.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4511f0eb1490985f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2474871231c54c76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computer Science/Networks/COMET.md"
+              }
+            }
+          },
+          {
+            "id": "77236f44d4c5128c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "zk-prefixer:Создать заметку с уникальным идентификатором": false,
+      "random-note:Открыть случайную заметку": false,
+      "workspaces:Пространства": false
+    }
+  },
+  "active": "44bcfd4f9568dd4c",
+  "lastOpenFiles": [
+    "Computer Science/ComputerScience.md",
+    "Linux/Linux.md",
+    "Computer Science/Networks/DNS.sync-conflict-20240210-163807-WIFOV24.md",
+    "Linux/Кратко.md",
+    "Computer Science/ComputerScience.sync-conflict-20240210-163807-WIFOV24.md",
+    "Computer Science/~syncthing~ComputerScience.sync-conflict-20240210-163807-WIFOV24.md.tmp",
+    "Computer Science/Networks/~syncthing~DNS.sync-conflict-20240210-163807-WIFOV24.md.tmp",
+    "Computer Science/Networks/COMET.md",
+    "Computer Science/Networks/assets/longpoll.png",
+    "Architectural/Architectural Patterns/Architectural Patterns.md",
+    "Architectural/Pattern.md",
+    "2024-01-25.md",
+    "Architectural/Architectural Patterns/Pure.md",
+    "Computer Science/Other/Operating Systems.md",
+    "Computer Science/Other/Data transfer.md",
+    "Frontend/Web/Общее/What happens when....md",
+    "Frontend/Web/Безопасность/CORS.md",
+    "Frontend/Web/Web.md",
+    "Frontend/Web/Общее/How work browser ~ Как работает браузер.md",
+    "Computer Science/Networks/OSI.md",
+    "Computer Science/Networks/HTTP.md",
+    "Computer Science/Networks/DNS.md",
+    "Computer Science/Networks/TCP~IP.md",
+    "Computer Science/Networks/TLS.md",
+    "Common/nginx.md",
+    "Frontend/Web/Общее/Event reference ~ Ссылка на событие.md",
+    "Frontend/Web/Рендеринг/Render ~ Движки рендеринга.md",
+    "Frontend/Frontend.md",
+    "Computer Science/Networks/assets/tls-handshake.png",
+    "Computer Science/Networks/assets/tls-internet.png",
+    "Computer Science/Networks/assets/htpp_v.png",
+    "Frontend/Web/Общее/HTTP протокол 1.1 ~ 2 ~ 3.md",
+    "Computer Science/Networks/Без названия",
+    "Computer Science/Networks/assets/tcp_udp_format.jpeg",
+    "Computer Science/Networks/assets/tcp-vs-udp.png",
+    "Computer Science/Networks/assets/osi-big.png",
+    "Computer Science/Networks/assets",
+    "Computer Science/Networks",
+    "Architectural/Architectural Patterns/assets/strangler_fig.png",
+    "Frontend/JavaScript/Прочее/assets/cycle.png",
+    "Frontend/Web/Общее/assets/http.png",
+    "Frontend/JavaScript/Прочее/~syncthing~Cтек вызовов.md.tmp",
+    "Chinese/Грамматика/Отрицания/~syncthing~Отрицания.md.tmp",
+    "Chinese/Грамматика/Результативные морфемы/~syncthing~错 cuo.md.tmp",
+    "Frontend/JavaScript/Прочее/assets/~syncthing~dedicated_workers.png.tmp",
+    "Computer Science/Algorithm/Search/~syncthing~Search.md.tmp"
+  ]
+}

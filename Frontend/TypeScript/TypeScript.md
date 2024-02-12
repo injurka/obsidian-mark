@@ -20,5 +20,6 @@
 - ### [[Испытания ~ Challenge]]
 
 ## Полезные ссылки
+- ### [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - ### [TypeScript  глубокое погружение](https://igorfonin.gitbook.io/typescript-book-ru/typescript-type-system/callable#newable)
 - ### [ScriptDev](https://scriptdev.ru/guide/)

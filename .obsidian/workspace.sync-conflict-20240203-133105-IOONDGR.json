@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "6613b033d8591f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "3789cc7fce9aa9b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "860e563728cb0f51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/Грамматика/Грамматика.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f632240c6cfc56c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/Грамматика/Количество и счёт/Цифры.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8cbd0e401b1b5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c3f28ac734669e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c14788910bdc99d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba47a3e729818a43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Browser ~ Браузер",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd575a825e06a2f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "15b898fb046d868c",
+    "type": "split",
+    "children": [
+      {
+        "id": "14692fddb86374b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7a26c722fa83837",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chinese/Грамматика/Количество и счёт/Цифры.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73ff1d619d76b761",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chinese/Грамматика/Количество и счёт/Цифры.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4511f0eb1490985f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2474871231c54c76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chinese/Грамматика/Количество и счёт/Цифры.md"
+              }
+            }
+          },
+          {
+            "id": "77236f44d4c5128c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "6f632240c6cfc56c",
+  "lastOpenFiles": [
+    "Chinese/Грамматика/Количество и счёт/Количество и счёт.md",
+    "Chinese/Грамматика/Количество и счёт/Числа.md",
+    "Chinese/Грамматика/Количество и счёт/Цифры.md",
+    "Chinese/Грамматика/Количество и счёт/Счётные слова, классификаторы.md",
+    "Chinese/Грамматика/Грамматика.md",
+    "Chinese/Грамматика/Дата и время/Дата и время.md",
+    "Chinese/Грамматика/Дата и время",
+    "Chinese/Грамматика/Количество и счёт/二 er ~ 两 liang.md",
+    "Chinese/Грамматика/Количество/Количество ~ Счёт.md",
+    "Chinese/Грамматика/Количество/二 er ~ 两 liang.md",
+    "Chinese/Грамматика/Отрицания/Отрицания.md",
+    "Chinese/Грамматика/Направление/Направление.md",
+    "Frontend/Прочее ~ Other/husky.md",
+    "Backend/Bun/Bun.md",
+    "Backend/Bun/Установка.md",
+    "Backend/NodeJs/Руководство.md",
+    "Backend/NodeJs/NodeJs.md",
+    "Backend/NodeJs/Roadmap.md",
+    "Linux/Прочее/theme gnome.md",
+    "Frontend/HTML/Base ~ Основы/assets/normal-width.png",
+    "Frontend/HTML/Base ~ Основы/assets/el.png",
+    "Frontend/HTML/Base ~ Основы/assets/block.png",
+    "Frontend/Browser ~ Браузер/Общее ~ Common/V8 ~ Оптимизация кода.md",
+    "Chinese/Грамматика/Результативные морфемы/Результативные морфемы.md",
+    "Chinese/Грамматика/Послеслоги/Послелоги ~ 后置词 hòuzhìcí.md",
+    "Chinese/Грамматика/Мочь уметь/错 cuo.md",
+    "Chinese/Грамматика/Количество ~ Счёт/~syncthing~Количество ~ Счёт.md.tmp",
+    "Chinese/Грамматика/Мочь уметь/会 hui.md",
+    "Chinese/Грамматика/Количество/~syncthing~二 er ~ 两 liang.md.tmp",
+    "Frontend/HTML/Base ~ Основы/assets/mrg.png",
+    "Frontend/HTML/Base ~ Основы/assets/ggd.png",
+    "Frontend/HTML/Base ~ Основы/assets/normal.png",
+    "Frontend/Прочее ~ Other/~syncthing~Прочее ~ Other.md.tmp",
+    "Frontend/HTML/Base ~ Основы/assets/inline.png",
+    "Frontend/Прочее ~ Other/tsup.md",
+    "Frontend/HTML/Base ~ Основы/assets/ggd2.png",
+    "Frontend/React/React.md",
+    "Linux/Прочее/openvpn.md",
+    "Linux/Прочее/~syncthing~openvpn.md.tmp",
+    "Linux/Прочее/~syncthing~LookingGlass.md.tmp",
+    "Linux/Arch/~syncthing~Arch.md.tmp",
+    "Chinese/Грамматика/Мочь уметь/~syncthing~会 hui.md.tmp",
+    "Frontend/Browser ~ Браузер/~syncthing~Browser ~ Браузер.md.tmp",
+    "Chinese/~syncthing~Ключи.md.tmp",
+    "Backend/NodeJs/assets/roadmap.png",
+    "Backend/NodeJs/assets/freecodecamp-1.png"
+  ]
+}
