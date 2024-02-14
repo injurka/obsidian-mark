@@ -178,8 +178,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f36e5b8e8ab8fc89",
+  "active": "c14788910bdc99d1",
   "lastOpenFiles": [
+    "_Other_/TODO.md",
+    "_Other_/TODO",
+    "_Other_",
+    "TODO",
     "DevOps/DevOps.md",
     "Backend/Bun/web-server.md",
     "DevOps/Виртуализация.md",
@@ -214,7 +218,6 @@
     "Computer Science/Networks/HTTP.md",
     "Computer Science/Networks/TCP~IP.md",
     "Computer Science/Networks/OSI.md",
-    "Computer Science/Computer Science.md",
     "Untitled.canvas",
     "Frontend/Vue/SFC",
     "Computer Science/Cryptography/Encryption/assets/symmetric.png",
@@ -223,9 +226,6 @@
     "Frontend/Прочее/~syncthing~Прочее.md.tmp",
     "Computer Science/Cryptography/~syncthing~Terms.md.tmp",
     "Frontend/JavaScript/Прочее/~syncthing~Well-known Symbols.md.tmp",
-    "Computer Science/Cryptography/~syncthing~Hash-functions.md.tmp",
-    "Database/Брокеры сообщений/assets/~syncthing~nats.png.tmp",
-    "Computer Science/Cryptography/~syncthing~Hashing.md.tmp",
-    "Architectural/Principles Programming/~syncthing~Principles Programming.md.tmp"
+    "Computer Science/Cryptography/~syncthing~Hash-functions.md.tmp"
   ]
 }
