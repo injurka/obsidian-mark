@@ -11,8 +11,12 @@
             "id": "f76697ca9de4b7c9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/Web/Безопасность/CORS.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Frontend/Web/Безопасность/CORS.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Frontend/Web/Безопасность/CORS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Frontend/Web/Безопасность/CORS.md"
+          }
         }
       },
       {
@@ -136,52 +144,52 @@
   },
   "active": "f76697ca9de4b7c9",
   "lastOpenFiles": [
+    "Frontend/Web/Авторизация/assets/oauth_4.png",
+    "Frontend/Web/Авторизация/assets/oauth_3.png",
+    "Frontend/Web/Авторизация/assets/oauth_2.png",
+    "Frontend/Web/Авторизация/assets/oauth_1.png",
+    "Frontend/Web/Авторизация/assets/oauth.png",
+    "Frontend/Web/Авторизация/assets/jwt-structure.png",
+    "Frontend/Web/Авторизация/assets/jwt.png",
+    "Frontend/Web/Авторизация/assets",
+    "Frontend/Web/Авторизация/Terms.md",
+    "Frontend/Web/Авторизация/Basic.md",
+    "Frontend/Web/Авторизация/SAML.md",
+    "Frontend/Vue/SFC/Top-level await.md",
+    "Frontend/Vue/SFC/defineModel.md",
+    "Untitled.md",
+    "Frontend/Web/Авторизация/JWT.md",
+    "Frontend/Code handbook/Regex.md",
+    "Frontend/Web/Авторизация/OAuth 2.0.md",
+    "Frontend/Vue/SFC/defineOptions.md",
+    "Frontend/Web/Авторизация/Digest.md",
+    "Frontend/Web/Авторизация/OpenID Connect.md",
+    "Computer Science/Networks/HTTPS.md",
+    "Frontend/Web/Авторизация",
+    "Computer Science/Networks/HTTP.sync-conflict-20240211-174252-IOONDGR.md",
+    "Computer Science/Computer Science.md",
+    "Chinese/Грамматика/Количество и счёт/Количество и счёт.md",
+    "Chinese/Грамматика/Количество и счёт/Счётные слова, классификаторы.md",
+    "Chinese/Грамматика/Количество и счёт/Цифры.md",
+    "Chinese/Грамматика/Количество и счёт/Числа.md",
+    "Chinese/Грамматика/Количество и счёт/二 er ~ 两 liang.md",
+    "Chinese/Грамматика/Мочь уметь/可以 keyi.md",
+    "Chinese/Грамматика/Направление/Направление.md",
+    "Chinese/Грамматика/Отрицания/Отрицание с 没有 (meiyou) в прошедшем времени.md",
+    "Chinese/Грамматика/Послеслоги/Послелоги ~ 后置词 hòuzhìcí.md",
+    "Chinese/Грамматика/Результативные морфемы/到 dào ~ 见 jiàn.md",
     "Computer Science/Cryptography/_/hash-functions.png",
     "Computer Science/Cryptography/_/hash-functions_3.png",
-    "_/hash-functions.md",
-    "Frontend/Web/Безопасность/CORS.md",
-    "Frontend/TypeScript/Общее ~ Common/lib.d.ts.md",
-    "Frontend/JavaScript/Разнообразный синтаксис/generator.md",
-    "Frontend/JavaScript/JavaScript.md",
-    "Database/Теория баз данных/Теория баз данных.md",
-    "Транзакции.md",
-    "Chinese/Грамматика/Результативные морфемы/到 dào ~ 见 jiàn.md",
-    "4.md",
-    "Computer Science/Computer Science.md",
-    "Computer Science/Data structure/Tree.md",
-    "Database/Database.md",
-    "Database/Теория баз данных/­Шардинг.md",
-    "Database/Теория баз данных/­Транзакции.md",
-    "Шардинг.md",
-    "Computer Science/Cryptography/Hashing.md",
     "Computer Science/Networks/assets/приоритезация_потоков_2.png",
     "Computer Science/Networks/assets/приоритезация_потоков_1.png",
-    "Computer Science/Networks/assets/http1.1.png",
-    "Computer Science/Networks/assets/http1.1-conveer.png",
-    "imgs/02_01_crypto_case.png.md",
     "imgs",
-    "Architectural/Architectural Patterns/Event sourcing.md",
-    "Architectural/Architectural Patterns/Health Endpoint Monitoring.md",
-    "Architectural/Architectural Patterns/MVC.md",
-    "Architectural/Architectural Patterns/MVP.md",
-    "Architectural/Architectural Patterns/MVVM.md",
-    "Architectural/Architectural Patterns/Pure.md",
-    "Architectural/Architectural Patterns/Rate Limiting.md",
-    "Architectural/Architectural Patterns/Saga.md",
-    "Computer Science/Networks/assets/htpp_v.png",
-    "Computer Science/Networks/assets/tcp-vs-udp.png",
-    "Computer Science/Networks/assets/osi-big.png",
-    "Computer Science/Networks/assets/tcp_udp_format.jpeg",
     "Computer Science/Networks/assets",
     "Computer Science/Networks",
-    "Computer Science/Other/assets/osi-big.png",
     "Computer Science/Other/assets",
     "Computer Science/Other",
     "Computer Science/Architectural/assets",
     "Computer Science/Architectural",
     "Computer Science/Algorithm/Sort",
-    "Computer Science/Algorithm/Search",
-    "Computer Science/Algorithm",
     "Untitled.canvas"
   ]
 }

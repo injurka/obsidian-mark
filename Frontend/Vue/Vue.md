@@ -1,8 +1,15 @@
-## [[Essentials]]
+## Essentials
 - ### [[Lifecycle Hooks ~ Хуки жизненного цикла]]
 - ### [[Directives ~ Директивы]]
-
-## [[Rendering Mechanism]]
+## SFC
+- ### [[<script setup>]]
+- ### [[defineEmits]]
+- ### [[defineExpose]]
+- ### [[defineProps]]
+- ### [[defineOptions]]
+- ### [[defineModel]]
+- ### [[Top-level await]]
+## Rendering Mechanism
 - ### [[Rendering Mechanism]]
 - ### [[Reactivity in Depth]]
 - ### [[Comparison with Other Frameworks]]

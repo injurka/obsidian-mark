@@ -14,6 +14,7 @@
 - ### [[COMET]]
 - ### [[DNS]]
 - ### [[HTTP]]
+- ### [[HTTPS]]
 - ### [[OSI]]
 - ### [[TCP~IP]]
 - ### [[TLS]]
@@ -23,7 +24,7 @@
 - ### [[SQL-injection]]
 - ### [[XSS]]
 ## Cryptography
-- ### [[Terms]]
+- ### [[Computer Science/Cryptography/Terms]]
 - ### [[Encryption]]
 - ### [[Electronic signatures]]
 - ### [[Hash-functions]]
