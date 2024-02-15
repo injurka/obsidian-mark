@@ -2,7 +2,7 @@
 - ### [[Lifecycle Hooks ~ Хуки жизненного цикла]]
 - ### [[Directives ~ Директивы]]
 ## SFC
-- ### [[<script setup>]]
+- ### [[script setup]]
 - ### [[defineEmits]]
 - ### [[defineExpose]]
 - ### [[defineProps]]
