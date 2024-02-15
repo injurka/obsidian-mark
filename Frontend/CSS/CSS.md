@@ -2,4 +2,5 @@
 - ### Selector ~ Селекторы
 	- #### [[Combine selectors ~ Комбинировние селекторов]]
 	- ### [[Specificity ~ Специфичность]]
-### [[BEM ~ БЭМ]]
+- ### [[BEM ~ БЭМ]]
+- ### [[will-change]]

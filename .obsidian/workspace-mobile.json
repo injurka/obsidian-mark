@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Web/Безопасность/CORS.md",
+                "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Frontend/Web/Безопасность/CORS.md",
+            "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Frontend/Web/Безопасность/CORS.md",
+            "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Frontend/Web/Безопасность/CORS.md"
+            "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md"
           }
         }
       },
@@ -142,8 +142,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f76697ca9de4b7c9",
+  "active": "e3000b09f8711958",
   "lastOpenFiles": [
+    "Frontend/Web/Web.sync-conflict-20240215-184544-RLJVY3B.md",
+    "Backend/Bun/native-web-server.md",
+    "Frontend/Vue/SFC/script setup.md",
+    "Frontend/CSS/Base ~ Основы/will-change.md",
+    "Frontend/Web/Сетевые запросы/Server Sent Events.md",
+    "Frontend/Web/Сетевые запросы/Untitled.md",
+    "Frontend/Web/Сетевые запросы/WebSocket.md",
+    "Frontend/Web/Сетевые запросы",
+    "Excalidraw",
+    "Frontend/JavaScript/Структура данных/Type coercion ~ Преобразование типа.md",
+    "Architectural/Architectural Patterns/CQRS.md",
+    "Architectural/Architectural Patterns/DDD.md",
+    "Architectural/Architectural Patterns/Event sourcing.md",
+    "Architectural/Architectural Patterns/Saga.md",
+    "Architectural/Architectural Patterns/Strangler Fig.md",
+    "Untitled.md",
+    "Frontend/Web/Общее/What happens when....md",
+    "Frontend/Web/Общее/Reflow Repaint.md",
+    "Untitled.sync-conflict-20240214-195738-RLJVY3B.md",
+    "Frontend/Web/Общее/How work browser ~ Как работает браузер.md",
+    "Frontend/TypeScript/TypeScript.md",
+    "Frontend/TypeScript/Система типов ~ Type system/Шаблонные литеральные типы ~ Template Literal Type.md",
+    "Frontend/TypeScript/Система типов ~ Type system/Условные типы ~ Conditional Types.md",
+    "Frontend/TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
+    "Frontend/TypeScript/Система типов ~ Type system/Примитивные типы ~ Primitive Types.md",
+    "Frontend/TypeScript/Система типов ~ Type system/Литеральные типы ~ Literals Types.md",
+    "Frontend/TypeScript/Система типов ~ Type system/Индексные типы ~ Index Types.md",
+    "Frontend/TypeScript/Система типов ~ Type system/Составляемые типы ~ Mapped Types.md",
     "Frontend/Web/Авторизация/assets/oauth_4.png",
     "Frontend/Web/Авторизация/assets/oauth_3.png",
     "Frontend/Web/Авторизация/assets/oauth_2.png",
@@ -152,44 +180,16 @@
     "Frontend/Web/Авторизация/assets/jwt-structure.png",
     "Frontend/Web/Авторизация/assets/jwt.png",
     "Frontend/Web/Авторизация/assets",
-    "Frontend/Web/Авторизация/Terms.md",
-    "Frontend/Web/Авторизация/Basic.md",
-    "Frontend/Web/Авторизация/SAML.md",
-    "Frontend/Vue/SFC/Top-level await.md",
-    "Frontend/Vue/SFC/defineModel.md",
-    "Untitled.md",
-    "Frontend/Web/Авторизация/JWT.md",
-    "Frontend/Code handbook/Regex.md",
-    "Frontend/Web/Авторизация/OAuth 2.0.md",
-    "Frontend/Vue/SFC/defineOptions.md",
-    "Frontend/Web/Авторизация/Digest.md",
-    "Frontend/Web/Авторизация/OpenID Connect.md",
-    "Computer Science/Networks/HTTPS.md",
     "Frontend/Web/Авторизация",
-    "Computer Science/Networks/HTTP.sync-conflict-20240211-174252-IOONDGR.md",
-    "Computer Science/Computer Science.md",
-    "Chinese/Грамматика/Количество и счёт/Количество и счёт.md",
-    "Chinese/Грамматика/Количество и счёт/Счётные слова, классификаторы.md",
-    "Chinese/Грамматика/Количество и счёт/Цифры.md",
-    "Chinese/Грамматика/Количество и счёт/Числа.md",
-    "Chinese/Грамматика/Количество и счёт/二 er ~ 两 liang.md",
-    "Chinese/Грамматика/Мочь уметь/可以 keyi.md",
-    "Chinese/Грамматика/Направление/Направление.md",
-    "Chinese/Грамматика/Отрицания/Отрицание с 没有 (meiyou) в прошедшем времени.md",
-    "Chinese/Грамматика/Послеслоги/Послелоги ~ 后置词 hòuzhìcí.md",
-    "Chinese/Грамматика/Результативные морфемы/到 dào ~ 见 jiàn.md",
     "Computer Science/Cryptography/_/hash-functions.png",
     "Computer Science/Cryptography/_/hash-functions_3.png",
     "Computer Science/Networks/assets/приоритезация_потоков_2.png",
-    "Computer Science/Networks/assets/приоритезация_потоков_1.png",
     "imgs",
     "Computer Science/Networks/assets",
     "Computer Science/Networks",
     "Computer Science/Other/assets",
     "Computer Science/Other",
     "Computer Science/Architectural/assets",
-    "Computer Science/Architectural",
-    "Computer Science/Algorithm/Sort",
     "Untitled.canvas"
   ]
 }

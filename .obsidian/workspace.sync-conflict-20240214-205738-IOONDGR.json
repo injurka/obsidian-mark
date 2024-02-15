@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "6613b033d8591f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "3789cc7fce9aa9b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44bcfd4f9568dd4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/Vue/SFC/defineEmits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f36e5b8e8ab8fc89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/Bun/web-server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "860e563728cb0f51",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8cbd0e401b1b5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c3f28ac734669e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c14788910bdc99d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba47a3e729818a43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "file: HTTP",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd575a825e06a2f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "15b898fb046d868c",
+    "type": "split",
+    "children": [
+      {
+        "id": "14692fddb86374b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7a26c722fa83837",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Backend/Bun/web-server.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73ff1d619d76b761",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Backend/Bun/web-server.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4511f0eb1490985f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2474871231c54c76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Backend/Bun/web-server.md"
+              }
+            }
+          },
+          {
+            "id": "77236f44d4c5128c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "c14788910bdc99d1",
+  "lastOpenFiles": [
+    "_Other_/TODO.md",
+    "_Other_/TODO",
+    "_Other_",
+    "TODO",
+    "DevOps/DevOps.md",
+    "Backend/Bun/web-server.md",
+    "DevOps/Виртуализация.md",
+    "DevOps/Load Balancing.md",
+    "DevOps/Kubernetes.md",
+    "Architectural/Principles Programming/Principles Programming.md",
+    "Architectural/Architectural Patterns/Pure.md",
+    "Architectural/Architectural Patterns/Event sourcing.md",
+    "Architectural/Architectural Patterns/Health Endpoint Monitoring.md",
+    "Architectural/Architectural Patterns/MVP.md",
+    "Architectural/Architectural Patterns/MVC.md",
+    "Architectural/Architectural Patterns/IOC.md",
+    "Frontend/Web/Web.md",
+    "Frontend/Web/Авторизация/Terms.md",
+    "Frontend/Web/Авторизация/Basic.md",
+    "Frontend/Web/Авторизация/Digest.md",
+    "Frontend/Web/Авторизация/JWT.md",
+    "Frontend/Web/Авторизация/OAuth 2.0.md",
+    "Frontend/Web/Авторизация/SAML.md",
+    "Frontend/Web/Авторизация/OpenID Connect.md",
+    "Frontend/Web/Авторизация/assets/oauth_4.png",
+    "Frontend/Web/Авторизация/assets/oauth_3.png",
+    "Frontend/Vue/SFC/defineEmits.md",
+    "Frontend/Web/Авторизация/assets/oauth_2.png",
+    "Frontend/Web/Авторизация/assets/oauth_1.png",
+    "Frontend/Web/Авторизация/assets/oauth.png",
+    "Frontend/Web/Авторизация/assets/jwt-structure.png",
+    "Frontend/Web/Авторизация/assets/jwt.png",
+    "Frontend/Web/Авторизация/assets",
+    "Computer Science/Networks/HTTPS.md",
+    "Frontend/Web/Авторизация",
+    "Computer Science/Networks/HTTP.md",
+    "Computer Science/Networks/TCP~IP.md",
+    "Computer Science/Networks/OSI.md",
+    "Untitled.canvas",
+    "Frontend/Vue/SFC",
+    "Computer Science/Cryptography/Encryption/assets/symmetric.png",
+    "Computer Science/Cryptography/_/02_04_sign_types.png",
+    "Computer Science/Data structure/assets/avl_3.png",
+    "Frontend/Прочее/~syncthing~Прочее.md.tmp",
+    "Computer Science/Cryptography/~syncthing~Terms.md.tmp",
+    "Frontend/JavaScript/Прочее/~syncthing~Well-known Symbols.md.tmp",
+    "Computer Science/Cryptography/~syncthing~Hash-functions.md.tmp"
+  ]
+}
