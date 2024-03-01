@@ -5,3 +5,4 @@
 - ### [[is-mobile.ts]]
 - ### [[parse-digit.ts]]
 - ### [[ttl-local-storage.ts]]
+- ### [[throttle.ts]]

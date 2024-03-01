@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b10a213ab7f19516",
+            "id": "635552dcec2990ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/Web/Web.md",
+                "file": "Linux/Прочее/nvm.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: jsx",
-                "matchingCase": false,
+                "query": "iframe",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 345.5
   },
   "right": {
     "id": "15b898fb046d868c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/Web/Web.md",
+                "file": "Linux/Прочее/nvm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/Web/Web.md",
+                "file": "Linux/Прочее/nvm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend/Web/Web.md"
+                "file": "Linux/Прочее/nvm.md"
               }
             }
           },
@@ -158,54 +158,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b10a213ab7f19516",
+  "active": "635552dcec2990ff",
   "lastOpenFiles": [
-    "Frontend/Web/Сетевые запросы/WebSocket.md",
-    "Frontend/Web/Сетевые запросы/Untitled.md",
-    "Frontend/Web/Web.sync-conflict-20240215-184544-RLJVY3B.md",
-    "Frontend/Web/Общее/Reflow Repaint.md",
-    "Frontend/Web/Web.md",
-    "Frontend/Web/Сетевые запросы/Server Sent Events.md",
-    "Frontend/CSS/Base ~ Основы/Selector ~ Селекторы/Combine selectors ~ Комбинировние селекторов.md",
-    "Computer Science/Networks/COMET.md",
+    "Linux/Прочее/zsh.md",
+    "Linux/Linux.md",
+    "Linux/Прочее/Прочее.md",
+    "Linux/Прочее/bash alias.md",
+    "Linux/Прочее/nvm.md",
+    "Linux/Arch/Оптимизация.md",
+    "Linux/Arch/Очистка системы.md",
+    "Linux/Arch/Hyprland.md",
+    "Git/Git.md",
+    "Frontend/Прочее/web frameworks benchmark.md",
+    "Pasted image 20240301124740.png",
+    "Pasted image 20240301124738.png",
+    "Linux/Arch/Arch.md",
+    "Linux/Полезное.md",
+    "Linux/Прочее/openvpn.md",
+    "Linux/Прочее/flameshot fix.md",
+    "Linux/Прочее/restore grub.md",
+    "Linux/Прочее/systemd.md",
+    "Linux/Прочее/theme gnome.md",
+    "Frontend/JavaScript/Прочее/Управление памятью, утечека памяти и борьба с ней.md",
+    "Frontend/JavaScript/Прочее/Регулярные выражения.md",
+    "Frontend/JavaScript/Хранение данных в браузере/Web Storage.md",
+    "Frontend/JavaScript/Хранение данных в браузере/Indexed DB.md",
+    "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
+    "Frontend/JavaScript/Прочее/Поверхностное и глубокое копирование.md",
+    "Frontend/JavaScript/JavaScript.md",
+    "Frontend/JavaScript/Прочее/Cтек вызовов.md",
+    "Frontend/JavaScript/Прочее/Web Assembly.md",
+    "Chinese/Практика",
+    "Frontend/Прочее/git-hooks",
+    "Frontend/TypeScript/Utility Types",
+    "Frontend/TypeScript/Операторы",
+    "Frontend/Web/Рендеринг/assets/docker-ssr-ssg-ssr.png",
+    "Frontend/Web/Рендеринг/assets/ssr.png",
+    "Frontend/Web/Рендеринг/assets/ssg.png",
+    "Frontend/Web/Рендеринг/assets/csr.png",
+    "Frontend/Web/Рендеринг/Виды рендеринга/Untitled",
+    "Frontend/Web/Рендеринг/Виды рендеринга",
+    "Linux/Tor",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Frontend/JavaScript/Структура данных/Бинарные данные",
+    "Frontend/Web/Сетевые запросы/assets/longpolling.png",
+    "Frontend/Web/Сетевые запросы/assets",
     "Frontend/Web/Сетевые запросы",
-    "Computer Science/Algorithm/Search/Linear.md",
-    "Computer Science/Algorithm/Search/Search.md",
-    "Computer Science/Algorithm/Search/Binary.md",
-    "Computer Science/Algorithm/Theory.md",
-    "Computer Science/Algorithm/Sort/Sort.md",
-    "Computer Science/Algorithm/Sort/Shell.md",
-    "Computer Science/Algorithm/Sort/Selection.md",
-    "Computer Science/Algorithm/Sort/Radix.md",
-    "Computer Science/Algorithm/Sort/Quick.md",
-    "Computer Science/Algorithm/Sort/Heap.md",
-    "Computer Science/Algorithm/Sort/Insertion.md",
-    "Computer Science/Algorithm/Sort/Counting.md",
-    "Computer Science/Algorithm/Sort/Bucket.md",
-    "Computer Science/Algorithm/Sort/Bubble.md",
-    "Excalidraw/Drawing 2024-02-15 16.19.59.excalidraw.md",
-    "Excalidraw/Drawing 2024-02-15 16.20.18.excalidraw.md",
-    "DevOps/Load Balancing.md",
-    "DevOps/DevOps.md",
     "Pasted Image 20240215162133_161.png",
     "Pasted Image 20240215162118_147.png",
-    "Untitled.canvas",
-    "Excalidraw",
-    "_Other_/TODO",
-    "_Other_",
-    "TODO",
-    "Frontend/Web/Авторизация/assets/oauth_4.png",
-    "Frontend/Web/Авторизация/assets/oauth_3.png",
-    "Frontend/Web/Авторизация/assets/oauth_2.png",
-    "Frontend/Web/Авторизация/assets/oauth_1.png",
-    "Frontend/Web/Авторизация/assets/oauth.png",
-    "Frontend/Web/Авторизация/assets/jwt-structure.png",
-    "Frontend/Web/Авторизация/assets/jwt.png",
-    "Frontend/Web/Авторизация/assets",
-    "Frontend/Web/Авторизация",
-    "Frontend/Vue/SFC",
-    "Computer Science/Cryptography/Encryption/assets/symmetric.png",
-    "Frontend/Прочее/~syncthing~Прочее.md.tmp",
-    "Computer Science/Cryptography/~syncthing~Terms.md.tmp"
+    "Frontend/Web/Авторизация/assets/oauth_4.png"
   ]
 }

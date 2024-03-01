@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
+                "file": "Chinese/Глоссарий/Телефон/Настройки.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "a59dc594874d83f4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +120,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Frontend/JavaScript/Хранение данных в браузере/Сookie.md"
-          }
+          "state": {}
         }
       },
       {
@@ -131,6 +136,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
@@ -142,36 +148,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3000b09f8711958",
+  "active": "a59dc594874d83f4",
   "lastOpenFiles": [
-    "Frontend/Web/Web.sync-conflict-20240215-184544-RLJVY3B.md",
-    "Backend/Bun/native-web-server.md",
-    "Frontend/Vue/SFC/script setup.md",
-    "Frontend/CSS/Base ~ Основы/will-change.md",
-    "Frontend/Web/Сетевые запросы/Server Sent Events.md",
-    "Frontend/Web/Сетевые запросы/Untitled.md",
-    "Frontend/Web/Сетевые запросы/WebSocket.md",
+    "Excalidraw/Drawing 2024-02-20 19.36.04.excalidraw.md",
+    "Frontend/Vue/SFC/Top-level await.md",
+    "Frontend/TypeScript/Задачи/Квизы ~ Quiz.md",
+    "Frontend/TypeScript/Система типов/Иерархия типов.md",
+    "Frontend/TypeScript/Задачи/Испытания ~ Challenge.md",
+    "Frontend/Web/Общее/Reflow Repaint.md",
+    "Frontend/Web/Рендеринг/CRP ~ Критический путь рендеринга.md",
+    "Frontend/Vue/SFC/defineModel.md",
+    "Frontend/Vue/SFC/defineOptions.md",
+    "Frontend/Прочее/git-hooks/simple-git-hooks.md",
+    "Frontend/Vue/Extra/CSS Features.md",
+    "Frontend/Vue/Essentials/Lifecycle Hooks ~ Хуки жизненного цикла.md",
+    "Frontend/Vue/Essentials/Directives ~ Директивы.md",
+    "Chinese/Глоссарий/Телефон/Настройки.md",
+    "Linux/bash alias.md",
+    "Linux/Arch/Очистка системы.md",
+    "Linux/Arch/Arch.md",
+    "Linux/Arch/Hyprland.md",
+    "Linux/Прочее/Прочее.md",
+    "Linux/Прочее/theme gnome.md",
+    "Linux/Прочее/systemd.md",
+    "Linux/Linux.md",
+    "Linux/Tor/Tor.md",
+    "Backend/NodeJs/Руководство.md",
+    "Chinese/Chinese.md",
+    "Frontend/Code handbook/Regex.md",
+    "Chinese/Глоссарий/Телефон",
+    "Chinese/Глоссарий",
     "Frontend/Web/Сетевые запросы",
     "Excalidraw",
-    "Frontend/JavaScript/Структура данных/Type coercion ~ Преобразование типа.md",
-    "Architectural/Architectural Patterns/CQRS.md",
-    "Architectural/Architectural Patterns/DDD.md",
-    "Architectural/Architectural Patterns/Event sourcing.md",
-    "Architectural/Architectural Patterns/Saga.md",
-    "Architectural/Architectural Patterns/Strangler Fig.md",
-    "Untitled.md",
-    "Frontend/Web/Общее/What happens when....md",
-    "Frontend/Web/Общее/Reflow Repaint.md",
-    "Untitled.sync-conflict-20240214-195738-RLJVY3B.md",
-    "Frontend/Web/Общее/How work browser ~ Как работает браузер.md",
-    "Frontend/TypeScript/TypeScript.md",
-    "Frontend/TypeScript/Система типов ~ Type system/Шаблонные литеральные типы ~ Template Literal Type.md",
-    "Frontend/TypeScript/Система типов ~ Type system/Условные типы ~ Conditional Types.md",
-    "Frontend/TypeScript/Система типов ~ Type system/Специальные типы ~ Special Types.md",
-    "Frontend/TypeScript/Система типов ~ Type system/Примитивные типы ~ Primitive Types.md",
-    "Frontend/TypeScript/Система типов ~ Type system/Литеральные типы ~ Literals Types.md",
-    "Frontend/TypeScript/Система типов ~ Type system/Индексные типы ~ Index Types.md",
-    "Frontend/TypeScript/Система типов ~ Type system/Составляемые типы ~ Mapped Types.md",
     "Frontend/Web/Авторизация/assets/oauth_4.png",
     "Frontend/Web/Авторизация/assets/oauth_3.png",
     "Frontend/Web/Авторизация/assets/oauth_2.png",
@@ -188,8 +196,6 @@
     "Computer Science/Networks/assets",
     "Computer Science/Networks",
     "Computer Science/Other/assets",
-    "Computer Science/Other",
-    "Computer Science/Architectural/assets",
     "Untitled.canvas"
   ]
 }

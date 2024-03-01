@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "TiHexagon",
-      "TiCommand",
-      "TiComet",
-      "TiDatabase",
-      "TiGridPattern"
+      "SiPostgresql",
+      "SiMysql",
+      "SiVirtualbox",
+      "TiLoadBalancer",
+      "SiKubernetes"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -55,17 +55,50 @@
   "DevOps": "TiSettings",
   "DevOps/DevOps.md": "TiCommand",
   "DevOps/Docker/Docker.md": "TiCommand",
-  "Linux/bash alias.md": "SiGnubash",
   "Architectural": "TiGridPattern",
   "Database": "TiDatabase",
   "Architectural/Principles Programming/Principles Programming.md": "TiCommand",
   "Architectural/Architectural Patterns/Architectural Patterns.md": "TiCommand",
-  "Frontend/JavaScript/JavaScript.md": "TiCommand",
   "Frontend/Code handbook/Code handbook.md": "TiCommand",
   "Frontend/Прочее/Прочее.md": "TiCommand",
   "Architectural/Pattern.md": "TiCommand",
   "Database/Database.md": "TiCommand",
   "Computer Science/Computer Science.md": "TiCommand",
   "Computer Science/Cryptography/Encryption/Encryption.md": "TiCommand",
-  "Excalidraw": "TiHexagon"
+  "Frontend/Vue": {
+    "iconName": "SiVuedotjs",
+    "iconColor": "#24b241"
+  },
+  "Frontend/TypeScript": {
+    "iconName": "SiTypescript",
+    "iconColor": "#29bdd1"
+  },
+  "Frontend/React": {
+    "iconName": "SiReact",
+    "iconColor": "#3098d9"
+  },
+  "Frontend/JavaScript": {
+    "iconName": "SiJavascript",
+    "iconColor": "#babc24"
+  },
+  "Frontend/JavaScript/JavaScript.md": "TiCommand",
+  "Frontend/HTML": {
+    "iconName": "SiHtml5",
+    "iconColor": "#cb7525"
+  },
+  "Frontend/CSS": {
+    "iconName": "SiCss3",
+    "iconColor": "#26515a"
+  },
+  "Frontend/Code handbook": "TiNote",
+  "Frontend/Web": "TiBrowser",
+  "Linux/Arch": "SiArchlinux",
+  "Linux/Tor": "SiTorbrowser",
+  "Linux/Прочее/Прочее.md": "TiCommand",
+  "Linux/Tor/Tor.md": "TiCommand",
+  "Linux/Arch/Arch.md": "TiCommand",
+  "DevOps/Docker": "SiDocker",
+  "DevOps/Kubernetes.md": "SiKubernetes",
+  "DevOps/Load Balancing.md": "TiLoadBalancer",
+  "DevOps/Виртуализация.md": "SiVirtualbox"
 }

@@ -1,4 +1,4 @@
-## Система типов ~ Type system
+## Система типов
 - #### [[Иерархия типов]]
 - #### [[Индексные типы ~ Index Types]]
 - #### [[Литеральные типы ~ Literals Types]]
@@ -8,8 +8,27 @@
 - #### [[Условные типы ~ Conditional Types]]
 - #### [[Шаблонные литеральные типы ~ Template Literal Type]]
 - #### [[Защитники типа ~ Type Guard]]
+- #### [[Утверждение типов ~ Type Assertion]]
 
-## Общее ~ Common
+## Операторы
+- #### [[keyof]]
+- #### [[typeof]]
+- #### [[instanceof]]
+
+## Utility Types
+- #### [[Exclude]]
+- #### [[Extract]]
+- #### [[NonNullable]]
+- #### [[ReturnType]]
+- #### [[Omit]]
+- #### [[InstanceType]]
+- #### [[Readonly]]
+- #### [[Partial]]
+- #### [[Required]]
+- #### [[Pick]]
+- #### [[Record]]
+
+## Общее
 - #### [[base]]
 - #### [[tsconfig.json]]
 - #### [[lib.d.ts]]

@@ -1,3 +1,7 @@
 .stfolder
 .stfolder*
+.trash
+*-conflict-*
+
 _Other_
+<
