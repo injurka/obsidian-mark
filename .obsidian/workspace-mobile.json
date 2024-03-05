@@ -23,8 +23,12 @@
             "id": "a59dc594874d83f4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/License/BSD.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Chinese/Глоссарий/Телефон/Настройки.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Chinese/Глоссарий/Телефон/Настройки.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -120,7 +126,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Chinese/Глоссарий/Телефон/Настройки.md"
+          }
         }
       },
       {
@@ -148,8 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a59dc594874d83f4",
+  "active": "e3000b09f8711958",
   "lastOpenFiles": [
+    "Computer Science/License/Eclipse Public License 2.0.md",
+    "Computer Science/License/GNU General Public License.md",
+    "Computer Science/License/Mozilla Public License 2.0.md",
+    "Computer Science/License/Общий вид лицензий.md",
+    "Computer Science/License/MIT.md",
+    "Linux/Прочее/nvm.md",
+    "_Other_/TODO.md",
     "Excalidraw/Drawing 2024-02-20 19.36.04.excalidraw.md",
     "Frontend/Vue/SFC/Top-level await.md",
     "Frontend/TypeScript/Задачи/Квизы ~ Quiz.md",
@@ -169,13 +184,6 @@
     "Linux/Arch/Arch.md",
     "Linux/Arch/Hyprland.md",
     "Linux/Прочее/Прочее.md",
-    "Linux/Прочее/theme gnome.md",
-    "Linux/Прочее/systemd.md",
-    "Linux/Linux.md",
-    "Linux/Tor/Tor.md",
-    "Backend/NodeJs/Руководство.md",
-    "Chinese/Chinese.md",
-    "Frontend/Code handbook/Regex.md",
     "Chinese/Глоссарий/Телефон",
     "Chinese/Глоссарий",
     "Frontend/Web/Сетевые запросы",

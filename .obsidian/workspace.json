@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Прочее/nvm.md",
+                "file": "Frontend/JavaScript/API браузера/Broadcast Channel API.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iframe",
-                "matchingCase": true,
+                "query": "defineEmits",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 311.5
   },
   "right": {
     "id": "15b898fb046d868c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Прочее/nvm.md",
+                "file": "Frontend/JavaScript/API браузера/Broadcast Channel API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Прочее/nvm.md",
+                "file": "Frontend/JavaScript/API браузера/Broadcast Channel API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Прочее/nvm.md"
+                "file": "Frontend/JavaScript/API браузера/Broadcast Channel API.md"
               }
             }
           },
@@ -160,53 +160,52 @@
   },
   "active": "635552dcec2990ff",
   "lastOpenFiles": [
-    "Linux/Прочее/zsh.md",
-    "Linux/Linux.md",
-    "Linux/Прочее/Прочее.md",
-    "Linux/Прочее/bash alias.md",
-    "Linux/Прочее/nvm.md",
-    "Linux/Arch/Оптимизация.md",
-    "Linux/Arch/Очистка системы.md",
-    "Linux/Arch/Hyprland.md",
-    "Git/Git.md",
-    "Frontend/Прочее/web frameworks benchmark.md",
-    "Pasted image 20240301124740.png",
-    "Pasted image 20240301124738.png",
-    "Linux/Arch/Arch.md",
-    "Linux/Полезное.md",
-    "Linux/Прочее/openvpn.md",
-    "Linux/Прочее/flameshot fix.md",
-    "Linux/Прочее/restore grub.md",
-    "Linux/Прочее/systemd.md",
-    "Linux/Прочее/theme gnome.md",
-    "Frontend/JavaScript/Прочее/Управление памятью, утечека памяти и борьба с ней.md",
-    "Frontend/JavaScript/Прочее/Регулярные выражения.md",
-    "Frontend/JavaScript/Хранение данных в браузере/Web Storage.md",
-    "Frontend/JavaScript/Хранение данных в браузере/Indexed DB.md",
-    "Frontend/JavaScript/Хранение данных в браузере/Сookie.md",
-    "Frontend/JavaScript/Прочее/Поверхностное и глубокое копирование.md",
+    "Frontend/JavaScript/API браузера/assets/Broadcast-Channel-API.png",
+    "Frontend/JavaScript/API браузера/Broadcast Channel API.md",
+    "Frontend/JavaScript/API браузера/assets",
+    "Frontend/Vue/SFC/defineEmits.md",
+    "Frontend/Code handbook/Code handbook.md",
+    "Frontend/Web/Web.sync-conflict-20240305-102810-RLJVY3B.md",
+    "Frontend/Code handbook/Architectural/on-emit(mitt).md",
+    "Frontend/Code handbook/Regex/base.md",
+    "Frontend/Code handbook/Regex",
+    "Frontend/Code handbook/Utils/Utils.md",
+    "Frontend/Code handbook/Architectural/on-emit.md",
+    "Frontend/JavaScript/API браузера/WebTransport.md",
+    "Frontend/Code handbook/Architectural",
     "Frontend/JavaScript/JavaScript.md",
-    "Frontend/JavaScript/Прочее/Cтек вызовов.md",
-    "Frontend/JavaScript/Прочее/Web Assembly.md",
-    "Chinese/Практика",
-    "Frontend/Прочее/git-hooks",
-    "Frontend/TypeScript/Utility Types",
-    "Frontend/TypeScript/Операторы",
-    "Frontend/Web/Рендеринг/assets/docker-ssr-ssg-ssr.png",
-    "Frontend/Web/Рендеринг/assets/ssr.png",
-    "Frontend/Web/Рендеринг/assets/ssg.png",
-    "Frontend/Web/Рендеринг/assets/csr.png",
-    "Frontend/Web/Рендеринг/Виды рендеринга/Untitled",
-    "Frontend/Web/Рендеринг/Виды рендеринга",
-    "Linux/Tor",
+    "Frontend/JavaScript/Структура данных/Преобразование типов.md",
+    "Frontend/JavaScript/API браузера/Service worker.md",
+    "Type coercion ~ Приведение типов.md",
+    "Frontend/JavaScript/Прототипы/Прототипы и примиты.md",
+    "Frontend/JavaScript/Прототипы/Прототипное наследование.md",
+    "Frontend/Web/Сетевые запросы/Server Sent Events.md",
+    "Frontend/Web/Сетевые запросы/Long Polling.md",
+    "Computer Science/Information Security/CSWSH.md",
+    "Computer Science/Information Security/CSRF.md",
+    "Computer Science/Information Security/CORS.md",
+    "Computer Science/Computer Science.md",
+    "Frontend/Web/Web.md",
+    "Computer Science/Information Security/assets/origin-scheme.png",
+    "Computer Science/Information Security/assets",
+    "Computer Science/Information Security/XSS.md",
+    "Computer Science/Information Security/SQL-injection.md",
+    "Computer Science/Information Security/OWSAP.md",
+    "Frontend/Web/Сетевые запросы/assets/websocket.png",
+    "Frontend/Прочее/Без категории",
+    "Frontend/JavaScript/Сборщики",
+    "Frontend/JavaScript/API браузера",
+    "Frontend/JavaScript/Другие возможности",
+    "Frontend/JavaScript/Прототипы/assets/prototype-chain-1200w.webp",
+    "Frontend/JavaScript/Прототипы/assets/proto-1200w.webp",
+    "Frontend/JavaScript/Прототипы/assets/console-func2-1200w.webp",
+    "Frontend/JavaScript/Прототипы/assets/console-func-1200w.webp",
+    "Frontend/JavaScript/Прототипы/assets",
+    "Frontend/JavaScript/Прототипы/assets/console-object-1200w.webp",
+    "Frontend/JavaScript/Прототипы",
+    "Computer Science/License/assets/open-license-choice-1200w.webp",
+    "Computer Science/License/assets/license-types-1200w.webp",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "Frontend/JavaScript/Структура данных/Бинарные данные",
-    "Frontend/Web/Сетевые запросы/assets/longpolling.png",
-    "Frontend/Web/Сетевые запросы/assets",
-    "Frontend/Web/Сетевые запросы",
-    "Pasted Image 20240215162133_161.png",
-    "Pasted Image 20240215162118_147.png",
-    "Frontend/Web/Авторизация/assets/oauth_4.png"
+    "Untitled 1.canvas"
   ]
 }

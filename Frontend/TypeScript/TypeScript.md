@@ -29,9 +29,10 @@
 - #### [[Record]]
 
 ## Общее
-- #### [[base]]
+- #### [[Frontend/TypeScript/Общее/base]]
 - #### [[tsconfig.json]]
 - #### [[lib.d.ts]]
+- #### [[any и unknown]]
 - #### [[Декларация окружения ~ Declaration of environment]]
 
 ## Задачи

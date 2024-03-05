@@ -15,3 +15,9 @@ export default defineConfig([
   },
 ])
 ```
+
+
+---
+## Источник
+- #### [github](https://github.com/egoist/tsup)
+- #### [tsup.egoist.dev](https://tsup.egoist.dev/#typescript--javascript)

@@ -62,6 +62,7 @@ process.exitWithLogging = function() {
 };
 ```
 
-## Связанное
 
+---
+## Связанное
 - ## [[lib.d.ts]]

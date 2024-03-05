@@ -15,3 +15,4 @@
 - #### [learn-js](https://learn.javascript.ru)
 - #### [my-js](https://my-js.org/)
 - #### [doka](https://doka.guide/js/)
+- #### [stateofjs](https://2022.stateofjs.com/ru-RU/)

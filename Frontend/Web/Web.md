@@ -13,8 +13,6 @@
 	- ### [[CSR ~ Client Side Rendering]]
 	- ### [[SSG ~ Static Site Generation]]
 	- ### [[SSR ~ Server Side Rendering]]
-## Безопасность
-- ### [[CORS]]
 ## Сетевые запросы
 - ### [[WebSocket]]
 - ### [[Server Sent Events]]

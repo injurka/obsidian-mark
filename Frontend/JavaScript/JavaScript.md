@@ -1,7 +1,7 @@
 ## Структура данных
 - ### [[Типы данных]]
-- ### [[Бинарные данные]]
-- ### [[Type coercion ~ Преобразование типа]]
+- ### [[Типы данных]]
+- ### [[Преобразование типов]]
 ## DOM
 - ### [[HTMLCollection ~ NodeList]]
 - ### [[Shadow DOM ~ Теневое DOM]]
@@ -10,18 +10,41 @@
 - ### [[Web Storage]]
 - ### [[Indexed DB]]
 ## Разнообразный синтаксис
+- ### [[Прототипы и примиты]]
+- ### [[Прототипное наследование]]
+## Разнообразный синтаксис
 - ### [[for...in]]
 - ### [[for...of]]
 - ### [[generator]]
 - ### [[spread]]
 - ### [[rest]]
+## API браузера
+- ### [[Broadcast Channel API]]
+- ### [[Custom elements]]
+- ### [[File system Access API]]
+- ### [[Geolocation API]]
+- ### [[Intl]]
+- ### [[Web Workers]]
+- ### [[Web Assembly]]
+- ### [[Web Animation]]
+- ### [[Web share API]]
+- ### [[Web speech API]]
+- ### [[WebGL]]
+- ### [[WebRTC]]
+- ### [[WebXR Device API]]
 ## Прочее
 - ### [[Поверхностное и глубокое копирование]]
 - ### [[The Iterator protocol ~ Протокол Итератора]]
-- ### [[Web Workers]]
-- ### [[Web Assembly]]
 - ### [[Well-known Symbols]]
 - ### [[AST]]
 - ### [[Управление памятью, утечека памяти и борьба с ней]]
 - ### [[Cтек вызовов]]
 - ### [[Регулярные выражения]]
+
+## Сборщики
+- ### [[tsup]]
+- ### [[vite]]
+- ### [[unbuild]]
+- ### [[parcel]]
+- ### [[rollup]]
+- ### [[esbuild]]

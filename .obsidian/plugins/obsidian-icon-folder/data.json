@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiPostgresql",
-      "SiMysql",
-      "SiVirtualbox",
-      "TiLoadBalancer",
-      "SiKubernetes"
+      "TiSettings",
+      "TiEngine",
+      "RiChromeFill",
+      "RiChromeLine",
+      "SiPostgresql"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -91,7 +91,10 @@
     "iconColor": "#26515a"
   },
   "Frontend/Code handbook": "TiNote",
-  "Frontend/Web": "TiBrowser",
+  "Frontend/Web": {
+    "iconName": "TiSettings",
+    "iconColor": "#c5a9e5"
+  },
   "Linux/Arch": "SiArchlinux",
   "Linux/Tor": "SiTorbrowser",
   "Linux/Прочее/Прочее.md": "TiCommand",

@@ -19,7 +19,9 @@
 - ### [[TCP~IP]]
 - ### [[TLS]]
 ## Information Security
+- ### [[CORS]]
 - ### [[CSRF]]
+- ### [[CSWSH]]
 - ### [[OWSAP]]
 - ### [[SQL-injection]]
 - ### [[XSS]]
@@ -35,3 +37,13 @@
 - #### [[Mutable vs Immutable Data Types]]
 - #### [[UUID ~ Universally Unique Identifier]]
 - #### [[O - нотация, сложность алгоритма]]
+## License
+- ### [[Общий вид лицензий]]
+- ### [[BSD]]
+- ### [[MIT]]
+- ### [[GNU General Public License]]
+- ### [[Boost Software License]]
+- ### [[Eclipse Public License 2.0]]
+- ### [[Apache 2.0]]
+- ### [[Mozilla Public License 2.0]]
+- ### [[The Unlicense]]

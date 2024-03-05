@@ -5,14 +5,18 @@
 ## Пример
 
 ```ts
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
 // Создаем ссылку на состояние
-const count = ref(0)
+const count = ref<number>(0)
 
 // Определяем события, которые компонент может вызывать
-const emits = defineEmits(['increment', 'decrement', 'reset'])
+const emit = defineEmits<{
+  (e: 'increment'): void;
+  (e: 'decrement'): void;
+  (e: 'reset'): void;
+}>();
 
 // Функции для изменения состояния
 function increment() {
@@ -42,12 +46,12 @@ function reset() {
 Мы определяем события `increment`, `decrement` и `reset`, которые компонент может вызывать. Затем мы создаем функции для изменения состояния и вызываем соответствующие события при изменении состояния. Вызов `emits('decrement')` в функции `decrement` служит для того, чтобы сообщить родительскому компоненту о том, что событие `decrement` было вызвано внутри этого компонента.
 
 ```ts
-<script setup>
+<script setup lang="ts">
 import ChildComponent from './ChildComponent.vue'
 
 import { ref } from 'vue'
 
-const count = ref(0)
+const count = ref<number>(0)
 
 function increment() {
   count.value++
