@@ -15,7 +15,8 @@
 - ### [[Comparison with Other Frameworks]]
 - ### [[Server-Side Rendering (SSR)]]
 - ### [[CSS Features]]
-
+## Handbook
+- ### [[use-sync-props]]
 ## Полезные ссылки
 - #### [vuejs org](https://vuejs.org/)
 - #### [ru vuejs org](https://v3.ru.vuejs.org/)

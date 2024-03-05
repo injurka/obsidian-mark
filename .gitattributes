@@ -1,4 +1,4 @@
-* text=auto
+* eol=lf text=auto
 
 * vue eol=lf encoding=UTF-8
 *.css eol=lf encoding=UTF-8
