@@ -343,6 +343,8 @@ div (block root)
     
 - Во время гидратации нужно обходить только блочные узлы и их динамические потомки, что позволяет добиться частичной гидратации на уровне шаблона.
 
+---
+
 ## Источники
 - #### [vuejs](https://vuejs.org/guide/extras/rendering-mechanism)
 - #### [habr](https://habr.com/ru/companies/nordclan/articles/699356/)

@@ -9,12 +9,10 @@
 - #### [[Шаблонные литеральные типы ~ Template Literal Type]]
 - #### [[Защитники типа ~ Type Guard]]
 - #### [[Утверждение типов ~ Type Assertion]]
-
 ## Операторы
 - #### [[keyof]]
 - #### [[typeof]]
 - #### [[instanceof]]
-
 ## Utility Types
 - #### [[Exclude]]
 - #### [[Extract]]
@@ -27,18 +25,16 @@
 - #### [[Required]]
 - #### [[Pick]]
 - #### [[Record]]
-
 ## Общее
-- #### [[Frontend/TypeScript/Общее/base]]
+- #### [[Краткий обзор]]
 - #### [[tsconfig.json]]
 - #### [[lib.d.ts]]
 - #### [[any и unknown]]
-- #### [[Декларация окружения ~ Declaration of environment]]
-
+- #### [[tsc]]
+- #### [[Декларация окружения]]
 ## Задачи
 - ### [[Квизы ~ Quiz]]
 - ### [[Испытания ~ Challenge]]
-
 ## Полезные ссылки
 - ### [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - ### [TypeScript  глубокое погружение](https://igorfonin.gitbook.io/typescript-book-ru/typescript-type-system/callable#newable)

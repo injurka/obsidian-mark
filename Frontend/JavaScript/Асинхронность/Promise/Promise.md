@@ -1,0 +1,5 @@
+- ### [[Promise.all]]
+- ### [[Promise.allSettled]]
+- ### [[Promise.race]]
+- ### [[Promise.any]]
+- ### [[Promise.resolve ~ reject]]

@@ -115,3 +115,4 @@ document.getElementById('box6').style.height = box6Height + 10 + 'px';
 
 ## Источник
 - #### [youtube](https://www.youtube.com/watch?v=QDQSj4__v_8&t=287s)
+- #### [forced-reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)

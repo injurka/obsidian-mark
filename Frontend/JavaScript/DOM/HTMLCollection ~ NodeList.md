@@ -1,4 +1,5 @@
 ## Описание
+
 `HTMLCollection` и `NodeList` — это очень похожие на массив коллекции. Они хранят элементы веб-страницы (узлы [DOM](https://doka.guide/js/dom/)). `NodeList` может хранить любые типы узлов, а `HTMLCollection` — только узлы HTML элементов. К элементам коллекций можно обращаться по индексу, но у них нет привычных [методов массива](https://doka.guide/js/arrays/).
 
 `HTMLCollection` возвращают методы [`getElementsByTagName()`](https://doka.guide/js/getelementsbytagname/) и [`getElementsByClassName()`](https://doka.guide/js/getelementsbyclassname/).
@@ -7,11 +8,12 @@
 
 Полный список всех методов, возвращающих типы `NodeList` или `HTMLCollection` можно узнать в [стандарте DOM](https://dom.spec.whatwg.org/#document).
 
+---
 ## Как работает
+
 `HTMLCollection` возвращают методы, которые работают с DOM — представлением HTML-кода страницы в JavaScript.
 
 Полученная один раз коллекция всегда остаётся актуальной — JavaScript будет обновлять её в случае, если на странице появляется подходящий элемент. Поэтому `HTMLCollection` называют «живой» коллекцией.
-
 
 `NodeList` работает почти так же, как и `HTMLCollection`.
 

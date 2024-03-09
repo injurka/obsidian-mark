@@ -1,5 +1,3 @@
-![[./assets/Broadcast-Channel-API.png]]
-
 Интерфейс **`BroadcastChannel`** представляет собой именованный канал, на который может подписаться любой [browser context](https://developer.mozilla.org/en-US/docs/Glossary/Browsing_context) данного [origin.](https://developer.mozilla.org/en-US/docs/Glossary/Origin) Он позволяет осуществлять связь между разными документами (в разных окнах, вкладках, фреймах или iframe) одного и того же происхождения. Сообщения передаются через [`message`](https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/message_event "сообщение")событие, запускаемое для всех `BroadcastChannel`объектов, прослушивающих канал, кроме объекта, отправившего сообщение. По причинам безопасности контексты, обменивающиеся данными, должны принадлежать одному источнику (same origin). Один источник означает одинаковый протокол, домен и порт.
 
 > [!INFO] **Note:** Эта функция доступна в [[Web Workers]]

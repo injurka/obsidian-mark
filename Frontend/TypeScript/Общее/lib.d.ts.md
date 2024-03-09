@@ -24,6 +24,8 @@ const foo = 123;
 const bar = foo.toString(); // ERROR: Property 'toString' does not exist on type 'number'
 ```
 
+---
+
 ## Как работает внутри
 
 Содержимое `lib.d.ts` это в основном объявления переменных (такие как: `window`, `document`, `math`) и некоторые аналогичные объявления интерфейса (такие как: `Window`, `Document`, `Math`).
@@ -61,6 +63,8 @@ interface Window
 
 Выгодно использовать эти глобальные переменные. Позволяет добавлять дополнительные свойства без изменения `lib.d.ts`. Далее мы покажем эти понятия.
 
+---
+
 ## Изменение исходных типов
 
 В TypeScript интерфейсы открыты, что означает, что когда вы хотите использовать несуществующие члены, вам просто нужно добавить их в объявление интерфейса в `lib.d.ts`, и TypeScript автоматически получит его. Обратите внимание, что вам нужно внести эти изменения в глобальный модуль, чтобы связать эти интерфейсы с `lib.d.ts`. Мы рекомендуем вам создать специальный файл с именем `global.d.ts`.
@@ -93,7 +97,6 @@ window.helloWorld('gracius'); // Error: Supplied parameters do not match the sig
 ### Math
 
 Глобальная переменная `Math` определена в `lib.d.ts` как:
-
 
 ```ts
 /** An intrinsic object that provides basic mathematics functionality and constants. */
@@ -172,7 +175,6 @@ const today = Date.today();
 const todayAfter1second = today.addMilliseconds(1000);
 ```
 
-
 ### string
 
 Если вы ищете `string` в `lib.d.ts`, вы найдете что-то похожее на `Date` (глобальные переменные `String`, интерфейс `StringConstructor`, интерфейс `String`). Но стоит отметить, что интерфейс `String` также влияет на строковые литералы, как показано ниже:
@@ -241,7 +243,6 @@ console.log('foo bas'.endsWith('bas')); // true
 
 Вы можете предоставить эту опцию компилятору из командной строки или в `tsconfig.json` (рекомендуется):
 
-
 #### Командная строка
 
 ```bash
@@ -272,7 +273,7 @@ tsc --target es5 --lib dom,es6
 	- dom.iterable
 	- webworker
 	- scripthost 
-- ESNext Варианты функц
+- ESNext Варианты функционала
 	- es2015.core
 	- es2015.collection
 	- es2015.generator

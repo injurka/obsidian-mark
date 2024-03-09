@@ -14,6 +14,7 @@ type PersonNameAndAge = MyPick<ExampleObject, 'name' | 'age'>; // Берет п�
 ```
 
 #### Реализация
+
 ```ts
 type Pick<T, K extends keyof T> = {
   [Key in K]: T[Key];

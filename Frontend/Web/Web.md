@@ -3,20 +3,17 @@
 - ### [[Reflow Repaint]]
 - ### [[How work browser ~ Как работает браузер]]
 - ### [[What happens when...]]
+- ### [[ECMAScript version]]
 - ### [[Event reference ~ Ссылка на событие]]
+- ### [[SemVer]]
 ## Рендеринг
 - ### [[Render ~ Движки рендеринга]]
 - ### [[V8 ~ Оптимизация кода]]
 - ### [[CRP ~ Критический путь рендеринга]]
-  
 - ### Виды рендеринга
 	- ### [[CSR ~ Client Side Rendering]]
 	- ### [[SSG ~ Static Site Generation]]
 	- ### [[SSR ~ Server Side Rendering]]
-## Сетевые запросы
-- ### [[WebSocket]]
-- ### [[Server Sent Events]]
-- ### [[Long Polling]]
 ## Авторизация
 - ### [[Frontend/Web/Авторизация/Terms|Terms]]
 - ### [[Basic]]

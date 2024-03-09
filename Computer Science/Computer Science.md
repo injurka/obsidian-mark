@@ -25,6 +25,14 @@
 - ### [[OWSAP]]
 - ### [[SQL-injection]]
 - ### [[XSS]]
+## Methodology
+- ### [[Agile Model]]
+- ### [[Spiral Model]]
+- ### [[Iterative Model]]
+- ### [[RAD Model]]
+- ### [[V-Model]]
+- ### [[Incremental Model]]
+- ### [[Waterfall Model]]
 ## Cryptography
 - ### [[Computer Science/Cryptography/Terms]]
 - ### [[Encryption]]

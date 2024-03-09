@@ -1,6 +1,6 @@
 ## Структура данных
 - ### [[Типы данных]]
-- ### [[Типы данных]]
+- ### [[Бинарные данные]]
 - ### [[Преобразование типов]]
 ## DOM
 - ### [[HTMLCollection ~ NodeList]]
@@ -12,6 +12,12 @@
 ## Разнообразный синтаксис
 - ### [[Прототипы и примиты]]
 - ### [[Прототипное наследование]]
+## Сетевые запросы
+- ### [[WebSocket]]
+- ### [[Server Sent Events]]
+- ### [[Long Polling]]
+- ### [[Fetch]]
+- ### [[XMLHttpRequest]]
 ## Разнообразный синтаксис
 - ### [[for...in]]
 - ### [[for...of]]
@@ -20,17 +26,20 @@
 - ### [[rest]]
 ## API браузера
 - ### [[Broadcast Channel API]]
-- ### [[Custom elements]]
+- ### [[Page Visibility API]]
 - ### [[File system Access API]]
 - ### [[Geolocation API]]
+- ### [[Media Session API]]
+- ### [[Custom elements]]
 - ### [[Intl]]
 - ### [[Web Workers]]
 - ### [[Web Assembly]]
 - ### [[Web Animation]]
 - ### [[Web share API]]
 - ### [[Web speech API]]
+- ### [[WebTransport]]
 - ### [[WebGL]]
-- ### [[WebRTC]]
+- ### [[Frontend/JavaScript/API браузера/WebRTC|WebRTC]]
 - ### [[WebXR Device API]]
 ## Прочее
 - ### [[Поверхностное и глубокое копирование]]
@@ -40,7 +49,6 @@
 - ### [[Управление памятью, утечека памяти и борьба с ней]]
 - ### [[Cтек вызовов]]
 - ### [[Регулярные выражения]]
-
 ## Сборщики
 - ### [[tsup]]
 - ### [[vite]]

@@ -1,6 +1,8 @@
 Одно из нововведений стандарта ECMAScript 2015 - протоколы перебора, которые могут реализованы любым объектом, соблюдая при этом определённые правила.
 
-## [Протоколы перебора](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Iteration_protocols#протоколы_перебора)
+---
+
+## Протоколы перебора
 
 Протоколы перебора включают [the "iterable" protocol](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Iteration_protocols#the_.22iterable.22_protocol) и [the "iterator" protocol](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Iteration_protocols#the_.22iterator.22_protocol).
 

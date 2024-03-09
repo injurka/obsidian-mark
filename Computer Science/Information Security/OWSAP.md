@@ -1,4 +1,4 @@
-> Open Web Application Security Project)
+> Open Web Application Security Project
  
 Это сообщество, занимающееся повышением безопасности веб-приложений. Они выделяют следующие основные угрозы безопасности веб-приложений:
 

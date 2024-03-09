@@ -96,9 +96,7 @@
     "iconColor": "#c5a9e5"
   },
   "Linux/Arch": "SiArchlinux",
-  "Linux/Tor": "SiTorbrowser",
   "Linux/Прочее/Прочее.md": "TiCommand",
-  "Linux/Tor/Tor.md": "TiCommand",
   "Linux/Arch/Arch.md": "TiCommand",
   "DevOps/Docker": "SiDocker",
   "DevOps/Kubernetes.md": "SiKubernetes",
