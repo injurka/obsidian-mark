@@ -12,8 +12,57 @@ let promise = Promise.any(iterable);
 
 ```javascript
 Promise.any([
-  new Promise((resolve, reject) => setTimeout(() => reject(new Error("Ошибка!")), 1000)),
-  new Promise((resolve, reject) => setTimeout(() => resolve(1), 2000)),
-  new Promise((resolve, reject) => setTimeout(() => resolve(3), 3000))
+  new Promise((res, rej) => setTimeout(() => rej(new Error("Ошибка!")), 1000)),
+  new Promise((res, rej) => setTimeout(() => res(1), 2000)),
+  new Promise((res, rej) => setTimeout(() => res(3), 3000))
 ]).then(alert); // 1
+```
+
+
+---
+
+## Полифил
+
+### Compact with `Promise.all`
+
+```typescript
+const promiseAny = async <T>(
+  iterable: Iterable<T | PromiseLike<T>>
+): Promise<T> => {
+  return Promise.all(
+    [...iterable].map(promise => {
+      return new Promise((resolve, reject) =>
+        Promise.resolve(promise).then(reject, resolve)
+      );
+    })
+  ).then(
+    errors => Promise.reject(errors),
+    value => Promise.resolve<T>(value)
+  );
+};
+```
+
+### Modern
+
+```typescript
+function promiseAny<T>(promises: Array<Promise<T>>): Promise<T> {
+  return new Promise((resolve, reject) => {
+    let rejectedCount = 0;
+    const totalPromises = promises.length;
+    const errors: Array<any> = [];
+
+    promises.forEach((promise, index) => {
+      promise
+        .then(val => resolve(val))
+        .catch(err => {
+          errors[index] = err;
+          rejectedCount++;
+
+          if (rejectedCount === totalPromises) {
+            reject(new AggregateError(errors, 'All promises were rejected'));
+          }
+        });
+    });
+  });
+}
 ```

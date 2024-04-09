@@ -1,4 +1,3 @@
-
 ## Хуки жизненного цикла директивы
 
 Для жизненного цикла директивы можно указать следующие хуки (все они опциональны):
@@ -236,3 +235,9 @@ const vFocus = focusDirective
 </template>
 
 ```
+
+
+---
+
+## Источники
+- #### [example](https://github.com/injurka/directives-vue/tree/master)

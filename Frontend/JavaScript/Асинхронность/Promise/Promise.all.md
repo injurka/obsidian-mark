@@ -4,9 +4,9 @@
 
 ```javascript
 Promise.all([
-  new Promise(resolve => setTimeout(() => resolve(1), 3000)), // 1
-  new Promise(resolve => setTimeout(() => resolve(2), 2000)), // 2
-  new Promise(resolve => setTimeout(() => resolve(3), 1000))  // 3
+  new Promise(res => setTimeout(() => res(1), 3000)), // 1
+  new Promise(res => setTimeout(() => res(2), 2000)), // 2
+  new Promise(res => setTimeout(() => res(3), 1000))  // 3
 ]).then(alert); // когда все промисы выполнятся, результат будет 1,2,3
 // каждый промис даёт элемент массива
 ```
@@ -18,10 +18,38 @@ Promise.all([
 Например:
 ```javascript
 Promise.all([
-  new Promise((resolve, reject) => setTimeout(() => resolve(1), 1000)),
-  new Promise((resolve, reject) => setTimeout(() => reject(new Error("Ошибка!")), 2000)),
-  new Promise((resolve, reject) => setTimeout(() => resolve(3), 3000))
+  new Promise((res, rej) => setTimeout(() => res(1), 1000)),
+  new Promise((res, rej) => setTimeout(() => rej(new Error("Ошибка!")), 2000)),
+  new Promise((res, rej) => setTimeout(() => res(3), 3000))
 ]).catch(alert); // Error: Ошибка!
+
 ```
 
 Здесь второй промис завершится с ошибкой через 2 секунды. Это приведёт к немедленной ошибке в `Promise.all`, так что выполнится `.catch`: ошибка этого промиса становится ошибкой всего `Promise.all`.
+
+
+---
+
+## Полифил
+
+```typescript
+function promiseAll<T>(promises: Promise<T>[]): Promise<T[]> {
+    return new Promise((resolve, reject) => {
+        const results: T[] = [];
+        let completedCount = 0;
+
+        promises.forEach((promise, index) => {
+            promise.then(result => {
+                results[index] = result;
+                completedCount++;
+
+                if (completedCount === promises.length) {
+                    resolve(results);
+                }
+            }).catch(error => {
+                reject(error);
+            });
+        });
+    });
+}
+```

@@ -1,9 +1,7 @@
 [
-  "calendar",
   "obsidian-git",
   "obsidian-outliner",
   "obsidian-linter",
   "obsidian-icon-folder",
-  "obsidian-excalidraw-plugin",
-  "mermaid-tools"
+  "obsidian-excalidraw-plugin"
 ]

@@ -6,9 +6,12 @@
 - Когда необходимо, чтобы для класса существовал только один экземпляр.
 
 Синглтон позволяет создать объект только при его необходимости. Если объект не нужен, то он не будет создан. В этом отличие синглтона от глобальных переменных.
+
 ---
 
-### Пример реализации
+## Пример реализации
+
+### TS ~ Class
 
 ```ts
 class Singleton {
@@ -39,4 +42,31 @@ const fn = (a: number)=>{
 
   return b
 }
+```
+
+### JS ~ Function
+
+```js
+const Singleton = (function () {
+    let instance;
+ 
+    function createInstance() {
+        const object = new Object("I am the instance");
+        return object;
+    }
+ 
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
+})();
+
+const object1 = singleton.getInstance();
+const object2 = singleton.getInstance();
+
+console.log(object1 === object2); //true
 ```

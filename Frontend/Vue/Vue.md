@@ -28,6 +28,6 @@
 - ### [[Vuex]]
 ## Handbook
 - ### [[Frontend/Vue/Handbook/Hooks/Hooks|Hooks]]
-## Полезные ссылки
+## Полезные ссылки / Источники
 - #### [vuejs org](https://vuejs.org/)
 - #### [ru vuejs org](https://v3.ru.vuejs.org/)

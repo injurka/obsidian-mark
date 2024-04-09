@@ -12,6 +12,7 @@ for (let value of iterable) {
 // 31
 ```
 
+---
 
 ## Источник
 - #### [mdn](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for...of)

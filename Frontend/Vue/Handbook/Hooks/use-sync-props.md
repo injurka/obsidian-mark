@@ -20,11 +20,8 @@ export const useSyncProps = <T>(props: any, key: string, emit: any): WritableCom
 ## Пример использования
 
 ```ts
-type Props = {
-	modelValue: boolean;
-};
-const props = defineProps<Props>();
-const emit = defineEmits(['update:modelValue']);
+const props = defineProps<{ modelValue: boolean }>()
+const emit = defineEmits<{ 'update:modelValue': [void] }>()
 
 const dialog = useSyncProps<boolean>(props, 'modelValue', emit);
 ```

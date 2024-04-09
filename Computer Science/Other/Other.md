@@ -1,0 +1,5 @@
+- #### [[Data transfer]]
+- #### [[Operating Systems]]
+- #### [[Mutable vs Immutable Data Types]]
+- #### [[UUID ~ Universally Unique Identifier]]
+- #### [[O - нотация, сложность алгоритма]]

@@ -25,3 +25,8 @@
 «Живой» `NodeList` возвращают метод `getElementsByName()` и свойство `childNodes`.
 
 Статический `NodeList` возвращает метод `querySelectorAll()`.
+
+---
+
+## Источники
+- #### [doka](https://doka.guide/js/htmlcollection-and-nodelist/)

@@ -1,6 +1,7 @@
 - ### [[Виртуализация]]
 - ### [[Docker]]
 - ### [[Kubernetes]]
-- ### [[Deployment]]
 - ### [[Load Balancing]]
+- ### [[Nginx]]
+- ### [[Deployment]]
 - ### [[Prometheus]]

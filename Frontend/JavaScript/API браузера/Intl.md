@@ -1,1 +1,6 @@
-**[Media Session API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Session_API)**#TODO
+#TODO
+
+
+---
+## Источники
+- #### [mdn](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Intl)

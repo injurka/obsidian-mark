@@ -19,7 +19,7 @@
 - ### [[Декоратор ~ Decorator]] #TODO 
 - ### [[Фасад ~ Facade ]] #TODO
 - ### [[Приспособленец ~ Flyweight]] #TODO 
-- ### [[Заместитель ~ Proxy]] #TODO
+- ### [[Заместитель ~ Proxy]]
 
 ## Порождающие шаблоны ~ Creational patterns
 - ### [[Абстрактная фабрика ~ Abstract Factory]]

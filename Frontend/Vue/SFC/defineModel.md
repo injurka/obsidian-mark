@@ -45,7 +45,7 @@ const model = defineModel()
 
 Вот как вы можете реализовать тот же дочерний компонент, показанный выше до 3.4:
 
-```vue
+```ts
 <script setup>
 const props = defineProps(['modelValue'])
 const emit = defineEmits(['update:modelValue'])

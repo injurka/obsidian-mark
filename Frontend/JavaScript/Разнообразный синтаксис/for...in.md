@@ -2,5 +2,7 @@
 
 Перечисляемые свойства – это свойства, которые разработчик добавляет объекту. Встроенные свойства, например length у массива, не обходятся в цикле `for...in`.
 
+---
+
 ## Источник
 - #### [mdn](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for...in)

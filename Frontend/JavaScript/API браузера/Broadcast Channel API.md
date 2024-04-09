@@ -103,6 +103,8 @@ const getQuote = async () => {
 };
 ```
 
+<iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=broadcastchannel" frameborder="0" width="100%" height="510px"></iframe>
+
 ---
 
 ## Источники

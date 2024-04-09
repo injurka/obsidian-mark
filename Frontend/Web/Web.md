@@ -6,14 +6,14 @@
 - ### [[ECMAScript version]]
 - ### [[Event reference ~ Ссылка на событие]]
 - ### [[SemVer]]
+- ### [[Package lock files]]
 ## Рендеринг
 - ### [[Render ~ Движки рендеринга]]
 - ### [[V8 ~ Оптимизация кода]]
 - ### [[CRP ~ Критический путь рендеринга]]
-- ### Виды рендеринга
-	- ### [[CSR ~ Client Side Rendering]]
-	- ### [[SSG ~ Static Site Generation]]
-	- ### [[SSR ~ Server Side Rendering]]
+## Технологии веб-разработки
+- ### [[Методы рендеринга]]
+- ### [[Виды веб приложений]]
 ## Авторизация
 - ### [[Frontend/Web/Авторизация/Terms|Terms]]
 - ### [[Basic]]

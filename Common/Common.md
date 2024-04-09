@@ -1,3 +1,0 @@
-- ### [[nginx]]
-- ### [[bash alias]]
-- ### [[ssh config]]

@@ -1,0 +1,6 @@
+- ### [[CORS]]
+- ### [[CSRF]]
+- ### [[CSWSH]]
+- ### [[OWSAP]]
+- ### [[SQL-injection]]
+- ### [[XSS]]

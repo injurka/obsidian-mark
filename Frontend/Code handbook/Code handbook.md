@@ -9,7 +9,7 @@
 - ### [[throttle.ts]]
 ## Lib
 - ### [[audio-howl-vue]] 
-- ### [[opentelemtry]] 
+- ### [[opentelemetry]] 
 - ### [[Frontend/Code handbook/Lib/webrtc|webrtc]] 
 ## Architectural
 - ### [[on-emit]] 

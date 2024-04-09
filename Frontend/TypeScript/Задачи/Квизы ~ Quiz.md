@@ -1,3 +1,37 @@
+### Будет ли ошибка в строчках с `//?`
+
+```ts
+interface Animal {
+  name: string;
+}
+
+interface Dog extends Animal {
+  bark(): void;
+}
+
+// Функция, которая принимает объект типа Animal
+function assignAnimal(animal: Animal) {
+  // ...
+}
+
+// Функция, которая принимает объект типа Dog
+function assignDog(dog: Dog) {
+  // ...
+}
+
+// Присваивание функции, которая принимает тип Dog, функции, которая принимает тип Animal
+let animalFunc!: (animal: Animal) => void;
+//? animalFunc = assignDog;
+
+// Присваивание функции, которая принимает тип Animal, функции, которая принимает тип Dog
+let dogFunc!: (dog: Dog) => void;
+//? dogFunc = assignAnimal;
+```
+
+> [!INFO]- Ответ
+> `animalFunc = assignDog;` - Будет ошибка, так как `animal` является супертипом `dog`
+> `dogFunc = assignAnimal;` - Не будет ошибка, так как `dog` является подтипом `animal`
+
 ### Какие типы выведет TS?
 
 ```typescript

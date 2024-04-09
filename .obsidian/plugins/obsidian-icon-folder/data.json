@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "TiSettings",
-      "TiEngine",
-      "RiChromeFill",
-      "RiChromeLine",
-      "SiPostgresql"
+      "❌",
+      "RiFlashlightLine",
+      "RiThunderstormsLine",
+      "TiCommand",
+      "TiSettings"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -25,13 +25,10 @@
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true
   },
   "Git": "SiGit",
-  "Common": "TiCommand",
-  "Common/nginx.md": "SiNginx",
-  "Common/ssh config.md": "TiArrowsShuffle",
-  "Common/Common.md": "TiCommand",
   "Git/Git.md": "TiCommand",
   "Chinese": "TiLanguage",
   "Chinese/Chinese.md": "TiCommand",
@@ -101,5 +98,20 @@
   "DevOps/Docker": "SiDocker",
   "DevOps/Kubernetes.md": "SiKubernetes",
   "DevOps/Load Balancing.md": "TiLoadBalancer",
-  "DevOps/Виртуализация.md": "SiVirtualbox"
+  "DevOps/Виртуализация.md": "SiVirtualbox",
+  "DevOps/Nginx.md": "SiNginx",
+  "Linux/Core/Core.md": "TiCommand",
+  "Frontend/Lit": {
+    "iconName": "RiFlashlightLine",
+    "iconColor": "#57beff"
+  },
+  "Frontend/TypeScript/TypeScript.md": "TiCommand",
+  "Frontend/CSS/CSS.md": "TiCommand",
+  "Frontend/HTML/HTML.md": "TiCommand",
+  "Frontend/React/React.md": "TiCommand",
+  "Frontend/Vue/Vue.md": "TiCommand",
+  "Frontend/Web/Web.md": "TiCommand",
+  "Frontend/Lit/Lit.md": "TiCommand",
+  "Frontend/CSS/Заметки/Заметки.md": "TiCommand",
+  "Frontend/HTML/Заметки/Заметки.md": "TiCommand"
 }
