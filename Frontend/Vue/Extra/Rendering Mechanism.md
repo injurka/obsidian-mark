@@ -59,7 +59,7 @@ const vnode = {
 
 ---
 
-## Compiler-Informed Virtual DOM ~ ВVirtual DOM на основе данных компилятора
+## Compiler-Informed Virtual DOM ~ Virtual DOM на основе данных компилятора
 
 Реализация виртуального DOM в React и большинстве других реализаций виртуального DOM является чисто исполнительной: алгоритм согласования не может делать никаких предположений о входящем виртуальном DOM-дереве, поэтому для обеспечения корректности ему приходится полностью обходить это дерево и дифферинцировать реквизиты каждого vnode. Кроме того, даже если часть дерева никогда не изменяется, для нее всегда создаются новые vnode при каждом повторном рендеринге, что приводит к излишней нагрузке на память. Это один из наиболее критикуемых аспектов виртуального DOM: в процессе согласования, осуществляемого грубой силой, эффективность приносится в жертву декларативности и корректности.
 
@@ -82,10 +82,18 @@ const vnode = {
 
 **compiled template**
 ```jsx
-import { createElementVNode as _createElementVNode, createCommentVNode as _createCommentVNode, toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue"
+import {
+  createElementVNode as _createElementVNode,
+  createCommentVNode as _createCommentVNode,
+  toDisplayString as _toDisplayString,
+  openBlock as _openBlock,
+  createElementBlock as _createElementBlock
+} from "vue"
 
-const _hoisted_1 = /*#__PURE__*/_createElementVNode("div", null, "foo", -1 /* HOISTED */)
-const _hoisted_2 = /*#__PURE__*/_createElementVNode("div", null, "bar", -1 /* HOISTED */)
+/*#__PURE__*/
+const _hoisted_1 = _createElementVNode("div", null, "foo", -1)
+const _hoisted_2 = _createElementVNode("div", null, "bar", -1)
+/* HOISTED */
 
 export function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (_openBlock(), _createElementBlock("div", null, [
@@ -189,10 +197,9 @@ export function render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 ```
 
+Дивы `foo` и `bar` статичны - повторное создание vnodes и их дифференциация при каждом рендере не нужны. Компилятор Vue автоматически выводит вызовы создания *vnode* из функции рендеринга и повторно использует те же vnode при каждом рендере. Рендерер также может полностью пропустить их дифференциацию, когда замечает, что старый и новый *vnode* - это один и тот же vnode.
 
-Дивы `foo` и `bar` статичны - повторное создание vnodes и их дифференциация при каждом рендере не нужны. Компилятор Vue автоматически выводит вызовы создания vnode из функции рендеринга и повторно использует те же vnode при каждом рендере. Рендерер также может полностью пропустить их дифференциацию, когда замечает, что старый и новый vnode - это один и тот же vnode.
-
-Кроме того, при наличии достаточного количества последовательных статических элементов они сжимаются в один "статический vnode", который содержит простую HTML-строку для всех этих узлов (пример). Эти статические узлы монтируются путем непосредственного задания innerHTML. Они также кэшируют соответствующие им DOM-узлы при первоначальном монтировании - если тот же кусок контента будет повторно использован в другом месте приложения, новые DOM-узлы будут созданы с помощью встроенной функции cloneNode(), что очень эффективно.
+Кроме того, при наличии достаточного количества последовательных статических элементов они сжимаются в один "статический vnode", который содержит простую HTML-строку для всех этих узлов (пример). Эти статические узлы монтируются путем непосредственного задания *innerHTML*. Они также кэшируют соответствующие им DOM-узлы при первоначальном монтировании - если тот же кусок контента будет повторно использован в другом месте приложения, новые DOM-узлы будут созданы с помощью встроенной функции *cloneNode()*, что очень эффективно.
 
 **template**
 ```jsx
@@ -208,7 +215,13 @@ export function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 **compiled template**
 ```jsx
-import { createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue"
+import {
+  createElementVNode as _createElementVNode,
+  createCommentVNode as _createCommentVNode,
+  toDisplayString as _toDisplayString,
+  openBlock as _openBlock,
+  createElementBlock as _createElementBlock
+} from "vue"
 
 const _hoisted_1 = /*#__PURE__*/_createStaticVNode("<div class=\"foo\">foo</div><div class=\"foo\">foo</div><div class=\"foo\">foo</div><div class=\"foo\">foo</div><div class=\"foo\">foo</div>", 5)
 
@@ -219,7 +232,6 @@ export function render(_ctx, _cache, $props, $setup, $data, $options) {
   ]))
 }
 ```
-
 
 ### Patch Flags ~ Флаги патчей
 
@@ -239,7 +251,13 @@ export function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 **compiled template**
 ```jsx
-import { normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue"
+import {
+  createElementVNode as _createElementVNode,
+  createCommentVNode as _createCommentVNode,
+  toDisplayString as _toDisplayString,
+  openBlock as _openBlock,
+  createElementBlock as _createElementBlock
+} from "vue"
 
 export function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (_openBlock(), _createElementBlock(_Fragment, null, [
@@ -262,7 +280,6 @@ createElementVNode("div", {
   class: _normalizeClass({ active: _ctx.active })
 }, null, 2 /* CLASS */)
 ```
-
 
 Последний аргумент, `2`, представляет собой [patch flag](https://github.com/vuejs/core/blob/main/packages/shared/src/patchFlags.ts). Элемент может иметь несколько флагов исправлений, которые будут объединены в одно число. Рендерер во время выполнения может проверить флаги с помощью [битовых операций](https://en.wikipedia.org/wiki/Bitwise_operation), чтобы определить, нужно ли ему выполнять определенную работу:
 
@@ -323,6 +340,7 @@ div (block root)
 Когда этому компоненту нужно перерисоваться, ему нужно обойти только сплющенное дерево, а не все дерево. Это называется **Сплющивание дерева**, и оно значительно сокращает количество узлов, которые нужно обойти во время виртуального согласования DOM. Любые статические части шаблона эффективно пропускаются.
 
 Директивы `v-if` и `v-for` создают новые узлы блока:
+
 ```jsx
 <div> <!-- root block -->
   <div>

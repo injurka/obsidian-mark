@@ -1,5 +1,6 @@
 - ### [[Theory]]
 - ### [[Search]]
 - ### [[Sort]]
-- ### [[Sequence]]
+- ### [[Computer Science/Algorithm/Sequence/Sequence]]
 - ### [[Recursion]]
+- ### [[Сurry]]

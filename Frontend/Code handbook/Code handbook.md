@@ -11,6 +11,7 @@
 - ### [[audio-howl-vue]] 
 - ### [[opentelemetry]] 
 - ### [[Frontend/Code handbook/Lib/webrtc|webrtc]] 
+- ### [[pdfjs]] 
 ## Architectural
 - ### [[on-emit]] 
 - ### [[on-emit(mitt)]] 

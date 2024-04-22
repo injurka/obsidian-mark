@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "❌",
-      "RiFlashlightLine",
-      "RiThunderstormsLine",
+      "TiPlayerRecordFilled",
+      "TiTerminal",
       "TiCommand",
-      "TiSettings"
+      "TiBrandPowershell",
+      "TiSnowflake"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -113,5 +113,13 @@
   "Frontend/Web/Web.md": "TiCommand",
   "Frontend/Lit/Lit.md": "TiCommand",
   "Frontend/CSS/Заметки/Заметки.md": "TiCommand",
-  "Frontend/HTML/Заметки/Заметки.md": "TiCommand"
+  "Frontend/HTML/Заметки/Заметки.md": "TiCommand",
+  "Linux/Editor/Editor.md": "TiCommand",
+  "Linux/NixOS": "TiSnowflake",
+  "Linux/NixOS/NixOS.md": "TiCommand",
+  "Linux/Shell": "TiBrandPowershell",
+  "Linux/Shell/Shell.md": "TiCommand",
+  "Linux/Editor": "TiTerminal",
+  "Linux/Core": "TiPlayerRecordFilled",
+  "Linux/Arch/Package Managers/Package Managers.md": "TiCommand"
 }

@@ -1,3 +1,4 @@
 - ### [[Оптимизация]]
 - ### [[Очистка системы]]
-- ### [[Hyprland]]
+- ### [[Package Managers]]
+- ### [[Linux/Arch/Dots|Dots]]

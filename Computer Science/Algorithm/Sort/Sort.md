@@ -6,4 +6,4 @@
 - ### [[Quick]]
 - ### [[Radix]]
 - ### [[Selection]]
-- ### [[Shell]]
+- ### [[Computer Science/Algorithm/Sort/Shell]]
