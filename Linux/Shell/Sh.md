@@ -1,3 +1,3 @@
 - ### [[bash]]
-- ### [[Linux/Shell/zsh|zsh]]
+- ### [[zsh|zsh]]
 - ### [[fish]]

@@ -1,0 +1,75 @@
+.cn div.element#this {
+  color: green;
+  border: 10px solid red;
+}
+
+.cn div.hb.n {
+  border-left: 4px solid #e97773;
+}
+
+.cn div.hb.w {
+  border-left: 4px solid #e9e773;
+}
+
+.cn div.hb.n span.b {
+  background-color: #421515;
+}
+.cn div.hb .hbtip {
+  background-color: #73e99030;
+  padding: 0 8px;
+}
+
+.cn div.hb.n .hbtip {
+  background-color: #5c343330;
+  padding: 0 8px;
+}
+
+.cn div.hb.w .hbtip {
+  background-color: #565c3330;
+  padding: 0 8px;
+}
+
+.cn div.hb {
+  border: 1px solid #2b2b2b;
+  border-left: 4px solid #73e990;
+
+  padding: 8px;
+  padding-left: 12px;
+  border-radius: 4px;
+  margin: 16px 0;
+}
+.cn .h {
+  font-size: 30px;
+}
+.cn .p {
+  opacity: 0.6;
+}
+
+.cn div span.b {
+  background-color: #18181b;
+  padding: 0 2px;
+  margin: 0 2px;
+  border-radius: 6px;
+}
+
+.cn .tip {
+  display: flex;
+  align-items: center;
+
+  background-color: #171720;
+  border-left: 4px solid #7385e9;
+  border-right: 4px solid #7385e9;
+  padding: 22px 18px;
+  font-weight: 600;
+}
+.cn .tip .h {
+  font-size: 24px;
+  padding: 0 6px;
+}
+
+.cn * {
+  padding: 0;
+}
+.cn div .tip + .tip {
+  padding-top: 0;
+}

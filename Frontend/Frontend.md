@@ -4,6 +4,7 @@
 - ### [[JavaScript]]
 - ### [[TypeScript]]
 - ### [[Vue]]
+- ### [[Nuxt]]
 - ### [[React]]
 - ### [[Lit]]
 - ### [[Code handbook]]

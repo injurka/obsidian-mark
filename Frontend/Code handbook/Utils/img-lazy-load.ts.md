@@ -35,8 +35,6 @@ function lazyLoadDirective(el: HTMLElement, binding: { value: string }) {
 }
 ```
 
----
-
 ## Пример использования
 
 ```ts

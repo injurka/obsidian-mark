@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - cn
+---
+
 Результативное глагольное дополнение 错 -cuo. Каждый делает ошибки, начиная изучать китайский язык. В этой статье мы изучим как выразить, что кто-то сделал ошибку с помощью [глагольного суффикса](https://wikihsk.ru/publ/spravochnik/glossarij/rezultativnye_morfemy_glagolnye_dopolnenija_rezultata/25-1-0-484) 错 cuò, который ставится после глагола и указывает на ошибочный или неверный [результат](https://wikihsk.ru/publ/spravochnik/grammaticheskie_funkcii/vyrazhaem_rezultat/26-1-0-535) действия. Очень часто 错 после глагола переводится как [наречие](https://wikihsk.ru/publ/spravochnik/glossarij/narechie/25-1-0-437) "ошибочн**о**", "неправильн**о**" или словом "по ошибке".
 
 Глагольный суффикс также называется как: 

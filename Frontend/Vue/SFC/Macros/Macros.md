@@ -1,0 +1,5 @@
+- ### [[defineEmits]]
+- ### [[defineExpose]]
+- ### [[defineProps]]
+- ### [[defineOptions]]
+- ### [[defineModel]]

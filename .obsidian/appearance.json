@@ -3,8 +3,10 @@
   "cssTheme": "Things",
   "translucency": true,
   "enabledCssSnippets": [
-    "global"
+    "global",
+    "cn"
   ],
   "theme": "obsidian",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "monospaceFontFamily": "Maple Mono"
 }

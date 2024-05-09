@@ -73,6 +73,7 @@ alias gsha='git rev-parse HEAD | pbcopy'
 alias ghci='gh run list -L 1'
 
 alias rmn="find . -type d -name 'node_modules' -exec rm -rf {} +"
+alias gs='git switch'
 ```
 
 ```bash

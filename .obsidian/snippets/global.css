@@ -3,107 +3,35 @@
 .parentxy3,
 .form,
 .example {
-    border: 1px solid rgb(133, 114, 201);
-    border-radius: 14px;
-    padding: 12px;
+  border: 1px solid rgb(133, 114, 201);
+  border-radius: 14px;
+  padding: 12px;
 }
 
 .parentxy > li {
-    border: 1px solid rgb(55, 0, 255);
+  border: 1px solid rgb(55, 0, 255);
 }
 
 .parentxy2 div ~ p {
-    color: red;
+  color: red;
 }
 
 .parentxy3 div + p {
-    color: red;
+  color: red;
 }
 
 .form input[type="text"]:disabled {
-    background: #d6dbff;
-    color: black;
+  background: #d6dbff;
+  color: black;
 }
 
 .container A {
-    background: orange;
+  background: orange;
 }
 .list A {
-    background: mediumspringgreen;
+  background: mediumspringgreen;
 }
 
-div.element#this {
-    color: green;
-    border: 10px solid red;
-}
-
-div.hb.n {
-    border-left: 4px solid #e97773;
-}
-
-div.hb.w {
-    border-left: 4px solid #e9e773;
-}
-
-div.hb.n span.b {
-    background-color: #421515;
-}
-div.hb .hbtip {
-    background-color: #73e99030;
-    padding: 0 8px;
-}
-
-div.hb.n .hbtip {
-    background-color: #5c343330;
-    padding: 0 8px;
-}
-
-div.hb.w .hbtip {
-    background-color: #565c3330;
-    padding: 0 8px;
-}
-
-div.hb {
-    border: 1px solid #2b2b2b;
-    border-left: 4px solid #73e990;
-
-    padding: 8px;
-    padding-left: 12px;
-    border-radius: 4px;
-    margin: 16px 0;
-}
-.h {
-    font-size: 30px;
-}
-.p {
-    opacity: 0.6;
-}
-
-div span.b {
-    background-color: #18181b;
-    padding: 0 2px;
-    margin: 0 2px;
-    border-radius: 6px;
-}
-
-.tip {
-    display: flex;
-    align-items: center;
-
-    background-color: #171720;
-    border-left: 4px solid #7385e9;
-    border-right: 4px solid #7385e9;
-    padding: 22px 18px;
-    font-weight: 600;
-}
-.tip .h {
-    font-size: 24px;
-    padding: 0 6px;
-}
-
-* {
-    padding: 0;
-}
-div .tip + .tip {
-    padding-top: 0;
+.iconize-icon-in-link {
+  display: none;
 }

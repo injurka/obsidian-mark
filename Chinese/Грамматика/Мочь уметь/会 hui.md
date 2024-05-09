@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - cn
+---
+
 Глагол **会** (hui, уметь), как сказать "я умею". Глагол [会](https://wikihsk.ru/publ/spravochnik/kitajskie_slova/hui/23-1-0-589) (huì, [уметь](https://wikihsk.ru/publ/spravochnik/russkie_slova/moch/24-1-0-634)) может применяться к способностям, [умениям и навыкам](https://wikihsk.ru/publ/spravochnik/grammaticheskie_funkcii/navyki_i_umenija/26-1-0-631), которые были приобретены. В данном случае глагол **会** является модальным.
 
 ---

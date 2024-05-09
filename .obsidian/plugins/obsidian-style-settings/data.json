@@ -1,0 +1,12 @@
+{
+  "things-style@@fancy-code": true,
+  "things-style@@active-line": true,
+  "things-style@@fancy-highlight": true,
+  "things-style@@no-kanban-styles": true,
+  "things-style@@floating-button-off": true,
+  "things-style@@mobile-black-background": true,
+  "things-style@@progress-color": false,
+  "things-style@@default-font-color": false,
+  "things-style@@link-decoration": "None",
+  "things-style@@link-external-decoration": "None"
+}

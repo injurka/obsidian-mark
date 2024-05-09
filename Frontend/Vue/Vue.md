@@ -5,16 +5,13 @@
 - ### [[Reactivity]]
 - ### [[Render-функции]]
 ## Components
+- ### [[Slots]]
 - ### [[defineComponent]]
 - ### [[defineAsyncComponent]]
 - ### [[Provide ~ Inject]]
 ## SFC
 - ### [[script setup]]
-- ### [[defineEmits]]
-- ### [[defineExpose]]
-- ### [[defineProps]]
-- ### [[defineOptions]]
-- ### [[defineModel]]
+- ### [[Macros]]
 - ### [[Top-level await]]
 ## Rendering Mechanism
 - ### [[Rendering Mechanism]]
@@ -28,6 +25,8 @@
 - ### [[Vuex]]
 ## Handbook
 - ### [[Frontend/Vue/Handbook/Hooks/Hooks|Hooks]]
+- ### [[Debug Watcher]]
 ## Полезные ссылки / Источники
 - #### [vuejs org](https://vuejs.org/)
 - #### [ru vuejs org](https://v3.ru.vuejs.org/)
+- #### [vue tips](https://mokkapps.de/vue-tips)

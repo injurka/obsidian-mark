@@ -1,6 +1,7 @@
 - ### [[Core]]
-- ### [[Linux/Shell/Shell|Shell]]
 - ### [[Editor]]
+- ### [[Packages]]
 - ### [[Arch]]
+- ### [[Sh|Shell]]
 - ### [[NixOS]]
 - ### [[Прочее]]
