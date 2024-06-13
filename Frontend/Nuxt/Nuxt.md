@@ -1,2 +1,3 @@
 - ## [[Essentials]]
-- ## [[Shared/Shared]]
+- ## [[Architectural]]
+- ## [[Frontend/Nuxt/Shared/Shared|Shared]]

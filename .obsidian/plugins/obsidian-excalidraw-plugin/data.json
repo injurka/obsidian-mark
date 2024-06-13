@@ -5,9 +5,10 @@
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
-  "compress": false,
+  "compress": true,
+  "decompressForMDView": false,
+  "onceOffCompressFlagReset": true,
   "autosave": true,
-  "autosaveInterval": 15000,
   "autosaveIntervalDesktop": 15000,
   "autosaveIntervalMobile": 10000,
   "drawingFilenamePrefix": "Drawing ",
@@ -20,6 +21,7 @@
   "annotatePreserveSize": false,
   "previewImageType": "SVGIMG",
   "allowImageCache": true,
+  "allowImageCacheInScene": true,
   "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": false,
   "width": "400",
@@ -34,6 +36,7 @@
   "defaultPenMode": "never",
   "penModeCrosshairVisible": false,
   "renderImageInMarkdownReadingMode": false,
+  "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
   "allowPinchZoom": false,
   "allowWheelZoom": false,
@@ -78,6 +81,8 @@
   "fadeOutExcalidrawMarkup": false,
   "experimentalEnableFourthFont": false,
   "experimantalFourthFont": "Virgil",
+  "addDummyTextElement": false,
+  "zoteroCompatibility": false,
   "fieldSuggester": true,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
@@ -85,7 +90,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.7",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.2.5",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -5256,6 +5261,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "0 .. 1",
+            "autoResize": true,
             "lineHeight": 1.25
           }
         ],
@@ -5302,6 +5308,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "1 .. n",
+            "autoResize": true,
             "lineHeight": 1.25
           }
         ],
@@ -5348,6 +5355,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "n .. m",
+            "autoResize": true,
             "lineHeight": 1.25
           }
         ],
@@ -6295,6 +6303,7 @@
             "verticalAlign": "middle",
             "containerId": "5KKrXSedWx_E3G6hc3oy_",
             "originalText": "Action",
+            "autoResize": true,
             "lineHeight": 1.25
           }
         ],
@@ -6373,6 +6382,7 @@
             "verticalAlign": "middle",
             "containerId": "B1bEsrqLw7m60yVrJ1-n3",
             "originalText": "Item",
+            "autoResize": true,
             "lineHeight": 1.25
           }
         ],
@@ -6521,6 +6531,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Condition",
+            "autoResize": true,
             "lineHeight": 1.25
           }
         ],
@@ -6700,6 +6711,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "<<iterartive>>",
+            "autoResize": true,
             "lineHeight": 1.2609860329437117
           }
         ],
@@ -6745,6 +6757,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "<<parallel>>",
+            "autoResize": true,
             "lineHeight": 1.2609860329437117
           }
         ],
@@ -6790,6 +6803,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "<<stream>>",
+            "autoResize": true,
             "lineHeight": 1.2609860329437117
           }
         ],
@@ -6966,6 +6980,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Region Name",
+            "autoResize": true,
             "lineHeight": 1.25
           }
         ],
@@ -7074,6 +7089,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Comment",
+            "autoResize": true,
             "lineHeight": 1.2500000000000004
           },
           {
@@ -7208,6 +7224,7 @@
             "verticalAlign": "top",
             "containerId": null,
             "originalText": "Swimlane Name",
+            "autoResize": true,
             "lineHeight": 1.25
           },
           {
@@ -7256,7 +7273,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": false,
-  "previousRelease": "2.1.7",
+  "previousRelease": "2.2.6",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -7898,5 +7915,7 @@
   "slidingPanesSupport": false,
   "areaZoomLimit": 1,
   "longPressDesktop": 500,
-  "longPressMobile": 500
+  "longPressMobile": 500,
+  "isDebugMode": false,
+  "autosaveInterval": 15000
 }

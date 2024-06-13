@@ -8,3 +8,5 @@
 - ### [[Programming Language]]
 - ### [[License]]
 - ### [[Other]]
+- ### [[Laws of Boolean Algebra]]
+

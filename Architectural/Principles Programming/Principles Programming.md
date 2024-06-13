@@ -1,7 +1,7 @@
 
-- #### [[SOLID]]
-- #### [[ООП]]
-- #### [[DRY]]
-- #### [[GRASP]]
-- #### [[YAGNI]]
-- #### [[KISS]]
+- ### [[SOLID]]
+- ### [[ООП]]
+- ### [[DRY]]
+- ### [[Architectural/Principles Programming/GRASP/GRASP|GRASP]]
+- ### [[YAGNI]]
+- ### [[KISS]]

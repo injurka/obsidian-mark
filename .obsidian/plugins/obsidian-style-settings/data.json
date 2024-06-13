@@ -4,7 +4,7 @@
   "things-style@@fancy-highlight": true,
   "things-style@@no-kanban-styles": true,
   "things-style@@floating-button-off": true,
-  "things-style@@mobile-black-background": true,
+  "things-style@@mobile-black-background": false,
   "things-style@@progress-color": false,
   "things-style@@default-font-color": false,
   "things-style@@link-decoration": "None",

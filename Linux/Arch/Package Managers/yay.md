@@ -43,3 +43,8 @@ makepkg -si
 | `yay -Y --combinedupgrade --save` | Make combined upgrade the default mode.                                                                    |
 | `yay -Y --gendb`                  | Generate development package database used for devel update.                                               |
 | `yay -Yc`                         | Clean unneeded dependencies.                                                                               |
+| `yay -Si <имя_пакета>`            | Просмотр информации о пакете                                                                               |
+| `yay -Q`                          | Вывести список всех локальных пакетов                                                                      |
+| `yay -Qi <имя_пакета>`            | Просмотр информации о пакетах, которые были установлены                                                    |
+
+

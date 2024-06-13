@@ -1,4 +1,5 @@
 - ### [[Оптимизация]]
 - ### [[Очистка системы]]
 - ### [[Package Managers]]
+- ### [[Downgrade pkg]]
 - ### [[Linux/Arch/Dots|Dots]]
