@@ -4,6 +4,5 @@
 - ### [[JavaScript]]
 - ### [[TypeScript]]
 - ### [[Frameworks]]
-- ### [[Frontend/Frameworks/Vue/Handbook/Handbook]]
 - ### [[Frontend/Источники|Источники]]
 
