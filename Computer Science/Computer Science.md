@@ -8,3 +8,6 @@
 - ### [[Programming Language]]
 - ### [[License]]
 - ### [[Other]]
+- ### [[Boolean Algebra]]
+- ### [[Source]]
+

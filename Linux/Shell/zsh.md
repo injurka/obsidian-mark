@@ -52,6 +52,5 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zs
 npm i -g @antfu/ni
 ```
 
----
 ## Источники
 - #### [pingvinus](https://pingvinus.ru/note/bash-fish-zsh)

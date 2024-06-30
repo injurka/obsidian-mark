@@ -1,0 +1,2 @@
+- ### [[Linux/Distro/NixOS/Источники|Источники]]
+- ### [[Linux/Distro/NixOS/Dots|Dots]]

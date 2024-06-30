@@ -1,2 +1,0 @@
-- ### [[JSX.Element ~ ReactNode ~ React Component]]
-- ### [[Frontend/React/Handbook/Hooks/Hooks]]

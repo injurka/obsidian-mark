@@ -59,16 +59,6 @@ const flashLightController = {
 
 ```js
 const flashLightController = {
-  toggle() {
-    flashLightModel.isOn = !flashLightModel.isOn
-  },
-}
-```
-
-В примере выше контроллер проверяет, кнопку какого цвета нажали: дневного или ночного. В зависимости от нажатой кнопки он выбирает нужный цвет.
-
-```js
-const flashLightController = {
   // Остальной код
 
   selectColor(e) {

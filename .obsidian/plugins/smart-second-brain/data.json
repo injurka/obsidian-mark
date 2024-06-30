@@ -1,0 +1,110 @@
+{
+  "isChatComfy": true,
+  "isUsingRag": true,
+  "assistantLanguage": "en",
+  "initialAssistantMessageContent": "Hello, I am your assistant. How can I help you?",
+  "isIncognitoMode": true,
+  "ollamaGenModel": {
+    "model": "llama3",
+    "baseUrl": "http://localhost:11434",
+    "temperature": 0.5,
+    "contextWindow": 1648,
+    "lcModel": {
+      "lc": 1,
+      "type": "constructor",
+      "id": [
+        "langchain",
+        "chat_models",
+        "ollama",
+        "ChatOllama"
+      ],
+      "kwargs": {
+        "model": "llama3",
+        "base_url": "http://localhost:11434",
+        "temperature": 0.5,
+        "context_window": 1648,
+        "lc_model": {
+          "lc": 1,
+          "type": "constructor",
+          "id": [
+            "langchain",
+            "chat_models",
+            "ollama",
+            "ChatOllama"
+          ],
+          "kwargs": {
+            "model": "llama3",
+            "base_url": "http://localhost:11434",
+            "temperature": 0.5,
+            "context_window": 1748,
+            "lc_model": {
+              "lc": 1,
+              "type": "constructor",
+              "id": [
+                "langchain",
+                "chat_models",
+                "ollama",
+                "ChatOllama"
+              ],
+              "kwargs": {
+                "model": "llama3",
+                "base_url": "http://localhost:11434",
+                "temperature": 0.5,
+                "context_window": 1848,
+                "lc_model": {
+                  "lc": 1,
+                  "type": "constructor",
+                  "id": [
+                    "langchain",
+                    "chat_models",
+                    "ollama",
+                    "ChatOllama"
+                  ],
+                  "kwargs": {
+                    "model": "llama3",
+                    "base_url": "http://localhost:11434",
+                    "temperature": 0.5,
+                    "context_window": 1948
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ollamaEmbedModel": {
+    "model": "nomic-embed-text",
+    "baseUrl": "http://localhost:11434",
+    "similarityThreshold": 0.75,
+    "k": 100
+  },
+  "openAIGenModel": {
+    "model": "gpt-3.5-turbo",
+    "openAIApiKey": "",
+    "temperature": 0.5,
+    "contextWindow": 1948
+  },
+  "openAIEmbedModel": {
+    "model": "text-embedding-ada-002",
+    "openAIApiKey": "",
+    "similarityThreshold": 0.75,
+    "k": 100
+  },
+  "targetFolder": "Chats",
+  "defaultChatName": "New Chat",
+  "excludeFF": [
+    "Chats",
+    "*.excalidraw.md",
+    ".git",
+    "*git*",
+    ".obsidian",
+    "*obsidian*"
+  ],
+  "isQuickSettingsOpen": true,
+  "isVerbose": false,
+  "isOnboarded": true,
+  "hideIncognitoWarning": false,
+  "isAutostart": false
+}

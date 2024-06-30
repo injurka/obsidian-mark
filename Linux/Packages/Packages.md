@@ -2,3 +2,5 @@
 - ### [[syncthing]]
 - ### [[wireguard]]
 - ### [[tor browser]]
+- ### [[discord]]
+- ### [[looking-glass]]

@@ -1,4 +1,0 @@
-- ### [[Frontend/Vue/SFC/Macros/defineProps/Basic|Basic]]
-- ### [[Generic]]
-- ### [[Defaults]]
-- ### [[Destructure]]

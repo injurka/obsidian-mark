@@ -7,6 +7,7 @@
 - ### [[Event reference ~ Ссылка на событие]]
 - ### [[SemVer]]
 - ### [[Package lock files]]
+- ### [[ESM - CommonJS]]
 ## Рендеринг
 - ### [[Render ~ Движки рендеринга]]
 - ### [[V8 ~ Оптимизация кода]]

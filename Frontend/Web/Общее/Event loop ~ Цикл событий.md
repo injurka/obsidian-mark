@@ -29,8 +29,9 @@ Event loop позволяет JavaScript выполнять асинхронны
 - Компиляция JS в машинный код
 - Оптимизация (кеши, скрытые классы и прочее)
 
----
 
 ## Полезные ссылки
 - #### [Visualized: Event Loop 1](https://www.jsv9000.app/)
 - #### [Visualized: Event Loop 2](https://kamronbekshodmonov.github.io/JELoop-Visualizer/)
+- #### [Video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- #### [Article](https://blog.xnim.me/event-loop-and-render-queue)

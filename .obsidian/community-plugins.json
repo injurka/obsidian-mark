@@ -1,9 +1,11 @@
 [
+  "calendar",
   "obsidian-git",
   "obsidian-outliner",
   "obsidian-linter",
-  "obsidian-icon-folder",
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
-  "obsidian-style-settings"
+  "obsidian-icon-folder",
+  "obsidian-style-settings",
+  "smart-second-brain"
 ]
