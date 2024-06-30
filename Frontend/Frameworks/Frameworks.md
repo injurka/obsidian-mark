@@ -1,4 +1,4 @@
 - ### [[Vue]]
-- ### [[Nuxt]]
+- ### [[Frontend/Frameworks/Nuxt/Nuxt]]
 - ### [[React]]
 - ### [[Lit]]

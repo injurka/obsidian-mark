@@ -3,9 +3,8 @@
   "obsidian-git",
   "obsidian-outliner",
   "obsidian-linter",
-  "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
-  "obsidian-icon-folder",
   "obsidian-style-settings",
-  "smart-second-brain"
+  "obsidian-excalidraw-plugin",
+  "obsidian-icon-folder"
 ]

@@ -2,16 +2,10 @@
   "settings": {
     "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
-    "fontSize": 14,
+    "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [
-      "TiDotsVertical",
-      "TiBrowser",
-      "TiServer",
-      "TiBrandNodejs",
-      "TiCommand"
-    ],
+    "recentlyUsedIcons": [],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -20,32 +14,16 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true,
-    "iconInTitleEnabled": true,
-    "iconInFrontmatterEnabled": false,
-    "iconsBackgroundCheckEnabled": false,
-    "iconsInNotesEnabled": true,
-    "iconIdentifier": ":",
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
     "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
     "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
     "debugMode": false
-  },
-  "Git": "SiGit",
-  "Git/Git.md": "TiCommand",
-  "Chinese": "TiLanguage",
-  "Chinese/Chinese.md": "TiCommand",
-  "Linux/Linux.md": "TiCommand",
-  "Linux": "SiLinux",
-  "Chinese/Грамматика/Грамматика.md": "TiCommand",
-  "Backend/Bun": "SiBun",
-  "Backend/NodeJs/NodeJs.md": "TiCommand",
-  "Backend/NodeJs": "TiBrandNodejs",
-  "Backend/Bun/Bun.md": "TiCommand",
-  "Backend/Backend.md": "TiCommand",
-  "Backend": "TiServer",
-  "Frontend": "TiBrowser",
-  "Frontend/Frontend.md": "TiCommand",
-  "DevOps/DevOps.md": "TiDotsVertical"
+  }
 }
