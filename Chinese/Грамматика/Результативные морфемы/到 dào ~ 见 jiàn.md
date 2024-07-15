@@ -4,8 +4,7 @@ cssclasses:
 ---
 
 Результативные морфемы -到 dao и -见 jian. В китайском языке часто используются [результативные морфемы](https://wikihsk.ru/publ/spravochnik/glossarij/rezultativnye_morfemy_glagolnye_dopolnenija_rezultata/25-1-0-484) [到 (dào)](https://wikihsk.ru/publ/spravochnik/kitajskie_slova/dao/23-1-0-534) and 见 (jiàn). В этой статье рассмотрим случаи их применения с глаголами чувственного восприятия ("видеть", "смотреть" и прочие). Обе морфемы взаимозаменяемы.
-
----
+️
 
 ## Глаголы с "到" и "见"
 

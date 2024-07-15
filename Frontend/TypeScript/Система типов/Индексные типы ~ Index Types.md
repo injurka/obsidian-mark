@@ -14,3 +14,4 @@ const MyArray = [
 ];
 type Person = typeof MyArray[number];
 ```
+

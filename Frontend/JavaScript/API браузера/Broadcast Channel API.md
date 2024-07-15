@@ -17,8 +17,6 @@
       BroadcastChannel
     </text>
   </a></svg>
-
----
 ## Случаи использования
 
 `Broadcast Channel API` обычно используется для синхронизации окон и вкладок браузера для улучшения пользовательского опыта или повышения безопасности. Он также может применяться для уведомления одного контекста о завершении процесса в другом контексте. Другие примеры:
@@ -27,7 +25,6 @@
 - отображение загруженного ресурса во всех вкладках;
 - запуск [[Web Workers]] для выполнения фоновой задачи.
 
----
 ## Интерфейс
 
 ### Синтаксис
@@ -73,8 +70,6 @@ channel.addEventListener("message", ({ data, origin }) => {
 });
 ```
 
----
-
 ## Пример использования
 
 > Tab 1
@@ -104,8 +99,6 @@ const getQuote = async () => {
 ```
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=broadcastchannel" frameborder="0" width="100%" height="510px"></iframe>
-
----
 
 ## Источники
 - #### [mdn](https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel)

@@ -1,12 +1,8 @@
 {
-  "accentColor": "",
   "cssTheme": "Things",
-  "translucency": true,
+  "accentColor": "#ea4c81",
   "enabledCssSnippets": [
     "global",
     "cn"
-  ],
-  "theme": "obsidian",
-  "baseFontSize": 16,
-  "monospaceFontFamily": "Maple Mono"
+  ]
 }

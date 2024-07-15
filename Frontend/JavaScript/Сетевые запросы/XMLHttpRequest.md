@@ -24,14 +24,14 @@ XMLHttpRequest имеет два режима работы: синхронный
 1. Создать `XMLHttpRequest`.
     
 	```js
-		let xhr = new XMLHttpRequest(); // у конструктора нет аргументов
+let xhr = new XMLHttpRequest(); // у конструктора нет аргументов
 	```
 	Конструктор не имеет аргументов.
     
 - Инициализировать его.
 	    
 	```js
-		xhr.open(method, URL, [async, user, password])
+xhr.open(method, URL, [async, user, password])
 	```
 	Этот метод обычно вызывается сразу после `new XMLHttpRequest`. В него передаются основные параметры запроса:
     
@@ -45,7 +45,7 @@ XMLHttpRequest имеет два режима работы: синхронный
 - Послать запрос.
 	    
 	```javascript
-	    xhr.send([body])
+xhr.send([body])
 	```
 	
 	Этот метод устанавливает соединение и отсылает запрос к серверу. Необязательный параметр `body` содержит тело запроса.
@@ -62,23 +62,22 @@ XMLHttpRequest имеет два режима работы: синхронный
     
 
 	```javascript
-	xhr.onload = function() {
-	  alert(`Загружено: ${xhr.status} ${xhr.response}`);
-	};
-	
-	xhr.onerror = function() { // происходит, только когда запрос совсем не получилось выполнить
-	  alert(`Ошибка соединения`);
-	};
-	
-	xhr.onprogress = function(event) { // запускается периодически
-	  // event.loaded - количество загруженных байт
-	  // event.lengthComputable = равно true, если сервер присылает заголовок Content-Length
-	  // event.total - количество байт всего (только если lengthComputable равно true)
-	  alert(`Загружено ${event.loaded} из ${event.total}`);
-	};
+xhr.onload = function() {
+  alert(`Загружено: ${xhr.status} ${xhr.response}`);
+};
+
+xhr.onerror = function() { // происходит, только когда запрос совсем не получилось выполнить
+  alert(`Ошибка соединения`);
+};
+
+xhr.onprogress = function(event) { // запускается периодически
+  // event.loaded - количество загруженных байт
+  // event.lengthComputable = равно true, если сервер присылает заголовок Content-Length
+  // event.total - количество байт всего (только если lengthComputable равно true)
+  alert(`Загружено ${event.loaded} из ${event.total}`);
+};
 	```
 
----
 
 ## Источники
 - #### [mdn](https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest)

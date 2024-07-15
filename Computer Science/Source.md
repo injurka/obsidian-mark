@@ -1,0 +1,1 @@
+- ### [inf1.info](https://inf1.info/lawlogic)

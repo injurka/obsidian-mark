@@ -6,4 +6,21 @@
 - ### [[Quick]]
 - ### [[Radix]]
 - ### [[Selection]]
-- ### [[Computer Science/Algorithm/Sort/Shell]]
+- ### [[Shell]]
+- ### [[Bingo]] #TODO
+- ### [[Tim]] #TODO
+- ### [[Comb]] #TODO
+- ### [[Pigeonhole]] #TODO
+- ### [[Cycle]] #TODO
+- ### [[Cocktail]] #TODO
+- ### [[Strand]] #TODO
+- ### [[Bitonic]] #TODO
+- ### [[Pancakeing]] #TODO
+- ### [[Bogo or Permutation]] #TODO
+- ### [[Gnome]] #TODO
+- ### [[Sleep – The King of Laziness]] #TODO
+- ### [[Stooge]] #TODO
+- ### [[Tag]] #TODO
+- ### [[Computer Science/Algorithm/Sort/Tree|Tree]] #TODO
+- ### [[Odd-Even ~ Brick]] #TODO
+- ### [[3-way Merge]] #TODO

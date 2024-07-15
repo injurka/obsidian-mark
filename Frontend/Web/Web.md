@@ -3,10 +3,11 @@
 - ### [[Reflow Repaint]]
 - ### [[How work browser ~ Как работает браузер]]
 - ### [[What happens when...]]
-- ### [[ECMAScript version]]
 - ### [[Event reference ~ Ссылка на событие]]
 - ### [[SemVer]]
 - ### [[Package lock files]]
+- ### [[ESM - CommonJS]]
+- ### [[VirtualDOM Implement]]
 ## Рендеринг
 - ### [[Render ~ Движки рендеринга]]
 - ### [[V8 ~ Оптимизация кода]]

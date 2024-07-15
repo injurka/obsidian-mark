@@ -1,0 +1,2 @@
+- ### [end-4](https://github.com/end-4/dots-hyprland)
+- ### [prasanthrangan](https://github.com/prasanthrangan/hyprdots)

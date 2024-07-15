@@ -1,0 +1,133 @@
+Vue Mastery
+
+Initialize Pinia for your app                                          src/main.js
+
+      import { createPinia } from 'pinia'
+      createApp(App).use(createPinia()).mount('#app')
+
+Deﬁne the store                                                        src/stores/ProductStore.js
+
+import { defineStore } from 'pinia'
+
+export const useProductStore = defineStore('product', {                         a unique name
+   state: () => ({
+      products: [ Product , Product , Product ]                            initialize the state
+   }),
+   getters: {                                              getters can access the state
+      productCount(state) {                                through the parameter
+         return state.products.length
+      },
+      productsCheaperThan(state) {
+
+         return (price) => (                           a getter can accept an argument, but
+            state.products.filter(product =>           it has to return a function instead
+               product.price < price
+            )                                                      change the state with actions
+
+         )                                                                access the state with this
+      }
+   },
+   actions: {
+      addProduct( Product ) {
+
+         this.products.push( Product )
+      }
+   }
+})t
+
+Use the store (Composition API)                                        src/App.vue
+
+<script setup>
+import { useProductStore } from './stores/ProductStore'
+
+const store = useProductStore()                                      create a store instance
+
+</script>
+
+<template>                                                           access the state directly
+   <ul>
+
+<li v-for="product in store.products">
+
+   ...                                                 use a getter
+</li>
+
+</ul>
+
+<p>{{ store.productCount }}</p>                        use a getter that takes an argument
+<ul>
+
+<li v-for="product in store.productsCheaperThan(10)">
+
+...
+
+   </li>                                               use the action
+</ul>
+
+<button @click="store.addProduct( Product )">Add</button>
+Vue Mastery
+
+Use the store (Options API)
+
+<script>
+import { useProductStore } from './stores/ProductStore'
+import { mapStores } from 'pinia'
+
+export default {                                         import the mapStore function
+
+computed: {
+
+...mapStores(useProductStore)
+
+   }                                                              map the store as a
+}                                                                 computed property
+</script>
+
+<template>
+
+<ul>
+
+   <li v-for="product in productStore.products">  this name is the combination
+      ...                                         of the store’s unique name
+                                                  “product” + “Store”. It is created
+   </li>                                          by mapStores.
+</ul>
+<p>{{ productStore.productCount }}</p>
+
+<ul>
+
+<li v-for="product in productStore.productsCheaperThan(10)">
+
+...
+
+</li>
+
+</ul>
+
+<button @click="productStore.addProduct( Product )">Add</button>
+
+Change the state without actions
+
+store.x = 1 change one thing                                      store.$patch(state => {
+                                                                     state.x = 1
+store.$patch({ x: 1, y: 2})    change multiple things                state.y = 2
+
+                                                                  })
+                                                                                 alternate syntax
+
+store.$state = { x: 1, y: 2, z: 3 } change the entire state
+
+store.$reset()    change the entire state back to the initial values
+
+Subscribe to changes
+
+store.$subscribe((mutation, state) => {           the state after the change
+    ...
+
+})
+
+                                         details on how the change was made
+
+            Learn Pinia now with premium courses on VueMastery.com
+            Visit VueMastery.com to explore our library of Vue courses.
+

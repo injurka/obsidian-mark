@@ -1,7 +1,7 @@
 - ### [[Arrays]]
 - ### [[Graph]]
 - ### [[Hash Table]]
-- ### [[Tree]]
+- ### [[Computer Science/Data structure/Tree]]
 - ### [[Linked List]]
 - ### [[Queue]]
 - ### [[Stack]]
