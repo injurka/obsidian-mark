@@ -1,18 +1,7 @@
 [
-<<<<<<< HEAD
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
-  "obsidian-linter",
-  "obsidian-outliner",
-  "obsidian-style-settings",
-=======
-  "calendar",
-  "obsidian-git",
   "obsidian-outliner",
   "obsidian-linter",
-  "table-editor-obsidian",
-  "obsidian-style-settings",
-  "obsidian-excalidraw-plugin",
->>>>>>> 59d06b13c045f746071593cda1fc479f312ab481
-  "obsidian-icon-folder"
+  "obsidian-style-settings"
 ]

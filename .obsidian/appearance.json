@@ -1,14 +1,4 @@
 {
   "cssTheme": "Things",
-  "accentColor": "#ea4c81",
-  "enabledCssSnippets": [
-    "global",
-    "cn"
-<<<<<<< HEAD
-  ]
-=======
-  ],
-  "theme": "obsidian",
-  "baseFontSize": 16
->>>>>>> 59d06b13c045f746071593cda1fc479f312ab481
+  "accentColor": "#ea4c81"
 }
