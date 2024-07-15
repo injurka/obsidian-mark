@@ -4,5 +4,11 @@
   "enabledCssSnippets": [
     "global",
     "cn"
+<<<<<<< HEAD
   ]
+=======
+  ],
+  "theme": "obsidian",
+  "baseFontSize": 16
+>>>>>>> 59d06b13c045f746071593cda1fc479f312ab481
 }

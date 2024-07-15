@@ -7,6 +7,7 @@
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [],
+<<<<<<< HEAD
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -19,4 +20,18 @@
   "linkDistance": 250,
   "scale": 0.17255910414544218,
   "close": false
+=======
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.1,
+  "nodeSizeMultiplier": 1.171875,
+  "lineSizeMultiplier": 1.65677083333333,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 6.14583333333333,
+  "linkStrength": 1,
+  "linkDistance": 121,
+  "scale": 0.885498954315059,
+  "close": true
+>>>>>>> 59d06b13c045f746071593cda1fc479f312ab481
 }

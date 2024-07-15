@@ -1,4 +1,4 @@
-lsof- ## [[Essentials]]
+- ## [[Essentials]]
 - ## [[Architectural]]
 - ## [[Frontend/Frameworks/Nuxt/Shared/Shared|Shared]]
 - ## [[Frontend/Frameworks/Nuxt/Handbook/Handbook|Handbook]]
