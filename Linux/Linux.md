@@ -3,4 +3,4 @@
 - ### [[Linux/Packages/Packages]]
 - ### [[Sh|Shell]]
 - ### [[Distro]]
-- ### [[Прочее]]
+- ### [[Linux/Прочее/Прочее]]
