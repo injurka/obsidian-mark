@@ -1,6 +1,5 @@
 - ### [[Core]]
 - ### [[Editor]]
-- ### [[Linux/Packages/Packages]]
-- ### [[Sh|Shell]]
+- ### [[Linux/Packages/Packages|Packages]]
 - ### [[Distro]]
-- ### [[Linux/Прочее/Прочее]]
+- ### [[Linux/Прочее/Прочее|Прочее]]

@@ -6,7 +6,7 @@
 - ### [[Quick]]
 - ### [[Radix]]
 - ### [[Selection]]
-- ### [[Shell]]
+- ### [[Computer Science/Algorithm/Sort/Shell]]
 - ### [[Bingo]] #TODO
 - ### [[Tim]] #TODO
 - ### [[Comb]] #TODO
