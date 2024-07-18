@@ -1,1 +1,2 @@
 - ### [[use-sync-props]]
+- ### [[use-render]]
