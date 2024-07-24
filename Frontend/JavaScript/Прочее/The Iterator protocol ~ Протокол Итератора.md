@@ -1,7 +1,5 @@
 Одно из нововведений стандарта ECMAScript 2015 - протоколы перебора, которые могут реализованы любым объектом, соблюдая при этом определённые правила.
 
----
-
 ## Протоколы перебора
 
 Протоколы перебора включают [the "iterable" protocol](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Iteration_protocols#the_.22iterable.22_protocol) и [the "iterator" protocol](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Iteration_protocols#the_.22iterator.22_protocol).
@@ -90,13 +88,11 @@ someString[Symbol.iterator] = function () {
 someString + ""; // "hi"
 ```
 
----
 
 ## Встроенная итерируемость
 
 [`String`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String), [`Array`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array), [`TypedArray`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/TypedArray), [`Map` (en-US)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map "Currently only available in English (US)") и [`Set`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Set) итерируемы, так как их прототипы содержат `@@iterator` метод, а [`Object`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object) нет, так как прототип [`Object`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object) не содержит метода `@@iterator`
 
----
 
 ## Итерируемость определённая пользователем
 
@@ -111,8 +107,6 @@ myIterable[Symbol.iterator] = function* () {
 };
 [...myIterable]; // [1, 2, 3]
 ```
-
----
 
 ## Builtin APIs need iterables
 
@@ -143,7 +137,6 @@ new WeakSet(
 
 и [`Promise.all(iterable)`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/all), [`Promise.race(iterable)`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race), [`Array.from()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 
----
 
 ## Синтаксис предполагающий итерируемость
 [for-of](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for...of), [spread](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Spread_syntax), yield*, destructing - использование данного синтаксиса возможно только если типы данных, к которым он применяется, итерируемы:
@@ -177,7 +170,6 @@ nonWellFormedIterable[Symbol.iterator] = () => 1
 [...nonWellFormedIterable] // TypeError: [] is not a function
 ```
 
----
 
 ## Объект-генератор является итератором или итерируемым?
 И тем и другим
@@ -198,7 +190,6 @@ aGeneratorObject[Symbol.iterator]() === aGeneratorObject
 // [1, 2, 3]
 ```
 
----
 
 ## Примеры
 
@@ -275,7 +266,6 @@ console.log(gen.next().value); // '2'
 // ...
 ```
 
----
 
 ## Спецификация
 |Specification|

@@ -2,5 +2,5 @@
 - ### [[Sort]]
 - ### [[Computer Science/Algorithm/Sequence/Sequence|Sequence]]
 - ### [[Recursion]]
-- ### [[Uncategorized]]
+- ### [[Optimization and analysis]]
 - ### [[Theory]]

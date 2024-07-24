@@ -17,7 +17,7 @@
 - ### [[Виды веб приложений]]
 ## Авторизация
 - ### [[Frontend/Web/Авторизация/Terms|Terms]]
-- ### [[Frontend/Web/Авторизация/Basic]]
+- ### [[Frontend/Web/Авторизация/Basic|Basic]]
 - ### [[Digest]]
 - ### [[JWT]]
 - ### [[OAuth 2.0]]

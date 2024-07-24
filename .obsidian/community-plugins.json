@@ -1,7 +1,8 @@
 [
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
-  "obsidian-outliner",
   "obsidian-linter",
-  "obsidian-style-settings"
+  "obsidian-outliner",
+  "obsidian-style-settings",
+  "obsidian-icon-folder"
 ]

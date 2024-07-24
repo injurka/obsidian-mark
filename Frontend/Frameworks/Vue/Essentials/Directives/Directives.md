@@ -1,2 +1,2 @@
-- ### [[Common|Common]]
+- ### [[Common]]
 - ### [[Custom]]

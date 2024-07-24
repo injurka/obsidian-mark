@@ -426,6 +426,16 @@ generator.next()
 Итератор остановит перебор, но его можно использовать повторно.
 
 ```js
+function* getLangs() {
+  try {
+    yield 'java';
+    yield 'js';
+    yield 'rust';
+  } catch (e) {
+      console.log(e)
+  }
+}
+
 const generator = getLangs()
 
 const langs = []
@@ -454,6 +464,7 @@ console.log(langs.length)
 function getLangs() {
   let index = 0
   const langs = ['java', 'js', 'rust']
+
   return {
     [Symbol.iterator](){
       return this
@@ -492,6 +503,23 @@ console.log(langs.length)
 Если присвоить функцию-генератор в свойство `Symbol.iterator` объекта-генератора, то генератор можно использовать повторно.
 
 ```js
+function getLangs() {
+  let index = 0
+  const langs = ['java', 'js', 'rust']
+
+  return {
+    [Symbol.iterator](){
+      return this
+    },
+    next(){
+      return {
+        value: langs[index++],
+        done: index >= langs.length
+      }
+    }
+  }
+}
+
 const generator = getLangs()
 
 //Присвоим функцию-генератор в свойство Symbol.iterator

@@ -1,5 +1,4 @@
 - ### [[Algorithm]]
-- ### [[Data structure]]
 - ### [[Diagram]]
 - ### [[Networks]]
 - ### [[Information Security]]
