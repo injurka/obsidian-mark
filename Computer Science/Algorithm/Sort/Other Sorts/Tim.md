@@ -42,90 +42,128 @@ Tim Sort — это гибридный алгоритм сортировки, п
 Ниже приведена реализация Tim Sort:
 
 ```ts
-function insertionSort(arr: number[], left: number, right: number): void {
-    // Сортировка вставками для подмассива от left до right
-    for (let i = left + 1; i <= right; i++) {
-        const temp = arr[i];
-        let j = i - 1;
-        while (j >= left && arr[j] > temp) {
-            arr[j + 1] = arr[j];
-            j--;
-        }
-        arr[j + 1] = temp;
-    }
-}
+const MIN_MERGE: number = 32; 
 
-function merge(arr: number[], left: number, mid: number, right: number): void {
-    // Объединение двух отсортированных подмассивов
-    const len1 = mid - left + 1;
-    const len2 = right - mid;
-    const L = new Array(len1);
-    const R = new Array(len2);
+function minRunLength(n: number): number { 
+    // Становится 1, если какие-либо 1 биты сдвигаются 
+    let r: number = 0; 
+    while (n >= MIN_MERGE) { 
+        r |= (n & 1); 
+        n >>= 1; 
+    } 
+    return n + r; 
+} 
 
-    // Копирование данных во временные массивы L и R
-    for (let i = 0; i < len1; i++) {
-        L[i] = arr[left + i];
-    }
-    for (let i = 0; i < len2; i++) {
-        R[i] = arr[mid + 1 + i];
-    }
+// Эта функция сортирует массив от левого индекса 
+// до правого индекса, который имеет размер не более RUN 
+function insertionSort(arr: number[], left: number, right: number): void { 
+    for (let i: number = left + 1; i <= right; i++) { 
+        let temp: number = arr[i]; 
+        let j: number = i - 1; 
+        
+        while (j >= left && arr[j] > temp) { 
+            arr[j + 1] = arr[j]; 
+            j--; 
+        } 
+        arr[j + 1] = temp; 
+    } 
+} 
 
-    let i = 0; // Индекс для первого подмассива
-    let j = 0; // Индекс для второго подмассива
-    let k = left; // Индекс для объединенного массива
+// Функция merge объединяет отсортированные прогоны 
+function merge(arr: number[], l: number, m: number, r: number): void { 
+    // Исходный массив разбит на две части 
+    // левый и правый массивы 
+    let len1: number = m - l + 1; 
+    let len2: number = r - m; 
+    let left: number[] = new Array(len1); 
+    let right: number[] = new Array(len2); 
+    for (let x: number = 0; x < len1; x++) { 
+        left[x] = arr[l + x]; 
+    } 
+    for (let x: number = 0; x < len2; x++) { 
+        right[x] = arr[m + 1 + x]; 
+    } 
 
-    // Объединение временных массивов обратно в arr[left..right]
-    while (i < len1 && j < len2) {
-        if (L[i] <= R[j]) {
-            arr[k] = L[i];
-            i++;
-        } else {
-            arr[k] = R[j];
-            j++;
-        }
-        k++;
-    }
+    let i: number = 0; 
+    let j: number = 0; 
+    let k: number = l; 
 
-    // Копирование оставшихся элементов L[], если есть
-    while (i < len1) {
-        arr[k] = L[i];
-        i++;
-        k++;
-    }
+    // После сравнения, мы объединяем эти два 
+    // массива в больший подмассив 
+    while (i < len1 && j < len2) { 
+        if (left[i] <= right[j]) { 
+            arr[k] = left[i]; 
+            i++; 
+        } else { 
+            arr[k] = right[j]; 
+            j++; 
+        } 
+        k++; 
+    } 
 
-    // Копирование оставшихся элементов R[], если есть
-    while (j < len2) {
-        arr[k] = R[j];
-        j++;
-        k++;
-    }
-}
+    // Копируем оставшиеся элементы 
+    // левого, если таковые есть 
+    while (i < len1) { 
+        arr[k] = left[i]; 
+        k++; 
+        i++; 
+    } 
 
-function timSort(arr: number[]): void {
-    const n = arr.length;
-    const RUN = 32; // Размер подмассива для сортировки вставками
+    // Копируем оставшиеся элементы 
+    // правого, если таковые есть 
+    while (j < len2) { 
+        arr[k] = right[j]; 
+        k++; 
+        j++; 
+    } 
+} 
 
-    // Сортировка отдельных подмассивов размером RUN
-    for (let i = 0; i < n; i += RUN) {
-        insertionSort(arr, i, Math.min(i + RUN - 1, n - 1));
-    }
+// Итеративная функция timSort для сортировки 
+// массива[0...n-1] (аналогично merge sort) 
+function timSort(arr: number[], n: number): void { 
+    let minRun: number = minRunLength(MIN_MERGE); 
+        
+    // Сортируем отдельные подмассивы размером RUN 
+    for (let i: number = 0; i < n; i += minRun) { 
+        insertionSort(arr, i, Math.min((i + MIN_MERGE - 1), (n - 1))); 
+    } 
 
-    // Объединение отсортированных подмассивов
-    for (let size = RUN; size < n; size = 2 * size) {
-        for (let left = 0; left < n; left += 2 * size) {
-            const mid = left + size - 1;
-            const right = Math.min(left + 2 * size - 1, n - 1);
-            if (mid < right) {
-                merge(arr, left, mid, right);
-            }
-        }
-    }
-}
+    // Начинаем объединение с размера 
+    // RUN (или 32). Оно будет 
+    // объединяться, образуя размер 64, 
+    // затем 128, 256 и так далее 
+    // .... 
+    for (let size: number = minRun; size < n; size = 2 * size) { 
+        
+        // Выбираем начальную точку 
+        // левого подмассива. Мы 
+        // собираемся объединить 
+        // arr[left..left+size-1] 
+        // и arr[left+size, left+2*size-1] 
+        // После каждого объединения, мы 
+        // увеличиваем left на 2*size 
+        for (let left: number = 0; left < n; left += 2 * size) { 
 
-// Пример использования
-let arr = [4, 2, 8, 6, 1, 5, 9, 3, 7];
-timSort(arr);
-console.log(arr); // Вывод: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            // Находим конечную точку левого подмассива 
+            // mid+1 является начальной точкой правого подмассива 
+            let mid: number = left + size - 1; 
+            let right: number = Math.min((left + 2 * size - 1), (n - 1)); 
+
+            // Объединяем подмассив arr[left.....mid] & 
+            // arr[mid+1....right] 
+            if (mid < right) { 
+                merge(arr, left, mid, right); 
+            } 
+        } 
+    } 
+} 
+
+let arr: number[] = [-2, 7, 15, -14, 0, 15, 0, 7, -7, -4, -13, 5, 8, -14, 12]; 
+let n: number = arr.length; 
+console.log("Заданный массив", arr); 
+timSort(arr, n); 
+
+console.log("После сортировки массив", arr); 
 ```
 
 ### Как реализуется:
@@ -136,7 +174,10 @@ console.log(arr); // Вывод: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 2. **merge**:
    - Функция `merge` объединяет два отсортированных подмассива. Она создает временные массивы `L` и `R` для левой и правой частей соответственно, а затем объединяет их в исходный массив.
 
-3. **timSort**:
+1. **timSort**:
    - Функция `timSort` реализует основной алгоритм Tim Sort.
    - Сначала она сортирует отдельные подмассивы размером `RUN` (в данном случае 32) с использованием `insertionSort`.
    - Затем она объединяет эти отсортированные подмассивы, увеличивая размер слияния вдвое на каждой итерации, пока весь массив не будет отсортирован.
+
+## Источники
+- #### [baeldung](https://www.baeldung.com/cs/timsort)

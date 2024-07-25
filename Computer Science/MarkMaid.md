@@ -41,6 +41,7 @@ mindmap-plugin: basic
         - [[Stooge]]
         - [[Tag]]
         - [[Odd-Even ~ Brick]]
+    - [[Asymptotes]]
 - [[Computer Science/Algorithm/Sequence/Sequence|Sequence]]
     - [[Fibonacci]]
     - [[Arithmetic]]
