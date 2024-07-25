@@ -18,7 +18,5 @@
 - С Memcached можно работать по UDP;
 - Помимо текстового протокола [также существует бинарный](http://code.google.com/p/memcached/wiki/BinaryProtocolRevamped);
 
----
-
 ## Дополнительно
 - ### [Кэширование и Memcached](https://zinvapel.github.io/it/tools/2017/11/27/cache/)

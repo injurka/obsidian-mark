@@ -69,7 +69,8 @@ http {
 
 А в `/etc/nginx/sites-enabled/default`  должно быть следующее(вместо <домен> подставь свой, например, example.com):
 
-# Обычный домен
+## Обычный домен
+
 ```conf
 server {
     listen 443 ssl;

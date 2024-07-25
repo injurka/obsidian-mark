@@ -55,6 +55,5 @@ if (ref) {
 
 Таким образом, в некоторых ситуациях используется меньше памяти.
 
----
 ## Источники
 - #### [learn.javascript](https://learn.javascript.ru/weakref-finalizationregistry)

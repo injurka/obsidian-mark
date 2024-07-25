@@ -11,6 +11,6 @@
 - ### [[Web share API]]
 - ### [[Web speech API]]
 - ### [[WebTransport]]
-- ### [[WebGL]]
 - ### [[Frontend/JavaScript/API браузера/WebRTC|WebRTC]]
 - ### [[WebXR Device API]]
+  
