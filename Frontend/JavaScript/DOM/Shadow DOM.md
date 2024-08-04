@@ -10,6 +10,7 @@
 Браузер рисует их своими силами и по своему усмотрению. Их DOM-структура обычно нам не видна, но в инструментах разработчика можно её посмотреть. К примеру, в Chrome для этого нужно активировать пункт «Show user agent shadow DOM».
 
 После этого `<input type="range">` выглядит так:
+
 ![[./_/shadow-dom-range.png]]
 
 То, что находится под `#shadow-root` – и называется «shadow DOM» (теневой DOM).
@@ -61,6 +62,7 @@ customElements.define('show-hello', class extends HTMLElement {
 ```
 
 А вот как получившийся DOM выглядит в инструментах разработчика в Chrome, весь контент внутри `«#shadow-root»`:
+
 ![[./_/shadow-dom-say-hello.png]]
 
 Итак, вызов `elem.attachShadow({mode: …})` создаёт теневое дерево.

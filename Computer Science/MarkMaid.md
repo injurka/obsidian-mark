@@ -8,7 +8,7 @@ mindmap-plugin: basic
 - [[Search]]
     - [[Linear]]
     - [[Binary]]
-- [[Computer Science/Algorithm/Sort/Other Sorts/Sort|Sort]]
+- [[Computer Science/Algorithm/Sort/Sort|Sort]]
     - Exchange Sorts
         - [[Bubble]]
         - [[Quick]]
@@ -66,6 +66,7 @@ mindmap-plugin: basic
     - [[Dynamic programming]]
     - [[Greedy algorithm]]
     - [[NP-complete problem]]
+    - [[O - notation, complexity]]
     - [[Algorithm concept]]
     - [[Turing machine]]
     - [[Post machine]]
@@ -161,12 +162,11 @@ mindmap-plugin: basic
 - [[The Unlicense]]
 
 ## [[Other]]
-- [[Testing]]
+- [[Testing pyramid]]
 - [[Data transfer]]
 - [[Operating Systems]]
 - [[Mutable vs Immutable Data Types]]
 - [[UUID ~ Universally Unique Identifier]]
-- [[O - нотация, сложность алгоритма]]
 
 ## [[Boolean Algebra]]
 - [[Laws of Boolean Algebra]]

@@ -50,7 +50,5 @@
 <div am-button am-button-large am-button-blue></div>
 ```
 
----
-
 ## Источники
 - #### [habr](https://habr.com/ru/articles/256109/#amcss)

@@ -1,4 +1,4 @@
-- ### [[debounce.ts]] 
+- ### [[debounce.ts]]
 - ### [[get-key-name.ts]]
 - ### [[get-key-value.ts]]
 - ### [[is-mobile.ts]]
@@ -10,3 +10,4 @@
 - ### [[husky]] 
 - ### [[simple-git-hooks]] 
 - ### [[on-emit]] 
+- ### [[convert-interface-into-object]]

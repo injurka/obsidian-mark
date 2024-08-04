@@ -5,3 +5,4 @@
 - ### [[Algorithm concept]]
 - ### [[Turing machine]]
 - ### [[Post machine]]
+- ### [[O - notation, complexity]]

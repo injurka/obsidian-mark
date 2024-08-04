@@ -30,9 +30,6 @@
 - [tailwindcss](https://tailwindcss.com/)
 -  [windicss](https://windicss.org/) deprecated
 
-
----
-
 ## Источники
 - #### [habr1](https://habr.com/ru/articles/432586/)
 - #### [habr2](https://habr.com/ru/articles/777722/)

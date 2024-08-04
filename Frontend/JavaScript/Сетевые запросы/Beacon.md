@@ -17,6 +17,27 @@ Beacon API используется для отправки небольших �
 navigator.sendBeacon('https://example.com/analytics-reporting-url', '{foo: "bar"}');
 ```
 
+```ts
+export function send<T extends BodyInit>(url: string, body: T, isBeacon?: boolean) {
+  try {
+    if (navigator?.sendBeacon && isBeacon) {
+      navigator?.sendBeacon(url, body)
+      return
+    }
+
+    fetch(url, {
+      body,
+      method: 'POST',
+      credentials: 'omit',
+      keepalive: true,
+    })
+  }
+  catch (error) {
+    console.error(':rotating_light: Cannot send metrics', error)
+  }
+}
+```
+
 1. `sendBeacon()` не ограничивается концом жизненного цикла страницы, его можно использовать в любое время.
 2. После вызова `sendBeacon()` браузер добавляет запросы во внутреннюю очередь запросов. Браузер будет усиленно пытаться отправить запросы в очереди.
 3. Браузер гарантирует, что попытается отправить запрос, даже после уничтожения исходной страницы.

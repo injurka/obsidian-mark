@@ -5,6 +5,7 @@
 ## Примеры
 
 Родительский компонент:
+
 <template>
   <ChildComponent ref="childComponentRef" />
 </template>
@@ -37,6 +38,7 @@ onMounted(() => {
 ```
 
 Дочерний компонент:
+
 ```ts
 <script setup lang="ts">
 import { ref, defineExpose } from 'vue';
