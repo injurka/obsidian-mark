@@ -1,4 +1,4 @@
-- #### [[Testing pyramid]]
+- #### [[Testing]]
 - #### [[Data transfer]]
 - #### [[Operating Systems]]
 - #### [[Mutable vs Immutable Data Types]]
