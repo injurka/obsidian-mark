@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "file:-MarkMaid",
+  "collapse-filter": false,
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.06699744995282579,
+  "scale": 0.15074426239385802,
   "close": false
 }

@@ -13,7 +13,6 @@ mindmap-plugin: basic
     - [[Event reference ~ Ссылка на событие]]
     - [[SemVer]]
     - [[Package lock files]]
-    - [[ESM - CommonJS]]
     - [[VirtualDOM Implement]]
 - Рендеринг
     - [[Render ~ Движки рендеринга]]
@@ -187,6 +186,7 @@ mindmap-plugin: basic
     - [[spread]]
     - [[rest]]
 - [[API браузера]]
+    - [[Console]]
     - [[Broadcast Channel]]
     - [[Page Visibility]]
     - [[File system Access]]
@@ -199,6 +199,7 @@ mindmap-plugin: basic
         - [[Dedicated Workers]]
         - [[Shared Workers]]
         - [[Service Workers]]
+    - [[Web Push]]
     - [[Web Assembly]]
     - [[Web Animation]]
     - [[Web Share]]

@@ -1,3 +1,4 @@
+- ### [[Console]]
 - ### [[Broadcast Channel]]
 - ### [[Page Visibility]]
 - ### [[File system Access]]
@@ -5,6 +6,7 @@
 - ### [[Media Session]]
 - ### [[Custom Elements]]
 - ### [[Intl]]
+- ### [[Web Push]]
 - ### [[Web Workers]]
 - ### [[Web Assembly]]
 - ### [[Web Animation]]

@@ -71,9 +71,6 @@ document.addEventListener("visibilitychange", () => {
 
 <iframe src="https://caniuse.bitsofco.de/embed/index.html?feat=pagevisibility" frameborder="0" width="100%" height="510px"></iframe>
 
-
----
-
 ## Источники
 - #### [mdn](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API)
 - #### [habr](https://habr.com/ru/companies/timeweb/articles/691992/)

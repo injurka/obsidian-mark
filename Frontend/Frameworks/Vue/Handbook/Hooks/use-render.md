@@ -1,4 +1,10 @@
 ```ts
+// Utilities
+import { getCurrentInstance as _getCurrentInstance } from 'vue'
+
+// Types
+import type { VNode } from 'vue'
+
 export function getCurrentInstance(name: string, message?: string) {
   const vm = _getCurrentInstance()
 
