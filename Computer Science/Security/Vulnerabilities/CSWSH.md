@@ -4,8 +4,8 @@
 
 Чтобы можно было точнее понять суть ее работы, сперва вспомним следующие понятия:
 
-- Site - совокупность eTLD+1 и схемы*
-- Origin - совокупность схемы, хоста порта
+- `Site` - совокупность eTLD+1 и схемы*
+- `Origin` - совокупность схемы, хоста порта
 
 ![[origin-scheme.png]]
 
@@ -18,7 +18,6 @@
 >
 > The request's URL when establishing a WebSockets connection has scheme “http” or “https”, rather than “ws” or “wss”. FETCH maps schemes when constructing the request. This mapping allows same‑site cookies to be sent with WebSockets.
 
----
 
 ## Как воспроизвести!?
 

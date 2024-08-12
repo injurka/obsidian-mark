@@ -1,7 +1,7 @@
 - ### [[Algorithm]]
 - ### [[Diagram]]
 - ### [[Networks]]
-- ### [[Information Security]]
+- ### [[Security]]
 - ### [[Methodology]]
 - ### [[Cryptography]]
 - ### [[Programming Language]]

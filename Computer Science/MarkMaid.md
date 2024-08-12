@@ -118,7 +118,7 @@ mindmap-plugin: basic
 - [[TCP~IP]]
 - [[TLS]]
 
-## [[Information Security]]
+## [[Security]]
 - [[CORS]]
 - [[CSRF]]
 - [[CSWSH]]
