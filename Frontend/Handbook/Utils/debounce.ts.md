@@ -1,3 +1,5 @@
+![[./_/throttle.ts.png]]
+
 ```ts
 const debounce = <F extends (...args: any[]) => any>(func: F, waitFor: number) => {
   let timeout: ReturnType<typeof setTimeout> | null = null;

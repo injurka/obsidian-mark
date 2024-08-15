@@ -1,6 +1,0 @@
-- ### [[ref]]
-- ### [[reactive]]
-- ### [[shallowRef]]
-- ### [[watch]]
-- ### [[watchEffect]]
-- ### [[Разница между vue 2 и 3]]

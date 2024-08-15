@@ -1,5 +1,6 @@
 - ### [[Lifecycle Hooks]]
+- ### [[API Styles]]
 - ### [[Directives]]
 - ### [[Mixins]]
-- ### [[Reactivity]]
-- ### [[Render-функции]]
+- ### [[Reactivity System]]
+- ### [[Render Function]]

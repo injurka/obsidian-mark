@@ -1,7 +1,1 @@
-- ### [[Agile Model]]
-- ### [[Incremental Model]]
-- ### [[Iterative Model]]
-- ### [[RAD Model]]
-- ### [[Spiral Model]]
-- ### [[V-Model]]
-- ### [[Waterfall Model]]
+- ## [[Software Development Methodology]]

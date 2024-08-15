@@ -1,4 +1,3 @@
-
 ## Colored console log
 
 ```ts

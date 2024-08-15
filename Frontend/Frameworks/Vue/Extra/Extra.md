@@ -1,6 +1,5 @@
 - ### [[Rendering Mechanism]]
 - ### [[Reactivity in Depth]]
 - ### [[nextTick()]]
-- ### [[Server-Side Rendering (SSR)]]
 - ### [[CSS Features]]
 - ### [[Comparison with Other Frameworks]]

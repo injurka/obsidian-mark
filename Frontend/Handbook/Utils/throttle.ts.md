@@ -1,3 +1,5 @@
+![[./_/throttle.ts.png]]
+
 ```ts
 function throttle(fn: Function, wait: number = 300) {
   let inThrottle: boolean,

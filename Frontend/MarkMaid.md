@@ -5,7 +5,7 @@ mindmap-plugin: basic
 # Frontend
 
 ## [[Web]]
-- Общее
+- [[Frontend/Web/Общее/Общее|Общее]]
     - [[Event loop ~ Цикл событий]]
     - [[Reflow Repaint]]
     - [[How work browser ~ Как работает браузер]]
@@ -14,11 +14,11 @@ mindmap-plugin: basic
     - [[SemVer]]
     - [[Package lock files]]
     - [[VirtualDOM Implement]]
-- Рендеринг
+- [[Рендеринг]]
     - [[Render ~ Движки рендеринга]]
     - [[V8 ~ Оптимизация кода]]
     - [[CRP ~ Критический путь рендеринга]]
-- Технологии веб-разработки
+- [[Технологии веб-разработки]]
     - [[Методы рендеринга]]
         - [[SSG ~ Static Site Generation]]
         - [[CSR ~ Client Side Rendering]]
@@ -28,7 +28,7 @@ mindmap-plugin: basic
         - [[MPA ~ Multi Page Application]]
         - [[PWA ~ Progressive Web Application]]
         - [[SPA ~ Single Page Application]]
-- Авторизация
+- [[Авторизация]]
     - [[Frontend/Web/Авторизация/Terms|Terms]]
     - [[Frontend/Web/Авторизация/Basic|Basic]]
     - [[Digest]]
@@ -47,7 +47,7 @@ mindmap-plugin: basic
     - [[Якорная ссылка]]
 
 ## [[CSS]]
-- Основы
+- [[Frontend/CSS/Основы/Основы|Основы]]
     - [[Единицы измерения]]
     - [[Поточная раскладка]]
     - [[Контекст форматирования]]
@@ -57,7 +57,7 @@ mindmap-plugin: basic
     - Селекторы
         - [[Комбинировние селекторов]]
         - [[Специфичность]]
-- Методологии
+- [[Методологии]]
     - [[BEM]]
     - [[CUBE]]
     - [[ITCSS]]
@@ -66,7 +66,7 @@ mindmap-plugin: basic
     - [[AMCSS]]
     - [[MCSS]]
     - [[Atomic]]
-- Препроцессоры
+- [[Препроцессоры]]
     - [[SCSS]]
     - [[Less]]
     - [[Stylus]]
@@ -87,8 +87,8 @@ mindmap-plugin: basic
     - [[Средства анализа и форматирования кода]]
     - [[Пакетные менеджеры]]
         - [[npm]]
-	        - [[package-lock.json]]
-	        - [[registry]]
+            - [[package-lock.json]]
+            - [[registry]]
         - [[yarn]]
         - [[pnpm]]
         - [[bun]]
@@ -98,10 +98,10 @@ mindmap-plugin: basic
     - [[Управление памятью]]
     - [[Утечки памяти]]
 - [[Анимации]]
-	- [[canvas]]
-	- [[requestAnimationFrame]]
-	- [[Frontend/JavaScript/Анимации/WebGL|WebGL]]
-- [[Операторы]]
+    - [[canvas]]
+    - [[requestAnimationFrame]]
+    - [[Frontend/JavaScript/Анимации/WebGL|WebGL]]
+- [[Frontend/JavaScript/Операторы/Операторы]]
     - [[«запятая»]]
     - [[Возведения в степень]]
     - [[Логические]]
@@ -115,10 +115,10 @@ mindmap-plugin: basic
     - [[Эквивалентности]]
 - [[DOM]]
     - [[Иерархия узлов]]
-        - [[Document]]
-        - [[Text]]
-        - [[Element]]
-        - [[Node]]
+        - [[Тип Document]]
+        - [[Тип Text]]
+        - [[Тип Element]]
+        - [[Тип Node]]
     - [[Взаимодействия с DOM]]
         - [[HTMLCollection и NodeList]]
     - [[Наблюдатели]]
@@ -204,16 +204,16 @@ mindmap-plugin: basic
     - [[Web Animation]]
     - [[Web Share]]
     - [[Web Speech]]
-    - [[WebTransport]]
+    - [[Web Transport]]
     - [[Frontend/JavaScript/API браузера/WebRTC/WebRTC|WebRTC]]
-	    - [[Схема работы]]
-	    - [[Сбор метрик getStats]]
-		- [[Процесс формирования SDP]]
-		- [[Кодеки в WebRTC]]
-		- [[Переподключение при разрыве]]
-		- [[Эхоподавлением]]
-		- [[Ограничение доступа использования]]
-    - [[WebXR Device]]
+        - [[Схема работы]]
+        - [[Сбор метрик getStats]]
+        - [[Процесс формирования SDP]]
+        - [[Кодеки в WebRTC]]
+        - [[Переподключение при разрыве]]
+        - [[Эхоподавлением]]
+        - [[Ограничение доступа использования]]
+    - [[Web XR Device]]
 - [[Frontend/JavaScript/Прочее/Прочее|Прочее]]
     - [[Поверхностное и глубокое копирование]]
     - [[package-json]]
@@ -228,13 +228,13 @@ mindmap-plugin: basic
     - [[WeakRef]]
     - [[FinalizationRegistry]]
     - [[Сборщики]]
-- [[Полезные ссылки]]
+- [[Frontend/JavaScript/Полезные ссылки]]
     - [mdn](https://developer.mozilla.org/ru/docs/Web/JavaScript)
     - [learn-js](https://learn.javascript.ru)
     - [doka](https://doka.guide/js/)
 
 ## [[TypeScript]]
-- Система типов
+- [[Система типов]]
     - [[Иерархия типов]]
     - [[Индексные типы ~ Index Types]]
     - [[Литеральные типы ~ Literals Types]]
@@ -245,11 +245,11 @@ mindmap-plugin: basic
     - [[Шаблонные литеральные типы ~ Template Literal Type]]
     - [[Защитники типа ~ Type Guard]]
     - [[Утверждение типов ~ Type Assertion]]
-- Операторы
+- [[Frontend/TypeScript/Операторы/Операторы|Операторы]]
     - [[keyof]]
     - [[typeof]]
     - [[instanceof]]
-- Utility Types
+- [[Utility Types]]
     - [[Exclude]]
     - [[Extract]]
     - [[NonNullable]]
@@ -261,7 +261,7 @@ mindmap-plugin: basic
     - [[Required]]
     - [[Pick]]
     - [[Record]]
-- Общее
+- [[Frontend/TypeScript/Общее/Общее|Общее]]
     - [[Краткий обзор]]
     - [[tsconfig]]
         - [[Все параметры компиляции]]
@@ -277,17 +277,30 @@ mindmap-plugin: basic
     - [[Структурная типизация TS]]
     - [[any и unknown]]
     - [[tsc]]
-- Задачи
-    - [[Квизы ~ Quiz]]
-    - [[Испытания ~ Challenge]]
-- Полезные ссылки
+- [[Decorators]]
+    - [[Types of decorators]]
+        - [[Class decorators]]
+        - [[Property decorators]]
+        - [[Accessor decorators]]
+        - [[Method decorators]]
+        - [[Parameter decorators]]
+    - [[Advanced decorator patterns]]
+        - [[Decorator factory]]
+        - [[Decorator composition]]
+        - [[Automatic error guard]]
+    - [[Cheatsheet]]
+        - [[Calculating execution time]]
+- [[Проверка знаний]]
+    - [[Квизы]]
+    - [[Испытания]]
+- [[Frontend/TypeScript/Полезные ссылки|Полезные ссылки]]
     - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
     - [TypeScript  глубокое погружение](https://igorfonin.gitbook.io/typescript-book-ru/typescript-type-system/callable#newable)
     - [ScriptDev](https://scriptdev.ru/guide/)
 
 ## [[Frameworks]]
 - [[Vue]]
-    - Essentials
+    - [[Frontend/Frameworks/Vue/Essentials/Essentials|Essentials]]
         - [[Lifecycle Hooks]]
             - [[Разница хуков setup и options api]]
             - [[Composition api hooks]]
@@ -295,23 +308,24 @@ mindmap-plugin: basic
         - [[Directives]]
             - [[Common]]
             - [[Custom]]
-        - [[Reactivity]]
+        - [[Reactivity System]]
             - [[ref]]
             - [[reactive]]
+            - [[customRef]]
             - [[shallowRef]]
             - [[watch]]
             - [[watchEffect]]
             - [[Разница между vue 2 и 3]]
-        - [[Render-функции]]
+        - [[Render Function]]
             - [[JSX]]
             - [[h]]
         - [[Mixins]]
-    - Components
+    - [[Frontend/Frameworks/Vue/Handbook/Components/Components|Components]]
         - [[Slots]]
         - [[defineComponent]]
         - [[defineAsyncComponent]]
         - [[Provide ~ Inject]]
-    - SFC
+    - [[SFC]]
         - [[script setup]]
         - [[Macros]]
             - [[defineEmits]]
@@ -320,22 +334,21 @@ mindmap-plugin: basic
             - [[defineOptions]]
             - [[defineModel]]
         - [[Top-level await]]
-    - Rendering Mechanism
+    - [[Rendering Mechanism]]
         - [[Rendering Mechanism]]
         - [[Reactivity in Depth]]
         - [[nextTick()]]
-        - [[Server-Side Rendering (SSR)]]
         - [[CSS Features]]
         - [[Comparison with Other Frameworks]]
-    - State Management
+    - [[State Management]]
         - [[Pinia]]
         - [[Vuex]]
-    - Handbook
+    - [[Frontend/Frameworks/Vue/Handbook/Handbook|Handbook]]
         - [[Frontend/Frameworks/Vue/Handbook/Hooks/Hooks|Hooks]]
         - [[Frontend/Frameworks/Vue/Handbook/Utils/Utils|Utils]]
         - [[Components]]
         - [[Debug Watcher]]
-    - Полезные ссылки / Источники
+    - [[Frontend/Frameworks/Vue/Полезные ссылки|Полезные ссылки]]
         - [vuejs org](https://vuejs.org/)
         - [ru vuejs org](https://v3.ru.vuejs.org/)
         - [vue tips](https://mokkapps.de/vue-tips)
