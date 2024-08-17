@@ -1,4 +1,4 @@
-- ### [[What is architecture?]]
+- ### [[What is architecture]]
 - ### [[Architectural Patterns]]
 - ### [[Design Patterns]]
 - ### [[Design Methodology]]
