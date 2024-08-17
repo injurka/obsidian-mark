@@ -355,7 +355,7 @@ mindmap-plugin: basic
 - [[Nuxt]]
     - [[Frontend/Frameworks/Nuxt/Essentials/Essentials|Essentials]]
         - [[Data Fetching]]
-    - [[Architectural]]
+    - [[Frontend/Frameworks/Nuxt/Architectural/Architectural]]
         - [[Promt]]
         - [[Moduled.excalidraw]]
     - [[Frontend/Frameworks/Nuxt/Shared/Shared|Shared]]

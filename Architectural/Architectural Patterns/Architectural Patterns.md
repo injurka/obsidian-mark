@@ -1,13 +1,5 @@
-- ### [[MVC]]
-- ### [[MVP]]
-- ### [[CQRS]]
-- ### [[MVVM]]
+- ### [[MVC]] - `Model-View-Controller`
+- ### [[MVP]] - `Model-View-Presenter`
+- ### [[MVVM]] - `Model-View-ViewModel`
 - ### [[Pure|Pure ~ Чистая / Трёхслойная]]
-- ### [[DDD|DDD ~ Domain-driven design]]
 - ### [[Vertical Sliced]]
-- ### [[Rate Limiting]]
-- ### [[Health Endpoint Monitoring]]
-- ### [[Saga]]
-- ### [[Event sourcing]]
-- ### [[Strangler Fig]]
-- ### [[IOC]]

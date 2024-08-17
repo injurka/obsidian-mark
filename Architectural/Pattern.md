@@ -1,3 +1,0 @@
-- ### [[Design Patterns]]
-- ### [[Architectural Patterns]]
-- ### [[Principles Programming]]

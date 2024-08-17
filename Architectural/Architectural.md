@@ -1,0 +1,7 @@
+- ### [[What is architecture?]]
+- ### [[Architectural Patterns]]
+- ### [[Design Patterns]]
+- ### [[Design Methodology]]
+- ### [[Data Management Patterns]]
+- ### [[Managing the system and project]]
+- ### [[Principles Programming]]
