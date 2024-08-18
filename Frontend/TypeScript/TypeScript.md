@@ -3,4 +3,4 @@
 - ### [[Frontend/TypeScript/Операторы/Операторы|Операторы]]
 - ### [[Utility Types]]
 - ### [[Decorators]]
-- ### [[Frontend/TypeScript/Полезные ссылки]]
+- ### [[Frontend/TypeScript/Полезные ссылки|Полезные ссылки]]
