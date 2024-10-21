@@ -15,8 +15,6 @@ export const useSyncProps = <T>(props: any, key: string, emit: any): WritableCom
 };
 ```
 
----
-
 ## Пример использования
 
 ```ts

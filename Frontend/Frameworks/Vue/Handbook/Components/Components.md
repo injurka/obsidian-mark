@@ -1,2 +1,2 @@
-- ### [[carousel]]
-- ### [[picture similarity]]
+- ### [[Carousel]]
+- ### [[Picture similarity]]
