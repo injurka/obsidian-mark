@@ -1,2 +1,2 @@
-- ### [[use-sync-props]]
+- ### [[Frontend/Frameworks/Vue/Handbook/Hooks/use-sync-props]]
 - ### [[use-render]]

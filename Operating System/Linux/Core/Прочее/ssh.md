@@ -61,3 +61,7 @@ _Где:
 - **ForwardAgent** и **AddKeysToAgent** — эта опция служит для организации безопасного проброса ключа (agent forwarding), позволяет осуществить доступ удаленного хоста к локальному SSH-агенту пользователя.
 
 ### ssh-copy-id
+
+
+## Источники
+- #### [ssh-academy](https://www.ssh.com/academy/ssh/sshd_config)
