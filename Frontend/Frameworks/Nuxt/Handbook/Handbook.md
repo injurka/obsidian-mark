@@ -1,1 +1,2 @@
 - ### [[Frontend/Frameworks/Nuxt/Handbook/Packages/Packages|Packages]]
+- ### [[ImageToBase64]]

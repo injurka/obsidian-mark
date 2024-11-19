@@ -1,0 +1,6 @@
+- ### [[Оптимизация]]
+- ### [[Очистка системы]]
+- ### [[Package Managers]]
+- ### [[Downgrade pkg]]
+- ### [[Playwright]]
+- ### [[Operating System/Linux/Distro/Arch/Dots|Dots]]

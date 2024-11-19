@@ -1,1 +1,2 @@
 - ### [[DDD|DDD ~ Domain-driven design]]
+- ### [[Fat and Thin client]]

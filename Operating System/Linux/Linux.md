@@ -1,0 +1,5 @@
+- ### [[Core]]
+- ### [[Editor]]
+- ### [[Operating System/Linux/Packages/Packages|Packages]]
+- ### [[Distro]]
+- ### [[Operating System/Linux/Прочее/Прочее|Прочее]]

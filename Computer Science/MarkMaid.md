@@ -19,7 +19,7 @@ mindmap-plugin: basic
         - [[Heap]]
     - Insertion Sorts
         - [[Insertion]]
-        - [[Shell]]
+        - [[Computer Science/Algorithm/Sort/Insertion Sorts/Shell]]
         - [[Gnome]]
     - Merge Sorts
         - [[Merge]]
