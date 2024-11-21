@@ -6,4 +6,5 @@ dg-publish: true
 - ### [[Frontend/TypeScript/Операторы/Операторы|Операторы]]
 - ### [[Utility Types]]
 - ### [[Decorators]]
+- ### [[Проверка знаний]]
 - ### [[Frontend/TypeScript/Полезные ссылки|Полезные ссылки]]

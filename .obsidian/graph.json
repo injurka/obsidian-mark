@@ -5,18 +5,61 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Frontend  ",
+      "color": {
+        "a": 1,
+        "rgb": 9726976
+      }
+    },
+    {
+      "query": "path:\"Computer Science\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5408992
+      }
+    },
+    {
+      "query": "path:Architectural  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Data Science\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11752160
+      }
+    },
+    {
+      "query": "path:Gamedev  ",
+      "color": {
+        "a": 1,
+        "rgb": 3009452
+      }
+    },
+    {
+      "query": "path:\"Operating System\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701173
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -1.2,
   "nodeSizeMultiplier": 1.14635416666667,
   "lineSizeMultiplier": 1.2484375,
-  "collapse-forces": true,
-  "centerStrength": 0.40625,
+  "collapse-forces": false,
+  "centerStrength": 0.421875,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.10049617492924012,
+  "scale": 0.059326171875,
   "close": false
 }

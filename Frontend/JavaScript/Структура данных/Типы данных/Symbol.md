@@ -95,6 +95,8 @@ console.log(Symbol.keyFor(newSym))
 
 ## Примеры задач
 
+> Реализовать кастомный `split`
+
 ```js
 class MySplit {
   constructor(value) {
@@ -107,3 +109,121 @@ class MySplit {
 
 "foo.bar.foo.baz".split(new MySplit(".")) // "foo-var-foo-baz"
 ```
+
+> Реализовать кастомный преобразование к примитиву
+
+```js
+const obj = {
+  valueOf() {
+    return 42;
+  },
+  [Symbol.toPrimitive](hint) {
+    if (hint === 'number') {
+      return this.valueOf();
+    }
+    if (hint === 'string') {
+      return 'forty-two';
+    }
+    return null;
+  }
+};
+
+console.log(+obj); // 42
+console.log(`${obj}`); // 'forty-two'
+console.log(obj + ''); // 'null'
+```
+
+> Скрыть переменную для чтения
+
+```js
+const obj = {
+  foo: 1,
+  bar: 2,
+  [Symbol.unscopables]: {
+    bar: true
+  }
+};
+
+with (obj) {
+  console.log(foo); // 1
+  console.log(bar); // ReferenceError: bar is not defined
+}
+```
+
+> Итерировать объект по значению
+
+```js
+const obj = {
+  a: 1,
+  b: 2,
+  c: 3,
+  [Symbol.iterator]() {
+    const keys = Object.keys(this);
+    let index = 0;
+    
+    return {
+      next: () => {
+        if (index < keys.length) {
+          const key = keys[index];
+          index++;
+          
+          return { value: [key, this[key]], done: false };
+        } else {
+          return { done: true };
+        }
+      }
+    };
+  }
+};
+
+for (const [key, value] of obj) {
+  console.log(`${key}: ${value}`); // Вывод: a: 1, b: 2, c: 3
+}
+```
+
+> Итерировать объект по значению через generator yield
+
+```js
+const obj = {
+  a: 1,
+  b: 2,
+  c: 3,
+  *[Symbol.iterator]() {
+    for (const key of Object.keys(this)) {
+      yield [key, this[key]];
+    }
+  }
+};
+
+for (const [key, value] of obj) {
+  console.log(`${key}: ${value}`); // Вывод: a: 1, b: 2, c: 3
+}
+```
+
+> Итерировать объект по значению через async
+
+```js
+const asyncIterable = {
+  data: [1, 2, 3],
+  [Symbol.asyncIterator]() {
+    let index = 0;
+    return {
+      next: async () => {
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Имитация задержки
+        if (index < this.data.length) {
+          return { value: this.data[index++], done: false };
+        } else {
+          return { done: true };
+        }
+      }
+    };
+  }
+};
+
+(async () => {
+  for await (const item of asyncIterable) {
+    console.log(item); // Вывод: 1, 2, 3 (с задержкой в 1 секунду между каждым элементом)
+  }
+})();
+```
+
