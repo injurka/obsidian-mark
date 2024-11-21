@@ -1,6 +1,10 @@
+---
+dg-publish: true
+---
 - ### [[Frontend/TypeScript/Общее/Общее|Общее]]
 - ### [[Система типов]]
 - ### [[Frontend/TypeScript/Операторы/Операторы|Операторы]]
 - ### [[Utility Types]]
 - ### [[Decorators]]
+- ### [[Проверка знаний]]
 - ### [[Frontend/TypeScript/Полезные ссылки|Полезные ссылки]]

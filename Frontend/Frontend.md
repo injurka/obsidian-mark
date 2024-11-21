@@ -1,8 +1,11 @@
+---
+dg-publish: true
+---
 - ### [[Web]]
 - ### [[HTML]]
 - ### [[CSS]]
-- ### [[JavaScript]]
-- ### [[TypeScript]]
+- ### [[Frontend/JavaScript/JavaScript]]
+- ### [[Frontend/TypeScript/TypeScript]]
 - ### [[Frameworks]]
 - ### [[Frontend/Источники|Источники]]
 
