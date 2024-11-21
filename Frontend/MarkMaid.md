@@ -73,7 +73,7 @@ mindmap-plugin: basic
 - [[Заметки]]
     - [[Центрирование по центру]]
 
-## [[JavaScript]]
+## [[Frontend/JavaScript/JavaScript]]
 - [[Экосистема JavaScript]]
     - [[История JavaScript]]
     - [[ECMAScript|Ядро (ECMAScript)]]
@@ -233,7 +233,7 @@ mindmap-plugin: basic
     - [learn-js](https://learn.javascript.ru)
     - [doka](https://doka.guide/js/)
 
-## [[TypeScript]]
+## [[Frontend/TypeScript/TypeScript]]
 - [[Система типов]]
     - [[Иерархия типов]]
     - [[Индексные типы ~ Index Types]]

@@ -1,0 +1,3 @@
+- ### [[Programming Languages/JavaScript|JavaScript]]
+- ### [[Programming Languages/TypeScript|TypeScript]]
+- ### [[C++]]

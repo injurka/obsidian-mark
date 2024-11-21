@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 - ### [[Экосистема JavaScript]]
 - ### [[Инструменты]]
 - ### [[Frontend/JavaScript/Операторы/Операторы]]

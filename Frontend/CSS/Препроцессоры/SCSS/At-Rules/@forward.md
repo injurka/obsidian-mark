@@ -4,7 +4,7 @@
 
 Правило `@forward` записывается как:
 
-```scss
+```Zscss
 @forward "<url>";
 ```
 
