@@ -1,2 +1,2 @@
-- ### [[Promt]]
+- ### [[Frontend/Frameworks/Nuxt/Architectural/Promt]]
 - ### [[Moduled.excalidraw]]

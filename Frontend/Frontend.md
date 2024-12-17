@@ -6,6 +6,6 @@ dg-publish: true
 - ### [[CSS]]
 - ### [[Frontend/JavaScript/JavaScript]]
 - ### [[Frontend/TypeScript/TypeScript]]
-- ### [[Frameworks]]
+- ### [[Frontend/Frameworks/Frameworks]]
 - ### [[Frontend/Источники|Источники]]
 

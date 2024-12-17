@@ -298,7 +298,7 @@ mindmap-plugin: basic
     - [TypeScript  глубокое погружение](https://igorfonin.gitbook.io/typescript-book-ru/typescript-type-system/callable#newable)
     - [ScriptDev](https://scriptdev.ru/guide/)
 
-## [[Frameworks]]
+## [[Frontend/Frameworks/Frameworks]]
 - [[Vue]]
     - [[Frontend/Frameworks/Vue/Essentials/Essentials|Essentials]]
         - [[Lifecycle Hooks]]
@@ -356,7 +356,7 @@ mindmap-plugin: basic
     - [[Frontend/Frameworks/Nuxt/Essentials/Essentials|Essentials]]
         - [[Data Fetching]]
     - [[Frontend/Frameworks/Nuxt/Architectural/Architectural]]
-        - [[Promt]]
+        - [[Frontend/Frameworks/Nuxt/Architectural/Promt]]
         - [[Moduled.excalidraw]]
     - [[Frontend/Frameworks/Nuxt/Shared/Shared|Shared]]
         - [[DevTools]]
