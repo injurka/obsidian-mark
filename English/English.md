@@ -1,2 +1,0 @@
-- ### [[Tense types]]
-- ### [[Particles]]
