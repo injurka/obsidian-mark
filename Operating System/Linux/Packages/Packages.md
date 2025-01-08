@@ -1,4 +1,5 @@
 - ### [[nvm]]
+- ### [[ohmyz]]
 - ### [[syncthing]]
 - ### [[wireguard]]
 - ### [[tor browser]]
