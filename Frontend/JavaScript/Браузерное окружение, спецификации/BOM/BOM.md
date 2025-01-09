@@ -16,8 +16,9 @@ navigator      screen      location       fetch        history     ...
 
 ```
 
-- ### [[window]]
-- ### [[location]]
+- ### [[window]] (Корень)
 - ### [[navigator]]
 - ### [[screen]]
+- ### [[location]]
+- ### [[fetch]]
 - ### [[history]]

@@ -1,10 +1,10 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "",
   "accentColor": "#ea4c81",
   "enabledCssSnippets": [
     "global",
     "cn"
   ],
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSize": 16
 }

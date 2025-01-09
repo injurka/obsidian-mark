@@ -11,7 +11,7 @@
 
 После этого `<input type="range">` выглядит так:
 
-![[./_/shadow-dom-range.png]]
+![[shadow-dom-range.png]]
 
 То, что находится под `#shadow-root` – и называется «shadow DOM» (теневой DOM).
 
@@ -63,7 +63,7 @@ customElements.define('show-hello', class extends HTMLElement {
 
 А вот как получившийся DOM выглядит в инструментах разработчика в Chrome, весь контент внутри `«#shadow-root»`:
 
-![[./_/shadow-dom-say-hello.png]]
+![[shadow-dom-say-hello.png]]
 
 Итак, вызов `elem.attachShadow({mode: …})` создаёт теневое дерево.
 

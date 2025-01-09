@@ -159,7 +159,7 @@ mindmap-plugin: basic
     - [[WebSocket]]
     - [[Server Sent Events]]
     - [[Long Polling]]
-    - [[Fetch]]
+    - [[Frontend/JavaScript/Сетевые запросы/Fetch]]
     - [[XMLHttpRequest]]
     - [[Beacon]]
 - [[Хранение данных в браузере]]
