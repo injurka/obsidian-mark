@@ -1,3 +1,0 @@
-- ### [[Decorator factory]]
-- ### [[Decorator composition]]
-- ### [[Automatic error guard]]

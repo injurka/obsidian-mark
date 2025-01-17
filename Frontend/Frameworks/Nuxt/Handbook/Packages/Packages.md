@@ -1,1 +1,2 @@
 - ### [[Sentry]]
+- ### [[NuxtFonts]]

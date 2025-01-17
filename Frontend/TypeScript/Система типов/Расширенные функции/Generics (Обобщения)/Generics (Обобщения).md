@@ -1,0 +1,3 @@
+- ### [[Что такое Generics (Обобщения)]]
+- ### [[Generics высшего порядка]]
+- ### [[Generic Constraints]]
