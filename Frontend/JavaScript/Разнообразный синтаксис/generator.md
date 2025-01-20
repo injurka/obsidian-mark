@@ -8,7 +8,6 @@ keywords:
   - iterator
   - yield
 ---
-
 ## Кратко
 
 
