@@ -8,45 +8,87 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Frontend  ",
+      "query": "path:Frontend",
       "color": {
         "a": 1,
-        "rgb": 9726976
+        "rgb": 5526612
       }
     },
     {
       "query": "path:\"Computer Science\"  ",
       "color": {
         "a": 1,
-        "rgb": 5408992
+        "rgb": 5431439
       }
     },
     {
       "query": "path:Architectural  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 14720594
       }
     },
     {
       "query": "path:\"Data Science\"  ",
       "color": {
         "a": 1,
-        "rgb": 11752160
+        "rgb": 5431485
       }
     },
     {
       "query": "path:Gamedev  ",
       "color": {
         "a": 1,
-        "rgb": 3009452
+        "rgb": 15417389
       }
     },
     {
       "query": "path:\"Operating System\"  ",
       "color": {
         "a": 1,
-        "rgb": 14701173
+        "rgb": 10543186
+      }
+    },
+    {
+      "query": "path:\"Git\" ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:\"Personal Note\"",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "path:\"Languages\"",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "path:\"Shared\"",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:Database  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:Design  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
       }
     }
   ],
@@ -60,6 +102,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.11660891579457319,
+  "scale": 0.3935550908066845,
   "close": false
 }
