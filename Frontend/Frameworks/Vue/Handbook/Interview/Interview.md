@@ -5,3 +5,5 @@
 - ### [[sync-value]]
 - ### [[sync-v-model]]
 - ### [[slots]]
+- ### [[directive-priority]]
+- ### [[getters]]
