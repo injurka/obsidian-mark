@@ -1,7 +1,4 @@
-- ### [[Essentials]]
-- ### [[Components]]
-- ### [[SFC]]
-- ### [[Extra]]
+- ### [[Core Concepts]]
 - ### [[State Management]]
 - ### [[Frontend/Frameworks/Vue/Handbook/Handbook|Handbook]]
 - ### [[Frontend/Frameworks/Vue/Полезные ссылки|Полезные ссылки]]
