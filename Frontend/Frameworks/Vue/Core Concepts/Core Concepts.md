@@ -1,0 +1,3 @@
+- ### [[Frontend/Frameworks/Vue/Core Concepts/Essentials/Essentials|Essentials]]
+- ### [[Frontend/Frameworks/Vue/Core Concepts/Components/Components|Components]]
+- ### [[SFC]]

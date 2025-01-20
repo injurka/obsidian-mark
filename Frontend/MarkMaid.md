@@ -41,7 +41,7 @@ mindmap-plugin: basic
 - [[Frontend/HTML/Основы/Основы]]
     - [[Асинхронная загрузка (async, defer)]]
     - [[Поток документа и позиционирование элементов]]
-- [[Теги]]
+- [[Frontend/HTML/Теги/Теги]]
     - [[SVG и Canvas]]
 - [[Заметки]]
     - [[Якорная ссылка]]
@@ -300,7 +300,7 @@ mindmap-plugin: basic
 
 ## [[Frontend/Frameworks/Frameworks]]
 - [[Vue]]
-    - [[Frontend/Frameworks/Vue/Essentials/Essentials|Essentials]]
+    - [[Frontend/Frameworks/Vue/Core Concepts/Essentials/Essentials|Essentials]]
         - [[Lifecycle Hooks]]
             - [[Разница хуков setup и options api]]
             - [[Composition api hooks]]
@@ -346,7 +346,7 @@ mindmap-plugin: basic
     - [[Frontend/Frameworks/Vue/Handbook/Handbook|Handbook]]
         - [[Frontend/Frameworks/Vue/Handbook/Hooks/Hooks|Hooks]]
         - [[Frontend/Frameworks/Vue/Handbook/Utils/Utils|Utils]]
-        - [[Components]]
+        - [[Frontend/Frameworks/Vue/Core Concepts/Components/Components]]
         - [[Debug Watcher]]
     - [[Frontend/Frameworks/Vue/Полезные ссылки|Полезные ссылки]]
         - [vuejs org](https://vuejs.org/)
