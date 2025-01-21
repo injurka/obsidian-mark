@@ -36,5 +36,6 @@
   "blue-topaz-theme@@background-primary-bg-4-bt@@light": "#F1F0E9",
   "blue-topaz-theme@@background-secondary-bg-4-bt@@light": "#F1F0E9",
   "blue-topaz-theme@@background-secondary-alt-bg-4-bt@@light": "#F1F0E9",
-  "blue-topaz-theme@@background-primary-alt-bg-4-bt@@light": "#F1F0E9"
+  "blue-topaz-theme@@background-primary-alt-bg-4-bt@@light": "#F1F0E9",
+  "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": false
 }
