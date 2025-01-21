@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-file:MarkMaid",
+  "search": "-file:MarkMaid -path:Excalidraw  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -98,10 +98,10 @@
   "nodeSizeMultiplier": 1.14635416666667,
   "lineSizeMultiplier": 1.2484375,
   "collapse-forces": false,
-  "centerStrength": 0.421875,
-  "repelStrength": 10,
+  "centerStrength": 0.592783505154639,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.3935550908066845,
+  "linkDistance": 260,
+  "scale": 0.3935550908066836,
   "close": false
 }

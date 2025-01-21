@@ -2,11 +2,11 @@ SSL и TLS представляют собой развитие одной и т
 
 Конкретное место TLS (SSL) в стеке протоколов Интернета показано на схеме:
 
-![[./assets/tls-internet.png]]
+![[tls-internet.png]]
 
 ##### **TLS Handshake**
 
-![[./assets/tls-handshake.png]]
+![[tls-handshake.png]]
 
 Основные шаги процедуры создания защищённого сеанса связи:
 

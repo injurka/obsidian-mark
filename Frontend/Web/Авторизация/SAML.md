@@ -1,4 +1,1 @@
----
-dg-publish: true
----
 #TODO 

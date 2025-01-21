@@ -9,7 +9,7 @@
 |3|Сетевой|IP, ICMP, IGMP, CLNP, OSPF, RIP, IPX, DDP|
 |2|Канальный|Ethernet, Token ring, HDLC, PPP, X.25, Frame relay, ISDN, ATM, MPLS, ARP, RARP|
 |1|Физический|электрические провода, радиосвязь, волоконно-оптические провода, Wi-Fi|
-![[./assets/osi-big.png]]
+![[osi-big.png]]
 
 **OSI** - формальная, теоретическая сетевая модель
 
