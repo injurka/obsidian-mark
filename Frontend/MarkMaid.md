@@ -32,7 +32,7 @@ mindmap-plugin: basic
     - [[Frontend/Web/Авторизация/Terms|Terms]]
     - [[Frontend/Web/Авторизация/Basic|Basic]]
     - [[Digest]]
-    - [[JWT]]
+    - [[JWT Auth]]
     - [[OAuth 2.0]]
     - [[OpenID Connect]]
     - [[SAML]]

@@ -1,4 +1,4 @@
 - ### [[Frontend/Frameworks/Nuxt/Essentials/Essentials|Essentials]]
-- ### [[Frontend/Frameworks/Nuxt/Architectural/Architectural]]
+- ### [[Frontend/Frameworks/Nuxt/Architectural/Architectural|Architectural]]
 - ### [[Frontend/Frameworks/Nuxt/Shared/Shared|Shared]]
 - ### [[Frontend/Frameworks/Nuxt/Handbook/Handbook|Handbook]]

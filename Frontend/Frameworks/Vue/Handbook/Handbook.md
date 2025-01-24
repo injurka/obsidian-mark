@@ -2,4 +2,5 @@
 - ### [[Frontend/Frameworks/Vue/Handbook/Utils/Utils|Utils]]
 - ### [[Frontend/Frameworks/Vue/Handbook/Components/Components|Components]]
 - ### [[Debug Watcher]]
-- ### [[Frontend/Frameworks/Vue/Handbook/Interview/Interview]]
+- ### [[Frontend/Frameworks/Vue/Handbook/Promt|Promt]]
+- ### [[Interview]]
