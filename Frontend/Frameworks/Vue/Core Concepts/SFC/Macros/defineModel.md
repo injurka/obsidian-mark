@@ -1,3 +1,4 @@
+## What is `v-model`
 Может использоваться на компоненте для реализации двустороннего связывания.
 
 Child.vue
@@ -22,7 +23,7 @@ Parent.vue
 
 Значение, возвращаемое функцией `defineModel()`, является ссылкой. Оно может быть получено и изменено так же, как и любая другая ссылка, за исключением того, что оно действует как двунаправленная привязка между значением родителя и локальным:
 
-- Его .value синхронизируется со значением, привязанным к родительскому `v-model;`
+- Его *.value* синхронизируется со значением, привязанным к родительскому `v-model;`
 - Когда оно изменяется дочерним элементом, оно вызывает обновление родительского привязанного значения.
 
 Это означает, что вы также можете привязать эту ссылку к собственному элементу ввода с `v-model`, что делает его простым для обертывания собственных элементов ввода, предоставляя одинаковый способ использования `v-model`:
@@ -81,7 +82,7 @@ const model = defineModel({ default: 0 })
 > // родительский компонент:
 > const myRef = ref()
 > ```
-> >
+> 
 > ```ts
 > <Child v-model="myRef"></Child>
 > ```
@@ -287,14 +288,84 @@ const lastName = defineModel('lastName')
 ```ts
 <script setup>
 const props = defineProps({
-firstName: String,
-lastName: String,
-firstNameModifiers: { default: () => ({}) },
-lastNameModifiers: { default: () => ({}) }
+	firstName: String,
+	lastName: String,
+	firstNameModifiers: { default: () => ({}) },
+	lastNameModifiers: { default: () => ({}) }
 })
 defineEmits(['update:firstName', 'update:lastName'])
 
 console.log(props.firstNameModifiers) // { capitalize: true }
 console.log(props.lastNameModifiers) // { uppercase: true}
 </script>
+```
+
+## Detect changes  `v-model` value
+
+### With `WritableComputedRef`
+
+Parent.vue
+```ts
+<script setup lang="ts">
+import ChildComponent from './child.vue'
+
+const inputValue = shallowRef<string>('')
+
+const message = computed({
+  get: () => inputValue.value,
+  set: (value) => {
+    console.log('CHANGED')
+    return inputValue.value = value
+  },
+})
+</script>
+
+<template>
+  <ChildComponent v-model="message" />
+  <p>Message: {{ message }}</p>
+</template>
+```
+
+Child.vue
+```ts
+<script setup lang="ts">
+const inputValue = defineModel<string>({ required: true })
+</script>
+
+<template>
+  <input v-model="inputValue" type="text">
+</template>
+```
+
+### With `watch`
+
+Parent.vue
+```ts
+<script setup lang="ts">
+import ChildComponent from './child.vue'
+
+const message = shallowRef<string>('')
+
+watch(
+  () => message.value,
+  () => console.log('CHANGED'),
+)
+</script>
+
+<template>
+  <ChildComponent v-model="message" />
+  <p>Message: {{ message }}</p>
+</template>
+
+```
+
+Child.vue
+```ts
+<script setup lang="ts">
+const inputValue = defineModel<string>({ required: true })
+</script>
+
+<template>
+  <input v-model="inputValue" type="text">
+</template>
 ```
