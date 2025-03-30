@@ -1,6 +1,3 @@
----
-dg-publish: true
----
 - ### [[Frontend/TypeScript/Общее/Общее|Общее]]
 - ### [[Система типов]]
 - ### [[Frontend/TypeScript/Операторы/Операторы|Операторы]]
