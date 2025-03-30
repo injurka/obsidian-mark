@@ -1,10 +1,11 @@
 {
-  "cssTheme": "",
-  "accentColor": "#ea4c81",
+  "cssTheme": "Blue Topaz",
+  "accentColor": "#1c6b48",
   "enabledCssSnippets": [
     "global",
     "cn"
   ],
   "theme": "moonstone",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "monospaceFontFamily": "Maple Mono"
 }

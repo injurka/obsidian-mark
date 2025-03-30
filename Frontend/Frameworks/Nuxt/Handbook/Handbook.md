@@ -1,2 +1,3 @@
 - ### [[Frontend/Frameworks/Nuxt/Handbook/Packages/Packages|Packages]]
 - ### [[ImageToBase64]]
+- ### [[Remove page from bundle]]
