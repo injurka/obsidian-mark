@@ -15,3 +15,5 @@ https://github.com/end-4/CirnOS
 https://github.com/linuxmobile/kaku
 
 https://github.com/ryan4yin/nix-config
+
+https://github.com/richen604/hydenix/tree/main

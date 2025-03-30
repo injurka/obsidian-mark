@@ -39,3 +39,244 @@ Vue/Nuxt 前端开发专家
 作为 Vue/Nuxt 前端开发专家，我随时准备帮助您应对各种前端开发挑战，请告诉我您的项目需求或具体问题，我将尽力提供帮助。
 
 ```
+
+---
+
+## ui-kit
+
+Я занимаюсь переносом комопнентов из проекта в ui-kit и его структура выглядит следующим образом:
+```
+...
+├── index.ts
+└── p-info-banner-picture
+    ├── index.ts
+    ├── p-info-banner-picture.scss
+    ├── p-info-banner-picture.tsx
+    └── types
+        └── index.ts
+...
+```
+Описание  кода `p-info-banner-picture`
+> p-info-banner-picture.scss
+```
+.p-info-banner-picture {
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: inherit;
+  }
+  &-image {
+    margin-bottom: 24px;
+
+    > img {
+      max-width: 200px;
+      max-height: 200px;
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+  }
+  &-title {
+    font-family: 'Euclid Circular A';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--fg-primary-color);
+    text-align: inherit;
+    margin-bottom: 16px;
+  }
+  &-body {
+    font-family: 'Euclid Circular A';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--fg-secondary-color);
+    text-align: inherit;
+    margin-bottom: 16px;
+  }
+}
+```
+>p-info-banner-picture.tsx
+```
+// Utilities
+import type { CSSProperties, PropType } from 'vue'
+import type { IObjectInfoBannerPicture } from './types'
+import { useRender } from '@mentalhealth/ui-kit/helpers'
+import { computed, defineComponent } from 'vue'
+
+// Styles
+import './p-info-banner-picture.scss'
+
+export const PInfoBannerPicture = defineComponent({
+  name: 'PInfoBannerPicture',
+
+  props: {
+    object: {
+      type: Object as PropType<IObjectInfoBannerPicture>,
+      required: true,
+    },
+  },
+
+  setup(props) {
+    const { object } = props
+
+    const styles = computed<CSSProperties>(() => ({
+      ...object.textProps,
+    }))
+
+    useRender(() => (
+      <div class="p-info-banner-picture" style={styles.value}>
+        <div class="p-info-banner-picture-content">
+          <div class="p-info-banner-picture-image">
+            <img src={object.value} />
+          </div>
+          {object.title && (
+            <p class="p-info-banner-picture-title" innerHTML={object.title} />
+          )}
+          {object.body && (
+            <p class="p-info-banner-picture-body" innerHTML={object.body} />
+          )}
+        </div>
+      </div>
+    ))
+  },
+})
+
+export type TPInfoBannerPicture = InstanceType<typeof PInfoBannerPicture>
+```
+> types/index.ts
+```
+import type { IMultipageContentObjectInfoBannerPicture } from '@mentalhealth/api/cms'
+import type { PureMultpageObject } from '~/types/utils'
+
+type IObjectInfoBannerPicture = PureMultpageObject<IMultipageContentObjectInfoBannerPicture>
+
+export type { IObjectInfoBannerPicture }
+```
+Также есть story для примера использования:
+> stories/p-info-banner-picture/p-info-banner-picture.stories.ts
+```
+import type { Meta, StoryObj } from '@storybook/vue3'
+import { PViewWrapper } from '@mentalhealth/ui-kit'
+import { PInfoBannerPicture } from '~/components/p-info-banner-picture/p-info-banner-picture'
+
+interface InfoBannerPictureArgs {
+  value: string
+  title: string
+  body: string
+  textAlign: 'center' | 'left' | 'right'
+}
+
+const meta = {
+  title: 'CMS/Info Banner Picture',
+  component: PInfoBannerPicture,
+  argTypes: {
+    value: {
+      control: 'text',
+      description: 'Ссылка на картинку',
+    },
+    title: {
+      control: 'text',
+      description: 'Заголовок',
+    },
+    body: {
+      control: 'text',
+      description: 'Основной текст',
+    },
+    textAlign: {
+      control: 'select',
+      options: ['center', 'left', 'right'],
+      description: 'Выравнивание текста',
+    },
+  },
+  parameters: {
+    docs: {
+      description: {
+        component: `
+Компонент \`PInfoBannerPicture\` используется для отображения баннера с изображением, заголовком и текстом.
+
+У данной компоненты есть следующие свойства:
+- \`value\` — ссылка на картинку.
+- \`title\` — заголовок.
+- \`body\` — основной текст.
+- \`textProps\` — настройки стилей текста, такие как \`textAlign\`.
+        `,
+      },
+    },
+  },
+} as Meta<InfoBannerPictureArgs>
+
+export default meta
+type Story = StoryObj<typeof meta>
+
+function createObject(args: InfoBannerPictureArgs) {
+  return {
+    value: args.value,
+    title: args.title,
+    body: args.body,
+    textProps: {
+      textAlign: args.textAlign,
+    },
+  }
+}
+
+export const Default: Story = {
+  args: {
+    value: '/webview/file/rencms_skilllevel.png',
+    title: 'Заголовок',
+    body: 'Основной текст',
+    textAlign: 'center',
+  },
+  render: args => ({
+    components: { PInfoBannerPicture, PViewWrapper },
+    setup() {
+      return { args, createObject }
+    },
+    template: `
+      <PViewWrapper>
+        <PInfoBannerPicture :key="createObject(args)" :object="createObject(args)" />
+      </PViewWrapper>
+    `,
+  }),
+}
+```
+> stories/p-info-banner-picture/p-info-banner-picture.mdx
+```
+import { Meta, Title, Canvas, Description } from '@storybook/blocks';
+import * as Stories from './p-info-banner-picture.stories';
+
+<Meta of={Stories} title="Usage guide" />
+
+<Title>Info Banner Picture Component</Title>
+<Description of={Stories} />
+
+```tsx
+<script setup lang="ts">
+import { PInfoBannerPicture } from '@mentalhealth/ui-kit-cms';
+</script>
+
+<template>
+  <PInfoBannerPicture
+    :object="{
+      value: '/webview/file/rencms_skilllevel.png',
+      title: 'Заголовок',
+      body: 'Основной текст',
+      textProps: {
+        textAlign: 'center',
+      },
+    }"
+  />
+</template>
+```
+
+Хочу перенести компоненту `staticprogressbar.vue` по той логике что я описал выше:
+```
+
+```
