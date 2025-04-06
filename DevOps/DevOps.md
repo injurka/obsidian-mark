@@ -1,7 +1,7 @@
 - ### [[Виртуализация]]
 - ### [[Docker]]
 - ### [[Kubernetes]]
-- ### [[Load Balancing]]
+- ### [[DevOps/Load Balancing]]
 - ### [[Nginx]]
 - ### [[Tunnel]]
 - ### [[Deployment]]
