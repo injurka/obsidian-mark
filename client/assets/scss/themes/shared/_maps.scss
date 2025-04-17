@@ -1,0 +1,12 @@
+@use '_variables.scss';
+
+// Border
+$border-status-colors: (
+  border-positive: variables.$border-positive-color,
+  border-warning: variables.$border-warning-color,
+  border-negative: variables.$border-negative-color,
+);
+
+$font-family-base: (
+  default: variables.$font-family-ru-default,
+);

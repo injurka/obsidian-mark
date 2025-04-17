@@ -1,0 +1,28 @@
+export default defineAppConfig({
+  titleTemplate: 'WanderingMark',
+  name: 'WanderingMark',
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+    { rel: 'shortcut_icon', href: '/favicon.png' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/logo.png' },
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/logo.png' },
+    { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/logo.png' },
+  ],
+  meta: [
+    { name: 'viewport', content: 'viewport-fit=cover, initial-scale=1, maximum-scale=1, user-scalable=no' },
+    { name: 'title', content: 'chinisik' },
+    { hid: 'description', name: 'description', content: 'chinisik' },
+    { property: 'og:title', content: 'WanderingMark' },
+    { property: 'og:description', content: 'Место для возносения до уровня ТанСана! Познай мир чтобы уверено сказать - нихао ни женгуо рен ма!' },
+    { property: 'twitter:title', content: 'WanderingMark' },
+    { property: 'twitter:description', content: 'Место для возносения до уровня ТанСана! Познай мир чтобы уверено сказать - нихао ни женгуо рен ма!' },
+    { property: 'twitter:image', content: 'https://wandering-mark.vercel.app/open-graph.png' },
+    { property: 'og:url', content: 'https://wandering-mark.vercel.app' },
+    { property: 'og:image', content: 'https://wandering-mark.vercel.app/open-graph.png' },
+    { property: 'og:image:width', content: '400' },
+    { property: 'og:image:height', content: '400' },
+    { name: 'twitter:card', content: 'summary' },
+    { name: 'og:locale', content: 'ru_RU' },
+    { name: 'twitter:locale', content: 'ru' },
+  ],
+})

@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Rubik', 'MapleMono-CN', sans-serif;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: var(--bg-primary-color);
+  color: var(--fg-primary-color);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

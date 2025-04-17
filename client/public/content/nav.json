@@ -1,0 +1,14 @@
+[
+  {
+    "sysname": "TypeScript",
+    "title": "TypeScript",
+    "description": "Стрероидный брат JavaScript со строгими типами для безопасной и эффективной разработки.",
+    "icon": "/images/ts.png"
+  },
+  {
+    "sysname": "Cha",
+    "title": "Травушка муравушка",
+    "description": "Всё о китайском чае: от истории и видов до секретов заваривания и чайной церемонии.",
+    "icon": "/images/tea.png"
+  }
+]
