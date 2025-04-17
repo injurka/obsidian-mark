@@ -58,6 +58,7 @@ async function handleSelectItem(item: NavItem) {
               <v-img
                 class="vault-card__icon mb-4"
                 width="100"
+                height="100"
                 :src="item.icon"
               />
 

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import type { ContentNavItem } from '~/components/content-viewer'
-import { ContentViewerHeader, ContentViewerNavigation } from '~/components/content-viewer'
+import type { ContentNavItem } from '~/components/modules/content-viewer'
+import { ContentViewerHeader, ContentViewerNavigation ,useContentViewerStore} from '~/components/modules/content-viewer'
 import { PageLoader } from '~/components/shared/page-loader'
 
 interface RouteParams {
@@ -8,13 +8,12 @@ interface RouteParams {
 }
 
 const router = useRouter()
+const contentViewerStore = useContentViewerStore() 
 
 const params = computed(() => {
   const routeParams = router.currentRoute.value.params as any
   return { vault: routeParams.vault } as RouteParams
 })
-
-const borderlessViewEnabled = ref(true)
 
 const { data: navItems, refresh: navRefresh, status: navStatus } = await useAsyncData<ContentNavItem[]>(`nav-${params.value.vault}`, async () => {
   const { staticBaseUrl } = useRuntimeConfig().public
@@ -41,7 +40,7 @@ watch(
         <div class="main-content-wrapper">
           <ContentViewerHeader />
 
-          <div class="main-content" :class="{ 'main-content--borderless': borderlessViewEnabled }">
+          <div class="main-content" :class="{ 'main-content--borderless': contentViewerStore.borderlessViewEnabled }">
             <slot />
           </div>
         </div>

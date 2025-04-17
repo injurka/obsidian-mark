@@ -1,6 +1,7 @@
 <script lang="ts" setup>
-import type { ContentNavItem } from '~/components/content-viewer'
-import { ContentNavItemType } from '~/components/content-viewer'
+import type { ContentNavItem } from '~/components/modules/content-viewer'
+import { ContentNavItemType } from '~/components/modules/content-viewer'
+import { useContentViewerStore } from '../store'
 
 interface Props {
   items: ContentNavItem[] | null
@@ -17,6 +18,7 @@ interface RouteParams {
 }
 
 const router = useRouter()
+const contentViewerStore = useContentViewerStore() 
 
 const params = computed(() => {
   const routeParams = router.currentRoute.value.params as any
@@ -26,8 +28,6 @@ const params = computed(() => {
 const sidebarWidth = ref(300)
 const resizing = ref(false)
 const searchQuery = ref('')
-const coloredFoldersEnabled = ref(false)
-const showIconsEnabled = ref(true)
 
 async function selectItem(item: ContentNavItem, pathSegments: string[]) {
   if (item.type === ContentNavItemType.File) {
@@ -86,7 +86,7 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
     <div
       class="navigation-sidebar"
       :style="{ width: `${sidebarWidth}px` }"
-      :class="{ 'show-icons': showIconsEnabled }"
+      :class="{ 'show-icons': contentViewerStore.showIconsEnabled }"
     >
       <div class="sidebar-header">
         <VBtn
@@ -121,10 +121,10 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
           </template>
           <VList density="compact">
             <VListItem>
-              <VCheckbox v-model="coloredFoldersEnabled" label="Цветные папки" hide-details density="compact" />
+              <VCheckbox v-model="contentViewerStore.coloredFoldersEnabled" label="Цветные папки" hide-details density="compact" />
             </VListItem>
             <VListItem>
-              <VCheckbox v-model="showIconsEnabled" label="Отображать иконки" hide-details density="compact" />
+              <VCheckbox v-model="contentViewerStore.showIconsEnabled" label="Отображать иконки" hide-details density="compact" />
             </VListItem>
           </VList>
         </VMenu>
@@ -144,13 +144,13 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
           collapse-icon="mdi-chevron-up"
           select-strategy="classic"
           class="compact-treeview"
-          :class="{ colored: coloredFoldersEnabled }"
+          :class="{ colored: contentViewerStore.coloredFoldersEnabled }"
           bg-color="transparent"
           fluid
           :custom-filter="filter"
           :search="searchQuery"
         >
-          <template v-if="showIconsEnabled" #prepend="{ item, isOpen }">
+          <template v-if="contentViewerStore.showIconsEnabled" #prepend="{ item, isOpen }">
             <v-icon v-if="item.type === ContentNavItemType.Directory" :icon="isOpen ? 'mdi-folder-open' : 'mdi-folder'" />
             <v-icon v-else icon="mdi-language-markdown" />
           </template>
@@ -324,7 +324,7 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
       &::before {
         position: absolute;
         content: '';
-        border-left: 1px solid var(--folder-color, inherit);
+        border-left: 1px solid var(--folder-color, var(--border-primary-color));
         top: 0;
         margin-left: calc(var(--indent-padding) + 13px) !important;
         margin-top: 30px;

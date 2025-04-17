@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ContentViewer } from '~/components/content-viewer'
+import { ContentViewer } from '~/components/modules/content-viewer'
 
 interface RouteParams {
   pwd: string[]

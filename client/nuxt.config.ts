@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/color-mode',
     'vuetify-nuxt-module',
+    '@pinia/nuxt',
   ],
 
   colorMode: {
