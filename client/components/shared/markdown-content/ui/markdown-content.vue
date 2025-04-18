@@ -192,6 +192,7 @@ watch(
         text-decoration-skip-ink: none;
       }
     }
+  }
 
   details {
     p {
