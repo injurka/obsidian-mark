@@ -7,7 +7,7 @@ type VBreadcrumbsItems = NonNullable<InstanceType<typeof VBreadcrumbs>['$props']
 
 const route = useRoute()
 const { setTheme, theme } = useChangeTheme()
-const contentViewerStore = useContentViewerStore() 
+const contentViewerStore = useContentViewerStore()
 
 const controlledTheme = computed({
   get: () => theme.value,
@@ -75,18 +75,19 @@ const breadcrumbItems = computed<VBreadcrumbsItems>(() => {
         <VBtn
           style="font-size: 0.8rem;"
           v-bind="props"
-           icon="mdi-tune-variant" 
-           variant="text"
-            density="compact" 
-            title="Настройки отображения"
+          icon="mdi-tune-variant"
+          variant="text"
+          density="compact"
+          title="Настройки отображения"
         />
       </template>
       <VList density="compact">
         <VListItem>
-          <VCheckbox 
-          v-model="contentViewerStore.borderlessViewEnabled" 
-          label="Отображение без границ"
-           hide-details density="compact" />
+          <VCheckbox
+            v-model="contentViewerStore.borderlessViewEnabled"
+            label="Отображение без границ"
+            hide-details density="compact"
+          />
         </VListItem>
       </VList>
     </VMenu>

@@ -1,5 +1,5 @@
-import { defineStore } from 'pinia'
 import { useCookie } from '#app'
+import { defineStore } from 'pinia'
 
 const COOKIE_BORDERLESS_VIEW = 'ui_borderlessViewEnabled'
 const COOKIE_COLORED_FOLDERS = 'ui_coloredFoldersEnabled'

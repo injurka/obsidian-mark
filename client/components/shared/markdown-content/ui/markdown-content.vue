@@ -1,8 +1,8 @@
 <script setup lang="ts">
-// import ImageViewer from '@luohc92/vue3-image-viewer'
-import { nextTick, onMounted, ref, watch } from 'vue'
+import type MarkdownIt from 'markdown-it'
+import { PageLoader } from '~/components/shared/page-loader'
+import { useChangeTheme } from '~/shared/composables/change-theme'
 import { createMarkdownRenderer } from '../lib'
-// import '@luohc92/vue3-image-viewer/dist/style.css'
 
 interface Props {
   content: string
@@ -10,66 +10,71 @@ interface Props {
 }
 
 const props = defineProps<Props>()
+
+const { theme } = useChangeTheme()
+
 const renderedContent = ref<string>('')
-const md = createMarkdownRenderer({ imageBasePath: props.imageBasePath })
+const mdInstance = ref<MarkdownIt | null>(null)
+const isLoading = ref<boolean>(true)
 
-const currentImages = ref<string[]>([])
+function getShikiTheme() {
+  // const isCustom = 'catppuccin-mocha'
 
-watch(
-  () => props.content,
-  (newContent) => {
-    renderedContent.value = md.render(newContent || '')
-  },
-  { immediate: true },
-)
+  switch (theme.value) {
+    case ThemesVariant.Dark:
+      return 'catppuccin-mocha'
+    case ThemesVariant.Rainy:
+      return 'catppuccin-macchiato'
+    case ThemesVariant.Light:
+      return 'catppuccin-latte'
+    default:
+      return 'catppuccin-frappe'
+  }
 
-function openImageViewer() {
-  // document.documentElement.style.overflow = 'hidden'
-  // ImageViewer({
-  //   images: currentImages.value,
-  //   showThumbnail: true,
-  //   showDownload: true,
-  //   handlePosition: 'bottom',
-  //   onClose: () => {
-  //     document.documentElement.style.overflow = 'auto'
-  //   },
-  //   maskBgColor: 'rgba(0,0,0,0.7)',
-  // })
+  // return shikiTheme
 }
 
-onMounted(() => {
-  nextTick(() => {
-    const callouts = document.querySelectorAll('.callout')
-
-    callouts.forEach((callout) => {
-      const imagesInCallout = callout.querySelectorAll<HTMLImageElement>('.callout-content img')
-
-      if (imagesInCallout.length > 0) {
-        const imageUrls: string[] = Array.from(imagesInCallout).map(img => img.src)
-
-        Array.from(imagesInCallout).forEach((img) => {
-          img.addEventListener('click', (event) => {
-            event.stopPropagation()
-            const clickedImageUrl = (img as HTMLImageElement).src
-
-            const reorderedImages = [
-              clickedImageUrl,
-              ...imageUrls.filter(url => url !== clickedImageUrl),
-            ]
-
-            currentImages.value = reorderedImages
-            openImageViewer()
-          })
-          img.style.cursor = 'pointer'
-        })
-      }
-    })
-  })
+onMounted(async () => {
+  try {
+    mdInstance.value = await createMarkdownRenderer({ 
+      imageBasePath: props.imageBasePath, 
+      shikiTheme: getShikiTheme() })
+    if (mdInstance.value && props.content) {
+      renderedContent.value = mdInstance.value.render(props.content)
+    }
+  }
+  catch (error) {
+    console.error('Failed to create markdown renderer:', error)
+  }
+  finally {
+    isLoading.value = false
+  }
 })
+
+watch(
+  () => theme.value,
+  async () => {
+    mdInstance.value = await createMarkdownRenderer({ imageBasePath: props.imageBasePath, shikiTheme: getShikiTheme() })
+  },
+)
+
+watch(
+  [() => props.content, mdInstance],
+  ([newContent, md]) => {
+    if (md && !isLoading.value) {
+      renderedContent.value = md.render(newContent || '')
+    }
+    else if (!isLoading.value && !newContent) {
+      renderedContent.value = ''
+    }
+  },
+  { immediate: false },
+)
 </script>
 
 <template>
-  <div class="markdown-body" v-html="renderedContent" />
+  <PageLoader v-if="isLoading" />
+  <div v-else class="markdown-body" v-html="renderedContent" />
 </template>
 
 <style lang="scss">
@@ -90,27 +95,42 @@ onMounted(() => {
     }
   }
 
-  pre {
-    background: var(--bg-tertiary-color);
-    color: var(--fg-primary-color);
-    font-style: italic;
-    padding-left: 16px;
-    margin-top: 32px;
-    margin-bottom: 8px;
-    opacity: 0.5;
-    border-radius: 4px;
+  code:not(pre > code) {
+    background-color: var(--bg-tertiary-color);
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    border-radius: 3px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
 
+  .shiki {
+    padding: 1em;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border: 2px solid var(--border-secondary-color);
+    margin-top: 6px;
+    margin-bottom: 12px;
+    overflow-x: auto;
+  }
+  .shiki-fallback {
+    background: var(--bg-tertiary-color);
+    color: var(--fg-secondary-color);
+    padding: 1em;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-style: italic;
+    opacity: 0.7;
     code {
-      white-space: wrap;
+      white-space: pre-wrap;
       word-wrap: break-word;
-      line-height: normal;
-      display: flex;
-      padding: 8px 0;
     }
   }
 
   blockquote {
     border-left: 2px solid var(--border-accent-color);
+    padding-left: 16px;
 
     ol {
       margin-left: 32px;
@@ -119,6 +139,61 @@ onMounted(() => {
     }
   }
 
+  p {
+    img {
+      object-fit: cover;
+      max-width: 100%;
+      min-height: 200px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+  }
+
+  ul {
+
+  > li {
+    color: var(--fg-secondary-color);
+    position: relative;
+  }
+}
+
+ol {
+  list-style: none;
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+  color: var(--fg-secondary-color);
+
+  > li {
+    margin-bottom: 8px;
+    padding-left: 32px;
+    color: var(--fg-primary-color);
+    position: relative;
+    counter-increment: item;
+
+    &::before {
+      content: counter(item) '.';
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      left: 0;
+      width: 24px;
+      height: 24px;
+      color: var(--fg-tertiary-color);
+
+      font-variant-numeric: tabular-nums;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}
+  
   details {
     p {
       display: grid;

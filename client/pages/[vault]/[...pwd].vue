@@ -25,6 +25,8 @@ const { data: contentData, refresh: contentRefresh, status: contentStatus } = us
   )
 })
 
+const imageBasePath = computed(()=>(`${staticBaseUrl}/content/${params.value.vault}/_/`))
+
 watch(
   () => params.value.pwd,
   () => {
@@ -47,10 +49,12 @@ definePageMeta({
       <Icon name="line-md:loading-loop" />
     </div>
 
-    <ContentViewer
-      v-else-if="contentData"
-      :content="contentData"
-    />
+    <ClientOnly v-else-if="contentData">
+      <ContentViewer
+        :content="contentData"
+        :image-base-path="imageBasePath"
+      />
+    </ClientOnly>
 
     <div v-else>
       <v-alert

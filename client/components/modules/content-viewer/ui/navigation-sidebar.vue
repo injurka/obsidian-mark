@@ -18,7 +18,7 @@ interface RouteParams {
 }
 
 const router = useRouter()
-const contentViewerStore = useContentViewerStore() 
+const contentViewerStore = useContentViewerStore()
 
 const params = computed(() => {
   const routeParams = router.currentRoute.value.params as any
