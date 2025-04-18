@@ -25,7 +25,7 @@ const { data: contentData, refresh: contentRefresh, status: contentStatus } = us
   )
 })
 
-const imageBasePath = computed(()=>(`${staticBaseUrl}/content/${params.value.vault}/_/`))
+const imageBasePath = computed(() => (`${staticBaseUrl}/content/${params.value.vault}/_/`))
 
 watch(
   () => params.value.pwd,

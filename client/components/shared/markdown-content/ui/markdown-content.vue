@@ -36,9 +36,10 @@ function getShikiTheme() {
 
 onMounted(async () => {
   try {
-    mdInstance.value = await createMarkdownRenderer({ 
-      imageBasePath: props.imageBasePath, 
-      shikiTheme: getShikiTheme() })
+    mdInstance.value = await createMarkdownRenderer({
+      imageBasePath: props.imageBasePath,
+      shikiTheme: getShikiTheme(),
+    })
     if (mdInstance.value && props.content) {
       renderedContent.value = mdInstance.value.render(props.content)
     }
@@ -150,50 +151,48 @@ watch(
   }
 
   ul {
-
-  > li {
-    color: var(--fg-secondary-color);
-    position: relative;
-  }
-}
-
-ol {
-  list-style: none;
-  list-style-type: none;
-  counter-reset: item;
-  margin: 0;
-  padding: 0;
-  color: var(--fg-secondary-color);
-
-  > li {
-    margin-bottom: 8px;
-    padding-left: 32px;
-    color: var(--fg-primary-color);
-    position: relative;
-    counter-increment: item;
-
-    &::before {
-      content: counter(item) '.';
-      position: absolute;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      left: 0;
-      width: 24px;
-      height: 24px;
-      color: var(--fg-tertiary-color);
-
-      font-variant-numeric: tabular-nums;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
+    > li {
+      color: var(--fg-secondary-color);
+      position: relative;
     }
   }
-}
-  
+
+  ol {
+    list-style: none;
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+    color: var(--fg-secondary-color);
+
+    > li {
+      margin-bottom: 8px;
+      padding-left: 32px;
+      color: var(--fg-primary-color);
+      position: relative;
+      counter-increment: item;
+
+      &::before {
+        content: counter(item) '.';
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        left: 0;
+        width: 24px;
+        height: 24px;
+        color: var(--fg-tertiary-color);
+
+        font-variant-numeric: tabular-nums;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+
   details {
     p {
       display: grid;
