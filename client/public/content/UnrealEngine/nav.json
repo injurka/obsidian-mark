@@ -1,0 +1,625 @@
+[
+  {
+    "sysname": "Blueprints",
+    "title": "Blueprints",
+    "type": "directory",
+    "children": [
+      {
+        "sysname": "Коммуникации",
+        "title": "Коммуникации",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "_",
+            "title": "_",
+            "type": "directory"
+          },
+          {
+            "sysname": "Blueprint Casting",
+            "title": "Blueprint Casting",
+            "type": "file"
+          },
+          {
+            "sysname": "Blueprint Interfaces",
+            "title": "Blueprint Interfaces",
+            "type": "file"
+          },
+          {
+            "sysname": "Direct Blueprint",
+            "title": "Direct Blueprint",
+            "type": "file"
+          },
+          {
+            "sysname": "Event Dispatcher",
+            "title": "Event Dispatcher",
+            "type": "file"
+          },
+          {
+            "sysname": "Коммуникации",
+            "title": "Коммуникации",
+            "type": "file"
+          },
+          {
+            "sysname": "Разница между коммуникациями",
+            "title": "Разница между коммуникациями",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Основы",
+        "title": "Основы",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "Blueprint Class",
+            "title": "Blueprint Class",
+            "type": "file"
+          },
+          {
+            "sysname": "Blueprint Nodes",
+            "title": "Blueprint Nodes",
+            "type": "file"
+          },
+          {
+            "sysname": "Основы",
+            "title": "Основы",
+            "type": "file"
+          },
+          {
+            "sysname": "Что такое Blueprints",
+            "title": "Что такое Blueprints",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Blueprints",
+        "title": "Blueprints",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "sysname": "C++",
+    "title": "C++",
+    "type": "directory",
+    "children": [
+      {
+        "sysname": "_",
+        "title": "_",
+        "type": "directory"
+      },
+      {
+        "sysname": "Макросы",
+        "title": "Макросы",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "Asserts",
+            "title": "Asserts",
+            "type": "file"
+          },
+          {
+            "sysname": "UCLASS",
+            "title": "UCLASS",
+            "type": "file"
+          },
+          {
+            "sysname": "UFUNCTION",
+            "title": "UFUNCTION",
+            "type": "file"
+          },
+          {
+            "sysname": "UPROPERTY",
+            "title": "UPROPERTY",
+            "type": "file"
+          },
+          {
+            "sysname": "Макросы",
+            "title": "Макросы",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Структура данных",
+        "title": "Структура данных",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "_",
+            "title": "_",
+            "type": "directory"
+          },
+          {
+            "sysname": "DataTable",
+            "title": "DataTable",
+            "type": "file"
+          },
+          {
+            "sysname": "Enum",
+            "title": "Enum",
+            "type": "file"
+          },
+          {
+            "sysname": "Interface",
+            "title": "Interface",
+            "type": "file"
+          },
+          {
+            "sysname": "Struct",
+            "title": "Struct",
+            "type": "file"
+          },
+          {
+            "sysname": "Структура данных",
+            "title": "Структура данных",
+            "type": "file"
+          },
+          {
+            "sysname": "Типы данных",
+            "title": "Типы данных",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "C++",
+        "title": "C++",
+        "type": "file"
+      },
+      {
+        "sysname": "Делегаты",
+        "title": "Делегаты",
+        "type": "file"
+      },
+      {
+        "sysname": "Поддерживаемые IDE",
+        "title": "Поддерживаемые IDE",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "sysname": "Frameworks",
+    "title": "Frameworks",
+    "type": "directory",
+    "children": [
+      {
+        "sysname": "GAS",
+        "title": "GAS",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "Компоненты",
+            "title": "Компоненты",
+            "type": "directory",
+            "children": [
+              {
+                "sysname": "Ability System Component",
+                "title": "Ability System Component",
+                "type": "file"
+              },
+              {
+                "sysname": "Ability System Globals",
+                "title": "Ability System Globals",
+                "type": "file"
+              },
+              {
+                "sysname": "Ability Tasks",
+                "title": "Ability Tasks",
+                "type": "file"
+              },
+              {
+                "sysname": "Attribute",
+                "title": "Attribute",
+                "type": "file"
+              },
+              {
+                "sysname": "Attribute Set",
+                "title": "Attribute Set",
+                "type": "file"
+              },
+              {
+                "sysname": "Gameplay Ability",
+                "title": "Gameplay Ability",
+                "type": "file"
+              },
+              {
+                "sysname": "Gameplay Cues",
+                "title": "Gameplay Cues",
+                "type": "file"
+              },
+              {
+                "sysname": "Gameplay Effects",
+                "title": "Gameplay Effects",
+                "type": "file"
+              },
+              {
+                "sysname": "Gameplay Tags",
+                "title": "Gameplay Tags",
+                "type": "file"
+              },
+              {
+                "sysname": "Prediction",
+                "title": "Prediction",
+                "type": "file"
+              },
+              {
+                "sysname": "Компоненты",
+                "title": "Компоненты",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "sysname": "Рецепты",
+            "title": "Рецепты",
+            "type": "directory",
+            "children": [
+              {
+                "sysname": "Stun",
+                "title": "Stun",
+                "type": "file"
+              },
+              {
+                "sysname": "Рецепты",
+                "title": "Рецепты",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "sysname": "GAS",
+            "title": "GAS",
+            "type": "file"
+          },
+          {
+            "sysname": "Источники",
+            "title": "Источники",
+            "type": "file"
+          },
+          {
+            "sysname": "Настройка проекта",
+            "title": "Настройка проекта",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Frameworks",
+        "title": "Frameworks",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "sysname": "Maths",
+    "title": "Maths",
+    "type": "directory",
+    "children": [
+      {
+        "sysname": "Vectors",
+        "title": "Vectors",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "_",
+            "title": "_",
+            "type": "directory"
+          },
+          {
+            "sysname": "Vector Basic",
+            "title": "Vector Basic",
+            "type": "file"
+          },
+          {
+            "sysname": "Vector Magnitude",
+            "title": "Vector Magnitude",
+            "type": "file"
+          },
+          {
+            "sysname": "Vector Normalization",
+            "title": "Vector Normalization",
+            "type": "file"
+          },
+          {
+            "sysname": "Vectors",
+            "title": "Vectors",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Coordinates",
+        "title": "Coordinates",
+        "type": "file"
+      },
+      {
+        "sysname": "Maths",
+        "title": "Maths",
+        "type": "file"
+      },
+      {
+        "sysname": "Rotators",
+        "title": "Rotators",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "sysname": "Дизайн Документы",
+    "title": "Дизайн Документы",
+    "type": "directory",
+    "children": [
+      {
+        "sysname": "Flora Faunarium",
+        "title": "Flora Faunarium",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "Flora Faunarium",
+            "title": "Flora Faunarium",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Frame Forge",
+        "title": "Frame Forge",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "Frame Forge",
+            "title": "Frame Forge",
+            "type": "file"
+          },
+          {
+            "sysname": "UE Tree Content",
+            "title": "UE Tree Content",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sysname": "Другое",
+    "title": "Другое",
+    "type": "directory",
+    "children": [
+      {
+        "sysname": "Другое",
+        "title": "Другое",
+        "type": "file"
+      },
+      {
+        "sysname": "Нейминг",
+        "title": "Нейминг",
+        "type": "file"
+      },
+      {
+        "sysname": "Промпт",
+        "title": "Промпт",
+        "type": "file"
+      },
+      {
+        "sysname": "Удалить промежуточные файлы проекта",
+        "title": "Удалить промежуточные файлы проекта",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "sysname": "Общее",
+    "title": "Общее",
+    "type": "directory",
+    "children": [
+      {
+        "sysname": "Levels",
+        "title": "Levels",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "Manipulate Level",
+            "title": "Manipulate Level",
+            "type": "directory",
+            "children": [
+              {
+                "sysname": "Based concept",
+                "title": "Based concept",
+                "type": "file"
+              },
+              {
+                "sysname": "LoadStreamLevel",
+                "title": "LoadStreamLevel",
+                "type": "file"
+              },
+              {
+                "sysname": "Manipulate Level",
+                "title": "Manipulate Level",
+                "type": "file"
+              },
+              {
+                "sysname": "OpenLevel",
+                "title": "OpenLevel",
+                "type": "file"
+              },
+              {
+                "sysname": "Server Travel",
+                "title": "Server Travel",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "sysname": "Async Loading",
+            "title": "Async Loading",
+            "type": "file"
+          },
+          {
+            "sysname": "How organize",
+            "title": "How organize",
+            "type": "file"
+          },
+          {
+            "sysname": "Levels",
+            "title": "Levels",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Materials",
+        "title": "Materials",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "Domain",
+            "title": "Domain",
+            "type": "directory",
+            "children": [
+              {
+                "sysname": "Domain",
+                "title": "Domain",
+                "type": "file"
+              },
+              {
+                "sysname": "Light Functions",
+                "title": "Light Functions",
+                "type": "file"
+              },
+              {
+                "sysname": "Post Process",
+                "title": "Post Process",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "sysname": "Рецепты",
+            "title": "Рецепты",
+            "type": "directory",
+            "children": [
+              {
+                "sysname": "_",
+                "title": "_",
+                "type": "directory"
+              },
+              {
+                "sysname": "M_Outline",
+                "title": "M_Outline",
+                "type": "file"
+              },
+              {
+                "sysname": "Рецепты",
+                "title": "Рецепты",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "sysname": "Material Functions",
+            "title": "Material Functions",
+            "type": "file"
+          },
+          {
+            "sysname": "Material Parameter Collection",
+            "title": "Material Parameter Collection",
+            "type": "file"
+          },
+          {
+            "sysname": "Materials",
+            "title": "Materials",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "UMG",
+        "title": "UMG",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "_",
+            "title": "_",
+            "type": "directory"
+          },
+          {
+            "sysname": "UMG",
+            "title": "UMG",
+            "type": "file"
+          },
+          {
+            "sysname": "Оптимизация",
+            "title": "Оптимизация",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Основы",
+        "title": "Основы",
+        "type": "directory",
+        "children": [
+          {
+            "sysname": "_",
+            "title": "_",
+            "type": "directory"
+          },
+          {
+            "sysname": "Classes Inheritance",
+            "title": "Classes Inheritance",
+            "type": "file"
+          },
+          {
+            "sysname": "Game Management",
+            "title": "Game Management",
+            "type": "file"
+          },
+          {
+            "sysname": "Garbage Collection",
+            "title": "Garbage Collection",
+            "type": "file"
+          },
+          {
+            "sysname": "Multiplayer",
+            "title": "Multiplayer",
+            "type": "file"
+          },
+          {
+            "sysname": "Reflection System",
+            "title": "Reflection System",
+            "type": "file"
+          },
+          {
+            "sysname": "Как работает движок",
+            "title": "Как работает движок",
+            "type": "file"
+          },
+          {
+            "sysname": "Основы",
+            "title": "Основы",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "sysname": "Общее",
+        "title": "Общее",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "sysname": "UE",
+    "title": "UE",
+    "type": "file"
+  },
+  {
+    "sysname": "Источники",
+    "title": "Источники",
+    "type": "file"
+  }
+]

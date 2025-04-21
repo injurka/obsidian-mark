@@ -6,6 +6,12 @@
     "icon": "/images/ts.png"
   },
   {
+    "sysname": "UnrealEngine",
+    "title": "Unreal Engine 5",
+    "description": "Познай мощь реального времени для 3D-графики и погрязни в его бескрайности.",
+    "icon": "/images/ue.png"
+  },
+  {
     "sysname": "Cha",
     "title": "Травушка муравушка",
     "description": "Всё о китайском чае: от истории и видов до секретов заваривания и чайной церемонии.",
