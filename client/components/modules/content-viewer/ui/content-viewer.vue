@@ -28,5 +28,9 @@ defineProps<Props>()
 .markdown-body-wrapper {
   padding: 20px;
   background-color: var(--bg-primary-color);
+
+  @include mobile {
+    padding: 8px;
+  }
 }
 </style>

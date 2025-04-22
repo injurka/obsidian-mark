@@ -28,6 +28,7 @@ const params = computed(() => {
 const sidebarWidth = ref(300)
 const resizing = ref(false)
 const searchQuery = ref('')
+const menu = defineModel<boolean>('menu', { required: true })
 
 async function selectItem(item: ContentNavItem, pathSegments: string[]) {
   if (item.type === ContentNavItemType.File) {
@@ -45,7 +46,7 @@ function startResize(e: MouseEvent) {
 function handleMouseMove(e: MouseEvent) {
   if (!resizing.value)
     return
-  sidebarWidth.value = Math.max(200, Math.min(500, e.clientX))
+  sidebarWidth.value = Math.max(250, Math.min(500, e.clientX))
 }
 
 function stopResize() {
@@ -82,7 +83,11 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
 </script>
 
 <template>
-  <div class="navigation-sidebar-wrapper">
+  <v-navigation-drawer
+    v-model="menu"
+    class="navigation-sidebar-wrapper"
+    :width="sidebarWidth"
+  >
     <div
       class="navigation-sidebar"
       :style="{ width: `${sidebarWidth}px` }"
@@ -90,12 +95,12 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
     >
       <div class="sidebar-header">
         <VBtn
-          icon="mdi-arrow-left"
+          icon="mdi-menu"
           variant="text"
           density="compact"
-          title="Вернуться к выбору хранилища"
           style="font-size: 0.8rem; height: 30px;"
-          @click="navigateTo('/')"
+          color="var(--fg-primary-color)"
+          @click="menu = !menu"
         />
         <VTextField
           v-model="searchQuery"
@@ -103,10 +108,10 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
           density="compact"
           variant="solo-filled"
           hide-details
-          rounded
           flat
           bg-color="var(--bg-secondary-color)"
           class="search-input"
+          rounded
         />
         <VMenu location="bottom end" :close-on-content-click="false">
           <template #activator="{ props: propsMenu }">
@@ -117,6 +122,7 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
               variant="text"
               density="compact"
               title="Настройки сайдбара"
+              color="var(--fg-primary-color)"
             />
           </template>
           <VList density="compact">
@@ -162,27 +168,39 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
           </template>
         </v-treeview>
       </div>
+
+      <VBtn
+        variant="text"
+        density="compact"
+        style="font-size: 0.7rem; height: 30px;"
+        color="var(--fg-secondary-color)"
+        text="Вернуться к хранилищам"
+        @click="navigateTo('/')"
+      />
     </div>
     <div
       class="resizer"
       :class="{ resizing }"
       @mousedown="startResize"
     />
-  </div>
+  </v-navigation-drawer>
 </template>
 
 <style lang="scss" scoped>
-.navigation-sidebar-wrapper {
-  display: flex;
+:deep(.v-navigation-drawer__content) {
+  display: flex !important;
+  background-color: var(--bg-secondary-color);
+  color: var(--fg-primary-color);
 }
 
 .navigation-sidebar {
   position: sticky;
   top: 0;
   display: flex;
+  height: 100%;
+  width: 100%;
   flex-direction: column;
   overflow: hidden;
-  border-right: 1px solid var(--border-secondary-color);
   background-color: var(--bg-secondary-color);
   z-index: 10;
 }
@@ -211,6 +229,11 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
     background-color: var(--bg-accent-color);
   }
 }
+.search-input {
+  :deep(.v-field__field) {
+    color: var(--fg-primary-color);
+  }
+}
 .compact-treeview {
   padding: 0;
 
@@ -224,14 +247,14 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
       > .v-list-group:nth-of-type(6n + 1) {
         --folder-color: #1976d2e8;
         background-color: #1976d207;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #1976d207;
         padding: 4px;
         margin: 4px;
       }
       > .v-list-group:nth-of-type(6n + 2) {
         --folder-color: #d32f2f;
         background-color: #d32f2f07;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #d32f2f07;
         padding: 4px;
         margin: 4px;
         .mdi-folder {
@@ -241,30 +264,42 @@ const navTree = computed(() => renderNavTree(props.items ?? []))
       > .v-list-group:nth-of-type(6n + 3) {
         --folder-color: #388e3ce3;
         background-color: #388e3c07;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #388e3c07;
         padding: 4px;
         margin: 4px;
       }
       > .v-list-group:nth-of-type(6n + 4) {
-        --folder-color: #fbc12dc5;
+        --folder-color: #e7a20cc5;
         background-color: #fbc02d07;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #fbc02d07;
         padding: 4px;
         margin: 4px;
       }
       > .v-list-group:nth-of-type(6n + 5) {
         --folder-color: #7b1fa2dc;
         background-color: #7b1fa207;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #7b1fa207;
         padding: 4px;
         margin: 4px;
       }
       > .v-list-group:nth-of-type(6n + 6) {
         --folder-color: #5d4037d7;
         background-color: #5d403707;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #5d403707;
         padding: 4px;
         margin: 4px;
+      }
+
+      > .v-list-item {
+        --folder-color: #b6217df1;
+        background-color: #b6217d07;
+        border: 1px solid #b6217d07;
+        padding: 4px;
+        margin: 4px;
+      }
+
+      .v-list-item {
+        color: var(--folder-color, inherit);
       }
 
       .v-list-group .v-list-item .tree-item-title {

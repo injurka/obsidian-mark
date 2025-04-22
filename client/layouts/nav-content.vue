@@ -10,6 +10,8 @@ interface RouteParams {
 const router = useRouter()
 const contentViewerStore = useContentViewerStore()
 
+const menu = ref(true)
+
 const params = computed(() => {
   const routeParams = router.currentRoute.value.params as any
   return { vault: routeParams.vault } as RouteParams
@@ -35,10 +37,10 @@ watch(
       <PageLoader v-if="navStatus === 'pending'" />
 
       <div v-else class="app-wrapper">
-        <ContentViewerNavigation :items="navItems" />
+        <ContentViewerNavigation v-model:menu="menu" :items="navItems" />
 
         <div class="main-content-wrapper">
-          <ContentViewerHeader />
+          <ContentViewerHeader v-model:menu="menu" />
 
           <div class="main-content" :class="{ 'main-content--borderless': contentViewerStore.borderlessViewEnabled }">
             <slot />
@@ -56,6 +58,8 @@ watch(
   height: 100%;
   flex: 1;
   overflow-y: auto;
+  background-color: var(--bg-primary-color);
+  height: 100vh;
 }
 
 .main-content-wrapper {
@@ -76,10 +80,6 @@ watch(
       width: 100%;
       max-width: none;
       margin: 0;
-    }
-    :deep(.markdown-body-wrapper) {
-      padding: 20px 40px;
-      background-color: transparent;
     }
   }
 }

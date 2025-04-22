@@ -8,6 +8,7 @@ type VBreadcrumbsItems = NonNullable<InstanceType<typeof VBreadcrumbs>['$props']
 const route = useRoute()
 const { setTheme, theme } = useChangeTheme()
 const contentViewerStore = useContentViewerStore()
+const menu = defineModel('menu', { required: true })
 
 const controlledTheme = computed({
   get: () => theme.value,
@@ -65,40 +66,50 @@ const breadcrumbItems = computed<VBreadcrumbsItems>(() => {
 
 <template>
   <div class="content-header">
+    <VBtn
+      icon="mdi-menu"
+      variant="text"
+      density="compact"
+      style="font-size: 0.8rem; height: 30px;"
+      :style="{ opacity: menu ? 0 : 1 }"
+      @click="menu = true"
+    />
     <VBreadcrumbs :items="breadcrumbItems" density="compact" class="content-breadcrumbs">
       <template #divider>
         <v-icon icon="mdi-chevron-right" />
       </template>
     </VBreadcrumbs>
-    <VMenu location="bottom end" persistent :close-on-content-click="false">
-      <template #activator="{ props }">
-        <VBtn
-          style="font-size: 0.8rem;"
-          v-bind="props"
-          icon="mdi-tune-variant"
-          variant="text"
-          density="compact"
-          title="Настройки отображения"
-        />
-      </template>
-      <VList density="compact">
-        <VListItem>
-          <VCheckbox
-            v-model="contentViewerStore.borderlessViewEnabled"
-            label="Отображение без границ"
-            hide-details density="compact"
+    <div class="control">
+      <VMenu location="bottom end" persistent :close-on-content-click="false">
+        <template #activator="{ props }">
+          <VBtn
+            style="font-size: 0.8rem;"
+            v-bind="props"
+            icon="mdi-tune-variant"
+            variant="text"
+            density="compact"
+            title="Настройки отображения"
           />
-        </VListItem>
-      </VList>
-    </VMenu>
-    <VBtn
-      style="font-size: 0.8rem; margin-left: 12px;"
-      :icon="themePreset.icon"
-      variant="text"
-      density="compact"
-      title="Визуальное оформление"
-      @click="controlledTheme = themePreset.next"
-    />
+        </template>
+        <VList density="compact">
+          <VListItem>
+            <VCheckbox
+              v-model="contentViewerStore.borderlessViewEnabled"
+              label="Отображение без границ"
+              hide-details density="compact"
+            />
+          </VListItem>
+        </VList>
+      </VMenu>
+      <VBtn
+        style="font-size: 0.8rem; margin-left: 12px;"
+        :icon="themePreset.icon"
+        variant="text"
+        density="compact"
+        title="Визуальное оформление"
+        @click="controlledTheme = themePreset.next"
+      />
+    </div>
   </div>
 </template>
 
@@ -110,14 +121,28 @@ const breadcrumbItems = computed<VBreadcrumbsItems>(() => {
   padding: 0px 20px 0px 10px;
   border-bottom: 1px solid var(--border-secondary-color);
   flex-shrink: 0;
-  background-color: var(--bg-primary-color);
-  min-height: 46px;
+  min-height: #{$header-height};
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  background-color: rgba(var(--bg-header-color), 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 .content-breadcrumbs {
   padding: 8px 0;
   flex-grow: 1;
   :deep(.v-breadcrumbs-item) {
     font-size: 0.8rem;
+  }
+}
+
+@include mobile {
+  :deep(.content-breadcrumbs) {
+    display: none;
   }
 }
 </style>
