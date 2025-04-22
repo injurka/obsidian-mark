@@ -81,10 +81,6 @@ watch(
       max-width: none;
       margin: 0;
     }
-    :deep(.markdown-body-wrapper) {
-      padding: 20px 40px;
-      background-color: transparent;
-    }
   }
 }
 </style>
