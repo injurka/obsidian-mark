@@ -39,6 +39,11 @@ p {
   color: var(--fg-primary-color) !important;
 }
 
+.v-navigation-drawer {
+  border-right: 1px solid var(--bg-secondary-color);
+  border-color: var(--bg-secondary-color) !important;
+}
+
 ::-webkit-scrollbar {
   width: 4px;
   height: 100%;
