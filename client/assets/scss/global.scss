@@ -8,6 +8,10 @@ html {
   height: 100%;
   border: none;
   font-size: 17px;
+
+  @include mobile {
+    font-size: 15px;
+  }
 }
 
 body {
