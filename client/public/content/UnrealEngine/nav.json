@@ -259,6 +259,11 @@
             "type": "directory",
             "children": [
               {
+                "sysname": "Debug",
+                "title": "Debug",
+                "type": "file"
+              },
+              {
                 "sysname": "Stun",
                 "title": "Stun",
                 "type": "file"
@@ -401,8 +406,13 @@
                     "type": "file"
                   },
                   {
-                    "sysname": "05. Настройка Репликации",
-                    "title": "05. Настройка Репликации",
+                    "sysname": "05. Лобби с Выбором Шасси и Запуск Игры",
+                    "title": "05. Лобби с Выбором Шасси и Запуск Игры",
+                    "type": "file"
+                  },
+                  {
+                    "sysname": "06. Настройка Репликации",
+                    "title": "06. Настройка Репликации",
                     "type": "file"
                   },
                   {
@@ -555,6 +565,11 @@
           {
             "sysname": "UE Tree Content",
             "title": "UE Tree Content",
+            "type": "file"
+          },
+          {
+            "sysname": "UE Tree Sorces",
+            "title": "UE Tree Sorces",
             "type": "file"
           }
         ]
