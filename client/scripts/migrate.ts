@@ -70,11 +70,49 @@ async function extractSysnameFromFrontMatter(filePath: string): Promise<string |
       }
     }
   } catch (error: any) {
-    console.warn(`Could not read front matter from ${filePath}: ${error.message}`);
+    console.warn(`Could not read front matter from ${filePath}: ${error.message} `);
   } finally {
     await fileHandle?.close();
   }
   return null;
+}
+
+/**
+ * Ensures a directory exists for a given file path.
+ */
+async function ensureDirectoryExists(filePath: string): Promise<void> {
+  const directory = path.dirname(filePath);
+  try {
+    await fs.mkdir(directory, { recursive: true });
+  } catch (error: any) {
+    // Ignore if directory already exists
+    if (error.code !== 'EEXIST') {
+      throw error;
+    }
+  }
+}
+
+/**
+ * Safely copies a file, ensuring the destination directory exists.
+ */
+async function safeCopyFile(sourcePath: string, destPath: string): Promise<void> {
+  try {
+    // First check if the source file exists
+    await fs.access(sourcePath, fs.constants.F_OK);
+
+    // Ensure destination directory exists
+    await ensureDirectoryExists(destPath);
+
+    // Copy the file
+    await fs.copyFile(sourcePath, destPath);
+  } catch (error: any) {
+    if (error.code === 'ENOENT') {
+      console.error(`Error: Source file does not exist: ${sourcePath} `);
+    } else {
+      console.error(`Error copying file from ${sourcePath} to ${destPath}: ${error.message} `);
+    }
+    throw error; // Re-throw to allow caller to handle
+  }
 }
 
 // ========================================================================
@@ -127,7 +165,7 @@ async function buildFileMapRecursive(
         // Construct the full URL: /{navigation.sysname}/relative/path/to/file
         // NOTE: We are NOT URL-encoding path segments here to match the example output.
         // Consider adding encodeURIComponent if needed for web server compatibility.
-        const targetUrl = `/${navigationSysname}/${finalRelativePath}`;
+        const targetUrl = `/ ${navigationSysname}/${finalRelativePath}`;
 
         if (fileMap.has(baseName)) {
           console.warn(`⚠️ Duplicate base file name found: "${baseName}". Link resolution might be ambiguous. Using path: ${targetUrl}`);
@@ -183,10 +221,11 @@ async function processDirectoryRecursive(
       if (entry.isFile() && isImageExtension(extension)) {
         const targetImagePath = path.join(imageDestPath, entryName);
         try {
-          await fs.copyFile(sourceFullPath, targetImagePath);
-          // console.log(`🖼️ Image copied: ${entryName} -> ${IMAGE_DEST_FOLDER}/`);
+          await safeCopyFile(sourceFullPath, targetImagePath);
+          console.log(`🖼️ Image copied: ${entryName} -> ${IMAGE_DEST_FOLDER}/`);
         } catch (copyError: any) {
-          console.error(`Error copying image ${entryName}:`, copyError.message);
+          // Error already logged in safeCopyFile
+          continue; // Continue with next file/folder
         }
         continue; // Skip adding images to nav.json
       }
@@ -222,7 +261,16 @@ async function processDirectoryRecursive(
 
       // --- Create/Copy/Process ---
       if (type === ContentNavItemType.Directory) {
-        await fs.mkdir(destFullPath, { recursive: true });
+        // Create directory
+        try {
+          await fs.mkdir(destFullPath, { recursive: true });
+          console.log(`📁 Created directory: ${destRelativePath || '/'}`);
+        } catch (mkdirError: any) {
+          console.error(`Error creating directory ${destFullPath}:`, mkdirError.message);
+          continue; // Skip this directory if we can't create it
+        }
+
+        // Process children recursively
         currentChildren = await processDirectoryRecursive(
           sourceFullPath,
           destBasePath,
@@ -246,7 +294,6 @@ async function processDirectoryRecursive(
 
             if (targetUrl) {
               linksReplaced++;
-              // console.log(`    🔗 Replacing link in ${entryName}: "[[${linkedFile}${alias ? '|' + alias : ''}]]" -> "[${linkText}](${targetUrl})"`);
               return `[${linkText}](${targetUrl})`;
             } else {
               // Keep original link but maybe log a warning
@@ -259,20 +306,25 @@ async function processDirectoryRecursive(
             console.log(`📝 Processed ${entryName}: ${linksReplaced}/${linksFound} links replaced.`);
           }
 
+          // Ensure parent directory exists
+          await ensureDirectoryExists(destFullPath);
+
           // Write the modified content to the destination
           await fs.writeFile(destFullPath, content, 'utf8');
+          console.log(`✍️ Wrote Markdown file: ${destRelativePath}`);
 
         } catch (readWriteError: any) {
-          console.error(`Error processing/writing Markdown file ${entryName}:`, readWriteError.message);
+          console.error(`Error processing Markdown file ${entryName}:`, readWriteError.message);
+          continue; // Skip this file if processing failed
         }
       } else {
         // Copy other file types directly
         try {
-          // Ensure parent directory exists before copying
-          await fs.mkdir(path.dirname(destFullPath), { recursive: true });
-          await fs.copyFile(sourceFullPath, destFullPath);
+          console.log(`📄 Copying file: ${destRelativePath}`);
+          await safeCopyFile(sourceFullPath, destFullPath);
         } catch (copyError: any) {
-          console.error(`Error copying file ${entryName} to ${destFullPath}:`, copyError.message);
+          // Error already logged in safeCopyFile
+          continue; // Skip this file if copying failed
         }
       }
 
@@ -303,22 +355,20 @@ async function processDirectoryRecursive(
   return childrenNavItems;
 }
 
-// --- Main Function ---
 export async function main(
   _sourceDir?: string,
   _exportDir?: string,
-  _navigationSysname?: string // <-- Add navigationSysname parameter
+  _navigationSysname?: string
 ): Promise<void> {
   const sourceDir: string | undefined = _sourceDir ?? process.argv[2];
   const exportDir: string | undefined = _exportDir ?? process.argv[3];
-  // Use provided nav sysname or get from args (less ideal) or default
-  const navigationSysname: string | undefined = _navigationSysname ?? process.argv[4];
+  const navigationSysname: string | undefined = _navigationSysname ?? process.argv[4] ?? path.basename(sourceDir || '');
 
-  if (!sourceDir || !exportDir || !navigationSysname) { // Check for navigationSysname too
+  if (!sourceDir || !exportDir) {
     console.error('Error: Missing required arguments:');
     console.error('1. Source directory path');
     console.error('2. Export directory path');
-    console.error('3. Navigation sysname (root identifier for URLs)');
+    console.error('3. Navigation sysname (optional, defaults to source directory name)');
     console.error('Example: node dist/script.js /path/to/source /path/to/export SectionName');
     process.exit(1);
   }
@@ -330,12 +380,25 @@ export async function main(
   console.log(`\n🚀 Starting processing for [${navigationSysname}]`);
   console.log(`   Source: ${absoluteSourceDir}`);
   console.log(`   Export Root: ${absoluteExportDir}`);
+  console.log(`   Image Destination: ${absoluteImageDestPath}`);
 
   // Clean and prepare destination directory
-  // console.log(`   Cleaning destination: ${absoluteExportDir}`);
-  await fs.rm(absoluteExportDir, { recursive: true, force: true });
-  await fs.mkdir(absoluteExportDir, { recursive: true });
-  await fs.mkdir(absoluteImageDestPath, { recursive: true }); // Create image folder '_'
+  console.log(`   Cleaning destination: ${absoluteExportDir}`);
+  try {
+    await fs.rm(absoluteExportDir, { recursive: true, force: true });
+  } catch (error) {
+    // Ignore if directory doesn't exist or can't be removed fully
+  }
+
+  // Create destination directories
+  try {
+    await fs.mkdir(absoluteExportDir, { recursive: true });
+    await fs.mkdir(absoluteImageDestPath, { recursive: true });
+    console.log(`   Created destination directories`);
+  } catch (error: any) {
+    console.error(`   Failed to create destination directories: ${error.message}`);
+    process.exit(1);
+  }
 
   try {
     // Check source directory exists
@@ -386,7 +449,9 @@ export async function main(
   }
 }
 
-// (Keep the clean function as it was, it doesn't need modification for link processing)
+/**
+ * Cleans destination directory for a section
+ */
 export async function clean(_sourceDir?: string, _exportDir?: string): Promise<void> {
   const exportDir: string | undefined = _exportDir ?? process.argv[3];
 
@@ -398,10 +463,13 @@ export async function clean(_sourceDir?: string, _exportDir?: string): Promise<v
   const absoluteExportDir = path.resolve(exportDir);
   // Only remove the specific export dir, not the global public/content
   console.log(`🧹 Cleaning directory: ${absoluteExportDir}`);
-  await fs.rm(absoluteExportDir, { recursive: true, force: true });
-  // Recreate the base export dir after cleaning
-  await fs.mkdir(absoluteExportDir, { recursive: true });
-  // Recreate the image folder if needed within this specific dir
-  // await fs.mkdir(path.join(absoluteExportDir, IMAGE_DEST_FOLDER), { recursive: true });
-  console.log(`✨ Directory cleaned: ${absoluteExportDir}`);
+  try {
+    await fs.rm(absoluteExportDir, { recursive: true, force: true });
+    // Recreate the base export dir after cleaning
+    await fs.mkdir(absoluteExportDir, { recursive: true });
+    console.log(`✨ Directory cleaned and recreated: ${absoluteExportDir}`);
+  } catch (error: any) {
+    console.error(`Error cleaning directory ${absoluteExportDir}: ${error.message}`);
+    process.exit(1);
+  }
 }

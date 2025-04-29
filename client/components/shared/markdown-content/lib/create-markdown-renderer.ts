@@ -11,6 +11,7 @@ import MarkdownItContainer from 'markdown-it-container'
 import MarkdownItObsidianCallouts from 'markdown-it-obsidian-callouts'
 import { createHighlighter } from 'shiki'
 import { markdownItWikiImages } from './markdownIt-wiki-images'
+import { markdownItWikiLinks } from './markdownIt-wiki-links'
 
 interface CreateMarkdownRendererParams {
   imageBasePath?: string
@@ -49,6 +50,7 @@ export async function createMarkdownRenderer(params: CreateMarkdownRendererParam
       baseURL: imageBasePath,
       defaultAlt: '',
     })
+    .use(markdownItWikiLinks)
     .use(MarkdownItObsidianCallouts)
     .use(MarkdownItAttrs)
     .use(MarkdownItCollapsible)

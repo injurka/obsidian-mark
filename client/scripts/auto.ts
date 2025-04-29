@@ -26,6 +26,7 @@ async function auto() {
   console.log(`\n🌍 Global navigation file saved: ${globalNavFilePath}`);
 
   console.log('\nAll content generation tasks completed.');
+  
 }
 
 auto().catch(err => {

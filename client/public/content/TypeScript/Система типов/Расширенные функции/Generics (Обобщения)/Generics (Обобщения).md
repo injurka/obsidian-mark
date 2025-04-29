@@ -1,3 +1,0 @@
-- ### [Что такое Generics (Обобщения)](/TypeScript/Система типов/Расширенные функции/Generics (Обобщения)/Что такое Generics (Обобщения))
-- ### [Generics высшего порядка](/TypeScript/Система типов/Расширенные функции/Generics (Обобщения)/Generics высшего порядка)
-- ### [Generic Constraints](/TypeScript/Система типов/Расширенные функции/Generics (Обобщения)/Generic Constraints)

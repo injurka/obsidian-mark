@@ -1,3 +1,0 @@
-- ### [Декларация окружения](/TypeScript/Общее/dts/Декларация окружения)
-- ### [global.d.ts](/TypeScript/Общее/dts/global.d.ts)
-- ### [lib.d.ts](/TypeScript/Общее/dts/lib.d.ts)

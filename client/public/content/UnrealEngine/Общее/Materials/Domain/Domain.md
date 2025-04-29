@@ -1,2 +1,0 @@
-- ### [Light Functions](/UnrealEngine/Общее/Materials/Domain/Light Functions)
-- ### [Post Process](/UnrealEngine/Общее/Materials/Domain/Post Process)

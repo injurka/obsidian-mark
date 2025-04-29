@@ -1,3 +1,0 @@
-- ### [Coordinates](/UnrealEngine/Maths/Coordinates)
-- ### [Vectors](/UnrealEngine/Maths/Vectors/Vectors)
-- ### [Rotators](/UnrealEngine/Maths/Rotators)

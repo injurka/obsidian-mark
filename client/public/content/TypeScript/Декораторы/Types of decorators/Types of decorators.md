@@ -1,5 +1,0 @@
-- ### [Class decorators](/TypeScript/Декораторы/Types of decorators/Class decorators)
-- ### [Property decorators](/TypeScript/Декораторы/Types of decorators/Property decorators)
-- ### [Accessor decorators](/TypeScript/Декораторы/Types of decorators/Accessor decorators)
-- ### [Method decorators](/TypeScript/Декораторы/Types of decorators/Method decorators)
-- ### [Parameter decorators](/TypeScript/Декораторы/Types of decorators/Parameter decorators)
