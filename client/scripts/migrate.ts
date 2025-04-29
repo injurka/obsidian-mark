@@ -1,7 +1,6 @@
-import type { Dirent } from 'node:fs';
-import fs from 'node:fs/promises';
-import path from 'node:path';
-import process from 'node:process';
+import type { Dirent } from 'node:fs' // Импортируем тип Dirent для readdir
+import fs from 'node:fs/promises' // Используем промисы из fs
+import path from 'node:path'
 
 // --- Типы данных ---
 enum ContentNavItemType {
@@ -10,23 +9,22 @@ enum ContentNavItemType {
 }
 
 interface ContentNavItem {
-  sysname: string;
-  title: string;
-  type: ContentNavItemType;
-  children?: ContentNavItem[];
+  sysname: string
+  title: string
+  type: ContentNavItemType
+  children?: ContentNavItem[] // Дети могут быть только у директорий
 }
 
 // --- Константы ---
-const NAV_FILENAME: string = 'nav.json';
-const IMAGE_DEST_FOLDER: string = '_';
+const NAV_FILENAME: string = 'nav.json'
+const IMAGE_DEST_FOLDER: string = '_' // Папка для изображений в корне назначения
 
 // --- Регулярные выражения ---
 const FRONT_MATTER_REGEX: RegExp = /^---\s*([\s\S]*?)\s*---/;
 const SYSNAME_REGEX: RegExp = /^\s*sysname:\s*"?([^"\s]+)"?\s*$/m;
-// Regex to find Obsidian links: [[filename]] or [[filename|alias]]
 const OBSIDIAN_LINK_REGEX: RegExp = /(?<!\!)\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]/g;
 
-// --- Расширения изображений ---
+// --- Расширения изображений (можно дополнить) ---
 const IMAGE_EXTENSIONS: Set<string> = new Set([
   '.png',
   '.jpg',
@@ -36,46 +34,56 @@ const IMAGE_EXTENSIONS: Set<string> = new Set([
   '.webp',
   '.bmp',
   '.tiff',
-]);
+])
 
 /**
- * Checks if a file extension is an image extension.
+ * Проверяет, является ли расширение файла расширением изображения.
+ * @param extension - Расширение файла (например, '.png').
+ * @returns true, если это изображение, иначе false.
  */
 function isImageExtension(extension: string): boolean {
-  return IMAGE_EXTENSIONS.has(extension.toLowerCase());
+  return IMAGE_EXTENSIONS.has(extension.toLowerCase())
 }
 
 /**
- * Extracts sysname from YAML front matter.
+ * Извлекает sysname из YAML front matter файла.
+ * @param filePath - Путь к файлу.
+ * @returns Промис, который разрешается значением sysname или null, если его нет.
  */
 async function extractSysnameFromFrontMatter(filePath: string): Promise<string | null> {
-  let fileHandle: fs.FileHandle | undefined;
+  let fileHandle: fs.FileHandle | undefined
   try {
-    fileHandle = await fs.open(filePath, 'r');
-    const buffer = Buffer.alloc(1024);
-    const { bytesRead } = await fileHandle.read(buffer, 0, 1024, 0);
+    // Читаем только начало файла, чтобы не загружать большие файлы целиком
+    fileHandle = await fs.open(filePath, 'r')
+    const buffer = Buffer.alloc(1024) // Читаем первый килобайт
+    const { bytesRead } = await fileHandle.read(buffer, 0, 1024, 0)
 
     if (bytesRead === 0) {
-      return null;
+      return null
     }
 
-    const contentStart: string = buffer.toString('utf8', 0, bytesRead);
-    const frontMatterMatch = contentStart.match(FRONT_MATTER_REGEX);
+    const contentStart: string = buffer.toString('utf8', 0, bytesRead)
+    const frontMatterMatch = contentStart.match(FRONT_MATTER_REGEX)
 
-    if (frontMatterMatch?.[1]) {
-      const yamlContent = frontMatterMatch[1];
-      const sysnameMatch = yamlContent.match(SYSNAME_REGEX);
-      if (sysnameMatch?.[1]) {
-        return sysnameMatch[1];
+    if (frontMatterMatch?.[1]) { // Используем optional chaining
+      const yamlContent = frontMatterMatch[1]
+      const sysnameMatch = yamlContent.match(SYSNAME_REGEX)
+      if (sysnameMatch?.[1]) { // Используем optional chaining
+        return sysnameMatch[1] // Возвращаем найденное значение sysname
       }
     }
-  } catch (error: any) {
-    console.warn(`Could not read front matter from ${filePath}: ${error.message} `);
-  } finally {
-    await fileHandle?.close();
   }
-  return null;
+  catch (error: any) { // Явно указываем тип ошибки (можно использовать unknown и проверять)
+    // Игнорируем ошибки чтения файла (например, нет прав), front matter не будет извлечен
+    console.warn(`Не удалось прочитать front matter из файла ${filePath}: ${error.message}`)
+  }
+  finally {
+    // Гарантированно закрываем файл, если он был открыт
+    await fileHandle?.close()
+  }
+  return null // Front matter или sysname не найдены
 }
+
 
 /**
  * Ensures a directory exists for a given file path.
@@ -114,10 +122,6 @@ async function safeCopyFile(sourcePath: string, destPath: string): Promise<void>
     throw error; // Re-throw to allow caller to handle
   }
 }
-
-// ========================================================================
-// Pass 1: Build File Map
-// ========================================================================
 
 /**
  * Recursively scans the source directory to build a map of base file names to their final URL paths.
@@ -180,86 +184,76 @@ async function buildFileMapRecursive(
   }
 }
 
-
-// ========================================================================
-// Pass 2: Process Content and Copy
-// ========================================================================
-
-/**
- * Recursively scans, processes content (replacing links), copies files/folders, and builds the nav structure.
- * @param sourceCurrentPath - Current source path being scanned.
- * @param destBasePath - Base destination path (e.g., './public/content/Travel').
- * @param relativePath - Relative path within the destination structure.
- * @param imageDestPath - Absolute path to the destination image folder.
- * @param fileMap - The pre-built map of base file names to URLs.
- * @param navigationSysname - The root sysname for this section (needed for logging/context).
- * @returns Promise resolving to an array of ContentNavItem for the current level.
- */
 async function processDirectoryRecursive(
   sourceCurrentPath: string,
   destBasePath: string,
   relativePath: string,
   imageDestPath: string,
-  fileMap: Map<string, string>, // Pass the map here
+  fileMap: Map<string, string>,
   navigationSysname: string,
 ): Promise<ContentNavItem[]> {
-  const childrenNavItems: ContentNavItem[] = [];
+  const childrenNavItems: ContentNavItem[] = []
   try {
-    const entries: Dirent[] = await fs.readdir(sourceCurrentPath, { withFileTypes: true });
+    const entries: Dirent[] = await fs.readdir(sourceCurrentPath, { withFileTypes: true })
 
     for (const entry of entries) {
-      const entryName = entry.name;
-      const sourceFullPath = path.join(sourceCurrentPath, entryName);
-      const extension = path.extname(entryName);
+      const entryName = entry.name
+      const sourceFullPath = path.join(sourceCurrentPath, entryName)
+      const extension = path.extname(entryName)
 
-      // --- Ignore Rules ---
-      if (entryName.startsWith('.') || entryName === IMAGE_DEST_FOLDER || (entry.isDirectory() && entryName === '-')) {
-        continue;
-      }
+      // --- Правила игнорирования ---
+      if (entryName.startsWith('.'))
+        continue // Скрытые файлы/папки
+      if (entry.isDirectory() && entryName === '-')
+        continue // Папка '-' (если это специальное правило)
 
-      // --- Handle Images ---
+      // --- Обработка изображений ---
       if (entry.isFile() && isImageExtension(extension)) {
-        const targetImagePath = path.join(imageDestPath, entryName);
+        const targetImagePath = path.join(imageDestPath, entryName)
         try {
-          await safeCopyFile(sourceFullPath, targetImagePath);
-          console.log(`🖼️ Image copied: ${entryName} -> ${IMAGE_DEST_FOLDER}/`);
-        } catch (copyError: any) {
-          // Error already logged in safeCopyFile
-          continue; // Continue with next file/folder
+          await fs.copyFile(sourceFullPath, targetImagePath)
+          console.log(`🖼️ Изображение скопировано: ${entryName} -> ${IMAGE_DEST_FOLDER}/`)
         }
-        continue; // Skip adding images to nav.json
+        catch (copyError: any) {
+          console.error(`Ошибка копирования изображения ${entryName}:`, copyError.message)
+        }
+        continue // Переходим к следующему элементу, не добавляем в nav.json
       }
 
-      // --- Determine Type and Base Names ---
-      const type = entry.isDirectory() ? ContentNavItemType.Directory : ContentNavItemType.File;
-      const title = path.basename(entryName, extension); // Title for nav.json
+      // --- Определение типа и базовых имен ---
+      const type = entry.isDirectory() ? ContentNavItemType.Directory : ContentNavItemType.File
+      // Title - имя файла без расширения
+      const title = path.basename(entryName, extension)
 
-      let sysname = entryName; // Default sysname (for folders or non-md files)
-      let targetName = entryName; // Default target file/folder name in destination
-      let currentChildren: ContentNavItem[] | undefined;
+      let sysname = entryName // По умолчанию sysname = имя файла/папки
+      let targetName = entryName // Имя файла/папки в директории назначения по умолчанию
+      let currentChildren: ContentNavItem[] | undefined
 
-      // --- Process Files (Extract sysname, determine targetName) ---
+      // --- Обработка файлов (извлечение sysname, определение targetName) ---
       if (type === ContentNavItemType.File && extension.toLowerCase() === '.md') {
-        const frontMatterSysname = await extractSysnameFromFrontMatter(sourceFullPath);
+        const frontMatterSysname = await extractSysnameFromFrontMatter(sourceFullPath)
         if (frontMatterSysname) {
-          sysname = frontMatterSysname; // Use sysname from front matter for nav.json
-          targetName = `${sysname}${extension}`; // Rename file in destination
-        } else {
-          sysname = title; // Use title as sysname if no front matter
-          // targetName remains original entryName
+          sysname = frontMatterSysname // Используем sysname из front matter
+          targetName = `${sysname}${extension}` // Новое имя файла = sysname + .md
         }
-      } else if (type === ContentNavItemType.File) {
-        // For non-md files (not images), use title as sysname
-        sysname = title;
-        // targetName remains original entryName
+        else {
+          // Если front matter нет, sysname становится именем файла без расширения
+          sysname = title
+          // targetName остается оригинальным entryName
+        }
       }
-      // For directories, sysname and targetName remain original entryName
+      else if (type === ContentNavItemType.File) {
+        // Для других файлов (не .md и не изображений) используем имя без расширения как sysname
+        sysname = title
+        // targetName остается оригинальным entryName
+      }
+      // Для директорий sysname и targetName остаются оригинальным именем папки
 
-      // --- Determine Destination Path for Non-Images ---
-      const destRelativePath = path.join(relativePath, targetName);
-      const destFullPath = path.join(destBasePath, destRelativePath);
+      // --- Определение пути назначения для НЕ-изображений ---
+      const destRelativePath = path.join(relativePath, targetName)
+      const destFullPath = path.join(destBasePath, destRelativePath)
 
-      // --- Create/Copy/Process ---
+      // --- Создание/Копирование ---
       if (type === ContentNavItemType.Directory) {
         // Create directory
         try {
@@ -328,148 +322,129 @@ async function processDirectoryRecursive(
         }
       }
 
-      // --- Create Nav Item ---
+      // --- Создание объекта для nav.json ---
       const navItem: ContentNavItem = {
         sysname,
         title,
         type,
-      };
-      if (currentChildren && currentChildren.length > 0) {
-        navItem.children = currentChildren;
+      }
+      if (currentChildren && currentChildren.length > 0) { // Добавляем children только если они не пустые
+        navItem.children = currentChildren
       }
 
-      childrenNavItems.push(navItem);
+      childrenNavItems.push(navItem)
     }
-  } catch (error: any) {
-    console.error(`Error processing directory ${sourceCurrentPath}:`, error.message);
+  }
+  catch (error: any) {
+    console.error(`Ошибка обработки директории ${sourceCurrentPath}:`, error.message)
   }
 
-  // Sort: Folders -> Files, alphabetically by title
+  // Сортировка: папки -> файлы, по алфавиту title
   childrenNavItems.sort((a, b) => {
     if (a.type !== b.type) {
-      return a.type === ContentNavItemType.Directory ? -1 : 1;
+      return a.type === ContentNavItemType.Directory ? -1 : 1
     }
-    return a.title.localeCompare(b.title);
-  });
+    // Используем localeCompare для корректной сортировки строк
+    return a.title.localeCompare(b.title)
+  })
 
-  return childrenNavItems;
+  return childrenNavItems
 }
 
+// --- Основная функция ---
 export async function main(
   _sourceDir?: string,
   _exportDir?: string,
   _navigationSysname?: string
 ): Promise<void> {
-  const sourceDir: string | undefined = _sourceDir ?? process.argv[2];
-  const exportDir: string | undefined = _exportDir ?? process.argv[3];
+  // process.argv содержит: [0: node, 1: script.js, 2: arg1, 3: arg2, ...]
+  const sourceDir: string | undefined = _sourceDir ?? process.argv[2]
+  const exportDir: string | undefined = _exportDir ?? process.argv[3]
   const navigationSysname: string | undefined = _navigationSysname ?? process.argv[4] ?? path.basename(sourceDir || '');
 
   if (!sourceDir || !exportDir) {
-    console.error('Error: Missing required arguments:');
-    console.error('1. Source directory path');
-    console.error('2. Export directory path');
-    console.error('3. Navigation sysname (optional, defaults to source directory name)');
-    console.error('Example: node dist/script.js /path/to/source /path/to/export SectionName');
-    process.exit(1);
+    console.error('Ошибка: Необходимо указать два аргумента:')
+    console.error('1. Путь к исходной директории')
+    console.error('2. Путь к директории для экспорта')
+    console.error('Пример: node dist/script.js /path/to/source /path/to/export')
+    process.exit(1)
   }
 
-  const absoluteSourceDir = path.resolve(sourceDir);
-  const absoluteExportDir = path.resolve(exportDir); // This is the base export dir for the section
-  const absoluteImageDestPath = path.join(absoluteExportDir, IMAGE_DEST_FOLDER);
+  // Преобразуем пути в абсолютные для надежности
+  const absoluteSourceDir = path.resolve(sourceDir)
+  const absoluteExportDir = path.resolve(exportDir)
+  const absoluteImageDestPath = path.join(absoluteExportDir, IMAGE_DEST_FOLDER)
 
-  console.log(`\n🚀 Starting processing for [${navigationSysname}]`);
-  console.log(`   Source: ${absoluteSourceDir}`);
-  console.log(`   Export Root: ${absoluteExportDir}`);
-  console.log(`   Image Destination: ${absoluteImageDestPath}`);
-
-  // Clean and prepare destination directory
-  console.log(`   Cleaning destination: ${absoluteExportDir}`);
-  try {
-    await fs.rm(absoluteExportDir, { recursive: true, force: true });
-  } catch (error) {
-    // Ignore if directory doesn't exist or can't be removed fully
-  }
-
-  // Create destination directories
-  try {
-    await fs.mkdir(absoluteExportDir, { recursive: true });
-    await fs.mkdir(absoluteImageDestPath, { recursive: true });
-    console.log(`   Created destination directories`);
-  } catch (error: any) {
-    console.error(`   Failed to create destination directories: ${error.message}`);
-    process.exit(1);
-  }
+  // Очистка и создание директории назначения
+  console.log(`Очистка и подготовка директории назначения: ${absoluteExportDir}`)
+  await fs.rm(absoluteExportDir, { recursive: true, force: true }) // Удаляем, если существует
+  await fs.mkdir(absoluteExportDir, { recursive: true }) // Создаем заново
+  await fs.mkdir(absoluteImageDestPath, { recursive: true }) // Создаем папку для изображений '_'
 
   try {
-    // Check source directory exists
+    // Проверка исходной директории
     try {
-      const sourceStats = await fs.stat(absoluteSourceDir);
+      const sourceStats = await fs.stat(absoluteSourceDir)
       if (!sourceStats.isDirectory()) {
-        throw new Error(`Source path "${absoluteSourceDir}" is not a directory.`);
+        throw new Error(`Исходный путь "${absoluteSourceDir}" не является директорией.`)
       }
-    } catch (statError: any) {
+    }
+    catch (statError: any) {
       if (statError.code === 'ENOENT') {
-        throw new Error(`Source directory "${absoluteSourceDir}" not found.`);
+        throw new Error(`Исходная директория "${absoluteSourceDir}" не найдена.`)
       }
-      throw statError;
+      throw statError // Перебрасываем другие ошибки stat
     }
 
-    // --- Pass 1: Build File Map ---
-    console.log(`   Pass 1: Building file map...`);
+    console.log(`Начинаю обработку директории: ${absoluteSourceDir}`)
+    console.log(`Экспорт в: ${absoluteExportDir}`)
+    console.log(`Изображения будут скопированы в: ${absoluteImageDestPath}`)
+
     const fileMap = new Map<string, string>();
-    await buildFileMapRecursive(
-      absoluteSourceDir,      // Base path for relative calculations
-      absoluteSourceDir,      // Start scanning from here
-      navigationSysname,      // Root identifier for URLs
-      fileMap                 // Map to populate
-    );
-    console.log(`   Pass 1: Map built with ${fileMap.size} entries.`);
 
-    // --- Pass 2: Process Content, Copy, and Build Nav ---
-    console.log(`   Pass 2: Processing content and building structure...`);
+    // Запускаем рекурсивную обработку и построение JSON
     const navigationStructure: ContentNavItem[] = await processDirectoryRecursive(
-      absoluteSourceDir,      // Start scanning from here
-      absoluteExportDir,      // Base destination path
-      '',                     // Start with empty relative path
-      absoluteImageDestPath,  // Path to image folder
-      fileMap,                // The generated map
-      navigationSysname       // Pass for context/logging
-    );
+      absoluteSourceDir,
+      absoluteExportDir,
+      '',
+      absoluteImageDestPath,
+      fileMap,
+      navigationSysname
+    )
 
-    // Write nav.json for this specific section
-    const navFilePath = path.join(absoluteExportDir, NAV_FILENAME);
-    await fs.writeFile(navFilePath, JSON.stringify(navigationStructure, null, 2));
-    console.log(`   Pass 2: Structure built. Navigation saved: ${navFilePath}`);
+    // Запись файла nav.json
+    const navFilePath = path.join(absoluteExportDir, NAV_FILENAME)
+    await fs.writeFile(navFilePath, JSON.stringify(navigationStructure, null, 2))
 
-    console.log(`✅ Processing finished for [${navigationSysname}].`);
-
-  } catch (error: any) {
-    console.error(`❌ Fatal error during processing for [${navigationSysname}]:`, error instanceof Error ? error.message : error);
-    process.exit(1);
+    console.log(`\nОбработка завершена.`)
+    console.log(`Структура файлов скопирована в ${absoluteExportDir}`)
+    console.log(`Изображения помещены в ${absoluteImageDestPath}`)
+    console.log(`Файл навигации сохранен: ${navFilePath}`)
+  }
+  catch (error: any) {
+    // Ловим ошибки, которые могли возникнуть до основного блока try/catch в main
+    if (error instanceof Error) { // Проверяем, что это действительно объект Error
+      console.error('Произошла ошибка во время выполнения:', error.message)
+      // Можно добавить вывод стека для отладки: console.error(error.stack);
+    }
+    else {
+      console.error('Произошла неизвестная ошибка:', error)
+    }
+    process.exit(1)
   }
 }
 
-/**
- * Cleans destination directory for a section
- */
 export async function clean(_sourceDir?: string, _exportDir?: string): Promise<void> {
-  const exportDir: string | undefined = _exportDir ?? process.argv[3];
+  // process.argv содержит: [0: node, 1: script.js, 2: arg1, 3: arg2, ...]
+  const exportDir: string | undefined = _exportDir ?? process.argv[3]
 
-  if (!exportDir) {
-    console.error('Error: Missing export directory path for clean operation.');
-    process.exit(1);
-  }
+  // Преобразуем пути в абсолютные для надежности
+  const absoluteExportDir = path.resolve(exportDir)
+  const absoluteImageDestPath = path.join(absoluteExportDir, IMAGE_DEST_FOLDER)
 
-  const absoluteExportDir = path.resolve(exportDir);
-  // Only remove the specific export dir, not the global public/content
-  console.log(`🧹 Cleaning directory: ${absoluteExportDir}`);
-  try {
-    await fs.rm(absoluteExportDir, { recursive: true, force: true });
-    // Recreate the base export dir after cleaning
-    await fs.mkdir(absoluteExportDir, { recursive: true });
-    console.log(`✨ Directory cleaned and recreated: ${absoluteExportDir}`);
-  } catch (error: any) {
-    console.error(`Error cleaning directory ${absoluteExportDir}: ${error.message}`);
-    process.exit(1);
-  }
+  // Очистка и создание директории назначения
+  console.log(`Очистка и подготовка директории назначения: ${absoluteExportDir}`)
+  await fs.rm(absoluteExportDir, { recursive: true, force: true }) // Удаляем, если существует
+  await fs.mkdir(absoluteExportDir, { recursive: true }) // Создаем заново
+  await fs.mkdir(absoluteImageDestPath, { recursive: true }) // Создаем папку для изображений '_'
 }

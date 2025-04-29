@@ -1,0 +1,5 @@
+- ### [[Class decorators]]
+- ### [[Property decorators]]
+- ### [[Accessor decorators]]
+- ### [[Method decorators]]
+- ### [[Parameter decorators]]
