@@ -1,7 +1,7 @@
 - ### [[Gamedev/UE/Общее/Общее|Общее]]
-- ### [[Blueprints]]
-- ### [[C++]]
+- ### [Blueprints](/UnrealEngine/Blueprints/Blueprints)
+- ### [C++](/UnrealEngine/C++/C++)
 - ### [[Gamedev/UE/Frameworks/Frameworks|Frameworks]]
-- ### [[Maths]]
-- ### [[Другое]]
+- ### [Maths](/UnrealEngine/Maths/Maths)
+- ### [Другое](/UnrealEngine/Другое/Другое)
 - ### [[Gamedev/UE/Источники|Источники]]

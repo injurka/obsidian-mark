@@ -1,1 +1,1 @@
-- ### [[Calculating execution time]]
+- ### [Calculating execution time](/TypeScript/Декораторы/Cheatsheet/Calculating execution time)

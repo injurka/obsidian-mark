@@ -10,7 +10,7 @@ interface RouteParams {
 const router = useRouter()
 const contentViewerStore = useContentViewerStore()
 
-const menu = ref(true)
+const menu = ref<boolean>(false)
 
 const params = computed(() => {
   const routeParams = router.currentRoute.value.params as any
@@ -19,10 +19,14 @@ const params = computed(() => {
 
 const { data: navItems, refresh: navRefresh, status: navStatus } = await useAsyncData<ContentNavItem[]>(`nav-${params.value.vault}`, async () => {
   const { staticBaseUrl } = useRuntimeConfig().public
-  return await $fetch<ContentNavItem[]>(
+  const data = await $fetch<ContentNavItem[]>(
     `${staticBaseUrl}/content/${params.value.vault}/nav.json`,
     { method: 'get', responseType: 'json' },
   )
+
+  contentViewerStore.$patch({ navItems: data })
+
+  return data
 })
 
 watch(
@@ -42,7 +46,10 @@ watch(
         <div class="main-content-wrapper">
           <ContentViewerHeader v-model:menu="menu" />
 
-          <div class="main-content" :class="{ 'main-content--borderless': contentViewerStore.borderlessViewEnabled }">
+          <div
+            class="main-content"
+            :class="{ 'main-content--borderless': contentViewerStore.borderlessViewEnabled }"
+          >
             <slot />
           </div>
         </div>
@@ -71,9 +78,12 @@ watch(
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   flex: 1;
   overflow-y: auto;
+
   &--borderless {
     padding: 0;
     :deep(.content-viewer) {

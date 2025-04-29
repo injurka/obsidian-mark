@@ -1,3 +1,4 @@
+import type { ContentNavItem } from '../models'
 import { useCookie } from '#app'
 import { defineStore } from 'pinia'
 
@@ -10,6 +11,8 @@ const COOKIE_SHOW_ICONS = 'ui_showIconsEnabled'
  * Настройки сохраняются в cookie.
  */
 export const useContentViewerStore = defineStore('contentViewer', () => {
+  const navItems = ref<ContentNavItem[] | null>(null)
+
   const borderlessViewEnabled = useCookie<boolean>(COOKIE_BORDERLESS_VIEW, {
     default: () => true,
   })
@@ -23,6 +26,7 @@ export const useContentViewerStore = defineStore('contentViewer', () => {
   })
 
   return {
+    navItems,
     borderlessViewEnabled,
     coloredFoldersEnabled,
     showIconsEnabled,

@@ -5,90 +5,107 @@
     "type": "directory",
     "children": [
       {
-        "sysname": "Альтернативы",
-        "title": "Альтернативы",
+        "sysname": "Маршрутный план",
+        "title": "Маршрутный план",
         "type": "directory",
         "children": [
           {
-            "sysname": "Море (Jinshan City Beach)",
-            "title": "Море (Jinshan City Beach)",
+            "sysname": "Альтернативы",
+            "title": "Альтернативы",
+            "type": "directory",
+            "children": [
+              {
+                "sysname": "Море (Jinshan City Beach)",
+                "title": "Море (Jinshan City Beach)",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "sysname": "10 (сб) - Начало пути",
+            "title": "10 (сб) - Начало пути",
+            "type": "file"
+          },
+          {
+            "sysname": "11 (вс) - Привет Шанхай (Waitan)",
+            "title": "11 (вс) - Привет Шанхай (Waitan)",
+            "type": "file"
+          },
+          {
+            "sysname": "12 - Ура небоскребам (Pudong)",
+            "title": "12 - Ура небоскребам (Pudong)",
+            "type": "file"
+          },
+          {
+            "sysname": "13 - Сады, Храмы и Чаи",
+            "title": "13 - Сады, Храмы и Чаи",
+            "type": "file"
+          },
+          {
+            "sysname": "14 - Древний город (Zhujiajiao Water Town)",
+            "title": "14 - Древний город (Zhujiajiao Water Town)",
+            "type": "file"
+          },
+          {
+            "sysname": "15 - Искусство и Архитектура",
+            "title": "15 - Искусство и Архитектура",
+            "type": "file"
+          },
+          {
+            "sysname": "16 - Гимн Спокойствию (Suzhou)",
+            "title": "16 - Гимн Спокойствию (Suzhou)",
+            "type": "file"
+          },
+          {
+            "sysname": "17 (сб) - Коммерческий мир",
+            "title": "17 (сб) - Коммерческий мир",
+            "type": "file"
+          },
+          {
+            "sysname": "18 (вс) - Культурный шок и Ночная жизнь!",
+            "title": "18 (вс) - Культурный шок и Ночная жизнь!",
+            "type": "file"
+          },
+          {
+            "sysname": "19 - Приход в чувства",
+            "title": "19 - Приход в чувства",
+            "type": "file"
+          },
+          {
+            "sysname": "20 - Небесный Рай (Hangzhou)",
+            "title": "20 - Небесный Рай (Hangzhou)",
+            "type": "file"
+          },
+          {
+            "sysname": "21 - Побег",
+            "title": "21 - Побег",
+            "type": "file"
+          },
+          {
+            "sysname": "22 - На распутье (Урумчи)",
+            "title": "22 - На распутье (Урумчи)",
+            "type": "file"
+          },
+          {
+            "sysname": "23 - По базарам (Урумчи)",
+            "title": "23 - По базарам (Урумчи)",
+            "type": "file"
+          },
+          {
+            "sysname": "Маршрутный план",
+            "title": "Маршрутный план",
             "type": "file"
           }
         ]
       },
       {
-        "sysname": "10 (сб) - Начало пути",
-        "title": "10 (сб) - Начало пути",
+        "sysname": "Отель и его округа",
+        "title": "Отель и его округа",
         "type": "file"
       },
       {
-        "sysname": "11 (вс) - Привет Шанхай (Waitan)",
-        "title": "11 (вс) - Привет Шанхай (Waitan)",
-        "type": "file"
-      },
-      {
-        "sysname": "12 - Ура небоскребам (Pudong)",
-        "title": "12 - Ура небоскребам (Pudong)",
-        "type": "file"
-      },
-      {
-        "sysname": "13 - Сады, Храмы и Чаи",
-        "title": "13 - Сады, Храмы и Чаи",
-        "type": "file"
-      },
-      {
-        "sysname": "14 - Древний город (Zhujiajiao Water Town)",
-        "title": "14 - Древний город (Zhujiajiao Water Town)",
-        "type": "file"
-      },
-      {
-        "sysname": "15 - Искусство и Архитектура",
-        "title": "15 - Искусство и Архитектура",
-        "type": "file"
-      },
-      {
-        "sysname": "16 - Гимн Спокойствию (Suzhou)",
-        "title": "16 - Гимн Спокойствию (Suzhou)",
-        "type": "file"
-      },
-      {
-        "sysname": "17 (сб) - Коммерческий мир",
-        "title": "17 (сб) - Коммерческий мир",
-        "type": "file"
-      },
-      {
-        "sysname": "18 (вс) - Культурный шок и Ночная жизнь!",
-        "title": "18 (вс) - Культурный шок и Ночная жизнь!",
-        "type": "file"
-      },
-      {
-        "sysname": "19 - Приход в чувства",
-        "title": "19 - Приход в чувства",
-        "type": "file"
-      },
-      {
-        "sysname": "20 - Небесный Рай (Hangzhou)",
-        "title": "20 - Небесный Рай (Hangzhou)",
-        "type": "file"
-      },
-      {
-        "sysname": "21 - Побег",
-        "title": "21 - Побег",
-        "type": "file"
-      },
-      {
-        "sysname": "22 - На распутье (Урумчи)",
-        "title": "22 - На распутье (Урумчи)",
-        "type": "file"
-      },
-      {
-        "sysname": "23 - По базарам (Урумчи)",
-        "title": "23 - По базарам (Урумчи)",
-        "type": "file"
-      },
-      {
-        "sysname": "План действий",
-        "title": "План действий",
+        "sysname": "Полезности и важности",
+        "title": "Полезности и важности",
         "type": "file"
       }
     ]

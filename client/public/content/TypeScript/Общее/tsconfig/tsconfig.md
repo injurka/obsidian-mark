@@ -1,6 +1,6 @@
-- ### [[Все параметры компиляции]]
-- ### [[Группа Strict Checks]]
-- ### [[Группа Linter Checks]]
-- ### [[Группа Advanced]]
-- ### [[types]]
-- ### [[typeRoots]]
+- ### [Все параметры компиляции](/TypeScript/Общее/tsconfig/Все параметры компиляции)
+- ### [Группа Strict Checks](/TypeScript/Общее/tsconfig/Группа Strict Checks)
+- ### [Группа Linter Checks](/TypeScript/Общее/tsconfig/Группа Linter Checks)
+- ### [Группа Advanced](/TypeScript/Общее/tsconfig/Группа Advanced)
+- ### [types](/TypeScript/Общее/tsconfig/types)
+- ### [typeRoots](/TypeScript/Общее/tsconfig/typeRoots)

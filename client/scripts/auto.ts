@@ -1,19 +1,34 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
-import { main } from './migrate'
-import outputMdJson from '../output-md.json'
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import outputMdJson from '../output-md.json'; 
+import { main } from './migrate'; 
 
-const sourcePath = '../marks'
-const exportPath = './public/content'
+const sourcePathRoot = '../marks'; 
+const exportPathRoot = './public/content'; 
 
-const navigationStructure = outputMdJson.map(m => m.navigation)
+const globalNavigationStructure = outputMdJson.map(m => m.navigation);
 
 async function auto() {
+  console.log('Starting content generation process...');
+
+  await fs.mkdir(exportPathRoot, { recursive: true });
+
   for await (const item of outputMdJson) {
-    await main(sourcePath.concat(item.sourcePath), exportPath.concat(item.exportPath))
+    const currentSourcePath = path.join(sourcePathRoot, item.sourcePath);
+    const currentExportPath = path.join(exportPathRoot, item.exportPath);
+    const currentNavSysname = item.navigation.sysname; 
+
+    await main(currentSourcePath, currentExportPath, currentNavSysname);
   }
 
-  await fs.writeFile(path.resolve(exportPath, 'nav.json'), JSON.stringify(navigationStructure, null, 2))
+  const globalNavFilePath = path.resolve(exportPathRoot, 'nav.json');
+  await fs.writeFile(globalNavFilePath, JSON.stringify(globalNavigationStructure, null, 2));
+  console.log(`\n🌍 Global navigation file saved: ${globalNavFilePath}`);
+
+  console.log('\nAll content generation tasks completed.');
 }
 
-auto()
+auto().catch(err => {
+  console.error("Auto process failed:", err);
+  process.exit(1);
+});

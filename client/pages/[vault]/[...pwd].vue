@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ContentViewer } from '~/components/modules/content-viewer'
+import { ContentViewer, ContentViewerFooter, useContentViewerStore } from '~/components/modules/content-viewer'
 
 interface RouteParams {
   pwd: string[]
@@ -7,6 +7,7 @@ interface RouteParams {
 }
 
 const route = useRoute()
+const store = useContentViewerStore()
 
 const params = computed(() => {
   const routeParams = route.params as any
@@ -46,13 +47,18 @@ definePageMeta({
 <template>
   <div class="content-wrapper">
     <div v-if="contentStatus === 'pending'" class="loader">
-      <Icon name="line-md:loading-loop" />
+      <v-progress-circular indeterminate size="32" />
     </div>
 
     <ClientOnly v-else-if="contentData">
       <ContentViewer
         :content="contentData"
         :image-base-path="imageBasePath"
+      />
+      <ContentViewerFooter
+        :vault="params.vault"
+        :current-item-path="params.pwd.join('/')"
+        :items="store.navItems"
       />
     </ClientOnly>
 
@@ -72,7 +78,6 @@ definePageMeta({
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100%;
   width: 100%;
   margin: 0 auto;
 }

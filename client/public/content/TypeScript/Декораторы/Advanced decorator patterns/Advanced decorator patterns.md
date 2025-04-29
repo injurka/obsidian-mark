@@ -1,3 +1,3 @@
-- ### [[Decorator factory]]
-- ### [[Decorator composition]]
-- ### [[Automatic error guard]]
+- ### [Decorator factory](/TypeScript/Декораторы/Advanced decorator patterns/Decorator factory)
+- ### [Decorator composition](/TypeScript/Декораторы/Advanced decorator patterns/Decorator composition)
+- ### [Automatic error guard](/TypeScript/Декораторы/Advanced decorator patterns/Automatic error guard)

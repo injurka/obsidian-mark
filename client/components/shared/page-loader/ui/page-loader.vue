@@ -4,7 +4,7 @@
 
 <template>
   <div class="loader">
-    <Icon name="line-md:loading-loop" />
+    <v-progress-circular indeterminate size="32" />
   </div>
 </template>
 

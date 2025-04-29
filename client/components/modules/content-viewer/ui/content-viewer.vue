@@ -23,6 +23,7 @@ defineProps<Props>()
   margin: 0 auto;
   width: 1200px;
   max-width: 100%;
+  min-height: 90vh;
 }
 
 .markdown-body-wrapper {

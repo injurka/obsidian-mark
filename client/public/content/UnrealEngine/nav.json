@@ -10,11 +10,6 @@
         "type": "directory",
         "children": [
           {
-            "sysname": "_",
-            "title": "_",
-            "type": "directory"
-          },
-          {
             "sysname": "Blueprint Casting",
             "title": "Blueprint Casting",
             "type": "file"
@@ -86,11 +81,6 @@
     "type": "directory",
     "children": [
       {
-        "sysname": "_",
-        "title": "_",
-        "type": "directory"
-      },
-      {
         "sysname": "Макросы",
         "title": "Макросы",
         "type": "directory",
@@ -127,11 +117,6 @@
         "title": "Структура данных",
         "type": "directory",
         "children": [
-          {
-            "sysname": "_",
-            "title": "_",
-            "type": "directory"
-          },
           {
             "sysname": "DataTable",
             "title": "DataTable",
@@ -309,11 +294,6 @@
         "title": "Vectors",
         "type": "directory",
         "children": [
-          {
-            "sysname": "_",
-            "title": "_",
-            "type": "directory"
-          },
           {
             "sysname": "Vector Basic",
             "title": "Vector Basic",
@@ -707,11 +687,6 @@
             "type": "directory",
             "children": [
               {
-                "sysname": "_",
-                "title": "_",
-                "type": "directory"
-              },
-              {
                 "sysname": "M_Outline",
                 "title": "M_Outline",
                 "type": "file"
@@ -746,11 +721,6 @@
         "type": "directory",
         "children": [
           {
-            "sysname": "_",
-            "title": "_",
-            "type": "directory"
-          },
-          {
             "sysname": "UMG",
             "title": "UMG",
             "type": "file"
@@ -767,11 +737,6 @@
         "title": "Основы",
         "type": "directory",
         "children": [
-          {
-            "sysname": "_",
-            "title": "_",
-            "type": "directory"
-          },
           {
             "sysname": "Classes Inheritance",
             "title": "Classes Inheritance",

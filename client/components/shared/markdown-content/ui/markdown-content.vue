@@ -92,10 +92,18 @@ watch(
   code:not(pre > code) {
     background-color: var(--bg-tertiary-color);
     padding: 0.2em 0.4em;
-    margin: 0;
+    margin: 10px 0;
     font-size: 1rem;
     border-radius: 3px;
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  pre:not(.shiki) > code {
+    display: flex;
+    margin: 10px 0;
+    position: relative;
+    background-color: var(--bg-secondary-color);
+    padding-left: 4px;
   }
 
   .shiki {
@@ -147,6 +155,14 @@ watch(
     }
   }
 
+  > ul > li > strong,
+  > ul > li > p > strong {
+    padding: 2px 6px;
+    border: 1px solid var(--border-primary-color);
+    background-color: var(--bg-secondary-color);
+    border-radius: 2px;
+  }
+
   ul {
     list-style-type: disc;
 
@@ -161,8 +177,19 @@ watch(
       @include mobile {
         margin: 4px 0;
       }
+
+      > ul {
+        &:first-of-type {
+          padding-top: 0px;
+          padding-bottom: 8px;
+        }
+      }
+
+      > p {
+        margin: 0;
+      }
     }
-    
+
     &::before {
       position: absolute;
       content: '';
@@ -172,54 +199,6 @@ watch(
       margin-top: 30px;
       height: calc(100% - 35px);
       opacity: 0.5;
-    }
-  }
-
-  ol {
-    position: relative;
-    list-style: none;
-    list-style-type: none;
-    counter-reset: item;
-    margin: 0;
-    padding: 0;
-    color: var(--fg-secondary-color);
-
-    > li {
-      margin-bottom: 8px;
-      padding-left: 32px;
-      color: var(--fg-primary-color);
-      position: relative;
-      counter-increment: item;
-
-      @include mobile {
-        margin-bottom: 4px;
-        padding-left: 16px;
-      }
-
-      > p {
-        margin: 0;
-      }
-
-      &::before {
-        content: counter(item) '.';
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        left: 0px;
-        top: 4px;
-        width: 24px;
-        height: 24px;
-        color: var(--fg-tertiary-color);
-
-        font-variant-numeric: tabular-nums;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-      }
     }
   }
 
@@ -332,7 +311,6 @@ watch(
     margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
-
 
   h2 {
     background-color: var(--bg-secondary-color);

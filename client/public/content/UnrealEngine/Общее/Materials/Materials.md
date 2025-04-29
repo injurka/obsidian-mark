@@ -1,4 +1,4 @@
-- ### [[Material Functions]]
-- ### [[Material Parameter Collection]]
-- ### [[Domain]]
+- ### [Material Functions](/UnrealEngine/Общее/Materials/Material Functions)
+- ### [Material Parameter Collection](/UnrealEngine/Общее/Materials/Material Parameter Collection)
+- ### [Domain](/UnrealEngine/Общее/Materials/Domain/Domain)
 - ### [[Gamedev/UE/Общее/Materials/Рецепты/Рецепты|Рецепты]]

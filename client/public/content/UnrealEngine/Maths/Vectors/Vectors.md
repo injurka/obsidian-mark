@@ -1,3 +1,3 @@
-- ### [[Vector Basic|Vector Basic]]
-- ### [[Vector Magnitude]]
-- ### [[Vector Normalization]]
+- ### [Vector Basic](/UnrealEngine/Maths/Vectors/Vector Basic)
+- ### [Vector Magnitude](/UnrealEngine/Maths/Vectors/Vector Magnitude)
+- ### [Vector Normalization](/UnrealEngine/Maths/Vectors/Vector Normalization)

@@ -15,6 +15,5 @@
 <style scoped lang="scss">
 .main-content {
   height: 100vh;
-  overflow: hidden;
 }
 </style>
