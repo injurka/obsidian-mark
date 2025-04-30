@@ -52,6 +52,21 @@ const nextItem = computed(() => {
   }
   return undefined
 })
+
+const handlePreviousItem = () => {
+  navigateTo({ path: `/${props.vault}/${previousItem.value!.path}` })
+  if (typeof document !== 'undefined') {
+    document.querySelector('.main-content')!.scrollTo(0,0) 
+  }
+}
+
+const handleNextItem = () => {
+  navigateTo({ path: `/${props.vault}/${nextItem.value!.path}` })
+  if (typeof document !== 'undefined') {
+    document.querySelector('.main-content')!.scrollTo(0,0) 
+  }
+}
+
 </script>
 
 <template>
@@ -63,7 +78,7 @@ const nextItem = computed(() => {
         color="var(--fg-secondary-color)"
         prepend-icon="mdi-arrow-left"
         style="min-width: 200px; text-transform: none;"
-        @click="navigateTo({ path: `/${vault}/${previousItem!.path}` })"
+        @click="handlePreviousItem()"
       >
         <span class="nav-title">{{ previousItem.title }}</span>
       </v-btn>
@@ -76,7 +91,7 @@ const nextItem = computed(() => {
         color="var(--fg-secondary-color)"
         append-icon="mdi-arrow-right"
         style="min-width: 200px; text-transform: none;"
-        @click="navigateTo({ path: `/${vault}/${nextItem!.path}` })"
+        @click="handleNextItem()"
       >
         <span class="nav-title">{{ nextItem.title }}</span>
       </v-btn>

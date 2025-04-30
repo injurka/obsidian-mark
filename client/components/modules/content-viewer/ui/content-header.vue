@@ -80,7 +80,7 @@ const breadcrumbItems = computed<VBreadcrumbsItems>(() => {
       </template>
     </VBreadcrumbs>
     <div class="control">
-      <VMenu location="bottom end" persistent :close-on-content-click="false">
+      <VMenu location="bottom end" :close-on-content-click="false">
         <template #activator="{ props }">
           <VBtn
             style="font-size: 0.8rem;"

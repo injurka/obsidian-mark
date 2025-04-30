@@ -3,7 +3,7 @@ import { MarkdownContent } from '~/components/shared/markdown-content'
 
 interface Props {
   content: string
-  imageBasePath?: string
+  imageBasePath: string
 }
 defineProps<Props>()
 </script>

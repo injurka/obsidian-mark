@@ -11,19 +11,18 @@ import MarkdownItContainer from 'markdown-it-container'
 import MarkdownItObsidianCallouts from 'markdown-it-obsidian-callouts'
 import { createHighlighter } from 'shiki'
 import { markdownItWikiImages } from './markdownIt-wiki-images'
-import { markdownItWikiLinks } from './markdownIt-wiki-links'
 
 interface CreateMarkdownRendererParams {
-  imageBasePath?: string
+  imageBasePath: string
   shikiTheme: string
 }
 
 export async function createMarkdownRenderer(params: CreateMarkdownRendererParams): Promise<MarkdownIt> {
-  const { imageBasePath = '/personal/img/', shikiTheme } = params
+  const { imageBasePath, shikiTheme } = params
 
   const highlighter: Highlighter = await createHighlighter({
     themes: [catppuccinMocha, catppuccinMacchiato, catppuccinFrappe, catppuccinLatte],
-    langs: ['javascript', 'typescript', 'html', 'css', 'scss', 'json', 'bash', 'python', 'vue', 'markdown', 'go', 'rust'],
+    langs: ['c++', 'javascript', 'typescript', 'html', 'css', 'scss', 'json', 'bash', 'python', 'vue', 'markdown', 'go', 'rust'],
   })
 
   const md = new MarkdownIt({
@@ -50,7 +49,6 @@ export async function createMarkdownRenderer(params: CreateMarkdownRendererParam
       baseURL: imageBasePath,
       defaultAlt: '',
     })
-    .use(markdownItWikiLinks)
     .use(MarkdownItObsidianCallouts)
     .use(MarkdownItAttrs)
     .use(MarkdownItCollapsible)

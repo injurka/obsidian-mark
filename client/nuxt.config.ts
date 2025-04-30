@@ -69,7 +69,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      staticBaseUrl: 'http://localhost:5173',
+      staticBaseUrl: 'http://localhost:5173/content/',
     },
   },
 

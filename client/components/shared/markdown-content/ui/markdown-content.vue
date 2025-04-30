@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import type MarkdownIt from 'markdown-it'
+import ImageViewer from '@luohc92/vue3-image-viewer'
 import { PageLoader } from '~/components/shared/page-loader'
 import { useChangeTheme } from '~/shared/composables/change-theme'
 import { createMarkdownRenderer } from '../lib'
+import '@luohc92/vue3-image-viewer/dist/style.css'
 
 interface Props {
   content: string
-  imageBasePath?: string
+  imageBasePath: string
 }
 
 const props = defineProps<Props>()
@@ -16,6 +18,7 @@ const { theme } = useChangeTheme()
 const renderedContent = ref<string>('')
 const mdInstance = ref<MarkdownIt | null>(null)
 const isLoading = ref<boolean>(true)
+const currentImages = ref<string[]>([])
 
 function getShikiTheme() {
   // const isCustom = 'catppuccin-mocha'
@@ -34,28 +37,27 @@ function getShikiTheme() {
   // return shikiTheme
 }
 
-onMounted(async () => {
-  try {
-    mdInstance.value = await createMarkdownRenderer({
-      imageBasePath: props.imageBasePath,
-      shikiTheme: getShikiTheme(),
-    })
-    if (mdInstance.value && props.content) {
-      renderedContent.value = mdInstance.value.render(props.content)
-    }
-  }
-  catch (error) {
-    console.error('Failed to create markdown renderer:', error)
-  }
-  finally {
-    isLoading.value = false
-  }
-})
+function openImageViewer() {
+  document.documentElement.style.overflow = 'hidden'
+  ImageViewer({
+    images: currentImages.value,
+    showThumbnail: true,
+    showDownload: true,
+    handlePosition: 'bottom',
+    onClose: () => {
+      document.documentElement.style.overflow = 'auto'
+    },
+    maskBgColor: 'rgba(0,0,0,0.7)',
+  })
+}
 
 watch(
   () => theme.value,
   async () => {
-    mdInstance.value = await createMarkdownRenderer({ imageBasePath: props.imageBasePath, shikiTheme: getShikiTheme() })
+    mdInstance.value = await createMarkdownRenderer({
+      imageBasePath: props.imageBasePath, 
+      shikiTheme: getShikiTheme() 
+    })
   },
 )
 
@@ -71,6 +73,52 @@ watch(
   },
   { immediate: false },
 )
+
+onMounted(async () => {
+  try {
+    mdInstance.value = await createMarkdownRenderer({
+      imageBasePath: props.imageBasePath,
+      shikiTheme: getShikiTheme(),
+    })
+    if (mdInstance.value && props.content) {
+      renderedContent.value = mdInstance.value.render(props.content)
+    }
+
+    nextTick(() => {
+      const callouts = document.querySelectorAll('.callout')
+
+      callouts.forEach((callout) => {
+        const imagesInCallout = callout.querySelectorAll<HTMLImageElement>('.callout-content img')
+
+        if (imagesInCallout.length > 0) {
+          const imageUrls: string[] = Array.from(imagesInCallout).map(img => img.src)
+
+          Array.from(imagesInCallout).forEach((img) => {
+            img.addEventListener('click', (event) => {
+              event.stopPropagation()
+              const clickedImageUrl = (img as HTMLImageElement).src
+
+              const reorderedImages = [
+                clickedImageUrl,
+                ...imageUrls.filter(url => url !== clickedImageUrl),
+              ]
+
+              currentImages.value = reorderedImages
+              openImageViewer()
+            })
+            img.style.cursor = 'pointer'
+          })
+        }
+      })
+    })
+  }
+  catch (error) {
+    console.error('Failed to create markdown renderer:', error)
+  }
+  finally {
+    isLoading.value = false
+  }
+})
 </script>
 
 <template>
@@ -95,7 +143,7 @@ watch(
     margin: 10px 0;
     font-size: 1rem;
     border-radius: 3px;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family: Roboto, 'Andale Mono', 'Ubuntu Mono', monospace;
   }
 
   pre:not(.shiki) > code {
@@ -104,6 +152,8 @@ watch(
     position: relative;
     background-color: var(--bg-secondary-color);
     padding-left: 4px;
+    word-wrap: break-word;
+    white-space: break-spaces;
   }
 
   .shiki {
@@ -121,7 +171,7 @@ watch(
     padding: 1em;
     border-radius: 4px;
     overflow-x: auto;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family: Roboto, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-style: italic;
     opacity: 0.7;
     code {
@@ -176,6 +226,10 @@ watch(
 
       @include mobile {
         margin: 4px 0;
+      }
+
+      ul {
+        padding-right: 0;
       }
 
       > ul {
