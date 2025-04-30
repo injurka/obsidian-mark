@@ -2,6 +2,7 @@
 .stfolder*
 .trash
 .idea
+.output
 *-conflict-*
 
 workspace-mobile.json

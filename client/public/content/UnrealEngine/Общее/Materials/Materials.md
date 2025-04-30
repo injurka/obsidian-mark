@@ -1,4 +1,0 @@
-- ### [[Material Functions]]
-- ### [[Material Parameter Collection]]
-- ### [[Domain]]
-- ### [[Gamedev/UE/Общее/Materials/Рецепты/Рецепты|Рецепты]]

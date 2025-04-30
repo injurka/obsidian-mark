@@ -1,2 +1,0 @@
-- ### [[Light Functions]]
-- ### [[Post Process]]
