@@ -1,5 +1,7 @@
-import type { Dirent } from 'node:fs' // Импортируем тип Dirent для readdir
-import fs from 'node:fs/promises' // Используем промисы из fs
+// migrate.ts
+
+import type { Dirent } from 'node:fs'
+import fs from 'node:fs/promises'
 import path from 'node:path'
 
 // --- Типы данных ---
@@ -139,6 +141,7 @@ async function buildFileMapRecursive(
   currentSourcePath: string,
   navigationSysname: string,
   fileMap: Map<string, string>, // Map<BaseFileName, TargetURL>
+  ignoredFolderNames: string[]
 ): Promise<void> {
   try {
     const entries: Dirent[] = await fs.readdir(currentSourcePath, { withFileTypes: true })
@@ -148,13 +151,22 @@ async function buildFileMapRecursive(
       const sourceFullPath = path.join(currentSourcePath, entryName)
       const extension = path.extname(entryName)
 
+      // --- NEW: Check if directory is ignored ---
+      if (entry.isDirectory() && ignoredFolderNames.includes(entryName)) {
+        console.log(`🚫 Ignoring directory for file mapping: ${path.join(path.relative(sourceBasePath, currentSourcePath), entryName)}`);
+        continue; // Skip this ignored directory and its contents
+      }
+      // --- END NEW ---
+
       if (entryName.startsWith('.') || entryName === IMAGE_DEST_FOLDER || (entry.isDirectory() && entryName === '-')) {
         continue // Skip hidden, image folder, or special '-' folder
       }
 
+
       if (entry.isDirectory()) {
         // Recursively scan subdirectory
-        await buildFileMapRecursive(sourceBasePath, sourceFullPath, navigationSysname, fileMap)
+        await buildFileMapRecursive(
+          sourceBasePath, sourceFullPath, navigationSysname, fileMap, ignoredFolderNames)
       }
       else if (entry.isFile() && extension.toLowerCase() === '.md') {
         // Process Markdown files
@@ -174,7 +186,7 @@ async function buildFileMapRecursive(
         // Construct the full URL: /{navigation.sysname}/relative/path/to/file
         // NOTE: We are NOT URL-encoding path segments here to match the example output.
         // Consider adding encodeURIComponent if needed for web server compatibility.
-        const targetUrl = `/ ${navigationSysname}/${finalRelativePath}`
+        const targetUrl = `/${navigationSysname}/${finalRelativePath}` // Убрал пробел после '/'
 
         if (fileMap.has(baseName)) {
           console.warn(`⚠️ Duplicate base file name found: "${baseName}". Link resolution might be ambiguous. Using path: ${targetUrl}`)
@@ -198,6 +210,7 @@ async function processDirectoryRecursive(
   imageDestPath: string,
   fileMap: Map<string, string>,
   navigationSysname: string,
+  ignoredFolderNames: string[]
 ): Promise<ContentNavItem[]> {
   const childrenNavItems: ContentNavItem[] = []
   try {
@@ -208,7 +221,14 @@ async function processDirectoryRecursive(
       const sourceFullPath = path.join(sourceCurrentPath, entryName)
       const extension = path.extname(entryName)
 
-      // --- Правила игнорирования ---
+      // --- NEW: Check if directory is ignored ---
+      if (entry.isDirectory() && ignoredFolderNames.includes(entryName)) {
+        console.log(`🚫 Ignoring directory for processing: ${path.join(relativePath, entryName)}`);
+        continue; // Skip this ignored directory and its contents
+      }
+      // --- END NEW ---
+
+      // --- Правила игнорирования (существующие) ---
       if (entryName.startsWith('.'))
         continue // Скрытые файлы/папки
       if (entry.isDirectory() && entryName === '-')
@@ -228,10 +248,10 @@ async function processDirectoryRecursive(
 
       // --- Определение типа и базовых имен ---
       const type = entry.isDirectory() ? ContentNavItemType.Directory : ContentNavItemType.File
-      // Title - имя файла без расширения
-      const title = path.basename(entryName, extension)
+      // Title - имя файла без расширения или имя папки
+      const title = path.basename(entryName, extension) // Для папок extension будет пустым, path.basename вернет имя папки
 
-      let sysname = title // По умолчанию sysname = имя без расширения (для файлов) или имя папки
+      let sysname = title // По умолчанию sysname = title
       let targetName = entryName // Имя файла/папки в директории назначения по умолчанию
       let currentChildren: ContentNavItem[] | undefined
 
@@ -268,6 +288,7 @@ async function processDirectoryRecursive(
             imageDestPath,
             fileMap, // Pass map down
             navigationSysname,
+            ignoredFolderNames
           )
         }
         catch (mkdirError: any) {
@@ -342,6 +363,8 @@ async function processDirectoryRecursive(
       }
 
       // --- Создание объекта для nav.json ---
+      // Добавляем элемент в навигацию только если он не является игнорируемой папкой
+      // (Изображения уже пропущены с помощью continue)
       const navItem: ContentNavItem = {
         sysname, // Use the determined sysname (from front matter or filename/dirname)
         title,   // Use the base name without extension as title
@@ -352,7 +375,7 @@ async function processDirectoryRecursive(
         navItem.children = currentChildren
       }
 
-      // Add the item unless it's an ignored type that was processed earlier (like images)
+      // Add the item to the navigation structure
       childrenNavItems.push(navItem)
 
     } // End loop through entries
@@ -378,12 +401,14 @@ export async function main(
   _sourceDir?: string,
   _exportDir?: string,
   _navigationSysname?: string,
+  _ignoredFolderNames?: string[]
 ): Promise<void> {
   // process.argv содержит: [0: node, 1: script.js, 2: arg1, 3: arg2, ...]
   const sourceDir: string | undefined = _sourceDir ?? process.argv[2]
   const exportDir: string | undefined = _exportDir ?? process.argv[3]
   // Use basename of sourceDir as default nav sysname if not provided
   const navigationSysname: string | undefined = _navigationSysname ?? process.argv[4] ?? path.basename(sourceDir || '')
+  const ignoredFolderNames: string[] = _ignoredFolderNames ?? process.argv[5] ?? []
 
   if (!sourceDir || !exportDir || !navigationSysname) {
     console.error('Ошибка: Необходимо указать минимум два аргумента (исходная директория, директория экспорта).')
@@ -427,6 +452,7 @@ export async function main(
     console.log(`Назначение: ${absoluteExportDir}`)
     console.log(`Корневой sysname: ${navigationSysname}`)
     console.log(`Изображения -> ${absoluteImageDestPath}`)
+    console.log(`Игнорируемые папки: ${ignoredFolderNames?.join(', ') || 'нет'}`) // NEW: Log ignored folders
     console.log(`--- Построение карты ссылок ---`)
 
     // --- Этап 1: Построение карты ссылок ---
@@ -435,7 +461,8 @@ export async function main(
       absoluteSourceDir, // Base path for relative URL calculation
       absoluteSourceDir, // Current path to start scanning
       navigationSysname,
-      fileMap
+      fileMap,
+      ignoredFolderNames
     );
     console.log(`Карта ссылок построена (${fileMap.size} файлов .md найдено).`)
     console.log(`--- Обработка файлов и директорий ---`)
@@ -448,7 +475,8 @@ export async function main(
       '',                     // Initial relative path (empty)
       absoluteImageDestPath,  // Destination for all images
       fileMap,                // The pre-built map for link resolution
-      navigationSysname,      // The root sysname for the section
+      navigationSysname,      // The root sysname for the section,
+      ignoredFolderNames
     )
 
     // --- Этап 3: Запись файла nav.json ---
@@ -498,4 +526,3 @@ export async function clean(_sourceDir?: string, _exportDir?: string): Promise<v
   await fs.mkdir(absoluteImageDestPath, { recursive: true }) // Создаем папку для изображений '_'
   console.log(`Директория ${absoluteExportDir} очищена и подготовлена.`);
 }
-

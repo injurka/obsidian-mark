@@ -5,20 +5,31 @@ import { main } from './migrate'
 
 const sourcePathRoot = '.'
 const exportPathRoot = './.output/content'
+const ignoredFolderNames = ['Frame Forge']
 
-const globalNavigationStructure = outputMdJson.map(m => m.navigation)
+const filteredOutputMdJson = outputMdJson.filter(item => {
+  const folderName = path.basename(item.sourcePath);
+  return !ignoredFolderNames.includes(folderName);
+});
+
+const globalNavigationStructure = filteredOutputMdJson.map(m => m.navigation)
 
 async function auto() {
   console.log('Starting content generation process...')
 
   await fs.mkdir(exportPathRoot, { recursive: true })
 
-  for await (const item of outputMdJson) {
+  for await (const item of filteredOutputMdJson) {
     const currentSourcePath = path.join(sourcePathRoot, item.sourcePath)
     const currentExportPath = path.join(exportPathRoot, item.exportPath)
     const currentNavSysname = item.navigation.sysname
 
-    await main(currentSourcePath, currentExportPath, currentNavSysname)
+    await main(
+      currentSourcePath, 
+      currentExportPath, 
+      currentNavSysname,
+      ignoredFolderNames
+    )
   }
 
   const globalNavFilePath = path.resolve(exportPathRoot, 'nav.json')
