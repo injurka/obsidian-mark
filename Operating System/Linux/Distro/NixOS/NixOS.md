@@ -2,6 +2,11 @@
 - ### [[Operating System/Linux/Distro/NixOS/Dots|Dots]]
 - ### [[Operating System/Linux/Distro/NixOS/Источники|Источники]]
 
+- ### [[introduction]]
+- ### [[installation]]
+- ### [[getting-started]]
+- ### [[nix-language]]
+- ### [[development-environments]]
 
 ```json
 nixos-docs/

@@ -1,4 +1,4 @@
-```ql
+```json
 Content/ # Корень папки Content
 ├── Maps/ # Игровые карты / Уровни / Сцены
 │   ├── MainMenu/

@@ -1,0 +1,6 @@
+- ### [[01-syntax-basics]]
+- ### [[02-builtins]]
+- ### [[03-let-bindings]]
+- ### [[04-functions]]
+- ### [[05-derivations]]
+- ### [[06-debugging-nix]]
