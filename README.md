@@ -8,5 +8,6 @@ Wandering the internet in search of knowledge
 > ssh root@62.60.236.182
 > cd sources/chinisik-back/static
 > rm -rf wander-mark
-> scp -r ./.output root@62.60.236.182:/root/sources/chinisik-back/static/wander-mark 
+> bun run ./.obsidian/scripts/auto.ts
+> scp -r ./.output root@62.60.236.182:/root/sources/chinisik-back/static/wander-mark
 -->
