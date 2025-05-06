@@ -11,3 +11,14 @@ Wandering the internet in search of knowledge
 > bun run ./.obsidian/scripts/auto.ts
 > scp -r ./.output root@62.60.236.182:/root/sources/chinisik-back/static/wander-mark
 -->
+
+<!-- 
+# Архивируем директорию локально
+tar -czf wander-mark.tar.gz ./.output
+
+# Передаем архив на сервер
+scp wander-mark.tar.gz root@62.60.236.182:/root/sources/chinisik-back/static/
+
+# Подключаемся к серверу и распаковываем
+ssh root@62.60.236.182 "cd /root/sources/chinisik-back/static/ && tar -xzf wander-mark.tar.gz && mv .output wander-mark && rm wander-mark.tar.gz" 
+-->
