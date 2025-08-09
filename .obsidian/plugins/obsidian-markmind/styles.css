@@ -7,6 +7,7 @@
     box-shadow: 0 0 10px #ccc
 }
 
+
 .theme-dark .cm-icon-menus[data-v-359bda15] {
     background: #333;
     box-shadow: 0 0 10px #222
@@ -1462,7 +1463,19 @@ th {
     margin-top: -5px;
 }
 
+.mm-node-right.mm-mindmap7-node>.mm-node-bar {
+    right: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
 .mm-node-right.mm-mindmap1-node>.mm-node-bar {
+    right: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.mm-node-right.mm-htime-node>.mm-node-bar {
     right: -20px;
     top: 50%;
     margin-top: -5px;
@@ -1496,11 +1509,29 @@ th {
     top: -15px;
 }
 
+.mm-node-up.mm-htime-node>.mm-node-bar {
+    left: 50%;
+    margin-left: -5px;
+    top: -15px;
+}
+
 .mm-node-left>.mm-node-bar {
     left: -10px;
 }
 
+.mm-node-left.mm-htime-node>.mm-node-bar {
+    left: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
 .mm-node-left.mm-mindmap2-node>.mm-node-bar {
+    left: -20px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.mm-node-left.mm-mindmap7-node>.mm-node-bar {
     left: -20px;
     top: 50%;
     margin-top: -5px;
@@ -1513,16 +1544,37 @@ th {
 }
 
 .mm-node-right.mm-fish-node>.mm-node-bar {
-    bottom: -6px !important;
+    /* bottom: -6px !important;
     right: -12px !important;
-    top: auto;
+    top: auto; */
+    right: -20px;
+    top: 50%;
+    margin-top: -5px;
 }
 
 .mm-node-left.mm-fish-node>.mm-node-bar {
-    bottom: -6px !important;
-    left: -12px !important;
-    top: auto;
+    left: -20px;
+    top: 50%;
+    margin-top: -5px;
 }
+
+.mm-node.mm-node-left.mm-fish-top>.mm-node-bar {
+    display: block;
+    left: 50%;
+    margin-left: -2px;
+    top: 100%;
+    margin-top: 4px;
+}
+
+.mm-node.mm-node-left.mm-fish-bottom>.mm-node-bar {
+    display: block;
+    left: 50%;
+    margin-left: 0px;
+    top: -15px;
+}
+
+
+
 
 .mm-node-collapse>.mm-node-bar {
     display: block !important;
@@ -1537,6 +1589,26 @@ th {
 .mm-node-induce>.mm-node-bar {
     display: none !important;
 }
+
+
+.mm-node.mm-node-right.mm-fish-top>.mm-node-bar {
+    display: block !important;
+    left: 50%;
+    margin-left: -7px;
+    top: 100%;
+    margin-top: 4px;
+}
+
+.mm-node.mm-node-right.mm-fish-bottom>.mm-node-bar {
+    display: block !important;
+    left: 50%;
+    margin-left: -10px;
+    top: -15px;
+}
+
+
+
+
 
 .mm-node.mm-node-induce .mm-node-content {
     background-color: var(--background-primary);
@@ -1806,6 +1878,15 @@ th {
 .mm-link-board .mm-file-ext {
     font-size: 0.6em;
     padding-right: 6px;
+}
+
+.mm-link-board .mm-file-path {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.8em;
+    margin-bottom: 2px;
 }
 
 .mm-block-ext {
