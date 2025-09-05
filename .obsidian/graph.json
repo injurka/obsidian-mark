@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-file:MarkMaid -path:Excalidraw  ",
+  "search": "-path:\"Gamedev/UE/Дизайн Документы/Fauna Locus\" -file:MarkMaid -path:Excalidraw",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -98,10 +98,10 @@
   "nodeSizeMultiplier": 1.14635416666667,
   "lineSizeMultiplier": 1.2484375,
   "collapse-forces": false,
-  "centerStrength": 0.603092783505155,
-  "repelStrength": 20,
+  "centerStrength": 0,
+  "repelStrength": 0,
   "linkStrength": 1,
-  "linkDistance": 260,
-  "scale": 0.03696634593745872,
+  "linkDistance": 30,
+  "scale": 0.059326171875,
   "close": false
 }
