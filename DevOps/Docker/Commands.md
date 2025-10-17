@@ -36,15 +36,15 @@
 |`docker system prune --volumes`|To delete all docker volumes|
 
 ### Inspect Containers
-|COMMAND|DESCRIPTION|
-|---|---|
-|`docker ps`|List running containers|
-|`docker ps --all`|List all containers, including stopped|
-|`docker logs <container>`|Show a container output|
-|`docker logs -f <container>`|Follow a container output|
-|`docker top <container>`|List the processes running in a container|
-|`docker diff`|Show the differences with the image (modified files)|
-|`docker inspect`|Show information of a container (json formatted)|
+| COMMAND                      | DESCRIPTION                                          |
+| ---------------------------- | ---------------------------------------------------- |
+| `docker ps`                  | List running containers                              |
+| `docker ps --all`            | List all containers, including stopped               |
+| `docker logs <container>`    | Show a container output                              |
+| `docker logs -f <container>` | Follow a container output                            |
+| `docker top <container>`     | List the processes running in a container            |
+| `docker diff`                | Show the differences with the image (modified files) |
+| `docker inspect`             | Show information of a container (json formatted)     |
 
 ### Executing Commands
 |COMMAND|DESCRIPTION|
