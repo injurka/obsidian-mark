@@ -9,7 +9,7 @@
 <template>
   <ChildComponent ref="childComponentRef" />
 </template>
-```ts
+```vue
 <script setup lang="ts">
 import { ref, onMounted, Ref } from 'vue';
 import ChildComponent from './ChildComponent.vue';
@@ -39,7 +39,7 @@ onMounted(() => {
 
 Дочерний компонент:
 
-```ts
+```vue
 <script setup lang="ts">
 import { ref, defineExpose } from 'vue';
 
