@@ -38,5 +38,15 @@
       "description": "Всё о китайском чае: от истории и видов до секретов заваривания и чайной церемонии.",
       "icon": "/images/tea.png"
     }
+  },
+  {
+    "sourcePath": "/Personal Note/Languages/Chinese/Изучение",
+    "exportPath": "/Chinese",
+    "navigation": {
+      "sysname": "Chinese",
+      "title": "Китайский язык",
+      "description": "Погружение в мир иероглифов и тонов. Путь к пониманию Поднебесной.",
+      "icon": "/images/chinese.png"
+    }
   }
 ]

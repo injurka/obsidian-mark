@@ -1,0 +1,70 @@
+/* --- Контейнер заголовка (HERO) - Легкая версия --- */
+.cn-note .hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  /* Фон: очень прозрачный с легким оттенком зеленого */
+  background-color: rgba(115, 233, 144, 0.05); 
+  
+  /* Границы: тонкая обводка и акцент слева */
+  border: 1px solid rgba(115, 233, 144, 0.2);
+  border-left: 4px solid #8eaf9738;
+  border-radius: 8px;
+  
+  padding: 16px 20px;
+  margin: 16px 0 24px 0;
+  
+  /* Убрали тяжелую тень, оставили легкую для отделения от фона */
+  box-shadow: none; 
+}
+
+/* --- Большой Иероглиф --- */
+.cn-note .hero .hanzi {
+  font-family: "KaiTi", "STKaiti", "SimKai", serif;
+  font-size: 56px; /* Чуть уменьшил, чтобы не кричало */
+  line-height: 1;
+  font-weight: normal; /* Убрал жирность для изящности */
+  
+  color: #81bb8f;
+  opacity: 0.9;
+  text-shadow: none; /* Убрали тень текста */
+  font-weight: 500;
+  
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid rgba(115, 233, 144, 0.2); /* Разделитель */
+  flex-shrink: 0;
+}
+
+/* --- Текстовая часть --- */
+.cn-note .hero .meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cn-note .hero .meta h1 {
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  font-size: 26px; /* Аккуратный размер заголовка */
+  line-height: 1.2;
+  color: var(--text-normal); /* Цвет текста как в остальной заметке */
+  font-weight: 600;
+}
+
+.cn-note .hero .meta .pinyin {
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  color: #61b576; /* Акцентный цвет для пиньиня */
+  margin-top: 2px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.cn-note .hero .meta .desc {
+  font-size: 13px;
+  color: var(--text-muted); /* Приглушенный цвет для описания */
+  margin-top: 4px;
+}

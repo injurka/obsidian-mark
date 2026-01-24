@@ -3,7 +3,8 @@
   "accentColor": "#1c6b48",
   "enabledCssSnippets": [
     "global",
-    "cn"
+    "cn",
+    "cn-note"
   ],
   "theme": "moonstone",
   "baseFontSize": 16,
