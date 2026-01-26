@@ -13,12 +13,9 @@ Wandering the internet in search of knowledge
 -->
 
 <!-- 
-# Архивируем директорию локально
-tar -czf wander-mark.tar.gz ./.output
+cd ./.output && tar -czf content.tar.gz ./content && cd ..
 
-# Передаем архив на сервер
-scp wander-mark.tar.gz root@62.60.236.182:/root/sources/chinisik-back/static/
+scp ./.output/content.tar.gz root@83.136.232.29:/root/sources/md-client/data
 
-# Подключаемся к серверу и распаковываем
-ssh root@62.60.236.182 "cd /root/sources/chinisik-back/static/ && tar -xzf wander-mark.tar.gz && mv .output wander-mark && rm wander-mark.tar.gz" 
+ssh root@83.136.232.29 "cd /root/sources/md-client/data && tar -xzf content.tar.gz && rm content.tar.gz" 
 -->

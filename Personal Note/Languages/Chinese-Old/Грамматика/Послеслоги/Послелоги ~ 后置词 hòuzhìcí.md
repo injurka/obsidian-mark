@@ -2,7 +2,7 @@
 cssclasses:
   - cn
 ---
-- ### [[Personal Note/Languages/Chinese/00 Старое/Грамматика/Послеслоги/Промты|Промты]]
+- ### [[Personal Note/Languages/Chinese-Old/Грамматика/Послеслоги/Промты|Промты]]
 
 ## Существительные-места
 
