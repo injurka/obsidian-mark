@@ -1,5 +1,3 @@
-// migrate.ts
-
 import type { Dirent } from 'node:fs'
 import fs from 'node:fs/promises'
 import path from 'node:path'
@@ -492,15 +490,17 @@ export async function main(
   }
   catch (error: any) {
     // Ловим ошибки, которые могли возникнуть до основного блока try/catch в main
-    console.error('\n--- КРИТИЧЕСКАЯ ОШИБКА ---')
+    console.error('\n--- ОШИБКА ---')
     if (error instanceof Error) { // Проверяем, что это действительно объект Error
       console.error('Произошла ошибка во время выполнения:', error.message)
-      console.error(error.stack) // Выводим стек для детальной отладки
+      // console.error(error.stack) // Выводим стек для детальной отладки
     }
     else {
       console.error('Произошла неизвестная ошибка:', error)
     }
-    process.exit(1)
+    // ВАЖНО: Мы больше не делаем process.exit(1), а пробрасываем ошибку выше.
+    // Это позволяет вызывающему скрипту (auto.ts) решить, продолжать или нет.
+    throw error;
   }
 }
 

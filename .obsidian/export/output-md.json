@@ -1,0 +1,42 @@
+[
+  {
+    "sourcePath": "/Frontend/TypeScript",
+    "exportPath": "/TypeScript",
+    "navigation": {
+      "sysname": "TypeScript",
+      "title": "TypeScript",
+      "description": "Стрероидный брат JavaScript со строгими типами для безопасной и эффективной разработки.",
+      "icon": "/local-files/content/images/ts.png"
+    }
+  },
+  {
+    "sourcePath": "/Gamedev/UE",
+    "exportPath": "/UnrealEngine",
+    "navigation": {
+      "sysname": "UnrealEngine",
+      "title": "Unreal Engine 5",
+      "description": "Познай мощь реального времени для 3D-графики и погрязни в его бескрайности.",
+      "icon": "/local-files/content/images/ue.png"
+    }
+  },
+  {
+    "sourcePath": "/Personal Note/茶 Cha",
+    "exportPath": "/Cha",
+    "navigation": {
+      "sysname": "Cha",
+      "title": "Травушка муравушка",
+      "description": "Всё о китайском чае: от истории и видов до секретов заваривания и чайной церемонии.",
+      "icon": "/local-files/content/images/tea.png"
+    }
+  },
+  {
+    "sourcePath": "/Personal Note/Languages/Chinese",
+    "exportPath": "/Chinese",
+    "navigation": {
+      "sysname": "Chinese",
+      "title": "Китайский язык",
+      "description": "Погружение в мир иероглифов и тонов. Путь к пониманию Поднебесной.",
+      "icon": "/local-files/content/images/chinese.png"
+    }
+  }
+]

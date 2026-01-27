@@ -1,3 +1,6 @@
 import { main } from './migrate'
 
-main()
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

@@ -5,17 +5,19 @@ Wandering the internet in search of knowledge
 ![image](https://github.com/user-attachments/assets/400dcb60-2a3d-44c1-b2de-438791d91064)
 
 <!-- 
-> ssh root@62.60.236.182
-> cd sources/chinisik-back/static
-> rm -rf wander-mark
-> bun run ./.obsidian/scripts/auto.ts
-> scp -r ./.output root@62.60.236.182:/root/sources/chinisik-back/static/wander-mark
+bun run ./.obsidian/scripts/auto.ts
+
+cd .output
+
+tar -czf payload.tar.gz content images meta
+
+scp payload.tar.gz root@83.136.232.29:/root/sources/md-client/data
+
+cd ..
+
+ssh root@83.136.232.29 "cd /root/sources/md-client/data && tar -xzf payload.tar.gz && rm payload.tar.gz"
 -->
 
 <!-- 
-cd ./.output && tar -czf content.tar.gz ./content && cd ..
-
-scp ./.output/content.tar.gz root@83.136.232.29:/root/sources/md-client/data
-
-ssh root@83.136.232.29 "cd /root/sources/md-client/data && tar -xzf content.tar.gz && rm content.tar.gz" 
+bun run ./.obsidian/scripts/auto.ts && cd .output && tar -czf payload.tar.gz content images meta && scp payload.tar.gz root@83.136.232.29:/root/sources/md-client/data && ssh root@83.136.232.29 'cd /root/sources/md-client/data && tar -xzf payload.tar.gz && rm payload.tar.gz' && echo '✅ Деплой успешно завершен!'
 -->
