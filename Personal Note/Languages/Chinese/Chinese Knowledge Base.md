@@ -151,3 +151,27 @@ cssclasses:
 - [[🤕 Частые ошибки русскоязычных]] — Топ граблей: порядок слов, "Shi" с прилагательными.
 
 ---
+
+```dataview
+TABLE length(rows) as "Кол-во заметок", sort(rows.file.link) as "Заметки"
+FROM "Personal Note/Languages/Chinese"
+FLATTEN file.tags as Tag
+WHERE contains(Tag, "HSK")
+GROUP BY Tag
+SORT key ASC
+
+```
+
+---
+
+```dataview
+
+TABLE 
+	length(rows) as "Заметок", 
+	"<progress value='" + length(rows) + "' max='50'></progress>" as "Прогресс (Цель: 50)"
+FROM "Personal Note/Languages/Chinese"
+FLATTEN file.tags as Tag
+WHERE contains(Tag, "HSK")
+GROUP BY Tag
+SORT key ASC
+```

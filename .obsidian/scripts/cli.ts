@@ -1,4 +1,4 @@
-import { main } from './migrate'
+import { main } from './migrator'
 
 main().catch((err) => {
   console.error(err);
