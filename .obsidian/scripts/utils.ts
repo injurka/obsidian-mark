@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { FRONT_MATTER_REGEX, IMAGE_EXTENSIONS, SYSNAME_REGEX } from './constants'
+import { FRONT_MATTER_REGEX, IMAGE_EXTENSIONS, INLINE_TAG_REGEX, SYSNAME_REGEX } from './constants'
 
 /**
  * Проверяет, является ли расширение файла расширением изображения.
@@ -37,6 +37,86 @@ export async function extractSysnameFromFrontMatter(filePath: string): Promise<s
     await fileHandle?.close()
   }
   return null
+}
+
+/**
+ * Парсит теги из YAML контента и основного текста.
+ * Исправлена логика для предотвращения попадания "-" в теги.
+ */
+export function extractTags(yamlContent: string | null, bodyContent: string): string[] {
+  const tags = new Set<string>()
+
+  // 1. Парсинг YAML (Ручной разбор для надежности)
+  if (yamlContent) {
+    const lines = yamlContent.split(/\r?\n/)
+    let capturingList = false
+
+    for (const line of lines) {
+      const trimmedLine = line.trim()
+
+      if (!trimmedLine || trimmedLine.startsWith('#')) continue
+
+      // Проверка на ключ "tags:"
+      if (trimmedLine.match(/^tags?:/)) {
+        // Проверяем наличие значения на той же строке
+        // Пример: "tags: tag1, tag2" или "tags: [tag1, tag2]"
+        const inlineValueMatch = trimmedLine.match(/^tags?:\s*(.+)$/)
+
+        if (inlineValueMatch) {
+          let val = inlineValueMatch[1].trim()
+
+          // Если это массив [a, b]
+          if (val.startsWith('[')) {
+            val = val.replace(/^\[|\]$/g, '') // убираем скобки
+            if (val) {
+              val.split(',').forEach(t => tags.add(t.trim()))
+            }
+            capturingList = false
+          }
+          // Если это просто текст (и не начинается с # комментария)
+          else if (val && !val.startsWith('#')) {
+            val.split(',').forEach(t => tags.add(t.trim()))
+            capturingList = false
+          }
+          else {
+            // Значение пустое, ожидаем список на следующих строках
+            capturingList = true
+          }
+        } else {
+          // Просто "tags:", ожидаем список
+          capturingList = true
+        }
+        continue
+      }
+
+      // Обработка элементов списка "- value"
+      if (capturingList) {
+        if (trimmedLine.startsWith('-')) {
+          const tagVal = trimmedLine.substring(1).trim() // Убираем дефис
+          if (tagVal) tags.add(tagVal)
+        } else if (trimmedLine.includes(':')) {
+          // Начался новый ключ, прекращаем захват
+          capturingList = false
+        }
+      }
+    }
+  }
+
+  // 2. Инлайн теги из текста (#tag)
+  const matches = bodyContent.match(INLINE_TAG_REGEX)
+  if (matches) {
+    // matches возвращает массив строк типа "#tag", убираем решетку
+    matches.forEach(m => {
+      // INLINE_TAG_REGEX = /(?<=^|\s)#([a-zA-Z...]+)/g
+      // match[0] будет "#tag". 
+      tags.add(m.replace('#', ''))
+    })
+  }
+
+  // Очистка: убираем кавычки, пустые строки и возможные дубликаты "-" если вдруг просочились
+  return Array.from(tags)
+    .map(t => t.replace(/^["']|["']$/g, '')) // Убираем кавычки вокруг тега
+    .filter(t => t.length > 0 && t !== '-')
 }
 
 /**
@@ -95,6 +175,8 @@ export function stripMarkdown(markdown: string): string {
     .replace(/^>\s+/gm, '')
     // Удаляем HTML теги
     .replace(/<[^>]*>/g, '')
+    // Удаляем теги хэштеги из текста поиска (сами теги уже в поле tags)
+    .replace(/(?<=^|\s)#([a-zA-Zа-яА-Я0-9_\-\/]+)/g, '$1')
     // Удаляем лишние пробелы и переносы
     .replace(/\s+/g, ' ')
     .trim()

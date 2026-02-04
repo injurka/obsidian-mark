@@ -1,9 +1,9 @@
 import type { Dirent } from 'node:fs'
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { FRONT_MATTER_REGEX, IMAGE_DEST_FOLDER, OBSIDIAN_LINK_REGEX } from './constants'
+import { FRONT_MATTER_REGEX, OBSIDIAN_LINK_REGEX } from './constants'
 import { ContentNavItem, ContentNavItemType, FileMetaData, ProcessingContext } from './types'
-import { ensureDirectoryExists, extractSysnameFromFrontMatter, isImageExtension, safeCopyFile, stripMarkdown } from './utils'
+import { ensureDirectoryExists, extractSysnameFromFrontMatter, extractTags, isImageExtension, safeCopyFile, stripMarkdown } from './utils'
 
 export async function processDirectoryRecursive(
   sourceCurrentPath: string,
@@ -84,7 +84,18 @@ export async function processDirectoryRecursive(
           let content = await fs.readFile(sourceFullPath, 'utf8')
           let linksFound = 0
 
+          // 1. Извлечение тегов (до удаления frontmatter)
           const frontMatterMatch = content.match(FRONT_MATTER_REGEX)
+          const yamlContent = frontMatterMatch ? frontMatterMatch[1] : null
+
+          // Для поиска инлайн-тегов берем текст без frontmatter (если он есть), чтобы не дублировать
+          const bodyForTags = frontMatterMatch
+            ? content.substring(frontMatterMatch[0].length)
+            : content
+
+          const extractedTags = extractTags(yamlContent, bodyForTags)
+
+          // 2. Удаление Frontmatter для итогового файла
           if (frontMatterMatch) {
             content = content.substring(frontMatterMatch[0].length).trimStart()
           }
@@ -129,15 +140,15 @@ export async function processDirectoryRecursive(
             words,
             readingTime: Math.ceil(words / 200) || 1,
             lastModified: fileStats.mtime.toISOString()
-            // Excerpt removed here
           }
 
-          // --- Поиск ---
+          // --- Поиск (Добавляем теги) ---
           context.searchIndex.push({
             id: currentWebUrl,
             title: title,
             url: currentWebUrl,
-            content: cleanText
+            content: cleanText,
+            tags: extractedTags // Сохраняем теги
           })
 
           // --- Graph Nodes ---

@@ -25,6 +25,7 @@ export interface SearchIndexItem {
   title: string
   url: string
   content: string // Очищенный текст для поиска
+  tags?: string[]
 }
 
 // --- Граф знаний ---

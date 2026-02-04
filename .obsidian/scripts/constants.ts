@@ -11,6 +11,11 @@ export const SYSNAME_REGEX = /^\s*sysname:\s*"?([^"\s]+)"?\s*$/m
 // Regex for Obsidian links (excluding image links like ![[...]])
 export const OBSIDIAN_LINK_REGEX = /(?<!!)\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]/g
 
+// Regex to extract inline tags (e.g. #tag or #tag/nested)
+// Supports Cyrillic, Latin, numbers, underscores, hyphens, and forward slashes
+// Looks for # preceded by start of line or whitespace
+export const INLINE_TAG_REGEX = /(?<=^|\s)#([a-zA-Zа-яА-Я0-9_\-\/]+)/g
+
 export const IMAGE_EXTENSIONS = new Set([
   '.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.bmp', '.tiff',
 ])
