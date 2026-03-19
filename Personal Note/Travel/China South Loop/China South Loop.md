@@ -1,1 +1,1 @@
-- ### [[Personal Note/Travel/China South Loop '26/02 - Маршрутный план/Маршрутный план|Маршрутный план]]
+- ### [[Personal Note/Travel/China South Loop - Маршрутный план/Маршрутный план|Маршрутный план]]

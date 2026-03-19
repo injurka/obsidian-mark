@@ -4,7 +4,8 @@
   "enabledCssSnippets": [
     "global",
     "cn",
-    "cn-note"
+    "cn-note",
+    "tea-notes"
   ],
   "theme": "moonstone",
   "baseFontSize": 16,

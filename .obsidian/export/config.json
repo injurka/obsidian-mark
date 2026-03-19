@@ -1,0 +1,20 @@
+{
+  "paths": {
+    "sourceNotesRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/",
+    "sourceDataFile": "/mnt/c/Users/evai/Documents/obsidian-mark/.obsidian/export/output-md.json",
+    "metaSource": "/mnt/c/Users/evai/Documents/obsidian-mark/.obsidian/export/meta",
+    "outputContentRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/content",
+    "outputMetaRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/meta"
+  },
+  "ignore": {
+    "folders": [
+      "Frame Forge",
+      "Drafts"
+    ]
+  },
+  "deploy": {
+    "user": "root",
+    "host": "92.63.97.81",
+    "path": "/root/sources/wander-mark/docker/vault"
+  }
+}

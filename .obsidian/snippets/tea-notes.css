@@ -1,0 +1,24 @@
+.tea-notes h1, .tea-notes h2, .tea-notes h3 {
+  color: #5b4636; 
+  font-family: "Iowan Old Style", "Georgia", serif;
+}
+
+.tea-notes {
+  background: #f8f5f1;
+  color: #3d2f25;
+  line-height: 1.6;
+}
+
+.tea-notes table th {
+  background-color: #e4d5b7;
+  color: #2d2318;
+}
+
+.tea-notes table td {
+  background-color: #faf8f4;
+}
+
+.tea-notes blockquote {
+  border-left: 3px solid #d7a86e;
+  background-color: #fefaf6;
+}
