@@ -5,7 +5,8 @@
     "global",
     "cn",
     "cn-note",
-    "tea-notes"
+    "tea-notes",
+    "chinese-theme"
   ],
   "theme": "moonstone",
   "baseFontSize": 16,

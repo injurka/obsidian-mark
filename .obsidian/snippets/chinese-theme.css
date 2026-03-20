@@ -1,0 +1,95 @@
+.stpmvo-dropdown {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 0;
+    overflow: hidden;
+}
+.stpmvo-dropdown summary {
+    padding: 10px 15px;
+    font-weight: 600;
+    color: var(--text-accent);
+    cursor: pointer;
+    background-color: var(--background-secondary-alt);
+    transition: background 0.2s ease;
+    list-style-position: inside;
+}
+.stpmvo-dropdown summary:hover {
+    background-color: var(--background-modifier-hover);
+}
+.stpmvo-content {
+    padding: 15px;
+    font-size: 0.9em;
+    color: var(--text-muted);
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.vocab-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.vocab-wrap th {
+    background-color: var(--background-secondary-alt);
+    color: var(--text-normal);
+    font-weight: bold;
+}
+.vocab-wrap td:nth-child(1) {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--text-accent);
+}
+.vocab-wrap td:nth-child(2) {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.grammar-card {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-left: 4px solid var(--text-accent);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+.grammar-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: var(--text-normal);
+}
+.grammar-example {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: var(--background-secondary);
+    border-radius: 6px;
+}
+.cn-text {
+    font-size: 1.4em; 
+    font-weight: 500;
+    color: var(--text-normal);
+}
+.py-text {
+    font-size: 0.9em;
+    color: var(--text-muted);
+}
+.ru-text {
+    font-size: 1em;
+    color: var(--text-normal);
+    margin-top: 4px;
+}
+.grammar-breakdown {
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: var(--text-normal);
+}
+.grammar-breakdown b {
+    color: var(--text-accent);
+}
