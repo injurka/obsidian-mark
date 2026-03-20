@@ -4,14 +4,26 @@
     "sourceDataFile": "/mnt/c/Users/evai/Documents/obsidian-mark/.obsidian/export/output-md.json",
     "metaSource": "/mnt/c/Users/evai/Documents/obsidian-mark/.obsidian/export/meta",
     "outputContentRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/content",
-    "outputMetaRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/meta"
+    "outputMetaRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/meta",
+    "outputPluginsRoot": "/root/my/wander-mark/vaults-example/.output/plugins"
   },
   "ignore": {
-    "folders": [
-      "Frame Forge",
-      "Drafts"
-    ]
+    "folders": []
   },
+  "vaults": [
+    {
+      "sourcePath": "/Frontend/TypeScript",
+      "exportPath": "/TypeScript"
+    },
+    {
+      "sourcePath": "/Personal Note/茶 Cha",
+      "exportPath": "/Cha"
+    },
+    {
+      "sourcePath": "/Personal Note/Languages/Chinese",
+      "exportPath": "/Chinese"
+    }
+  ],
   "deploy": {
     "user": "root",
     "host": "92.63.97.81",
