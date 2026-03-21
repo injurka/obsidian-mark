@@ -11,5 +11,8 @@
       "version": "1.0.0",
       "enabledByDefault": true
     }
+  ],
+  "styles": [
+    "chinese-theme.css"
   ]
 }

@@ -24,7 +24,6 @@
     color: var(--text-muted);
     border-top: 1px solid var(--background-modifier-border);
 }
-
 .vocab-wrap table {
     width: 100%;
     border-collapse: collapse;
