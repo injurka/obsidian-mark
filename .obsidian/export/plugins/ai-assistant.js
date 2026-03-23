@@ -2260,8 +2260,23 @@ const at = {
 
 .ai-backdrop { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(3px); z-index: 99999; display: flex; justify-content: center; align-items: center; padding: 8px; }
 .ai-modal { width: 100%; max-width: 680px; height: 85vh; max-height: 800px; background: var(--bg-primary-color); border: 1px solid var(--border-secondary-color); border-radius: 16px; box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.3); display: flex; flex-direction: column; overflow: hidden; transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1); }
-.ai-modal.is-fullscreen { position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; width: 100vw !important; height: 100vh !important; max-width: none !important; max-height: none !important; border-radius: 0 !important; margin: 0 !important; transform: none !important; }
-
+.ai-modal.is-fullscreen { 
+    position: fixed !important; 
+    top: 0 !important; 
+    left: 0 !important; 
+    right: 0 !important; 
+    bottom: 0 !important; 
+    width: 100vw !important; 
+    
+    height: 100vh !important;
+    height: 100dvh !important; 
+    
+    max-width: none !important; 
+    max-height: none !important; 
+    border-radius: 0 !important; 
+    margin: 0 !important; 
+    transform: none !important; 
+}
 .ai-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; background: var(--bg-secondary-color); border-bottom: 1px solid var(--border-secondary-color); }
 .ai-title { font-weight: 600; font-size: 1.05rem; color: var(--fg-primary-color); display: flex; align-items: center; gap: 10px; }
 .ai-title svg { color: var(--fg-accent-color); }
@@ -2288,7 +2303,7 @@ const at = {
 
 @media (min-width: 768px) {
     .ai-body {
-        padding: 16px 32px; 
+        padding: 16px 16px; 
     }
 }
 
