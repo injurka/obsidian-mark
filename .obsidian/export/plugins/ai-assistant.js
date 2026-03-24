@@ -1,11 +1,11 @@
-var ve = Object.defineProperty;
-var oe = (a) => {
-  throw TypeError(a);
+var Ee = Object.defineProperty;
+var oe = (l) => {
+  throw TypeError(l);
 };
-var ye = (a, n, e) => n in a ? ve(a, n, { enumerable: !0, configurable: !0, writable: !0, value: e }) : a[n] = e;
-var x = (a, n, e) => ye(a, typeof n != "symbol" ? n + "" : n, e), Ee = (a, n, e) => n.has(a) || oe("Cannot " + e);
-var ie = (a, n, e) => n.has(a) ? oe("Cannot add the same private member more than once") : n instanceof WeakSet ? n.add(a) : n.set(a, e);
-var A = (a, n, e) => (Ee(a, n, "access private method"), e);
+var $e = (l, n, t) => n in l ? Ee(l, n, { enumerable: !0, configurable: !0, writable: !0, value: t }) : l[n] = t;
+var x = (l, n, t) => $e(l, typeof n != "symbol" ? n + "" : n, t), Ne = (l, n, t) => n.has(l) || oe("Cannot " + t);
+var ie = (l, n, t) => n.has(l) ? oe("Cannot add the same private member more than once") : n instanceof WeakSet ? n.add(l) : n.set(l, t);
+var M = (l, n, t) => (Ne(l, n, "access private method"), t);
 function Q() {
   return {
     async: !1,
@@ -20,125 +20,125 @@ function Q() {
     walkTokens: null
   };
 }
-let N = Q();
-function ue(a) {
-  N = a;
+let T = Q();
+function ue(l) {
+  T = l;
 }
-const pe = /[&<>"']/, $e = new RegExp(pe.source, "g"), we = /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/, Te = new RegExp(we.source, "g"), Ne = {
+const pe = /[&<>"']/, Te = new RegExp(pe.source, "g"), we = /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/, ze = new RegExp(we.source, "g"), _e = {
   "&": "&amp;",
   "<": "&lt;",
   ">": "&gt;",
   '"': "&quot;",
   "'": "&#39;"
-}, re = (a) => Ne[a];
-function V(a, n) {
+}, re = (l) => _e[l];
+function V(l, n) {
   if (n) {
-    if (pe.test(a))
-      return a.replace($e, re);
-  } else if (we.test(a))
-    return a.replace(Te, re);
-  return a;
+    if (pe.test(l))
+      return l.replace(Te, re);
+  } else if (we.test(l))
+    return l.replace(ze, re);
+  return l;
 }
-const ze = /&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig;
-function Ce(a) {
-  return a.replace(ze, (n, e) => (e = e.toLowerCase(), e === "colon" ? ":" : e.charAt(0) === "#" ? e.charAt(1) === "x" ? String.fromCharCode(parseInt(e.substring(2), 16)) : String.fromCharCode(+e.substring(1)) : ""));
+const Ce = /&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig;
+function Be(l) {
+  return l.replace(Ce, (n, t) => (t = t.toLowerCase(), t === "colon" ? ":" : t.charAt(0) === "#" ? t.charAt(1) === "x" ? String.fromCharCode(parseInt(t.substring(2), 16)) : String.fromCharCode(+t.substring(1)) : ""));
 }
-const _e = /(^|[^\[])\^/g;
-function m(a, n) {
-  let e = typeof a == "string" ? a : a.source;
+const Ie = /(^|[^\[])\^/g;
+function m(l, n) {
+  let t = typeof l == "string" ? l : l.source;
   n = n || "";
-  const t = {
+  const e = {
     replace: (i, r) => {
       let o = typeof r == "string" ? r : r.source;
-      return o = o.replace(_e, "$1"), e = e.replace(i, o), t;
+      return o = o.replace(Ie, "$1"), t = t.replace(i, o), e;
     },
-    getRegex: () => new RegExp(e, n)
+    getRegex: () => new RegExp(t, n)
   };
-  return t;
+  return e;
 }
-function se(a) {
+function se(l) {
   try {
-    a = encodeURI(a).replace(/%25/g, "%");
+    l = encodeURI(l).replace(/%25/g, "%");
   } catch {
     return null;
   }
-  return a;
+  return l;
 }
-const C = { exec: () => null };
-function le(a, n) {
-  const e = a.replace(/\|/g, (r, o, l) => {
+const _ = { exec: () => null };
+function le(l, n) {
+  const t = l.replace(/\|/g, (r, o, a) => {
     let s = !1, p = o;
-    for (; --p >= 0 && l[p] === "\\"; )
+    for (; --p >= 0 && a[p] === "\\"; )
       s = !s;
     return s ? "|" : " |";
-  }), t = e.split(/ \|/);
+  }), e = t.split(/ \|/);
   let i = 0;
-  if (t[0].trim() || t.shift(), t.length > 0 && !t[t.length - 1].trim() && t.pop(), n)
-    if (t.length > n)
-      t.splice(n);
+  if (e[0].trim() || e.shift(), e.length > 0 && !e[e.length - 1].trim() && e.pop(), n)
+    if (e.length > n)
+      e.splice(n);
     else
-      for (; t.length < n; )
-        t.push("");
-  for (; i < t.length; i++)
-    t[i] = t[i].trim().replace(/\\\|/g, "|");
-  return t;
+      for (; e.length < n; )
+        e.push("");
+  for (; i < e.length; i++)
+    e[i] = e[i].trim().replace(/\\\|/g, "|");
+  return e;
 }
-function M(a, n, e) {
-  const t = a.length;
-  if (t === 0)
+function A(l, n, t) {
+  const e = l.length;
+  if (e === 0)
     return "";
   let i = 0;
-  for (; i < t && a.charAt(t - i - 1) === n; )
+  for (; i < e && l.charAt(e - i - 1) === n; )
     i++;
-  return a.slice(0, t - i);
+  return l.slice(0, e - i);
 }
-function Be(a, n) {
-  if (a.indexOf(n[1]) === -1)
+function Se(l, n) {
+  if (l.indexOf(n[1]) === -1)
     return -1;
-  let e = 0;
-  for (let t = 0; t < a.length; t++)
-    if (a[t] === "\\")
-      t++;
-    else if (a[t] === n[0])
+  let t = 0;
+  for (let e = 0; e < l.length; e++)
+    if (l[e] === "\\")
       e++;
-    else if (a[t] === n[1] && (e--, e < 0))
-      return t;
+    else if (l[e] === n[0])
+      t++;
+    else if (l[e] === n[1] && (t--, t < 0))
+      return e;
   return -1;
 }
-function ae(a, n, e, t) {
-  const i = n.href, r = n.title ? V(n.title) : null, o = a[1].replace(/\\([\[\]])/g, "$1");
-  if (a[0].charAt(0) !== "!") {
-    t.state.inLink = !0;
-    const l = {
+function ae(l, n, t, e) {
+  const i = n.href, r = n.title ? V(n.title) : null, o = l[1].replace(/\\([\[\]])/g, "$1");
+  if (l[0].charAt(0) !== "!") {
+    e.state.inLink = !0;
+    const a = {
       type: "link",
-      raw: e,
+      raw: t,
       href: i,
       title: r,
       text: o,
-      tokens: t.inlineTokens(o)
+      tokens: e.inlineTokens(o)
     };
-    return t.state.inLink = !1, l;
+    return e.state.inLink = !1, a;
   }
   return {
     type: "image",
-    raw: e,
+    raw: t,
     href: i,
     title: r,
     text: V(o)
   };
 }
-function Ie(a, n) {
-  const e = a.match(/^(\s+)(?:```)/);
-  if (e === null)
+function Me(l, n) {
+  const t = l.match(/^(\s+)(?:```)/);
+  if (t === null)
     return n;
-  const t = e[1];
+  const e = t[1];
   return n.split(`
 `).map((i) => {
     const r = i.match(/^\s+/);
     if (r === null)
       return i;
     const [o] = r;
-    return o.length >= t.length ? i.slice(t.length) : i;
+    return o.length >= e.length ? i.slice(e.length) : i;
   }).join(`
 `);
 }
@@ -149,110 +149,110 @@ class P {
     x(this, "rules");
     // set by the lexer
     x(this, "lexer");
-    this.options = n || N;
+    this.options = n || T;
   }
   space(n) {
-    const e = this.rules.block.newline.exec(n);
-    if (e && e[0].length > 0)
+    const t = this.rules.block.newline.exec(n);
+    if (t && t[0].length > 0)
       return {
         type: "space",
-        raw: e[0]
+        raw: t[0]
       };
   }
   code(n) {
-    const e = this.rules.block.code.exec(n);
-    if (e) {
-      const t = e[0].replace(/^ {1,4}/gm, "");
+    const t = this.rules.block.code.exec(n);
+    if (t) {
+      const e = t[0].replace(/^ {1,4}/gm, "");
       return {
         type: "code",
-        raw: e[0],
+        raw: t[0],
         codeBlockStyle: "indented",
-        text: this.options.pedantic ? t : M(t, `
+        text: this.options.pedantic ? e : A(e, `
 `)
       };
     }
   }
   fences(n) {
-    const e = this.rules.block.fences.exec(n);
-    if (e) {
-      const t = e[0], i = Ie(t, e[3] || "");
+    const t = this.rules.block.fences.exec(n);
+    if (t) {
+      const e = t[0], i = Me(e, t[3] || "");
       return {
         type: "code",
-        raw: t,
-        lang: e[2] ? e[2].trim().replace(this.rules.inline.anyPunctuation, "$1") : e[2],
+        raw: e,
+        lang: t[2] ? t[2].trim().replace(this.rules.inline.anyPunctuation, "$1") : t[2],
         text: i
       };
     }
   }
   heading(n) {
-    const e = this.rules.block.heading.exec(n);
-    if (e) {
-      let t = e[2].trim();
-      if (/#$/.test(t)) {
-        const i = M(t, "#");
-        (this.options.pedantic || !i || / $/.test(i)) && (t = i.trim());
+    const t = this.rules.block.heading.exec(n);
+    if (t) {
+      let e = t[2].trim();
+      if (/#$/.test(e)) {
+        const i = A(e, "#");
+        (this.options.pedantic || !i || / $/.test(i)) && (e = i.trim());
       }
       return {
         type: "heading",
-        raw: e[0],
-        depth: e[1].length,
-        text: t,
-        tokens: this.lexer.inline(t)
+        raw: t[0],
+        depth: t[1].length,
+        text: e,
+        tokens: this.lexer.inline(e)
       };
     }
   }
   hr(n) {
-    const e = this.rules.block.hr.exec(n);
-    if (e)
+    const t = this.rules.block.hr.exec(n);
+    if (t)
       return {
         type: "hr",
-        raw: e[0]
+        raw: t[0]
       };
   }
   blockquote(n) {
-    const e = this.rules.block.blockquote.exec(n);
-    if (e) {
-      let t = e[0].replace(/\n {0,3}((?:=+|-+) *)(?=\n|$)/g, `
+    const t = this.rules.block.blockquote.exec(n);
+    if (t) {
+      let e = t[0].replace(/\n {0,3}((?:=+|-+) *)(?=\n|$)/g, `
     $1`);
-      t = M(t.replace(/^ *>[ \t]?/gm, ""), `
+      e = A(e.replace(/^ *>[ \t]?/gm, ""), `
 `);
       const i = this.lexer.state.top;
       this.lexer.state.top = !0;
-      const r = this.lexer.blockTokens(t);
+      const r = this.lexer.blockTokens(e);
       return this.lexer.state.top = i, {
         type: "blockquote",
-        raw: e[0],
+        raw: t[0],
         tokens: r,
-        text: t
+        text: e
       };
     }
   }
   list(n) {
-    let e = this.rules.block.list.exec(n);
-    if (e) {
-      let t = e[1].trim();
-      const i = t.length > 1, r = {
+    let t = this.rules.block.list.exec(n);
+    if (t) {
+      let e = t[1].trim();
+      const i = e.length > 1, r = {
         type: "list",
         raw: "",
         ordered: i,
-        start: i ? +t.slice(0, -1) : "",
+        start: i ? +e.slice(0, -1) : "",
         loose: !1,
         items: []
       };
-      t = i ? `\\d{1,9}\\${t.slice(-1)}` : `\\${t}`, this.options.pedantic && (t = i ? t : "[*+-]");
-      const o = new RegExp(`^( {0,3}${t})((?:[	 ][^\\n]*)?(?:\\n|$))`);
-      let l = "", s = "", p = !1;
+      e = i ? `\\d{1,9}\\${e.slice(-1)}` : `\\${e}`, this.options.pedantic && (e = i ? e : "[*+-]");
+      const o = new RegExp(`^( {0,3}${e})((?:[	 ][^\\n]*)?(?:\\n|$))`);
+      let a = "", s = "", p = !1;
       for (; n; ) {
         let u = !1;
-        if (!(e = o.exec(n)) || this.rules.block.hr.test(n))
+        if (!(t = o.exec(n)) || this.rules.block.hr.test(n))
           break;
-        l = e[0], n = n.substring(l.length);
-        let h = e[2].split(`
+        a = t[0], n = n.substring(a.length);
+        let h = t[2].split(`
 `, 1)[0].replace(/^\t+/, (q) => " ".repeat(3 * q.length)), d = n.split(`
 `, 1)[0], w = 0;
-        this.options.pedantic ? (w = 2, s = h.trimStart()) : (w = e[2].search(/[^ ]/), w = w > 4 ? 1 : w, s = h.slice(w), w += e[1].length);
-        let f = !1;
-        if (!h && /^ *$/.test(d) && (l += d + `
+        this.options.pedantic ? (w = 2, s = h.trimStart()) : (w = t[2].search(/[^ ]/), w = w > 4 ? 1 : w, s = h.slice(w), w += t[1].length);
+        let g = !1;
+        if (!h && /^ *$/.test(d) && (a += d + `
 `, n = n.substring(d.length + 1), u = !0), !u) {
           const q = new RegExp(`^ {0,${Math.min(3, w - 1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`), ee = new RegExp(`^ {0,${Math.min(3, w - 1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`), te = new RegExp(`^ {0,${Math.min(3, w - 1)}}(?:\`\`\`|~~~)`), ne = new RegExp(`^ {0,${Math.min(3, w - 1)}}#`);
           for (; n; ) {
@@ -264,28 +264,28 @@ class P {
               s += `
 ` + d.slice(w);
             else {
-              if (f || h.search(/[^ ]/) >= 4 || te.test(h) || ne.test(h) || ee.test(h))
+              if (g || h.search(/[^ ]/) >= 4 || te.test(h) || ne.test(h) || ee.test(h))
                 break;
               s += `
 ` + d;
             }
-            !f && !d.trim() && (f = !0), l += j + `
+            !g && !d.trim() && (g = !0), a += j + `
 `, n = n.substring(j.length + 1), h = d.slice(w);
           }
         }
-        r.loose || (p ? r.loose = !0 : /\n *\n *$/.test(l) && (p = !0));
+        r.loose || (p ? r.loose = !0 : /\n *\n *$/.test(a) && (p = !0));
         let b = null, E;
         this.options.gfm && (b = /^\[[ xX]\] /.exec(s), b && (E = b[0] !== "[ ] ", s = s.replace(/^\[[ xX]\] +/, ""))), r.items.push({
           type: "list_item",
-          raw: l,
+          raw: a,
           task: !!b,
           checked: E,
           loose: !1,
           text: s,
           tokens: []
-        }), r.raw += l;
+        }), r.raw += a;
       }
-      r.items[r.items.length - 1].raw = l.trimEnd(), r.items[r.items.length - 1].text = s.trimEnd(), r.raw = r.raw.trimEnd();
+      r.items[r.items.length - 1].raw = a.trimEnd(), r.items[r.items.length - 1].text = s.trimEnd(), r.raw = r.raw.trimEnd();
       for (let u = 0; u < r.items.length; u++)
         if (this.lexer.state.top = !1, r.items[u].tokens = this.lexer.blockTokens(r.items[u].text, []), !r.loose) {
           const h = r.items[u].tokens.filter((w) => w.type === "space"), d = h.length > 0 && h.some((w) => /\n.*\n/.test(w.raw));
@@ -298,51 +298,51 @@ class P {
     }
   }
   html(n) {
-    const e = this.rules.block.html.exec(n);
-    if (e)
+    const t = this.rules.block.html.exec(n);
+    if (t)
       return {
         type: "html",
         block: !0,
-        raw: e[0],
-        pre: e[1] === "pre" || e[1] === "script" || e[1] === "style",
-        text: e[0]
+        raw: t[0],
+        pre: t[1] === "pre" || t[1] === "script" || t[1] === "style",
+        text: t[0]
       };
   }
   def(n) {
-    const e = this.rules.block.def.exec(n);
-    if (e) {
-      const t = e[1].toLowerCase().replace(/\s+/g, " "), i = e[2] ? e[2].replace(/^<(.*)>$/, "$1").replace(this.rules.inline.anyPunctuation, "$1") : "", r = e[3] ? e[3].substring(1, e[3].length - 1).replace(this.rules.inline.anyPunctuation, "$1") : e[3];
+    const t = this.rules.block.def.exec(n);
+    if (t) {
+      const e = t[1].toLowerCase().replace(/\s+/g, " "), i = t[2] ? t[2].replace(/^<(.*)>$/, "$1").replace(this.rules.inline.anyPunctuation, "$1") : "", r = t[3] ? t[3].substring(1, t[3].length - 1).replace(this.rules.inline.anyPunctuation, "$1") : t[3];
       return {
         type: "def",
-        tag: t,
-        raw: e[0],
+        tag: e,
+        raw: t[0],
         href: i,
         title: r
       };
     }
   }
   table(n) {
-    const e = this.rules.block.table.exec(n);
-    if (!e || !/[:|]/.test(e[2]))
+    const t = this.rules.block.table.exec(n);
+    if (!t || !/[:|]/.test(t[2]))
       return;
-    const t = le(e[1]), i = e[2].replace(/^\||\| *$/g, "").split("|"), r = e[3] && e[3].trim() ? e[3].replace(/\n[ \t]*$/, "").split(`
+    const e = le(t[1]), i = t[2].replace(/^\||\| *$/g, "").split("|"), r = t[3] && t[3].trim() ? t[3].replace(/\n[ \t]*$/, "").split(`
 `) : [], o = {
       type: "table",
-      raw: e[0],
+      raw: t[0],
       header: [],
       align: [],
       rows: []
     };
-    if (t.length === i.length) {
-      for (const l of i)
-        /^ *-+: *$/.test(l) ? o.align.push("right") : /^ *:-+: *$/.test(l) ? o.align.push("center") : /^ *:-+ *$/.test(l) ? o.align.push("left") : o.align.push(null);
-      for (const l of t)
+    if (e.length === i.length) {
+      for (const a of i)
+        /^ *-+: *$/.test(a) ? o.align.push("right") : /^ *:-+: *$/.test(a) ? o.align.push("center") : /^ *:-+ *$/.test(a) ? o.align.push("left") : o.align.push(null);
+      for (const a of e)
         o.header.push({
-          text: l,
-          tokens: this.lexer.inline(l)
+          text: a,
+          tokens: this.lexer.inline(a)
         });
-      for (const l of r)
-        o.rows.push(le(l, o.header.length).map((s) => ({
+      for (const a of r)
+        o.rows.push(le(a, o.header.length).map((s) => ({
           text: s,
           tokens: this.lexer.inline(s)
         })));
@@ -350,116 +350,116 @@ class P {
     }
   }
   lheading(n) {
-    const e = this.rules.block.lheading.exec(n);
-    if (e)
+    const t = this.rules.block.lheading.exec(n);
+    if (t)
       return {
         type: "heading",
-        raw: e[0],
-        depth: e[2].charAt(0) === "=" ? 1 : 2,
-        text: e[1],
-        tokens: this.lexer.inline(e[1])
+        raw: t[0],
+        depth: t[2].charAt(0) === "=" ? 1 : 2,
+        text: t[1],
+        tokens: this.lexer.inline(t[1])
       };
   }
   paragraph(n) {
-    const e = this.rules.block.paragraph.exec(n);
-    if (e) {
-      const t = e[1].charAt(e[1].length - 1) === `
-` ? e[1].slice(0, -1) : e[1];
+    const t = this.rules.block.paragraph.exec(n);
+    if (t) {
+      const e = t[1].charAt(t[1].length - 1) === `
+` ? t[1].slice(0, -1) : t[1];
       return {
         type: "paragraph",
-        raw: e[0],
-        text: t,
-        tokens: this.lexer.inline(t)
+        raw: t[0],
+        text: e,
+        tokens: this.lexer.inline(e)
       };
     }
   }
   text(n) {
-    const e = this.rules.block.text.exec(n);
-    if (e)
+    const t = this.rules.block.text.exec(n);
+    if (t)
       return {
         type: "text",
-        raw: e[0],
-        text: e[0],
-        tokens: this.lexer.inline(e[0])
+        raw: t[0],
+        text: t[0],
+        tokens: this.lexer.inline(t[0])
       };
   }
   escape(n) {
-    const e = this.rules.inline.escape.exec(n);
-    if (e)
+    const t = this.rules.inline.escape.exec(n);
+    if (t)
       return {
         type: "escape",
-        raw: e[0],
-        text: V(e[1])
+        raw: t[0],
+        text: V(t[1])
       };
   }
   tag(n) {
-    const e = this.rules.inline.tag.exec(n);
-    if (e)
-      return !this.lexer.state.inLink && /^<a /i.test(e[0]) ? this.lexer.state.inLink = !0 : this.lexer.state.inLink && /^<\/a>/i.test(e[0]) && (this.lexer.state.inLink = !1), !this.lexer.state.inRawBlock && /^<(pre|code|kbd|script)(\s|>)/i.test(e[0]) ? this.lexer.state.inRawBlock = !0 : this.lexer.state.inRawBlock && /^<\/(pre|code|kbd|script)(\s|>)/i.test(e[0]) && (this.lexer.state.inRawBlock = !1), {
+    const t = this.rules.inline.tag.exec(n);
+    if (t)
+      return !this.lexer.state.inLink && /^<a /i.test(t[0]) ? this.lexer.state.inLink = !0 : this.lexer.state.inLink && /^<\/a>/i.test(t[0]) && (this.lexer.state.inLink = !1), !this.lexer.state.inRawBlock && /^<(pre|code|kbd|script)(\s|>)/i.test(t[0]) ? this.lexer.state.inRawBlock = !0 : this.lexer.state.inRawBlock && /^<\/(pre|code|kbd|script)(\s|>)/i.test(t[0]) && (this.lexer.state.inRawBlock = !1), {
         type: "html",
-        raw: e[0],
+        raw: t[0],
         inLink: this.lexer.state.inLink,
         inRawBlock: this.lexer.state.inRawBlock,
         block: !1,
-        text: e[0]
+        text: t[0]
       };
   }
   link(n) {
-    const e = this.rules.inline.link.exec(n);
-    if (e) {
-      const t = e[2].trim();
-      if (!this.options.pedantic && /^</.test(t)) {
-        if (!/>$/.test(t))
+    const t = this.rules.inline.link.exec(n);
+    if (t) {
+      const e = t[2].trim();
+      if (!this.options.pedantic && /^</.test(e)) {
+        if (!/>$/.test(e))
           return;
-        const o = M(t.slice(0, -1), "\\");
-        if ((t.length - o.length) % 2 === 0)
+        const o = A(e.slice(0, -1), "\\");
+        if ((e.length - o.length) % 2 === 0)
           return;
       } else {
-        const o = Be(e[2], "()");
+        const o = Se(t[2], "()");
         if (o > -1) {
-          const s = (e[0].indexOf("!") === 0 ? 5 : 4) + e[1].length + o;
-          e[2] = e[2].substring(0, o), e[0] = e[0].substring(0, s).trim(), e[3] = "";
+          const s = (t[0].indexOf("!") === 0 ? 5 : 4) + t[1].length + o;
+          t[2] = t[2].substring(0, o), t[0] = t[0].substring(0, s).trim(), t[3] = "";
         }
       }
-      let i = e[2], r = "";
+      let i = t[2], r = "";
       if (this.options.pedantic) {
         const o = /^([^'"]*[^\s])\s+(['"])(.*)\2/.exec(i);
         o && (i = o[1], r = o[3]);
       } else
-        r = e[3] ? e[3].slice(1, -1) : "";
-      return i = i.trim(), /^</.test(i) && (this.options.pedantic && !/>$/.test(t) ? i = i.slice(1) : i = i.slice(1, -1)), ae(e, {
+        r = t[3] ? t[3].slice(1, -1) : "";
+      return i = i.trim(), /^</.test(i) && (this.options.pedantic && !/>$/.test(e) ? i = i.slice(1) : i = i.slice(1, -1)), ae(t, {
         href: i && i.replace(this.rules.inline.anyPunctuation, "$1"),
         title: r && r.replace(this.rules.inline.anyPunctuation, "$1")
-      }, e[0], this.lexer);
+      }, t[0], this.lexer);
     }
   }
-  reflink(n, e) {
-    let t;
-    if ((t = this.rules.inline.reflink.exec(n)) || (t = this.rules.inline.nolink.exec(n))) {
-      const i = (t[2] || t[1]).replace(/\s+/g, " "), r = e[i.toLowerCase()];
+  reflink(n, t) {
+    let e;
+    if ((e = this.rules.inline.reflink.exec(n)) || (e = this.rules.inline.nolink.exec(n))) {
+      const i = (e[2] || e[1]).replace(/\s+/g, " "), r = t[i.toLowerCase()];
       if (!r) {
-        const o = t[0].charAt(0);
+        const o = e[0].charAt(0);
         return {
           type: "text",
           raw: o,
           text: o
         };
       }
-      return ae(t, r, t[0], this.lexer);
+      return ae(e, r, e[0], this.lexer);
     }
   }
-  emStrong(n, e, t = "") {
+  emStrong(n, t, e = "") {
     let i = this.rules.inline.emStrongLDelim.exec(n);
-    if (!i || i[3] && t.match(/[\p{L}\p{N}]/u))
+    if (!i || i[3] && e.match(/[\p{L}\p{N}]/u))
       return;
-    if (!(i[1] || i[2] || "") || !t || this.rules.inline.punctuation.exec(t)) {
+    if (!(i[1] || i[2] || "") || !e || this.rules.inline.punctuation.exec(e)) {
       const o = [...i[0]].length - 1;
-      let l, s, p = o, u = 0;
+      let a, s, p = o, u = 0;
       const h = i[0][0] === "*" ? this.rules.inline.emStrongRDelimAst : this.rules.inline.emStrongRDelimUnd;
-      for (h.lastIndex = 0, e = e.slice(-1 * n.length + o); (i = h.exec(e)) != null; ) {
-        if (l = i[1] || i[2] || i[3] || i[4] || i[5] || i[6], !l)
+      for (h.lastIndex = 0, t = t.slice(-1 * n.length + o); (i = h.exec(t)) != null; ) {
+        if (a = i[1] || i[2] || i[3] || i[4] || i[5] || i[6], !a)
           continue;
-        if (s = [...l].length, i[3] || i[4]) {
+        if (s = [...a].length, i[3] || i[4]) {
           p += s;
           continue;
         } else if ((i[5] || i[6]) && o % 3 && !((o + s) % 3)) {
@@ -479,82 +479,82 @@ class P {
             tokens: this.lexer.inlineTokens(b)
           };
         }
-        const f = w.slice(2, -2);
+        const g = w.slice(2, -2);
         return {
           type: "strong",
           raw: w,
-          text: f,
-          tokens: this.lexer.inlineTokens(f)
+          text: g,
+          tokens: this.lexer.inlineTokens(g)
         };
       }
     }
   }
   codespan(n) {
-    const e = this.rules.inline.code.exec(n);
-    if (e) {
-      let t = e[2].replace(/\n/g, " ");
-      const i = /[^ ]/.test(t), r = /^ /.test(t) && / $/.test(t);
-      return i && r && (t = t.substring(1, t.length - 1)), t = V(t, !0), {
+    const t = this.rules.inline.code.exec(n);
+    if (t) {
+      let e = t[2].replace(/\n/g, " ");
+      const i = /[^ ]/.test(e), r = /^ /.test(e) && / $/.test(e);
+      return i && r && (e = e.substring(1, e.length - 1)), e = V(e, !0), {
         type: "codespan",
-        raw: e[0],
-        text: t
+        raw: t[0],
+        text: e
       };
     }
   }
   br(n) {
-    const e = this.rules.inline.br.exec(n);
-    if (e)
+    const t = this.rules.inline.br.exec(n);
+    if (t)
       return {
         type: "br",
-        raw: e[0]
+        raw: t[0]
       };
   }
   del(n) {
-    const e = this.rules.inline.del.exec(n);
-    if (e)
+    const t = this.rules.inline.del.exec(n);
+    if (t)
       return {
         type: "del",
-        raw: e[0],
-        text: e[2],
-        tokens: this.lexer.inlineTokens(e[2])
+        raw: t[0],
+        text: t[2],
+        tokens: this.lexer.inlineTokens(t[2])
       };
   }
   autolink(n) {
-    const e = this.rules.inline.autolink.exec(n);
-    if (e) {
-      let t, i;
-      return e[2] === "@" ? (t = V(e[1]), i = "mailto:" + t) : (t = V(e[1]), i = t), {
+    const t = this.rules.inline.autolink.exec(n);
+    if (t) {
+      let e, i;
+      return t[2] === "@" ? (e = V(t[1]), i = "mailto:" + e) : (e = V(t[1]), i = e), {
         type: "link",
-        raw: e[0],
-        text: t,
+        raw: t[0],
+        text: e,
         href: i,
         tokens: [
           {
             type: "text",
-            raw: t,
-            text: t
+            raw: e,
+            text: e
           }
         ]
       };
     }
   }
   url(n) {
-    var t;
-    let e;
-    if (e = this.rules.inline.url.exec(n)) {
+    var e;
+    let t;
+    if (t = this.rules.inline.url.exec(n)) {
       let i, r;
-      if (e[2] === "@")
-        i = V(e[0]), r = "mailto:" + i;
+      if (t[2] === "@")
+        i = V(t[0]), r = "mailto:" + i;
       else {
         let o;
         do
-          o = e[0], e[0] = ((t = this.rules.inline._backpedal.exec(e[0])) == null ? void 0 : t[0]) ?? "";
-        while (o !== e[0]);
-        i = V(e[0]), e[1] === "www." ? r = "http://" + e[0] : r = e[0];
+          o = t[0], t[0] = ((e = this.rules.inline._backpedal.exec(t[0])) == null ? void 0 : e[0]) ?? "";
+        while (o !== t[0]);
+        i = V(t[0]), t[1] === "www." ? r = "http://" + t[0] : r = t[0];
       }
       return {
         type: "link",
-        raw: e[0],
+        raw: t[0],
         text: i,
         href: r,
         tokens: [
@@ -568,67 +568,67 @@ class P {
     }
   }
   inlineText(n) {
-    const e = this.rules.inline.text.exec(n);
-    if (e) {
-      let t;
-      return this.lexer.state.inRawBlock ? t = e[0] : t = V(e[0]), {
+    const t = this.rules.inline.text.exec(n);
+    if (t) {
+      let e;
+      return this.lexer.state.inRawBlock ? e = t[0] : e = V(t[0]), {
         type: "text",
-        raw: e[0],
-        text: t
+        raw: t[0],
+        text: e
       };
     }
   }
 }
-const Se = /^(?: *(?:\n|$))+/, Ae = /^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/, Me = /^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/, I = /^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/, Re = /^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/, he = /(?:[*+-]|\d{1,9}[.)])/, fe = m(/^(?!bull |blockCode|fences|blockquote|heading|html)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html))+?)\n {0,3}(=+|-+) *(?:\n+|$)/).replace(/bull/g, he).replace(/blockCode/g, / {4}/).replace(/fences/g, / {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g, / {0,3}>/).replace(/heading/g, / {0,3}#{1,6}/).replace(/html/g, / {0,3}<[^\n>]+>\n/).getRegex(), K = /^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/, Pe = /^[^\n]+/, U = /(?!\s*\])(?:\\.|[^\[\]\\])+/, Le = m(/^ {0,3}\[(label)\]: *(?:\n *)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n *)?| *\n *)(title))? *(?:\n+|$)/).replace("label", U).replace("title", /(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/).getRegex(), De = m(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/).replace(/bull/g, he).getRegex(), O = "address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul", J = /<!--(?:-?>|[\s\S]*?(?:-->|$))/, Oe = m("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n *)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$))", "i").replace("comment", J).replace("tag", O).replace("attribute", / +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex(), ge = m(K).replace("hr", I).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("|lheading", "").replace("|table", "").replace("blockquote", " {0,3}>").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list", " {0,3}(?:[*+-]|1[.)]) ").replace("html", "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag", O).getRegex(), qe = m(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/).replace("paragraph", ge).getRegex(), W = {
-  blockquote: qe,
-  code: Ae,
-  def: Le,
-  fences: Me,
-  heading: Re,
+const Ae = /^(?: *(?:\n|$))+/, Re = /^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/, Pe = /^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/, I = /^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/, Le = /^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/, he = /(?:[*+-]|\d{1,9}[.)])/, ge = m(/^(?!bull |blockCode|fences|blockquote|heading|html)((?:.|\n(?!\s*?\n|bull |blockCode|fences|blockquote|heading|html))+?)\n {0,3}(=+|-+) *(?:\n+|$)/).replace(/bull/g, he).replace(/blockCode/g, / {4}/).replace(/fences/g, / {0,3}(?:`{3,}|~{3,})/).replace(/blockquote/g, / {0,3}>/).replace(/heading/g, / {0,3}#{1,6}/).replace(/html/g, / {0,3}<[^\n>]+>\n/).getRegex(), K = /^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/, De = /^[^\n]+/, U = /(?!\s*\])(?:\\.|[^\[\]\\])+/, Oe = m(/^ {0,3}\[(label)\]: *(?:\n *)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n *)?| *\n *)(title))? *(?:\n+|$)/).replace("label", U).replace("title", /(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/).getRegex(), qe = m(/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/).replace(/bull/g, he).getRegex(), O = "address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|search|section|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul", J = /<!--(?:-?>|[\s\S]*?(?:-->|$))/, je = m("^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n *)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$))", "i").replace("comment", J).replace("tag", O).replace("attribute", / +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex(), fe = m(K).replace("hr", I).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("|lheading", "").replace("|table", "").replace("blockquote", " {0,3}>").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list", " {0,3}(?:[*+-]|1[.)]) ").replace("html", "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag", O).getRegex(), Ze = m(/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/).replace("paragraph", fe).getRegex(), W = {
+  blockquote: Ze,
+  code: Re,
+  def: Oe,
+  fences: Pe,
+  heading: Le,
   hr: I,
-  html: Oe,
-  lheading: fe,
-  list: De,
-  newline: Se,
-  paragraph: ge,
-  table: C,
-  text: Pe
-}, ce = m("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr", I).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("blockquote", " {0,3}>").replace("code", " {4}[^\\n]").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list", " {0,3}(?:[*+-]|1[.)]) ").replace("html", "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag", O).getRegex(), je = {
+  html: je,
+  lheading: ge,
+  list: qe,
+  newline: Ae,
+  paragraph: fe,
+  table: _,
+  text: De
+}, ce = m("^ *([^\\n ].*)\\n {0,3}((?:\\| *)?:?-+:? *(?:\\| *:?-+:? *)*(?:\\| *)?)(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)").replace("hr", I).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("blockquote", " {0,3}>").replace("code", " {4}[^\\n]").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list", " {0,3}(?:[*+-]|1[.)]) ").replace("html", "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag", O).getRegex(), He = {
   ...W,
   table: ce,
   paragraph: m(K).replace("hr", I).replace("heading", " {0,3}#{1,6}(?:\\s|$)").replace("|lheading", "").replace("table", ce).replace("blockquote", " {0,3}>").replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list", " {0,3}(?:[*+-]|1[.)]) ").replace("html", "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag", O).getRegex()
-}, Ze = {
+}, Fe = {
   ...W,
   html: m(`^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`).replace("comment", J).replace(/tag/g, "(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(),
   def: /^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,
   heading: /^(#{1,6})(.*)(?:\n+|$)/,
-  fences: C,
+  fences: _,
   // fences not supported
   lheading: /^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
   paragraph: m(K).replace("hr", I).replace("heading", ` *#{1,6} *[^
-]`).replace("lheading", fe).replace("|table", "").replace("blockquote", " {0,3}>").replace("|fences", "").replace("|list", "").replace("|html", "").replace("|tag", "").getRegex()
-}, me = /^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/, He = /^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/, xe = /^( {2,}|\\)\n(?!\s*$)/, Fe = /^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/, S = "\\p{P}\\p{S}", Qe = m(/^((?![*_])[\spunctuation])/, "u").replace(/punctuation/g, S).getRegex(), Ke = /\[[^[\]]*?\]\([^\(\)]*?\)|`[^`]*?`|<[^<>]*?>/g, Ue = m(/^(?:\*+(?:((?!\*)[punct])|[^\s*]))|^_+(?:((?!_)[punct])|([^\s_]))/, "u").replace(/punct/g, S).getRegex(), Je = m("^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)[punct](\\*+)(?=[\\s]|$)|[^punct\\s](\\*+)(?!\\*)(?=[punct\\s]|$)|(?!\\*)[punct\\s](\\*+)(?=[^punct\\s])|[\\s](\\*+)(?!\\*)(?=[punct])|(?!\\*)[punct](\\*+)(?!\\*)(?=[punct])|[^punct\\s](\\*+)(?=[^punct\\s])", "gu").replace(/punct/g, S).getRegex(), We = m("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)[punct](_+)(?=[\\s]|$)|[^punct\\s](_+)(?!_)(?=[punct\\s]|$)|(?!_)[punct\\s](_+)(?=[^punct\\s])|[\\s](_+)(?!_)(?=[punct])|(?!_)[punct](_+)(?!_)(?=[punct])", "gu").replace(/punct/g, S).getRegex(), Xe = m(/\\([punct])/, "gu").replace(/punct/g, S).getRegex(), Ge = m(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme", /[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email", /[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(), Ye = m(J).replace("(?:-->|$)", "-->").getRegex(), et = m("^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment", Ye).replace("attribute", /\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(), L = /(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/, tt = m(/^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/).replace("label", L).replace("href", /<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/).replace("title", /"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/).getRegex(), ke = m(/^!?\[(label)\]\[(ref)\]/).replace("label", L).replace("ref", U).getRegex(), be = m(/^!?\[(ref)\](?:\[\])?/).replace("ref", U).getRegex(), nt = m("reflink|nolink(?!\\()", "g").replace("reflink", ke).replace("nolink", be).getRegex(), X = {
-  _backpedal: C,
+]`).replace("lheading", ge).replace("|table", "").replace("blockquote", " {0,3}>").replace("|fences", "").replace("|list", "").replace("|html", "").replace("|tag", "").getRegex()
+}, me = /^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/, Qe = /^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/, xe = /^( {2,}|\\)\n(?!\s*$)/, Ke = /^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/, S = "\\p{P}\\p{S}", Ue = m(/^((?![*_])[\spunctuation])/, "u").replace(/punctuation/g, S).getRegex(), Je = /\[[^[\]]*?\]\([^\(\)]*?\)|`[^`]*?`|<[^<>]*?>/g, We = m(/^(?:\*+(?:((?!\*)[punct])|[^\s*]))|^_+(?:((?!_)[punct])|([^\s_]))/, "u").replace(/punct/g, S).getRegex(), Xe = m("^[^_*]*?__[^_*]*?\\*[^_*]*?(?=__)|[^*]+(?=[^*])|(?!\\*)[punct](\\*+)(?=[\\s]|$)|[^punct\\s](\\*+)(?!\\*)(?=[punct\\s]|$)|(?!\\*)[punct\\s](\\*+)(?=[^punct\\s])|[\\s](\\*+)(?!\\*)(?=[punct])|(?!\\*)[punct](\\*+)(?!\\*)(?=[punct])|[^punct\\s](\\*+)(?=[^punct\\s])", "gu").replace(/punct/g, S).getRegex(), Ge = m("^[^_*]*?\\*\\*[^_*]*?_[^_*]*?(?=\\*\\*)|[^_]+(?=[^_])|(?!_)[punct](_+)(?=[\\s]|$)|[^punct\\s](_+)(?!_)(?=[punct\\s]|$)|(?!_)[punct\\s](_+)(?=[^punct\\s])|[\\s](_+)(?!_)(?=[punct])|(?!_)[punct](_+)(?!_)(?=[punct])", "gu").replace(/punct/g, S).getRegex(), Ye = m(/\\([punct])/, "gu").replace(/punct/g, S).getRegex(), et = m(/^<(scheme:[^\s\x00-\x1f<>]*|email)>/).replace("scheme", /[a-zA-Z][a-zA-Z0-9+.-]{1,31}/).replace("email", /[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/).getRegex(), tt = m(J).replace("(?:-->|$)", "-->").getRegex(), nt = m("^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>").replace("comment", tt).replace("attribute", /\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/).getRegex(), L = /(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/, ot = m(/^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/).replace("label", L).replace("href", /<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/).replace("title", /"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/).getRegex(), ke = m(/^!?\[(label)\]\[(ref)\]/).replace("label", L).replace("ref", U).getRegex(), be = m(/^!?\[(ref)\](?:\[\])?/).replace("ref", U).getRegex(), it = m("reflink|nolink(?!\\()", "g").replace("reflink", ke).replace("nolink", be).getRegex(), X = {
+  _backpedal: _,
   // only used for GFM url
-  anyPunctuation: Xe,
-  autolink: Ge,
-  blockSkip: Ke,
+  anyPunctuation: Ye,
+  autolink: et,
+  blockSkip: Je,
   br: xe,
-  code: He,
-  del: C,
-  emStrongLDelim: Ue,
-  emStrongRDelimAst: Je,
-  emStrongRDelimUnd: We,
+  code: Qe,
+  del: _,
+  emStrongLDelim: We,
+  emStrongRDelimAst: Xe,
+  emStrongRDelimUnd: Ge,
   escape: me,
-  link: tt,
+  link: ot,
   nolink: be,
-  punctuation: Qe,
+  punctuation: Ue,
   reflink: ke,
-  reflinkSearch: nt,
-  tag: et,
-  text: Fe,
-  url: C
-}, ot = {
+  reflinkSearch: it,
+  tag: nt,
+  text: Ke,
+  url: _
+}, rt = {
   ...X,
   link: m(/^!?\[(label)\]\((.*?)\)/).replace("label", L).getRegex(),
   reflink: m(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label", L).getRegex()
@@ -639,19 +639,19 @@ const Se = /^(?: *(?:\n|$))+/, Ae = /^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/, Me =
   _backpedal: /(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,
   del: /^(~~?)(?=[^\s~])([\s\S]*?[^\s~])\1(?=[^~]|$)/,
   text: /^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/
-}, it = {
+}, st = {
   ...H,
   br: m(xe).replace("{2,}", "*").getRegex(),
   text: m(H.text).replace("\\b_", "\\b_| {2,}\\n").replace(/\{2,\}/g, "*").getRegex()
 }, R = {
   normal: W,
-  gfm: je,
-  pedantic: Ze
+  gfm: He,
+  pedantic: Fe
 }, z = {
   normal: X,
   gfm: H,
-  breaks: it,
-  pedantic: ot
+  breaks: st,
+  pedantic: rt
 };
 class v {
   constructor(n) {
@@ -660,16 +660,16 @@ class v {
     x(this, "state");
     x(this, "tokenizer");
     x(this, "inlineQueue");
-    this.tokens = [], this.tokens.links = /* @__PURE__ */ Object.create(null), this.options = n || N, this.options.tokenizer = this.options.tokenizer || new P(), this.tokenizer = this.options.tokenizer, this.tokenizer.options = this.options, this.tokenizer.lexer = this, this.inlineQueue = [], this.state = {
+    this.tokens = [], this.tokens.links = /* @__PURE__ */ Object.create(null), this.options = n || T, this.options.tokenizer = this.options.tokenizer || new P(), this.tokenizer = this.options.tokenizer, this.tokenizer.options = this.options, this.tokenizer.lexer = this, this.inlineQueue = [], this.state = {
       inLink: !1,
       inRawBlock: !1,
       top: !0
     };
-    const e = {
+    const t = {
       block: R.normal,
       inline: z.normal
     };
-    this.options.pedantic ? (e.block = R.pedantic, e.inline = z.pedantic) : this.options.gfm && (e.block = R.gfm, this.options.breaks ? e.inline = z.breaks : e.inline = z.gfm), this.tokenizer.rules = e;
+    this.options.pedantic ? (t.block = R.pedantic, t.inline = z.pedantic) : this.options.gfm && (t.block = R.gfm, this.options.breaks ? t.inline = z.breaks : t.inline = z.gfm), this.tokenizer.rules = t;
   }
   /**
    * Expose Rules
@@ -683,14 +683,14 @@ class v {
   /**
    * Static Lex Method
    */
-  static lex(n, e) {
-    return new v(e).lex(n);
+  static lex(n, t) {
+    return new v(t).lex(n);
   }
   /**
    * Static Lex Inline Method
    */
-  static lexInline(n, e) {
-    return new v(e).inlineTokens(n);
+  static lexInline(n, t) {
+    return new v(t).inlineTokens(n);
   }
   /**
    * Preprocessing
@@ -698,158 +698,158 @@ class v {
   lex(n) {
     n = n.replace(/\r\n|\r/g, `
 `), this.blockTokens(n, this.tokens);
-    for (let e = 0; e < this.inlineQueue.length; e++) {
-      const t = this.inlineQueue[e];
-      this.inlineTokens(t.src, t.tokens);
+    for (let t = 0; t < this.inlineQueue.length; t++) {
+      const e = this.inlineQueue[t];
+      this.inlineTokens(e.src, e.tokens);
     }
     return this.inlineQueue = [], this.tokens;
   }
-  blockTokens(n, e = []) {
-    this.options.pedantic ? n = n.replace(/\t/g, "    ").replace(/^ +$/gm, "") : n = n.replace(/^( *)(\t+)/gm, (l, s, p) => s + "    ".repeat(p.length));
-    let t, i, r, o;
+  blockTokens(n, t = []) {
+    this.options.pedantic ? n = n.replace(/\t/g, "    ").replace(/^ +$/gm, "") : n = n.replace(/^( *)(\t+)/gm, (a, s, p) => s + "    ".repeat(p.length));
+    let e, i, r, o;
     for (; n; )
-      if (!(this.options.extensions && this.options.extensions.block && this.options.extensions.block.some((l) => (t = l.call({ lexer: this }, n, e)) ? (n = n.substring(t.raw.length), e.push(t), !0) : !1))) {
-        if (t = this.tokenizer.space(n)) {
-          n = n.substring(t.raw.length), t.raw.length === 1 && e.length > 0 ? e[e.length - 1].raw += `
-` : e.push(t);
+      if (!(this.options.extensions && this.options.extensions.block && this.options.extensions.block.some((a) => (e = a.call({ lexer: this }, n, t)) ? (n = n.substring(e.raw.length), t.push(e), !0) : !1))) {
+        if (e = this.tokenizer.space(n)) {
+          n = n.substring(e.raw.length), e.raw.length === 1 && t.length > 0 ? t[t.length - 1].raw += `
+` : t.push(e);
           continue;
         }
-        if (t = this.tokenizer.code(n)) {
-          n = n.substring(t.raw.length), i = e[e.length - 1], i && (i.type === "paragraph" || i.type === "text") ? (i.raw += `
-` + t.raw, i.text += `
-` + t.text, this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : e.push(t);
+        if (e = this.tokenizer.code(n)) {
+          n = n.substring(e.raw.length), i = t[t.length - 1], i && (i.type === "paragraph" || i.type === "text") ? (i.raw += `
+` + e.raw, i.text += `
+` + e.text, this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : t.push(e);
           continue;
         }
-        if (t = this.tokenizer.fences(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.fences(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.heading(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.heading(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.hr(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.hr(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.blockquote(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.blockquote(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.list(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.list(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.html(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.html(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.def(n)) {
-          n = n.substring(t.raw.length), i = e[e.length - 1], i && (i.type === "paragraph" || i.type === "text") ? (i.raw += `
-` + t.raw, i.text += `
-` + t.raw, this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : this.tokens.links[t.tag] || (this.tokens.links[t.tag] = {
-            href: t.href,
-            title: t.title
+        if (e = this.tokenizer.def(n)) {
+          n = n.substring(e.raw.length), i = t[t.length - 1], i && (i.type === "paragraph" || i.type === "text") ? (i.raw += `
+` + e.raw, i.text += `
+` + e.raw, this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : this.tokens.links[e.tag] || (this.tokens.links[e.tag] = {
+            href: e.href,
+            title: e.title
           });
           continue;
         }
-        if (t = this.tokenizer.table(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.table(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.lheading(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.lheading(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
         if (r = n, this.options.extensions && this.options.extensions.startBlock) {
-          let l = 1 / 0;
+          let a = 1 / 0;
           const s = n.slice(1);
           let p;
           this.options.extensions.startBlock.forEach((u) => {
-            p = u.call({ lexer: this }, s), typeof p == "number" && p >= 0 && (l = Math.min(l, p));
-          }), l < 1 / 0 && l >= 0 && (r = n.substring(0, l + 1));
+            p = u.call({ lexer: this }, s), typeof p == "number" && p >= 0 && (a = Math.min(a, p));
+          }), a < 1 / 0 && a >= 0 && (r = n.substring(0, a + 1));
         }
-        if (this.state.top && (t = this.tokenizer.paragraph(r))) {
-          i = e[e.length - 1], o && i.type === "paragraph" ? (i.raw += `
-` + t.raw, i.text += `
-` + t.text, this.inlineQueue.pop(), this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : e.push(t), o = r.length !== n.length, n = n.substring(t.raw.length);
+        if (this.state.top && (e = this.tokenizer.paragraph(r))) {
+          i = t[t.length - 1], o && i.type === "paragraph" ? (i.raw += `
+` + e.raw, i.text += `
+` + e.text, this.inlineQueue.pop(), this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : t.push(e), o = r.length !== n.length, n = n.substring(e.raw.length);
           continue;
         }
-        if (t = this.tokenizer.text(n)) {
-          n = n.substring(t.raw.length), i = e[e.length - 1], i && i.type === "text" ? (i.raw += `
-` + t.raw, i.text += `
-` + t.text, this.inlineQueue.pop(), this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : e.push(t);
+        if (e = this.tokenizer.text(n)) {
+          n = n.substring(e.raw.length), i = t[t.length - 1], i && i.type === "text" ? (i.raw += `
+` + e.raw, i.text += `
+` + e.text, this.inlineQueue.pop(), this.inlineQueue[this.inlineQueue.length - 1].src = i.text) : t.push(e);
           continue;
         }
         if (n) {
-          const l = "Infinite loop on byte: " + n.charCodeAt(0);
+          const a = "Infinite loop on byte: " + n.charCodeAt(0);
           if (this.options.silent) {
-            console.error(l);
+            console.error(a);
             break;
           } else
-            throw new Error(l);
+            throw new Error(a);
         }
       }
-    return this.state.top = !0, e;
+    return this.state.top = !0, t;
   }
-  inline(n, e = []) {
-    return this.inlineQueue.push({ src: n, tokens: e }), e;
+  inline(n, t = []) {
+    return this.inlineQueue.push({ src: n, tokens: t }), t;
   }
   /**
    * Lexing/Compiling
    */
-  inlineTokens(n, e = []) {
-    let t, i, r, o = n, l, s, p;
+  inlineTokens(n, t = []) {
+    let e, i, r, o = n, a, s, p;
     if (this.tokens.links) {
       const u = Object.keys(this.tokens.links);
       if (u.length > 0)
-        for (; (l = this.tokenizer.rules.inline.reflinkSearch.exec(o)) != null; )
-          u.includes(l[0].slice(l[0].lastIndexOf("[") + 1, -1)) && (o = o.slice(0, l.index) + "[" + "a".repeat(l[0].length - 2) + "]" + o.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex));
+        for (; (a = this.tokenizer.rules.inline.reflinkSearch.exec(o)) != null; )
+          u.includes(a[0].slice(a[0].lastIndexOf("[") + 1, -1)) && (o = o.slice(0, a.index) + "[" + "a".repeat(a[0].length - 2) + "]" + o.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex));
     }
-    for (; (l = this.tokenizer.rules.inline.blockSkip.exec(o)) != null; )
-      o = o.slice(0, l.index) + "[" + "a".repeat(l[0].length - 2) + "]" + o.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);
-    for (; (l = this.tokenizer.rules.inline.anyPunctuation.exec(o)) != null; )
-      o = o.slice(0, l.index) + "++" + o.slice(this.tokenizer.rules.inline.anyPunctuation.lastIndex);
+    for (; (a = this.tokenizer.rules.inline.blockSkip.exec(o)) != null; )
+      o = o.slice(0, a.index) + "[" + "a".repeat(a[0].length - 2) + "]" + o.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);
+    for (; (a = this.tokenizer.rules.inline.anyPunctuation.exec(o)) != null; )
+      o = o.slice(0, a.index) + "++" + o.slice(this.tokenizer.rules.inline.anyPunctuation.lastIndex);
     for (; n; )
-      if (s || (p = ""), s = !1, !(this.options.extensions && this.options.extensions.inline && this.options.extensions.inline.some((u) => (t = u.call({ lexer: this }, n, e)) ? (n = n.substring(t.raw.length), e.push(t), !0) : !1))) {
-        if (t = this.tokenizer.escape(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+      if (s || (p = ""), s = !1, !(this.options.extensions && this.options.extensions.inline && this.options.extensions.inline.some((u) => (e = u.call({ lexer: this }, n, t)) ? (n = n.substring(e.raw.length), t.push(e), !0) : !1))) {
+        if (e = this.tokenizer.escape(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.tag(n)) {
-          n = n.substring(t.raw.length), i = e[e.length - 1], i && t.type === "text" && i.type === "text" ? (i.raw += t.raw, i.text += t.text) : e.push(t);
+        if (e = this.tokenizer.tag(n)) {
+          n = n.substring(e.raw.length), i = t[t.length - 1], i && e.type === "text" && i.type === "text" ? (i.raw += e.raw, i.text += e.text) : t.push(e);
           continue;
         }
-        if (t = this.tokenizer.link(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.link(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.reflink(n, this.tokens.links)) {
-          n = n.substring(t.raw.length), i = e[e.length - 1], i && t.type === "text" && i.type === "text" ? (i.raw += t.raw, i.text += t.text) : e.push(t);
+        if (e = this.tokenizer.reflink(n, this.tokens.links)) {
+          n = n.substring(e.raw.length), i = t[t.length - 1], i && e.type === "text" && i.type === "text" ? (i.raw += e.raw, i.text += e.text) : t.push(e);
           continue;
         }
-        if (t = this.tokenizer.emStrong(n, o, p)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.emStrong(n, o, p)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.codespan(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.codespan(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.br(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.br(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.del(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.del(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (t = this.tokenizer.autolink(n)) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (e = this.tokenizer.autolink(n)) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
-        if (!this.state.inLink && (t = this.tokenizer.url(n))) {
-          n = n.substring(t.raw.length), e.push(t);
+        if (!this.state.inLink && (e = this.tokenizer.url(n))) {
+          n = n.substring(e.raw.length), t.push(e);
           continue;
         }
         if (r = n, this.options.extensions && this.options.extensions.startInline) {
@@ -860,8 +860,8 @@ class v {
             d = w.call({ lexer: this }, h), typeof d == "number" && d >= 0 && (u = Math.min(u, d));
           }), u < 1 / 0 && u >= 0 && (r = n.substring(0, u + 1));
         }
-        if (t = this.tokenizer.inlineText(r)) {
-          n = n.substring(t.raw.length), t.raw.slice(-1) !== "_" && (p = t.raw.slice(-1)), s = !0, i = e[e.length - 1], i && i.type === "text" ? (i.raw += t.raw, i.text += t.text) : e.push(t);
+        if (e = this.tokenizer.inlineText(r)) {
+          n = n.substring(e.raw.length), e.raw.slice(-1) !== "_" && (p = e.raw.slice(-1)), s = !0, i = t[t.length - 1], i && i.type === "text" ? (i.raw += e.raw, i.text += e.text) : t.push(e);
           continue;
         }
         if (n) {
@@ -873,20 +873,20 @@ class v {
             throw new Error(u);
         }
       }
-    return e;
+    return t;
   }
 }
 class D {
   constructor(n) {
     x(this, "options");
-    this.options = n || N;
+    this.options = n || T;
   }
-  code(n, e, t) {
+  code(n, t, e) {
     var r;
-    const i = (r = (e || "").match(/^\S*/)) == null ? void 0 : r[0];
+    const i = (r = (t || "").match(/^\S*/)) == null ? void 0 : r[0];
     return n = n.replace(/\n$/, "") + `
-`, i ? '<pre><code class="language-' + V(i) + '">' + (t ? n : V(n, !0)) + `</code></pre>
-` : "<pre><code>" + (t ? n : V(n, !0)) + `</code></pre>
+`, i ? '<pre><code class="language-' + V(i) + '">' + (e ? n : V(n, !0)) + `</code></pre>
+` : "<pre><code>" + (e ? n : V(n, !0)) + `</code></pre>
 `;
   }
   blockquote(n) {
@@ -894,24 +894,24 @@ class D {
 ${n}</blockquote>
 `;
   }
-  html(n, e) {
+  html(n, t) {
     return n;
   }
-  heading(n, e, t) {
-    return `<h${e}>${n}</h${e}>
+  heading(n, t, e) {
+    return `<h${t}>${n}</h${t}>
 `;
   }
   hr() {
     return `<hr>
 `;
   }
-  list(n, e, t) {
-    const i = e ? "ol" : "ul", r = e && t !== 1 ? ' start="' + t + '"' : "";
+  list(n, t, e) {
+    const i = t ? "ol" : "ul", r = t && e !== 1 ? ' start="' + e + '"' : "";
     return "<" + i + r + `>
 ` + n + "</" + i + `>
 `;
   }
-  listitem(n, e, t) {
+  listitem(n, t, e) {
     return `<li>${n}</li>
 `;
   }
@@ -922,11 +922,11 @@ ${n}</blockquote>
     return `<p>${n}</p>
 `;
   }
-  table(n, e) {
-    return e && (e = `<tbody>${e}</tbody>`), `<table>
+  table(n, t) {
+    return t && (t = `<tbody>${t}</tbody>`), `<table>
 <thead>
 ` + n + `</thead>
-` + e + `</table>
+` + t + `</table>
 `;
   }
   tablerow(n) {
@@ -934,9 +934,9 @@ ${n}</blockquote>
 ${n}</tr>
 `;
   }
-  tablecell(n, e) {
-    const t = e.header ? "th" : "td";
-    return (e.align ? `<${t} align="${e.align}">` : `<${t}>`) + n + `</${t}>
+  tablecell(n, t) {
+    const e = t.header ? "th" : "td";
+    return (t.align ? `<${e} align="${t.align}">` : `<${e}>`) + n + `</${e}>
 `;
   }
   /**
@@ -957,21 +957,21 @@ ${n}</tr>
   del(n) {
     return `<del>${n}</del>`;
   }
-  link(n, e, t) {
+  link(n, t, e) {
     const i = se(n);
     if (i === null)
-      return t;
+      return e;
     n = i;
     let r = '<a href="' + n + '"';
-    return e && (r += ' title="' + e + '"'), r += ">" + t + "</a>", r;
+    return t && (r += ' title="' + t + '"'), r += ">" + e + "</a>", r;
   }
-  image(n, e, t) {
+  image(n, t, e) {
     const i = se(n);
     if (i === null)
-      return t;
+      return e;
     n = i;
-    let r = `<img src="${n}" alt="${t}"`;
-    return e && (r += ` title="${e}"`), r += ">", r;
+    let r = `<img src="${n}" alt="${e}"`;
+    return t && (r += ` title="${t}"`), r += ">", r;
   }
   text(n) {
     return n;
@@ -997,11 +997,11 @@ class G {
   text(n) {
     return n;
   }
-  link(n, e, t) {
-    return "" + t;
+  link(n, t, e) {
+    return "" + e;
   }
-  image(n, e, t) {
-    return "" + t;
+  image(n, t, e) {
+    return "" + e;
   }
   br() {
     return "";
@@ -1012,31 +1012,31 @@ class y {
     x(this, "options");
     x(this, "renderer");
     x(this, "textRenderer");
-    this.options = n || N, this.options.renderer = this.options.renderer || new D(), this.renderer = this.options.renderer, this.renderer.options = this.options, this.textRenderer = new G();
+    this.options = n || T, this.options.renderer = this.options.renderer || new D(), this.renderer = this.options.renderer, this.renderer.options = this.options, this.textRenderer = new G();
   }
   /**
    * Static Parse Method
    */
-  static parse(n, e) {
-    return new y(e).parse(n);
+  static parse(n, t) {
+    return new y(t).parse(n);
   }
   /**
    * Static Parse Inline Method
    */
-  static parseInline(n, e) {
-    return new y(e).parseInline(n);
+  static parseInline(n, t) {
+    return new y(t).parseInline(n);
   }
   /**
    * Parse Loop
    */
-  parse(n, e = !0) {
-    let t = "";
+  parse(n, t = !0) {
+    let e = "";
     for (let i = 0; i < n.length; i++) {
       const r = n[i];
       if (this.options.extensions && this.options.extensions.renderers && this.options.extensions.renderers[r.type]) {
-        const o = r, l = this.options.extensions.renderers[o.type].call({ parser: this }, o);
-        if (l !== !1 || !["space", "hr", "heading", "code", "table", "blockquote", "list", "html", "paragraph", "text"].includes(o.type)) {
-          t += l || "";
+        const o = r, a = this.options.extensions.renderers[o.type].call({ parser: this }, o);
+        if (a !== !1 || !["space", "hr", "heading", "code", "table", "blockquote", "list", "html", "paragraph", "text"].includes(o.type)) {
+          e += a || "";
           continue;
         }
       }
@@ -1044,25 +1044,25 @@ class y {
         case "space":
           continue;
         case "hr": {
-          t += this.renderer.hr();
+          e += this.renderer.hr();
           continue;
         }
         case "heading": {
           const o = r;
-          t += this.renderer.heading(this.parseInline(o.tokens), o.depth, Ce(this.parseInline(o.tokens, this.textRenderer)));
+          e += this.renderer.heading(this.parseInline(o.tokens), o.depth, Be(this.parseInline(o.tokens, this.textRenderer)));
           continue;
         }
         case "code": {
           const o = r;
-          t += this.renderer.code(o.text, o.lang, !!o.escaped);
+          e += this.renderer.code(o.text, o.lang, !!o.escaped);
           continue;
         }
         case "table": {
           const o = r;
-          let l = "", s = "";
+          let a = "", s = "";
           for (let u = 0; u < o.header.length; u++)
             s += this.renderer.tablecell(this.parseInline(o.header[u].tokens), { header: !0, align: o.align[u] });
-          l += this.renderer.tablerow(s);
+          a += this.renderer.tablerow(s);
           let p = "";
           for (let u = 0; u < o.rows.length; u++) {
             const h = o.rows[u];
@@ -1071,19 +1071,19 @@ class y {
               s += this.renderer.tablecell(this.parseInline(h[d].tokens), { header: !1, align: o.align[d] });
             p += this.renderer.tablerow(s);
           }
-          t += this.renderer.table(l, p);
+          e += this.renderer.table(a, p);
           continue;
         }
         case "blockquote": {
-          const o = r, l = this.parse(o.tokens);
-          t += this.renderer.blockquote(l);
+          const o = r, a = this.parse(o.tokens);
+          e += this.renderer.blockquote(a);
           continue;
         }
         case "list": {
-          const o = r, l = o.ordered, s = o.start, p = o.loose;
+          const o = r, a = o.ordered, s = o.start, p = o.loose;
           let u = "";
           for (let h = 0; h < o.items.length; h++) {
-            const d = o.items[h], w = d.checked, f = d.task;
+            const d = o.items[h], w = d.checked, g = d.task;
             let b = "";
             if (d.task) {
               const E = this.renderer.checkbox(!!w);
@@ -1092,27 +1092,27 @@ class y {
                 text: E + " "
               }) : b += E + " ";
             }
-            b += this.parse(d.tokens, p), u += this.renderer.listitem(b, f, !!w);
+            b += this.parse(d.tokens, p), u += this.renderer.listitem(b, g, !!w);
           }
-          t += this.renderer.list(u, l, s);
+          e += this.renderer.list(u, a, s);
           continue;
         }
         case "html": {
           const o = r;
-          t += this.renderer.html(o.text, o.block);
+          e += this.renderer.html(o.text, o.block);
           continue;
         }
         case "paragraph": {
           const o = r;
-          t += this.renderer.paragraph(this.parseInline(o.tokens));
+          e += this.renderer.paragraph(this.parseInline(o.tokens));
           continue;
         }
         case "text": {
-          let o = r, l = o.tokens ? this.parseInline(o.tokens) : o.text;
+          let o = r, a = o.tokens ? this.parseInline(o.tokens) : o.text;
           for (; i + 1 < n.length && n[i + 1].type === "text"; )
-            o = n[++i], l += `
+            o = n[++i], a += `
 ` + (o.tokens ? this.parseInline(o.tokens) : o.text);
-          t += e ? this.renderer.paragraph(l) : l;
+          e += t ? this.renderer.paragraph(a) : a;
           continue;
         }
         default: {
@@ -1123,71 +1123,71 @@ class y {
         }
       }
     }
-    return t;
+    return e;
   }
   /**
    * Parse Inline Tokens
    */
-  parseInline(n, e) {
-    e = e || this.renderer;
-    let t = "";
+  parseInline(n, t) {
+    t = t || this.renderer;
+    let e = "";
     for (let i = 0; i < n.length; i++) {
       const r = n[i];
       if (this.options.extensions && this.options.extensions.renderers && this.options.extensions.renderers[r.type]) {
         const o = this.options.extensions.renderers[r.type].call({ parser: this }, r);
         if (o !== !1 || !["escape", "html", "link", "image", "strong", "em", "codespan", "br", "del", "text"].includes(r.type)) {
-          t += o || "";
+          e += o || "";
           continue;
         }
       }
       switch (r.type) {
         case "escape": {
           const o = r;
-          t += e.text(o.text);
+          e += t.text(o.text);
           break;
         }
         case "html": {
           const o = r;
-          t += e.html(o.text);
+          e += t.html(o.text);
           break;
         }
         case "link": {
           const o = r;
-          t += e.link(o.href, o.title, this.parseInline(o.tokens, e));
+          e += t.link(o.href, o.title, this.parseInline(o.tokens, t));
           break;
         }
         case "image": {
           const o = r;
-          t += e.image(o.href, o.title, o.text);
+          e += t.image(o.href, o.title, o.text);
           break;
         }
         case "strong": {
           const o = r;
-          t += e.strong(this.parseInline(o.tokens, e));
+          e += t.strong(this.parseInline(o.tokens, t));
           break;
         }
         case "em": {
           const o = r;
-          t += e.em(this.parseInline(o.tokens, e));
+          e += t.em(this.parseInline(o.tokens, t));
           break;
         }
         case "codespan": {
           const o = r;
-          t += e.codespan(o.text);
+          e += t.codespan(o.text);
           break;
         }
         case "br": {
-          t += e.br();
+          e += t.br();
           break;
         }
         case "del": {
           const o = r;
-          t += e.del(this.parseInline(o.tokens, e));
+          e += t.del(this.parseInline(o.tokens, t));
           break;
         }
         case "text": {
           const o = r;
-          t += e.text(o.text);
+          e += t.text(o.text);
           break;
         }
         default: {
@@ -1198,13 +1198,13 @@ class y {
         }
       }
     }
-    return t;
+    return e;
   }
 }
-class _ {
+class C {
   constructor(n) {
     x(this, "options");
-    this.options = n || N;
+    this.options = n || T;
   }
   /**
    * Process markdown before marked
@@ -1225,135 +1225,135 @@ class _ {
     return n;
   }
 }
-x(_, "passThroughHooks", /* @__PURE__ */ new Set([
+x(C, "passThroughHooks", /* @__PURE__ */ new Set([
   "preprocess",
   "postprocess",
   "processAllTokens"
 ]));
-var T, F, Ve;
-class rt {
+var N, F, Ve;
+class lt {
   constructor(...n) {
-    ie(this, T);
+    ie(this, N);
     x(this, "defaults", Q());
     x(this, "options", this.setOptions);
-    x(this, "parse", A(this, T, F).call(this, v.lex, y.parse));
-    x(this, "parseInline", A(this, T, F).call(this, v.lexInline, y.parseInline));
+    x(this, "parse", M(this, N, F).call(this, v.lex, y.parse));
+    x(this, "parseInline", M(this, N, F).call(this, v.lexInline, y.parseInline));
     x(this, "Parser", y);
     x(this, "Renderer", D);
     x(this, "TextRenderer", G);
     x(this, "Lexer", v);
     x(this, "Tokenizer", P);
-    x(this, "Hooks", _);
+    x(this, "Hooks", C);
     this.use(...n);
   }
   /**
    * Run callback for every token
    */
-  walkTokens(n, e) {
+  walkTokens(n, t) {
     var i, r;
-    let t = [];
+    let e = [];
     for (const o of n)
-      switch (t = t.concat(e.call(this, o)), o.type) {
+      switch (e = e.concat(t.call(this, o)), o.type) {
         case "table": {
-          const l = o;
-          for (const s of l.header)
-            t = t.concat(this.walkTokens(s.tokens, e));
-          for (const s of l.rows)
+          const a = o;
+          for (const s of a.header)
+            e = e.concat(this.walkTokens(s.tokens, t));
+          for (const s of a.rows)
             for (const p of s)
-              t = t.concat(this.walkTokens(p.tokens, e));
+              e = e.concat(this.walkTokens(p.tokens, t));
           break;
         }
         case "list": {
-          const l = o;
-          t = t.concat(this.walkTokens(l.items, e));
+          const a = o;
+          e = e.concat(this.walkTokens(a.items, t));
           break;
         }
         default: {
-          const l = o;
-          (r = (i = this.defaults.extensions) == null ? void 0 : i.childTokens) != null && r[l.type] ? this.defaults.extensions.childTokens[l.type].forEach((s) => {
-            const p = l[s].flat(1 / 0);
-            t = t.concat(this.walkTokens(p, e));
-          }) : l.tokens && (t = t.concat(this.walkTokens(l.tokens, e)));
+          const a = o;
+          (r = (i = this.defaults.extensions) == null ? void 0 : i.childTokens) != null && r[a.type] ? this.defaults.extensions.childTokens[a.type].forEach((s) => {
+            const p = a[s].flat(1 / 0);
+            e = e.concat(this.walkTokens(p, t));
+          }) : a.tokens && (e = e.concat(this.walkTokens(a.tokens, t)));
         }
       }
-    return t;
+    return e;
   }
   use(...n) {
-    const e = this.defaults.extensions || { renderers: {}, childTokens: {} };
-    return n.forEach((t) => {
-      const i = { ...t };
-      if (i.async = this.defaults.async || i.async || !1, t.extensions && (t.extensions.forEach((r) => {
+    const t = this.defaults.extensions || { renderers: {}, childTokens: {} };
+    return n.forEach((e) => {
+      const i = { ...e };
+      if (i.async = this.defaults.async || i.async || !1, e.extensions && (e.extensions.forEach((r) => {
         if (!r.name)
           throw new Error("extension name required");
         if ("renderer" in r) {
-          const o = e.renderers[r.name];
-          o ? e.renderers[r.name] = function(...l) {
-            let s = r.renderer.apply(this, l);
-            return s === !1 && (s = o.apply(this, l)), s;
-          } : e.renderers[r.name] = r.renderer;
+          const o = t.renderers[r.name];
+          o ? t.renderers[r.name] = function(...a) {
+            let s = r.renderer.apply(this, a);
+            return s === !1 && (s = o.apply(this, a)), s;
+          } : t.renderers[r.name] = r.renderer;
         }
         if ("tokenizer" in r) {
           if (!r.level || r.level !== "block" && r.level !== "inline")
             throw new Error("extension level must be 'block' or 'inline'");
-          const o = e[r.level];
-          o ? o.unshift(r.tokenizer) : e[r.level] = [r.tokenizer], r.start && (r.level === "block" ? e.startBlock ? e.startBlock.push(r.start) : e.startBlock = [r.start] : r.level === "inline" && (e.startInline ? e.startInline.push(r.start) : e.startInline = [r.start]));
+          const o = t[r.level];
+          o ? o.unshift(r.tokenizer) : t[r.level] = [r.tokenizer], r.start && (r.level === "block" ? t.startBlock ? t.startBlock.push(r.start) : t.startBlock = [r.start] : r.level === "inline" && (t.startInline ? t.startInline.push(r.start) : t.startInline = [r.start]));
         }
-        "childTokens" in r && r.childTokens && (e.childTokens[r.name] = r.childTokens);
-      }), i.extensions = e), t.renderer) {
+        "childTokens" in r && r.childTokens && (t.childTokens[r.name] = r.childTokens);
+      }), i.extensions = t), e.renderer) {
         const r = this.defaults.renderer || new D(this.defaults);
-        for (const o in t.renderer) {
+        for (const o in e.renderer) {
           if (!(o in r))
             throw new Error(`renderer '${o}' does not exist`);
           if (o === "options")
             continue;
-          const l = o, s = t.renderer[l], p = r[l];
-          r[l] = (...u) => {
+          const a = o, s = e.renderer[a], p = r[a];
+          r[a] = (...u) => {
             let h = s.apply(r, u);
             return h === !1 && (h = p.apply(r, u)), h || "";
           };
         }
         i.renderer = r;
       }
-      if (t.tokenizer) {
+      if (e.tokenizer) {
         const r = this.defaults.tokenizer || new P(this.defaults);
-        for (const o in t.tokenizer) {
+        for (const o in e.tokenizer) {
           if (!(o in r))
             throw new Error(`tokenizer '${o}' does not exist`);
           if (["options", "rules", "lexer"].includes(o))
             continue;
-          const l = o, s = t.tokenizer[l], p = r[l];
-          r[l] = (...u) => {
+          const a = o, s = e.tokenizer[a], p = r[a];
+          r[a] = (...u) => {
             let h = s.apply(r, u);
             return h === !1 && (h = p.apply(r, u)), h;
           };
         }
         i.tokenizer = r;
       }
-      if (t.hooks) {
-        const r = this.defaults.hooks || new _();
-        for (const o in t.hooks) {
+      if (e.hooks) {
+        const r = this.defaults.hooks || new C();
+        for (const o in e.hooks) {
           if (!(o in r))
             throw new Error(`hook '${o}' does not exist`);
           if (o === "options")
             continue;
-          const l = o, s = t.hooks[l], p = r[l];
-          _.passThroughHooks.has(o) ? r[l] = (u) => {
+          const a = o, s = e.hooks[a], p = r[a];
+          C.passThroughHooks.has(o) ? r[a] = (u) => {
             if (this.defaults.async)
               return Promise.resolve(s.call(r, u)).then((d) => p.call(r, d));
             const h = s.call(r, u);
             return p.call(r, h);
-          } : r[l] = (...u) => {
+          } : r[a] = (...u) => {
             let h = s.apply(r, u);
             return h === !1 && (h = p.apply(r, u)), h;
           };
         }
         i.hooks = r;
       }
-      if (t.walkTokens) {
-        const r = this.defaults.walkTokens, o = t.walkTokens;
-        i.walkTokens = function(l) {
+      if (e.walkTokens) {
+        const r = this.defaults.walkTokens, o = e.walkTokens;
+        i.walkTokens = function(a) {
           let s = [];
-          return s.push(o.call(this, l)), r && (s = s.concat(r.call(this, l))), s;
+          return s.push(o.call(this, a)), r && (s = s.concat(r.call(this, a))), s;
         };
       }
       this.defaults = { ...this.defaults, ...i };
@@ -1362,76 +1362,76 @@ class rt {
   setOptions(n) {
     return this.defaults = { ...this.defaults, ...n }, this;
   }
-  lexer(n, e) {
-    return v.lex(n, e ?? this.defaults);
+  lexer(n, t) {
+    return v.lex(n, t ?? this.defaults);
   }
-  parser(n, e) {
-    return y.parse(n, e ?? this.defaults);
+  parser(n, t) {
+    return y.parse(n, t ?? this.defaults);
   }
 }
-T = new WeakSet(), F = function(n, e) {
-  return (t, i) => {
+N = new WeakSet(), F = function(n, t) {
+  return (e, i) => {
     const r = { ...i }, o = { ...this.defaults, ...r };
     this.defaults.async === !0 && r.async === !1 && (o.silent || console.warn("marked(): The async option was set to true by an extension. The async: false option sent to parse will be ignored."), o.async = !0);
-    const l = A(this, T, Ve).call(this, !!o.silent, !!o.async);
-    if (typeof t > "u" || t === null)
-      return l(new Error("marked(): input parameter is undefined or null"));
-    if (typeof t != "string")
-      return l(new Error("marked(): input parameter is of type " + Object.prototype.toString.call(t) + ", string expected"));
+    const a = M(this, N, Ve).call(this, !!o.silent, !!o.async);
+    if (typeof e > "u" || e === null)
+      return a(new Error("marked(): input parameter is undefined or null"));
+    if (typeof e != "string")
+      return a(new Error("marked(): input parameter is of type " + Object.prototype.toString.call(e) + ", string expected"));
     if (o.hooks && (o.hooks.options = o), o.async)
-      return Promise.resolve(o.hooks ? o.hooks.preprocess(t) : t).then((s) => n(s, o)).then((s) => o.hooks ? o.hooks.processAllTokens(s) : s).then((s) => o.walkTokens ? Promise.all(this.walkTokens(s, o.walkTokens)).then(() => s) : s).then((s) => e(s, o)).then((s) => o.hooks ? o.hooks.postprocess(s) : s).catch(l);
+      return Promise.resolve(o.hooks ? o.hooks.preprocess(e) : e).then((s) => n(s, o)).then((s) => o.hooks ? o.hooks.processAllTokens(s) : s).then((s) => o.walkTokens ? Promise.all(this.walkTokens(s, o.walkTokens)).then(() => s) : s).then((s) => t(s, o)).then((s) => o.hooks ? o.hooks.postprocess(s) : s).catch(a);
     try {
-      o.hooks && (t = o.hooks.preprocess(t));
-      let s = n(t, o);
+      o.hooks && (e = o.hooks.preprocess(e));
+      let s = n(e, o);
       o.hooks && (s = o.hooks.processAllTokens(s)), o.walkTokens && this.walkTokens(s, o.walkTokens);
-      let p = e(s, o);
+      let p = t(s, o);
       return o.hooks && (p = o.hooks.postprocess(p)), p;
     } catch (s) {
-      return l(s);
+      return a(s);
     }
   };
-}, Ve = function(n, e) {
-  return (t) => {
-    if (t.message += `
+}, Ve = function(n, t) {
+  return (e) => {
+    if (e.message += `
 Please report this to https://github.com/markedjs/marked.`, n) {
-      const i = "<p>An error occurred:</p><pre>" + V(t.message + "", !0) + "</pre>";
-      return e ? Promise.resolve(i) : i;
+      const i = "<p>An error occurred:</p><pre>" + V(e.message + "", !0) + "</pre>";
+      return t ? Promise.resolve(i) : i;
     }
-    if (e)
-      return Promise.reject(t);
-    throw t;
+    if (t)
+      return Promise.reject(e);
+    throw e;
   };
 };
-const $ = new rt();
-function g(a, n) {
-  return $.parse(a, n);
+const $ = new lt();
+function f(l, n) {
+  return $.parse(l, n);
 }
-g.options = g.setOptions = function(a) {
-  return $.setOptions(a), g.defaults = $.defaults, ue(g.defaults), g;
+f.options = f.setOptions = function(l) {
+  return $.setOptions(l), f.defaults = $.defaults, ue(f.defaults), f;
 };
-g.getDefaults = Q;
-g.defaults = N;
-g.use = function(...a) {
-  return $.use(...a), g.defaults = $.defaults, ue(g.defaults), g;
+f.getDefaults = Q;
+f.defaults = T;
+f.use = function(...l) {
+  return $.use(...l), f.defaults = $.defaults, ue(f.defaults), f;
 };
-g.walkTokens = function(a, n) {
-  return $.walkTokens(a, n);
+f.walkTokens = function(l, n) {
+  return $.walkTokens(l, n);
 };
-g.parseInline = $.parseInline;
-g.Parser = y;
-g.parser = y.parse;
-g.Renderer = D;
-g.TextRenderer = G;
-g.Lexer = v;
-g.lexer = v.lex;
-g.Tokenizer = P;
-g.Hooks = _;
-g.parse = g;
-g.options;
-g.setOptions;
-g.use;
-g.walkTokens;
-g.parseInline;
+f.parseInline = $.parseInline;
+f.Parser = y;
+f.parser = y.parse;
+f.Renderer = D;
+f.TextRenderer = G;
+f.Lexer = v;
+f.lexer = v.lex;
+f.Tokenizer = P;
+f.Hooks = C;
+f.parse = f;
+f.options;
+f.setOptions;
+f.use;
+f.walkTokens;
+f.parseInline;
 y.parse;
 v.lex;
 const Y = [
@@ -1452,8 +1452,13 @@ const Y = [
   currentTopicId: null,
   systemPrompts: [],
   selectedPromptId: "default",
-  selectedModel: Y[0]
+  selectedModel: Y[0],
+  router: null,
+  vaultId: ""
 }), k = {
+  setContext(l) {
+    c.router = l.router, c.vaultId = l.vaultId;
+  },
   open() {
     c.isOpen = !0, c.isMinimized = !1;
   },
@@ -1470,51 +1475,51 @@ const Y = [
     c.isFullscreen = !c.isFullscreen;
   },
   createNewTopic() {
-    const a = {
+    const l = {
       id: Date.now().toString(),
       title: "Новый чат",
       history: [],
       updatedAt: Date.now()
     };
-    c.topics.unshift(a), c.currentTopicId = a.id, c.activeTab = "chat";
+    c.topics.unshift(l), c.currentTopicId = l.id, c.activeTab = "chat";
   },
-  selectTopic(a) {
-    c.currentTopicId = a, c.activeTab = "chat";
+  selectTopic(l) {
+    c.currentTopicId = l, c.activeTab = "chat";
   },
-  deleteTopic(a) {
-    c.topics = c.topics.filter((n) => n.id !== a), c.currentTopicId === a && (c.currentTopicId = c.topics.length > 0 ? c.topics[0].id : null);
+  deleteTopic(l) {
+    c.topics = c.topics.filter((n) => n.id !== l), c.currentTopicId === l && (c.currentTopicId = c.topics.length > 0 ? c.topics[0].id : null);
   },
   clearCurrentTopic() {
-    const a = this.getCurrentTopic();
-    a && confirm("Очистить текущий чат?") && (a.history = [], a.updatedAt = Date.now());
+    const l = this.getCurrentTopic();
+    l && confirm("Очистить текущий чат?") && (l.history = [], l.updatedAt = Date.now());
   },
   getCurrentTopic() {
-    return c.topics.find((a) => a.id === c.currentTopicId);
+    return c.topics.find((l) => l.id === c.currentTopicId);
   },
-  addPrompt(a, n) {
-    c.systemPrompts.push({ id: Date.now().toString(), name: a, content: n });
+  addPrompt(l, n) {
+    c.systemPrompts.push({ id: Date.now().toString(), name: l, content: n });
   },
-  updatePrompt(a, n, e) {
-    const t = c.systemPrompts.find((i) => i.id === a);
-    t && (t.name = n, t.content = e);
+  updatePrompt(l, n, t) {
+    const e = c.systemPrompts.find((i) => i.id === l);
+    e && (e.name = n, e.content = t);
   },
-  deletePrompt(a) {
-    a !== "default" && (c.systemPrompts = c.systemPrompts.filter((n) => n.id !== a), c.selectedPromptId === a && (c.selectedPromptId = "default"));
+  deletePrompt(l) {
+    l !== "default" && (c.systemPrompts = c.systemPrompts.filter((n) => n.id !== l), c.selectedPromptId === l && (c.selectedPromptId = "default"));
   }
 };
-function st() {
+function ve() {
   if (c.isInitialized)
     return;
   c.apiKey = localStorage.getItem("wm-ai-apikey") || "", c.selectedModel = localStorage.getItem("wm-ai-model") || Y[0];
-  const a = localStorage.getItem("wm-ai-prompts");
-  if (a)
-    c.systemPrompts = JSON.parse(a);
+  const l = localStorage.getItem("wm-ai-prompts");
+  if (l)
+    c.systemPrompts = JSON.parse(l);
   else {
-    const t = localStorage.getItem("wm-ai-sysprompt");
+    const e = localStorage.getItem("wm-ai-sysprompt");
     c.systemPrompts = [{
       id: "default",
       name: "Стандартный",
-      content: t || "Ты полезный AI-ассистент. Отвечай кратко и по делу. Форматируй код и текст в Markdown."
+      content: e || "Ты полезный AI-ассистент. Отвечай кратко и по делу. Форматируй код и текст в Markdown."
     }];
   }
   c.selectedPromptId = localStorage.getItem("wm-ai-selected-prompt") || c.systemPrompts[0].id;
@@ -1522,41 +1527,41 @@ function st() {
   if (n)
     c.topics = JSON.parse(n);
   else {
-    const t = localStorage.getItem("wm-ai-history");
-    t && (c.topics = [{
+    const e = localStorage.getItem("wm-ai-history");
+    e && (c.topics = [{
       id: Date.now().toString(),
       title: "Старый чат",
-      history: JSON.parse(t),
+      history: JSON.parse(e),
       updatedAt: Date.now()
     }]);
   }
-  const e = localStorage.getItem("wm-ai-current-topic");
-  e && c.topics.some((t) => t.id === e) ? c.currentTopicId = e : c.topics.length > 0 && (c.currentTopicId = c.topics[0].id), c.isInitialized = !0, window.Vue.watch(() => c.apiKey, (t) => localStorage.setItem("wm-ai-apikey", t)), window.Vue.watch(() => c.selectedModel, (t) => localStorage.setItem("wm-ai-model", t)), window.Vue.watch(() => c.selectedPromptId, (t) => localStorage.setItem("wm-ai-selected-prompt", t)), window.Vue.watch(() => c.systemPrompts, (t) => localStorage.setItem("wm-ai-prompts", JSON.stringify(t)), { deep: !0 }), window.Vue.watch(() => c.topics, (t) => localStorage.setItem("wm-ai-topics", JSON.stringify(t)), { deep: !0 }), window.Vue.watch(() => c.currentTopicId, (t) => {
-    t && localStorage.setItem("wm-ai-current-topic", t);
+  const t = localStorage.getItem("wm-ai-current-topic");
+  t && c.topics.some((e) => e.id === t) ? c.currentTopicId = t : c.topics.length > 0 && (c.currentTopicId = c.topics[0].id), c.isInitialized = !0, window.Vue.watch(() => c.apiKey, (e) => localStorage.setItem("wm-ai-apikey", e)), window.Vue.watch(() => c.selectedModel, (e) => localStorage.setItem("wm-ai-model", e)), window.Vue.watch(() => c.selectedPromptId, (e) => localStorage.setItem("wm-ai-selected-prompt", e)), window.Vue.watch(() => c.systemPrompts, (e) => localStorage.setItem("wm-ai-prompts", JSON.stringify(e)), { deep: !0 }), window.Vue.watch(() => c.topics, (e) => localStorage.setItem("wm-ai-topics", JSON.stringify(e)), { deep: !0 }), window.Vue.watch(() => c.currentTopicId, (e) => {
+    e && localStorage.setItem("wm-ai-current-topic", e);
   });
 }
 let B = null;
-async function lt(a, n) {
-  var r, o, l;
-  if (!a.trim() || c.isLoading)
+async function at(l, n) {
+  var r, o, a;
+  if (!l.trim() || c.isLoading)
     return;
   if (!c.apiKey) {
     c.activeTab = "settings", alert('Пожалуйста, укажите API ключ на вкладке "Настройки".');
     return;
   }
   c.currentTopicId || k.createNewTopic();
-  const e = k.getCurrentTopic();
-  if (!e)
+  const t = k.getCurrentTopic();
+  if (!t)
     return;
-  (e.title === "Новый чат" || e.title === "Старый чат") && (e.title = a.length > 30 ? `${a.slice(0, 30)}...` : a);
-  const t = Date.now().toString(), i = c.systemPrompts.find((s) => s.id === c.selectedPromptId) || c.systemPrompts[0];
-  e.history.push({
-    id: t,
-    prompt: a,
+  (t.title === "Новый чат" || t.title === "Старый чат") && (t.title = l.length > 30 ? `${l.slice(0, 30)}...` : l);
+  const e = Date.now().toString(), i = c.systemPrompts.find((s) => s.id === c.selectedPromptId) || c.systemPrompts[0];
+  t.history.push({
+    id: e,
+    prompt: l,
     response: "",
     status: "loading",
     date: Date.now()
-  }), e.updatedAt = Date.now(), c.isLoading = !0, B = new AbortController(), n();
+  }), t.updatedAt = Date.now(), c.isLoading = !0, B = new AbortController(), n();
   try {
     const s = await fetch("https://api.aihubmix.com/v1/chat/completions", {
       method: "POST",
@@ -1568,47 +1573,47 @@ async function lt(a, n) {
         model: c.selectedModel,
         messages: [
           { role: "system", content: i.content },
-          { role: "user", content: a }
+          { role: "user", content: l }
         ]
       }),
       signal: B.signal
     });
     if (!s.ok)
       throw new Error(`Ошибка API: ${s.status}`);
-    const u = ((l = (o = (r = (await s.json()).choices) == null ? void 0 : r[0]) == null ? void 0 : o.message) == null ? void 0 : l.content) || "Пустой ответ";
-    Z(t, { response: u, status: "success" });
+    const u = ((a = (o = (r = (await s.json()).choices) == null ? void 0 : r[0]) == null ? void 0 : o.message) == null ? void 0 : a.content) || "Пустой ответ";
+    Z(e, { response: u, status: "success" });
   } catch (s) {
-    s.name === "AbortError" ? Z(t, { response: "Запрос отменен.", status: "aborted" }) : Z(t, { response: `Ошибка: ${s.message}`, status: "error" });
+    s.name === "AbortError" ? Z(e, { response: "Запрос отменен.", status: "aborted" }) : Z(e, { response: `Ошибка: ${s.message}`, status: "error" });
   } finally {
-    c.isLoading = !1, B = null, e.updatedAt = Date.now(), n();
+    c.isLoading = !1, B = null, t.updatedAt = Date.now(), n();
   }
 }
-function Z(a, n) {
-  const e = k.getCurrentTopic();
-  if (!e)
+function Z(l, n) {
+  const t = k.getCurrentTopic();
+  if (!t)
     return;
-  const t = e.history.findIndex((i) => i.id === a);
-  t !== -1 && (e.history[t] = { ...e.history[t], ...n });
+  const e = t.history.findIndex((i) => i.id === l);
+  e !== -1 && (t.history[e] = { ...t.history[e], ...n });
 }
 function de() {
   B && B.abort();
 }
-const at = {
+const ct = {
   key: 0,
   style: { "text-align": "center", color: "var(--fg-muted-color)", "margin-top": "40px" }
-}, ct = { class: "ai-prompt-bubble" }, dt = {
+}, dt = { class: "ai-prompt-bubble" }, ut = {
   key: 0,
   class: "ai-status loading"
-}, ut = ["innerHTML"], pt = { class: "ai-input-area" }, wt = { class: "ai-input-box" }, ht = ["onKeydown"], ft = { class: "ai-input-bottom" }, gt = { class: "ai-tools-left" }, mt = { class: "ai-dropdown-wrap" }, xt = { class: "tool-text" }, kt = {
+}, pt = ["innerHTML"], wt = { class: "ai-input-area" }, ht = { class: "ai-input-box" }, gt = ["onKeydown"], ft = { class: "ai-input-bottom" }, mt = { class: "ai-tools-left" }, xt = { class: "ai-dropdown-wrap" }, kt = { class: "tool-text" }, bt = {
   key: 0,
   class: "ai-dropdown"
-}, bt = ["onClick"], Vt = { class: "ai-dropdown-wrap" }, vt = { class: "tool-text" }, yt = {
+}, Vt = ["onClick"], vt = { class: "ai-dropdown-wrap" }, yt = { class: "tool-text" }, Et = {
   key: 0,
   class: "ai-dropdown"
-}, Et = ["onClick"], $t = { class: "ai-tools-right" }, Tt = /* @__PURE__ */ window.Vue.defineComponent({
+}, $t = ["onClick"], Nt = { class: "ai-tools-right" }, ye = /* @__PURE__ */ window.Vue.defineComponent({
   __name: "ai-chat",
-  setup(a) {
-    const n = window.Vue.ref(null), e = window.Vue.ref(!1), t = window.Vue.ref(!1), i = window.Vue.computed(() => k.getCurrentTopic()), r = window.Vue.computed(() => {
+  setup(l) {
+    const n = window.Vue.ref(null), t = window.Vue.ref(!1), e = window.Vue.ref(!1), i = window.Vue.computed(() => k.getCurrentTopic()), r = window.Vue.computed(() => {
       var d;
       return ((d = c.systemPrompts.find((w) => w.id === c.selectedPromptId)) == null ? void 0 : d.name) || "Неизвестно";
     });
@@ -1620,25 +1625,25 @@ const at = {
     window.Vue.watch(() => c.isOpen, (d) => {
       d && c.activeTab === "chat" && o();
     }), window.Vue.watch(() => c.currentTopicId, () => o());
-    function l(d) {
+    function a(d) {
       try {
-        return g.parse(d);
+        return f.parse(d);
       } catch {
         return d;
       }
     }
     function s() {
       const d = c.userPrompt.trim();
-      d && (c.userPrompt = "", lt(d, o));
+      d && (c.userPrompt = "", at(d, o));
     }
     function p(d) {
-      c.selectedModel = d, t.value = !1;
+      c.selectedModel = d, e.value = !1;
     }
     function u(d) {
-      c.selectedPromptId = d, e.value = !1;
+      c.selectedPromptId = d, t.value = !1;
     }
     function h() {
-      e.value = !1, t.value = !1;
+      t.value = !1, e.value = !1;
     }
     return (d, w) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
       class: "ai-tab-view",
@@ -1649,38 +1654,38 @@ const at = {
         ref: n,
         class: "ai-body"
       }, [
-        !i.value || i.value.history.length === 0 ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", at, " Новый диалог начат. Напишите первый запрос! ")) : window.Vue.createCommentVNode("", !0),
-        i.value ? (window.Vue.openBlock(!0), window.Vue.createElementBlock(window.Vue.Fragment, { key: 1 }, window.Vue.renderList(i.value.history, (f) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
-          key: f.id,
+        !i.value || i.value.history.length === 0 ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", ct, " Новый диалог начат. Напишите первый запрос! ")) : window.Vue.createCommentVNode("", !0),
+        i.value ? (window.Vue.openBlock(!0), window.Vue.createElementBlock(window.Vue.Fragment, { key: 1 }, window.Vue.renderList(i.value.history, (g) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
+          key: g.id,
           class: "ai-history-item"
         }, [
-          window.Vue.createElementVNode("div", ct, window.Vue.toDisplayString(f.prompt), 1),
-          f.status === "loading" ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", dt, " Генерация ответа... ")) : (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
+          window.Vue.createElementVNode("div", dt, window.Vue.toDisplayString(g.prompt), 1),
+          g.status === "loading" ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", ut, " Генерация ответа... ")) : (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
             key: 1,
             class: "ai-response-bubble ai-md-content",
-            innerHTML: l(f.response)
-          }, null, 8, ut)),
+            innerHTML: a(g.response)
+          }, null, 8, pt)),
           window.Vue.createElementVNode("div", {
-            class: window.Vue.normalizeClass(["ai-status", f.status])
-          }, window.Vue.toDisplayString(f.status === "error" ? "Ошибка" : f.status === "aborted" ? "Отменено" : new Date(f.date).toLocaleTimeString()), 3)
+            class: window.Vue.normalizeClass(["ai-status", g.status])
+          }, window.Vue.toDisplayString(g.status === "error" ? "Ошибка" : g.status === "aborted" ? "Отменено" : new Date(g.date).toLocaleTimeString()), 3)
         ]))), 128)) : window.Vue.createCommentVNode("", !0)
       ], 512),
-      window.Vue.createElementVNode("div", pt, [
-        window.Vue.createElementVNode("div", wt, [
+      window.Vue.createElementVNode("div", wt, [
+        window.Vue.createElementVNode("div", ht, [
           window.Vue.withDirectives(window.Vue.createElementVNode("textarea", {
-            "onUpdate:modelValue": w[0] || (w[0] = (f) => window.Vue.unref(c).userPrompt = f),
+            "onUpdate:modelValue": w[0] || (w[0] = (g) => window.Vue.unref(c).userPrompt = g),
             class: "ai-textarea custom-scrollbar",
             placeholder: "Напишите сообщение...",
             onKeydown: window.Vue.withKeys(window.Vue.withModifiers(s, ["ctrl", "prevent"]), ["enter"])
-          }, null, 40, ht), [
+          }, null, 40, gt), [
             [window.Vue.vModelText, window.Vue.unref(c).userPrompt]
           ]),
           window.Vue.createElementVNode("div", ft, [
-            window.Vue.createElementVNode("div", gt, [
+            window.Vue.createElementVNode("div", mt, [
               window.Vue.createElementVNode("button", {
                 class: "ai-tool-btn shrink-none",
                 title: "Очистить чат",
-                onClick: w[1] || (w[1] = window.Vue.withModifiers((f) => window.Vue.unref(k).clearCurrentTopic(), ["stop"]))
+                onClick: w[1] || (w[1] = window.Vue.withModifiers((g) => window.Vue.unref(k).clearCurrentTopic(), ["stop"]))
               }, [...w[6] || (w[6] = [
                 window.Vue.createElementVNode("svg", {
                   xmlns: "http://www.w3.org/2000/svg",
@@ -1698,7 +1703,7 @@ const at = {
               window.Vue.createElementVNode("button", {
                 class: "ai-tool-btn shrink-none",
                 title: "Новый топик",
-                onClick: w[2] || (w[2] = window.Vue.withModifiers((f) => window.Vue.unref(k).createNewTopic(), ["stop"]))
+                onClick: w[2] || (w[2] = window.Vue.withModifiers((g) => window.Vue.unref(k).createNewTopic(), ["stop"]))
               }, [...w[7] || (w[7] = [
                 window.Vue.createElementVNode("svg", {
                   xmlns: "http://www.w3.org/2000/svg",
@@ -1731,12 +1736,12 @@ const at = {
                   })
                 ], -1)
               ])]),
-              window.Vue.createElementVNode("div", mt, [
+              window.Vue.createElementVNode("div", xt, [
                 window.Vue.createElementVNode("button", {
                   class: "ai-tool-btn",
                   title: "Выбор промпта",
-                  onClick: w[3] || (w[3] = window.Vue.withModifiers((f) => {
-                    e.value = !e.value, t.value = !1;
+                  onClick: w[3] || (w[3] = window.Vue.withModifiers((g) => {
+                    t.value = !t.value, e.value = !1;
                   }, ["stop"]))
                 }, [
                   w[8] || (w[8] = window.Vue.createElementVNode("svg", {
@@ -1751,46 +1756,46 @@ const at = {
                   }, [
                     window.Vue.createElementVNode("path", { d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" })
                   ], -1)),
-                  window.Vue.createElementVNode("span", xt, window.Vue.toDisplayString(r.value), 1)
+                  window.Vue.createElementVNode("span", kt, window.Vue.toDisplayString(r.value), 1)
                 ]),
-                e.value ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", kt, [
+                t.value ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", bt, [
                   w[9] || (w[9] = window.Vue.createElementVNode("div", { class: "dropdown-title" }, " Промпт ", -1)),
-                  (window.Vue.openBlock(!0), window.Vue.createElementBlock(window.Vue.Fragment, null, window.Vue.renderList(window.Vue.unref(c).systemPrompts, (f) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
-                    key: f.id,
-                    class: window.Vue.normalizeClass(["dropdown-item", { "is-active": f.id === window.Vue.unref(c).selectedPromptId }]),
-                    onClick: window.Vue.withModifiers((b) => u(f.id), ["stop"])
-                  }, window.Vue.toDisplayString(f.name), 11, bt))), 128))
+                  (window.Vue.openBlock(!0), window.Vue.createElementBlock(window.Vue.Fragment, null, window.Vue.renderList(window.Vue.unref(c).systemPrompts, (g) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
+                    key: g.id,
+                    class: window.Vue.normalizeClass(["dropdown-item", { "is-active": g.id === window.Vue.unref(c).selectedPromptId }]),
+                    onClick: window.Vue.withModifiers((b) => u(g.id), ["stop"])
+                  }, window.Vue.toDisplayString(g.name), 11, Vt))), 128))
                 ])) : window.Vue.createCommentVNode("", !0)
               ]),
-              window.Vue.createElementVNode("div", Vt, [
+              window.Vue.createElementVNode("div", vt, [
                 window.Vue.createElementVNode("button", {
                   class: "ai-tool-btn",
                   title: "Выбор модели",
-                  onClick: w[4] || (w[4] = window.Vue.withModifiers((f) => {
-                    t.value = !t.value, e.value = !1;
+                  onClick: w[4] || (w[4] = window.Vue.withModifiers((g) => {
+                    e.value = !e.value, t.value = !1;
                   }, ["stop"]))
                 }, [
                   w[10] || (w[10] = window.Vue.createStaticVNode('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="shrink-none"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>', 1)),
-                  window.Vue.createElementVNode("span", vt, window.Vue.toDisplayString(window.Vue.unref(c).selectedModel), 1)
+                  window.Vue.createElementVNode("span", yt, window.Vue.toDisplayString(window.Vue.unref(c).selectedModel), 1)
                 ]),
-                t.value ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", yt, [
+                e.value ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", Et, [
                   w[11] || (w[11] = window.Vue.createElementVNode("div", { class: "dropdown-title" }, " Модель ", -1)),
-                  (window.Vue.openBlock(!0), window.Vue.createElementBlock(window.Vue.Fragment, null, window.Vue.renderList(window.Vue.unref(Y), (f) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
-                    key: f,
-                    class: window.Vue.normalizeClass(["dropdown-item", { "is-active": f === window.Vue.unref(c).selectedModel }]),
-                    onClick: window.Vue.withModifiers((b) => p(f), ["stop"])
-                  }, window.Vue.toDisplayString(f), 11, Et))), 128))
+                  (window.Vue.openBlock(!0), window.Vue.createElementBlock(window.Vue.Fragment, null, window.Vue.renderList(window.Vue.unref(Y), (g) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
+                    key: g,
+                    class: window.Vue.normalizeClass(["dropdown-item", { "is-active": g === window.Vue.unref(c).selectedModel }]),
+                    onClick: window.Vue.withModifiers((b) => p(g), ["stop"])
+                  }, window.Vue.toDisplayString(g), 11, $t))), 128))
                 ])) : window.Vue.createCommentVNode("", !0)
               ])
             ]),
-            window.Vue.createElementVNode("div", $t, [
+            window.Vue.createElementVNode("div", Nt, [
               window.Vue.unref(c).isLoading ? (window.Vue.openBlock(), window.Vue.createElementBlock("button", {
                 key: 0,
                 class: "ai-send-btn is-stop",
                 title: "Отменить",
                 onClick: w[5] || (w[5] = window.Vue.withModifiers(
                   //@ts-ignore
-                  (...f) => window.Vue.unref(de) && window.Vue.unref(de)(...f),
+                  (...g) => window.Vue.unref(de) && window.Vue.unref(de)(...g),
                   ["stop"]
                 ))
               }, [...w[12] || (w[12] = [
@@ -1841,26 +1846,26 @@ const at = {
       ])
     ]));
   }
-}), Nt = { class: "ai-tab-view" }, zt = { class: "ai-body custom-scrollbar" }, Ct = { class: "ai-settings" }, _t = { class: "settings-block" }, Bt = { class: "settings-block" }, It = {
+}), Tt = { class: "ai-tab-view" }, zt = { class: "ai-body custom-scrollbar" }, _t = { class: "ai-settings" }, Ct = { class: "settings-block" }, Bt = { class: "settings-block" }, It = {
   key: 0,
   class: "prompt-editor"
-}, St = { class: "editor-actions" }, At = { class: "prompts-list" }, Mt = { class: "prompt-info" }, Rt = { class: "prompt-name" }, Pt = { class: "prompt-preview" }, Lt = { class: "prompt-actions" }, Dt = ["onClick"], Ot = ["onClick"], qt = /* @__PURE__ */ window.Vue.defineComponent({
+}, St = { class: "editor-actions" }, Mt = { class: "prompts-list" }, At = { class: "prompt-info" }, Rt = { class: "prompt-name" }, Pt = { class: "prompt-preview" }, Lt = { class: "prompt-actions" }, Dt = ["onClick"], Ot = ["onClick"], qt = /* @__PURE__ */ window.Vue.defineComponent({
   __name: "ai-settings",
-  setup(a) {
-    const n = window.Vue.ref(null), e = window.Vue.ref(""), t = window.Vue.ref("");
+  setup(l) {
+    const n = window.Vue.ref(null), t = window.Vue.ref(""), e = window.Vue.ref("");
     function i() {
-      n.value = "new", e.value = "Новый промпт", t.value = "";
+      n.value = "new", t.value = "Новый промпт", e.value = "";
     }
-    function r(l) {
-      n.value = l.id, e.value = l.name, t.value = l.content;
+    function r(a) {
+      n.value = a.id, t.value = a.name, e.value = a.content;
     }
     function o() {
-      !e.value.trim() || !t.value.trim() || (n.value === "new" ? k.addPrompt(e.value, t.value) : n.value && k.updatePrompt(n.value, e.value, t.value), n.value = null);
+      !t.value.trim() || !e.value.trim() || (n.value === "new" ? k.addPrompt(t.value, e.value) : n.value && k.updatePrompt(n.value, t.value, e.value), n.value = null);
     }
-    return (l, s) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", Nt, [
+    return (a, s) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", Tt, [
       window.Vue.createElementVNode("div", zt, [
-        window.Vue.createElementVNode("div", Ct, [
-          window.Vue.createElementVNode("div", _t, [
+        window.Vue.createElementVNode("div", _t, [
+          window.Vue.createElementVNode("div", Ct, [
             window.Vue.createElementVNode("label", null, [
               s[4] || (s[4] = window.Vue.createTextVNode(" API Key (AiHubMix) ", -1)),
               window.Vue.withDirectives(window.Vue.createElementVNode("input", {
@@ -1883,19 +1888,19 @@ const at = {
             ]),
             n.value ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", It, [
               window.Vue.withDirectives(window.Vue.createElementVNode("input", {
-                "onUpdate:modelValue": s[1] || (s[1] = (p) => e.value = p),
+                "onUpdate:modelValue": s[1] || (s[1] = (p) => t.value = p),
                 placeholder: "Название промпта",
                 class: "editor-input"
               }, null, 512), [
-                [window.Vue.vModelText, e.value]
+                [window.Vue.vModelText, t.value]
               ]),
               window.Vue.withDirectives(window.Vue.createElementVNode("textarea", {
-                "onUpdate:modelValue": s[2] || (s[2] = (p) => t.value = p),
+                "onUpdate:modelValue": s[2] || (s[2] = (p) => e.value = p),
                 rows: "4",
                 placeholder: "Ты профессиональный переводчик...",
                 class: "editor-input custom-scrollbar"
               }, null, 512), [
-                [window.Vue.vModelText, t.value]
+                [window.Vue.vModelText, e.value]
               ]),
               window.Vue.createElementVNode("div", St, [
                 window.Vue.createElementVNode("button", {
@@ -1908,12 +1913,12 @@ const at = {
                 }, " Сохранить ")
               ])
             ])) : window.Vue.createCommentVNode("", !0),
-            window.Vue.createElementVNode("div", At, [
+            window.Vue.createElementVNode("div", Mt, [
               (window.Vue.openBlock(!0), window.Vue.createElementBlock(window.Vue.Fragment, null, window.Vue.renderList(window.Vue.unref(c).systemPrompts, (p) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
                 key: p.id,
                 class: "prompt-card"
               }, [
-                window.Vue.createElementVNode("div", Mt, [
+                window.Vue.createElementVNode("div", At, [
                   window.Vue.createElementVNode("div", Rt, window.Vue.toDisplayString(p.name), 1),
                   window.Vue.createElementVNode("div", Pt, window.Vue.toDisplayString(p.content), 1)
                 ]),
@@ -1976,23 +1981,23 @@ const at = {
   class: "topics-empty"
 }, Kt = { class: "topics-list" }, Ut = ["onClick"], Jt = { class: "topic-info" }, Wt = { class: "topic-title" }, Xt = { class: "topic-meta" }, Gt = ["onClick"], Yt = /* @__PURE__ */ window.Vue.defineComponent({
   __name: "ai-topics",
-  setup(a) {
-    function n(e) {
-      return new Date(e).toLocaleString("ru-RU", {
+  setup(l) {
+    function n(t) {
+      return new Date(t).toLocaleString("ru-RU", {
         day: "2-digit",
         month: "short",
         hour: "2-digit",
         minute: "2-digit"
       });
     }
-    return (e, t) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", jt, [
+    return (t, e) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", jt, [
       window.Vue.createElementVNode("div", Zt, [
         window.Vue.createElementVNode("div", Ht, [
           window.Vue.createElementVNode("div", Ft, [
-            t[1] || (t[1] = window.Vue.createElementVNode("h3", null, "Ваши диалоги", -1)),
+            e[1] || (e[1] = window.Vue.createElementVNode("h3", null, "Ваши диалоги", -1)),
             window.Vue.createElementVNode("button", {
               class: "ai-btn ai-btn-primary ai-btn-sm",
-              onClick: t[0] || (t[0] = (i) => window.Vue.unref(k).createNewTopic())
+              onClick: e[0] || (e[0] = (i) => window.Vue.unref(k).createNewTopic())
             }, " + Новый чат ")
           ]),
           window.Vue.unref(c).topics.length === 0 ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", Qt, " У вас еще нет сохраненных чатов. ")) : window.Vue.createCommentVNode("", !0),
@@ -2006,7 +2011,7 @@ const at = {
                 window.Vue.createElementVNode("div", Wt, window.Vue.toDisplayString(i.title), 1),
                 window.Vue.createElementVNode("div", Xt, [
                   window.Vue.createElementVNode("span", null, window.Vue.toDisplayString(i.history.length) + " сообщений", 1),
-                  t[2] || (t[2] = window.Vue.createElementVNode("span", null, "•", -1)),
+                  e[2] || (e[2] = window.Vue.createElementVNode("span", null, "•", -1)),
                   window.Vue.createElementVNode("span", null, window.Vue.toDisplayString(n(i.updatedAt)), 1)
                 ])
               ]),
@@ -2014,7 +2019,7 @@ const at = {
                 class: "topic-delete-btn",
                 title: "Удалить",
                 onClick: window.Vue.withModifiers((r) => window.Vue.unref(k).deleteTopic(i.id), ["stop"])
-              }, [...t[3] || (t[3] = [
+              }, [...e[3] || (e[3] = [
                 window.Vue.createElementVNode("svg", {
                   xmlns: "http://www.w3.org/2000/svg",
                   width: "16",
@@ -2076,13 +2081,17 @@ const at = {
   name: "AiAssistantWidget",
   inheritAttrs: !1,
   __name: "ai-assistant",
-  setup(a) {
-    return window.Vue.onMounted(() => st()), (n, e) => (window.Vue.openBlock(), window.Vue.createElementBlock(window.Vue.Fragment, null, [
-      window.Vue.createElementVNode("button", window.Vue.mergeProps(n.$attrs, {
+  setup(l) {
+    window.Vue.onMounted(() => ve());
+    function n() {
+      k.close(), c.router && c.vaultId && c.router.push(`/${c.vaultId}/plugin/ai-assistant`);
+    }
+    return (t, e) => (window.Vue.openBlock(), window.Vue.createElementBlock(window.Vue.Fragment, null, [
+      window.Vue.createElementVNode("button", window.Vue.mergeProps(t.$attrs, {
         type: "button",
         class: "ai-trigger",
         title: "AI Assistant",
-        onClick: e[0] || (e[0] = window.Vue.withModifiers((t) => window.Vue.unref(k).toggle(), ["stop", "prevent"]))
+        onClick: e[0] || (e[0] = window.Vue.withModifiers((i) => window.Vue.unref(k).toggle(), ["stop", "prevent"]))
       }), [
         e[9] || (e[9] = window.Vue.createStaticVNode('<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"></path><rect x="4" y="8" width="16" height="12" rx="2"></rect><path d="M2 14h2"></path><path d="M20 14h2"></path><path d="M15 13v2"></path><path d="M9 13v2"></path></svg>', 1)),
         window.Vue.unref(c).isLoading && !window.Vue.unref(c).isOpen ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", en)) : window.Vue.createCommentVNode("", !0)
@@ -2091,7 +2100,7 @@ const at = {
         window.Vue.unref(c).isMinimized ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
           key: 0,
           class: "ai-minimized-widget",
-          onClick: e[1] || (e[1] = window.Vue.withModifiers((t) => window.Vue.unref(k).open(), ["stop"]))
+          onClick: e[1] || (e[1] = window.Vue.withModifiers((i) => window.Vue.unref(k).open(), ["stop"]))
         }, [
           window.Vue.unref(c).isLoading ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", tn)) : (window.Vue.openBlock(), window.Vue.createElementBlock("svg", nn, [...e[10] || (e[10] = [
             window.Vue.createElementVNode("path", { d: "M12 8V4H8" }, null, -1),
@@ -2110,13 +2119,13 @@ const at = {
             window.Vue.unref(c).isOpen ? (window.Vue.openBlock(), window.Vue.createElementBlock("div", {
               key: 0,
               class: "ai-backdrop",
-              onMousedown: e[8] || (e[8] = window.Vue.withModifiers((t) => window.Vue.unref(k).close(), ["self"]))
+              onMousedown: e[8] || (e[8] = window.Vue.withModifiers((i) => window.Vue.unref(k).close(), ["self"]))
             }, [
               window.Vue.createElementVNode("div", {
                 class: window.Vue.normalizeClass(["ai-modal", { "is-fullscreen": window.Vue.unref(c).isFullscreen }])
               }, [
                 window.Vue.createElementVNode("div", on, [
-                  e[15] || (e[15] = window.Vue.createElementVNode("div", { class: "ai-title" }, [
+                  e[16] || (e[16] = window.Vue.createElementVNode("div", { class: "ai-title" }, [
                     window.Vue.createElementVNode("svg", {
                       xmlns: "http://www.w3.org/2000/svg",
                       width: "20",
@@ -2140,16 +2149,43 @@ const at = {
                   window.Vue.createElementVNode("div", rn, [
                     window.Vue.createElementVNode("button", {
                       class: "ai-icon-btn",
+                      title: "Открыть на отдельной странице",
+                      type: "button",
+                      onClick: window.Vue.withModifiers(n, ["stop"])
+                    }, [...e[11] || (e[11] = [
+                      window.Vue.createElementVNode("svg", {
+                        xmlns: "http://www.w3.org/2000/svg",
+                        width: "16",
+                        height: "16",
+                        viewBox: "0 0 24 24",
+                        fill: "none",
+                        stroke: "currentColor",
+                        "stroke-width": "2",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                      }, [
+                        window.Vue.createElementVNode("path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" }),
+                        window.Vue.createElementVNode("polyline", { points: "15 3 21 3 21 9" }),
+                        window.Vue.createElementVNode("line", {
+                          x1: "10",
+                          y1: "14",
+                          x2: "21",
+                          y2: "3"
+                        })
+                      ], -1)
+                    ])]),
+                    window.Vue.createElementVNode("button", {
+                      class: "ai-icon-btn",
                       title: window.Vue.unref(c).isFullscreen ? "Оконный режим" : "На весь экран",
                       type: "button",
-                      onClick: e[2] || (e[2] = window.Vue.withModifiers((t) => window.Vue.unref(k).toggleFullscreen(), ["stop"]))
+                      onClick: e[2] || (e[2] = window.Vue.withModifiers((i) => window.Vue.unref(k).toggleFullscreen(), ["stop"]))
                     }, [
-                      window.Vue.unref(c).isFullscreen ? (window.Vue.openBlock(), window.Vue.createElementBlock("svg", an, [...e[12] || (e[12] = [
+                      window.Vue.unref(c).isFullscreen ? (window.Vue.openBlock(), window.Vue.createElementBlock("svg", an, [...e[13] || (e[13] = [
                         window.Vue.createElementVNode("path", { d: "M8 3v3a2 2 0 0 1-2 2H3" }, null, -1),
                         window.Vue.createElementVNode("path", { d: "M16 3v3a2 2 0 0 0 2 2h3" }, null, -1),
                         window.Vue.createElementVNode("path", { d: "M8 21v-3a2 2 0 0 0-2-2H3" }, null, -1),
                         window.Vue.createElementVNode("path", { d: "M16 21v-3a2 2 0 0 1 2-2h3" }, null, -1)
-                      ])])) : (window.Vue.openBlock(), window.Vue.createElementBlock("svg", ln, [...e[11] || (e[11] = [
+                      ])])) : (window.Vue.openBlock(), window.Vue.createElementBlock("svg", ln, [...e[12] || (e[12] = [
                         window.Vue.createElementVNode("path", { d: "M8 3H5a2 2 0 0 0-2 2v3" }, null, -1),
                         window.Vue.createElementVNode("path", { d: "M16 3h3a2 2 0 0 1 2 2v3" }, null, -1),
                         window.Vue.createElementVNode("path", { d: "M8 21H5a2 2 0 0 1-2-2v-3" }, null, -1),
@@ -2160,8 +2196,8 @@ const at = {
                       class: "ai-icon-btn",
                       title: "Свернуть в фон",
                       type: "button",
-                      onClick: e[3] || (e[3] = window.Vue.withModifiers((t) => window.Vue.unref(k).minimize(), ["stop"]))
-                    }, [...e[13] || (e[13] = [
+                      onClick: e[3] || (e[3] = window.Vue.withModifiers((i) => window.Vue.unref(k).minimize(), ["stop"]))
+                    }, [...e[14] || (e[14] = [
                       window.Vue.createElementVNode("svg", {
                         xmlns: "http://www.w3.org/2000/svg",
                         width: "18",
@@ -2191,8 +2227,8 @@ const at = {
                       class: "ai-icon-btn",
                       title: "Закрыть",
                       type: "button",
-                      onClick: e[4] || (e[4] = window.Vue.withModifiers((t) => window.Vue.unref(k).close(), ["stop"]))
-                    }, [...e[14] || (e[14] = [
+                      onClick: e[4] || (e[4] = window.Vue.withModifiers((i) => window.Vue.unref(k).close(), ["stop"]))
+                    }, [...e[15] || (e[15] = [
                       window.Vue.createElementVNode("svg", {
                         xmlns: "http://www.w3.org/2000/svg",
                         width: "18",
@@ -2221,19 +2257,19 @@ const at = {
                 window.Vue.createElementVNode("div", cn, [
                   window.Vue.createElementVNode("button", {
                     class: window.Vue.normalizeClass(["ai-tab", { "is-active": window.Vue.unref(c).activeTab === "chat" }]),
-                    onClick: e[5] || (e[5] = (t) => window.Vue.unref(c).activeTab = "chat")
+                    onClick: e[5] || (e[5] = (i) => window.Vue.unref(c).activeTab = "chat")
                   }, " Чат ", 2),
                   window.Vue.createElementVNode("button", {
                     class: window.Vue.normalizeClass(["ai-tab", { "is-active": window.Vue.unref(c).activeTab === "topics" }]),
-                    onClick: e[6] || (e[6] = (t) => window.Vue.unref(c).activeTab = "topics")
+                    onClick: e[6] || (e[6] = (i) => window.Vue.unref(c).activeTab = "topics")
                   }, " Топики ", 2),
                   window.Vue.createElementVNode("button", {
                     class: window.Vue.normalizeClass(["ai-tab", { "is-active": window.Vue.unref(c).activeTab === "settings" }]),
-                    onClick: e[7] || (e[7] = (t) => window.Vue.unref(c).activeTab = "settings")
+                    onClick: e[7] || (e[7] = (i) => window.Vue.unref(c).activeTab = "settings")
                   }, " Настройки ", 2)
                 ]),
                 window.Vue.createElementVNode("div", dn, [
-                  window.Vue.withDirectives(window.Vue.createVNode(Tt, null, null, 512), [
+                  window.Vue.withDirectives(window.Vue.createVNode(ye, null, null, 512), [
                     [window.Vue.vShow, window.Vue.unref(c).activeTab === "chat"]
                   ]),
                   window.Vue.unref(c).activeTab === "topics" ? (window.Vue.openBlock(), window.Vue.createBlock(Yt, { key: 0 })) : window.Vue.createCommentVNode("", !0),
@@ -2247,7 +2283,22 @@ const at = {
       ]))
     ], 64));
   }
-}), pn = `/* === БАЗОВЫЕ КОНТЕЙНЕРЫ === */
+}), pn = { class: "ai-page" }, wn = { class: "ai-page-chat-wrapper" }, hn = /* @__PURE__ */ window.Vue.defineComponent({
+  __name: "ai-page",
+  setup(l) {
+    return window.Vue.onMounted(() => {
+      ve(), c.activeTab = "chat";
+    }), (n, t) => (window.Vue.openBlock(), window.Vue.createElementBlock("div", pn, [
+      t[0] || (t[0] = window.Vue.createElementVNode("div", { class: "ai-page-header" }, [
+        window.Vue.createElementVNode("h2", null, "AI Assistant Chat"),
+        window.Vue.createElementVNode("p", null, "Полноэкранный режим чата с ИИ.")
+      ], -1)),
+      window.Vue.createElementVNode("div", wn, [
+        window.Vue.createVNode(ye)
+      ])
+    ]));
+  }
+}), gn = `/* === БАЗОВЫЕ КОНТЕЙНЕРЫ === */
 .ai-trigger { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border: 1px solid var(--border-secondary-color); border-radius: 8px; background: transparent; color: var(--fg-secondary-color); cursor: pointer; transition: all 0.2s ease; position: relative; }
 .ai-trigger:hover { background: var(--bg-hover-color); color: var(--fg-accent-color); border-color: var(--border-accent-color); }
 .ai-indicator { position: absolute; top: -2px; right: -2px; width: 10px; height: 10px; background-color: var(--fg-accent-color); border-radius: 50%; border: 2px solid var(--bg-primary-color); animation: ai-pulse 2s infinite cubic-bezier(0.4, 0, 0.2, 1); }
@@ -2277,6 +2328,7 @@ const at = {
     margin: 0 !important; 
     transform: none !important; 
 }
+
 .ai-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; background: var(--bg-secondary-color); border-bottom: 1px solid var(--border-secondary-color); }
 .ai-title { font-weight: 600; font-size: 1.05rem; color: var(--fg-primary-color); display: flex; align-items: center; gap: 10px; }
 .ai-title svg { color: var(--fg-accent-color); }
@@ -2303,7 +2355,7 @@ const at = {
 
 @media (min-width: 768px) {
     .ai-body {
-        padding: 16px 16px; 
+        padding: 16px; 
     }
 }
 
@@ -2408,7 +2460,50 @@ const at = {
 .ai-fade-enter-active .ai-modal, .ai-fade-leave-active .ai-modal { transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); }
 .ai-fade-enter-from, .ai-fade-leave-to { opacity: 0; }
 .ai-fade-enter-from .ai-modal, .ai-fade-leave-to .ai-modal { transform: scale(0.96) translateY(10px); }
-`, hn = {
+
+.ai-page {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 120px);
+  gap: 16px;
+}
+.ai-page-header {
+  flex-shrink: 0;
+}
+.ai-page-header h2 {
+  margin: 0 0 4px 0;
+  color: var(--fg-primary-color);
+}
+.ai-page-header p {
+  margin: 0;
+  color: var(--fg-secondary-color);
+  font-size: 0.9rem;
+}
+.ai-page-chat-wrapper {
+  flex: 1;
+  border: 1px solid var(--border-secondary-color);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-primary-color);
+}
+.ai-page {
+  .ai-tab-view {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .ai-body {
+    flex: 1;
+    overflow-y: auto;
+  }
+  .ai-input-area {
+    flex-shrink: 0;
+  }
+}
+`, mn = {
   id: "ai-assistant",
   name: "AI Assistant",
   description: "AI-помощник с фоновым выполнением запросов",
@@ -2417,11 +2512,14 @@ const at = {
   slots: {
     toolbar: window.Vue.markRaw(un)
   },
-  styles: pn,
-  activate() {
-    console.log("[AI Assistant] Activated");
+  pages: {
+    index: window.Vue.markRaw(hn)
+  },
+  styles: gn,
+  activate(l) {
+    k.setContext(l), console.log("[AI Assistant] Activated");
   }
 };
 export {
-  hn as default
+  mn as default
 };
