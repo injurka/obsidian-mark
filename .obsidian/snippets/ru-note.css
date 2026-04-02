@@ -1,0 +1,69 @@
+/* --- Контейнер заголовка (HERO) - Русская версия --- */
+.ru-note .hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  /* Фон: легкий сине-голубой оттенок */
+  background-color: rgba(74, 144, 226, 0.05); 
+  
+  /* Границы: тонкая обводка и акцент слева */
+  border: 1px solid rgba(74, 144, 226, 0.2);
+  border-left: 4px solid rgba(74, 144, 226, 0.4);
+  border-radius: 8px;
+  
+  padding: 16px 20px;
+  margin: 16px 0 24px 0;
+  box-shadow: none; 
+}
+
+/* --- Главный русский акцент (вместо иероглифов) --- */
+.ru-note .hero .cyrillic {
+  /* Классический шрифт с засечками для русского языка */
+  font-family: "Georgia", "Times New Roman", serif; 
+  font-size: 48px; /* Чуть меньше, так как кириллические слова длиннее */
+  line-height: 1;
+  font-weight: bold;
+  font-style: italic; /* Придает академический вид */
+  
+  color: #4a90e2; /* Синий цвет */
+  opacity: 0.9;
+  
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid rgba(74, 144, 226, 0.2); /* Разделитель */
+  flex-shrink: 0;
+}
+
+/* --- Текстовая часть --- */
+.ru-note .hero .meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ru-note .hero .meta h1 {
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--text-normal);
+  font-weight: 600;
+}
+
+/* --- Перевод на китайский (вместо пиньиня) --- */
+.ru-note .hero .meta .zh-translation {
+  font-size: 15px;
+  font-family: "KaiTi", "PingFang SC", sans-serif;
+  color: #3b76ba; /* Более темный синий */
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.ru-note .hero .meta .desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 4px;
+  line-height: 1.4;
+}

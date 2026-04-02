@@ -1,0 +1,15 @@
+{
+  "info": {
+    "sysname": "Russian",
+    "title": "俄语",
+    "description": "沉浸于西里尔字母与六格系统的世界。通往理解神秘俄罗斯灵魂之路。"
+  },
+  "plugins": [
+    "meta/Russian/plugins/ai-assistant.js",
+    "meta/Russian/plugins/reading-tracker.js",
+    "meta/Russian/plugins/smart-textbook.js"
+  ],
+  "styles": [
+    "ru-theme.css"
+  ]
+}

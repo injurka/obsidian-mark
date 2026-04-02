@@ -5,12 +5,9 @@
     "description": "Погружение в мир иероглифов и тонов. Путь к пониманию Поднебесной."
   },
   "plugins": [
-    {
-      "id": "ai-assistant",
-      "url": "plugins/ai-assistant.js",
-      "version": "1.0.0",
-      "enabledByDefault": true
-    }
+    "meta/Chinese/plugins/ai-assistant.js",
+    "meta/Chinese/plugins/reading-tracker.js",
+    "meta/Chinese/plugins/smart-textbook.js"
   ],
   "styles": [
     "chinese-theme.css"

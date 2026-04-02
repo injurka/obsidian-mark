@@ -1,27 +1,25 @@
 {
   "paths": {
-    "sourceNotesRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/",
-    "metaSource": "/mnt/c/Users/evai/Documents/obsidian-mark/.obsidian/export/meta",
-    "pluginsSource": "/mnt/c/Users/evai/Documents/obsidian-mark/.obsidian/export/plugins",
-    "outputContentRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/content",
-    "outputMetaRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/meta",
-    "outputPluginsRoot": "/mnt/c/Users/evai/Documents/obsidian-mark/.output/plugins"
+    "sourceNotesRoot": "/home/injurka/Documents/obsidian-mark/",
+    "metaSource": "/home/injurka/Documents/obsidian-mark/.obsidian/export/meta",
+    "pluginsSource": "/home/injurka/Documents/obsidian-mark/.obsidian/export/plugins",
+    "outputContentRoot": "/home/injurka/Documents/obsidian-mark/.output/content",
+    "outputMetaRoot": "/home/injurka/Documents/obsidian-mark/.output/meta",
+    "outputPluginsRoot": "/home/injurka/Documents/obsidian-mark/.output/plugins"
   },
   "ignore": {
-    "folders": []
+    "folders": [
+      "Src"
+    ]
   },
   "vaults": [
     {
-      "sourcePath": "/Frontend/TypeScript",
-      "exportPath": "/TypeScript"
-    },
-    {
-      "sourcePath": "/Personal Note/茶 Cha",
-      "exportPath": "/Cha"
-    },
-    {
       "sourcePath": "/Personal Note/Languages/Chinese",
       "exportPath": "/Chinese"
+    },
+    {
+      "sourcePath": "/Personal Note/Languages/Russian-CN",
+      "exportPath": "/Russian"
     }
   ],
   "deploy": {

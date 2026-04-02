@@ -6,7 +6,9 @@
     "cn",
     "cn-note",
     "tea-notes",
-    "chinese-theme"
+    "chinese-theme",
+    "kr-note",
+    "ru-note"
   ],
   "theme": "moonstone",
   "baseFontSize": 16,
