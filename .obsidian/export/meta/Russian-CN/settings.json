@@ -7,7 +7,8 @@
   "plugins": [
     "meta/Russian/plugins/ai-assistant.js",
     "meta/Russian/plugins/reading-tracker.js",
-    "meta/Russian/plugins/smart-textbook.js"
+    "meta/Russian/plugins/smart-textbook.js",
+    "meta/Russian/plugins/russian-tooltip.js"
   ],
   "styles": [
     "ru-theme.css"
