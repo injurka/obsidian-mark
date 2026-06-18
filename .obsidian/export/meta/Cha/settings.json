@@ -1,0 +1,13 @@
+{
+  "info": {
+    "sysname": "Cha",
+    "title": "Чайная культура",
+    "description": "Погружение в мир чая, его сортов и традиций. Путь к осознанному завариванию, гармонии и чайному мастерству."
+  },
+  "plugins": [
+    "meta/Chinese/plugins/reading-tracker.js"
+  ],
+  "styles": [
+    "cha-theme.css"
+  ]
+}

@@ -20,6 +20,18 @@
     {
       "sourcePath": "/Personal Note/Languages/Russian-CN",
       "exportPath": "/Russian"
+    },
+    {
+      "sourcePath": "/Frontend",
+      "exportPath": "/Frontend"
+    },
+    {
+      "sourcePath": "/Personal Note/Finance/Investments",
+      "exportPath": "/Investments"
+    },
+    {
+      "sourcePath": "/Personal Note/茶 Cha",
+      "exportPath": "/Cha"
     }
   ],
   "deploy": {

@@ -7,7 +7,8 @@
   "plugins": [
     "meta/Chinese/plugins/ai-assistant.js",
     "meta/Chinese/plugins/reading-tracker.js",
-    "meta/Chinese/plugins/smart-textbook.js"
+    "meta/Chinese/plugins/smart-textbook.js",
+    "meta/Chinese/plugins/chinese-tooltip.js"
   ],
   "styles": [
     "chinese-theme.css"

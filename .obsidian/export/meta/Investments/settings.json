@@ -1,0 +1,13 @@
+{
+  "info": {
+    "sysname": "Investments",
+    "title": "Инвестиции",
+    "description": "Погружение в мир финансов и рынков. Путь к грамотному управлению капиталом и финансовой независимости."
+  },
+  "plugins": [
+    "meta/Chinese/plugins/reading-tracker.js"
+  ],
+  "styles": [
+    "investments-theme.css"
+  ]
+}

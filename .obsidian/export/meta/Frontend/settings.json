@@ -1,0 +1,14 @@
+{
+  "info": {
+    "sysname": "Frontend",
+    "title": "Frontend-разработка",
+    "description": "Погружение в мир веб-технологий: HTML, CSS, JavaScript и современные фреймворки. Путь к созданию идеальных интерфейсов."
+  },
+  "plugins": [
+    "meta/Frontend/plugins/ai-assistant.js",
+    "meta/Frontend/plugins/reading-tracker.js"
+  ],
+  "styles": [
+    "frontend-theme.css"
+  ]
+}
