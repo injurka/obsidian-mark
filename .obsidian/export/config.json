@@ -32,6 +32,10 @@
     {
       "sourcePath": "/Personal Note/茶 Cha",
       "exportPath": "/Cha"
+    },
+    {
+      "sourcePath": "/Database",
+      "exportPath": "/Database"
     }
   ],
   "deploy": {

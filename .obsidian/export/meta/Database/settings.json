@@ -1,0 +1,13 @@
+{
+  "info": {
+    "sysname": "Database",
+    "title": "Базы данных",
+    "description": "Погружение в мир проектирования, оптимизации и управления данными. Путь к построению надежных и эффективных информационных систем."
+  },
+  "plugins": [
+    "meta/Chinese/plugins/reading-tracker.js"
+  ],
+  "styles": [
+    "database-theme.css"
+  ]
+}

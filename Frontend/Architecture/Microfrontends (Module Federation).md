@@ -1,0 +1,5 @@
+# Microfrontends (Module Federation)
+
+
+## Заметки
+
