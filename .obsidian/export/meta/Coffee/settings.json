@@ -1,0 +1,13 @@
+{
+  "info": {
+    "sysname": "Coffee",
+    "title": "Кофейная культура",
+    "description": "Погружение в мир кофе, его сортов, обжарки и методов приготовления. Путь к осознанному завариванию, балансу вкуса и искусству бариста."
+  },
+  "plugins": [
+    "meta/Chinese/plugins/reading-tracker.js"
+  ],
+  "styles": [
+    "coffee-theme.css"
+  ]
+}

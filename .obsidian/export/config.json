@@ -34,6 +34,10 @@
       "exportPath": "/Cha"
     },
     {
+      "sourcePath": "/Personal Note/Coffee",
+      "exportPath": "/Coffee"
+    },
+    {
       "sourcePath": "/Database",
       "exportPath": "/Database"
     }
