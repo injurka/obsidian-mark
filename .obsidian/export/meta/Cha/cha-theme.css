@@ -58,7 +58,7 @@ body .markdown-body h1,
 body .markdown-body h2,
 body .markdown-body h3,
 body .markdown-body h4 {
-  font-family: "Georgia", "Merriweather", "Times New Roman", serif;
+  font-family: Maple Mono CN;
   letter-spacing: 0.5px;
   color: var(--fg-primary-color);
 }
@@ -114,17 +114,17 @@ body .custom-scrollbar::-webkit-scrollbar-track {
 
 /* --- */
 
-.recipe-single-column {
+body .markdown-body .recipe-single-column {
     max-width: 750px;
     margin: 1.5rem auto;
-    font-family: var(--font-interface);
-    color: var(--text-normal);
+    font-family: sans-serif;
+    color: var(--fg-primary-color);
     line-height: 1.6;
 }
 
-.recipe-block {
-    background: var(--background-primary);
-    border: 1px solid var(--background-modifier-border);
+body .markdown-body .recipe-block {
+    background: var(--bg-primary-color);
+    border: 1px solid var(--border-primary-color);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
     padding: 1.75rem;
@@ -132,93 +132,100 @@ body .custom-scrollbar::-webkit-scrollbar-track {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.recipe-block:hover {
+body .markdown-body .recipe-block:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     transform: translateY(-2px);
 }
 
-.recipe-info-header {
+body .markdown-body .recipe-info-header {
     font-weight: 700;
     font-size: 0.95rem;
     margin-bottom: 1.25rem;
-    border-bottom: 1px solid var(--background-modifier-border);
+    border-bottom: 1px solid var(--border-primary-color);
     padding-bottom: 0.75rem;
-    color: var(--text-muted);
+    color: var(--fg-secondary-color);
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-.recipe-meta-grid {
+body .markdown-body .recipe-meta-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 1.25rem;
 }
 
-.recipe-meta-item {
+body .markdown-body .recipe-meta-item {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.recipe-meta-label {
+body .markdown-body .recipe-meta-label {
     font-size: 0.75rem;
-    color: var(--text-muted);
+    color: var(--fg-secondary-color);
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-.recipe-meta-value {
+body .markdown-body .recipe-meta-value {
     font-weight: 600;
     font-size: 0.95rem;
 }
 
-.recipe-tag-pill {
-    background: var(--background-secondary);
-    color: var(--text-muted);
+body .markdown-body .recipe-tag-pill {
+    background: var(--bg-secondary-color);
+    color: var(--fg-secondary-color);
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.8rem;
-    font-family: var(--font-monospace);
+    font-family: monospace;
     transition: color 0.2s, background 0.2s;
 }
 
-.recipe-tag-pill:hover {
-    background: var(--interactive-accent);
-    color: var(--text-on-accent);
+body .markdown-body .recipe-tag-pill:hover {
+    background: var(--bg-action-hover-color);
+    color: var(--fg-inverted-color);
 }
 
-.recipe-ing-group {
+body .markdown-body .recipe-ing-group {
     margin-bottom: 1.5rem;
 }
 
-.recipe-ing-group:last-child {
+body .markdown-body .recipe-ing-group:last-child {
     margin-bottom: 0;
 }
 
-.recipe-ing-title {
+body .markdown-body .recipe-ing-title {
     font-weight: 700;
     font-size: 0.85rem;
-    color: var(--text-muted);
+    color: var(--fg-secondary-color);
     margin-bottom: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
-.recipe-ingredient-list {
+body .markdown-body .recipe-ingredient-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.recipe-ingredient-list li {
+body .markdown-body .recipe-ingredient-list li {
     position: relative;
     padding-left: 1.25rem;
     margin-bottom: 0.6rem;
     font-size: 0.95rem;
     line-height: 1.5;
+    list-style-type: none;
 }
 
-.recipe-ingredient-list li::before {
+/* Полностью скрываем стандартный маркер */
+body .markdown-body .recipe-ingredient-list li::marker {
+    content: "";
+    display: none;
+}
+
+body .markdown-body .recipe-ingredient-list li::before {
     content: "";
     position: absolute;
     left: 0;
@@ -226,115 +233,115 @@ body .custom-scrollbar::-webkit-scrollbar-track {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: var(--interactive-accent);
+    background-color: var(--fg-accent-color);
 }
 
-.recipe-marker {
-    background-color: rgba(var(--interactive-accent-rgb), 0.15);
-    color: var(--text-normal);
+body .markdown-body .recipe-marker {
+    background-color: rgba(var(--fg-accent-color-rgb), 0.15);
+    color: var(--fg-primary-color);
     padding: 2px 6px;
     border-radius: 4px;
     font-size: 0.85em;
     font-weight: 500;
 }
 
-.recipe-step-item {
-    background: var(--background-secondary);
-    border-left: 3px solid var(--interactive-accent);
+body .markdown-body .recipe-step-item {
+    background: var(--bg-secondary-color);
+    border-left: 3px solid var(--border-accent-color);
     padding: 1rem 1.25rem;
     border-radius: 0 12px 12px 0;
     margin-bottom: 1rem;
 }
 
-.recipe-step-item:last-child {
+body .markdown-body .recipe-step-item:last-child {
     margin-bottom: 0;
 }
 
-.recipe-step-item h4 {
+body .markdown-body .recipe-step-item h4 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    color: var(--text-normal);
+    color: var(--fg-primary-color);
     font-size: 1rem;
 }
 
-.recipe-details-group details > summary {
+body .markdown-body .recipe-details-group details > summary {
     list-style: none; 
 }
 
-.recipe-details-group details > summary::-webkit-details-marker {
+body .markdown-body .recipe-details-group details > summary::-webkit-details-marker {
     display: none;
 }
 
-.recipe-details-group details {
+body .markdown-body .recipe-details-group details {
     background: transparent;
-    border-left: 2px solid var(--background-modifier-border);
+    border-left: 2px solid var(--border-primary-color);
     margin-bottom: 0.75rem;
     padding: 0.5rem 0 0.5rem 1rem;
     transition: all 0.3s ease;
 }
 
-.recipe-details-group details[open] {
-    border-left-color: var(--interactive-accent);
-    background: var(--background-secondary);
+body .markdown-body .recipe-details-group details[open] {
+    border-left-color: var(--border-accent-color);
+    background: var(--bg-secondary-color);
     border-radius: 0 8px 8px 0;
     padding-bottom: 0.75rem;
 }
 
-.recipe-details-group summary {
+body .markdown-body .recipe-details-group summary {
     font-weight: 600;
     font-size: 0.95rem;
     cursor: pointer;
     outline: none;
     display: flex;
     align-items: center;
-    color: var(--text-normal);
+    color: var(--fg-primary-color);
 }
 
-.recipe-details-group summary::before {
+body .markdown-body .recipe-details-group summary::before {
     content: "›";
     display: inline-block;
     margin-right: 10px;
     font-size: 1.4rem;
     line-height: 1;
-    color: var(--text-muted);
+    color: var(--fg-secondary-color);
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
-.recipe-details-group details[open] summary::before {
+body .markdown-body .recipe-details-group details[open] summary::before {
     transform: rotate(90deg);
-    color: var(--interactive-accent);
+    color: var(--fg-accent-color);
 }
 
-.recipe-details-group p {
+body .markdown-body .recipe-details-group p {
     margin-top: 0.5rem;
     margin-bottom: 0;
     font-size: 0.9rem;
-    color: var(--text-muted);
+    color: var(--fg-secondary-color);
     padding-left: 1.5rem;
 }
 
-.recipe-block-alert {
-    background: rgba(var(--interactive-accent-rgb), 0.05);
-    border: 1px solid rgba(var(--interactive-accent-rgb), 0.2);
+body .markdown-body .recipe-block-alert {
+    background: rgba(var(--fg-accent-color-rgb), 0.05);
+    border: 1px solid rgba(var(--border-accent-color-rgb), 0.2);
     border-radius: 16px;
     padding: 1.5rem;
 }
 
-.brand-tag {
+body .markdown-body .brand-tag {
     background: rgba(138, 43, 226, 0.08); 
     color: #6a1b9a;
     padding: 2px 8px;
     border-radius: 6px;
     font-size: 0.8rem;
     font-weight: 700;
-    font-family: var(--font-monospace, monospace);
+    font-family: monospace;
     vertical-align: middle;
     display: inline-block;
     border: 1px solid rgba(138, 43, 226, 0.15);
 }
 
 @media (prefers-color-scheme: dark) {
-    .brand-tag {
+    body .markdown-body .brand-tag {
         background: rgba(186, 104, 200, 0.15);
         color: #836f86;
         border-color: rgba(186, 104, 200, 0.3);

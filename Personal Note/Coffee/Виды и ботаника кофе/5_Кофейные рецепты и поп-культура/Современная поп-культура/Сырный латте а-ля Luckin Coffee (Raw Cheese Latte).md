@@ -96,4 +96,14 @@
         </p>
     </div>
 
+    <div class="recipe-block" style="margin-top: 16px; background: var(--background-secondary); border-color: transparent;">
+        <h3 style="margin-top: 0px; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 8px;">
+            <span>🇨🇳</span> Китайский кофейный прорыв
+        </h3>
+        <p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+            Напиток «Raw Cheese Latte» (生酪拿铁) был представлен китайской сетью <strong>Luckin Coffee</strong> в октябре 2022 года. За первую неделю было продано более 6.5 миллионов чашек, что сделало его одним из самых успешных запусков в истории азиатского кофейного рынка. <br><br>
+            Этот успех породил огромный тренд на добавление сырных текстур (ранее популярных только в чае) непосредственно в кофе. Баланс сливочной нежности, легкой солоноватости сыра и кофейной горечи настолько полюбился зумерам, что рецепт моментально завирусился в TikTok, породив тысячи домашних вариаций.
+        </p>
+    </div>
+
 </div>
