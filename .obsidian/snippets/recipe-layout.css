@@ -3779,6 +3779,599 @@
     background: rgba(255, 255, 255, 0.2);
 }
 
+/* Чунцинская Зеленая Точа */
+
+.recipe-glass-gaiwan-diagram {
+    width: 140px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 15px;
+}
+
+.glass-gaiwan-lid {
+    width: 90px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    z-index: 15;
+    transform: translateY(-8px) translateX(-10px) rotate(-12deg);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.glass-gaiwan-lid::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 32px;
+    width: 20px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 10px 10px 0 0;
+}
+
+.glass-gaiwan-bowl {
+    width: 100px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 0 0 40px 40px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    margin-top: -5px;
+    backdrop-filter: blur(1px);
+    box-shadow: inset 0 -4px 10px rgba(255,255,255,0.2), 0 8px 12px rgba(0,0,0,0.05);
+}
+
+.glass-gaiwan-liquid {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(180deg, rgba(200, 220, 100, 0.6) 0%, rgba(160, 190, 50, 0.8) 100%);
+    color: #3A4A15;
+    font-size: 0.55rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px dashed rgba(255,255,255,0.5);
+}
+
+.glass-gaiwan-liquid span {
+    position: relative;
+    z-index: 10;
+    text-shadow: 0 0 3px rgba(255,255,255,0.8);
+}
+
+.diagram-green-leaf {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background: #7DA631;
+    border-radius: 0 10px 0 10px;
+    border: 1px solid #5A7A21;
+    z-index: 5;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    background-image: linear-gradient(135deg, transparent 45%, rgba(255,255,255,0.4) 45%, rgba(255,255,255,0.4) 55%, transparent 55%);
+}
+
+.glass-gaiwan-saucer {
+    width: 120px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 3px solid rgba(200, 200, 200, 0.5);
+    border-radius: 50px;
+    margin-top: -8px;
+    z-index: 5;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.theme-dark .glass-gaiwan-lid,
+.theme-dark .glass-gaiwan-lid::before,
+.theme-dark .glass-gaiwan-bowl,
+.theme-dark .glass-gaiwan-saucer {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .glass-gaiwan-liquid {
+    background: linear-gradient(180deg, rgba(160, 180, 70, 0.7) 0%, rgba(120, 150, 40, 0.85) 100%);
+    color: #FDF9F1;
+}
+
+.theme-dark .glass-gaiwan-liquid span {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.theme-dark .diagram-green-leaf {
+    background: #6B8E23;
+    border-color: #4A6318;
+}
+
+/* Грейпфрутовый Зеленый Чай (Mǎn bēi hóng yòu) */
+
+.recipe-grapefruit-glass-diagram {
+    width: 130px;
+    height: 220px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    background: transparent;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.gf-glass-layer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-gf-tea {
+    background: linear-gradient(180deg, rgba(242, 112, 112, 0.8) 0%, rgba(224, 75, 75, 0.95) 100%);
+    border-top: 1px dashed rgba(255,255,255,0.4);
+    box-shadow: inset 0 -10px 20px rgba(0,0,0,0.1);
+}
+
+.diagram-grapefruit-slice {
+    position: absolute;
+    top: 50px;
+    left: -15px;
+    width: 60px;
+    height: 120px;
+    background: #FF6B6B;
+    border-right: 6px solid #FF8C00; 
+    border-radius: 0 60px 60px 0; 
+    z-index: 6;
+    box-shadow: 4px 0 10px rgba(0,0,0,0.15);
+    background-image: repeating-linear-gradient(20deg, transparent, transparent 15px, rgba(255,255,255,0.4) 15px, rgba(255,255,255,0.4) 17px);
+}
+
+.diagram-grapefruit-slice::after {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0; right: -4px;
+    width: 4px;
+    background: #FFF9F0;
+    border-radius: 0 60px 60px 0;
+}
+
+.diagram-grapefruit-pulp {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background: rgba(200, 40, 40, 0.4);
+    color: #FFFDF9;
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-top: 1px dotted rgba(255,255,255,0.3);
+    z-index: 8;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    background-image: radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
+    background-size: 8px 8px;
+}
+
+.diagram-ice-cube.gf-ice {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 10px rgba(224, 75, 75, 0.4);
+    backdrop-filter: blur(1px);
+    z-index: 7;
+}
+
+.theme-dark .recipe-grapefruit-glass-diagram {
+    border-color: #555;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark .layer-gf-tea {
+    background: linear-gradient(180deg, rgba(200, 70, 70, 0.8) 0%, rgba(160, 40, 40, 0.95) 100%);
+}
+
+.theme-dark .diagram-grapefruit-slice {
+    background: #D94A4A;
+    border-right-color: #CC6600;
+}
+
+/* Соленый молочный чай кочевников (Salty Steppe Tea) */
+
+.recipe-nomad-bowl-diagram {
+    width: 160px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 25px;
+}
+
+.nomad-bowl-liquid {
+    width: 140px;
+    height: 35px;
+    background: linear-gradient(180deg, #D9A066 0%, #BA7E45 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    z-index: 10;
+    box-shadow: inset 0 -4px 8px rgba(0,0,0,0.15);
+    border: 3px solid #E8D3BA;
+    overflow: hidden;
+}
+
+.nomad-butter-drop {
+    position: absolute;
+    background: rgba(255, 215, 0, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(255, 215, 0, 0.8), inset 0 0 2px rgba(255, 255, 255, 0.8);
+}
+.nomad-butter-drop.drop-1 { width: 18px; height: 12px; top: 10px; left: 20px; }
+.nomad-butter-drop.drop-2 { width: 25px; height: 15px; top: 5px; left: 60px; }
+.nomad-butter-drop.drop-3 { width: 12px; height: 8px; top: 15px; right: 25px; }
+
+.nomad-millet {
+    position: absolute;
+    width: 5px;
+    height: 4px;
+    background: #8B5A33;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+.nomad-millet.m-1 { top: 15px; left: 45px; }
+.nomad-millet.m-2 { top: 12px; left: 52px; }
+.nomad-millet.m-3 { top: 20px; right: 40px; }
+.nomad-millet.m-4 { top: 22px; right: 48px; }
+
+.nomad-bowl-base {
+    width: 140px;
+    height: 60px;
+    background: #E8D3BA;
+    border: 3px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 70px 70px;
+    position: absolute;
+    top: 35px;
+    z-index: 5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(180deg, transparent 20px, #4A7A8C 20px, #4A7A8C 24px, transparent 24px);
+}
+
+.nomad-bowl-base::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 45px;
+    width: 50px;
+    height: 8px;
+    background: #D5BCA0;
+    border: 3px solid var(--background-modifier-border);
+    border-radius: 4px;
+}
+
+.nomad-steam-container {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: 30px;
+    z-index: 20;
+}
+
+.nomad-steam {
+    position: absolute;
+    bottom: 0;
+    width: 15px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    filter: blur(4px);
+    animation: nomad-steam-rise 2.5s infinite ease-in-out;
+}
+
+@keyframes nomad-steam-rise {
+    0% { transform: translateY(10px) scale(0.8); opacity: 0; }
+    50% { opacity: 0.7; }
+    100% { transform: translateY(-25px) scale(2); opacity: 0; }
+}
+
+.theme-dark .nomad-bowl-base,
+.theme-dark .nomad-bowl-base::after {
+    border-color: #555;
+    background-color: #333;
+    background-image: linear-gradient(180deg, transparent 20px, #2A4A5C 20px, #2A4A5C 24px, transparent 24px);
+}
+
+.theme-dark .nomad-bowl-liquid {
+    border-color: #444;
+    background: linear-gradient(180deg, #A06D3D 0%, #7A4F25 100%);
+}
+
+.theme-dark .nomad-steam {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* «Избитый» лимонный чай (Bàodǎ Níngméng Chá) */
+
+.recipe-pounded-lemon-diagram {
+    width: 120px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 15px;
+}
+
+.pld-cup-rim {
+    width: 130px;
+    height: 10px;
+    border: 3px solid var(--background-modifier-border);
+    border-radius: 5px;
+    position: relative;
+    z-index: 20;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.pld-liquid {
+    width: 120px;
+    height: 210px;
+    border: 3px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(180deg, rgba(200, 230, 80, 0.7) 0%, rgba(160, 200, 40, 0.9) 100%);
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+}
+
+.pld-liquid::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    box-shadow: inset 0 0 15px rgba(255,255,255,0.7);
+    pointer-events: none;
+    z-index: 15;
+}
+
+.pld-liquid span {
+    position: absolute;
+    bottom: 20px;
+    color: #3A4A15;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-align: center;
+    z-index: 25;
+    text-shadow: 0 0 4px rgba(255,255,255,0.9);
+}
+
+.pld-lemon-slice {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(160, 210, 50, 0.6);
+    border: 4px solid #4CAF50;
+    border-radius: 50%;
+    z-index: 5;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255,255,255,0.4) 5px, rgba(255,255,255,0.4) 7px);
+}
+
+.pld-ice-shard {
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 8;
+    clip-path: polygon(10% 0%, 90% 10%, 100% 60%, 80% 100%, 20% 90%, 0% 50%);
+}
+
+.pld-ice-shard::after {
+    content: '';
+    position: absolute;
+    top: -10px; left: -15px;
+    width: 20px; height: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(45deg);
+}
+
+.theme-dark .pld-cup-rim,
+.theme-dark .pld-liquid {
+    border-color: #555;
+}
+
+.theme-dark .pld-liquid {
+    background: linear-gradient(180deg, rgba(160, 190, 50, 0.7) 0%, rgba(120, 150, 20, 0.9) 100%);
+}
+
+.theme-dark .pld-liquid::before {
+    box-shadow: inset 0 0 15px rgba(255,255,255,0.2);
+}
+
+.theme-dark .pld-liquid span {
+    color: #FDF9F1;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+}
+
+.theme-dark .pld-lemon-slice {
+    background: rgba(130, 170, 30, 0.6);
+    border-color: #388E3C;
+}
+
+/* Горячий соевый чай с Кинако (Dou Ru Lu Cha) */
+
+.recipe-soy-mug-diagram {
+    width: 170px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 35px;
+}
+
+.soy-mug-body {
+    width: 120px;
+    height: 80px;
+    background: #FDF9F1;
+    border: 4px solid var(--background-modifier-border);
+    border-radius: 10px 10px 45px 45px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 10;
+    box-shadow: inset -5px -5px 15px rgba(0,0,0,0.05), 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.soy-mug-handle {
+    position: absolute;
+    right: 8px;
+    bottom: 30px;
+    width: 35px;
+    height: 45px;
+    border: 5px solid var(--background-modifier-border);
+    border-left: none;
+    border-radius: 0 25px 25px 0;
+    z-index: 5;
+}
+
+.soy-mug-liquid {
+    width: 112px;
+    height: 25px;
+    background: #F4EAE1;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    z-index: 15;
+    border: 2px solid #E8D3BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 -3px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.soy-mug-liquid span {
+    position: relative;
+    z-index: 20;
+    color: #4A3A15;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.kinako-dust {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: radial-gradient(circle, rgba(210, 166, 121, 0.8) 1px, transparent 1px);
+    background-size: 4px 4px;
+    opacity: 0.7;
+    z-index: 10;
+    box-shadow: inset 20px 0 20px rgba(210, 166, 121, 0.6);
+}
+
+.soy-mochi-skewer {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 150px;
+    height: 4px;
+    background: #D2A679;
+    border-radius: 2px;
+    transform: rotate(-10deg);
+    z-index: 25;
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.mochi-ball {
+    width: 22px;
+    height: 22px;
+    background: #FFFDF9;
+    border: 2px solid #E8D3BA;
+    border-radius: 50%;
+    box-shadow: inset -3px -3px 6px rgba(0,0,0,0.1);
+    background-image: radial-gradient(circle, rgba(210, 166, 121, 0.5) 1px, transparent 1px);
+    background-size: 3px 3px;
+}
+
+.soy-steam {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 15px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    filter: blur(3px);
+    animation: soy-steam-rise 2s infinite ease-in-out alternate;
+    z-index: 30;
+}
+
+@keyframes soy-steam-rise {
+    0% { transform: translateY(5px) scale(0.8); opacity: 0; }
+    50% { opacity: 0.8; }
+    100% { transform: translateY(-15px) scale(1.5); opacity: 0; }
+}
+
+.theme-dark .soy-mug-body,
+.theme-dark .soy-mug-handle {
+    border-color: #555;
+    background: #2A2A2A;
+}
+
+.theme-dark .soy-mug-liquid {
+    border-color: #444;
+    background: #3A352F;
+}
+
+.theme-dark .soy-mug-liquid span {
+    color: #FDF9F1;
+}
+
+.theme-dark .mochi-ball {
+    background: #333;
+    border-color: #555;
+}
+
+.theme-dark .soy-steam {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+
 
 
 
