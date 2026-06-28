@@ -7,7 +7,7 @@
 Пример рецепта:
 ```
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "cloud-cold-brew"
 title: "Кофе с сырной пенкой (Cloud Cold Brew)"
 category: "Современная поп-культура"
@@ -427,7 +427,7 @@ tags:
 
 * **`target`** *(Тип: String)*
 * **Правило:** Системный маркер назначения заметки. Используется плагином для фильтрации кофейной базы.
-* **Допустимое значение:** `"coffee-recipe"`
+* **Допустимое значение:** `"recipe-viewer"`
 
 
 * **`id`** *(Тип: String)*
@@ -524,7 +524,7 @@ tags:
 
 ```yaml
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "уникальный-id-рецепта-slug"
 title: "Официальное название напитка"
 category: "Современная поп-культура"

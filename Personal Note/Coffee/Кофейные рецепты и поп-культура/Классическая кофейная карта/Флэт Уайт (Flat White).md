@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "flat-white"
 title: "Флэт Уайт (Flat White)"
 category: "Классическая кофейная карта"

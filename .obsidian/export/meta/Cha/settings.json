@@ -5,8 +5,8 @@
     "description": "Погружение в мир чая, его сортов и традиций. Путь к осознанному завариванию, гармонии и чайному мастерству."
   },
   "plugins": [
-    "meta/Chinese/plugins/reading-tracker.js",
-    "meta/Chinese/plugins/tea-recipe.js"
+    "meta/Cha/plugins/reading-tracker.js",
+    "meta/Cha/plugins/recipe-viewer.js"
   ],
   "styles": [
     "cha-theme.css"

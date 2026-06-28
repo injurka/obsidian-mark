@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "bumble-coffee"
 title: "Бамбл-кофе (Bumble)"
 category: "Современная поп-культура"

@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "zhenzhu-naicha"
 title: "Жемчужный молочный чай (Bubble Tea)"
 category: "Современная поп-культура"

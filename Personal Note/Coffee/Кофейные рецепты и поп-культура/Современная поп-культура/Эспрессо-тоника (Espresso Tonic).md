@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "espresso-tonic"
 title: "Эспрессо-тоник (Espresso Tonic)"
 category: "Современная поп-культура"

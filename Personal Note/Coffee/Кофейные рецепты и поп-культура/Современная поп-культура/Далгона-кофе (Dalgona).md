@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "dalgona-coffee"
 title: "Далгона-кофе (Dalgona)"
 category: "Современная поп-культура"

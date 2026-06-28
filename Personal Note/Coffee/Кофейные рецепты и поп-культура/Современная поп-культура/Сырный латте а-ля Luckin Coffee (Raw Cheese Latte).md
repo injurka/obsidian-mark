@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "raw-cheese-latte"
 title: "Сырный латте а-ля Luckin Coffee (Raw Cheese Latte)"
 category: "Современная поп-культура"

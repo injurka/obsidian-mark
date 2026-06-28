@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "piccolo-latte"
 title: "Пикколо Латте (Piccolo Latte)"
 category: "Классическая кофейная карта"

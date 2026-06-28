@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "cappuccino"
 title: "Капучино (Cappuccino)"
 category: "Классическая кофейная карта"

@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "dirty-coffee"
 title: "Дёрти-кофе (Dirty Coffee)"
 category: "Современная поп-культура"

@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "espresso-romano"
 title: "Эспрессо Романо (Espresso Romano)"
 category: "Традиционные рецепты"

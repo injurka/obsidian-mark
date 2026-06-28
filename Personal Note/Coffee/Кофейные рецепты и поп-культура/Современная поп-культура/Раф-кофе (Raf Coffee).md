@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "raf-coffee"
 title: "Раф-кофе (Raf Coffee)"
 category: "Современная поп-культура"

@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "cloud-cold-brew"
 title: "Кофе с сырной пенкой (Cloud Cold Brew)"
 category: "Современная поп-культура"

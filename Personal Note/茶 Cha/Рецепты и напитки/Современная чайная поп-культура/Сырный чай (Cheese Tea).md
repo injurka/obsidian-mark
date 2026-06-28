@@ -1,5 +1,5 @@
 ---
-target: "tea-recipe"
+target: "recipe-viewer"
 id: "cheese-tea"
 title: "Сырный чай (Cheese Tea)"
 category: "Современная поп-культура"

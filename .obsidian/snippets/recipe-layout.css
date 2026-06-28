@@ -1622,3 +1622,831 @@
     border-color: #555;
     box-shadow: inset 10px 0 20px rgba(255, 255, 255, 0.02), 0 12px 28px rgba(0, 0, 0, 0.3);
 }
+
+/* Метеоритный латте а-ля Luckin Coffee (Meteorite Latte) */
+
+.recipe-luckin-glass-diagram {
+    width: 130px;
+    height: 220px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+    display: flex;
+    flex-direction: column;
+    overflow: visible; 
+    position: relative;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+    background: transparent;
+    margin-top: 20px; 
+}
+
+.luckin-glass-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-luckin-espresso {
+    height: 20%;
+    background: linear-gradient(180deg, rgba(60, 30, 15, 0.9) 0%, rgba(80, 40, 20, 0.8) 100%);
+    color: #FFFDF9;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.layer-luckin-milk {
+    height: 60%;
+    background-color: #FDFBF7;
+    color: #2D180C;
+    
+    background-image:
+        linear-gradient(170deg, rgba(80, 35, 10, 0.6) 0%, transparent 50%),
+        linear-gradient(190deg, rgba(60, 25, 5, 0.5) 0%, transparent 60%),
+        linear-gradient(180deg, rgba(90, 40, 15, 0.4) 0%, transparent 40%);
+    background-size: 
+        45px 100%, 
+        60px 100%, 
+        35px 100%;
+    background-position: 
+        0 0, 
+        40px 0, 
+        90px 0;
+    background-repeat: no-repeat;
+}
+
+.layer-luckin-base {
+    height: 20%;
+    background: linear-gradient(180deg, #4A2411 0%, #1A0C05 100%);
+    color: #FDF4E3;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.meteorite-jelly {
+    position: absolute;
+    width: 14px;
+    height: 12px;
+    background: rgba(30, 10, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    box-shadow: inset 2px 2px 4px rgba(255,255,255,0.1), 2px 2px 4px rgba(0,0,0,0.6);
+    z-index: 5;
+}
+
+.theme-dark .layer-luckin-milk {
+    background-color: #E6DFD3;
+    color: #2D180C;
+}
+
+.theme-dark .recipe-luckin-glass-diagram {
+    border-color: #555;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Кокосовый Шу Пуэр Латте (Coconut Shu Pu-erh) */
+
+.recipe-puer-glass-diagram {
+    width: 140px;
+    height: 200px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+    background: transparent;
+}
+
+.puer-glass-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-puer-extract {
+    height: 30%;
+    background: linear-gradient(180deg, rgba(40, 15, 5, 0.95) 0%, rgba(60, 20, 10, 0.85) 100%);
+    color: #FDF9F1;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.layer-puer-coconut {
+    height: 70%;
+    background-color: #FDF9F1;
+    color: #3B1C0A;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    
+    background-image:
+        radial-gradient(ellipse at 50% 0%, rgba(60, 20, 10, 0.6) 0%, transparent 40%),
+        radial-gradient(ellipse at 20% 0%, rgba(80, 30, 15, 0.5) 0%, transparent 35%),
+        radial-gradient(ellipse at 80% 0%, rgba(50, 15, 5, 0.55) 0%, transparent 50%),
+        linear-gradient(180deg, rgba(80, 30, 15, 0.4) 0%, transparent 25%);
+    background-size: 100% 150px, 100% 120px, 100% 140px, 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.layer-puer-coconut span {
+    position: relative;
+    z-index: 10;
+}
+
+.diagram-ice-cube.pu-ice {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 0 10px rgba(60, 20, 10, 0.3);
+}
+
+.theme-dark .layer-puer-coconut {
+    background-color: #E8DFD1;
+    color: #2D1405;
+}
+
+.theme-dark .recipe-puer-glass-diagram {
+    border-color: #555;
+    box-shadow: inset 10px 0 20px rgba(255, 255, 255, 0.02), 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+/* Вьетнамский кокосовый кофе-смузи (Cà Phê Cốt Dừa) */
+
+.recipe-vc-glass-diagram {
+    width: 140px;
+    height: 180px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: visible; 
+    position: relative;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    background: transparent;
+    margin-top: 35px;
+}
+
+.diagram-coconut-mound {
+    position: absolute;
+    top: -35px;
+    left: -5px;
+    right: -5px;
+    height: 60px;
+    background: #FDF9F1;
+    border-radius: 40px 40px 10px 10px;
+    z-index: 15;
+    box-shadow: inset 0 -4px 10px rgba(0,0,0,0.05), 0 -2px 10px rgba(0,0,0,0.05);
+    background-image:
+        radial-gradient(ellipse at 50% 0%, rgba(58, 30, 13, 0.9) 0%, transparent 60%),
+        linear-gradient(180deg, rgba(58, 30, 13, 0.7) 0%, transparent 40%);
+}
+
+.vc-glass-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-vc-slush {
+    height: 75%;
+    background: #FDF9F1;
+    color: #3A1E0D;
+    
+    background-image:
+        linear-gradient(180deg, rgba(58, 30, 13, 0.5) 0%, transparent 30%),
+        linear-gradient(170deg, rgba(26, 12, 5, 0.4) 0%, transparent 50%),
+        linear-gradient(190deg, rgba(58, 30, 13, 0.4) 0%, transparent 60%);
+    background-size: 100% 100%, 30px 100%, 40px 100%;
+    background-position: 0 0, 20px 0, 80px 0;
+    background-repeat: no-repeat;
+}
+
+.layer-vc-coffee-pool {
+    height: 25%;
+    background: linear-gradient(180deg, #3A1E0D 0%, #1A0C05 100%);
+    color: #FDF9F1;
+    align-items: flex-end;
+    padding-bottom: 8px;
+    border-radius: 0 0 12px 12px; 
+}
+
+.theme-dark .diagram-coconut-mound {
+    background: #EAE3D5;
+}
+
+.theme-dark .layer-vc-slush {
+    background: #EAE3D5;
+    color: #2D180C;
+}
+
+.theme-dark .recipe-vc-glass-diagram {
+    border-color: #555;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Краш-лимонный Шу Пуэр (Bàodǎ Lemon Pu-erh) */
+
+.recipe-lemon-shaker-diagram {
+    width: 140px;
+    height: 230px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    background: transparent;
+}
+
+.lemon-shaker-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-lp-tea {
+    height: 80%;
+    background: linear-gradient(180deg, rgba(80, 20, 5, 0.8) 0%, rgba(60, 15, 5, 0.9) 100%);
+    color: #FDF9F1;
+}
+
+.layer-lp-bottom {
+    height: 20%;
+    background: linear-gradient(180deg, rgba(200, 150, 20, 0.8) 0%, rgba(180, 120, 10, 0.95) 100%);
+    color: #FDF9F1;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.diagram-ice-cube.lp-ice {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 15px rgba(80, 20, 5, 0.4);
+}
+
+.diagram-smashed-lemon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 224, 102, 0.8);
+    border: 4px solid #F4C430;
+    border-radius: 50%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 45%;
+    z-index: 5;
+    box-shadow: inset 0 0 10px rgba(200, 120, 0, 0.5);
+    background-image: 
+        linear-gradient(0deg, transparent 48%, rgba(244, 196, 48, 0.8) 48%, rgba(244, 196, 48, 0.8) 52%, transparent 52%),
+        linear-gradient(90deg, transparent 48%, rgba(244, 196, 48, 0.8) 48%, rgba(244, 196, 48, 0.8) 52%, transparent 52%),
+        linear-gradient(45deg, transparent 48%, rgba(244, 196, 48, 0.8) 48%, rgba(244, 196, 48, 0.8) 52%, transparent 52%),
+        linear-gradient(-45deg, transparent 48%, rgba(244, 196, 48, 0.8) 48%, rgba(244, 196, 48, 0.8) 52%, transparent 52%);
+}
+
+.theme-dark .layer-lp-tea {
+    background: linear-gradient(180deg, rgba(120, 40, 15, 0.85) 0%, rgba(90, 30, 10, 0.95) 100%);
+    color: #FDF9F1;
+}
+
+.theme-dark .recipe-lemon-shaker-diagram {
+    border-color: #555;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .diagram-smashed-lemon {
+    background: rgba(230, 180, 50, 0.8);
+    border-color: #D4A017;
+}
+
+/* Фильтр-кофе (Hario V60) */
+
+.recipe-pour-chart {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    font-family: var(--font-interface);
+}
+
+.chart-y-axis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: -140px;
+    position: relative;
+    z-index: 5;
+    padding-right: 10px;
+    width: 40px;
+    text-align: right;
+}
+
+.chart-grid-area {
+    margin-left: 45px;
+    height: 140px;
+    background: repeating-linear-gradient(
+        0deg,
+        var(--background-modifier-border) 0px,
+        var(--background-modifier-border) 1px,
+        transparent 1px,
+        transparent 46.6px
+    );
+    border-left: 2px solid var(--text-muted);
+    border-bottom: 2px solid var(--text-muted);
+    position: relative;
+    display: flex !important;
+    flex-direction: row !important; 
+    flex-wrap: nowrap;
+    align-items: flex-end; 
+    border-radius: 0 4px 0 0;
+}
+
+.chart-step {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    padding: 6px 4px 0 4px;
+    transition: filter 0.2s;
+    box-shadow: inset 2px 2px 4px rgba(255,255,255,0.15);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.step-label {
+    font-size: 0.65rem;
+    line-height: 1.15;
+    letter-spacing: 0.2px;
+    word-wrap: break-word; 
+}
+.step-bloom {
+    width: 30%; height: 12%; 
+    background: linear-gradient(180deg, #F0B27A 0%, #D28C40 100%);
+    border-radius: 0 4px 0 0;
+}
+.step-pour-1 {
+    width: 30%; height: 60%;
+    background: linear-gradient(180deg, #D28C40 0%, #A45C22 100%);
+    border-radius: 0 4px 0 0;
+}
+.step-pour-2 {
+    width: 40%; height: 100%;
+    background: linear-gradient(180deg, #A45C22 0%, #5C3218 100%);
+    border-radius: 0 4px 0 0;
+}
+
+.chart-x-axis {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 5px;
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+.chart-x-axis span:nth-child(1) { width: 30%; text-align: left; }
+.chart-x-axis span:nth-child(2) { width: 30%; text-align: left; }
+.chart-x-axis span:nth-child(3) { width: 40%; text-align: left; }
+.chart-x-axis span:nth-child(4) { position: absolute; right: 0; }
+
+.recipe-v60-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.v60-dripper {
+    width: 120px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 4px solid var(--text-normal);
+    border-radius: 2px;
+    clip-path: polygon(0% 0%, 100% 0%, 55% 100%, 45% 100%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.v60-filter-paper {
+    width: 100px;
+    height: 80px;
+    background: #FFF9E6; 
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    position: relative;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.v60-water-level {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(180deg, rgba(164, 92, 34, 0.6) 0%, rgba(92, 50, 24, 0.9) 100%);
+    clip-path: polygon(15% 30%, 85% 30%, 50% 100%);
+    z-index: 5;
+}
+
+.v60-coffee-bed {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+    background: #291105;
+    clip-path: polygon(32% 65%, 68% 65%, 50% 100%);
+    z-index: 6;
+    color: transparent;
+}
+
+.v60-drip {
+    width: 6px;
+    height: 12px;
+    background: #5C3218;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-top: -5px;
+    z-index: 8;
+    animation: drip-drop 1.5s infinite ease-in;
+}
+
+@keyframes drip-drop {
+    0% { transform: translateY(0) scale(0.8); opacity: 1; }
+    50% { transform: translateY(15px) scale(1); opacity: 1; }
+    100% { transform: translateY(35px) scale(0.5); opacity: 0; }
+}
+
+.v60-server {
+    width: 140px;
+    height: 100px;
+    border: 3px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 50px 50px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%);
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+}
+
+.server-coffee-liquid {
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(164, 92, 34, 0.85) 0%, rgba(92, 50, 24, 0.95) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FDF9F1;
+    font-size: 0.6rem;
+    font-weight: 700;
+    border-top: 1px dashed rgba(255,255,255,0.3);
+}
+
+.theme-dark .v60-dripper { border-color: #777; background: rgba(255,255,255,0.05); }
+.theme-dark .v60-filter-paper { background: #DCD6C8; }
+.theme-dark .v60-server { border-color: #555; }
+
+/* Аэропресс: Обратный метод (AeroPress Inverted) */
+
+.recipe-ap-chart {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    font-family: var(--font-interface);
+}
+
+.ap-chart-grid-area {
+    height: 45px;
+    background: transparent;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    position: relative;
+    display: flex !important;
+    flex-direction: row !important; 
+    flex-wrap: nowrap;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.ap-chart-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    padding: 0 4px;
+    transition: filter 0.2s;
+    box-shadow: inset -2px 0 4px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+.ap-chart-step:hover { filter: brightness(1.1); }
+.ap-step-label { font-size: 0.65rem; line-height: 1.1; letter-spacing: 0.2px; }
+
+.step-ap-pour {
+    width: 15%; 
+    background: #60A5FA; 
+}
+.step-ap-stir {
+    width: 15%;
+    background: #E67E22;
+}
+.step-ap-steep {
+    width: 50%;
+    background: #8B4513; 
+}
+.step-ap-press {
+    width: 20%;
+    background: #D35400; 
+}
+
+.recipe-aeropress-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    margin-top: 40px; 
+}
+
+.ap-plunger-shaft {
+    width: 35px;
+    height: 60px;
+    background: #EAEAEA;
+    border: 2px solid #CCC;
+    border-bottom: none;
+    position: relative;
+    z-index: 5;
+}
+.ap-plunger-shaft::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 75px;
+    height: 10px;
+    background: #333;
+    border-radius: 4px;
+}
+
+.ap-rubber-seal {
+    width: 55px;
+    height: 18px;
+    background: #222;
+    border-radius: 4px;
+    z-index: 6;
+    margin-bottom: -5px;
+    box-shadow: inset 0 -4px 6px rgba(0,0,0,0.5);
+}
+
+.ap-chamber {
+    width: 60px;
+    height: 120px;
+    background: rgba(200, 200, 200, 0.15);
+    border: 3px solid rgba(150, 150, 150, 0.5);
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    z-index: 10;
+    backdrop-filter: blur(1px);
+}
+
+.ap-chamber::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: -30px;
+    width: 120px;
+    height: 8px;
+    background: rgba(150, 150, 150, 0.8);
+    border-radius: 2px;
+}
+
+.ap-slurry {
+    width: 100%;
+    height: 65%; 
+    background: linear-gradient(180deg, #4A2411 0%, #291105 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FDF9F1;
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+    padding: 0 2px;
+}
+
+.ap-filter-cap {
+    width: 66px;
+    height: 16px;
+    background: #333;
+    border-radius: 2px;
+    z-index: 12;
+    margin-top: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 4px, rgba(255,255,255,0.1) 4px, rgba(255,255,255,0.1) 8px);
+}
+
+.ap-paper-filter {
+    width: 50px;
+    height: 2px;
+    background: #FFF;
+    margin-bottom: -2px;
+}
+
+.ap-cup {
+    width: 110px;
+    height: 80px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background: transparent;
+}
+
+.ap-cup-liquid {
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(180deg, rgba(100, 50, 20, 0.9) 0%, rgba(60, 20, 5, 0.95) 100%);
+    color: #FFF;
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.theme-dark .ap-plunger-shaft { background: #444; border-color: #666; }
+.theme-dark .ap-plunger-shaft::before { background: #111; }
+.theme-dark .ap-chamber { border-color: rgba(200, 200, 200, 0.3); }
+.theme-dark .ap-chamber::after { background: rgba(200, 200, 200, 0.5); }
+.theme-dark .ap-cup { border-color: #555; }
+
+/* Традиционный Шу Пуэр в гайвани (Gongfu Cha) */
+
+.recipe-gaiwan-diagram {
+    width: 140px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.gaiwan-lid {
+    width: 90px;
+    height: 25px;
+    background: #FFFDF9;
+    border: 3px solid var(--background-modifier-border);
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    z-index: 15;
+    transform: translateX(-8px) rotate(-5deg);
+    box-shadow: inset 0 -4px 6px rgba(0,0,0,0.05);
+}
+
+.gaiwan-lid::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 32px;
+    width: 20px;
+    height: 10px;
+    background: #FFFDF9;
+    border: 3px solid var(--background-modifier-border);
+    border-radius: 10px 10px 0 0;
+}
+
+.gaiwan-gap {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 20px;
+    height: 15px;
+    z-index: 12;
+}
+
+.gaiwan-steam {
+    width: 10px;
+    height: 20px;
+    background: rgba(200, 200, 200, 0.4);
+    border-radius: 50%;
+    filter: blur(3px);
+    animation: steam-rise 2s infinite ease-in-out;
+}
+
+@keyframes steam-rise {
+    0% { transform: translateY(5px) scale(0.8); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(-15px) scale(1.5); opacity: 0; }
+}
+
+.gaiwan-bowl {
+    width: 100px;
+    height: 60px;
+    background: #FFFDF9;
+    border: 3px solid var(--background-modifier-border);
+    border-radius: 0 0 40px 40px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    margin-top: -5px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.05);
+}
+
+.gaiwan-tea-liquid {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+    background: linear-gradient(180deg, #4A1A05 0%, #2A0B02 100%);
+    color: #FDF9F1;
+    font-size: 0.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px dashed rgba(255,255,255,0.3);
+}
+
+.gaiwan-saucer {
+    width: 120px;
+    height: 15px;
+    background: #FFFDF9;
+    border: 3px solid var(--background-modifier-border);
+    border-radius: 50px;
+    margin-top: -8px;
+    z-index: 5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.theme-dark .gaiwan-lid,
+.theme-dark .gaiwan-lid::before,
+.theme-dark .gaiwan-bowl,
+.theme-dark .gaiwan-saucer {
+    background: #333230;
+    border-color: #555;
+}
+
+.theme-dark .gaiwan-tea-liquid {
+    background: linear-gradient(180deg, #3A1002 0%, #150501 100%);
+    color: #D6A886;
+}
+
+.theme-dark .gaiwan-steam {
+    background: rgba(255, 255, 255, 0.15);
+}

@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "cafe-latte"
 title: "Латте (Café Latte)"
 category: "Классическая кофейная карта"

@@ -1,5 +1,5 @@
 ---
-target: "coffee-recipe"
+target: "recipe-viewer"
 id: "cortado"
 title: "Кортадо (Cortado)"
 category: "Классическая кофейная карта"
