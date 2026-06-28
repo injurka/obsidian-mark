@@ -1,0 +1,207 @@
+---
+target: "coffee-recipe"
+id: "zhenzhu-naicha"
+title: "Жемчужный молочный чай (Bubble Tea)"
+category: "Современная поп-культура"
+difficulty: 3
+time_total_min: 60
+servings_default: 2
+coffee_base_type: "filter"
+temperature: "iced"
+ingredients:
+  - item: "чай_красный"
+    amount: 2
+    unit: "ст_л"
+    required: true
+    alternatives: ["чай_зеленый", "чай_улун_светлый"]
+  - item: "тапиока_шарики_черные"
+    amount: 100
+    unit: "г"
+    required: true
+    alternatives: []
+  - item: "сахар_коричневый"
+    amount: 3.5
+    unit: "ст_л"
+    required: true
+    alternatives: []
+  - item: "сливки_растительные_сухие"
+    amount: 3.5
+    unit: "ст_л"
+    required: true
+    alternatives: ["молоко_коровье"]
+  - item: "лед_кубики"
+    amount: 1
+    unit: "по_вкусу"
+    required: true
+    alternatives: []
+tools:
+  - "кастрюля"
+  - "шейкер"
+tags:
+  - "текстура/жевательный"
+  - "вкус/сладкий"
+---
+
+<div class="recipe-single-column">
+
+    <p style="margin-bottom: 1rem;"><strong>Чжэньчжу Найча</strong> (кит. 珍珠奶茶, пиньинь: <em>zhēnzhū nǎichá</em>) — это легендарный тайваньский напиток, который в 1980-х годах произвел революцию в чайном мире и породил глобальную многомиллиардную индустрию.</p>
+    
+    <p style="margin-bottom: 1.5rem;">Классический «Бабл-ти» (Bubble Tea) представляет собой шейкованный (взбитый со льдом) чай с молоком, на дне которого лежит слой сладких, жевательных шариков из корня маниоки (тапиоки).</p>
+
+    <div class="recipe-block">
+        <div class="recipe-info-header">📋 Параметры приготовления</div>
+        <div class="recipe-meta-grid">
+            <div class="recipe-meta-item">
+                <span class="recipe-meta-label">Время</span>
+                <span class="recipe-meta-value">⏱️ ~60 минут (с варкой)</span>
+            </div>
+            <div class="recipe-meta-item">
+                <span class="recipe-meta-label">Порции</span>
+                <span class="recipe-meta-value">👥 2 порции (по 500 мл)</span>
+            </div>
+            <div class="recipe-meta-item">
+                <span class="recipe-meta-label">Сложность</span>
+                <span class="recipe-meta-value">🔴 Высокая <span style="font-size: 0.8em; font-weight: 400; color: var(--text-muted);">(важна текстура тапиоки)</span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="recipe-block">
+        <h3 style="margin-top: 0; margin-bottom: 1.5rem;">📊 Профиль и анатомия напитка</h3>
+        
+        <div class="recipe-taste-profile">
+            <div class="taste-bar-row">
+                <span class="taste-label">Текстура "QQ" (Жевательность)</span>
+                <div class="taste-track"><div class="taste-fill" style="width: 95%; background: #1A0C05;"></div></div>
+            </div>
+            <div class="taste-bar-row">
+                <span class="taste-label">Карамельно-молочная сладость</span>
+                <div class="taste-track"><div class="taste-fill" style="width: 85%; background: #D28C40;"></div></div>
+            </div>
+            <div class="taste-bar-row">
+                <span class="taste-label">Чайная терпкость</span>
+                <div class="taste-track"><div class="taste-fill" style="width: 45%; background: #8C3014;"></div></div>
+            </div>
+        </div>
+
+        <div class="recipe-cup-wrapper">
+            <div class="recipe-boba-glass-diagram">
+                <!-- Декоративные кубики льда в чайном слое -->
+                <div class="diagram-ice-cube boba-ice" style="top: 70px; left: 15px;"></div>
+                <div class="diagram-ice-cube boba-ice" style="top: 110px; right: 20px; transform: rotate(15deg);"></div>
+                
+                <!-- Слои Bubble Tea -->
+                <div class="boba-glass-layer layer-boba-foam">Пена (Bubble)</div>
+                <div class="boba-glass-layer layer-boba-tea">Молочный чай (60%)</div>
+                <div class="boba-glass-layer layer-boba-tapioca">
+                    <!-- Шарики тапиоки (Жемчужины) -->
+                    <div class="boba-pearl" style="bottom: 8px; left: 15px;"></div>
+                    <div class="boba-pearl" style="bottom: 12px; left: 35px;"></div>
+                    <div class="boba-pearl" style="bottom: 6px; left: 55px;"></div>
+                    <div class="boba-pearl" style="bottom: 15px; left: 75px;"></div>
+                    <div class="boba-pearl" style="bottom: 10px; left: 95px;"></div>
+                    <div class="boba-pearl" style="bottom: 28px; left: 25px;"></div>
+                    <div class="boba-pearl" style="bottom: 25px; left: 65px;"></div>
+                    <span>Тапиока в сиропе (30%)</span>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center; font-size: 0.85rem; color: var(--text-muted); margin: 1rem 0 0 0;">Идеальный стакан: высокий шейкерный бокал или пластиковый U-cup <strong>500 мл</strong>.</p>
+    </div>
+
+    <div class="recipe-block">
+        <h3 style="margin-top: 0; margin-bottom: 1.25rem;">🛒 Ингредиенты (Адаптация для РФ)</h3>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: -0.5rem; margin-bottom: 1.25rem;">Чтобы получить тот самый ностальгический вкус «как в палатке на ночном рынке Тайбэя», крайне важно соблюсти баланс терпкости чая и сливочности.</p>
+        
+        <div class="recipe-ing-group">
+            <div class="recipe-ing-title">Чайная основа</div>
+            <ul class="recipe-ingredient-list">
+                <li><strong>Крепкий Красный чай</strong> (Ассам или Цейлон) — 2 ст. ложки (или 4-5 пакетиков). <span class="recipe-marker">Заваривать в 400 мл кипятка.</span> Важно брать терпкий чай, чтобы он не потерялся на фоне молока. <em>(Для более современной и легкой версии отлично подойдет жасминовый зеленый чай или Тайваньские высокогорные улуны).</em></li>
+            </ul>
+        </div>
+
+        <div class="recipe-ing-group" style="margin-top: 1.5rem;">
+            <div class="recipe-ing-title">Жемчужины (Топинги)</div>
+            <ul class="recipe-ingredient-list">
+                <li><strong>Шарики тапиоки (черные)</strong> — 100 г. (Идеально подходят полуфабрикаты бренда <span class="brand-tag">WuFuYuan</span>).</li>
+                <li><strong>Коричневый сахар</strong> — 3-4 ст. ложки. (Тростниковый или Мусковадо для варки густого карамельного сиропа).</li>
+            </ul>
+        </div>
+
+        <div class="recipe-ing-group" style="margin-top: 1.5rem;">
+            <div class="recipe-ing-title">Сливочная часть (На выбор)</div>
+            <ul class="recipe-ingredient-list">
+                <li><strong>Сухие растительные сливки (Creamer)</strong> — 3-4 ст. ложки. (Дают тот самый аутентичный "плотный" вкус из 90-х, отлично подходят корейские <span class="brand-tag">Frima</span>).</li>
+                <li><strong>ИЛИ Свежее молоко</strong> — 150-200 мл. (Для правильной текстуры берите <span class="brand-tag">ЭкоНива 3.2%</span> + добавьте 1-2 ложки сливок <span class="brand-tag">Петмол 10-20%</span>, чтобы избежать "водянистости").</li>
+                <li><strong>Лед</strong> — полный стакан (обязательно для шейкинга).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="recipe-block">
+        <h3 style="margin-top: 0; margin-bottom: 1rem;">🔬 Секреты аутентичности и российские реалии</h3>
+        <div class="recipe-details-group">
+            <details>
+                <summary>🔮 Секрет текстуры «QQ»</summary>
+                <p>В Тайване идеальную текстуру тапиоки (когда она пружинистая, упругая, не слишком мягкая и не слишком жесткая) называют термином «QQ» (звучит как <em>кью-кью</em>). Если тапиока постояла в холодильнике, она потеряет «QQ» и станет "деревянной". <strong>Тапиоку всегда варят только на один день и никогда не замораживают готовую!</strong></p>
+            </details>
+
+            <details>
+                <summary>🌡️ Температурный контраст</summary>
+                <p>Высший пилотаж подачи — когда жемчужины на дне стакана обжигающе-горячие (они только что из карамельного сиропа), а сам чайный напиток — ледяной. Этот диссонанс при втягивании через трубочку создает уникальный гастрономический опыт.</p>
+            </details>
+
+            <details>
+                <summary>📦 Где взять тапиоку в России?</summary>
+                <p>Готовые сухие полуфабрикаты черной тапиоки легко найти на маркетплейсах (Ozon, Wildberries). Ищите бренды <strong>WuFuYuan</strong> или аналоги с пометкой "Boba Tapioca Pearls". <strong style="color: var(--text-normal);">Важно:</strong> не пытайтесь сварить напиток из обычного белого порошка (крахмала) тапиоки из супермаркета! Вылепить из него правильные упругие шарики дома невероятно сложно, они часто разваливаются при варке в кашу.</p>
+            </details>
+
+            <details>
+                <summary>🥛 Сухие сливки или обычное молоко?</summary>
+                <p>Истинный вкус "оригинала" и характерную шелковистую плотность дают именно качественные сухие растительные сливки (кример). Если вы за натуральность, используйте свежее цельное молоко (3.2%). Современные бренды «новой волны» в Китае, вроде <strong>Heytea</strong> или <strong>Chagee</strong>, заменили сухие сливки именно на премиальное фермерское молоко, а тапиоку часто заменяют на свежие фрукты и сырную пенку.</p>
+            </details>
+        </div>
+    </div>
+
+    <div class="recipe-block">
+        <h3 style="margin-top: 0; margin-bottom: 1.25rem;">👩‍🍳 Пошаговое приготовление</h3>
+        
+        <div class="recipe-step-item">
+            <h4>Шаг 1. Варка "Жемчуга" (Тапиоки)</h4>
+            <p style="margin: 0; font-size: 0.95rem;">Это самый долгий, но критически важный процесс. Вскипятите в кастрюле большое количество воды (соотношение воды к тапиоке 10:1). Закиньте сухие шарики в <strong>активно кипящую</strong> воду и аккуратно помешайте. Варите на среднем огне <strong>20-30 минут</strong>, периодически помешивая. Затем выключите огонь, накройте крышкой и оставьте "доходить" еще на <strong>20 минут</strong>. В конце откиньте на дуршлаг и промойте ледяной водой для упругости.</p>
+        </div>
+
+        <div class="recipe-step-item">
+            <h4>Шаг 2. Карамелизация (Хэй Тан / 黑糖)</h4>
+            <p style="margin: 0; font-size: 0.95rem;">В небольшом сотейнике смешайте коричневый сахар с парой столовых ложек воды. Нагревайте до получения густого, темного сиропа. Положите сваренную и промытую тапиоку в этот сироп и потомите 2-3 минуты на слабом огне. Шарики впитают глубокий карамельный вкус и станут невероятно глянцевыми.</p>
+        </div>
+
+        <div class="recipe-step-item">
+            <h4>Шаг 3. Заваривание и Шейкинг (Магия Пузырьков)</h4>
+            <p style="margin: 0; font-size: 0.95rem;">Заварите чай (он должен быть очень крепким). Процедите его. Если используете сухие сливки — растворите их прямо сейчас в горячем чае. Дайте немного остыть. Перелейте чай в шейкер (или плотную банку), добавьте горсть льда и сахарный сироп по вкусу. <strong>Интенсивно трясите 10-15 секунд</strong>, пока чай не станет ледяным, а на поверхности не образуется густая пена.</p>
+        </div>
+
+        <div class="recipe-step-item">
+            <h4>Шаг 4. Сборка напитка</h4>
+            <p style="margin: 0; font-size: 0.95rem;">На дно высоких прозрачных стаканов выложите горячую тапиоку вместе с коричневым сиропом. <em>Лайфхак: если обмазать сиропом стенки стакана, получится знаменитый эффект "Тигровых полос".</em> Если используете свежее молоко, налейте его сейчас поверх тапиоки. Сверху залейте шейкованным чаем со льдом и пеной. Подавайте с экстра-широкой трубочкой (диаметром от 12 мм)!</p>
+        </div>
+    </div>
+
+    <div class="recipe-block-alert">
+        <h4 style="margin-top: 0; margin-bottom: 0.5rem; color: var(--interactive-accent);">💡 Интересный факт: Тайна названия</h4>
+        <p style="margin: 0; font-size: 0.95rem;">
+            Слово <strong>Bubble</strong> (пузырь) изначально относилось <em>вовсе не к шарикам тапиоки</em> (их традиционно называют Boba или Жемчужины). Оно описывало ту самую <strong>густую пену из мелких пузырьков</strong>, которая образуется на поверхности чая после интенсивного взбивания в шейкере!
+        </p>
+    </div>
+
+    <div class="recipe-block" style="margin-top: 16px; background: var(--background-secondary); border-color: transparent;">
+        <h3 style="margin-top: 0px; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 8px;">
+            <span>🕰️</span> Спор об изобретателе
+        </h3>
+        <p style="margin: 0; font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+            В Тайване до сих пор идут судебные споры о том, кто изобрел этот напиток. Чайная <em>Chun Shui Tang</em> из Тайчжуна утверждает, что их менеджер Линь Сюхуэй в 1988 году шутки ради бросила традиционный тайваньский десерт <em>фэньюань</em> (сладкую тапиоку) в холодный ассамский чай. <br><br>
+            Однако их главный конкурент, чайная <em>Hanlin</em> из Тайнаня, заявляет, что они придумали это первыми в 1986 году, увидев на местном рынке белую тапиоку, поразительно похожую на жемчуг. Базовый рецепт лег в основу мегакорпораций, и классические гиганты вроде <strong>CoCo Fresh Tea & Juice</strong> или <strong>Mixue Bingcheng</strong> до сих пор берегут эти традиции приготовления.
+        </p>
+    </div>
+
+</div>
