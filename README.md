@@ -32,3 +32,12 @@ bun run ./.obsidian/scripts/auto.ts \
   && ssh root@92.63.97.81 'cd /root/sources/wander-mark/docker/vault && tar -xzf payload.tar.gz && rm payload.tar.gz' \
   && echo '✅ Деплой успешно завершен!'
 -->
+
+
+Нужно добавить стили в @.obsidian/snippets/recipe-layout.css в конец файла без комментариев. Сначала напиши `/* название */`, а после новые стили если они есть.
+
+Если это рецепт coffee то добавь в @Personal Note/Coffee/         
+Если это рецепт tea то добавляй в @Personal Note/茶 Cha/
+Добавляй в тематическую папку.
+
+Вот то что нужно реализовать:

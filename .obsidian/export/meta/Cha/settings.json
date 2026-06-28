@@ -9,6 +9,7 @@
     "meta/Cha/plugins/recipe-viewer.js"
   ],
   "styles": [
-    "cha-theme.css"
+    "cha-theme.css",
+    "recipe-layout.css"
   ]
 }

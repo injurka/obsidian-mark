@@ -2450,3 +2450,1337 @@
 .theme-dark .gaiwan-steam {
     background: rgba(255, 255, 255, 0.15);
 }
+
+/* Юньнаньский чай в глиняном горшочке (Каньгуань Найча) */
+
+.recipe-pot-diagram {
+    width: 160px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 25px;
+}
+
+.pot-steam-container {
+    position: absolute;
+    top: -25px;
+    width: 80px;
+    height: 25px;
+    z-index: 5;
+}
+
+.pot-steam {
+    position: absolute;
+    bottom: 0;
+    width: 4px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    filter: blur(2px);
+    animation: pot-steam-rise 1.8s infinite ease-in-out;
+}
+
+@keyframes pot-steam-rise {
+    0% { transform: translateY(0) scaleX(0.8) scaleY(0.5); opacity: 0; }
+    40% { opacity: 0.6; }
+    100% { transform: translateY(-20px) scaleX(1.8) scaleY(1.5); opacity: 0; }
+}
+
+.pot-body {
+    width: 90px;
+    height: 90px;
+    background: #8E4A23;
+    border: 4px solid #633215;
+    border-radius: 35px 35px 45px 45px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    box-shadow: inset -8px -8px 15px rgba(0,0,0,0.3), 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.pot-body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    height: 8px;
+    background: #633215;
+    border-radius: 4px;
+}
+
+.pot-liquid-layer {
+    height: 70%;
+    background: linear-gradient(180deg, #D9A066 0%, #A05D2C 100%);
+    color: #3B1C0A;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    line-height: 1.1;
+    border-top: 2px dashed rgba(255,255,255,0.4);
+}
+
+.pot-caramel-bed {
+    height: 20%;
+    background: linear-gradient(180deg, #3B1C0A 0%, #190A03 100%);
+    color: transparent; 
+}
+
+.pot-handle {
+    position: absolute;
+    top: 30px;
+    right: -32px;
+    width: 45px;
+    height: 14px;
+    background: #633215;
+    border-radius: 4px 12px 12px 4px;
+    z-index: 8;
+    transform: rotate(-10deg);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.pot-handle::after {
+    content: '';
+    position: absolute;
+    left: 10px; right: 5px; top: 2px; bottom: 2px;
+    background: repeating-linear-gradient(90deg, #A8763E, #A8763E 2px, #633215 2px, #633215 4px);
+    border-radius: 2px;
+}
+
+.theme-dark .pot-body {
+    background: #4A3525;
+    border-color: #2D1F15;
+    box-shadow: inset -10px -10px 20px rgba(0,0,0,0.5), 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.theme-dark .pot-body::before,
+.theme-dark .pot-handle {
+    background: #2D1F15;
+}
+
+.theme-dark .pot-liquid-layer {
+    background: linear-gradient(180deg, #BA824A 0%, #85491F 100%);
+    color: #1A0A02;
+}
+
+.theme-dark .pot-steam {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Бичерин (Bicerin) */
+
+.recipe-bicerin-diagram {
+    width: 140px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.bicerin-bowl {
+    width: 120px;
+    height: 130px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 2px 2px 50px 50px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.bicerin-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-bicerin-cream {
+    height: 33.3%;
+    background: #FFFDF9;
+    color: #4A2E1B;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0 -4px 8px rgba(0,0,0,0.05);
+}
+
+.layer-bicerin-espresso {
+    height: 33.3%;
+    background: linear-gradient(180deg, #4A2411 0%, #291105 100%);
+    color: #FDF9F1;
+    border-bottom: 1px dashed rgba(255,255,255,0.2);
+}
+
+.layer-bicerin-chocolate {
+    height: 33.4%;
+    background: #150501; 
+    color: #D6A886;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.bicerin-stem {
+    width: 12px;
+    height: 35px;
+    background: var(--background-modifier-border);
+    position: relative;
+    z-index: 5;
+    margin-top: -2px; 
+}
+
+.bicerin-stem::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background: var(--background-modifier-border);
+}
+
+.bicerin-base {
+    width: 80px;
+    height: 8px;
+    background: var(--background-modifier-border);
+    border-radius: 10px 10px 2px 2px;
+    z-index: 5;
+}
+
+.theme-dark .bicerin-bowl {
+    border-color: #555;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .bicerin-stem,
+.theme-dark .bicerin-stem::after,
+.theme-dark .bicerin-base {
+    background: #555;
+}
+
+.theme-dark .layer-bicerin-cream {
+    background: #E8DFD1;
+    color: #2D1405;
+}
+
+.theme-dark .layer-bicerin-chocolate {
+    color: #A67B5B;
+}
+
+/* Горячий цитрусовый фильтр (Orange Filter Coffee) */
+
+.recipe-pot-diagram {
+    width: 150px;
+    height: 140px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.pot-body {
+    width: 100px;
+    height: 110px;
+    background: #8A4F35; 
+    border: 3px solid #5C290D;
+    border-radius: 40px 40px 25px 25px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.pot-body::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 15px; right: 15px;
+    height: 15px;
+    background: #73330B;
+    border-bottom: 2px solid #5C3218;
+    z-index: 12;
+}
+
+.pot-liquid-layer {
+    height: 75%;
+    background: linear-gradient(180deg, #A0522D 0%, #4A1A05 100%);
+    color: #FFF8E7;
+    font-size: 0.6rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1.2;
+}
+
+.pot-caramel-bed {
+    height: 25%;
+    background: #1A0500;
+    color: transparent;
+    border-top: 1px dashed rgba(255,165,0,0.4);
+}
+
+.pot-handle {
+    position: absolute;
+    top: 50px;
+    left: -45px;
+    width: 50px;
+    height: 16px;
+    background: #5C290D;
+    border-radius: 6px 0 0 6px;
+    z-index: 5;
+    transform: rotate(5deg);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.pot-steam-container, .hot-steam-container {
+    position: absolute;
+    top: -25px;
+    width: 100px;
+    height: 30px;
+    z-index: 20;
+}
+
+.pot-steam {
+    position: absolute;
+    bottom: 0;
+    width: 5px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    filter: blur(2.5px);
+    animation: hot-pot-steam 2s infinite ease-in-out;
+}
+
+@keyframes hot-pot-steam {
+    0% { transform: translateY(5px) scaleX(0.5) scaleY(0.5); opacity: 0; }
+    40% { opacity: 0.7; }
+    100% { transform: translateY(-25px) scaleX(2) scaleY(1.8); opacity: 0; }
+}
+
+
+.recipe-hot-citrus-diagram {
+    width: 140px;
+    height: 130px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 35px 35px;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 40%, 100% 100%, 0% 100%, 0% 40%);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+.server-hot-liquid {
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(180deg, rgba(200, 70, 30, 0.85) 0%, rgba(120, 30, 10, 0.95) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFDF5;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-align: center;
+    border-top: 1px dashed rgba(255,255,255,0.4);
+}
+
+.hot-steam-line {
+    position: absolute;
+    bottom: 0;
+    width: 3px;
+    height: 25px;
+    background: rgba(240, 180, 140, 0.3);
+    border-radius: 50%;
+    filter: blur(2px);
+    animation: line-steam 2.2s infinite ease-in-out;
+}
+.hot-steam-line.line-1 { left: 45%; }
+.hot-steam-line.line-2 { left: 55%; }
+
+@keyframes line-steam {
+    0% { transform: translateY(0) scaleY(0.6); opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { transform: translateY(-30px) scaleY(1.4); opacity: 0; }
+}
+
+.theme-dark .recipe-hot-citrus-diagram {
+    border-color: #555;
+}
+
+.theme-dark .server-hot-liquid {
+    background: linear-gradient(180deg, rgba(170, 55, 20, 0.85) 0%, rgba(95, 20, 5, 0.95) 100%);
+}
+
+/* Пуэр-Американо */
+
+.recipe-pa-glass-diagram {
+    width: 130px;
+    height: 190px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+    background: transparent;
+    overflow: hidden;
+}
+
+.pa-glass-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.55rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-pa-espresso {
+    height: 20%;
+    background: linear-gradient(180deg, #150501 0%, #2A0B02 100%);
+    color: #FFFDF9;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    border-top: 4px solid #B5835A;
+}
+
+.layer-pa-puer {
+    height: 80%;
+    background: linear-gradient(180deg, rgba(92, 25, 5, 0.85) 0%, rgba(42, 11, 2, 0.95) 100%);
+    color: #FDF9F1;
+    border-top: 1px dashed rgba(255,255,255,0.2);
+    box-shadow: inset 0 10px 20px rgba(21, 5, 1, 0.6);
+}
+
+.diagram-ice-cube.pa-ice {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 0 10px rgba(42, 11, 2, 0.5);
+    z-index: 5;
+}
+
+.theme-dark .recipe-pa-glass-diagram {
+    border-color: #555;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark .layer-pa-espresso {
+    border-top: 4px solid #8B5A33;
+}
+
+.theme-dark .layer-pa-puer {
+    background: linear-gradient(180deg, rgba(120, 30, 10, 0.8) 0%, rgba(60, 15, 5, 0.9) 100%);
+}
+
+/* Ред Ай */
+
+.recipe-redeye-mug-diagram {
+    width: 140px;
+    height: 130px;
+    border: 6px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 32px 32px;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+    box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);
+    background: transparent;
+    margin-left: -20px;
+    margin-top: 25px;
+}
+
+.recipe-redeye-mug-diagram::after {
+    content: '';
+    position: absolute;
+    right: -34px;
+    top: 20px;
+    width: 45px;
+    height: 70px;
+    border: 6px solid var(--background-modifier-border);
+    border-left: none;
+    border-radius: 0 35px 35px 0;
+    z-index: -1;
+}
+
+.redeye-drop {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 16px;
+    background: #8B5A33;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 15;
+    animation: redeye-drip-drop 1.5s infinite ease-in;
+}
+
+@keyframes redeye-drip-drop {
+    0% { transform: translate(-50%, 0) scale(0.8); opacity: 1; }
+    50% { transform: translate(-50%, 15px) scale(1); opacity: 1; }
+    80% { transform: translate(-50%, 30px) scale(0.5); opacity: 0; }
+    100% { transform: translate(-50%, 30px) scale(0); opacity: 0; }
+}
+
+.redeye-mug-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-redeye-crema {
+    height: 10%;
+    background: linear-gradient(180deg, #A67346 0%, #8B5A33 100%);
+    color: #4A2411;
+    font-size: 0.6rem;
+    border-bottom: 2px dashed rgba(26, 12, 5, 0.4);
+    box-shadow: inset 0 -4px 6px rgba(0,0,0,0.1);
+}
+
+.layer-redeye-filter {
+    height: 90%;
+    background: linear-gradient(180deg, #1A0C05 0%, #0D0502 100%);
+    color: #FDF9F1;
+}
+
+.theme-dark .recipe-redeye-mug-diagram,
+.theme-dark .recipe-redeye-mug-diagram::after {
+    border-color: #555;
+}
+
+.theme-dark .layer-redeye-filter {
+    background: linear-gradient(180deg, #2A1105 0%, #150501 100%);
+    color: #E8DFD1;
+}
+
+/* Каскара */
+
+.recipe-cascara-pot-diagram {
+    width: 140px;
+    height: 130px;
+    border: 4px solid var(--background-modifier-border);
+    border-radius: 60px 60px 40px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+    margin-top: 20px;
+}
+
+.recipe-cascara-pot-diagram::after {
+    content: '';
+    position: absolute;
+    right: -24px;
+    top: 30px;
+    width: 30px;
+    height: 60px;
+    border: 4px solid var(--background-modifier-border);
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    z-index: -1;
+}
+
+.cascara-liquid {
+    width: 100%;
+    height: 75%;
+    background: linear-gradient(180deg, rgba(190, 40, 20, 0.75) 0%, rgba(110, 15, 5, 0.9) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFDF9;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-align: center;
+    border-top: 1px dashed rgba(255,255,255,0.4);
+    position: relative;
+}
+
+.cascara-liquid span {
+    position: relative;
+    z-index: 10;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    padding: 0 10px;
+}
+
+.diagram-spice-cinnamon {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 12px;
+    height: 60px;
+    background: #8B5A33;
+    border-left: 2px solid #5C3218;
+    border-right: 2px solid #5C3218;
+    border-radius: 4px;
+    transform: rotate(35deg);
+    z-index: 5;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.diagram-spice-star {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    width: 20px;
+    height: 20px;
+    background: #5C3218;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: rotate(15deg);
+    z-index: 6;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.8);
+}
+
+.cascara-steam {
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    width: 10px;
+    height: 20px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    filter: blur(3px);
+    animation: steam-cascara 2s infinite ease-in-out;
+}
+
+@keyframes steam-cascara {
+    0% { transform: translateY(0) scale(1); opacity: 0; }
+    50% { opacity: 0.8; }
+    100% { transform: translateY(-15px) scale(1.5); opacity: 0; }
+}
+
+.theme-dark .recipe-cascara-pot-diagram,
+.theme-dark .recipe-cascara-pot-diagram::after {
+    border-color: #555;
+}
+
+.theme-dark .cascara-liquid {
+    background: linear-gradient(180deg, rgba(160, 30, 15, 0.8) 0%, rgba(80, 10, 0, 0.95) 100%);
+}
+
+.theme-dark .cascara-steam {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Имбирный Шу Пуэр */
+
+.recipe-ginger-cup-diagram {
+    width: 130px;
+    height: 130px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    background: transparent;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+    margin-top: 25px;
+    overflow: visible;
+}
+
+.recipe-ginger-cup-diagram::after {
+    content: '';
+    position: absolute;
+    right: -24px;
+    top: 20px;
+    width: 30px;
+    height: 65px;
+    border: 4px solid var(--background-modifier-border);
+    border-left: none;
+    border-radius: 0 25px 25px 0;
+    z-index: -1;
+}
+
+.ginger-liquid {
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(180deg, #4A1A05 0%, #210A02 100%);
+    color: #FDF9F1;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px dashed rgba(255,255,255,0.3);
+    border-radius: 0 0 16px 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ginger-liquid span {
+    position: relative;
+    z-index: 10;
+    padding: 0 10px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.diagram-ginger-slice {
+    position: absolute;
+    width: 25px;
+    height: 18px;
+    background: #EEDC82;
+    border: 2px solid #D4B144;
+    border-radius: 50% 40% 60% 30% / 40% 50% 30% 60%;
+    z-index: 5;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    background-image: linear-gradient(45deg, transparent 45%, rgba(212,177,68,0.4) 45%, rgba(212,177,68,0.4) 55%, transparent 55%);
+    background-size: 4px 4px;
+}
+
+.ginger-steam-container {
+    position: absolute;
+    top: -25px;
+    width: 100%;
+    height: 25px;
+    z-index: 20;
+}
+
+.ginger-steam {
+    position: absolute;
+    bottom: 0;
+    width: 4px;
+    height: 18px;
+    background: rgba(255, 230, 200, 0.25);
+    border-radius: 50%;
+    filter: blur(2px);
+    animation: ginger-steam-rise 2s infinite ease-in-out;
+}
+
+@keyframes ginger-steam-rise {
+    0% { transform: translateY(5px) scaleX(0.6) scaleY(0.5); opacity: 0; }
+    40% { opacity: 0.6; }
+    100% { transform: translateY(-20px) scaleX(1.8) scaleY(1.4); opacity: 0; }
+}
+
+.theme-dark .recipe-ginger-cup-diagram,
+.theme-dark .recipe-ginger-cup-diagram::after {
+    border-color: #555;
+}
+
+.theme-dark .ginger-liquid {
+    background: linear-gradient(180deg, #3A1201 0%, #170400 100%);
+}
+
+.theme-dark .diagram-ginger-slice {
+    background: #CDB356;
+    border-color: #9E7E2B;
+}
+
+/* Холодный Шэн Пуэр */
+
+.recipe-cb-bottle-diagram {
+    width: 100px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.cb-bottle-cork {
+    width: 28px;
+    height: 15px;
+    background: #A67B5B;
+    border: 3px solid var(--background-modifier-border);
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    z-index: 15;
+}
+
+.cb-bottle-neck {
+    width: 32px;
+    height: 40px;
+    border-left: 4px solid var(--background-modifier-border);
+    border-right: 4px solid var(--background-modifier-border);
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 12;
+}
+
+.cb-bottle-body {
+    width: 90px;
+    height: 170px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 40px 40px 10px 10px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+    background: transparent;
+}
+
+.cb-liquid-layer {
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(180deg, rgba(235, 205, 110, 0.7) 0%, rgba(195, 160, 60, 0.85) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    color: #4A3A15;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-align: center;
+    border-top: 2px dashed rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+.cb-liquid-layer span {
+    position: relative;
+    z-index: 20;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+    padding: 0 5px;
+    line-height: 1.1;
+}
+
+.cb-tea-leaf {
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    background: #6B7A42;
+    border-radius: 0 12px 0 12px;
+    border: 1px solid #4A562B;
+    z-index: 5;
+    opacity: 0.9;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+    background-image: linear-gradient(135deg, transparent 45%, rgba(255,255,255,0.3) 45%, rgba(255,255,255,0.3) 55%, transparent 55%);
+}
+
+.theme-dark .cb-bottle-cork {
+    border-color: #555;
+    background: #8B5A33;
+}
+
+.theme-dark .cb-bottle-neck,
+.theme-dark .cb-bottle-body {
+    border-color: #555;
+}
+
+.theme-dark .cb-liquid-layer {
+    background: linear-gradient(180deg, rgba(185, 155, 60, 0.75) 0%, rgba(145, 110, 20, 0.9) 100%);
+    color: #FFFDF9;
+}
+
+.theme-dark .cb-liquid-layer span {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.theme-dark .cb-tea-leaf {
+    background: #5C6B36;
+    border-color: #3D4A20;
+}
+
+/* Дёрти кофе (Rocks Glass) */
+
+.recipe-dirty-glass-diagram {
+    width: 140px;
+    height: 120px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 2px 2px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    background: transparent;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.recipe-dirty-glass-diagram::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    box-shadow: inset 0 0 15px rgba(255,255,255,0.6);
+    pointer-events: none;
+    z-index: 20;
+}
+
+.dirty-glass-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-dirty-espresso {
+    height: 25%;
+    background: linear-gradient(180deg, #A67346 0%, #3B1C0A 100%);
+    color: #FDF9F1;
+    z-index: 15;
+}
+
+.layer-dirty-milk {
+    height: 75%;
+    background: #FDF9F1;
+    color: #2D180C;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.dirty-drip {
+    position: absolute;
+    top: 25%;
+    width: 4px;
+    background: linear-gradient(180deg, #3B1C0A 0%, rgba(59, 28, 10, 0.1) 100%);
+    border-radius: 0 0 10px 10px;
+    z-index: 12;
+    animation: dirty-sink infinite ease-in-out alternate;
+}
+
+@keyframes dirty-sink {
+    0% { transform: scaleY(0.8); transform-origin: top; }
+    100% { transform: scaleY(1.3); transform-origin: top; }
+}
+
+.theme-dark .recipe-dirty-glass-diagram {
+    border-color: #555;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.theme-dark .layer-dirty-milk {
+    background: #EAE3D5;
+    color: #2D180C;
+}
+
+.theme-dark .recipe-dirty-glass-diagram::after {
+    box-shadow: inset 0 0 15px rgba(255,255,255,0.2);
+}
+
+/* Маття-Эспрессо Фьюжн */
+
+.recipe-matcha-glass-diagram {
+    width: 130px;
+    height: 200px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 12% 100%);
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+    background: transparent;
+    overflow: hidden;
+}
+
+.matcha-glass-layer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-dm-espresso {
+    height: 20%;
+    background: linear-gradient(180deg, #3B2211 0%, #291105 100%);
+    color: #FDF9F1;
+}
+
+.layer-dm-milk {
+    height: 55%;
+    background: rgba(253, 249, 241, 0.95);
+    color: #3B2211;
+    border-top: 1px dashed rgba(255,255,255,0.3);
+    border-bottom: 1px dashed rgba(255,255,255,0.3);
+}
+
+.layer-dm-matcha {
+    height: 25%;
+    background: linear-gradient(180deg, #47702B 0%, #355320 100%);
+    color: #FFFDF9;
+}
+
+.diagram-ice-cube.dm-ice {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(1px);
+    z-index: 5;
+}
+
+.theme-dark .recipe-matcha-glass-diagram {
+    border-color: #555;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark .layer-dm-milk {
+    background: rgba(220, 212, 198, 0.95);
+    color: #1A0C05;
+}
+
+.theme-dark .layer-dm-matcha {
+    background: linear-gradient(180deg, #3B5D24 0%, #2B421B 100%);
+}
+
+/* Сырный чай */
+
+.recipe-cheese-tea-diagram {
+    width: 130px;
+    height: 220px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+    background: transparent;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.cheese-tea-layer {
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.layer-cheese-foam {
+    height: 25%;
+    background: #FFFDF9;
+    color: #4A3A15;
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+    box-shadow: inset 0 -4px 10px rgba(0,0,0,0.03);
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+    position: relative;
+    z-index: 15;
+}
+
+.foam-drip {
+    position: absolute;
+    bottom: -8px;
+    background: #FFFDF9;
+    border-radius: 0 0 5px 5px;
+    z-index: 12;
+}
+
+.foam-drip.drip-1 { left: 20%; width: 10px; height: 15px; }
+.foam-drip.drip-2 { left: 50%; width: 15px; height: 10px; }
+.foam-drip.drip-3 { right: 25%; width: 8px; height: 18px; }
+
+.layer-tea-base {
+    height: 75%;
+    background: linear-gradient(180deg, rgba(230, 180, 50, 0.7) 0%, rgba(200, 130, 20, 0.85) 100%);
+    color: #FFFDF9;
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.layer-tea-base span {
+    position: relative;
+    z-index: 20;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.diagram-ice-cube.ct-ice {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 10px rgba(200, 130, 20, 0.3);
+    backdrop-filter: blur(1px);
+}
+
+.theme-dark .recipe-cheese-tea-diagram {
+    border-color: #555;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark .layer-cheese-foam,
+.theme-dark .foam-drip {
+    background: #E8DFD1;
+    color: #2D180C;
+}
+
+.theme-dark .layer-tea-base {
+    background: linear-gradient(180deg, rgba(180, 130, 30, 0.75) 0%, rgba(140, 80, 10, 0.9) 100%);
+}
+
+/* Варка чая */
+
+.recipe-boil-kettle-diagram {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.bk-stove {
+    position: absolute;
+    bottom: 5px;
+    width: 100px;
+    height: 12px;
+    background: #444;
+    border-radius: 4px;
+    z-index: 5;
+    border-top: 2px solid #666;
+    display: flex;
+    justify-content: center;
+}
+
+.bk-fire {
+    position: absolute;
+    top: -10px;
+    width: 60px;
+    height: 10px;
+    background: linear-gradient(180deg, rgba(255, 150, 0, 0.8) 0%, rgba(255, 50, 0, 0.9) 100%);
+    border-radius: 50% 50% 20% 20%;
+    filter: blur(2px);
+    animation: fire-flicker 0.4s infinite alternate;
+}
+
+@keyframes fire-flicker {
+    0% { transform: scaleY(0.8) scaleX(0.9); opacity: 0.8; }
+    100% { transform: scaleY(1.2) scaleX(1); opacity: 1; }
+}
+
+.bk-kettle-body {
+    position: absolute;
+    bottom: 17px;
+    width: 120px;
+    height: 100px;
+    border: 4px solid var(--background-modifier-border);
+    border-radius: 30px 30px 20px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.1), 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.bk-liquid {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(180deg, rgba(200, 80, 20, 0.8) 0%, rgba(120, 30, 5, 0.9) 100%);
+    position: relative;
+    border-top: 1px dashed rgba(255, 255, 255, 0.4);
+}
+
+.bk-bubble {
+    position: absolute;
+    bottom: 0;
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: boil-bubble infinite ease-in;
+}
+
+.bk-bubble.b-1 { left: 20%; animation-duration: 1.2s; animation-delay: 0.1s; }
+.bk-bubble.b-2 { left: 40%; animation-duration: 0.9s; animation-delay: 0.5s; width: 8px; height: 8px; }
+.bk-bubble.b-3 { left: 60%; animation-duration: 1.5s; animation-delay: 0.2s; }
+.bk-bubble.b-4 { left: 80%; animation-duration: 1.1s; animation-delay: 0.7s; width: 5px; height: 5px; }
+
+@keyframes boil-bubble {
+    0% { transform: translateY(0) scale(0.5); opacity: 0; }
+    20% { opacity: 1; }
+    100% { transform: translateY(-70px) scale(1.5); opacity: 0; }
+}
+
+.bk-tea-leaf {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background: #4A2E15;
+    border-radius: 0 10px 0 10px;
+    z-index: 5;
+    animation: leaf-dance 4s infinite ease-in-out alternate;
+}
+.bk-tea-leaf.tl-1 { top: 20px; left: 20px; }
+.bk-tea-leaf.tl-2 { top: 40px; right: 25px; animation-delay: -2s; transform: rotate(45deg); }
+
+@keyframes leaf-dance {
+    0% { transform: translateY(0) rotate(0deg); }
+    100% { transform: translateY(-10px) rotate(60deg); }
+}
+
+.bk-golden-flower {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #FFD700;
+    border-radius: 50%;
+    box-shadow: 0 0 4px #FFA500;
+    animation: leaf-dance 3s infinite ease-in-out alternate;
+}
+.bk-golden-flower.gf-1 { top: 30px; left: 50%; }
+.bk-golden-flower.gf-2 { top: 50px; left: 30%; animation-delay: -1s; }
+.bk-golden-flower.gf-3 { top: 10px; right: 40%; animation-delay: -1.5s; }
+
+.bk-kettle-spout {
+    position: absolute;
+    right: 12px;
+    top: 70px;
+    width: 30px;
+    height: 10px;
+    border: 4px solid var(--background-modifier-border);
+    border-left: none;
+    background: transparent;
+    border-radius: 0 10px 10px 0;
+    transform: rotate(-30deg);
+    z-index: 8;
+}
+
+.bk-kettle-handle {
+    position: absolute;
+    left: 2px;
+    top: 55px;
+    width: 30px;
+    height: 60px;
+    border: 5px solid var(--background-modifier-border);
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    z-index: 8;
+}
+
+.bk-kettle-lid {
+    position: absolute;
+    top: 45px;
+    width: 60px;
+    height: 15px;
+    border: 4px solid var(--background-modifier-border);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px 10px 0 0;
+    z-index: 12;
+}
+.bk-kettle-lid::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 22px;
+    width: 12px;
+    height: 8px;
+    background: var(--background-modifier-border);
+    border-radius: 5px 5px 0 0;
+}
+
+.bk-steam {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 15px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    filter: blur(4px);
+    animation: kettle-steam-rise 1.5s infinite ease-in-out;
+}
+
+@keyframes kettle-steam-rise {
+    0% { transform: translateY(10px) translateX(-5px) scale(0.5); opacity: 0; }
+    50% { opacity: 0.8; }
+    100% { transform: translateY(-20px) translateX(15px) scale(1.5); opacity: 0; }
+}
+
+.theme-dark .bk-kettle-body,
+.theme-dark .bk-kettle-spout,
+.theme-dark .bk-kettle-handle,
+.theme-dark .bk-kettle-lid {
+    border-color: #555;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.theme-dark .bk-kettle-lid::after {
+    background: #555;
+}
+
+.theme-dark .bk-liquid {
+    background: linear-gradient(180deg, rgba(160, 60, 10, 0.8) 0%, rgba(80, 20, 5, 0.95) 100%);
+}
+
+.theme-dark .bk-tea-leaf {
+    background: #3A200B;
+}
+
+.theme-dark .bk-steam {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+

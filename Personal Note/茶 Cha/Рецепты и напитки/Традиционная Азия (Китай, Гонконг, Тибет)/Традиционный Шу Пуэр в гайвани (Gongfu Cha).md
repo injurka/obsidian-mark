@@ -2,7 +2,7 @@
 target: "recipe-viewer"
 id: "gongfu-shu-puerh"
 title: "Традиционная Азия (Китай, Гонконг, Тибет)"
-category: "Традиционные рецепты"
+category: "Традиционная Азия"
 difficulty: 2
 time_total_min: 15
 servings_default: 1

@@ -9,6 +9,7 @@
     "meta/Coffee/plugins/recipe-viewer.js"
   ],
   "styles": [
-    "coffee-theme.css"
+    "coffee-theme.css",
+    "recipe-layout.css"
   ]
 }
