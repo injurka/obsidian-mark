@@ -9,7 +9,9 @@
     "chinese-theme",
     "kr-note",
     "ru-note",
-    "recipe-layout"
+    "recipe-layout",
+    "recipe-layout-eat",
+    "recipe-layout-drink"
   ],
   "theme": "moonstone",
   "baseFontSize": 16,

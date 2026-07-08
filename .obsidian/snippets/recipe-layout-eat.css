@@ -1,0 +1,246 @@
+.recipe-eat-container {
+    max-width: 750px;
+    margin: 1.5rem auto;
+    font-family: var(--font-interface, sans-serif);
+    color: var(--text-normal);
+    line-height: 1.6;
+}
+
+.recipe-eat-section {
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-eat-section:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.recipe-eat-section-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--background-modifier-border);
+    padding-bottom: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.recipe-eat-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1.25rem;
+}
+
+.recipe-eat-stat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.recipe-eat-stat-name {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.recipe-eat-stat-data {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.recipe-eat-ingr-category {
+    margin-bottom: 1.5rem;
+}
+
+.recipe-eat-ingr-category:last-child {
+    margin-bottom: 0;
+}
+
+.recipe-eat-ingr-head {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.recipe-eat-ingr-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe-eat-ingr-items li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.recipe-eat-ingr-items li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em; 
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--interactive-accent);
+}
+
+.recipe-eat-highlight {
+    background-color: rgba(var(--interactive-accent-rgb), 0.15);
+    color: var(--text-normal);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.recipe-eat-brand-badge {
+    background: rgba(138, 43, 226, 0.08); 
+    color: #6a1b9a;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: var(--font-monospace, monospace);
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid rgba(138, 43, 226, 0.15);
+}
+
+@media (prefers-color-scheme: dark) {
+    .recipe-eat-brand-badge {
+        background: rgba(186, 104, 200, 0.15);
+        color: #b39ddb;
+        border-color: rgba(186, 104, 200, 0.3);
+    }
+}
+
+.recipe-eat-variants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.recipe-eat-variant-card {
+    background: var(--background-secondary);
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--background-modifier-border);
+}
+
+.recipe-eat-variant-card h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text-normal);
+}
+
+.recipe-eat-variant-card p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.recipe-eat-instruction-step {
+    background: var(--background-secondary);
+    border-left: 3px solid var(--interactive-accent);
+    padding: 1rem 1.25rem;
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 1rem;
+}
+
+.recipe-eat-instruction-step:last-child {
+    margin-bottom: 0;
+}
+
+.recipe-eat-instruction-step h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--text-normal);
+    font-size: 1rem;
+}
+
+.recipe-eat-science-spoilers details > summary {
+    list-style: none; 
+}
+
+.recipe-eat-science-spoilers details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.recipe-eat-science-spoilers details {
+    background: transparent;
+    border-left: 2px solid var(--background-modifier-border);
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.recipe-eat-science-spoilers details[open] {
+    border-left-color: var(--interactive-accent);
+    background: var(--background-secondary);
+    border-radius: 0 8px 8px 0;
+    padding-bottom: 0.75rem;
+}
+
+.recipe-eat-science-spoilers summary {
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    color: var(--text-normal);
+}
+
+.recipe-eat-science-spoilers summary::before {
+    content: "›";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--text-muted);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.recipe-eat-science-spoilers details[open] summary::before {
+    transform: rotate(90deg);
+    color: var(--interactive-accent);
+}
+
+.recipe-eat-science-spoilers p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    padding-left: 1.5rem;
+}
+
+.recipe-eat-warning-box {
+    background: rgba(var(--interactive-accent-rgb), 0.05);
+    border: 1px solid rgba(var(--interactive-accent-rgb), 0.2);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.recipe-eat-diagram-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 0.5rem 0;
+}

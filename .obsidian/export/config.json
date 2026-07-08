@@ -30,16 +30,20 @@
       "exportPath": "/Investments"
     },
     {
-      "sourcePath": "/Personal Note/茶 Cha",
+      "sourcePath": "/Personal Note/Cooking/Cha 茶",
       "exportPath": "/Cha"
     },
     {
-      "sourcePath": "/Personal Note/Coffee",
+      "sourcePath": "/Personal Note/Cooking/Coffee",
       "exportPath": "/Coffee"
     },
     {
       "sourcePath": "/Database",
       "exportPath": "/Database"
+    },
+    {
+      "sourcePath": "/Personal Note/Visa",
+      "exportPath": "/Visa"
     }
   ],
   "deploy": {

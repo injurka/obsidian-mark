@@ -4371,9 +4371,117 @@
     background: rgba(255, 255, 255, 0.15);
 }
 
+/* CA PHE MUOI */
+
+.recipe-caphemuoi-diagram {
+    width: 150px;
+    height: 190px;
+    border: 4px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 24px 24px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: inset 0 -4px 10px rgba(0,0,0,0.1);
+}
+
+.cpm-layer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.layer-cpm-foam {
+    height: 45%;
+    background: #FDF5E6;
+    color: #8C6A53;
+    border-bottom: 2px dashed rgba(140, 106, 83, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+.layer-cpm-coffee {
+    height: 55%;
+    background: linear-gradient(180deg, #3B1C0A 0%, #1A0C05 100%);
+    color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    z-index: 1;
+}
+
+.cpm-salt-crystals {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-image: radial-gradient(#8C6A53 1px, transparent 1px);
+    background-size: 20px 15px;
+    opacity: 0.3;
+    z-index: 3;
+}
 
 
+/* ФРЕДДО ЭСПРЕССО */
 
+.recipe-freddo-diagram {
+    width: 140px;
+    height: 220px;
+    border: 3px solid var(--background-modifier-border);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
+.freddo-layer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+}
 
+.layer-freddo-foam {
+    height: 70%;
+    background: linear-gradient(180deg, #D29B68 0%, #A67346 100%);
+    color: #FDF9F1;
+    z-index: 2;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 
+.layer-freddo-liquid {
+    height: 30%;
+    background: #2C1608;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+
+.freddo-ice-cube {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    backdrop-filter: blur(2px);
+    z-index: 3;
+}

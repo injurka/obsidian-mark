@@ -1,0 +1,11 @@
+{
+  "info": {
+    "sysname": "Visa",
+    "title": "Визы",
+    "description": "Визовые заметки, инструкции и советы по оформлению виз в разные страны"
+  },
+  "plugins": [],
+  "styles": [
+    "visa-theme.css"
+  ]
+}
