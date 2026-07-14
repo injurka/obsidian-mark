@@ -16,3 +16,56 @@ PWA (Progressive Web Application) - еще один шаг, чтобы улуч�
 ---
 ## Источники
 - #### [pwadev](https://pwadev.ru/lit/)
+
+
+## Web App Manifest: Глубокое погружение
+**Web App Manifest** (`manifest.json`) — это JSON-файл, который позволяет браузеру понять, как ваше веб-приложение должно вести себя при установке на устройство (ПК или смартфон), превращая его из простой вкладки в самостоятельное приложение.
+
+### Полный пример `manifest.json`:
+```json
+{
+  "name": "Super Awesome Productivity App",
+  "short_name": "Productivity",
+  "description": "Лучшее приложение для управления вашим временем и задачами.",
+  "start_url": "/dashboard?utm_source=pwa",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Новая задача",
+      "short_name": "Новая",
+      "description": "Быстро создать новую задачу",
+      "url": "/new-task",
+      "icons": [{ "src": "/icons/shortcut-new.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}
+```
+
+### Интересные особенности и детали:
+1. **Maskable Icons (`"purpose": "any maskable"`)**: Раньше иконки PWA на Android часто обрезались или помещались в уродливые белые круги. Maskable icons позволяют иконке адаптироваться под любую форму (круг, квадрат, капля), которую использует оболочка ОС (например, Samsung OneUI или чистый Android).
+2. **Shortcuts (Быстрые действия)**: Если на смартфоне долго зажать иконку установленного PWA, появится контекстное меню с быстрыми действиями (например, "Новая задача" или "Написать твит"). Это задается массивом `shortcuts`.
+3. **Screenshots (Скриншоты для установки)**: В Chrome на Android и десктопах, когда браузер предлагает установить PWA (показывает Rich Install Prompt), он может отображать карусель скриншотов вашего приложения, делая это похожим на страницу в Google Play или App Store.
+4. **`start_url` с аналитикой**: Разработчики часто добавляют параметры запроса в `start_url` (например, `?source=pwa`), чтобы в Google Analytics видеть, сколько пользователей открывают приложение с домашнего экрана, а сколько из браузера.
