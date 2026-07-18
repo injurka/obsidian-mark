@@ -1,4 +1,3 @@
-# Vite
 
 К 2026 году **Vite** ("Вить" — по-французски "быстрый") полностью уничтожил и заменил Webpack и Create React App (CRA) в роли инструмента для создания SPA (Single Page Applications) и бандлера.
 

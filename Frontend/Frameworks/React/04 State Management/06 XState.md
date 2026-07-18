@@ -1,4 +1,3 @@
-# XState (Конечные Автоматы)
 
 XState — это библиотека для создания **Конечных автоматов (Finite State Machines - FSM)** и стейтчартов (Statecharts).
 
@@ -13,8 +12,45 @@ const [error, setError] = useState(null);
 ```
 Что, если из-за бага в коде у нас окажется `isLoading: true` и `error: "Ошибка"` одновременно? Должны ли мы показывать спиннер или текст ошибки? Это **невозможное состояние**, которое ломает UI.
 
+*Почему множество флагов — это плохо, и как FSM решает эту проблему:*
+```mermaid
+flowchart LR
+    subgraph BadState [Обычные флаги - Хаос]
+        Loading["isLoading = true"]
+        Error["error = Ошибка"]
+        Loading -.->|Конфликт в UI| Error
+    end
+
+    subgraph GoodState [FSM - Строгий контроль]
+        StateA["Только loading"]
+        StateB["Только failure"]
+        StateA -->|Строгий переход| StateB
+    end
+    
+    style BadState fill:#ffebee,stroke:#c62828,stroke-width:2px;
+    style GoodState fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+```
+
 ## 2. Подход XState
 Конечный автомат говорит: система в любой момент времени может находиться строго в **ОДНОМ** конечном состоянии. Из каждого состояния есть строго определенные **переходы (transitions)** в другие состояния на основе **событий (events)**.
+
+*Как выглядит наш конечный автомат загрузки данных:*
+```mermaid
+flowchart TD
+    Idle["Состояние: idle"]:::state
+    Loading["Состояние: loading"]:::state
+    Success["Состояние: success"]:::finalState
+    Failure["Состояние: failure"]:::errorState
+    
+    Idle -->|Событие FETCH| Loading
+    Loading -->|Событие RESOLVE| Success
+    Loading -->|Событие REJECT| Failure
+    Failure -->|Событие RETRY| Loading
+    
+    classDef state fill:#bbdefb,stroke:#1976d2,stroke-width:2px;
+    classDef finalState fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px;
+    classDef errorState fill:#ffcdd2,stroke:#c62828,stroke-width:2px;
+```
 
 ```javascript
 import { createMachine } from 'xstate';

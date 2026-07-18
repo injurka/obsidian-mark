@@ -1,4 +1,3 @@
-# Context API как State Manager
 
 Часто разработчики (особенно новички) пытаются использовать встроенный `Context API` в качестве полноценной замены Redux или Zustand. На собеседованиях это может быть "красным флагом", если не понимать нюансов.
 
@@ -8,6 +7,27 @@
 
 ## 2. Проблема производительности (O(n) рендеры)
 Главный минус Context API при использовании в качестве глобального хранилища: **отсутствие селекторов (в классическом понимании)**.
+
+*Как глобальный Context вызывает цепную реакцию лишних ре-рендеров:*
+```mermaid
+flowchart TD
+    Provider["Глобальный Context Provider"]
+    
+    subgraph Components ["Компоненты-потребители"]
+        CompA["Профиль - использует User"]:::comp
+        CompB["Кнопка - использует Theme"]:::comp
+    end
+    
+    Provider -->|Изменилась только Theme| CompA
+    Provider -->|Изменилась только Theme| CompB
+    
+    CompB -.->|Нужный ре-рендер| OK["ОК"]:::good
+    CompA -.->|Паразитный ре-рендер| Bad["Трата ресурсов"]:::bad
+    
+    classDef comp fill:#bbdefb,stroke:#1976d2,stroke-width:2px
+    classDef good fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    classDef bad fill:#ffcdd2,stroke:#c62828,stroke-width:2px
+```
 
 Если ваш `value` — это огромный объект `{ user, settings, ui, data }`, то **любое** изменение **любого** поля в этом объекте вызовет безусловный ре-рендер **ВСЕХ** компонентов, которые вызывают `useContext(MyContext)`. 
 
@@ -23,6 +43,29 @@
 
 ### Паттерн "State + Dispatch Contexts"
 Чтобы оптимизировать ре-рендеры компонентов, которые только *вызывают* функции (но не читают данные), разделяйте состояние и функции его обновления.
+
+*Паттерн разделения: компонент кнопки никогда не перерисовывается при изменении счетчика:*
+```mermaid
+flowchart TD
+    StateProvider["State Context - хранит count"]:::state
+    DispatchProvider["Dispatch Context - хранит setCount"]:::dispatch
+    
+    Display["Компонент дисплея"]:::ui
+    Button["Компонент кнопки"]:::ui
+    
+    StateProvider -->|Чтение значения| Display
+    DispatchProvider -->|Чтение функции| Button
+    
+    Button -->|Пользователь кликает| DispatchProvider
+    DispatchProvider -.->|Обновляет state| StateProvider
+    
+    StateProvider -->|Ре-рендер| Display
+    StateProvider -.->|НЕТ ре-рендера| Button
+    
+    classDef state fill:#e1bee7,stroke:#8e24aa,stroke-width:2px;
+    classDef dispatch fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px;
+    classDef ui fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
+```
 
 ```jsx
 // ❌ ПЛОХО: Изменение count вызовет ре-рендер кнопки, хотя кнопке нужен только setCount

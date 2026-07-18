@@ -1,4 +1,3 @@
-# Redux Toolkit (RTK) & RTK Query
 
 Redux — это пионер глобального управления состоянием, основанный на архитектуре Flux (Однонаправленный поток данных). 
 К 2026 году писать классический Redux с `switch/case` редьюсерами и бойлерплейтом — это legacy. Индустриальный стандарт — **Redux Toolkit (RTK)**.
@@ -9,8 +8,32 @@ Redux — это пионер глобального управления сос
 3. **Reducer**: Чистая функция `(state, action) => newState`.
 4. **Dispatch**: Функция отправки Action в Store.
 
+*Классическая архитектура однонаправленного потока данных (Flux):*
+```mermaid
+flowchart LR
+    UI["React Component"] -->|Событие пользователя| Dispatch["Dispatch Action"]
+    Dispatch -->|Action Object| Reducer["Reducer Функция"]
+    Reducer -->|Создает новый| Store["Redux Store"]
+    Store -->|useSelector| UI
+    
+    style Store fill:#e1bee7,stroke:#8e24aa,stroke-width:2px
+    style Reducer fill:#bbdefb,stroke:#1976d2,stroke-width:2px
+    style Dispatch fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    style UI fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+```
+
 ## 2. Магия Redux Toolkit (Immer.js)
 В классическом Redux вы обязаны были соблюдать строгую иммутабельность через spread-операторы. RTK использует под капотом библиотеку **Immer**.
+
+*Как Immer.js превращает мутации в иммутабельность:*
+```mermaid
+flowchart TD
+    Code["Мутирующий код: state.push"] -->|Перехват| Proxy["Immer Draft Proxy"]
+    Proxy -->|Сборка изменений| Immutable["Новый Immutable State"]
+    
+    style Proxy fill:#ffe0b2,stroke:#f57c00,stroke-width:2px
+    style Immutable fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+```
 
 **Edge Case / Необычная ситуация:** Вы *пишете* мутирующий код, но RTK *делает* его иммутабельным!
 ```javascript
@@ -60,6 +83,27 @@ RTK Query — это инструмент, встроенный в Redux Toolkit
 
 Он автоматизирует процесс создания состояний: `isLoading`, `isFetching`, `data`, `error`.
 Вместо того чтобы писать Thunks (`createAsyncThunk`), вы просто описываете эндпоинты API:
+
+*Архитектура дедупликации и кэширования в RTK Query:*
+```mermaid
+flowchart TD
+    CompA["Компонент A"] -->|useQuery| Cache["RTK Query Cache"]
+    CompB["Компонент B"] -->|Тот же useQuery| Cache
+    CompC["Компонент C"] -->|Тот же useQuery| Cache
+    
+    Cache --> Check{"Есть в кэше?"}
+    
+    Check -->|Да - отдаем сразу| ReturnData["Возврат данных в компоненты"]
+    Check -->|Нет - делаем ОДИН запрос| FetchAPI["HTTP Запрос"]
+    
+    FetchAPI --> API["Сервер API"]
+    API -->|Ответ| SaveCache["Сохранение в кэш"]
+    SaveCache --> ReturnData
+    
+    style Cache fill:#e1bee7,stroke:#8e24aa,stroke-width:2px
+    style FetchAPI fill:#ffccbc,stroke:#d84315,stroke-width:2px
+    style ReturnData fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+```
 
 ```javascript
 export const pokemonApi = createApi({

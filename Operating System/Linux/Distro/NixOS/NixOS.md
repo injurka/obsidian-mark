@@ -141,3 +141,13 @@ nixos-docs/
     └── nixos-options.md      # Поиск и описание опций NixOS (`nixos-option`, search.nixos.org)
 
 ```
+
+### 🔗 Несвязанные файлы (Unlinked Context)
+- [[01-introduction/01-what-is-nix|01-what-is-nix]]
+- [[01-introduction/02-what-is-nixos|02-what-is-nixos]]
+- [[01-introduction/03-why-nixos|03-why-nixos]]
+- [[01-introduction/04-core-concepts|04-core-concepts]]
+- [[09-development-environments/01-nix-shell|01-nix-shell]]
+- [[09-development-environments/02-nix-develop|02-nix-develop]]
+- [[09-development-environments/03-direnv-integration|03-direnv-integration]]
+- [[09-development-environments/04-cross-compilation|04-cross-compilation]]

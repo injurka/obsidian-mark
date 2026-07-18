@@ -1,4 +1,3 @@
-# Apollo Client (GraphQL)
 
 Apollo Client — это де-факто стандарт для работы с **GraphQL** в React-приложениях. Если TanStack Query и SWR в первую очередь предназначены для REST API (хотя могут работать и с GraphQL), то Apollo создавался специально и исключительно под GraphQL.
 
@@ -6,6 +5,32 @@ Apollo Client — это де-факто стандарт для работы с
 Это **главная "киллер-фича"** и фундаментальное отличие Apollo от React Query.
 
 Когда Apollo получает ответ от сервера, он не просто кладет JSON в память по ключу запроса. Он **парсит (нормализует)** его.
+
+```mermaid
+flowchart TD
+    subgraph Server Response
+        A["{\n  todos: [
+    { id: 1, text: 'Buy milk', author: { id: 10, name: 'Alex' } },
+    { id: 2, text: 'Read book', author: { id: 10, name: 'Alex' } }
+  ]
+}"]
+    end
+
+    subgraph ApolloNormalizedCache ["Apollo Normalized Cache (Плоская структура)"]
+        B["ROOT_QUERY.todos"] -->|Ref| C["Todo:1"]
+        B -->|Ref| D["Todo:2"]
+        
+        C -->|author Ref| E["User:10"]
+        D -->|author Ref| E
+        
+        C -.- C_Data["text: 'Buy milk'"]
+        D -.- D_Data["text: 'Read book'"]
+        E -.- E_Data["name: 'Alex'"]
+    end
+
+    A ==>|Нормализация| B
+```
+
 Каждый объект, у которого есть `__typename` и `id`, разделяется и кладется в плоскую таблицу (в памяти).
 
 **Почему это гениально?**

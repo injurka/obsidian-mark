@@ -2,3 +2,18 @@
 - ### [[Game Design]]
 - ### [[Термины]]
 - ### [[Жанры]]
+
+### 🔗 Несвязанные файлы (Unlinked Context)
+- [[Web/Dao of Ink/GAME DESIGN DOCUMENT|GAME DESIGN DOCUMENT]]
+- [[Web/Dao of Ink/GDD_Detailed/01_Game_Overview|01_Game_Overview]]
+- [[Web/Dao of Ink/GDD_Detailed/02_Narrative_and_Metagame|02_Narrative_and_Metagame]]
+- [[Web/Dao of Ink/GDD_Detailed/03_Visual_and_Audio_Style|03_Visual_and_Audio_Style]]
+- [[Web/Dao of Ink/GDD_Detailed/04_Economy_and_Resources|04_Economy_and_Resources]]
+- [[Web/Dao of Ink/GDD_Detailed/05_Game_Loop_and_Time_Structure|05_Game_Loop_and_Time_Structure]]
+- [[Web/Dao of Ink/GDD_Detailed/06_Game_Screens_and_Core_Mechanics|06_Game_Screens_and_Core_Mechanics]]
+- [[Web/Dao of Ink/GDD_Detailed/07_Research_Desk_Mechanics|07_Research_Desk_Mechanics]]
+- [[Web/Dao of Ink/GDD_Detailed/08_Grammar_and_Spell_Formulas|08_Grammar_and_Spell_Formulas]]
+- [[Web/Dao of Ink/GDD_Detailed/09_LLM_Integration_and_AI_Systems|09_LLM_Integration_and_AI_Systems]]
+- [[Web/Dao of Ink/GDD_Detailed/10_Technical_Architecture|10_Technical_Architecture]]
+- [[Web/Dao of Ink/GDD_Detailed/11_Visual_and_Asset_Pipeline|11_Visual_and_Asset_Pipeline]]
+- [[Дизайн-документ/1|1]]

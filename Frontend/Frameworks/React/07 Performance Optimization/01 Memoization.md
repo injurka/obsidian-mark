@@ -1,4 +1,3 @@
-# Memoization (Мемоизация)
 
 Мемоизация — это техника оптимизации, при которой сохраняется (кэшируется) результат дорогостоящей функции, и при повторном вызове с теми же аргументами возвращается закэшированный результат.
 
@@ -6,6 +5,25 @@
 
 ## 1. React.memo (HOC)
 По умолчанию в React, если рендерится родительский компонент, **БЕЗУСЛОВНО** рендерятся и все его дочерние компоненты, даже если их пропсы не изменились.
+
+```mermaid
+flowchart TD
+    classDef render fill:#ffb3b3,stroke:#cc0000,stroke-width:2px,color:#000
+    classDef skip fill:#d9ead3,stroke:#38761d,stroke-width:2px,color:#000
+
+    A["Parent (Обновился State)"]:::render --> B["Child A\n(Обычный компонент)"]:::render
+    A --> C["Child B\n(Обернут в React.memo)"]:::skip
+    
+    B --> D["GrandChild 1"]:::render
+    B --> E["GrandChild 2"]:::render
+    
+    C -.->|Рендер отсекается| F["GrandChild 3"]:::skip
+    C -.->|Рендер отсекается| G["GrandChild 4"]:::skip
+
+    style A text-align:center
+    style B text-align:center
+    style C text-align:center
+```
 
 Обернув компонент в `React.memo`, вы говорите React: *"Перед тем как рендерить этот компонент, проверь его пропсы. Если они строго равны предыдущим, пропусти рендер и используй старый результат"*.
 

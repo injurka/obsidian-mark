@@ -1,10 +1,24 @@
-# MobX
 
 MobX предлагает совершенно иной подход к управлению состоянием по сравнению с Redux, Zustand или Jotai. Если другие библиотеки пропагандируют **Функциональное программирование и Иммутабельность** (неизменяемость), то MobX построен на **Объектно-ориентированном программировании (ООП) и Мутабельности**.
 
 ## 1. Концепция: Прозрачная реактивность (Transparent Reactivity)
 В MobX вы создаете классы (или объекты), помечаете их свойства как "наблюдаемые" (observable), и можете изменять их напрямую, как обычные переменные `user.name = 'Alex'`. 
 Под капотом MobX использует **Proxy API**, чтобы перехватить это изменение и автоматически перерисовать те компоненты, которые читают это свойство.
+
+*Базовая архитектура однонаправленного потока данных в MobX:*
+```mermaid
+flowchart LR
+    Action["Action - Мутация"] --> State["Observable State"]
+    State --> Computed["Computed - Вычисления"]
+    State --> View["Observer Component - UI"]
+    Computed --> View
+    View -->|Событие юзера| Action
+
+    style State fill:#e1bee7,stroke:#8e24aa,stroke-width:2px
+    style Action fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    style Computed fill:#bbdefb,stroke:#1976d2,stroke-width:2px
+    style View fill:#ffccbc,stroke:#d84315,stroke-width:2px
+```
 
 ### Базовый пример
 ```javascript
@@ -49,6 +63,25 @@ MobX невероятно точен в своих оптимизациях. К�
 Это самая частая причина, почему "MobX не работает" у новичков.
 
 Поскольку MobX отслеживает обращения к свойствам (`timer.secondsPassed`) **через геттеры Proxy во время рендера**, вы должны "читать" свойство именно внутри компонента-обозревателя (`observer`).
+
+*Как теряется реактивность при передаче пропсов:*
+```mermaid
+flowchart TD
+    subgraph BadScenario [ПЛОХО - Потеря реактивности]
+        StoreB["Объект Стора"] -->|Чтение Proxy| ParentB["Parent читает secondsPassed"]
+        ParentB -->|Передает примитив| ChildB["Child получает просто число"]
+        ChildB -.->|MobX не видит Child| Unlinked["Нет обновления Child"]
+    end
+
+    subgraph GoodScenario [ХОРОШО - Сохранение ссылки]
+        StoreG["Объект Стора"] -->|Передача объекта| ParentG["Parent передает timer целиком"]
+        ParentG -->|Пропс timer| ChildG["Child вызывает timer.secondsPassed"]
+        ChildG -->|Чтение Proxy| Updates["MobX обновляет Child"]
+    end
+
+    style BadScenario fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style GoodScenario fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+```
 
 **❌ ПЛОХО: Потеря реактивности**
 ```jsx

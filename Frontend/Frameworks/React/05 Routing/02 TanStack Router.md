@@ -1,4 +1,3 @@
-# TanStack Router
 
 К 2026 году **TanStack Router** стал главным конкурентом React Router. Если React Router пошел по пути объединения с серверным фреймворком (Remix), то TanStack Router сделал ставку на **100% Typesafe (Типобезопасность)**.
 
@@ -14,6 +13,15 @@ navigate('/users');
 
 ## 2. Решение TanStack Router: Генерация типов
 TanStack Router анализирует вашу структуру файлов (если используется File-based routing) или дерево маршрутов и генерирует гигантский файл TypeScript с точными типами всех возможных URL в вашем приложении.
+
+```mermaid
+flowchart LR
+    A["File System\n(pages/posts/$postId.tsx)"] -->|TanStack Compiler| B{"routeTree.gen.ts"}
+    B -->|Предоставляет типы| C["Компонент <Link>"]
+    B -->|Предоставляет типы| D["Хук useNavigate()"]
+    
+    C -.->|Строгая проверка| E["TS Error: 'postId' is missing!"]
+```
 
 **Что вы получаете:**
 - **Автодополнение (Autocomplete):** Когда вы пишете `<Link to="/... ">`, IDE предложит вам только существующие пути!

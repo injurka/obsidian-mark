@@ -1,0 +1,63 @@
+# Static Site Generation (SSG)
+
+## Инженерная история
+**Что это:** Стратегия рендеринга, при которой HTML-страницы генерируются один раз на этапе сборки (build time) и затем раздаются как статические файлы.
+**Какую боль решаем:** Классический SSR требует серверных вычислений на каждый запрос, что дорого и медленно при высоких нагрузках. SPA (Client-Side Rendering) отдает пустой HTML, заставляя клиента качать мегабайты JS, ухудшая SEO и First Contentful Paint (FCP). SSG решает обе проблемы: мы получаем готовый HTML мгновенно.
+**Где применимо:** Блоги, документация, маркетинговые лендинги, e-commerce каталоги (где цены меняются редко).
+**Где ломается:** На проектах с высокой частотой обновления данных (соцсети, биржевые сводки) или с персонализированным контентом (дашборды). Если у вас миллион страниц, сборка проекта может занять часы.
+
+## Архитектура работы
+
+```mermaid
+sequenceDiagram
+    participant D as Data Source (CMS/DB)
+    participant B as Build Server (CI/CD)
+    participant C as CDN
+    participant U as Client (Browser)
+
+    Note over D,B: 1. Build Time
+    B->>D: Fetch data for all pages
+    D-->>B: Data
+    B->>B: Render HTML & JS bundles
+    B->>C: Upload static assets
+
+    Note over C,U: 2. Runtime (Any time)
+    U->>C: GET /page
+    C-->>U: Cached HTML (Instant)
+```
+
+## Пример кода (Паттерн Next.js)
+
+```javascript
+// Паттерн: Предварительная генерация путей и данных
+export async function getStaticPaths() {
+  const posts = await fetch('https://api.example.com/posts').then(r => r.json());
+  const paths = posts.map(post => ({ params: { id: post.id.toString() } }));
+  
+  return { paths, fallback: false }; // fallback: false значит отдавать 404 для неизвестных путей
+}
+
+export async function getStaticProps({ params }) {
+  const post = await fetch(`https://api.example.com/posts/${params.id}`).then(r => r.json());
+  
+  return {
+    props: { post },
+  };
+}
+
+export default function Post({ post }) {
+  return (
+    <article>
+      <h1>{post.title}</h1>
+      <p>{post.content}</p>
+    </article>
+  );
+}
+```
+
+## Неочевидные нюансы
+
+1. **Проблема O(n) времени сборки:** Время сборки SSG линейно зависит от количества страниц. 100 страниц соберутся за секунды, 1 000 000 страниц заблокируют CI/CD пайплайн на часы.
+2. **"Мертвый" контент:** Как только сборка завершена, данные устаревают. Чтобы обновить опечатку в статье, нужно пересобрать весь сайт (или использовать ISR).
+3. **Безопасность:** SSG невероятно безопасен. Нет сервера, исполняющего код в рантайме — нечего взламывать, кроме CDN.
+4. **Гидратация:** Несмотря на то, что HTML статический, если вы используете React/Vue, клиенту все равно нужно скачать JS-бандл и "гидратировать" страницу, чтобы она стала интерактивной. Это накладывает оверхед на Time to Interactive (TTI).

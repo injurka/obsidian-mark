@@ -1,4 +1,3 @@
-# SWR (Stale-While-Revalidate)
 
 SWR — это библиотека для получения данных (Data Fetching), созданная командой Vercel (создателями Next.js). Название происходит от HTTP-заголовка кэширования `stale-while-revalidate`.
 

@@ -1,4 +1,3 @@
-# HOCs & Render Props
 
 Эти два паттерна были фундаментом React до 2019 года (до появления Хуков). К 2026 году они считаются устаревшими (Legacy), но их **обязательно** нужно знать для собеседований и работы со старым кодом. 
 Оба паттерна решали одну задачу: **переиспользование логики между компонентами**.
@@ -35,10 +34,38 @@ export default withAuth(ProfilePage); // Экспортируем обернут
 `withRouter(withTheme(withAuth(ProfilePage)))`. 
 Это создавало гигантское, нечитаемое дерево компонентов в React DevTools (Wrapper Hell) и порождало коллизии имен пропсов.
 
+*Как выглядит дерево компонентов при использовании нескольких HOC:*
+```mermaid
+flowchart TD
+    subgraph WrapperHell [Wrapper Hell - Эффект Матрешки]
+        Router["withRouter"] --> Theme["withTheme"]
+        Theme --> Auth["withAuth"]
+        Auth --> Comp["ProfilePage - Целевой компонент"]
+    end
+    
+    style Router fill:#ffccbc,stroke:#d84315,stroke-width:2px;
+    style Theme fill:#ffe0b2,stroke:#f57c00,stroke-width:2px;
+    style Auth fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
+    style Comp fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px;
+```
+
 ---
 
 ## 2. Render Props
 Паттерн, при котором компонент принимает функцию, возвращающую React-элемент, и вызывает её внутри своего рендера, передавая ей свои данные.
+
+*Инверсия контроля в Render Props: логика отделена от отображения:*
+```mermaid
+flowchart LR
+    Tracker["MouseTracker - хранит координаты"]:::logic
+    UI["App - решает как отрисовать"]:::ui
+    
+    Tracker -->|Передает стейт x y| UI
+    UI -->|Возвращает готовый JSX| Tracker
+    
+    classDef logic fill:#bbdefb,stroke:#1976d2,stroke-width:2px;
+    classDef ui fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px;
+```
 
 ### Пример: Отслеживание мыши
 ```jsx
@@ -76,6 +103,27 @@ function App() {
 
 ## 3. Как Хуки убили эти паттерны?
 Хуки (`Hooks`) элегантно решили проблему переиспользования логики, не меняя дерево компонентов!
+
+*Эволюция переиспользования логики:*
+```mermaid
+flowchart TD
+    subgraph Legacy [Legacy: Глубокая вложенность дерева]
+        A["<withAuth>"] --> B["<ThemeRenderProp>"]
+        B --> C["<MouseTracker>"]
+        C --> D["<MyComponent>"]
+    end
+
+    subgraph Modern [Modern Hooks: Плоская структура]
+        UIComp["<MyComponent>"]:::main
+        Hook1["useAuth"] -.->|Подмешивает логику| UIComp
+        Hook2["useTheme"] -.->|Подмешивает логику| UIComp
+        Hook3["useMouse"] -.->|Подмешивает логику| UIComp
+    end
+
+    style Legacy fill:#ffebee,stroke:#c62828,stroke-width:2px;
+    style Modern fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef main fill:#bbdefb,stroke:#1976d2,stroke-width:2px;
+```
 
 Вместо HOC `withAuth`, мы просто пишем `const user = useAuth()`.
 Вместо компонента `<MouseTracker render={...}>`, мы пишем `const { x, y } = useMouse()`.

@@ -1,4 +1,3 @@
-# Remix (React Router v7)
 
 Remix — это мета-фреймворк, созданный авторами оригинального React Router. В 2026 году граница между Remix и React Router стерлась (Remix по сути стал React Router v7).
 

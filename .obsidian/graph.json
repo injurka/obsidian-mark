@@ -2,7 +2,7 @@
   "collapse-filter": false,
   "search": "-path:\"Gamedev/UE/Дизайн Документы/Fauna Locus\" -file:MarkMaid -path:Excalidraw",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
@@ -100,8 +100,8 @@
   "collapse-forces": false,
   "centerStrength": 0,
   "repelStrength": 0,
-  "linkStrength": 1,
+  "linkStrength": 0.715583195382757,
   "linkDistance": 30,
-  "scale": 0.6316045427275239,
+  "scale": 0.3213363267272897,
   "close": false
 }

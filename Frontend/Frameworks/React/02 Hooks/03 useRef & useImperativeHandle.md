@@ -1,4 +1,3 @@
-# useRef & useImperativeHandle
 
 ## 1. useRef
 Хук `useRef` возвращает мутабельный объект (ref object) со свойством `.current`. У него есть два основных применения:

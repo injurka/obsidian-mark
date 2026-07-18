@@ -1,4 +1,3 @@
-# Introduction to RSC (React Server Components)
 
 React Server Components (RSC) — это революционное изменение архитектуры React, представленное полноценно в React 18 и ставшее стандартом де-факто в современных мета-фреймворках (например, Next.js App Router) к 2026 году.
 
@@ -12,6 +11,32 @@ React Server Components (RSC) — это революционное измене
 
 ## 2. RSC vs SSR (В чем разница?)
 Это один из самых частых вопросов на собеседованиях! Многие путают Server-Side Rendering (SSR) и Server Components.
+
+```mermaid
+sequenceDiagram
+    participant Browser
+    participant Server
+    participant DB as Database
+
+    Note over Browser, DB: Традиционный SPA / Client-Side
+    Browser->>Server: 1. GET /
+    Server-->>Browser: 2. Пустой HTML + скрипт бандла
+    Browser->>Server: 3. Скачивание JS-бандла
+    Note over Browser: 4. Выполнение JS (Рендер)
+    Browser->>Server: 5. API запрос (fetch)
+    Server->>DB: 6. SQL запрос
+    DB-->>Server: 7. Данные
+    Server-->>Browser: 8. JSON ответ
+    Note over Browser: 9. Финальный рендер UI
+
+    Note over Browser, DB: React Server Components (RSC)
+    Browser->>Server: 1. GET /
+    Server->>DB: 2. Прямой SQL запрос
+    DB-->>Server: 3. Данные
+    Note over Server: 4. Рендер компонентов на сервере
+    Server-->>Browser: 5. Готовый HTML + RSC Payload
+    Note over Browser: 6. Отображение (Не нужен доп. fetch!)
+```
 
 - **SSR (Server-Side Rendering)**: Это техника **отображения**. Сервер берет ваши обычные клиентские компоненты, прогоняет их один раз, генерирует начальный HTML и отдает браузеру. Но потом браузер все равно должен скачать **весь код этих компонентов**, чтобы провести "Гидратацию" (Hydration) — привязать обработчики событий (`onClick`, `useEffect`).
 - **RSC (React Server Components)**: Это новая **архитектура**. Серверный компонент выполняется ТОЛЬКО на сервере. Его код никогда не попадает в бандл. Гидратация для него не нужна.
@@ -32,4 +57,22 @@ React Server Components (RSC) — это революционное измене
 
 ## 4. Как RSC передаются в браузер (RSC Payload)
 Когда серверный компонент рендерится, React превращает его не просто в HTML, а в специальный формат — **RSC Payload** (своего рода виртуальный DOM в виде JSON строки), где описаны узлы дерева.
+
+```mermaid
+flowchart TD
+    classDef server fill:#d3e4ff,stroke:#0052cc,stroke-width:2px,color:#000
+    classDef client fill:#ffe4cc,stroke:#cc5200,stroke-width:2px,color:#000
+    
+    A["RootLayout\n(Серверный)"]:::server --> B["Header\n(Серверный)"]:::server
+    A --> C["ArticleList\n(Серверный, fetch из БД)"]:::server
+    
+    B --> D["SearchBar\n(Клиентский, 'use client')"]:::client
+    B --> E["Logo\n(Серверный)"]:::server
+    
+    D --> F["Dropdown\n(Клиентский)"]:::client
+    
+    C --> G["LikeButton\n(Клиентский, 'use client')"]:::client
+    C --> H["ArticleText\n(Серверный)"]:::server
+```
+
 Если в этом дереве встречается Клиентский компонент (Client Component), сервер вставляет туда "дырку" со ссылкой на JS-файл бандла. На клиенте React берет RSC Payload, подгружает нужные JS-куски и бесшовно "сшивает" серверные и клиентские компоненты вместе.

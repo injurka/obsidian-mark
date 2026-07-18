@@ -1,4 +1,3 @@
-# Data Fetching with RSC (Получение данных)
 
 С приходом React Server Components получение данных (Data Fetching) сильно упростилось. Мы вернулись к парадигме простого серверного программирования без необходимости использования `useEffect` для запросов.
 
@@ -15,7 +14,7 @@ export default async function UserDashboard({ userId }) {
   const notifications = await db.notifications.getForUser(userId);
 
   return (
-    <div>
+    <div>[[03 Server Actions & Mutations]]
       <h1>Привет, {user.name}</h1>
       <ul>
         {notifications.map(n => <li key={n.id}>{n.text}</li>)}

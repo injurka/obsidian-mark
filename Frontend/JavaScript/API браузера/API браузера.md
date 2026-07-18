@@ -15,4 +15,9 @@
 - ### [[Web Speech]]
 - ### [[Web Transport]]
 - ### [[Web XR Device]]
-  
+
+### 🔗 Несвязанные файлы (Unlinked Context)
+- [[Payment Handler API]]
+- [[Reporting API]]
+- [[WebGPU]]
+- [[WebMCP]]

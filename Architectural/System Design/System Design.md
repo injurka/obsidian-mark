@@ -67,3 +67,11 @@ System_Design/
 │
 ├── 05_Glossary_Common_Terms.md               # (Key terms like ACID, BASE, Latency, Throughput etc.)
 ```
+
+### 🔗 Несвязанные файлы (Unlinked Context)
+- [[01 Core Process Steps/01 Gathering Requirements|01 Gathering Requirements]]
+- [[01 Core Process Steps/02 Capacity Estimation Load|02 Capacity Estimation Load]]
+- [[01 Core Process Steps/03 High Level Design|03 High Level Design]]
+- [[01 Core Process Steps/04 Detailed Component Design|04 Detailed Component Design]]
+- [[01 Core Process Steps/05 Database Selection Rationale|05 Database Selection Rationale]]
+- [[02 Key Concepts Techniques/01 Scalability/01 Load Balancing|01 Load Balancing]]

@@ -1,4 +1,3 @@
-# CSS-in-JS (Emotion, Styled Components)
 
 С 2018 по 2022 годы CSS-in-JS был королем React-разработки. Инструменты вроде **Styled Components** и **Emotion** позволяли писать CSS прямо внутри JS-файлов, используя шаблонные строки (Tagged Template Literals).
 
