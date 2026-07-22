@@ -7,7 +7,7 @@
 
 ## 00. Навигация и мета
 
-- [[README]]
+- [[README - Навигация и мета]]
 - [[Roadmap изучения]]
 - [[Антипаттерны]]
 - [[Глоссарий]]
@@ -59,9 +59,9 @@
 - [[Law of Demeter]]
 - [[Principle of Least Knowledge]]
 - [[Separation of Concerns]]
-- [[Single Source of Truth]]
+- [[Single Source of Truth (Принцип проектирования)]]
 - [[YAGNI]]
-- [[README]]
+- [[README - Фундаментальные принципы]]
 
 ## 02. Архитектурные стили и подходы
 
@@ -81,7 +81,7 @@
 ### Domain Driven Design
 
 - [[Aggregate]]
-- [[Anti Corruption Layer]]
+- [[Anti Corruption Layer (DDD)]]
 - [[Bounded Context]]
 - [[DDD во Frontend]]
 - [[Domain Event]]
@@ -112,7 +112,7 @@
 
 ### Потоковые и событийные подходы
 
-- [[Actor Model]]
+- [[Actor Model (Конкурентность и события)]]
 - [[CQRS]]
 - [[Event Bus]]
 - [[Event Driven Architecture]]
@@ -128,7 +128,7 @@
 - [[Presentation Application Domain Infrastructure]]
 - [[Нарушения слоистой архитектуры]]
 - [[Правила зависимостей между слоями]]
-- [[README]]
+- [[README - Архитектурные стили]]
 
 ## 03. Границы приложения и модульность
 
@@ -147,8 +147,8 @@
 
 ### Контракты модулей
 
-- [[Anti Corruption Layer]]
-- [[DTO]]
+- [[Anti Corruption Layer (Контракты модулей)]]
+- [[DTO (Границы модулей)]]
 - [[Facade Pattern]]
 - [[Internal API модуля]]
 - [[Mapping между моделями]]
@@ -168,7 +168,7 @@
 
 - [[Barrel Exports]]
 - [[Composition Root]]
-- [[Dependency Constraints]]
+- [[Dependency Constraints (Слои и модули)]]
 - [[Dependency Graph]]
 - [[Dependency Injection]]
 - [[Dependency Inversion]]
@@ -176,7 +176,7 @@
 - [[Service Locator]]
 - [[Направление зависимостей]]
 - [[Циклические зависимости]]
-- [[README]]
+- [[README - Границы и модульность]]
 
 ## 04. Методологии организации Frontend-кода
 
@@ -187,8 +187,8 @@
 - [[Atoms]]
 - [[Molecules]]
 - [[Organisms]]
-- [[Pages]]
-- [[README]]
+- [[Pages (Atomic Design)]]
+- [[README - Методологии]]
 - [[Templates]]
 - [[Ограничения Atomic Design]]
 
@@ -200,13 +200,13 @@
 - [[App]]
 - [[Entities]]
 - [[Features]]
-- [[Pages]]
+- [[Pages (FSD)]]
 - [[Processes]]
 - [[Shared]]
 - [[Widgets]]
 - [[Cross Imports]]
 - [[Public API]]
-- [[README]]
+- [[README - FSD]]
 - [[Антипаттерны FSD]]
 - [[Миграция на FSD]]
 - [[Обзор FSD]]
@@ -231,7 +231,7 @@
 - [[FSD против DDD]]
 - [[Layer First против Feature First]]
 - [[Выбор структуры проекта]]
-- [[README]]
+- [[README - Atomic Design]]
 
 ## 05. Компонентная архитектура
 
@@ -240,13 +240,13 @@
 
 - [[Context API]]
 - [[Custom Hooks]]
-- [[Error Boundaries]]
+- [[Error Boundaries (React)]]
 - [[Hooks как архитектурный слой]]
 - [[Portals]]
 - [[Props Drilling]]
 - [[React Component Model]]
-- [[Server Actions]]
-- [[Server Components]]
+- [[Server Actions (React архитектура)]]
+- [[Server Components (React архитектура)]]
 - [[Suspense Boundaries]]
 
 ### Жизненный цикл UI
@@ -286,7 +286,7 @@
 - [[Ответственность компонента]]
 - [[Полиморфные компоненты]]
 - [[Универсальные и предметные компоненты]]
-- [[README]]
+- [[README - Компонентная архитектура]]
 
 ## 06. Design System и UI Platform
 
@@ -294,7 +294,7 @@
 ### Инструменты
 
 - [[Design to Code]]
-- [[Documentation as Code]]
+- [[Documentation as Code (Дизайн-система)]]
 - [[Figma Integration]]
 - [[Storybook]]
 - [[Visual Regression Testing]]
@@ -322,11 +322,11 @@
 
 ### Темизация и бренды
 
-- [[Dark Mode]]
+- [[Dark Mode (Дизайн-система)]]
 - [[Multi Brand Architecture]]
 - [[Multi Theme Architecture]]
 - [[Runtime Theming]]
-- [[Theming]]
+- [[Theming (Дизайн-система)]]
 - [[White Label]]
 
 ### Токены
@@ -338,7 +338,7 @@
 - [[Semantic Tokens]]
 - [[Token Naming]]
 - [[Token Transformations]]
-- [[README]]
+- [[README - Design System]]
 
 ## 07. Данные, состояние и бизнес-логика
 
@@ -367,13 +367,13 @@
 - [[Normalized State]]
 - [[Persisted State]]
 - [[Server State]]
-- [[Single Source of Truth]]
+- [[Single Source of Truth (Модель состояния)]]
 - [[State Ownership]]
 - [[URL State]]
 
 ### Подходы к управлению состоянием
 
-- [[Actor Model]]
+- [[Actor Model (Управление состоянием)]]
 - [[CQRS для Frontend]]
 - [[Event Driven State]]
 - [[Finite State Machines]]
@@ -385,11 +385,11 @@
 
 ### Синхронизация состояния
 
-- [[Conflict Resolution]]
-- [[Conflict-free Replicated Data Types (CRDT)]]
+- [[Conflict Resolution (Синхронизация состояния)]]
+- [[CRDT (Коллаборативное редактирование)]]
 - [[Cross Tab Synchronization]]
 - [[Eventual Consistency]]
-- [[Offline First]]
+- [[Offline First (Синхронизация состояния)]]
 - [[Optimistic Updates]]
 - [[Pessimistic Updates]]
 - [[Race Conditions]]
@@ -409,7 +409,7 @@
 - [[Local Storage vs Session Storage vs Cookies]]
 - [[ORM для IndexedDB]]
 - [[Управление квотами браузера]]
-- [[README]]
+- [[README - Данные и состояние]]
 
 ## 08. API, сетевой слой и интеграции
 
@@ -438,22 +438,22 @@
 - [[Code Generation]]
 - [[Contract First]]
 - [[Domain Models]]
-- [[DTO]]
+- [[DTO (API контракты)]]
 - [[GraphQL Schema]]
 - [[Mapping]]
 - [[OpenAPI]]
-- [[Runtime Validation]]
+- [[Runtime Validation (API контракты)]]
 - [[Schema Evolution]]
 
 ### Паттерны интеграции
 
 - [[Adapter Pattern]]
 - [[Aggregator Pattern]]
-- [[Anti Corruption Layer]]
+- [[Anti Corruption Layer (Интеграция с Legacy)]]
 - [[API Composition]]
 - [[API Gateway]]
 - [[BFF Backend For Frontend]]
-- [[Strangler Fig Pattern]]
+- [[Strangler Fig Pattern (API миграция)]]
 
 ### Сетевой слой
 
@@ -480,7 +480,7 @@
 - [[Polling]]
 - [[Real Time Updates]]
 - [[Streaming]]
-- [[README]]
+- [[README - API и интеграции]]
 
 ## 09. Кэширование и офлайн-архитектура
 
@@ -489,11 +489,11 @@
 
 - [[Background Sync]]
 - [[Cache Storage]]
-- [[Conflict Resolution]]
-- [[Conflict-free Replicated Data Types (CRDT)]]
+- [[Conflict Resolution (Offline First)]]
+- [[CRDT (Offline и P2P)]]
 - [[IndexedDB]]
 - [[Offline First Architecture]]
-- [[Offline First]]
+- [[Offline First (Архитектура)]]
 - [[Offline Mutations]]
 - [[Service Workers]]
 - [[Sync Queue]]
@@ -519,7 +519,7 @@
 ### Управление кэшем
 
 - [[Cache Busting]]
-- [[Cache Invalidation]]
+- [[Cache Invalidation (Данные и API)]]
 - [[Cache Keys]]
 - [[Cache Tags]]
 - [[Cache TTL]]
@@ -538,7 +538,7 @@
 - [[Server State Cache]]
 - [[Service Worker Cache]]
 - [[Уровни кэширования]]
-- [[README]]
+- [[README - Кэширование]]
 
 ## 10. Роутинг, rendering и доставка UI
 
@@ -562,8 +562,8 @@
 - [[Partial Hydration]]
 - [[Progressive Hydration]]
 - [[Resumability]]
-- [[Server Actions]]
-- [[Server Components]]
+- [[Server Actions (Rendering)]]
+- [[Server Components (Rendering)]]
 - [[SSG]]
 - [[SSR]]
 - [[Streaming SSR]]
@@ -591,7 +591,7 @@
 - [[Route Guards]]
 - [[Route Level Code Splitting]]
 - [[Архитектура роутинга]]
-- [[README]]
+- [[README - Роутинг и rendering]]
 
 ## 11. CSS и архитектура стилизации
 
@@ -600,12 +600,12 @@
 
 - [[Container Queries]]
 - [[CSS Custom Properties]]
-- [[Dark Mode]]
+- [[Dark Mode (CSS-архитектура)]]
 - [[Logical Properties]]
 - [[Mobile First]]
 - [[Responsive Design]]
 - [[RTL]]
-- [[Theming]]
+- [[Theming (CSS-архитектура)]]
 
 ### Методологии
 
@@ -641,7 +641,7 @@
 - [[Tailwind CSS]]
 - [[Vanilla Extract]]
 - [[Zero Runtime CSS]]
-- [[README]]
+- [[README - CSS архитектура]]
 
 ## 12. Производительность
 
@@ -694,7 +694,7 @@
 - [[prefetch]]
 - [[preload]]
 - [[Resource Hints]]
-- [[README]]
+- [[README - Производительность]]
 
 ## 13. Microfrontends и Frontend Platform
 
@@ -705,7 +705,7 @@
 - [[E2E Testing]]
 - [[Error Isolation]]
 - [[Independent Deployment]]
-- [[Independent Versioning]]
+- [[Independent Versioning (Микрофронтенды)]]
 - [[Local Development]]
 - [[Migration to Microfrontends]]
 
@@ -733,7 +733,7 @@
 ### Основы Microfrontends
 
 - [[Conway Law]]
-- [[Team Topologies]]
+- [[Team Topologies (Микрофронтенды)]]
 - [[Вертикальные Microfrontends]]
 - [[Горизонтальные Microfrontends]]
 - [[Когда не нужны Microfrontends]]
@@ -750,7 +750,7 @@
 - [[Run Time Integration]]
 - [[Server Side Composition]]
 - [[Web Components]]
-- [[README]]
+- [[README - Microfrontends]]
 
 ## 14. Monorepo, пакеты и Build System
 
@@ -783,7 +783,7 @@
 
 - [[Affected Projects]]
 - [[Apps и Packages]]
-- [[Dependency Constraints]]
+- [[Dependency Constraints (Monorepo и Nx)]]
 - [[Internal Packages]]
 - [[Monorepo Architecture]]
 - [[Monorepo против Polyrepo]]
@@ -796,7 +796,7 @@
 
 - [[Changesets]]
 - [[Fixed Versioning]]
-- [[Independent Versioning]]
+- [[Independent Versioning (Monorepo)]]
 - [[Package Publishing]]
 - [[Private Packages]]
 - [[Semantic Versioning]]
@@ -810,7 +810,7 @@
 - [[Rush]]
 - [[Turborepo]]
 - [[Yarn Workspaces]]
-- [[README]]
+- [[README - Monorepo]]
 
 ## 15. TypeScript как архитектурный инструмент
 
@@ -819,7 +819,7 @@
 
 - [[Assertion Functions]]
 - [[io-ts]]
-- [[Runtime Validation]]
+- [[Runtime Validation (TypeScript)]]
 - [[Strict Mode]]
 - [[Type Guards]]
 - [[unknown против any]]
@@ -853,7 +853,7 @@
 - [[Template Literal Types]]
 - [[Type Level Programming]]
 - [[Utility Types]]
-- [[README]]
+- [[README - TypeScript]]
 
 ## 16. Безопасность и надежность
 
@@ -876,7 +876,7 @@
 ### Resilience
 
 - [[Circuit Breaker]]
-- [[Error Boundaries]]
+- [[Error Boundaries (Resilience)]]
 - [[Error Taxonomy]]
 - [[Fallback UI]]
 - [[Global Error Handling]]
@@ -906,7 +906,7 @@
 - [[Threat Modeling]]
 - [[Trusted Types]]
 - [[XSS]]
-- [[README]]
+- [[README - Безопасность]]
 
 ## 17. Тестирование и качество
 
@@ -950,7 +950,7 @@
 - [[Mock Service Worker]]
 - [[Test Data Management]]
 - [[Test Environments]]
-- [[README]]
+- [[README - Тестирование]]
 
 ## 18. Observability, аналитика и эксплуатация
 
@@ -986,7 +986,7 @@
 - [[Event Taxonomy]]
 - [[Experiment Analytics]]
 - [[Privacy Friendly Analytics]]
-- [[README]]
+- [[README - Observability]]
 
 ## 19. CI CD, инфраструктура и delivery
 
@@ -1016,7 +1016,7 @@
 
 ### Hosting и доставка
 
-- [[Cache Invalidation]]
+- [[Cache Invalidation (Статика и CDN)]]
 - [[CDN]]
 - [[Edge Computing]]
 - [[Multi Region Delivery]]
@@ -1030,7 +1030,7 @@
 - [[Pulumi]]
 - [[Secrets in Infrastructure]]
 - [[Terraform]]
-- [[README]]
+- [[README - CI CD]]
 
 ## 20. System Design для Frontend
 
@@ -1079,7 +1079,7 @@
 - [[Архитектура редактора]]
 - [[Архитектура социальной сети]]
 - [[Архитектура чата]]
-- [[README]]
+- [[README - System Design]]
 
 ## 21. Доступность и интернационализация
 
@@ -1108,7 +1108,7 @@
 - [[Pluralization]]
 - [[RTL Layout]]
 - [[Translation Management]]
-- [[README]]
+- [[README - Доступность и i18n]]
 
 ## 22. Архитектурное управление
 
@@ -1116,7 +1116,7 @@
 ### Документация
 
 - [[ADR]]
-- [[Documentation as Code]]
+- [[Documentation as Code (Архитектурная документация)]]
 - [[README Driven Development]]
 - [[RFC Process]]
 - [[Технические стандарты]]
@@ -1128,7 +1128,7 @@
 - [[Frontend Platform Team]]
 - [[Knowledge Sharing]]
 - [[Onboarding]]
-- [[Team Topologies]]
+- [[Team Topologies (Организация команд)]]
 
 ### Процессы
 
@@ -1144,7 +1144,7 @@
 - [[Incremental Migration]]
 - [[Legacy Modernization]]
 - [[Migration Playbook]]
-- [[Strangler Fig Pattern]]
+- [[Strangler Fig Pattern (Frontend миграция)]]
 - [[Измерение качества архитектуры]]
 - [[Управление техническим долгом]]
-- [[README]]
+- [[README - Архитектурное управление]]

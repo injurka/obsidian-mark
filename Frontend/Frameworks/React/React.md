@@ -90,4 +90,4 @@
 
 ### 🔗 Несвязанные файлы (Unlinked Context)
 - [[01 Core Concepts/05 JSX.Element ~ ReactNode ~ React Component|05 JSX.Element ~ ReactNode ~ React Component]]
-- [[История версий]]
+- [[История версий (React)]]

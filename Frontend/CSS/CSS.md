@@ -1,7 +1,7 @@
 - ### [[Frontend/CSS/Основы/Основы|Основы]]
 - ### [[Методологии]]
 - ### [[Препроцессоры]]
-- ### [[Заметки]]
+- ### [[Заметки (CSS)]]
 
 ### 🔗 Несвязанные файлы (Unlinked Context)
 - [[Modern CSS/Cascade Layers (@layer)|Cascade Layers (@layer)]]

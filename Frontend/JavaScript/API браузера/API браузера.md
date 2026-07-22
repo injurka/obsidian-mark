@@ -5,7 +5,7 @@
 - ### [[Geolocation]]
 - ### [[Media Session]]
 - ### [[Custom Elements]]
-- ### [[Intl]]
+- ### [[Intl (API браузера)]]
 - ### [[Frontend/JavaScript/API браузера/WebRTC/WebRTC|WebRTC]]
 - ### [[Web Push]]
 - ### [[Web Workers]]

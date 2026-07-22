@@ -1,771 +1,458 @@
-- ### [[Виртуализация]]
-- ### [[Docker]]
-- ### [[Kubernetes]]
-- ### [[DevOps/Load Balancing]]
-- ### [[Nginx]]
-- ### [[Tunnel]]
-- ### [[Deployment]]
-- ### [[Prometheus]]
-- ### [[Интеграция с CI_CD]]
+# 🗺️ DevOps-Guide
 
-### 🔗 Несвязанные файлы (Unlinked Context)
-- [[Архитектура, отказоустойчивость и эксплуатация баз данных]]
+## 00 Обзор и методология
 
+- [[DevOps/DevOps-Guide/00 Обзор и методология/DevOps|DevOps]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/DevSecOps|DevSecOps]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/GitOps|GitOps]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/Platform Engineering|Platform Engineering]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/Internal Developer Portal (Backstage, Port)|Internal Developer Portal (Backstage, Port)]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/MLOps и LLMOps|MLOps и LLMOps]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/SRE|SRE]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/SDLC|SDLC]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/CALMS|CALMS]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/DORA и SPACE метрики|DORA и SPACE метрики]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/Team Topologies|Team Topologies]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/Well-Architected Framework|Well-Architected Framework]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/Жизненный цикл приложения|Жизненный цикл приложения]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/Роли и зоны ответственности|Роли и зоны ответственности]]
+- [[DevOps/DevOps-Guide/00 Обзор и методология/Чеклисты|Чеклисты]]
 
----
+## 01 Linux и ОС
 
-```text
-DevOps
-├── 00-Обзор-и-методология
-│   ├── DevOps.md
-│   ├── DevSecOps.md
-│   ├── GitOps.md
-│   ├── Platform-Engineering.md
-│   ├── SRE.md
-│   ├── SDLC.md
-│   ├── CALMS.md
-│   ├── DORA-метрики.md
-│   ├── Team-Topologies.md
-│   ├── Well-Architected-Framework.md
-│   ├── Жизненный-цикл-приложения.md
-│   ├── Роли-и-зоны-ответственности.md
-│   └── Чеклисты.md
-├── 01-Linux-и-ОС
-│   ├── Linux.md
-│   ├── Файловая-система.md
-│   ├── Права-доступа-и-ACL.md
-│   ├── Пользователи-и-группы.md
-│   ├── Процессы-и-сигналы.md
-│   ├── Systemd.md
-│   ├── Systemd
-│   │   ├── Units.md
-│   │   ├── Services.md
-│   │   ├── Timers.md
-│   │   ├── Journald.md
-│   │   └── Cgroups.md
-│   ├── Bash.md
-│   ├── Shell-Scripting.md
-│   ├── Cron-и-планировщики.md
-│   ├── Логирование.md
-│   ├── Управление-пакетами.md
-│   ├── Ядро-Linux.md
-│   ├── Kernel-Parameters-sysctl.md
-│   ├── LVM-и-разделы.md
-│   ├── RAID.md
-│   ├── NFS.md
-│   ├── Samba.md
-│   ├── SSH.md
-│   ├── SSH-Hardening.md
-│   ├── Производительность-Linux.md
-│   ├── Troubleshooting-Linux.md
-│   └── Windows-Server.md
-├── 02-Сети
-│   ├── Основы-сетей.md
-│   ├── OSI-и-TCP-IP.md
-│   ├── IPv4.md
-│   ├── IPv6.md
-│   ├── Subnetting.md
-│   ├── TCP.md
-│   ├── UDP.md
-│   ├── DNS.md
-│   ├── DHCP.md
-│   ├── ARP.md
-│   ├── ICMP.md
-│   ├── NAT.md
-│   ├── VLAN.md
-│   ├── VXLAN.md
-│   ├── Routing.md
-│   ├── BGP.md
-│   ├── OSPF.md
-│   ├── Firewall.md
-│   ├── iptables.md
-│   ├── nftables.md
-│   ├── Network-Namespaces.md
-│   ├── VPN.md
-│   ├── WireGuard.md
-│   ├── OpenVPN.md
-│   ├── Proxy.md
-│   ├── SOCKS.md
-│   ├── HTTP.md
-│   ├── HTTPS.md
-│   ├── TLS-и-SSL.md
-│   ├── mTLS.md
-│   ├── PKI.md
-│   ├── Сертификаты.md
-│   ├── Network-Troubleshooting.md
-│   └── Инструменты-сетевой-диагностики.md
-├── 03-Git-и-управление-кодом
-│   ├── Git.md
-│   ├── Git-Commands.md
-│   ├── Git-Internals.md
-│   ├── Branching-Strategies.md
-│   ├── GitFlow.md
-│   ├── Trunk-Based-Development.md
-│   ├── Conventional-Commits.md
-│   ├── Semantic-Versioning.md
-│   ├── Pull-Requests-и-Code-Review.md
-│   ├── Merge-и-Rebase.md
-│   ├── Tags-и-Releases.md
-│   ├── Git-Hooks.md
-│   ├── Git-LFS.md
-│   ├── Monorepo.md
-│   ├── GitHub.md
-│   ├── GitLab.md
-│   ├── Bitbucket.md
-│   ├── GitHub-Actions.md
-│   └── GitLab-CI.md
-├── 04-CI
-│   ├── CI.md
-│   ├── Принципы-CI.md
-│   ├── Pipeline-Design.md
-│   ├── Build-Systems.md
-│   ├── Artifact-Management.md
-│   ├── Cache-в-CI.md
-│   ├── Runners-и-Agents.md
-│   ├── Jenkins.md
-│   ├── Jenkins
-│   │   ├── Jenkinsfile.md
-│   │   ├── Declarative-Pipeline.md
-│   │   ├── Scripted-Pipeline.md
-│   │   ├── Shared-Libraries.md
-│   │   ├── Agents.md
-│   │   └── Plugins.md
-│   ├── GitLab-CI
-│   │   ├── gitlab-ci-yml.md
-│   │   ├── Stages-и-Jobs.md
-│   │   ├── Rules-и-Only-Except.md
-│   │   ├── Includes.md
-│   │   ├── Variables.md
-│   │   ├── Artifacts.md
-│   │   └── GitLab-Runners.md
-│   ├── GitHub-Actions
-│   │   ├── Workflows.md
-│   │   ├── Actions.md
-│   │   ├── Events.md
-│   │   ├── Secrets.md
-│   │   ├── Reusable-Workflows.md
-│   │   └── Self-Hosted-Runners.md
-│   ├── TeamCity.md
-│   ├── CircleCI.md
-│   ├── Travis-CI.md
-│   ├── Argo-Workflows.md
-│   └── Tekton.md
-├── 05-CD-и-релизы
-│   ├── CD.md
-│   ├── Continuous-Delivery.md
-│   ├── Continuous-Deployment.md
-│   ├── Стратегии-деплоя.md
-│   ├── Rolling-Update.md
-│   ├── Recreate-Deployment.md
-│   ├── Blue-Green.md
-│   ├── Canary.md
-│   ├── A-B-Testing.md
-│   ├── Feature-Flags.md
-│   ├── Progressive-Delivery.md
-│   ├── Rollback.md
-│   ├── Release-Management.md
-│   ├── Release-Notes.md
-│   ├── Миграции-БД-в-деплое.md
-│   ├── Environment-Management.md
-│   ├── Dev-Staging-Prod.md
-│   ├── Approval-Gates.md
-│   ├── Argo-CD.md
-│   ├── Flux-CD.md
-│   ├── Spinnaker.md
-│   └── Octopus-Deploy.md
-├── 06-Infrastructure-as-Code
-│   ├── IaC.md
-│   ├── Immutable-Infrastructure.md
-│   ├── Desired-State.md
-│   ├── Idempotency.md
-│   ├── Terraform.md
-│   ├── Terraform
-│   │   ├── Основы.md
-│   │   ├── HCL.md
-│   │   ├── Providers.md
-│   │   ├── Resources.md
-│   │   ├── Data-Sources.md
-│   │   ├── Variables-и-Outputs.md
-│   │   ├── Modules.md
-│   │   ├── State.md
-│   │   ├── Remote-State.md
-│   │   ├── Workspaces.md
-│   │   ├── Import.md
-│   │   ├── Lifecycle.md
-│   │   ├── Provisioners.md
-│   │   ├── Terraform-Cloud.md
-│   │   ├── Terragrunt.md
-│   │   ├── OpenTofu.md
-│   │   ├── Testing.md
-│   │   ├── Security.md
-│   │   └── Best-Practices.md
-│   ├── Pulumi.md
-│   ├── CloudFormation.md
-│   ├── AWS-CDK.md
-│   ├── Azure-ARM-и-Bicep.md
-│   ├── Crossplane.md
-│   └── Policy-as-Code.md
-├── 07-Configuration-Management
-│   ├── Configuration-Management.md
-│   ├── Ansible.md
-│   ├── Ansible
-│   │   ├── Inventory.md
-│   │   ├── Playbooks.md
-│   │   ├── Roles.md
-│   │   ├── Collections.md
-│   │   ├── Variables.md
-│   │   ├── Templates-Jinja2.md
-│   │   ├── Handlers.md
-│   │   ├── Vault.md
-│   │   ├── Dynamic-Inventory.md
-│   │   ├── AWX-и-Ansible-Automation-Platform.md
-│   │   ├── Molecule.md
-│   │   └── Best-Practices.md
-│   ├── Puppet.md
-│   ├── Chef.md
-│   ├── SaltStack.md
-│   ├── Packer.md
-│   ├── Cloud-Init.md
-│   └── Golden-Images.md
-├── 08-Контейнеризация
-│   ├── Контейнеризация.md
-│   ├── OCI.md
-│   ├── Container-Runtime.md
-│   ├── Docker.md
-│   ├── Docker
-│   │   ├── Commands.md
-│   │   ├── Dockerfile.md
-│   │   ├── Dockerfile
-│   │   │   ├── Instructions.md
-│   │   │   ├── Best-Practices.md
-│   │   │   ├── Multi-Stage-Builds.md
-│   │   │   ├── Node-Multi-Stage.md
-│   │   │   ├── Python-Multi-Stage.md
-│   │   │   ├── Java-Multi-Stage.md
-│   │   │   └── Go-Multi-Stage.md
-│   │   ├── Images.md
-│   │   ├── Containers.md
-│   │   ├── Volumes.md
-│   │   ├── Networks.md
-│   │   ├── Docker-Compose.md
-│   │   ├── Docker-Swarm.md
-│   │   ├── Registry.md
-│   │   ├── Security.md
-│   │   ├── Rootless-Docker.md
-│   │   └── Troubleshooting.md
-│   ├── Podman.md
-│   ├── Buildah.md
-│   ├── containerd.md
-│   ├── CRI-O.md
-│   ├── Kaniko.md
-│   ├── BuildKit.md
-│   ├── Nerdctl.md
-│   ├── Docker-Registry.md
-│   ├── Harbor.md
-│   ├── Nexus-Repository.md
-│   ├── JFrog-Artifactory.md
-│   ├── Image-Tagging.md
-│   ├── Image-Scanning.md
-│   └── Container-Security.md
-├── 09-Kubernetes
-│   ├── Kubernetes.md
-│   ├── Архитектура-Kubernetes.md
-│   ├── Control-Plane.md
-│   ├── Worker-Nodes.md
-│   ├── etcd.md
-│   ├── kubeadm.md
-│   ├── kubectl.md
-│   ├── API-Resources.md
-│   ├── YAML-манифесты.md
-│   ├── Namespaces.md
-│   ├── Labels-и-Selectors.md
-│   ├── Annotations.md
-│   ├── Pods.md
-│   ├── ReplicaSet.md
-│   ├── Deployments.md
-│   ├── StatefulSet.md
-│   ├── DaemonSet.md
-│   ├── Jobs.md
-│   ├── CronJob.md
-│   ├── Services.md
-│   ├── Ingress.md
-│   ├── Gateway-API.md
-│   ├── ConfigMap.md
-│   ├── Secrets.md
-│   ├── Volumes.md
-│   ├── PersistentVolume.md
-│   ├── PersistentVolumeClaim.md
-│   ├── StorageClass.md
-│   ├── CSI.md
-│   ├── Requests-и-Limits.md
-│   ├── QoS-классы.md
-│   ├── Liveness-Readiness-Startup-Probes.md
-│   ├── Init-Containers.md
-│   ├── Sidecar-Containers.md
-│   ├── Autoscaling.md
-│   ├── HPA.md
-│   ├── VPA.md
-│   ├── Cluster-Autoscaler.md
-│   ├── Scheduling.md
-│   ├── Taints-и-Tolerations.md
-│   ├── Affinity-и-Anti-Affinity.md
-│   ├── PriorityClass.md
-│   ├── Pod-Disruption-Budget.md
-│   ├── RBAC.md
-│   ├── Service-Accounts.md
-│   ├── Network-Policies.md
-│   ├── Pod-Security-Standards.md
-│   ├── Admission-Controllers.md
-│   ├── OPA-Gatekeeper.md
-│   ├── Kyverno.md
-│   ├── CRD-и-Operators.md
-│   ├── Helm.md
-│   ├── Helm
-│   │   ├── Charts.md
-│   │   ├── Templates.md
-│   │   ├── Values.md
-│   │   ├── Dependencies.md
-│   │   ├── Hooks.md
-│   │   └── Best-Practices.md
-│   ├── Kustomize.md
-│   ├── Minikube.md
-│   ├── kind.md
-│   ├── k3s.md
-│   ├── Rancher.md
-│   ├── OpenShift.md
-│   ├── EKS.md
-│   ├── GKE.md
-│   ├── AKS.md
-│   ├── CNI.md
-│   ├── Calico.md
-│   ├── Cilium.md
-│   ├── Flannel.md
-│   ├── CoreDNS.md
-│   ├── Metrics-Server.md
-│   ├── Cluster-Upgrade.md
-│   ├── Backup-и-Restore.md
-│   ├── Velero.md
-│   ├── Troubleshooting.md
-│   └── Production-Checklist.md
-├── 10-Service-Mesh-и-API
-│   ├── Service-Mesh.md
-│   ├── Istio.md
-│   ├── Linkerd.md
-│   ├── Consul-Connect.md
-│   ├── Envoy.md
-│   ├── API-Gateway.md
-│   ├── Kong.md
-│   ├── Traefik.md
-│   ├── Ambassador.md
-│   ├── NGINX-Ingress.md
-│   ├── Service-Discovery.md
-│   ├── Load-Balancing.md
-│   ├── Circuit-Breaker.md
-│   ├── Retry-и-Timeout.md
-│   ├── Rate-Limiting.md
-│   ├── API-Versioning.md
-│   ├── OpenAPI-и-Swagger.md
-│   ├── gRPC.md
-│   └── Webhooks.md
-├── 11-Web-серверы-и-балансировка
-│   ├── Nginx.md
-│   ├── Nginx
-│   │   ├── Конфигурация.md
-│   │   ├── Reverse-Proxy.md
-│   │   ├── Load-Balancing.md
-│   │   ├── SSL-TLS.md
-│   │   ├── Caching.md
-│   │   ├── Security.md
-│   │   ├── Rate-Limiting.md
-│   │   └── Troubleshooting.md
-│   ├── Apache-HTTPD.md
-│   ├── HAProxy.md
-│   ├── Traefik.md
-│   ├── Caddy.md
-│   ├── Keepalived.md
-│   ├── VRRP.md
-│   ├── CDN.md
-│   ├── Cloudflare.md
-│   ├── WAF.md
-│   └── DDoS-защита.md
-├── 12-Облачные-платформы
-│   ├── Cloud-Computing.md
-│   ├── IaaS-PaaS-SaaS.md
-│   ├── Public-Private-Hybrid-Cloud.md
-│   ├── Multi-Cloud.md
-│   ├── AWS.md
-│   ├── AWS
-│   │   ├── IAM.md
-│   │   ├── Organizations.md
-│   │   ├── VPC.md
-│   │   ├── EC2.md
-│   │   ├── Auto-Scaling.md
-│   │   ├── ELB.md
-│   │   ├── S3.md
-│   │   ├── EBS.md
-│   │   ├── EFS.md
-│   │   ├── RDS.md
-│   │   ├── DynamoDB.md
-│   │   ├── Lambda.md
-│   │   ├── ECS.md
-│   │   ├── EKS.md
-│   │   ├── Route53.md
-│   │   ├── CloudFront.md
-│   │   ├── CloudWatch.md
-│   │   ├── CloudTrail.md
-│   │   ├── Secrets-Manager.md
-│   │   ├── KMS.md
-│   │   └── Cost-Explorer.md
-│   ├── Microsoft-Azure.md
-│   ├── Azure
-│   │   ├── Entra-ID.md
-│   │   ├── Virtual-Network.md
-│   │   ├── Virtual-Machines.md
-│   │   ├── AKS.md
-│   │   ├── App-Service.md
-│   │   ├── Storage.md
-│   │   ├── Azure-SQL.md
-│   │   ├── Key-Vault.md
-│   │   ├── Monitor.md
-│   │   └── Azure-DevOps.md
-│   ├── Google-Cloud.md
-│   ├── GCP
-│   │   ├── IAM.md
-│   │   ├── VPC.md
-│   │   ├── Compute-Engine.md
-│   │   ├── GKE.md
-│   │   ├── Cloud-Run.md
-│   │   ├── Cloud-Storage.md
-│   │   ├── Cloud-SQL.md
-│   │   ├── BigQuery.md
-│   │   ├── Secret-Manager.md
-│   │   └── Cloud-Monitoring.md
-│   ├── Yandex-Cloud.md
-│   ├── VK-Cloud.md
-│   ├── Selectel.md
-│   ├── OpenStack.md
-│   └── Serverless.md
-├── 13-Виртуализация-и-инфраструктура
-│   ├── Виртуализация.md
-│   ├── Гипервизоры.md
-│   ├── KVM.md
-│   ├── QEMU.md
-│   ├── VMware-vSphere.md
-│   ├── VMware-ESXi.md
-│   ├── Hyper-V.md
-│   ├── Proxmox.md
-│   ├── Vagrant.md
-│   ├── Bare-Metal.md
-│   ├── IPMI.md
-│   ├── iDRAC-и-iLO.md
-│   ├── PXE.md
-│   ├── MAAS.md
-│   ├── Объектное-хранилище.md
-│   ├── Блочное-хранилище.md
-│   ├── Ceph.md
-│   ├── GlusterFS.md
-│   └── SAN-и-NAS.md
-├── 14-Наблюдаемость
-│   ├── Observability.md
-│   ├── Monitoring.md
-│   ├── Logging.md
-│   ├── Tracing.md
-│   ├── Метрики.md
-│   ├── Логи.md
-│   ├── Трейсинг.md
-│   ├── Корреляция-сигналов.md
-│   ├── Four-Golden-Signals.md
-│   ├── RED-Method.md
-│   ├── USE-Method.md
-│   ├── Whitebox-и-Blackbox-Monitoring.md
-│   ├── Prometheus.md
-│   ├── Prometheus
-│   │   ├── Архитектура.md
-│   │   ├── Сервер-и-клиенты.md
-│   │   ├── Service-Discovery.md
-│   │   ├── Scrape-Configuration.md
-│   │   ├── Exporters.md
-│   │   ├── Pushgateway.md
-│   │   ├── Alertmanager.md
-│   │   ├── Recording-Rules.md
-│   │   ├── Alert-Rules.md
-│   │   ├── Federation.md
-│   │   ├── Remote-Write-и-Remote-Read.md
-│   │   ├── Storage.md
-│   │   ├── HA.md
-│   │   ├── PromQL.md
-│   │   ├── Типы-метрик.md
-│   │   ├── Гистограммы-и-Summaries.md
-│   │   ├── Перцентили-и-Квантили.md
-│   │   └── Best-Practices.md
-│   ├── Grafana.md
-│   ├── Grafana
-│   │   ├── Dashboards.md
-│   │   ├── Data-Sources.md
-│   │   ├── Alerts.md
-│   │   ├── Variables.md
-│   │   └── Provisioning.md
-│   ├── Alerting.md
-│   ├── Alertmanager.md
-│   ├── PagerDuty.md
-│   ├── Opsgenie.md
-│   ├── Zabbix.md
-│   ├── Nagios.md
-│   ├── Icinga.md
-│   ├── Datadog.md
-│   ├── New-Relic.md
-│   ├── Elastic-Stack.md
-│   ├── Elasticsearch.md
-│   ├── Logstash.md
-│   ├── Kibana.md
-│   ├── Beats.md
-│   ├── Fluentd.md
-│   ├── Fluent-Bit.md
-│   ├── Loki.md
-│   ├── Promtail.md
-│   ├── OpenTelemetry.md
-│   ├── Jaeger.md
-│   ├── Zipkin.md
-│   ├── Tempo.md
-│   ├── Sentry.md
-│   ├── Uptime-Monitoring.md
-│   ├── Synthetic-Monitoring.md
-│   └── RUM.md
-├── 15-SRE-и-эксплуатация
-│   ├── SRE.md
-│   ├── SLI.md
-│   ├── SLO.md
-│   ├── SLA.md
-│   ├── Error-Budget.md
-│   ├── Incident-Management.md
-│   ├── Incident-Response.md
-│   ├── Incident-Commander.md
-│   ├── Escalation-Policy.md
-│   ├── On-Call.md
-│   ├── Runbooks.md
-│   ├── Playbooks.md
-│   ├── Postmortem.md
-│   ├── Blameless-Postmortem.md
-│   ├── Root-Cause-Analysis.md
-│   ├── Problem-Management.md
-│   ├── Change-Management.md
-│   ├── Capacity-Planning.md
-│   ├── Performance-Testing.md
-│   ├── Load-Testing.md
-│   ├── Stress-Testing.md
-│   ├── Chaos-Engineering.md
-│   ├── Chaos-Mesh.md
-│   ├── LitmusChaos.md
-│   ├── GameDays.md
-│   ├── Toil.md
-│   ├── Operational-Readiness-Review.md
-│   └── Production-Readiness-Checklist.md
-├── 16-Безопасность
-│   ├── DevSecOps.md
-│   ├── Security-Basics.md
-│   ├── CIA-Triad.md
-│   ├── Threat-Modeling.md
-│   ├── Zero-Trust.md
-│   ├── IAM.md
-│   ├── RBAC.md
-│   ├── ABAC.md
-│   ├── Least-Privilege.md
-│   ├── Authentication.md
-│   ├── Authorization.md
-│   ├── OAuth2.md
-│   ├── OpenID-Connect.md
-│   ├── JWT.md
-│   ├── SSO.md
-│   ├── MFA.md
-│   ├── Secrets-Management.md
-│   ├── HashiCorp-Vault.md
-│   ├── External-Secrets.md
-│   ├── SOPS.md
-│   ├── KMS.md
-│   ├── PKI.md
-│   ├── Certificate-Management.md
-│   ├── cert-manager.md
-│   ├── SAST.md
-│   ├── DAST.md
-│   ├── IAST.md
-│   ├── SCA.md
-│   ├── SBOM.md
-│   ├── Dependency-Scanning.md
-│   ├── Secret-Scanning.md
-│   ├── Container-Scanning.md
-│   ├── Trivy.md
-│   ├── Snyk.md
-│   ├── SonarQube.md
-│   ├── Checkov.md
-│   ├── tfsec.md
-│   ├── Falco.md
-│   ├── Runtime-Security.md
-│   ├── Supply-Chain-Security.md
-│   ├── SLSA.md
-│   ├── Sigstore.md
-│   ├── Cosign.md
-│   ├── Compliance.md
-│   ├── GDPR.md
-│   ├── PCI-DSS.md
-│   ├── SOC2.md
-│   └── ISO-27001.md
-├── 17-Базы-данных-и-хранилища
-│   ├── Архитектура-БД-и-эксплуатация.md
-│   ├── Реляционные-БД.md
-│   ├── NoSQL.md
-│   ├── CAP-теорема.md
-│   ├── ACID.md
-│   ├── BASE.md
-│   ├── Репликация.md
-│   ├── Шардирование.md
-│   ├── Партиционирование.md
-│   ├── Кластеризация.md
-│   ├── Connection-Pooling.md
-│   ├── Миграции-БД.md
-│   ├── Backup-и-Restore-БД.md
-│   ├── Disaster-Recovery-БД.md
-│   ├── PostgreSQL.md
-│   ├── MySQL.md
-│   ├── MariaDB.md
-│   ├── MongoDB.md
-│   ├── Redis.md
-│   ├── Elasticsearch.md
-│   ├── ClickHouse.md
-│   ├── Cassandra.md
-│   ├── CockroachDB.md
-│   ├── InfluxDB.md
-│   ├── TimescaleDB.md
-│   ├── Oracle.md
-│   ├── MS-SQL.md
-│   ├── PgBouncer.md
-│   ├── Patroni.md
-│   ├── Percona-XtraDB-Cluster.md
-│   ├── Database-Operators-Kubernetes.md
-│   ├── Liquibase.md
-│   └── Flyway.md
-├── 18-Брокеры-и-интеграции
-│   ├── Message-Brokers.md
-│   ├── Event-Driven-Architecture.md
-│   ├── Event-Sourcing.md
-│   ├── CQRS.md
-│   ├── Apache-Kafka.md
-│   ├── Kafka
-│   │   ├── Архитектура.md
-│   │   ├── Topics-и-Partitions.md
-│   │   ├── Producers.md
-│   │   ├── Consumers.md
-│   │   ├── Consumer-Groups.md
-│   │   ├── Replication.md
-│   │   ├── Kafka-Connect.md
-│   │   ├── Schema-Registry.md
-│   │   ├── Kafka-Streams.md
-│   │   ├── Security.md
-│   │   └── Monitoring.md
-│   ├── RabbitMQ.md
-│   ├── ActiveMQ.md
-│   ├── NATS.md
-│   ├── Redis-Streams.md
-│   ├── Amazon-SQS-и-SNS.md
-│   ├── Google-Pub-Sub.md
-│   └── WebSocket.md
-├── 19-Автоматизация-и-языки
-│   ├── Automation.md
-│   ├── Bash.md
-│   ├── Python-для-DevOps.md
-│   ├── Go-для-DevOps.md
-│   ├── PowerShell.md
-│   ├── Make.md
-│   ├── Makefile.md
-│   ├── Taskfile.md
-│   ├── Just.md
-│   ├── jq.md
-│   ├── yq.md
-│   ├── curl.md
-│   ├── wget.md
-│   ├── grep-sed-awk.md
-│   ├── REST-API.md
-│   ├── CLI-Design.md
-│   └── ChatOps.md
-├── 20-Надежность-и-аварийное-восстановление
-│   ├── High-Availability.md
-│   ├── Fault-Tolerance.md
-│   ├── Resilience.md
-│   ├── Single-Point-of-Failure.md
-│   ├── Disaster-Recovery.md
-│   ├── Business-Continuity.md
-│   ├── RPO.md
-│   ├── RTO.md
-│   ├── Backup-Strategy.md
-│   ├── Backup-Types.md
-│   ├── Backup-Verification.md
-│   ├── Restore-Testing.md
-│   ├── Multi-AZ.md
-│   ├── Multi-Region.md
-│   ├── Active-Active.md
-│   ├── Active-Passive.md
-│   ├── Failover.md
-│   ├── Fencing.md
-│   ├── Quorum.md
-│   └── DR-Plan.md
-├── 21-FinOps-и-управление-ресурсами
-│   ├── FinOps.md
-│   ├── Cloud-Cost-Management.md
-│   ├── Tagging-Strategy.md
-│   ├── Budgeting.md
-│   ├── Forecasting.md
-│   ├── Cost-Allocation.md
-│   ├── Rightsizing.md
-│   ├── Reserved-Instances.md
-│   ├── Savings-Plans.md
-│   ├── Spot-Instances.md
-│   ├── Kubernetes-Cost-Management.md
-│   ├── Kubecost.md
-│   ├── GreenOps.md
-│   └── Sustainability.md
-├── 22-Tunnel-и-удаленный-доступ
-│   ├── Tunnel.md
-│   ├── ngrok.md
-│   ├── Cloudflare-Tunnel.md
-│   ├── LocalTunnel.md
-│   ├── FRP.md
-│   ├── Bastion-Host.md
-│   ├── Jump-Host.md
-│   ├── SSH-Tunneling.md
-│   ├── Port-Forwarding.md
-│   └── Teleport.md
-├── 23-Документация-и-шаблоны
-│   ├── Documentation-as-Code.md
-│   ├── Markdown.md
-│   ├── MkDocs.md
-│   ├── Docusaurus.md
-│   ├── ADR.md
-│   ├── Architecture-Decision-Records.md
-│   ├── C4-Model.md
-│   ├── Диаграммы.md
-│   ├── Mermaid.md
-│   ├── PlantUML.md
-│   ├── README-Template.md
-│   ├── Runbook-Template.md
-│   ├── Postmortem-Template.md
-│   ├── Incident-Template.md
-│   ├── Terraform-Module-Template.md
-│   ├── Helm-Chart-Template.md
-│   ├── CI-Pipeline-Template.md
-│   └── Production-Checklist-Template.md
-└── 24-Собеседования-и-практика
-    ├── DevOps-Interview.md
-    ├── Linux-Questions.md
-    ├── Networking-Questions.md
-    ├── Docker-Questions.md
-    ├── Kubernetes-Questions.md
-    ├── Terraform-Questions.md
-    ├── Ansible-Questions.md
-    ├── CI-CD-Questions.md
-    ├── Cloud-Questions.md
-    ├── Security-Questions.md
-    ├── SRE-Questions.md
-    ├── Практические-задачи.md
-    ├── Домашние-лаборатории.md
-    ├── Pet-Projects.md
-    └── Сертификации.md
-```
+- [[DevOps/DevOps-Guide/01 Linux и ОС/ОС и Ядро Linux|ОС и Ядро Linux]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Файловая система|Файловая система]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Права доступа и ACL|Права доступа и ACL]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Пользователи и группы|Пользователи и группы]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Процессы и сигналы|Процессы и сигналы]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/eBPF (Основы)|eBPF (Основы)]]
+- **Systemd**
+	- [[DevOps/DevOps-Guide/01 Linux и ОС/Systemd/00_Основы Systemd|00_Основы Systemd]]
+	- [[DevOps/DevOps-Guide/01 Linux и ОС/Systemd/Units и Services|Units и Services]]
+	- [[DevOps/DevOps-Guide/01 Linux и ОС/Systemd/Timers|Timers]]
+	- [[DevOps/DevOps-Guide/01 Linux и ОС/Systemd/Journald|Journald]]
+	- [[DevOps/DevOps-Guide/01 Linux и ОС/Systemd/Cgroups|Cgroups]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Bash и Shell Scripting|Bash и Shell Scripting]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Cron и планировщики|Cron и планировщики]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Логирование|Логирование]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Управление пакетами|Управление пакетами]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Kernel Parameters (sysctl)|Kernel Parameters (sysctl)]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/LVM и разделы|LVM и разделы]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/RAID|RAID]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/NFS и Samba|NFS и Samba]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/SSH и SSH Hardening|SSH и SSH Hardening]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Производительность Linux|Производительность Linux]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Troubleshooting Linux|Troubleshooting Linux]]
+- [[DevOps/DevOps-Guide/01 Linux и ОС/Windows Server в DevOps|Windows Server в DevOps]]
+
+## 02 Сети
+
+- [[DevOps/DevOps-Guide/02 Сети/Основы сетей|Основы сетей]]
+- [[DevOps/DevOps-Guide/02 Сети/OSI и TCP-IP|OSI и TCP-IP]]
+- [[DevOps/DevOps-Guide/02 Сети/IPv4 и IPv6|IPv4 и IPv6]]
+- [[DevOps/DevOps-Guide/02 Сети/Subnetting|Subnetting]]
+- [[DevOps/DevOps-Guide/02 Сети/TCP и UDP|TCP и UDP]]
+- [[DevOps/DevOps-Guide/02 Сети/DNS|DNS]]
+- [[DevOps/DevOps-Guide/02 Сети/DHCP и ARP|DHCP и ARP]]
+- [[DevOps/DevOps-Guide/02 Сети/ICMP и NAT|ICMP и NAT]]
+- [[DevOps/DevOps-Guide/02 Сети/VLAN и VXLAN|VLAN и VXLAN]]
+- [[DevOps/DevOps-Guide/02 Сети/Routing (BGP, OSPF)|Routing (BGP, OSPF)]]
+- [[DevOps/DevOps-Guide/02 Сети/Firewall (iptables, nftables)|Firewall (iptables, nftables)]]
+- [[DevOps/DevOps-Guide/02 Сети/Network Namespaces|Network Namespaces]]
+- [[DevOps/DevOps-Guide/02 Сети/VPN (WireGuard, OpenVPN)|VPN (WireGuard, OpenVPN)]]
+- [[DevOps/DevOps-Guide/02 Сети/Proxy и SOCKS|Proxy и SOCKS]]
+- [[DevOps/DevOps-Guide/02 Сети/HTTP 1.1, 2.0, 3.0 (QUIC)|HTTP 1.1, 2.0, 3.0 (QUIC)]]
+- [[DevOps/DevOps-Guide/02 Сети/HTTPS, TLS, SSL|HTTPS, TLS, SSL]]
+- [[DevOps/DevOps-Guide/02 Сети/mTLS|mTLS]]
+- [[DevOps/DevOps-Guide/02 Сети/PKI и Сертификаты|PKI и Сертификаты]]
+- [[DevOps/DevOps-Guide/02 Сети/Network Troubleshooting|Network Troubleshooting]]
+
+## 03 Git и управление кодом
+
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/00_Основы Git|00_Основы Git]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Git Internals|Git Internals]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Branching Strategies (GitFlow, TBD)|Branching Strategies (GitFlow, TBD)]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Conventional Commits|Conventional Commits]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Semantic Versioning|Semantic Versioning]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Pull Requests и Code Review|Pull Requests и Code Review]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Merge vs Rebase|Merge vs Rebase]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Tags и Releases|Tags и Releases]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Git Hooks|Git Hooks]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Git LFS|Git LFS]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Monorepo vs Polyrepo|Monorepo vs Polyrepo]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/GitHub|GitHub]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/GitLab|GitLab]]
+- [[DevOps/DevOps-Guide/03 Git и управление кодом/Bitbucket|Bitbucket]]
+
+## 04 CI (Continuous Integration)
+
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Принципы CI|Принципы CI]]
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Pipeline Design|Pipeline Design]]
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Build Systems|Build Systems]]
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Artifact Management|Artifact Management]]
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Cache в CI|Cache в CI]]
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/CI as Code (Dagger, Earthly)|CI as Code (Dagger, Earthly)]]
+- **Jenkins**
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Jenkins/00_Основы Jenkins|00_Основы Jenkins]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Jenkins/Jenkinsfile (Declarative vs Scripted)|Jenkinsfile (Declarative vs Scripted)]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Jenkins/Shared Libraries|Shared Libraries]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Jenkins/Agents и Plugins|Agents и Plugins]]
+- **GitLab CI**
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitLab CI/00_Основы gitlab-ci.yml|00_Основы gitlab-ci.yml]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitLab CI/Stages и Jobs|Stages и Jobs]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitLab CI/Rules (Only-Except)|Rules (Only-Except)]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitLab CI/Includes и Components|Includes и Components]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitLab CI/Variables и Environments|Variables и Environments]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitLab CI/GitLab Runners|GitLab Runners]]
+- **GitHub Actions**
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitHub Actions/00_Основы Workflows|00_Основы Workflows]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitHub Actions/Custom Actions|Custom Actions]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitHub Actions/Reusable Workflows|Reusable Workflows]]
+	- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/GitHub Actions/Self-Hosted Runners|Self-Hosted Runners]]
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Argo Workflows|Argo Workflows]]
+- [[DevOps/DevOps-Guide/04 CI (Continuous Integration)/Tekton|Tekton]]
+
+## 05 CD и релизы
+
+- [[DevOps/DevOps-Guide/05 CD и релизы/Принципы Continuous Delivery и Deployment|Принципы Continuous Delivery и Deployment]]
+- **Стратегии деплоя**
+	- [[DevOps/DevOps-Guide/05 CD и релизы/Стратегии деплоя/Rolling Update|Rolling Update]]
+	- [[DevOps/DevOps-Guide/05 CD и релизы/Стратегии деплоя/Recreate|Recreate]]
+	- [[DevOps/DevOps-Guide/05 CD и релизы/Стратегии деплоя/Blue-Green|Blue-Green]]
+	- [[DevOps/DevOps-Guide/05 CD и релизы/Стратегии деплоя/Canary|Canary]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/A-B Testing|A/B Testing]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Feature Flags|Feature Flags]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Progressive Delivery (Flagger, Keptn)|Progressive Delivery (Flagger, Keptn)]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Rollback|Rollback]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Release Management и Notes|Release Management и Notes]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Миграции БД в деплое|Миграции БД в деплое]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Environment Management|Environment Management]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Approval Gates|Approval Gates]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Argo CD|Argo CD]]
+- [[DevOps/DevOps-Guide/05 CD и релизы/Flux CD|Flux CD]]
+
+## 06 Infrastructure as Code (IaC)
+
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Принципы IaC|Принципы IaC]]
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Immutable Infrastructure|Immutable Infrastructure]]
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Idempotency и Desired State|Idempotency и Desired State]]
+- **Terraform и OpenTofu**
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/00_Основы|00_Основы]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/HCL|HCL]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Providers и Resources|Providers и Resources]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Data Sources, Variables, Outputs|Data Sources, Variables, Outputs]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Modules|Modules]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/State и Remote State|State и Remote State]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Workspaces|Workspaces]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Import и Lifecycle|Import и Lifecycle]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Provisioners (почему их избегать)|Provisioners (почему их избегать)]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Terraform Cloud|Terraform Cloud]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Testing (Terratest)|Testing (Terratest)]]
+	- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terraform и OpenTofu/Security (tfsec, checkov)|Security (tfsec, checkov)]]
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Terragrunt|Terragrunt]]
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Pulumi|Pulumi]]
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/CloudFormation, AWS CDK, Bicep|CloudFormation, AWS CDK, Bicep]]
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Crossplane (Control Planes)|Crossplane (Control Planes)]]
+- [[DevOps/DevOps-Guide/06 Infrastructure as Code (IaC)/Policy as Code (OPA, Kyverno)|Policy as Code (OPA, Kyverno)]]
+
+## 07 Configuration Management
+
+- [[DevOps/DevOps-Guide/07 Configuration Management/Принципы Configuration Management|Принципы Configuration Management]]
+- **Ansible**
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/00_Основы Ansible|00_Основы Ansible]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/Inventory и Dynamic Inventory|Inventory и Dynamic Inventory]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/Playbooks и Roles|Playbooks и Roles]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/Collections|Collections]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/Variables и Templates (Jinja2)|Variables и Templates (Jinja2)]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/Handlers|Handlers]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/Vault|Vault]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/AWX и Ansible Automation Platform|AWX и Ansible Automation Platform]]
+	- [[DevOps/DevOps-Guide/07 Configuration Management/Ansible/Molecule (Тестирование)|Molecule (Тестирование)]]
+- [[DevOps/DevOps-Guide/07 Configuration Management/Puppet, Chef, SaltStack (Legacy)|Puppet, Chef, SaltStack (Legacy)]]
+- [[DevOps/DevOps-Guide/07 Configuration Management/Packer (Golden Images)|Packer (Golden Images)]]
+- [[DevOps/DevOps-Guide/07 Configuration Management/Cloud-Init|Cloud-Init]]
+
+## 08 Контейнеризация
+
+- [[DevOps/DevOps-Guide/08 Контейнеризация/00_Основы и OCI|00_Основы и OCI]]
+- [[DevOps/DevOps-Guide/08 Контейнеризация/Container Runtime (containerd, CRI-O)|Container Runtime (containerd, CRI-O)]]
+- [[DevOps/DevOps-Guide/08 Контейнеризация/WebAssembly (Wasm) в облаке|WebAssembly (Wasm) в облаке]]
+- **Docker**
+	- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/00_Основы и Команды|00_Основы и Команды]]
+	- **Dockerfile**
+		- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/Dockerfile/Instructions и Best Practices|Instructions и Best Practices]]
+		- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/Dockerfile/Multi-Stage Builds (Node, Python, Java, Go)|Multi-Stage Builds (Node, Python, Java, Go)]]
+	- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/Images, Containers, Volumes|Images, Containers, Volumes]]
+	- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/Networks|Networks]]
+	- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/Docker Compose|Docker Compose]]
+	- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/Security и Rootless|Security и Rootless]]
+	- [[DevOps/DevOps-Guide/08 Контейнеризация/Docker/Troubleshooting|Troubleshooting]]
+- [[DevOps/DevOps-Guide/08 Контейнеризация/Альтернативы (Podman, Buildah, Nerdctl)|Альтернативы (Podman, Buildah, Nerdctl)]]
+- [[DevOps/DevOps-Guide/08 Контейнеризация/Сборка (Kaniko, BuildKit)|Сборка (Kaniko, BuildKit)]]
+- [[DevOps/DevOps-Guide/08 Контейнеризация/Registry (Docker Hub, Harbor, Nexus, Artifactory)|Registry (Docker Hub, Harbor, Nexus, Artifactory)]]
+- [[DevOps/DevOps-Guide/08 Контейнеризация/Image Tagging и Scanning|Image Tagging и Scanning]]
+
+## 09 Kubernetes
+
+- [[DevOps/DevOps-Guide/09 Kubernetes/00_Архитектура K8s|00_Архитектура K8s]]
+- [[DevOps/DevOps-Guide/09 Kubernetes/Control Plane, Worker Nodes, etcd|Control Plane, Worker Nodes, etcd]]
+- [[DevOps/DevOps-Guide/09 Kubernetes/API Resources и YAML|API Resources и YAML]]
+- **Основные абстракции**
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Основные абстракции/Namespaces|Namespaces]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Основные абстракции/Pods (Init, Sidecar)|Pods (Init, Sidecar)]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Основные абстракции/ReplicaSet и Deployments|ReplicaSet и Deployments]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Основные абстракции/StatefulSet|StatefulSet]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Основные абстракции/DaemonSet|DaemonSet]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Основные абстракции/Jobs и CronJobs|Jobs и CronJobs]]
+- **Сеть и Доступ**
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Сеть и Доступ/Services|Services]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Сеть и Доступ/Ingress|Ingress]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Сеть и Доступ/Gateway API (Современный стандарт)|Gateway API (Современный стандарт)]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Сеть и Доступ/CNI (Calico, Cilium, eBPF)|CNI (Calico, Cilium, eBPF)]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Сеть и Доступ/CoreDNS|CoreDNS]]
+- **Конфигурация и Хранение**
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Конфигурация и Хранение/ConfigMap и Secrets|ConfigMap и Secrets]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Конфигурация и Хранение/Volumes, PV, PVC, StorageClass|Volumes, PV, PVC, StorageClass]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Конфигурация и Хранение/CSI|CSI]]
+- **Управление ресурсами и Планирование**
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Управление ресурсами и Планирование/Requests, Limits, QoS|Requests, Limits, QoS]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Управление ресурсами и Планирование/Probes (Liveness, Readiness, Startup)|Probes (Liveness, Readiness, Startup)]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Управление ресурсами и Планирование/Taints, Tolerations, Affinity|Taints, Tolerations, Affinity]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Управление ресурсами и Планирование/PriorityClass и Pod Disruption Budget|PriorityClass и Pod Disruption Budget]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Управление ресурсами и Планирование/Scheduling|Scheduling]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Управление ресурсами и Планирование/HPA и VPA|HPA и VPA]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Управление ресурсами и Планирование/Karpenter и Cluster Autoscaler|Karpenter и Cluster Autoscaler]]
+- **Безопасность**
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Безопасность/RBAC и Service Accounts|RBAC и Service Accounts]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Безопасность/Network Policies|Network Policies]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Безопасность/Pod Security Standards (PSS)|Pod Security Standards (PSS)]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Безопасность/Admission Controllers (OPA, Kyverno)|Admission Controllers (OPA, Kyverno)]]
+- **Расширения**
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Расширения/CRD и Operators|CRD и Operators]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Расширения/KubeVirt (VM в K8s)|KubeVirt (VM в K8s)]]
+- **Инструменты деплоя**
+	- **Helm**
+		- [[DevOps/DevOps-Guide/09 Kubernetes/Инструменты деплоя/Helm/00_Основы Helm|00_Основы Helm]]
+		- [[DevOps/DevOps-Guide/09 Kubernetes/Инструменты деплоя/Helm/Charts, Templates, Values|Charts, Templates, Values]]
+		- [[DevOps/DevOps-Guide/09 Kubernetes/Инструменты деплоя/Helm/Dependencies и Hooks|Dependencies и Hooks]]
+		- [[DevOps/DevOps-Guide/09 Kubernetes/Инструменты деплоя/Helm/Best Practices|Best Practices]]
+	- [[DevOps/DevOps-Guide/09 Kubernetes/Инструменты деплоя/Kustomize|Kustomize]]
+- [[DevOps/DevOps-Guide/09 Kubernetes/Дистрибутивы (Minikube, kind, k3s, EKS, GKE, AKS, OpenShift)|Дистрибутивы (Minikube, kind, k3s, EKS, GKE, AKS, OpenShift)]]
+- [[DevOps/DevOps-Guide/09 Kubernetes/Эксплуатация (Backup-Velero, Upgrade, Troubleshooting)|Эксплуатация (Backup/Velero, Upgrade, Troubleshooting)]]
+
+## 10 Service Mesh и API
+
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/00_Основы Service Mesh|00_Основы Service Mesh]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/Istio|Istio]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/Linkerd|Linkerd]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/Cilium Service Mesh (eBPF)|Cilium Service Mesh (eBPF)]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/Envoy|Envoy]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/API Gateway (Kong, Traefik, Ambassador)|API Gateway (Kong, Traefik, Ambassador)]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/Паттерны устойчивости (Circuit Breaker, Retry, Rate Limiting)|Паттерны устойчивости (Circuit Breaker, Retry, Rate Limiting)]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/Service Discovery и Load Balancing|Service Discovery и Load Balancing]]
+- [[DevOps/DevOps-Guide/10 Service Mesh и API/OpenAPI, gRPC, Webhooks|OpenAPI, gRPC, Webhooks]]
+
+## 11 Web-серверы и балансировка
+
+- **Nginx**
+	- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Nginx/00_Конфигурация Nginx|00_Конфигурация Nginx]]
+	- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Nginx/Reverse Proxy и Load Balancing|Reverse Proxy и Load Balancing]]
+	- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Nginx/SSL-TLS|SSL-TLS]]
+	- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Nginx/Caching и Rate Limiting|Caching и Rate Limiting]]
+	- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Nginx/Troubleshooting|Troubleshooting]]
+- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Pingora (Современный Proxy на Rust)|Pingora (Современный Proxy на Rust)]]
+- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/HAProxy|HAProxy]]
+- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Traefik и Caddy|Traefik и Caddy]]
+- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/Keepalived и VRRP|Keepalived и VRRP]]
+- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/CDN (Cloudflare, Akamai)|CDN (Cloudflare, Akamai)]]
+- [[DevOps/DevOps-Guide/11 Web-серверы и балансировка/WAF и DDoS защита|WAF и DDoS защита]]
+
+## 12 Облачные платформы
+
+- [[DevOps/DevOps-Guide/12 Облачные платформы/00_Основы Cloud Computing (IaaS, PaaS, SaaS, Serverless)|00_Основы Cloud Computing (IaaS, PaaS, SaaS, Serverless)]]
+- [[DevOps/DevOps-Guide/12 Облачные платформы/Multi-Cloud и Hybrid Cloud|Multi-Cloud и Hybrid Cloud]]
+- **AWS**
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/AWS/00_Основы AWS|00_Основы AWS]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/AWS/IAM и Organizations|IAM и Organizations]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/AWS/VPC, EC2, Auto Scaling|VPC, EC2, Auto Scaling]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/AWS/S3, EBS, EFS|S3, EBS, EFS]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/AWS/RDS, DynamoDB|RDS, DynamoDB]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/AWS/EKS, ECS, Lambda|EKS, ECS, Lambda]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/AWS/CloudWatch, CloudTrail, KMS|CloudWatch, CloudTrail, KMS]]
+- **Microsoft Azure**
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/Microsoft Azure/00_Основы Azure|00_Основы Azure]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/Microsoft Azure/Entra ID (ex-Azure AD)|Entra ID (ex-Azure AD)]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/Microsoft Azure/VNet, VM, AKS|VNet, VM, AKS]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/Microsoft Azure/Azure SQL, Key Vault, Monitor|Azure SQL, Key Vault, Monitor]]
+- **Google Cloud (GCP)**
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/Google Cloud (GCP)/00_Основы GCP|00_Основы GCP]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/Google Cloud (GCP)/IAM, VPC, Compute Engine|IAM, VPC, Compute Engine]]
+	- [[DevOps/DevOps-Guide/12 Облачные платформы/Google Cloud (GCP)/GKE, Cloud Run, Cloud Storage, BigQuery|GKE, Cloud Run, Cloud Storage, BigQuery]]
+- [[DevOps/DevOps-Guide/12 Облачные платформы/Альтернативы (Yandex Cloud, Selectel, OpenStack)|Альтернативы (Yandex Cloud, Selectel, OpenStack)]]
+- [[DevOps/DevOps-Guide/12 Облачные платформы/Cloudflare (как облачная платформа - Workers, R2)|Cloudflare (Workers, R2)]]
+
+## 13 Виртуализация и инфраструктура
+
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/00_Основы виртуализации (Hypervisors)|00_Основы виртуализации (Hypervisors)]]
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/KVM и QEMU|KVM и QEMU]]
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/VMware vSphere и ESXi|VMware vSphere и ESXi]]
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/Proxmox|Proxmox]]
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/Bare Metal (IPMI, iDRAC, PXE, MAAS)|Bare Metal (IPMI, iDRAC, PXE, MAAS)]]
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/Объектное хранилище (S3, MinIO)|Объектное хранилище (S3, MinIO)]]
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/Блочное хранилище (SAN, NAS, Ceph, GlusterFS)|Блочное хранилище (SAN, NAS, Ceph, GlusterFS)]]
+- [[DevOps/DevOps-Guide/13 Виртуализация и инфраструктура/Vagrant|Vagrant]]
+
+## 14 Наблюдаемость (Observability)
+
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/00_Основы Observability|00_Основы Observability]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Метрики, Логи, Трейсинг (Три столпа)|Метрики, Логи, Трейсинг (Три столпа)]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Сигналы (Four Golden Signals, RED, USE)|Сигналы (Four Golden Signals, RED, USE)]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/OpenTelemetry (Единый стандарт)|OpenTelemetry (Единый стандарт)]]
+- **Prometheus**
+	- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Prometheus/00_Основы и Архитектура|00_Основы и Архитектура]]
+	- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Prometheus/Service Discovery и Scrape|Service Discovery и Scrape]]
+	- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Prometheus/Exporters и Pushgateway|Exporters и Pushgateway]]
+	- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Prometheus/Rules, Alerts, PromQL|Rules, Alerts, PromQL]]
+	- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Prometheus/Storage, Remote Write-Read, HA|Storage, Remote Write/Read, HA]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/VictoriaMetrics|VictoriaMetrics]]
+- **Grafana**
+	- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Grafana/00_Основы Grafana|00_Основы Grafana]]
+	- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Grafana/Dashboards, Data Sources, Provisioning|Dashboards, Data Sources, Provisioning]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Alerting (Alertmanager, PagerDuty, Opsgenie)|Alerting (Alertmanager, PagerDuty, Opsgenie)]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Elastic Stack (Elasticsearch, Logstash, Kibana, Beats)|Elastic Stack (Elasticsearch, Logstash, Kibana, Beats)]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Loki и Promtail|Loki и Promtail]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Трейсинг (Jaeger, Tempo)|Трейсинг (Jaeger, Tempo)]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Традиционный мониторинг (Zabbix, Datadog, Sentry)|Традиционный мониторинг (Zabbix, Datadog, Sentry)]]
+- [[DevOps/DevOps-Guide/14 Наблюдаемость (Observability)/Uptime, Synthetic, RUM|Uptime, Synthetic, RUM]]
+
+## 15 SRE и эксплуатация
+
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/00_Основы SRE|00_Основы SRE]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/SLI, SLO, SLA, Error Budget|SLI, SLO, SLA, Error Budget]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Incident Management (Commander, Escalation, On-Call)|Incident Management (Commander, Escalation, On-Call)]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Runbooks и Playbooks|Runbooks и Playbooks]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Postmortem (Blameless, Root Cause Analysis)|Postmortem (Blameless, Root Cause Analysis)]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/AIOps (AI в эксплуатации)|AIOps (AI в эксплуатации)]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Change и Problem Management|Change и Problem Management]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Capacity Planning|Capacity Planning]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Performance (Load, Stress Testing)|Performance (Load, Stress Testing)]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Chaos Engineering (Chaos Mesh, Litmus, GameDays)|Chaos Engineering (Chaos Mesh, Litmus, GameDays)]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Устранение Toil (рутины)|Устранение Toil (рутины)]]
+- [[DevOps/DevOps-Guide/15 SRE и эксплуатация/Production Readiness Review (PRR)|Production Readiness Review (PRR)]]
+
+## 16 Безопасность (DevSecOps)
+
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/00_Основы (CIA Triad, Threat Modeling, Zero Trust)|00_Основы (CIA Triad, Threat Modeling, Zero Trust)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Управление доступом (IAM, RBAC, ABAC, Least Privilege)|Управление доступом (IAM, RBAC, ABAC, Least Privilege)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Аутентификация (OAuth2, OIDC, JWT, SSO, MFA)|Аутентификация (OAuth2, OIDC, JWT, SSO, MFA)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Secrets Management (Vault, External Secrets, SOPS)|Secrets Management (Vault, External Secrets, SOPS)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/PKI и Cert-Manager|PKI и Cert-Manager]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Cloud Security (CNAPP, CSPM, DSPM)|Cloud Security (CNAPP, CSPM, DSPM)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Сканирование (SAST, DAST, IAST, SCA)|Сканирование (SAST, DAST, IAST, SCA)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Supply Chain Security (SBOM, SLSA, Sigstore, Cosign)|Supply Chain Security (SBOM, SLSA, Sigstore, Cosign)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Container Security (Trivy, Snyk)|Container Security (Trivy, Snyk)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Runtime Security (Falco, Tetragon)|Runtime Security (Falco, Tetragon)]]
+- [[DevOps/DevOps-Guide/16 Безопасность (DevSecOps)/Compliance (GDPR, PCI-DSS, SOC2, ISO 27001)|Compliance (GDPR, PCI-DSS, SOC2, ISO 27001)]]
+
+## 17 Базы данных и хранилища
+
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/00_Архитектура БД|00_Архитектура БД]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Реляционные vs NoSQL vs Векторные БД|Реляционные vs NoSQL vs Векторные БД]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/CAP-теорема, ACID, BASE|CAP-теорема, ACID, BASE]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Репликация, Шардирование, Партиционирование|Репликация, Шардирование, Партиционирование]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Connection Pooling (PgBouncer)|Connection Pooling (PgBouncer)]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Миграции БД (Liquibase, Flyway)|Миграции БД (Liquibase, Flyway)]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Backup, Restore, DR БД|Backup, Restore, DR БД]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/PostgreSQL, MySQL, MariaDB|PostgreSQL, MySQL, MariaDB]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/MongoDB, Redis|MongoDB, Redis]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Elasticsearch, ClickHouse|Elasticsearch, ClickHouse]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Time-Series (InfluxDB, TimescaleDB)|Time-Series (InfluxDB, TimescaleDB)]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Векторные БД (Milvus, Qdrant, pgvector)|Векторные БД (Milvus, Qdrant, pgvector)]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Oracle, MS SQL|Oracle, MS SQL]]
+- [[DevOps/DevOps-Guide/17 Базы данных и хранилища/Database Operators for K8s (Patroni, PXC)|Database Operators for K8s (Patroni, PXC)]]
+
+## 18 Брокеры и интеграции (EDA)
+
+- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/00_Event-Driven Architecture (Event Sourcing, CQRS)|00_Event-Driven Architecture (Event Sourcing, CQRS)]]
+- **Apache Kafka**
+	- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Apache Kafka/00_Основы Kafka|00_Основы Kafka]]
+	- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Apache Kafka/Topics, Partitions, Replication|Topics, Partitions, Replication]]
+	- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Apache Kafka/Producers, Consumers, Groups|Producers, Consumers, Groups]]
+	- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Apache Kafka/Connect, Schema Registry, Streams|Connect, Schema Registry, Streams]]
+	- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Apache Kafka/KRaft, Security, Monitoring|KRaft, Security, Monitoring]]
+- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Redpanda (Современная замена Kafka)|Redpanda (Современная замена Kafka)]]
+- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/RabbitMQ, ActiveMQ, NATS|RabbitMQ, ActiveMQ, NATS]]
+- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Redis Streams|Redis Streams]]
+- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/Cloud Messaging (SQS, SNS, Pub-Sub)|Cloud Messaging (SQS, SNS, Pub-Sub)]]
+- [[DevOps/DevOps-Guide/18 Брокеры и интеграции (EDA)/WebSockets|WebSockets]]
+
+## 19 Автоматизация и языки
+
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/00_Automation Basics|00_Automation Basics]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/AI-Ассистенты (GitHub Copilot, Cursor)|AI-Ассистенты (GitHub Copilot, Cursor)]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/Bash|Bash]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/Python для DevOps|Python для DevOps]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/Go для DevOps|Go для DevOps]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/Rust для DevOps|Rust для DevOps]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/Утилиты сборки (Make, Taskfile, Just)|Утилиты сборки (Make, Taskfile, Just)]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/Утилиты парсинга (jq, yq, grep, sed, awk)|Утилиты парсинга (jq, yq, grep, sed, awk)]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/Работа с сетью (curl, wget)|Работа с сетью (curl, wget)]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/REST API и CLI Design|REST API и CLI Design]]
+- [[DevOps/DevOps-Guide/19 Автоматизация и языки/ChatOps|ChatOps]]
+
+## 20 Надежность и аварийное восстановление
+
+- [[DevOps/DevOps-Guide/20 Надежность и аварийное восстановление/00_Основы (HA, Fault Tolerance, Resilience, SPOF)|00_Основы (HA, Fault Tolerance, Resilience, SPOF)]]
+- [[DevOps/DevOps-Guide/20 Надежность и аварийное восстановление/Disaster Recovery, Business Continuity|Disaster Recovery, Business Continuity]]
+- [[DevOps/DevOps-Guide/20 Надежность и аварийное восстановление/RPO и RTO|RPO и RTO]]
+- [[DevOps/DevOps-Guide/20 Надежность и аварийное восстановление/Стратегии Backup и Restore (Типы, Верификация)|Стратегии Backup и Restore (Типы, Верификация)]]
+- [[DevOps/DevOps-Guide/20 Надежность и аварийное восстановление/Архитектура (Multi-AZ, Multi-Region)|Архитектура (Multi-AZ, Multi-Region)]]
+- [[DevOps/DevOps-Guide/20 Надежность и аварийное восстановление/Active-Active vs Active-Passive|Active-Active vs Active-Passive]]
+- [[DevOps/DevOps-Guide/20 Надежность и аварийное восстановление/Failover, Fencing, Quorum|Failover, Fencing, Quorum]]
+
+## 21 FinOps и управление ресурсами
+
+- [[DevOps/DevOps-Guide/21 FinOps и управление ресурсами/00_Основы FinOps и Cloud Cost Management|00_Основы FinOps и Cloud Cost Management]]
+- [[DevOps/DevOps-Guide/21 FinOps и управление ресурсами/Tagging Strategy, Budgeting, Forecasting|Tagging Strategy, Budgeting, Forecasting]]
+- [[DevOps/DevOps-Guide/21 FinOps и управление ресурсами/Cost Allocation и Rightsizing|Cost Allocation и Rightsizing]]
+- [[DevOps/DevOps-Guide/21 FinOps и управление ресурсами/Оптимизация (Reserved Instances, Savings Plans, Spot)|Оптимизация (Reserved Instances, Savings Plans, Spot)]]
+- [[DevOps/DevOps-Guide/21 FinOps и управление ресурсами/Kubernetes Cost (Kubecost, OpenCost)|Kubernetes Cost (Kubecost, OpenCost)]]
+- [[DevOps/DevOps-Guide/21 FinOps и управление ресурсами/GreenOps и Sustainability|GreenOps и Sustainability]]
+
+## 22 Удаленный доступ и ZTNA
+
+- [[DevOps/DevOps-Guide/22 Удаленный доступ и ZTNA/00_Основы ZTNA и Tunnels|00_Основы ZTNA и Tunnels]]
+- [[DevOps/DevOps-Guide/22 Удаленный доступ и ZTNA/Tailscale и Headscale|Tailscale и Headscale]]
+- [[DevOps/DevOps-Guide/22 Удаленный доступ и ZTNA/ngrok, Cloudflare Tunnel, LocalTunnel, FRP|ngrok, Cloudflare Tunnel, LocalTunnel, FRP]]
+- [[DevOps/DevOps-Guide/22 Удаленный доступ и ZTNA/Bastion Host и Jump Host|Bastion Host и Jump Host]]
+- [[DevOps/DevOps-Guide/22 Удаленный доступ и ZTNA/SSH Tunneling и Port Forwarding|SSH Tunneling и Port Forwarding]]
+- [[DevOps/DevOps-Guide/22 Удаленный доступ и ZTNA/Teleport|Teleport]]
+
+## 23 Документация и шаблоны
+
+- [[DevOps/DevOps-Guide/23 Документация и шаблоны/00_Documentation as Code|00_Documentation as Code]]
+- [[DevOps/DevOps-Guide/23 Документация и шаблоны/AI для написания документации|AI для написания документации]]
+- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Markdown, MkDocs, Docusaurus|Markdown, MkDocs, Docusaurus]]
+- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Architecture Decision Records (ADR)|Architecture Decision Records (ADR)]]
+- [[DevOps/DevOps-Guide/23 Документация и шаблоны/C4 Model, PlantUML, Mermaid|C4 Model, PlantUML, Mermaid]]
+- **Шаблоны**
+	- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Шаблоны/README|README]]
+	- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Шаблоны/Runbook - Postmortem - Incident|Runbook / Postmortem / Incident]]
+	- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Шаблоны/Terraform Module|Terraform Module]]
+	- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Шаблоны/Helm Chart|Helm Chart]]
+	- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Шаблоны/CI Pipeline|CI Pipeline]]
+	- [[DevOps/DevOps-Guide/23 Документация и шаблоны/Шаблоны/Production Checklist|Production Checklist]]
+
+## 24 Собеседования и практика
+
+- [[DevOps/DevOps-Guide/24 Собеседования и практика/00_System Design для DevOps|00_System Design для DevOps]]
+- **Вопросы к собеседованиям**
+	- [[DevOps/DevOps-Guide/24 Собеседования и практика/Вопросы к собеседованиям/DevOps - SRE|DevOps / SRE]]
+	- [[DevOps/DevOps-Guide/24 Собеседования и практика/Вопросы к собеседованиям/Linux - Networks|Linux / Networks]]
+	- [[DevOps/DevOps-Guide/24 Собеседования и практика/Вопросы к собеседованиям/K8s - Docker|K8s / Docker]]
+	- [[DevOps/DevOps-Guide/24 Собеседования и практика/Вопросы к собеседованиям/Terraform - Ansible|Terraform / Ansible]]
+	- [[DevOps/DevOps-Guide/24 Собеседования и практика/Вопросы к собеседованиям/CI-CD - Cloud|CI-CD / Cloud]]
+	- [[DevOps/DevOps-Guide/24 Собеседования и практика/Вопросы к собеседованиям/Безопасность - БД|Безопасность / БД]]
+- [[DevOps/DevOps-Guide/24 Собеседования и практика/Практические задачи и Pet Projects|Практические задачи и Pet Projects]]
+- [[DevOps/DevOps-Guide/24 Собеседования и практика/Домашние лаборатории|Домашние лаборатории]]
+- [[DevOps/DevOps-Guide/24 Собеседования и практика/Сертификации|Сертификации]]
