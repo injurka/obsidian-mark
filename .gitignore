@@ -3,6 +3,7 @@
 .trash
 .idea
 .output
+.local
 *-conflict-*
 
 workspace-mobile.json

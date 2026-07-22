@@ -1,9 +1,3 @@
-Твои текущие заметки уже задают отличную базу, но в них есть несколько моментов, которые стоит уточнить (например, компиляция и сборка мусора — это задачи JS-движка, а не Event Loop), а также добавить важные технические детали о микротасках, рендеринге и современных API.
-
-Я переработал, структурировал и значительно обогатил твои заметки. Теперь это полноценный справочный материал, который можно смело использовать для подготовки к собеседованиям или как архитектурную шпаргалку.
-
-***
-
 # Event Loop (Цикл событий) в JavaScript
 
 **Event Loop** — это механизм, который координирует выполнение кода, сбор и обработку событий, а также выполнение подзадач в однопоточной среде. Он позволяет JavaScript выполнять асинхронные операции (сетевые запросы, таймеры, реакции на действия пользователя), не блокируя основной поток (Main Thread) и интерфейс браузера.
@@ -116,6 +110,48 @@ console.log("2 — sync");
 - **SpiderMonkey** — Firefox
 - **JavaScriptCore (Nitro)** — Safari
 - *(Chakra — старый движок Edge, сейчас Edge работает на V8)*
+
+
+```mermaid
+flowchart TD
+    %% Настройки стилей
+    classDef mainLoop fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000
+    classDef micro fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
+    classDef render fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#000
+    classDef macro fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    classDef condition fill:#fff9c4,stroke:#fbc02d,stroke-width:2px,color:#000
+    classDef wait fill:#f5f5f5,stroke:#9e9e9e,stroke-width:2px,stroke-dasharray: 5 5,color:#000
+
+    Start(["Начало итерации Event Loop"]) --> CallStack["Выполнение текущего кода в Call Stack<br>(Синхронный скрипт или 1 макрозадача)"]:::mainLoop
+    
+    CallStack --> MicroCheck{"Очередь микрозадач<br>не пуста?"}:::condition
+    
+    %% Цикл микрозадач (дренируется полностью)
+    MicroCheck -- "Да" --> RunMicro["Выполнить 1 микрозадачу<br>(Promise, queueMicrotask)"]:::micro
+    RunMicro --> MicroCheck
+    
+    %% Переход к рендеру
+    MicroCheck -- "Нет<br>(Очередь пуста)" --> RenderCheck{"Прошло ~16.6мс?<br>Нужна перерисовка?"}:::condition
+    
+    %% Шаг рендеринга
+    RenderCheck -- "Да" --> rAF["Вызов коллбэков<br>requestAnimationFrame"]:::render
+    rAF --> Style["Style<br>(Вычисление стилей)"]:::render
+    Style --> Layout["Layout<br>(Геометрия)"]:::render
+    Layout --> Paint["Paint<br>(Отрисовка)"]:::render
+    Paint --> MacroCheck
+    
+    %% Если рендер не нужен
+    RenderCheck -- "Нет" --> MacroCheck{"Есть задачи в<br>Task Queue<br>(Макрозадачи)?"}:::condition
+    
+    %% Проверка макрозадач
+    MacroCheck -- "Да" --> TakeMacro["Взять ровно ОДНУ<br>макрозадачу (setTimeout, click...)"]:::macro
+    TakeMacro --> LoopBack(["Возврат в начало цикла"])
+    LoopBack --> CallStack
+    
+    %% Если нет задач — ожидание
+    MacroCheck -- "Нет" --> Idle["Браузер простаивает (Idle)<br>Ожидание новых событий/I-O"]:::wait
+    Idle -. "Появление новой макрозадачи" .-> TakeMacro
+```
 
 ---
 
