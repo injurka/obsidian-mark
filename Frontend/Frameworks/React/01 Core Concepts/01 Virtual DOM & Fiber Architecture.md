@@ -60,3 +60,108 @@ React хранит в памяти два дерева Fiber:
 ### Фазы работы Fiber:
 1. **Render Phase (Фаза рендера)**: Создание WIP-дерева и вычисление изменений. Эта фаза является **асинхронной** и может прерываться браузером.
 2. **Commit Phase (Фаза фиксации)**: Применение вычисленных изменений к реальному DOM. Эта фаза является **синхронной** и не может быть прервана. Здесь же вызываются `useEffect` и `useLayoutEffect`.
+
+
+
+## 1. Общий процесс Virtual DOM (Reconciliation)
+Эта диаграмма показывает высокоуровневый процесс того, как React реагирует на изменения и обновляет реальный DOM.
+
+```mermaid
+graph TD
+    A([Изменение State или Props]) --> B[Рендер нового Virtual DOM дерева]
+    B --> C{Diffing алгоритм<br/>Сравнение старого и нового VDOM}
+    
+    C -->|Узлы разного типа| D[Уничтожение старого узла и создание нового]
+    C -->|Одинаковые типы, разные ключи 'key'| E[Пересоздание элементов списка]
+    C -->|Одинаковые типы и ключи| F[Вычисление точечных изменений<br/>текст, стили, атрибуты]
+    
+    D --> G
+    E --> G
+    F --> G
+    
+    G[Patching / Сбор изменений] --> H([Commit: Пакетное обновление Real DOM])
+    
+    classDef process fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px,color:#000;
+    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px,color:#000;
+    classDef action fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,color:#000;
+    
+    class A,H action;
+    class C decision;
+    class B,D,E,F,G process;
+```
+
+---
+
+## 2. Структура дерева React Fiber (Связный список)
+Вместо обычного дерева с массивом детей (как было до React 16), Fiber использует структуру **связного списка**. Это позволяет ставить обход на паузу. На диаграмме показаны связи `child`, `sibling` и `return`.
+
+```mermaid
+graph TD
+    Parent["Fiber Node (Родитель)
+    например: &lt;div&gt;"]
+    
+    Child1["Fiber Node (Ребенок 1)
+    например: &lt;h1&gt;"]
+    
+    Child2["Fiber Node (Ребенок 2)
+    например: &lt;p&gt;"]
+    
+    %% Связи
+    Parent -- "child (первый ребенок)" --> Child1
+    Child1 -. "return (родитель)" .-> Parent
+    
+    Child1 == "sibling (брат/сестра)" ==> Child2
+    Child2 -. "return (родитель)" .-> Parent
+    
+    classDef node fill:#ede7f6,stroke:#673ab7,stroke-width:2px,color:#000;
+    class Parent,Child1,Child2 node;
+    
+    linkStyle 0 stroke:#4caf50,stroke-width:2px;
+    linkStyle 1 stroke:#f44336,stroke-width:2px,stroke-dasharray: 5 5;
+    linkStyle 2 stroke:#ff9800,stroke-width:3px;
+    linkStyle 3 stroke:#f44336,stroke-width:2px,stroke-dasharray: 5 5;
+```
+
+---
+
+## 3. Фазы работы Fiber и Двойная Буферизация (Double Buffering)
+Эта диаграмма иллюстрирует, как Fiber разделяет работу на две фазы (асинхронную и синхронную), а также как происходит мгновенная подмена деревьев (Current -> WIP).
+
+```mermaid
+graph TD
+    subgraph RenderPhase ["Фаза 1: RENDER PHASE (Вычисление / Можно прервать)"]
+        A(["Trigger: setState / новые пропсы"]) --> B["Вызов функции компонента"]
+        B --> C["Выполнение: useState, useReducer, useContext<br/>Вычисление: useMemo, useCallback"]
+        C --> D["Возврат JSX - Создание Virtual DOM"]
+        D --> E["Diffing: Сравнение нового и старого VDOM"]
+    end
+
+    subgraph CommitPhase ["Фаза 2: COMMIT PHASE (Обновление DOM / Синхронно)"]
+        E --> F["Очистка пред. useInsertionEffect"]
+        F --> G["Выполнение нового useInsertionEffect"]
+        G --> H(("МУТАЦИЯ РЕАЛЬНОГО DOM"))
+        H --> I["Очистка пред. useLayoutEffect"]
+        I --> J["Выполнение нового useLayoutEffect<br/>(Чтение layout и размеров элементов)"]
+    end
+
+    subgraph PaintPhase ["Фаза 3: BROWSER PAINT (Отрисовка UI)"]
+        J -. "React отдает управление" .-> K{"Браузер рисует DOM на экране"}
+    end
+
+    subgraph EffectPhase ["Фаза 4: EFFECTS PHASE (Асинхронно)"]
+        K -.-> L["Очистка предыдущего useEffect"]
+        L --> M["Выполнение нового useEffect<br/>(Запросы к API, таймеры, подписки)"]
+    end
+
+    %% Стили для блоков
+    classDef render fill:#e3f2fd,stroke:#1e88e5,stroke-width:2px,color:#000
+    classDef commit fill:#fff3e0,stroke:#fb8c00,stroke-width:2px,color:#000
+    classDef paint fill:#e8f5e9,stroke:#43a047,stroke-width:3px,color:#000
+    classDef effect fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000
+
+    class A,B,C,D,E render
+    class F,G,H,I,J commit
+    class K paint
+    class L,M effect
+```
+
