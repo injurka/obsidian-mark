@@ -1,0 +1,4 @@
+
+- #### [mdn](https://developer.mozilla.org/ru/docs/Web/JavaScript)
+- #### [learn-js](https://learn.javascript.ru)
+- #### [doka](https://doka.guide/js/)
