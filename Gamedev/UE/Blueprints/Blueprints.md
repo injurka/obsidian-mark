@@ -1,2 +1,2 @@
-- ### [[Gamedev/UE/Blueprints/Основы/Основы|Основы]]
+- ### [[Gamedev/UE/Blueprints/Основы/Основы (Blueprints)|Основы]]
 - ### [[Коммуникации]]

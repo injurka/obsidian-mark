@@ -1,1 +1,0 @@
-- ### [[HTMLCollection и NodeList]]

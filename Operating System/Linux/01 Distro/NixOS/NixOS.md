@@ -1,6 +1,6 @@
 - ### [[Override package]]
-- ### [[Operating System/Linux/Distro/NixOS/Dots|Dots]]
-- ### [[Operating System/Linux/Distro/NixOS/Источники|Источники]]
+- ### [[Dots (NixOS)|Dots]]
+- ### [[Источники (NixOS)|Источники]]
 
 - ### [[introduction]]
 - ### [[installation]]

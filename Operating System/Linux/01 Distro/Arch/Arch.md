@@ -1,4 +1,4 @@
-- ### [[Operating System/Linux/Distro/Arch/Оптимизация|Оптимизация]]
+- ### [[Оптимизация (Arch)|Оптимизация]]
 - ### [[Очистка системы]]
 - ### [[Package Managers]]
 - ### [[Downgrade pkg]]

@@ -1,6 +1,6 @@
 - ### [[Search]]
 - ### [[Sort]]
-- ### [[Computer Science/Algorithm/Sequence/Sequence|Sequence]]
+- ### [[Computer Science/Algorithm/Sequence/Sequence (Algorithm)|Sequence]]
 - ### [[Recursion]]
 - ### [[Optimization and analysis]]
 - ### [[Theory]]

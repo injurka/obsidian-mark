@@ -9,5 +9,5 @@ Service Worker выступает в роли прокси-сервера меж
 4. **Network Only:** Только из сети.
 
 ## Связанные темы
-- [[02. Браузерная платформа/06. Конкурентность и фоновые задачи/Service Workers|Service Workers]]
+- [[Service Workers (Конкурентность и фоновые задачи)|Service Workers]]
 - [[02. Браузерная платформа/05. Хранение и offline/Cache Storage API|Cache Storage API]]

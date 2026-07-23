@@ -1,2 +1,2 @@
-- ### [[Shared/Dashboard/Dashy/Общее]]
+- ### [[Shared/Dashboard/Dashy/Общее (Dashy)]]
 - ### [[Пример conf.yml]]
