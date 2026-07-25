@@ -1,6 +1,0 @@
-- ### [[01-configuration-nix]]
-- ### [[02-basic-commands]]
-- ### [[03-package-management]]
-- ### [[04-system-updates]]
-- ### [[05-rollbacks]]
-- ### [[06-users-and-groups]]

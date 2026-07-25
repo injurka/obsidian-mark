@@ -1,4 +1,4 @@
 {
-  "syncUrl": "https://wander-api.trip-scheduler.ru/api/sync/reading",
+  "syncUrl": "https://wander-api.limiteddissolve.ru/api/sync/reading",
   "identifier": "injurka-frontend"
 }

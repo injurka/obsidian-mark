@@ -1,6 +1,0 @@
-- ### [[01-preparation]]
-- ### [[02-graphical-installer]]
-- ### [[03-manual-installation]]
-- ### [[04-virtual-machine]]
-- ### [[05-wsl]]
-- ### [[06-post-installation]]

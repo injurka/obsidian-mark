@@ -1,4 +1,0 @@
-- ### [[01-what-is-nix]]
-- ### [[02-what-is-nixos]]
-- ### [[03-why-nixos]]
-- ### [[04-core-concepts]]

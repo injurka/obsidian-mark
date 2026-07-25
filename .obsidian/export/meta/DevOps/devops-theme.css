@@ -1,0 +1,183 @@
+.markdown-body,
+.ai-body {
+    .concept-dropdown {
+        background-color: var(--bg-secondary-color);
+        border: 1px solid var(--border-secondary-color);
+        border-radius: 8px;
+        margin: 15px 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .concept-dropdown summary {
+        padding: 10px 15px;
+        font-weight: 600;
+        color: var(--fg-accent-color);
+        cursor: pointer;
+        background-color: var(--bg-tertiary-color);
+        transition: background 0.2s ease;
+        list-style-position: inside;
+    }
+    .concept-dropdown summary:hover {
+        background-color: var(--bg-hover-color);
+    }
+    .concept-content {
+        padding: 15px;
+        font-size: 0.9em;
+        color: var(--fg-muted-color);
+        border-top: 1px solid var(--border-secondary-color);
+    }
+    .vocab-wrap table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+    }
+    .vocab-wrap th {
+        background-color: var(--bg-tertiary-color);
+        color: var(--fg-primary-color);
+        font-weight: bold;
+    }
+    .vocab-wrap td:nth-child(1) {
+        font-size: 1.1em;
+        font-family: monospace;
+        font-weight: 600;
+        color: var(--fg-accent-color);
+    }
+    .vocab-wrap td:nth-child(2) {
+        color: var(--fg-muted-color);
+    }
+
+    .code-card {
+        background-color: var(--bg-primary-color);
+        border: 1px solid var(--border-secondary-color);
+        border-left: 4px solid var(--border-accent-color);
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    }
+    .code-title {
+        font-weight: bold;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        color: var(--fg-primary-color);
+    }
+    .code-example {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        margin-bottom: 12px;
+        padding: 10px;
+        background-color: var(--bg-secondary-color);
+        border-radius: 6px;
+    }
+    .code-text {
+        font-size: 1.1em; 
+        font-weight: 500;
+        color: var(--fg-primary-color);
+        font-family: 'Fira Code', 'Courier New', Courier, monospace;
+        background: rgba(120, 120, 120, 0.1);
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    .code-note {
+        font-size: 0.9em;
+        color: var(--fg-muted-color);
+        font-style: italic;
+    }
+    .code-desc {
+        font-size: 1em;
+        color: var(--fg-primary-color);
+        margin-top: 4px;
+    }
+    .code-breakdown {
+        font-size: 0.95em;
+        line-height: 1.5;
+        color: var(--fg-primary-color);
+    }
+    .code-breakdown b {
+        color: var(--fg-accent-color);
+    }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(97, 218, 251, 0.08); 
+  border: 1px solid rgba(97, 218, 251, 0.25);
+  border-left: 4px solid rgba(49, 120, 198, 0.5); 
+  border-radius: 12px;
+  padding: 16px 24px;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .hero-icon {
+  font-family: 'Fira Code', monospace;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #3178c6;
+  opacity: 1;
+  margin-right: 24px;
+  padding-right: 24px;
+  border-right: 1px solid rgba(97, 218, 251, 0.3);
+  flex-shrink: 0;
+}
+
+.hero .hero-icon::before {
+  content: "</>"; 
+}
+
+.hero .meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.hero .meta h1 {
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  background: none !important;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--fg-primary-color);
+  font-weight: 700;
+  display: block;
+}
+.hero .meta .hero-subtitle {
+  font-size: 1.1rem;
+  font-family: 'Fira Code', monospace;
+  color: #007acc;
+  margin-top: 4px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.hero .meta .desc {
+  font-size: 0.9rem;
+  color: var(--fg-secondary-color);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .hero .hero-icon {
+    border-right: none;
+    border-bottom: 1px solid rgba(97, 218, 251, 0.3);
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}

@@ -1,4 +1,0 @@
-- ### [[Operating System/Linux/Core/Прочее/Рецепты]]
-- ### [[Спящий режим]]
-- ### [[ssh]]
-- ### [[ssh-copy-id]]

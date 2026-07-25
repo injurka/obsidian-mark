@@ -1,0 +1,13 @@
+{
+  "info": {
+    "sysname": "DevOps",
+    "title": "DevOps-инженерия",
+    "description": "Погружение в мир автоматизации и инфраструктуры: Linux, CI/CD, Docker, Kubernetes и облачные платформы. Путь к созданию отказоустойчивых систем и непрерывной доставке."
+  },
+  "plugins": [
+    "meta/DevOps/plugins/reading-tracker.js"
+  ],
+  "styles": [
+    "devops-theme.css"
+  ]
+}

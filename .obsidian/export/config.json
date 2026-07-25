@@ -34,6 +34,10 @@
       "exportPath": "/Cha"
     },
     {
+      "sourcePath": "/DevOps",
+      "exportPath": "/DevOps"
+    },
+    {
       "sourcePath": "/Personal Note/Cooking/Coffee",
       "exportPath": "/Coffee"
     },
