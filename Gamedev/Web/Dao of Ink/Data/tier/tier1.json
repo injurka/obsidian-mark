@@ -1,0 +1,47 @@
+[
+  {
+    "id": "C-lin",
+    "char": "林",
+    "variants": [],
+    "pinyin": "lin2",
+    "translation": "Лес",
+    "tier": 1,
+    "components": ["R-mu", "R-mu"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-flora",
+    "etymology": "Два дерева, стоящие рядом, образуют небольшую рощу.",
+    "partOfSpeech": ["noun"],
+    "hskLevel": 2,
+    "strokeCount": 8
+  },
+  {
+    "id": "C-xiang",
+    "char": "相",
+    "variants": [],
+    "pinyin": "xiang1",
+    "translation": "Взаимность",
+    "tier": 1,
+    "components": ["R-mu", "R-mu-eye"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-abstract",
+    "etymology": "Глаз, смотрящий на дерево. Внимательное наблюдение и взаимодействие.",
+    "partOfSpeech": ["adjective", "adverb"],
+    "hskLevel": 3,
+    "strokeCount": 9
+  },
+  {
+    "id": "C-ji",
+    "char": "吉",
+    "variants": [],
+    "pinyin": "ji2",
+    "translation": "Удача",
+    "tier": 1,
+    "components": ["R-shi", "R-kou"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-abstract",
+    "etymology": "Слова (рот), произнесенные мудрецом (воином/ученым), приносят благие вести.",
+    "partOfSpeech": ["adjective", "noun"],
+    "hskLevel": 3,
+    "strokeCount": 6
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "C-xi",
+    "char": "囍",
+    "variants": [],
+    "pinyin": "xi3",
+    "translation": "Двойное счастье",
+    "tier": 3,
+    "components": ["C-zhe", "C-zhe"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-abstract",
+    "etymology": "Соединение великих мудростей и удач. Традиционный символ для свадебных амулетов, приносящий абсолютную гармонию.",
+    "partOfSpeech": ["noun", "adjective"],
+    "hskLevel": 3,
+    "strokeCount": 24
+  }
+]

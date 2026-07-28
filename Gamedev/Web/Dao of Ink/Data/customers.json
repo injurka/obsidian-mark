@@ -1,0 +1,20 @@
+[
+  {
+    "id": "NPC-farmer-01",
+    "name": "Крестьянин Ли",
+    "minReputation": 0,
+    "dialogue": "Деревня страдает от лесного пожара! Мне нужно заклинание, чтобы укротить огонь!",
+    "requiredMeaningTags": [
+      "water",
+      "protection"
+    ],
+    "acceptedItemIds": [
+      "R-shui",
+      "C-dan"
+    ],
+    "reward": {
+      "copper": 15,
+      "reputation": 5
+    }
+  }
+]

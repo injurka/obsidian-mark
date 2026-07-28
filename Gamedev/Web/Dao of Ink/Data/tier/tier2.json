@@ -1,0 +1,62 @@
+[
+  {
+    "id": "C-fen",
+    "char": "焚",
+    "variants": [],
+    "pinyin": "fen2",
+    "translation": "Сжигать",
+    "tier": 2,
+    "components": ["C-lin", "R-huo"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-abstract",
+    "etymology": "Огонь, пущенный в лес. Уничтожающее всё пламя.",
+    "partOfSpeech": ["verb"],
+    "hskLevel": 3,
+    "strokeCount": 12
+  },
+  {
+    "id": "C-sen",
+    "char": "森",
+    "variants": [],
+    "pinyin": "sen1",
+    "translation": "Тайга / Чаща",
+    "tier": 2,
+    "components": ["C-lin", "R-mu"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-flora",
+    "etymology": "К лесу (林) добавляется еще одно дерево (木). Непроходимая чаща.",
+    "partOfSpeech": ["noun", "adjective"],
+    "hskLevel": 3,
+    "strokeCount": 12
+  },
+  {
+    "id": "C-xiang-think",
+    "char": "想",
+    "variants": [],
+    "pinyin": "xiang3",
+    "translation": "Думать / Желать",
+    "tier": 2,
+    "components": ["C-xiang", "R-xin"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-abstract",
+    "etymology": "Образ или явление (相), которое человек удерживает в своем сердце (心).",
+    "partOfSpeech": ["verb"],
+    "hskLevel": 1,
+    "strokeCount": 13
+  },
+  {
+    "id": "C-zhe",
+    "char": "喆",
+    "variants": [],
+    "pinyin": "zhe2",
+    "translation": "Мудрость",
+    "tier": 2,
+    "components": ["C-ji", "C-ji"],
+    "isStandaloneWord": true,
+    "themeGroupId": "TG-abstract",
+    "etymology": "Двойная удача (吉+吉), приходящая от великого ума. Древний символ мудреца.",
+    "partOfSpeech": ["adjective", "noun"],
+    "hskLevel": 3,
+    "strokeCount": 12
+  }
+]

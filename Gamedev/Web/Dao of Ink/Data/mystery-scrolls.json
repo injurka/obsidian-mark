@@ -1,0 +1,19 @@
+[
+  {
+    "id": "scroll-sen",
+    "targetCharacterId": "C-sen",
+    "price": {
+      "copper": 30
+    },
+    "requiredHsk": 2,
+    "anchors": [
+      "R-mu",
+      "C-lin"
+    ],
+    "gridSize": {
+      "rows": 3,
+      "cols": 3
+    },
+    "hintText": "Шепот свитков говорит о густой чаще, где деревья стоят плечом к плечу..."
+  }
+]
