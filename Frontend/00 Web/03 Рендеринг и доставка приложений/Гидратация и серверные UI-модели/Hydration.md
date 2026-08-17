@@ -24,7 +24,9 @@ sequenceDiagram
     Browser->>Browser: Страница интерактивна (TTI)
 ```
 
-## Пример кода (React)
+## Пример кода
+
+### React
 
 ```tsx
 // Server (Node.js)
@@ -36,6 +38,38 @@ const html = renderToString(<App state={initialState} />);
 import { hydrateRoot } from 'react-dom/client';
 // React оживляет существующий контейнер вместо замены (render)
 hydrateRoot(document.getElementById('root'), <App state={window.__INITIAL_STATE__} />);
+```
+
+### Vue 3 / Nuxt 3
+
+```typescript
+// Server (Node.js)
+import { createSSRApp } from 'vue'
+import { renderToString } from '@vue/server-renderer'
+
+const app = createSSRApp(App, { state: initialState })
+const html = await renderToString(app)
+// Отправляем html клиенту
+
+// Client (Browser)
+import { createSSRApp } from 'vue'
+const clientApp = createSSRApp(App, { state: window.__INITIAL_STATE__ })
+// Vue монтируется и гидрирует существующий контейнер без пересоздания DOM узлов
+clientApp.mount('#app')
+```
+
+В **Nuxt 3** для компонентов, вызывающих проблемы с гидратацией (например, работающих только в браузере или с разным временем на сервере и клиенте), используется обертка `<ClientOnly>`:
+```vue
+<template>
+  <div>
+    <h1>Постоянный контент (SSR)</h1>
+    
+    <!-- Гидрируется и рендерится исключительно на клиенте без Hydration Mismatch -->
+    <ClientOnly placeholder="Загрузка списка...">
+      <UserBrowserProfile />
+    </ClientOnly>
+  </div>
+</template>
 ```
 
 ## Неочевидные нюансы и трейдоффы

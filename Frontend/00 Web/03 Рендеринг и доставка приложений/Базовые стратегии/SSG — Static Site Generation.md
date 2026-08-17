@@ -1,4 +1,3 @@
-# Static Site Generation (SSG)
 
 ## Инженерная история
 **Что это:** Стратегия рендеринга, при которой HTML-страницы генерируются один раз на этапе сборки (build time) и затем раздаются как статические файлы.
@@ -26,7 +25,9 @@ sequenceDiagram
     C-->>U: Cached HTML (Instant)
 ```
 
-## Пример кода (Паттерн Next.js)
+## Пример кода
+
+### Next.js / React
 
 ```javascript
 // Паттерн: Предварительная генерация путей и данных
@@ -53,6 +54,45 @@ export default function Post({ post }) {
     </article>
   );
 }
+```
+
+### Nuxt 3 / Vue 3
+
+В Nuxt 3 генерация статики выставляется командой `nuxi generate` или настраивается гибридно через `routeRules` в `nuxt.config.ts`:
+
+```typescript
+// nuxt.config.ts
+export default defineNuxtConfig({
+  // Предварительный рендеринг (prerender) конкретных маршрутов на этапе сборки:
+  routeRules: {
+    '/about': { prerender: true },
+    '/posts/**': { prerender: true }
+  },
+  // Для явного вычисления списка динамических путей (аналог getStaticPaths):
+  nitro: {
+    prerender: {
+      crawlLinks: true, // Nitro автоматически найдет все внутренние ссылки <a>
+      routes: ['/posts/1', '/posts/2'] // или динамически из API
+    }
+  }
+})
+```
+
+Внутри компонента страницы (`pages/posts/[id].vue`):
+```vue
+<script setup lang="ts">
+const route = useRoute()
+
+// Во время nuxi generate запрос выполнится при сборке и сохранится в статичный payload HTML
+const { data: post } = await useFetch(`https://api.example.com/posts/${route.params.id}`)
+</script>
+
+<template>
+  <article v-if="post">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+  </article>
+</template>
 ```
 
 ## Неочевидные нюансы

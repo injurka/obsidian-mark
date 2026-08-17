@@ -30,25 +30,56 @@ graph TD
 ```
 
 ## Примеры кода
-**Паттерн: Определение островов (Astro)**
+
+### Astro (с Vue 3 и React островами)
+
 ```astro
 ---
-import Header from '../components/Header.astro'; // Статика
-import InteractiveCounter from '../components/Counter.jsx'; // React-компонент
-import HeavyWidget from '../components/Widget.svelte'; // Svelte-компонент
+import Header from '../components/Header.astro'; // Статический HTML (0 JS)
+import VueCartWidget from '../components/VueCartWidget.vue'; // Vue 3 компонент
+import ReactComments from '../components/ReactComments.jsx'; // React компонент
 ---
 <html>
   <body>
     <Header />
     <main>
-      <!-- Загрузится и гидрируется сразу -->
-      <InteractiveCounter client:load />
+      <!-- Vue остров: гидрируется сразу при загрузке страницы -->
+      <VueCartWidget client:load />
       
-      <!-- Загрузится только когда попадет в зону видимости -->
-      <HeavyWidget client:visible />
+      <!-- React остров: JS загрузится и гидрирует компонент только при скролле -->
+      <ReactComments client:visible />
     </main>
   </body>
 </html>
+```
+
+### Nuxt 3 (Nuxt Islands / `<NuxtIsland>`)
+
+В Nuxt 3 есть экспериментальная нативная поддержка островной архитектуры (`experimental.componentIslands`). Остров рендерится исключительно на сервере и возвращает статический HTML без JS-гидратации:
+
+```vue
+<!-- components/ServerWidget.island.vue -->
+<script setup lang="ts">
+// Выполняется ТОЛЬКО на сервере. Текст и логика рендерятся в статический HTML
+const stats = await $fetch('/api/stats')
+</script>
+
+<template>
+  <div>
+    <h3>Статистика (0 байт JS на клиенте): {{ stats.total }}</h3>
+  </div>
+</template>
+```
+
+Использование острова в обычном Nuxt-компоненте:
+```vue
+<template>
+  <div>
+    <h1>Главная страница</h1>
+    <!-- Остров не тянет JS в клиентский бандл -->
+    <NuxtIsland name="ServerWidget" />
+  </div>
+</template>
 ```
 
 ## Неочевидные нюансы и трейдоффы

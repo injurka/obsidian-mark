@@ -1,4 +1,3 @@
-# CSR (Client-Side Rendering)
 
 ## Инженерная история
 Традиционные сайты генерировали HTML на сервере при каждом клике. С появлением SPA (Single Page Applications) появилась модель CSR. Сервер отдает "пустой" HTML с тегом `<div id="root"></div>` и огромный JS-бандл. Вся логика, роутинг и рендеринг UI происходят в браузере. Боль: мы перенесли нагрузку с наших серверов на устройства пользователей.
@@ -22,7 +21,9 @@ sequenceDiagram
 ```
 
 ## Пример кода
-Типичный входной файл `main.tsx` (Vite / CRA):
+
+### React (Vite / CRA)
+Типичный входной файл `main.tsx`:
 ```tsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
@@ -37,6 +38,29 @@ ReactDOM.createRoot(rootElement).render(
     <App />
   </React.StrictMode>
 )
+```
+
+### Vue 3 (Vite / Nuxt SPA)
+Типичный входной файл `main.ts` (Vite + Vue 3):
+```typescript
+import { createApp } from 'vue'
+import App from './App.vue'
+
+// В HTML лежит пустой <div id="app"></div>
+// Vue создает реактивное дерево и монтирует его в клиентский DOM
+createApp(App).mount('#app')
+```
+
+В **Nuxt 3** вы можете полностью переключить весь проект или конкретные маршруты в режим CSR (SPA) через `nuxt.config.ts`:
+```typescript
+export default defineNuxtConfig({
+  // Выключает SSR глобально (чистое SPA-приложение)
+  ssr: false,
+  // Или гибридно только для конкретных путей:
+  routeRules: {
+    '/admin/**': { ssr: false }
+  }
+})
 ```
 
 ## Неочевидные нюансы

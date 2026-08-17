@@ -23,6 +23,9 @@ sequenceDiagram
 ```
 
 ## Пример кода
+
+### Next.js / React
+
 **Концепт SSR гидратации на клиенте (`hydrateRoot`):**
 ```tsx
 import React from 'react'
@@ -46,6 +49,40 @@ export async function getServerSideProps(context) {
 
   return { props: { data } }; // Передается в React компонент для рендера
 }
+```
+
+### Nuxt 3 / Vue 3
+
+**Гидратация на клиенте (Vue 3 SSR):**
+```typescript
+import { createSSRApp } from 'vue'
+import App from './App.vue'
+
+// createSSRApp настравает Vue для ожидания существующей разметки от сервера
+const app = createSSRApp(App)
+app.mount('#app')
+```
+
+**Nuxt 3 (Universal SSR Rendering):**
+В Nuxt 3 SSR включен по умолчанию. Загрузка данных на сервере и автоматическая передача состояния на клиент (payload hydration) достигаются с помощью `useFetch` / `useAsyncData`:
+```vue
+<!-- pages/article/[id].vue -->
+<script setup lang="ts">
+const route = useRoute()
+
+// useFetch исполняется на сервере во время SSR запроса,
+// а результат сериализуется в payload и отправляется на клиент без повторного fetch!
+const { data: article, pending, error } = await useFetch(
+  `https://api.example.com/data/${route.params.id}`
+)
+</script>
+
+<template>
+  <div v-if="article">
+    <h1>{{ article.title }}</h1>
+    <p>{{ article.content }}</p>
+  </div>
+</template>
 ```
 
 ## Неочевидные нюансы

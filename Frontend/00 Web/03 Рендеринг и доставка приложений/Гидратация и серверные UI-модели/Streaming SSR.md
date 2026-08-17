@@ -27,7 +27,9 @@ sequenceDiagram
     S-->>C: (Chunk 3) </body></html>
 ```
 
-## Пример кода (React 18)
+## Пример кода
+
+### React 18 / Next.js
 
 ```javascript
 // Паттерн: Использование Suspense для границ стриминга
@@ -60,6 +62,41 @@ export default function Dashboard() {
 // import { renderToPipeableStream } from 'react-dom/server';
 // const { pipe } = renderToPipeableStream(<Dashboard />, { ... });
 // pipe(res);
+```
+
+### Vue 3 / Nuxt 3
+
+**Низкоуровневый Vue 3 Stream (`@vue/server-renderer`):**
+```typescript
+import { createSSRApp } from 'vue'
+import { pipeToNodeWritable } from '@vue/server-renderer'
+
+// Потоковый рендеринг Vue 3 приложения прямо в HTTP-ответ Node.js res
+const app = createSSRApp(App)
+pipeToNodeWritable(app, {}, res)
+```
+
+**Nuxt 3 (Suspense + HTML Streaming):**
+В компонентах Nuxt 3 асинхронные блоки оборачиваются в `<Suspense>`. Сервер отправляет первый HTML-чанк со скелетоном, не блокируя время первого байта (TTFB):
+
+```vue
+<!-- pages/dashboard.vue -->
+<template>
+  <div>
+    <Header />
+
+    <!-- В начальный HTML сервер вставит #fallback -->
+    <!-- Как только асинхронный компонент разрулится, потоком дойдет готовый разметка -->
+    <Suspense>
+      <template #default>
+        <AsyncHeavyAnalytics />
+      </template>
+      <template #fallback>
+        <div class="skeleton-loader">Загрузка аналитики...</div>
+      </template>
+    </Suspense>
+  </div>
+</template>
 ```
 
 ## Неочевидные нюансы

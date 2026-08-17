@@ -34,10 +34,12 @@ sequenceDiagram
     end
 ```
 
-## Пример кода (Next.js)
+## Пример кода
+
+### Next.js / React
 
 ```javascript
-// Паттерн: Настройка времени ревалидации
+// Паттерн: Настройка времени ревалидации в Next.js Pages Router
 export async function getStaticProps({ params }) {
   const res = await fetch(`https://api.example.com/products/${params.id}`);
   const product = await res.json();
@@ -59,6 +61,39 @@ export async function getStaticPaths() {
     fallback: 'blocking' // Первый пользователь будет ждать SSR, остальные получат кэш
   };
 }
+```
+
+### Nuxt 3 / Vue 3 (Nitro SWR / ISR)
+
+В Nuxt 3 инкрементальная регенерация и `stale-while-revalidate` встроены на уровне серверного движка Nitro через `routeRules`:
+
+```typescript
+// nuxt.config.ts
+export default defineNuxtConfig({
+  routeRules: {
+    // SWR (Stale-While-Revalidate): кэшировать ответ на 60 секунд, 
+    // отдавать устаревший кэш и незаметно пересобирать страницу в фоне
+    '/products/**': { swr: 60 },
+
+    // ISR: генерировать страницу по требованию (при первом визите) 
+    // и обновлять в фоне каждые 3600 секунд (1 час)
+    '/blog/**': { isr: 3600 },
+
+    // SWR на неопределенный срок до ручного сброса (On-Demand Revalidation):
+    '/news/**': { isr: true }
+  }
+})
+```
+
+Для программного сброса кэша (On-Demand Revalidation) в Nuxt 3/Nitro используется встроенное KV-хранилище:
+```typescript
+// server/api/revalidate.ts
+export default defineEventHandler(async (event) => {
+  // Сброс кэша конкретного маршрута через хранилище Nitro
+  const cache = useStorage('assets:nitro:functions')
+  await cache.removeItem('nitro:handlers:blog:index.html')
+  return { revalidated: true }
+})
 ```
 
 ## Неочевидные нюансы

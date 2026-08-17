@@ -1,4 +1,3 @@
-# Edge Rendering
 
 ## Инженерная история
 **Что это:** Выполнение серверного рендеринга (SSR) или логики роутинга (Middleware) не на центральном сервере (origin), а на граничных узлах CDN (Edge nodes), расположенных физически близко к пользователю.
@@ -30,7 +29,9 @@ sequenceDiagram
     end
 ```
 
-## Пример кода (Next.js Middleware / Edge Runtime)
+## Пример кода
+
+### Next.js / React (Edge Middleware)
 
 ```typescript
 // Паттерн: A/B тестирование или редирект на границе
@@ -55,6 +56,37 @@ export function middleware(request: NextRequest) {
   
   return response;
 }
+```
+
+### Nuxt 3 / Vue 3 (Nitro Edge Preset & Middleware)
+
+Благодаря движку **Nitro**, весь сайт на Nuxt 3 может быть собран для исполнения на Edge-нодах (Cloudflare Workers, Vercel Edge, Netlify Edge) переключением `preset`:
+
+```typescript
+// nuxt.config.ts
+export default defineNuxtConfig({
+  nitro: {
+    // Вся логика приложения и SSR рендеринг запускаются на Edge!
+    preset: 'cloudflare_pages' // или 'vercel_edge', 'netlify_edge'
+  }
+})
+```
+
+Пример серверного middleware Nuxt 3 (`server/middleware/geo.ts`), выполняющегося на Edge:
+```typescript
+export default defineEventHandler((event) => {
+  // Получаем гео-данные из Edge-контекста (например, Cloudflare headers)
+  const country = getRequestHeader(event, 'cf-ipcountry') || 'US'
+  const url = getRequestURL(event)
+
+  if (country === 'JP' && !url.pathname.startsWith('/jp')) {
+    return sendRedirect(event, '/jp', 302)
+  }
+
+  // Настройка A/B теста
+  const bucket = Math.random() < 0.5 ? 'variant-a' : 'variant-b'
+  setCookie(event, 'ab-test', bucket, { path: '/' })
+})
 ```
 
 ## Неочевидные нюансы

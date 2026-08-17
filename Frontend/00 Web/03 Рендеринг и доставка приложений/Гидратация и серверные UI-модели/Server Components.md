@@ -25,11 +25,11 @@ sequenceDiagram
     R->>C: Update DOM (No JS for Server Components)
 ```
 
-## Пример кода (Next.js App Router)
+## Пример кода
+
+### Next.js / React (React Server Components)
 
 ```jsx
-// Паттерн: Разделение на Server и Client компоненты
-
 // 1. Server Component (По умолчанию)
 // Выполняется ТОЛЬКО на сервере. Код marked не попадет в бандл клиента!
 import { marked } from 'marked'; 
@@ -59,6 +59,44 @@ export default function InteractiveButton({ postId }) {
   // Этот код пойдет в клиентский JS бандл
   return <button onClick={() => setLikes(l => l + 1)}>Like {likes}</button>;
 }
+```
+
+### Nuxt 3 / Vue 3 (Nuxt Server Components `.server.vue`)
+
+Nuxt 3 поддерживает протокол Server Components с помощью файла с суффиксом `.server.vue`. Тяжелые библиотеки и логика взаимодействия с БД остаются на сервере:
+
+```vue
+<!-- components/BlogPost.server.vue -->
+<script setup lang="ts">
+import { marked } from 'marked' // Код marked НЕ ПОПАДЕТ в клиентский бандл!
+
+const props = defineProps<{ id: string }>()
+
+// Прямой доступ к серверу/БД во время рендеринга компонента на сервере
+const post = await $fetch(`/api/posts/${props.id}`)
+const htmlContent = marked.parse(post.content)
+</script>
+
+<template>
+  <article>
+    <h1>{{ post.title }}</h1>
+    <div v-html="htmlContent" />
+    <!-- Интерактивный клиентский компонент передается внутрь -->
+    <InteractiveButton :post-id="post.id" />
+  </article>
+</template>
+```
+
+Клиентский компонент (`components/InteractiveButton.client.vue` или обычный):
+```vue
+<script setup lang="ts">
+const props = defineProps<{ postId: string }>()
+const likes = ref(0)
+</script>
+
+<template>
+  <button @click="likes++">Like {{ likes }}</button>
+</template>
 ```
 
 ## Неочевидные нюансы

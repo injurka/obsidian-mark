@@ -28,7 +28,9 @@ flowchart TD
 ```
 
 ## Примеры кода
-**Паттерн: React Server Components (Next.js App Router)**
+
+### Next.js / React (React Server Components)
+
 ```tsx
 // app/page.tsx (По умолчанию Server Component)
 import { db } from './db';
@@ -42,11 +44,44 @@ export default async function ArticlePage() {
       <h1>{article.title}</h1>
       <p>{article.content}</p> {/* 100kb текста не попадут в VDOM на клиенте */}
       
-      {/* Только этот компонент поедет на клиент и будет гидрироваться */}
+      {/* Только этот клиентский компонент поедет на клиент и будет гидрироваться */}
       <InteractiveLike initialLikes={article.likes} id={article.id} />
     </article>
   );
 }
+```
+
+### Nuxt 3 / Vue 3 (Nuxt Islands / Server Components)
+
+В Nuxt 3 концепция частичной гидратации реализуется через серверные компоненты (`.server.vue` / `.island.vue`):
+
+```vue
+<!-- components/InteractiveComments.client.vue -->
+<!-- Модификатор .client явно задает границу частичной гидратации -->
+<script setup lang="ts">
+const comments = ref([])
+const addComment = () => { /* клиентская логика */ }
+</script>
+
+<template>
+  <div>
+    <button @click="addComment">Добавить комментарий</button>
+  </div>
+</template>
+```
+
+```vue
+<!-- pages/article/[id].vue -->
+<template>
+  <article>
+    <!-- Статическая часть (SSR HTML), не требует гидратации VDOM -->
+    <h1>{{ article.title }}</h1>
+    <div v-html="article.renderedMarkdown" />
+
+    <!-- Изолированная гидратация только этого блока -->
+    <InteractiveComments />
+  </article>
+</template>
 ```
 
 ## Неочевидные нюансы и трейдоффы

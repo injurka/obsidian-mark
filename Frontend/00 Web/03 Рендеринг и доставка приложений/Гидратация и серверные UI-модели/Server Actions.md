@@ -24,7 +24,9 @@ sequenceDiagram
 ```
 
 ## Примеры кода
-**Паттерн: Использование в форме (без JS на клиенте работает!)**
+
+### Next.js / React ('use server')
+
 ```tsx
 // app/actions.ts
 'use server'
@@ -33,7 +35,7 @@ import { db } from './db';
 export async function createPost(formData: FormData) {
   const title = formData.get('title');
   // Проверка авторизации ОБЯЗАТЕЛЬНА!
-  await db.posts.insert({ title });
+  await db.posts.insert({ title: title as string });
 }
 
 // app/page.tsx
@@ -47,6 +49,48 @@ export default function Page() {
     </form>
   );
 }
+```
+
+### Nuxt 3 / Vue 3 (Nitro Server Routes & `$fetch`)
+
+В Nuxt 3 вызовы серверных мутаций реализуются через строгие и прозрачные серверные эндпоинты (`server/api/*.ts` или `server/routes/*.ts`) с автозаполнением типов через `$fetch`:
+
+```typescript
+// server/api/posts.post.ts
+export default defineEventHandler(async (event) => {
+  const body = await readBody(event)
+  
+  // Проверка авторизации внутри серверного хэндлера:
+  const session = await getUserSession(event)
+  if (!session) throw createError({ statusCode: 401, message: 'Unauthorized' })
+
+  const post = await db.posts.insert({ title: body.title })
+  return { success: true, post }
+})
+```
+
+Вызов из Vue-компонента (`pages/create.vue`):
+```vue
+<script setup lang="ts">
+const title = ref('')
+
+const handleSubmit = async () => {
+  // $fetch типизирован и обращается напрямую к обработчику server/api/posts.post.ts
+  await $fetch('/api/posts', {
+    method: 'POST',
+    body: { title: title.value }
+  })
+  // Очистка или ревалидация стейта страницы
+  refreshNuxtData()
+}
+</script>
+
+<template>
+  <form @submit.prevent="handleSubmit">
+    <input v-model="title" type="text" />
+    <button type="submit">Создать</button>
+  </form>
+</template>
 ```
 
 ## Неочевидные нюансы и трейдоффы

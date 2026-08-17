@@ -33,9 +33,9 @@ graph TD
 
 ## Как это работает на практике
 
-Проблема: если из-за одной маленькой динамической детали (аватарки) мы делаем всю страницу динамической (SSR), мы теряем все преимущества CDN. Сервер начинает пыхтеть над каждым запросом, TTFB (Time to First Byte) растет.
+### Next.js / React
 
-**Антипаттерн: SSR для всего ради одного элемента**
+**Антипаттерн: SSR для всего ради одного динамического элемента**
 ```javascript
 // Next.js (Плохо: рендерим всю тяжелую страницу на сервере для каждого запроса)
 export async function getServerSideProps({ req }) {
@@ -66,6 +66,36 @@ export default function Page({ article }) {
     </div>
   );
 }
+```
+
+### Nuxt 3 / Vue 3
+
+В Nuxt 3 разделение статики и динамики реализуется комбинацией `useFetch` (для мгновенной статики/SSR) и `useLazyFetch({ server: false })` (для клиентской динамики):
+
+```vue
+<!-- pages/article/[id].vue -->
+<script setup lang="ts">
+const route = useRoute()
+
+// 1. Статический/SSR контент: грузится на сервере, кэшируется на уровне Nitro SWR/CDN
+const { data: article } = await useFetch(`/api/articles/${route.params.id}`)
+
+// 2. Персональная динамика: НЕ блокирует SSR генерацию страницы (server: false)
+// Выполняется строго в браузере после первой отрисовки
+const { data: user, pending: userLoading } = await useLazyFetch('/api/user/me', {
+  server: false
+})
+</script>
+
+<template>
+  <div>
+    <!-- Отдается моментально из CDN/SSR -->
+    <ArticleContent :data="article" />
+
+    <!-- Заполняется на клиенте через SWR / CSR -->
+    <UserProfileWidget :user="user" :loading="userLoading" />
+  </div>
+</template>
 ```
 
 ## Неочевидные нюансы: Границы применимости

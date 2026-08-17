@@ -19,18 +19,26 @@
 
 WebAuthn полностью исключает фишинг благодаря использованию криптографии с открытым ключом:
 
-```text
-КЛИЕНТ (Браузер + Чип Secure Enclave)                 СЕРВЕР (Бэкенд)
-  │                                                         │
-  │ ─── (Регистрация: генерация пары ключей) ─────────────► │
-  │                                                         │
-  │     [Закрытый ключ] (Private Key)                       [Открытый ключ] (Public Key)
-  │     Хранится в Secure Enclave устройства.                Хранится в обычной БД.
-  │     Никогда не передается по сети.                       Используется только для проверки подписи.
-  │                                                         │
-  │ ─── (Авторизация: подпись случайного Challenge) ──────► │
-  │     Подпись генерируется закрытым ключом                Проверяет подпись открытым ключом.
-  │     после подтверждения биометрии.                       Если ок ──► Сессия создана.
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Client as Клиент (Браузер + Secure Enclave)
+    participant Server as Сервер (Backend API)
+
+    Note over Client,Server: 1. Этап регистрации (Создание пары ключей)
+    Client->>Server: Запрос на регистрацию
+    Server-->>Client: Challenge + RP ID
+    Client->>Client: Генерация пары ключей: Private Key (в чипе) + Public Key
+    Client->>Server: Отправка Public Key + Attestation
+    Server->>Server: Сохранение Public Key в БД
+
+    Note over Client,Server: 2. Этап аутентификации (Вход по биометрии)
+    Client->>Server: Запрос на вход
+    Server-->>Client: Случайный Challenge
+    Client->>Client: Биометрия (Touch/Face ID) ──► Подпись Challenge закрытым ключом
+    Client->>Server: Отправка Signature + AuthenticatorData
+    Server->>Server: Проверка подписи открытым ключом из БД
+    Server-->>Client: 200 OK (Сессия создана)
 ```
 
 ### Защита от фишинга на уровне протокола

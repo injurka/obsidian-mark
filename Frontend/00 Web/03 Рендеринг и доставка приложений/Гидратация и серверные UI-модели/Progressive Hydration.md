@@ -29,7 +29,9 @@ gantt
 ```
 
 ## Примеры кода
-**Паттерн: Гидратация по Intersection Observer (псевдокод)**
+
+### React (Intersection Observer wrapper)
+
 ```tsx
 import { useState, useEffect, useRef } from 'react';
 
@@ -59,6 +61,44 @@ function withProgressiveHydration(Component) {
   };
 }
 ```
+
+### Vue 3 / Nuxt 3 (defineAsyncComponent + Hydration Strategies)
+
+В Vue 3.5+ появилась встроенная поддержка стратегий прогрессивной гидратации через `defineAsyncComponent`:
+
+```vue
+<script setup lang="ts">
+import { defineAsyncComponent, hydrateOnVisible, hydrateOnIdle, hydrateOnInteraction } from 'vue'
+
+// 1. Гидратация при попадании элемента в видимую область (Intersection Observer)
+const LazyFooter = defineAsyncComponent({
+  loader: () => import('./Footer.vue'),
+  hydrate: hydrateOnVisible()
+})
+
+// 2. Гидратация при появлении свободного времени в Main Thread (requestIdleCallback)
+const LazyAnalyticsChart = defineAsyncComponent({
+  loader: () => import('./AnalyticsChart.vue'),
+  hydrate: hydrateOnIdle()
+})
+
+// 3. Гидратация только при клике или наведении мыши
+const LazyComplexModal = defineAsyncComponent({
+  loader: () => import('./ComplexModal.vue'),
+  hydrate: hydrateOnInteraction(['click', 'mouseenter'])
+})
+</script>
+
+<template>
+  <div>
+    <Header />
+    <LazyAnalyticsChart />
+    <LazyFooter />
+  </div>
+</template>
+```
+
+В **Nuxt 3** отложенные компоненты префиксуются словом `Lazy` (например, `<LazyFooter />`), что автоматически выносит их в отдельные ленивые чанки.
 
 ## Неочевидные нюансы и трейдоффы
 - **Потерянные события (Lost Clicks):** Если пользователь кликнет на кнопку до того, как компонент успел гидрироваться (например, скрипт загружался по наведению, но пользователь кликнул очень быстро), событие пропадет. Решение: библиотеки-перехватчики (event replaying), которые запоминают клики и воспроизводят их после гидратации.

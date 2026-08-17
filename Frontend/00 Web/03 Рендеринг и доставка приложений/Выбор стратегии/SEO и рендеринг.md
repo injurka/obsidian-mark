@@ -30,6 +30,8 @@ sequenceDiagram
 
 ## Примеры кода и подходы
 
+### React / Next.js
+
 **Антипаттерн: Управление мета-тегами на клиенте (CSR)**
 ```jsx
 // React SPA: Плохо для соцсетей и парсеров
@@ -46,23 +48,52 @@ function ProductPage() {
 ```
 
 **Паттерн: Dynamic Rendering на уровне Edge / Middleware**
-Если переписать старое большое SPA на SSR/Next.js слишком дорого, используют паттерн динамического рендеринга. Людям отдают статику SPA, а ботов перехватывают и отдают пререндер (через Puppeteer или сервисы типа Prerender.io).
+Если переписать старое большое SPA на SSR слишком дорого, используют паттерн динамического рендеринга. Людям отдают статику SPA, а ботов перехватывают и отдают пререндер (через Puppeteer или сервисы типа Prerender.io).
 ```javascript
 // Cloudflare Worker Middleware (Пример)
 addEventListener('fetch', event => {
   const userAgent = event.request.headers.get('User-Agent') || '';
-  // Детектим известных роботов
   const isBot = /googlebot|bingbot|yandex|baiduspider|twitterbot|facebookexternalhit/i.test(userAgent);
 
   if (isBot) {
-    // Бот? Проксируем запрос на сервис, который запустит Chrome, 
-    // подождет рендера SPA и вернет чистый статический HTML.
     event.respondWith(fetch(`https://service.prerender.io/${event.request.url}`));
   } else {
-    // Человек? Отдаем обычный index.html от SPA для быстрого перехода
     event.respondWith(fetch(event.request));
   }
 });
+```
+
+### Nuxt 3 / Vue 3 (Серверные мета-теги через `useSeoMeta`)
+
+В Nuxt 3 мета-теги генерируются на сервере в момент SSR вызова и сразу встраиваются в открывающий тег `<head>` исходного HTML-документа:
+
+```vue
+<!-- pages/products/[id].vue -->
+<script setup lang="ts">
+const route = useRoute()
+const { data: product } = await useFetch(`/api/products/${route.params.id}`)
+
+// useSeoMeta полностью типизирован и рендерится на сервере для SEO-ботов и соцсетей:
+useSeoMeta({
+  title: () => product.value?.title || 'Товар не найден',
+  ogTitle: () => product.value?.title,
+  description: () => product.value?.description,
+  ogDescription: () => product.value?.description,
+  ogImage: () => product.value?.imageUrl,
+  twitterCard: 'summary_large_image',
+})
+
+// Если ресурс не найден, на сервере выставляется реальный 404 HTTP-статус:
+if (!product.value) {
+  showError({ statusCode: 404, statusMessage: 'Product Not Found' })
+}
+</script>
+
+<template>
+  <div v-if="product">
+    <h1>{{ product.title }}</h1>
+  </div>
+</template>
 ```
 
 ## Неочевидные нюансы и границы применимости
