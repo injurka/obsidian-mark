@@ -11,9 +11,9 @@
 
 - **Поднебесная и Азия:**
   - [[Travel/01 Shanghai/Shanghai|Шанхай (Shanghai)]] — небоскребы, набережная Вайтань, районы и городская логистика.
-  - [[Travel/03 Zhangjiajie/Zhangjiajie|Чжанцзяцзе (Zhangjiajie)]] — парящие горы Аватара, стеклянный мост и Тяньмэньшань.
-  - [[Travel/04 China South Loop/China South Loop|China South Loop]] — южное кольцо Китая.
-  - [[Travel/05 Imperial Coast/02 - Маршрутный план/Маршрутный план (Imperial Coast)|Imperial Coast]] — Пекин, Сиань (Терракотовая армия), гроты Лояна и морской Циндао.
+  - [[Zhangjiajie|Чжанцзяцзе (Zhangjiajie)]] — парящие горы Аватара, стеклянный мост и Тяньмэньшань.
+  - [[China South Loop|China South Loop]] — южное кольцо Китая.
+  - [[Маршрутный план (Imperial Coast)|Imperial Coast]] — Пекин, Сиань (Терракотовая армия), гроты Лояна и морской Циндао.
   - [[Travel/-- The Southern Cloud Trail/The Southern Cloud Trail|The Southern Cloud Trail]] — Юньнань (Куньмин, Дали, Лицзян) и Сычуань (Чэнду).
   - [[Travel/-- Lost Horizon/Lost Horizon|Lost Horizon]] — Куньмин, Гуйян, карстовые пейзажи Гуйлиня, Яншо и Чэнду.
   - [[Travel/-- Taiwan/Taiwan|Тайвань (Taiwan)]] — маршрутный план, воркейшн, поезда и культура острова.
