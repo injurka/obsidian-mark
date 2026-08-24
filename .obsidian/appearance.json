@@ -11,7 +11,8 @@
     "ru-note",
     "recipe-layout",
     "recipe-layout-eat",
-    "recipe-layout-drink"
+    "recipe-layout-drink",
+    "travel-rating"
   ],
   "theme": "moonstone",
   "baseFontSize": 16,
