@@ -37,5 +37,7 @@
   "blue-topaz-theme@@background-secondary-bg-4-bt@@light": "#F1F0E9",
   "blue-topaz-theme@@background-secondary-alt-bg-4-bt@@light": "#F1F0E9",
   "blue-topaz-theme@@background-primary-alt-bg-4-bt@@light": "#F1F0E9",
+  "blue-topaz-theme@@callout-style-settings": "admonition-bg-color-same",
+  "blue-topaz-theme@@admonition-bg-color-same": true,
   "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": false
 }

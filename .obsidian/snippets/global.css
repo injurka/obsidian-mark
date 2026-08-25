@@ -35,3 +35,67 @@
 .iconize-icon-in-link {
   display: none;
 }
+
+/* ==========================================================================
+   Callouts / Alerts Styling (Tip, Important, Note, Warning, etc.)
+   ========================================================================== */
+.callout,
+.callout[data-callout="note"] { --callout-color: 68, 138, 255; }
+.callout[data-callout="tip"],
+.callout[data-callout="hint"] { --callout-color: 0, 191, 165; }
+.callout[data-callout="important"] { --callout-color: 139, 92, 246; }
+.callout[data-callout="info"] { --callout-color: 68, 138, 255; }
+.callout[data-callout="todo"] { --callout-color: 68, 138, 255; }
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] { --callout-color: 76, 175, 80; }
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] { --callout-color: 255, 152, 0; }
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] { --callout-color: 255, 152, 0; }
+.callout[data-callout="failure"],
+.callout[data-callout="fail"],
+.callout[data-callout="missing"],
+.callout[data-callout="danger"],
+.callout[data-callout="error"],
+.callout[data-callout="bug"] { --callout-color: 229, 57, 53; }
+.callout[data-callout="example"] { --callout-color: 124, 77, 255; }
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] { --callout-color: 158, 158, 158; }
+
+.callout:not([data-callout*="blank"]):not([data-callout*="stickies"]) {
+  background-color: rgba(var(--callout-color), 0.1) !important;
+  border: 1px solid rgba(var(--callout-color), 0.22) !important;
+  border-left: 4px solid rgb(var(--callout-color)) !important;
+  border-radius: var(--callout-radius, 8px) !important;
+  margin: 1em 0;
+  overflow: hidden;
+}
+
+.theme-dark .callout:not([data-callout*="blank"]):not([data-callout*="stickies"]) {
+  background-color: rgba(var(--callout-color), 0.15) !important;
+  border-color: rgba(var(--callout-color), 0.28) !important;
+}
+
+.callout:not([data-callout*="blank"]):not([data-callout*="stickies"]) .callout-title {
+  color: rgb(var(--callout-color)) !important;
+  font-weight: 600;
+  padding: 10px 14px 8px 14px;
+  background-color: rgba(var(--callout-color), 0.08) !important;
+  border-bottom: 1px solid rgba(var(--callout-color), 0.1);
+}
+
+.callout:not([data-callout*="blank"]):not([data-callout*="stickies"]) .callout-content {
+  padding: 8px 14px 12px 14px;
+}
+
+.callout:not([data-callout*="blank"]):not([data-callout*="stickies"]) .callout-icon {
+  color: rgb(var(--callout-color)) !important;
+}
+
+.callout:not([data-callout*="blank"]):not([data-callout*="stickies"]) .callout-fold {
+  color: rgb(var(--callout-color)) !important;
+}
+

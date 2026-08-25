@@ -1,9 +1,14 @@
 ## Маршрут
 
-### Обзор дня
+### Важная подготовка и логистика пляжного дня
 
-> [!TIP] Нишевые пляжи, секретные лагуны и теплый океан (+28°C)
-> Сегодня исследуем скрытые жемчужины побережья: природные коралловые бассейны Маленького Бали, живописный пляж Скалы Парус, белоснежный Байша и вечерний лаунж в бухте Little Bay.
+> [!IMPORTANT] Логистика и навигация по пляжам Кэньдина
+> * **Транспорт:** Скутер / электробайк (e-bike) — идеальный способ перемещения между лагунами западного и восточного берегов полуострова Хэнчунь.
+> * **География маршрута:**
+>   * *Утро (Юго-Запад):* Лагуна **Little Bali Rock (小巴里島岩)** находится рядом с гаванью Хоубиху (15 мин от Хэнчуня на юг).
+>   * *День (Юго-Восток):* Пляж **Chuanfanshi (船帆石)** и **Little Bay (小灣)** расположены на шоссе №26 за главной улицей Кэньдина.
+>   * *Закат (Запад):* Белоснежный пляж **Baisha (白沙灣)** омывается спокойными водами Тайваньского пролива.
+> * **Совет:** Все пляжные локации бесплатны, парковка скутера `~10–20 TWD` или бесплатна. Возьмите с собой коралловые тапочки для комфортного захода в лагуну Little Bali.
 
 ---
 
@@ -17,7 +22,7 @@
     * *Ключевые точки*:
         1. **Природные коралловые бассейны**: Абсолютно спокойные чаши с морской водой без волн, идеальные для купания и снорклинга.
         2. **Подводный мир**: Прозрачнейшая вода, кораллы, рыбы-клоуны и актинии прямо у берега.
-    * _Ссылка на локацию_: [Google Maps: Little Bali Rock](https://maps.google.com/?q=Little+Bali+Rock+Kenting)<iframe src="https://maps.google.com/maps?q=Little+Bali+Rock+Kenting&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Little Bali Rock](https://maps.google.com/?q=Little+Bali+Rock+Kenting)<iframe src="https://maps.google.com/maps?q=Little+Bali+Rock+Kenting&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -28,14 +33,14 @@
 * **13:30 - 16:30** — Пляж Скалы Парус (Chuanfanshi Beach / 船帆石海灘).
     * *Контекст*: Уютный пляж с мягким золотым песком прямо напротив 18-метрового кораллового монолита «Скала Парус», напоминающего профиль Ричарда Никсона.
     * *Маршрут*: Плавание в чистейшем море (+28°C), катание на SUP-бордах или шезлонги под зонтом.
-    * _Ссылка на локацию_: [Google Maps: Chuanfanshi Beach](https://maps.google.com/?q=Chuanfanshi+Beach)<iframe src="https://maps.google.com/maps?q=Chuanfanshi+Beach&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Chuanfanshi Beach](https://maps.google.com/?q=Chuanfanshi+Beach)<iframe src="https://maps.google.com/maps?q=Chuanfanshi+Beach&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!INFO]- Картинки
 > ![[13_chuanfanshi_rock.jpg]]
 
 * **16:30 - 18:30** — Белоснежный полумесяц: Пляж Байша (Baisha Beach / 白沙灣).
     * *Контекст*: 500-метровый уединенный пляж из тончайшего белого ракушечного песка, место съемок фильма «Жизнь Пи».
-    * _Ссылка на локацию_: [Google Maps: Baisha Beach Kenting](https://maps.google.com/?q=Baisha+Beach+Kenting)<iframe src="https://maps.google.com/maps?q=Baisha+Beach+Kenting&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Baisha Beach Kenting](https://maps.google.com/?q=Baisha+Beach+Kenting)<iframe src="https://maps.google.com/maps?q=Baisha+Beach+Kenting&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!INFO]- Картинки
 > ![[13_baisha_beach.jpg]]
@@ -51,7 +56,7 @@
     * *Ключевые точки*:
         1. **Лаунж-бар под пальмами**: Вечерний тропический коктейль или чай под шум прибоя.
         2. **Звездное небо юга**: Теплый морской воздух и огни далеких кораблей в проливе.
-    * _Ссылка на локацию_: [Google Maps: Little Bay Beach Kenting](https://maps.google.com/?q=Little+Bay+Beach+Kenting)<iframe src="https://maps.google.com/maps?q=Little+Bay+Beach+Kenting&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Little Bay Beach Kenting](https://maps.google.com/?q=Little+Bay+Beach+Kenting)<iframe src="https://maps.google.com/maps?q=Little+Bay+Beach+Kenting&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **21:30+** — Ночь в серф-миньсу (2-я ночь из 3).
 
