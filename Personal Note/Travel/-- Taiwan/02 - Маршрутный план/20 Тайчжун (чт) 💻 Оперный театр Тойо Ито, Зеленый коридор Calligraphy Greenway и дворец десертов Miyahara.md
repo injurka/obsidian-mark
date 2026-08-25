@@ -16,25 +16,32 @@
 
 ## Маршрут [💻 До 14:45 город / 15:00-20:30 работа]
 
-### УТРЕННИЙ СЛОТ (09:30 - 14:45: Архитектура Тойо Ито, Calligraphy Greenway и кофе)
+### УТРЕННИЙ СЛОТ (09:30 - 14:45: Calligraphy Greenway, кофе Mojocoffee и Опера Тойо Ито)
 
-* **09:30 - 11:30** — Архитектурное чудо мирового уровня: **Национальный оперный театр Тайчжуна (National Taichung Theater / 臺中國家歌劇院)**.
+* **09:30 - 10:30** — Зеленая артерия города: **Calligraphy Greenway (Зеленый коридор каллиграфии / 草悟道)** и арт-парк CMP Block:
+    * *Контекст*: Пешеходный тенистый бульвар протяженностью 3.6 км, соединяющий музеи, парки скульптур и открытые галереи. Утренняя прогулка под кронами деревьев.
+    * _Ссылка на локацию_: [Google Maps: Calligraphy Greenway](https://maps.google.com/?q=Calligraphy+Greenway+Taichung)<iframe src="https://maps.google.com/maps?q=Calligraphy+Greenway+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
+* **10:30 - 11:30** — Спешелти-кофе в культовой ростерии: **The Factory Mojocoffee** или **Hausinc Cafe**:
+    * *Контекст*: Тайчжун знаменит огромными двухэтажными кофейнями мирового уровня. Авторский пуровер V60, холодный колд-брю и свежая выпечка перед экскурсией.
+    * _Ссылка на локацию_: [Google Maps: The Factory Mojocoffee](https://maps.google.com/?q=The+Factory+Mojocoffee+Taichung)<iframe src="https://maps.google.com/maps?q=The+Factory+Mojocoffee+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
+* **11:30 - 13:00** — Архитектурное чудо мирового уровня: **Национальный оперный театр Тайчжуна (National Taichung Theater / 臺中國家歌劇院)**:
     * *Контекст*: Футуристическое здание, спроектированное лауреатом Притцкеровской премии японцем Тойо Ито (Toyo Ito). Построено по уникальной технологии без единой прямой несущей колонны — сплошные изогнутые органические «звуковые пещеры».
+    * > [!NOTE] Часы работы
+      > Здание Оперного театра открывается для публики ровно в **11:30** утра.
     * *Ключевые точки*:
         1. **Изогнутый холл и водные каналы**: Перетекающее открытое пространство с арт-инсталляциями и книжными галереями.
         2. **Сад на крыше (Sky Garden)**: Сюрреалистический ландшафтный парк с кратерообразными формами и панорамой небоскребов Седьмого района.
     * _Ссылка на локацию_: [Google Maps: National Taichung Theater](https://maps.google.com/?q=National+Taichung+Theater)<iframe src="https://maps.google.com/maps?q=National+Taichung+Theater&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **11:30 - 12:30** — Зеленая артерия города: **Calligraphy Greenway (Зеленый коридор каллиграфии / 草悟道)** и арт-парк CMP Block.
-    * *Контекст*: Пешеходный тенистый бульвар протяженностью 3.6 км, соединяющий музеи, парки скульптур и открытые галереи.
-    * _Ссылка на локацию_: [Google Maps: Calligraphy Greenway](https://maps.google.com/?q=Calligraphy+Greenway+Taichung)<iframe src="https://maps.google.com/maps?q=Calligraphy+Greenway+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+> [!INFO]- Картинки
+> ![[19_national_taichung_theater.jpg]]
 
-* **12:30 - 13:30** — Обед (строго до 1 часа): Традиционный японский рамен или карри-райс в уютном кафе на бульваре.
+* **13:00 - 14:00** — Обед в Седьмом районе / на Тайваньском бульваре: традиционный японский рамен или карри-райс.
     * _Ссылка на локацию_: [Google Maps: Park Lane by CMP](https://maps.google.com/?q=Park+Lane+by+CMP+Taichung)<iframe src="https://maps.google.com/maps?q=Park+Lane+by+CMP+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **13:30 - 14:45** — Спешелти-кофе в культовой ростерии: **The Factory Mojocoffee** или **Hausinc Cafe**.
-    * *Контекст*: Тайчжун знаменит огромными двухэтажными кофейнями. Авторский V60 и холодный колд-брю перед рабочим днем.
-    * _Ссылка на локацию_: [Google Maps: The Factory Mojocoffee](https://maps.google.com/?q=The+Factory+Mojocoffee+Taichung)<iframe src="https://maps.google.com/maps?q=The+Factory+Mojocoffee+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **14:00 - 14:45** — Дизайнерские лавки Park Lane by CMP и возвращение в отель к началу рабочего слота.
 
 ---
 
@@ -49,9 +56,9 @@
 
 * **20:30 - 22:30** — Историческая кондитерская магия: **Miyahara (宮原眼科)** и **Fourth Credit Union (第四信用合作社)**.
     * *Контекст*: Бывшая японская глазная клиника 1927 года из красного кирпича, преобразованная брендом Dawncake в роскошный зал в стиле библиотеки Хогвартса с книжными полками высотой в три этажа.
-    * *Ключевые точки*:
-        1. **Дворец Miyahara**: Архитектура, старинные резные деревянные шкафы и премиальные ананасовые пирожные Фэнлису.
-        2. **Fourth Credit Union**: Здание банка 1966 года с сохраненными стальными сейфами и бронированными дверями, где подают более 70 видов мороженого из тайваньских манго, маракуйи, улуна и премиального шоколада.
+    * *Ключевые точки и бонусы:*
+        1. **Дворец Miyahara**: Архитектура, старинные резные деревянные шкафы и премиальные ананасовые пирожные Фэнлису. 🎁 *Купите чай или печенье в уникальной упаковке в виде старинного фолианта в твердом переплете.*
+        2. **Fourth Credit Union**: Здание банка 1966 года со стальными сейфами. 🎁 *Закажите мороженое из чая улун Алишань и шоколада 70% — к двойной порции бесплатно добавляют целое ананасовое пирожное Fengli Su, баттеркейк и посыпку!*
     * _Ссылка на локацию_: [Google Maps: Miyahara](https://maps.google.com/?q=Miyahara+Taichung)<iframe src="https://maps.google.com/maps?q=Miyahara+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: Fourth Credit Union](https://maps.google.com/?q=Fourth+Credit+Union+Taichung)<iframe src="https://maps.google.com/maps?q=Fourth+Credit+Union+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
