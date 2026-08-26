@@ -1,14 +1,23 @@
+# 🗓️ День 03: Понедельник (🌴 Полный день отдыха)
+
+> **Локация:** Тайбэй (Храм Луншань ➔ Bopiliao ➔ Huashan 1914 & Simple Kaffa ➔ Симэньдин ➔ Термальный Бэйтоу).
+> **Фаза тура:** 🌴 Фаза 1 — Чистый отпуск (Духовные истоки, креативные индустрии, молодежный неон, чемпионский кофе и вечерний релакс в серных термах Бэйтоу).
+> **Проживание:** Тайбэй (*Star Hostel Taipei Main* / *City Suites Beimen* / *Just Sleep Ximending*, 3-я ночь).
+
+---
+
 ## Маршрут
 
 ### Важная подготовка и городская навигация MRT
 
-> [!TIP] Навигация на MRT Тайбэя
-> * **Основной транспорт:** Все ключевые точки дня связаны Синей линией MRT (*Bannan Line / 板南線*).
-> * **Оплата:** Карта EasyCard (просто прикладывайте на турникетах, стоимость одной поездки `20–25 TWD`).
+> [!TIP] Навигация на MRT Тайбэя (EasyCard)
+> * **Основной транспорт:** Синяя линия (*Bannan Line / BL*) и прямая Красная линия (*Tamsui-Xinyi Line / R*).
+> * **Оплата:** Карта EasyCard на турникетах (`20–30 TWD` за поездку).
 > * **Ключевые станции маршрута:**
 >   * *Храм Луншань:* **MRT Longshan Temple Station (BL10 / 龍山寺站, Выход 1)**.
 >   * *Арт-парк Huashan 1914 & Simple Kaffa:* **MRT Zhongxiao Xinsheng Station (BL14 / 忠孝新生站, Выход 1)** (3 мин пешком).
 >   * *Квартал Симэньдин:* **MRT Ximen Station (BL11/G12 / 西門站, Выход 6)**.
+>   * *Термальный Бэйтоу (вечер):* **MRT Xinbeitou Station (R22A / 新北投)** (прямой переезд по Красной ветке на север, 25 мин).
 
 ---
 
@@ -36,6 +45,7 @@
       > По понедельникам внутренние музейные залы Bopiliao закрыты, но сами исторические улицы, кирпичные аркады и переулки открыты для прогулок и фотосъемки в аутентичной тишине без туристов.
     * 🎁 **Бонус для блокнота:** В визитор-центре Bopiliao найдите столик со штампами путешественника (*Traveler Stamps*) — в Тайване очень развита культура памятных печатей на каждой исторической локации.
     * _Ссылка на локацию_: [Google Maps: Bopiliao Historical Block](https://maps.google.com/?q=Bopiliao+Historical+Block)<iframe src="https://maps.google.com/maps?q=Bopiliao+Historical+Block&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
 > [!INFO]- Картинки
 > ![[Pasted image 20260825154504.png]]
 > ![[Pasted image 20260825154538.png]]
@@ -65,43 +75,40 @@
 * **14:30 - 15:45** — Визит во флагманскую кофейню чемпиона мира Berg Wu — **Simple Kaffa Flagship** (прямо напротив арт-парка Huashan 1914):
     * 🎁 *Закажите знаменитый Brown Sugar Latte или фильтр-кофе из зерен Geisha с фирменной матча-вафлей или рулетом с зеленым чаем.*
     * _Ссылка на локацию_: [Google Maps: Simple Kaffa](https://maps.google.com/?q=Simple+Kaffa+Taipei)<iframe src="https://maps.google.com/maps?q=Simple+Kaffa+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
 > [!INFO]- Картинки
 > ![[Pasted image 20260825154753.png]]
 > ![[Pasted image 20260825155644.png]]
 
 ---
 
-### Часть 3: Пешеходный неон и молодежная культура Симэньдина
+### Часть 3: Пешеходный неон Симэньдина и вечерний онсэн в Бэйтоу
 
-* **15:45 - 17:00** — Исторический Красный театр (The Red House / 西門紅樓, 1908 г.) и прогулка по площади:
-    * *Контекст*: Восьмиугольное кирпичное здание первого публичного рынка японского периода.
-    * > [!NOTE] Особенность понедельника
-      > По понедельникам внутренние выставки и маркеты Ред Хауса закрыты, но восьмигранное историческое здание и открытая площадь доступны для великолепных фотографий.
-    * _Ссылка на локацию_: [Google Maps: The Red House](https://maps.google.com/?q=The+Red+House+Taipei)<iframe src="https://maps.google.com/maps?q=The+Red+House+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-> [!INFO]- Картинки
-> ![[Pasted image 20260825155817.png]]
-> ![[Pasted image 20260825155901.png]]
-> ![[Pasted image 20260825155929.png]]
-
-* **17:00 - 18:00** — Знаменитый уличный ужин в Симэньдине: шелковистая рисовая лапша в наваристом бульоне из бонито **Ay-Chung Flour-Rice Noodles (阿宗麵線)** с чесноком и перцем чили, и хрустящая куриная котлета Hot-Star.
-
-* **18:00 - 20:30** — Эпицентр азиатской поп-культуры: Квартал Симэньдин (Ximending / 西門町).
+* **15:45 - 17:00** — Исторический Красный театр (The Red House / 西門紅樓, 1908 г.) и молодежный квартал Симэньдин (Ximending):
     * *Контекст*: Первый пешеходный торговый район Тайваня, центр аниме-культуры, уличных музыкантов и неоновых вывесок.
-    * *Маршрут*: Станция MRT Ximen (выход 6) прямо на Радужный перекресток (Rainbow Six).
-    * 🎁 **Культовый напиток Симэньдина:** Возьмите свежеприготовленное молочно-фруктовое смузи **Папайя-молоко (Papaya Milk / 木瓜牛奶, `~70 TWD`)** — легендарный напиток квартала с 1970-х годов.
-    * _Ссылка на локацию_: [Google Maps: Ximending Pedestrian Area](https://maps.google.com/?q=Ximending+Taipei)<iframe src="https://maps.google.com/maps?q=Ximending+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: The Red House](https://maps.google.com/?q=The+Red+House+Taipei)<iframe src="https://maps.google.com/maps?q=The+Red+House+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-> [!INFO]- Картинки
-> ![[Pasted image 20260825160227.png]]
-> ![[Pasted image 20260825160932.png]]
-> ![[Pasted image 20260825161130.png]]
+* **17:00 - 17:45** — Ранний ужин в Симэньдине: шелковистая рисовая лапша в наваристом бульоне из бонито **Ay-Chung Flour-Rice Noodles (阿宗麵線)** с чесноком и перцем чили, и хрустящая куриная котлета Hot-Star (`~150 TWD`).
 
-* **20:30+** — Свободное время в вечернем городе / отдых в отеле. Завтра утром — поезд в термальную столицу Цзяоси!
+* **17:45 - 18:15** — Прямой переезд по Красной линии MRT без пересадок от станции Taipei Main Station до станции **Xinbeitou (新北投)** (25 мин).
+
+* **18:15 - 21:00** — Вечерний термальный релакс: Курорт Бэйтоу (Beitou Hot Springs / 北投溫泉):
+    * *Контекст:* Японский термальный оазис у подножия вулканического массива Датунь.
+    * *Ключевые точки:*
+        1. **Долина термального пара (Thermal Valley / 地熱谷):** Изумрудное вулканическое озеро с кипящей серной водой (+90°C), окутанное вечерними клубами пара.
+        2. **Деревянная эко-библиотека Бэйтоу (Beitou Public Library):** Архитектурный шедевр посреди подсвеченного реликтового парка.
+        3. **Купание в термальных источниках (Онсэн):** Открытые минеральные бассейны под звездами (*Beitou Public Hot Springs*) либо приватная термальная комната (*Spring City Resort / SweetMe Inn*, `~400–600 TWD`).
+    * _Ссылка на локацию_: [Google Maps: Beitou Thermal Valley](https://maps.google.com/?q=Beitou+Thermal+Valley)<iframe src="https://maps.google.com/maps?q=Beitou+Thermal+Valley&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
+* **21:00 - 21:30** — Спокойное возвращение на метро в отель.
 
 ---
 
-## Финансовые затраты на день (на 1 чел)
-* Метро MRT (4 поездки по EasyCard): `~90 TWD`.
-* Обед в Huashan 1914 + спешелти-кофе Simple Kaffa: `~450 TWD` (~1 260 ₽).
-* Вечерний стритфуд в Симэньдине: `~300 TWD` (~840 ₽).
-* **Итого за день:** около `840 TWD` (`~2 350 ₽`).
+## 💰 Финансовые затраты на день (на 1 чел)
+* Метро MRT (по EasyCard): `~90 TWD` (~250 ₽).
+* Травяной чай Herb Alley: `~30 TWD` (~85 ₽).
+* Ланч в арт-парке Huashan 1914: `~300 TWD` (~840 ₽).
+* Спешелти-кофе и десерт в Simple Kaffa: `~350 TWD` (~980 ₽).
+* Уличный ужин в Симэньдине (лапша Ay-Chung): `~150 TWD` (~420 ₽).
+* Вход в термальные купальни Бэйтоу: `~400 TWD` (~1 120 ₽).
+* **Итого за день:** около `1 320 TWD` (`~3 700 ₽`).

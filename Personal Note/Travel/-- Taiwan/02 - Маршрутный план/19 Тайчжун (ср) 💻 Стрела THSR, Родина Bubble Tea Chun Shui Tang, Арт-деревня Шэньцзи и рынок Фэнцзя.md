@@ -1,16 +1,14 @@
 # 🗓️ День 19: Среда (💻 Воркейшн)
 
-> **Локация:** Тайнань ➔ Тайчжун (Taichung / 台中).
-> **Фаза тура:** 💻 Фаза 2 — Городской воркейшн (До 14:45 — переезд, родина Bubble Tea и арт-деревня / 15:00–20:30 — работа в отеле на оптоволокне / после 20:30 — рынок Фэнцзя).
-> **Проживание:** *Star Hostel Taichung Parklane* / *City Suites Taichung* / *Stray Birds Taichung* (`~1 400 TWD` / `~3 900 ₽`).
+> **Локация:** Гаосюн ➔ Тайчжун (Taichung / 台中).
+> **Фаза тура:** 💻 Фаза 2 — Городской воркейшн (До 14:45 — стрела THSR из Гаосюна, родина Bubble Tea и арт-деревня / 15:00–21:00 — работа в отеле на оптоволокне / после 21:00 — рынок Фэнцзя).
+> **Проживание:** *Star Hostel Taichung Parklane* / *City Suites Taichung* / *Stray Birds Taichung* (`~1 400 TWD` / `~3 900 ₽`, 1-я ночь в Тайчжуне).
 
 ### Важная подготовка и логистика переезда в Тайчжун
 
-> [!IMPORTANT] Скоростной поезд THSR Тайнань ➔ Тайчжун и навигация
-> 1. **Как добраться из центра Тайнаня до вокзала THSR:** Скоростной вокзал *THSR Tainan Station (高鐵台南站)* находится в пригороде Шалунь. 
->    * *Поезд-шаттл:* Со станции **TRA Tainan Station (臺南車站)** садитесь на пригородный поезд ветки **TRA Shalun Line (沙崙線)** (отходит каждые 30 мин, в пути 22 мин, `25 TWD` по EasyCard) до конечной станции *TRA Shalun*, соединенной крытым переходом с залом *THSR Tainan*.
->    * *Такси:* Прямая поездка из отеля до вокзала THSR Tainan (~25 мин, `~380–420 TWD`).
-> 2. **Сверхскоростной поезд THSR:** Станция **THSR Tainan ➔ THSR Taichung Station (Xinwuri / 高鐵台中站)** (в пути ровно 40 минут, `650 TWD`, скорость 300 км/ч).
+> [!IMPORTANT] Скоростной поезд THSR Гаосюн (Zuoying) ➔ Тайчжун и навигация
+> 1. **Как добраться из отеля до вокзала THSR:** Станция метро **MRT Yanchengpu (O2)** ➔ пересадка на *Formosa Boulevard* ➔ Красная линия прямо до скоростного вокзала **THSR Zuoying Station (高鐵左營站 / R16)** (в пути 20 мин, `30 TWD` по EasyCard).
+> 2. **Сверхскоростной поезд THSR:** Станция **THSR Zuoying ➔ THSR Taichung Station (Xinwuri / 高鐵台中站)** (в пути всего **40–45 минут**, `790 TWD`, скорость 300 км/ч).
 > 3. **Трансфер с вокзала THSR Taichung в центр города (Calligraphy Greenway):** 
 >    * Экспресс-автобус **Taichung Bus № 159 (THSR Express Shuttle)** отходит от платформы 13 нижнего уровня вокзала THSR и идет прямо до остановки *CMP Park Lane / Gongyi Road* (~30 мин, бесплатно при пересадке или `~20 TWD` по EasyCard).
 >    * Либо такси прямо до отеля *Star Hostel Taichung Parklane* (~20 мин, `~300 TWD`).
@@ -21,15 +19,15 @@
 
 ### УТРЕННИЙ РАБОЧИЙ СЛОТ (08:30 - 09:30: Планирование и асинхрон)
 
-* **08:30 - 09:30** — **Утренний кофе, разбор почты, код-ревью и планирование задач рабочего дня.**
-    * *Контекст*: 1 час спокойной утренней работы в Тайнане перед выселением из отеля.
+* **08:30 - 09:30** — Утренний кофе, разбор почты, код-ревью и планирование задач рабочего дня.
+    * *Контекст*: 1 час спокойной утренней работы в Гаосюне перед выселением из отеля.
 
 ---
 
 ### ГОРОДСКОЙ СЛОТ (09:30 - 14:45: Стрела THSR, родина Bubble Tea и Арт-деревня)
 
-* **09:30 - 10:45** — Трансфер на вокзал THSR Tainan ➔ сверхскоростной поезд **THSR Tainan ➔ THSR Taichung (高鐵台中站)** (в пути 40 мин, `650 TWD`).
-    * _Ссылка на локацию_: [Google Maps: THSR Tainan Station](https://maps.google.com/?q=THSR+Tainan+Station)<iframe src="https://maps.google.com/maps?q=THSR+Tainan+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **09:30 - 10:45** — Метро MRT на вокзал THSR Zuoying ➔ сверхскоростной поезд **THSR Zuoying ➔ THSR Taichung (高鐵台中站)** (в пути 40 мин, `790 TWD`).
+    * _Ссылка на локацию_: [Google Maps: THSR Zuoying Station](https://maps.google.com/?q=THSR+Zuoying+Station)<iframe src="https://maps.google.com/maps?q=THSR+Zuoying+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=THSR+Taichung+Station)<iframe src="https://maps.google.com/maps?q=THSR+Taichung+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **10:45 - 11:30** — Поездка на автобусе 159 / такси в район Calligraphy Greenway, раннее заселение и сдача багажа в отель (*Star Hostel Taichung Parklane* `~1 400 TWD` / `~3 900 ₽`).
@@ -56,7 +54,7 @@
 
 ### ОСНОВНОЙ РАБОЧИЙ СЛОТ (15:00 - 21:00: Удаленная работа в Тайчжуне)
 
-* **15:00 - 21:00** — **Фокусированная удаленная работа за ноутбуком в номере / коворкинг-лаундже отеля.**
+* **15:00 - 21:00** — Фокусированная удаленная работа за ноутбуком в номере / коворкинг-лаундже отеля.
     * *Контекст*: Оптоволоконный Wi-Fi (300–500 Мбит/с), эргономичный стол, чай/кофе (10:00 – 16:00 МСК). Суммарно за день — 7 часов полноценного рабочего времени.
 
 ---
@@ -74,9 +72,9 @@
 
 ---
 
-## Финансовые затраты на день (на 1 чел)
-* Поезд THSR Тайнань ➔ Тайчжун: `~650 TWD` (~1 820 ₽).
+## 💰 Финансовые затраты на день (на 1 чел)
+* Поезд THSR Гаосюн (Zuoying) ➔ Тайчжун: `790 TWD` (~2 210 ₽).
 * Городской транспорт (метро / автобус / EasyCard): `~60 TWD` (~170 ₽).
 * Обед в Chun Shui Tang (оригинальный Bubble Tea + лапша): `~320 TWD` (~900 ₽).
 * Ужин и деликатесы на рынке Фэнцзя: `~300 TWD` (~840 ₽).
-* **Итого за день (без отеля):** около `1 330 TWD` (`~3 720 ₽`).
+* **Итого за день (без отеля):** около `1 470 TWD` (`~4 110 ₽`).
