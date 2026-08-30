@@ -13,11 +13,7 @@
 
 ## Маршрут
 
-### Важная подготовка перед вылетом и в зале прилета TPE
-
-> [!TIP] 🎁 Лотерея «Taiwan the Lucky Land» (金福氣) — шанс выиграть ~14 000 ₽ на EasyCard
-> 1. За **1–7 дней до прилета** зарегистрируйтесь на официальном сайте `5000.taiwan.net.tw` (нужен номер рейса и паспорта). Получите QR-код на почту.
-> 2. В зале прилета аэропорта TPE после получения багажа подойдите к стойкам *Lucky Draw Event*, отсканируйте QR-код и заберите выигранную карту EasyCard с балансом `~14 000 ₽`!
+### Важная подготовка перед вылетом и правила въезда
 
 > [!IMPORTANT] 🛃 Электронная миграционная карта (TWAC) и Таможенный контроль
 > * За **1–3 дня до вылета** заполните онлайн-карту прибытия на сайте `niaspeedy.immigration.gov.tw`.
@@ -34,6 +30,10 @@
     4. **Транспортная карта EasyCard (悠遊卡)**: Покупка карты в сервисной зоне / стойке MRT (`~280 ₽` залог) и пополнение минимум на `~2 200–2 800 ₽`.
     * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=Taoyuan+International+Airport)<iframe src="https://maps.google.com/maps?q=Taoyuan+International+Airport&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
+> [!TIP] 🎁 Лотерея «Taiwan the Lucky Land» (金福氣) прямо в зале прилета
+> 1. За **1–7 дней до прилета** зарегистрируйтесь на официальном сайте `5000.taiwan.net.tw` (нужен номер рейса и паспорта). Получите QR-код на почту.
+> 2. В зале прилета аэропорта TPE сразу после выхода с багажом подойдите к стойкам *Lucky Draw Event*, отсканируйте QR-код на планшете и заберите выигранную карту EasyCard с балансом **`~14 000 ₽` (5000 TWD)**!
+
 > [!INFO]- Картинки
 > ![[Pasted image 20260825141150.png]]
 > ![[Pasted image 20260825141200.png]]
@@ -45,6 +45,9 @@
         2. **Чайные лавки и аптеки трав**: 🎁 *Загляните в историческую лавку Lin Mao Sen Tea Co. (林茂森茶行) — понюхать свежие скрученные листья улуна «Восточная красавица».*
         3. 🎁 *Попробуйте освежающий настой из гибискуса и боярышника (Luo Shen Hua / 洛神花茶, `~110 ₽`).*
     * _Ссылка на локацию_: [Google Maps: Dihua Street](https://maps.google.com/?q=Dihua+Street+Taipei)<iframe src="https://maps.google.com/maps?q=Dihua+Street+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
+> [!TIP] 🚲 Аренда городских велосипедов YouBike 2.0
+> На выходе из станции метро Beimen возьмите желтый велосипед YouBike 2.0 (разблокировка через приложение YouBike или карту EasyCard) — поездка до улицы Дихуа вдоль набережной займет всего 5 минут!
 
 ---
 

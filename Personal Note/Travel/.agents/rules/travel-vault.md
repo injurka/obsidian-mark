@@ -9,7 +9,7 @@
 2. **Активация специализированных навыков:**
    - `travel-vault-architect`: Для создания каркаса проекта, мастер-хаба, Mermaid-таймлайнов и синхронизации с `Travel.md`.
    - `travel-workation-designer`: Для планирования удаленной работы (16:00–22:00 под часы Москвы), выбора оптоволоконных отелей и спешелти-кофеен.
-   - `travel-itinerary-enricher`: Для оформления дневных заметок с картами Google Maps iframe, Obsidian Callouts (`[!TIP]`, `[!IMPORTANT]`, `[!CAUTION]`, `[!INFO]- Картинки`), бейджами `tp-rate` и посуточными сметами.
+   - `travel-itinerary-enricher`: Для оформления дневных заметок с картами Google Maps iframe, Obsidian Callouts (`[!IMPORTANT]`/`[!CAUTION]` в подготовке, `[!TIP]` строго под активностями в таймлайне, `[!INFO]- Картинки`), бейджами `tp-rate` и посуточными сметами.
    - `travel-logistics-and-budget`: Для скоростных поездов (THSR/Shinkansen/TRA), логистики без бэктрекинга, диаграмм Mermaid Pie и каталогов жилья/транспорта.
    - `travel-cultural-curator`: Для культурно-исторических справок, строгих законов и штрафов, а также чек-листов Must-Try и Must-Buy.
 
