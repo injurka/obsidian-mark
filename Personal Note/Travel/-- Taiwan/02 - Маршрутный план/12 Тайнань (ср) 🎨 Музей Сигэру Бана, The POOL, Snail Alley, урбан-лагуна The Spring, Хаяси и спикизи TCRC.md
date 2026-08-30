@@ -29,6 +29,8 @@
 
 * **12:45 - 14:00** — Главный гастро-культ Тайнаня: Обед в **Du Xiao Yue (度小月擔仔麵)**:
     * *Кулинарная легенда:* Знаменитая лапша **Tainan Danzai Noodles** в концентрированном наваристом бульоне из креветочных панцирей с ложкой томленого свиного фарша ружоу, чесноком и цельной креветкой.
+    * > [!TIP] 🍯 Специфика тайнаньской кухни
+      > Тайнань — историческая столица сахарного тростника, поэтому бульоны, соусы и мясные начинки здесь имеют выраженный деликатный сладковатый оттенок. Если вы любите более острый и соленый вкус, добавьте в пиалу пару ложек чесночного соуса и чили-пасты.
     * Фирменные хрустящие креветочные рулетики **Chou's Shrimp Rolls**, нежный тофу и холодный чай (`~700–840 ₽`).
     * _Ссылка на локацию_: [Google Maps: Du Xiao Yue Danzai Noodles](https://maps.google.com/?q=Du+Xiao+Yue+Tainan)<iframe src="https://maps.google.com/maps?q=Du+Xiao+Yue+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
@@ -69,7 +71,10 @@
     * _Ссылка на локацию_: [Google Maps: Shennong Street](https://maps.google.com/?q=Shennong+Street+Tainan)<iframe src="https://maps.google.com/maps?q=Shennong+Street+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: Bar TCRC](https://maps.google.com/?q=Bar+TCRC+Tainan)<iframe src="https://maps.google.com/maps?q=Bar+TCRC+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **23:00+** — Отдых в дизайн-отеле. Завтра — водная «Тайваньская Амазонка» Сыцао на плоту, драйвовый стимпанк-парк Ten Drum Cultural Village и ночной рынок Дадун!
+> [!TIP] 🍸 Лайфхак попадания в культовый Bar TCRC
+> Bar TCRC не принимает брони по телефону. Ровно в **19:30–20:00** у деревянной двери бара открывается живой лист ожидания (*Waitlist*). Подойдите к 19:45, запишите свое имя и номер телефона, затем спокойно гуляйте по освещенной фонарями улице Шэньнун. Когда столик освободится, вам придет оповещение/вызов. Если мест нет, стильная альтернатива без долгого ожидания — бар **Moonrock** или **Paripari**.
+
+* **23:00+** — Отдых в дизайн-отеле. Завтра — водная «Тайваньская Амазонка» Сыцао на плоту, драйвовый стимпанк-парк Ten Drum Cultural Village, арт-парк Blueprint и грандиозный Цветочный ночной рынок (Garden Night Market)!
 
 ---
 

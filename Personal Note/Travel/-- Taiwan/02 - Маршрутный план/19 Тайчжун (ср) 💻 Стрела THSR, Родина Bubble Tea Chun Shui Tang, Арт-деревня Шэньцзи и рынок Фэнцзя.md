@@ -15,6 +15,9 @@
 >    * Экспресс-автобус **Taichung Bus № 159 (THSR Express Shuttle)** отходит от платформы 13 нижнего уровня вокзала THSR и идет прямо до остановки *CMP Park Lane / Gongyi Road* (~30 мин, бесплатно при пересадке или `~55 ₽` по EasyCard).
 >    * Либо такси прямо до отеля *Taichung Box Design Hotel* (~20 мин, `~840 ₽`).
 
+> [!TIP] 💻 Бэкап связи для воркейшна
+> Сим-карта/eSIM от Chunghwa Telecom на Тайване дает честный безлимитный 5G/4G интернет без ограничений по раздаче (Personal Hotspot). Если при видеозвонках в Zoom/Meet возникнут помехи отельного Wi-Fi, мобильный хотспот с телефона выдает стабильные 150–250 Мбит/с в любой точке Тайчжуна.
+
 ---
 
 ## Маршрут [💻 08:30-09:30 асинхрон / 09:30-15:15 город и переезд / 15:30-16:00 подготовка / 16:00-22:00 работа]
@@ -32,17 +35,20 @@
     * _Ссылка на локацию_: [Google Maps: THSR Zuoying Station](https://maps.google.com/?q=THSR+Zuoying+Station)<iframe src="https://maps.google.com/maps?q=THSR+Zuoying+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=THSR+Taichung+Station)<iframe src="https://maps.google.com/maps?q=THSR+Taichung+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **10:45 - 11:30** — Поездка на автобусе 159 / такси в район Calligraphy Greenway, раннее заселение и сдача багажа в отель (*Star Hostel Taichung Parklane* `~3 900 ₽`).
-    * *Контекст*: Дизайнерский отель с просторным коворкингом, эргономичными рабочими столами и видом на зеленый бульвар.
-    * _Бронирование отеля:_ [Trip.com: Star Hostel Taichung Parklane](https://www.trip.com/hotels/taichung-hotel-detail-37603758/star-hostel-taichung-parklane/)
-    * _Ссылка на локацию_: [Google Maps: Star Hostel Taichung Parklane](https://maps.google.com/?q=Star+Hostel+Taichung+Parklane)<iframe src="https://maps.google.com/maps?q=Star+Hostel+Taichung+Parklane&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **10:45 - 11:30** — Поездка на автобусе 159 / такси в центр города, раннее заселение и сдача багажа в отель (*Taichung Box Design Hotel* `2 009 ₽` / ночь).
+    * *Контекст*: Стильный арт-дизайн отель с удобными рабочими зонами, скоростным оптоволокном и быстрым доступом к арт-деревням и зеленым бульварам.
+    * _Бронирование отеля:_ [Trip.com: Taichung Box Design Hotel](https://www.trip.com/w/Ym798eAs6W2)
+    * _Ссылка на локацию_: [Google Maps: Taichung Box Design Hotel](https://maps.google.com/?q=Taichung+Box+Design+Hotel)<iframe src="https://maps.google.com/maps?q=Taichung+Box+Design+Hotel&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **11:30 - 13:15** — Культовая родина всемирного феномена: Чайный дом **Chun Shui Tang (春水堂 創始店 - Siwei Original Store)**.
+* **11:30 - 13:15** — Культовая родина всемирного феномена: Чайный дом **Chun Shui Tang (春水堂 創始店 - Siwei Original Store)**:
     * *Контекст*: Основан в 1983 году. Именно в этих стенах впервые в мире смешали холодный черный чай со сладкими шариками тапиоки (*Fen Yuan*), создав оригинальный Bubble Tea.
     * *Обед (12:00 - 13:15)*:
-        1. 🎁 **Оригинальный канон 1983 года:** Закажите эталонный **Pearl Milk Tea (珍珠奶茶)** со свежесваренной тапиокой (сахар 30%, со льдом).
+        1. 🎁 **Оригинальный канон 1983 года:** Эталонный **Pearl Milk Tea (珍珠奶茶)**.
         2. Фирменная лапша с кунжутным соусом мацзян и хрустящие тайваньские димсамы с редькой.
     * _Ссылка на локацию_: [Google Maps: Chun Shui Tang Siwei Original Store](https://maps.google.com/?q=Chun+Shui+Tang+Siwei+Original+Store)<iframe src="https://maps.google.com/maps?q=Chun+Shui+Tang+Siwei+Original+Store&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
+> [!TIP] 🍵 Канон заказа Bubble Tea («Wei Tang, Wei Bing»)
+> По умолчанию классический чай делают со 100% сахаром — это слишком приторно. Заказывайте по эталонной тайваньской формуле: **«Wei Tang, Wei Bing» (微糖微冰)** — 30% сладости и меньше льда. Так вы ощутите натуральный сливочно-чайный букет и нежную текстуру тапиоки!
 
 * **13:15 - 15:15** — Хипстерский квартал мастеров: **Shenji New Village (Арт-деревня Шэньцзи / 審計新村)**.
     * *Контекст*: Отреставрированный квартал двухэтажных кирпичных домов госслужащих 1960-х годов. Сейчас — культовый арт-кластер с микро-кофейнями, ремесленными мастерскими, винтажными лавками и авторским мороженым.
