@@ -10,7 +10,7 @@ mindmap
       ["🌌 Мурманск и Териберка (4 дня)"]
     🇹🇼 Восточная Азия
       ["🇯🇵 Япония: Золотое Кольцо (14 дней)"]
-      ["🇹🇼 Тайвань: Остров Формоза (10 дней)"]
+      ["🇹🇼 Тайвань: Остров Формоза (22 дня)"]
       ["🇰🇷 Южная Корея: Сеул и Пусан (10 дней)"]
       ["🇨🇳 Юньнань: Southern Cloud Trail (12 дней)"]
       ["🇨🇳 Шанхай и Чжанцзяцзе"]
@@ -35,7 +35,7 @@ mindmap
 |   🌲 **Россия**    | **[[Personal Note/Travel/-- Altai/Altai\|Алтайский Меридиан]]**                                             | **10** | Телецкое озеро, Чемал, Караколы, Чуйский тракт, Марс, Ретранслятор 3038 м    |
 |   🌌 **Россия**    | **[[Personal Note/Travel/-- Murmansk/Murmansk\|Мурманск и Арктика]]**                                       | **4**  | Ледокол Ленин, Алёша, Териберка, Баренцево море, Саамы, Северное сияние      |
 |  🇯🇵 **Япония**   | **[[Personal Note/Travel/-- Japan/Japan\|Золотое Кольцо Японии]]**                                          | **14** | Токио (5д), Камакура, Хаконэ (Фудзи), Киото (3д), Нара, Осака, Миядзима, Химэдзи |
-|  🇹🇼 **Тайвань**  | **[[Personal Note/Travel/-- Taiwan/Taiwan\|Тайваньский Экспресс]]**                                         | **10** | Тайбэй, Ущелье Тароко, Алишань, Озеро Солнца и Луны, Гаосюн, Тайнань         |
+|  🇹🇼 **Тайвань**  | **[[Personal Note/Travel/-- Taiwan/Taiwan\|Остров Формоза (Воркейшн & Отпуск)]]**                            | **22** | Тайбэй, Цзяоси, Скалы Циншуй, Хуалянь, Шичжоу, Алишань 2200м, Тайнань, Гаосюн, Сяолюцю, Тайчжун |
 |  🇮🇩 **Индонезия** | **[[Personal Note/Travel/-- Indonesia/Indonesia\|Вулканы Явы и Дзен Бали]]**                                | **11** | Боробудур, Прамбанан, поезда KAI, кратер Бромо, Синее Пламя Иджена, Убуд, Секумпул, Улувату |
 | 🇱🇰 **Шри-Ланка**  | **[[Personal Note/Travel/-- Sri Lanka/Sri Lanka\|Цейлонский Экспресс]]**                                    |  **9** | Сигирия, Дамбулла, Храм Зуба Будды, Нувара-Элия, Синий поезд в Эллу, Сафари Удавалаве, Мирисса, Форт Галле |
 |    🇳🇵 **Непал**    | **[[Personal Note/Travel/-- Nepal/Nepal\|Крыша Мира и Аннапурна]]**                                         |  **9** | Катманду (Боднатх, Сваямбунатх), Бхактапур, полет в Покхару, Озеро Фева, Рассвет на Poon Hill (3210 м), Дхаулагири, Патан |
@@ -58,7 +58,7 @@ mindmap
 * 🇯🇵 [**-- Japan**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Japan/Japan.md) — 14 дней по Японии
 * 🌲 [**-- Altai**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Altai/Altai.md) — 10 дней по Алтаю
 * 🌌 [**-- Murmansk**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Murmansk/Murmansk.md) — 4 дня в Заполярье и Териберке
-* 🇹🇼 [**-- Taiwan**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Taiwan/Taiwan.md) — 10 дней по Тайваню
+* 🇹🇼 [**-- Taiwan**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Taiwan/Taiwan.md) — 22 дня по Тайваню (Воркейшн & Отпуск)
 * 🐉 [**-- Vietnam**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Vietnam/Vietnam.md) — 12 дней по Вьетнаму
 * 🏖️ [**-- Phuket**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Phuket/Phuket.md) — 5 дней на Пхукете
 * 🇰🇷 [**-- South Korea**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20South%20Korea/South%20Korea.md) — 10 дней по Корее
