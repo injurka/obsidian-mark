@@ -31,13 +31,13 @@
 * **07:00 - 07:35** — Чек-аут из отеля в Хуаляне, короткая поездка на такси на вокзал Hualien Station.
     * _Ссылка на локацию_: [Google Maps: Hualien Station](https://maps.google.com/?q=Hualien+Station)<iframe src="https://maps.google.com/maps?q=Hualien+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **07:35 - 09:35** — Скоростной поезд нового поколения **TRA EMU3000** (Hualien ➔ Banqiao):
+* **07:35 - 09:35** — Поезд TRA EMU3000: Хуалянь ➔ Баньцяо:
     * Поезд плавно летит вдоль скалистого северо-восточного побережья Тихого океана сквозь туннели горного массива Сюэшань прямо на вокзал Banqiao.
     * _Ссылка на локацию_: [Google Maps: Banqiao Station](https://maps.google.com/?q=Banqiao+Station)<iframe src="https://maps.google.com/maps?q=Banqiao+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **09:35 - 09:50** — Быстрая и комфортная пересадка в терминале Banqiao: переход по указателям на платформу THSR (высокоскоростной поезд).
 
-* **09:50 - 11:05** — Сверхскоростной поезд **THSR Banqiao ➔ THSR Chiayi (高鐵嘉義站)**:
+* **09:50 - 11:05** — Поезд THSR: Баньцяо ➔ Цзяи:
     * Стремительный полет на скорости 300 км/ч на юго-запад острова Тайвань (1 ч 15 мин в пути, `~2 940 ₽`).
     * _Ссылка на локацию_: [Google Maps: THSR Chiayi Station](https://maps.google.com/?q=THSR+Chiayi+Station)<iframe src="https://maps.google.com/maps?q=THSR+Chiayi+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
@@ -46,7 +46,7 @@
 > [!TIP] 💊 Защита от укачивания на серпантине
 > Шоссе Алишань представляет собой 1.5 часа непрерывных крутых виражей. Если вы чувствительны к укачиванию, примите таблетку от укачивания (*Motion sickness pill / 暈車藥*, продается в аптеках и 7-Eleven) за 20–30 минут до посадки в автобус 7329 на вокзале Chiayi.
 
-* **11:30 - 12:55** — Прямой горный автобус **Taiwan Tourist Shuttle 7329** (THSR Chiayi ➔ Shizhuo 1400 м):
+* **11:30 - 12:55** — Автобус Taiwan Tourist Shuttle 7329: Цзяи ➔ Шичжоу:
     * Живописный подъем по шоссе Алишань сквозь тропический пояс в прохладную высокогорную зону чайных плантаций.
     * _Ссылка на локацию_: [Google Maps: Shizhuo Alishan](https://maps.google.com/?q=Shizhuo+Alishan)<iframe src="https://maps.google.com/maps?q=Shizhuo+Alishan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
@@ -54,11 +54,11 @@
 
 ### Часть 2: Заселение в чайный миньсу и закат над Морем облаков
 
-* **13:00 - 14:30** — Прибытие в Шичжоу, заселение в чайный миньсу (*Cloud Residents Tea Places* `6 495 ₽`), распаковка и отдых:
+* **13:00 - 14:30** — Прибытие в Шичжоу и заселение в чайный миньсу:
     * *Контекст*: Уютный традиционный гостевой дом на чайной ферме. Свежий горный воздух (+18–20°C), вид на террасы и дегустационная чайная комната.
     * _Бронирование миньсу:_ [Trip.com: Cloud Residents Tea Places](https://www.trip.com/w/9DGJpynp6W2) | [Trip.com: Каталог миньсу в Шичжоу / Алишань](https://www.trip.com/hotels/alishan-hotels-list-1296/)
 
-* **15:00 - 18:00** — Легендарная закатная тропа: **Эряньпин и Море облаков (Eryanping Trail / 二延平步道)**:
+* **15:00 - 18:00** — Тропа Эряньпин и Море облаков (Eryanping Trail / 二延平步道):
     * *Контекст*: Знаменитая деревянная лестница-тропа протяженностью около 1 км, проложенная сквозь изумрудные чайные плантации и бамбуковые рощи прямо к вершине хребта (1450 м).
     * *Маршрут*: Неспешный подъем к кульминационному моменту золотого заката (17:15–17:45).
     * *Ключевые точки и бонусы:*
@@ -81,7 +81,7 @@
 * **18:30 - 19:45** — Ужин в традиционном горном ресторанчике в Шичжоу:
     * Фирменная местная курица с имбирем и диким базиликом, хрустящие побеги горного бамбука, свежий горный шпинат и суп из лесных грибов (`~700–840 ₽`).
 
-* **19:45 - 21:30** — Аутентичная чайная церемония **Гунфу Ча (Gongfu Tea Ceremony / 功夫茶)** в миньсу:
+* **19:45 - 21:30** — Чайная церемония Гунфу Ча (功夫茶) в миньсу:
     * 🎁 **Уникальный вечерний ритуал:** Хозяин усадьбы — потомственный чаевод — заваривает для вас в глиняных исинских чайниках свежесобранный высокогорный улун **Alishan High Mountain Oolong (阿里山高山烏龍茶)** и ферментированный черный чай **Alishan Black Tea**.
     * Тончайшие ноты орхидеи, меда и сливочного послевкусия (*найсян*) в теплой дружеской атмосфере горной фермы.
 

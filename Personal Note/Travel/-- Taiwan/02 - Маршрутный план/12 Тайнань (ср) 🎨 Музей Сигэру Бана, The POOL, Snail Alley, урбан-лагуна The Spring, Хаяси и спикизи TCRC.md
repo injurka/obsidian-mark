@@ -13,7 +13,7 @@
 
 * **08:30 - 09:30** — Неспешный завтрак в отеле или утренний спешелти-кофе с хрустящей лепешкой с яйцом даньбин в переулках West Central District.
 
-* **09:30 - 11:30** — Шедевр мировой архитектуры: **Художественный музей Тайнаня Корпус 2 (Tainan Art Museum Building 2 / 臺南市美術館二館)**:
+* **09:30 - 11:30** — Художественный музей Тайнаня Корпус 2 (Tainan Art Museum Building 2 / 臺南市美術館二館):
     * *Контекст*: Спроектирован лауреатом Притцкеровской премии японским архитектором **Сигэру Баном (Shigeru Ban)**. Белоснежная пятиугольная ступенчатая пирамида с гигантским ажурным солнцезащитным куполом, рассеивающим свет подобно кронам деревьев.
     * Прогулка по просторным светлым галереям современного тайваньского искусства и фотогеничным открытым террасам.
     * _Ссылка на локацию_: [Google Maps: Tainan Art Museum Building 2](https://maps.google.com/?q=Tainan+Art+Museum+Building+2)<iframe src="https://maps.google.com/maps?q=Tainan+Art+Museum+Building+2&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>

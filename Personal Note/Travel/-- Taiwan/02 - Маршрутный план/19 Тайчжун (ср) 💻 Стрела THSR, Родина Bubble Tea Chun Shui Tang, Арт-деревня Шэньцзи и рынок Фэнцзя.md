@@ -24,23 +24,23 @@
 
 ### УТРЕННИЙ РАБОЧИЙ СЛОТ (08:30 - 09:30: Планирование и асинхрон)
 
-* **08:30 - 09:30** — Утренний кофе, разбор почты, код-ревью и планирование задач рабочего дня.
+* **08:30 - 09:30** — Утренний кофе и планирование задач:
     * *Контекст*: 1 час спокойной утренней работы в Гаосюне перед выселением из отеля.
 
 ---
 
 ### ГОРОДСКОЙ СЛОТ (09:30 - 15:15: Стрела THSR, родина Bubble Tea и Арт-деревня)
 
-* **09:30 - 10:45** — Метро MRT на вокзал THSR Zuoying ➔ сверхскоростной поезд **THSR Zuoying ➔ THSR Taichung (高鐵台中站)** (в пути 40 мин, `~2 210 ₽`).
+* **09:30 - 10:45** — Поезд THSR: Гаосюн (Цзоин) ➔ Тайчжун:
     * _Ссылка на локацию_: [Google Maps: THSR Zuoying Station](https://maps.google.com/?q=THSR+Zuoying+Station)<iframe src="https://maps.google.com/maps?q=THSR+Zuoying+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=THSR+Taichung+Station)<iframe src="https://maps.google.com/maps?q=THSR+Taichung+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **10:45 - 11:30** — Поездка на автобусе 159 / такси в центр города, раннее заселение и сдача багажа в отель (*Taichung Box Design Hotel* `2 009 ₽` / ночь).
+* **10:45 - 11:30** — Прибытие в отель в Тайчжуне и сдача багажа:
     * *Контекст*: Стильный арт-дизайн отель с удобными рабочими зонами, скоростным оптоволокном и быстрым доступом к арт-деревням и зеленым бульварам.
     * _Бронирование отеля:_ [Trip.com: Taichung Box Design Hotel](https://www.trip.com/w/Ym798eAs6W2)
     * _Ссылка на локацию_: [Google Maps: Taichung Box Design Hotel](https://maps.google.com/?q=Taichung+Box+Design+Hotel)<iframe src="https://maps.google.com/maps?q=Taichung+Box+Design+Hotel&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **11:30 - 13:15** — Культовая родина всемирного феномена: Чайный дом **Chun Shui Tang (春水堂 創始店 - Siwei Original Store)**:
+* **11:30 - 13:15** — Чайный дом **Chun Shui Tang (春水堂 創始店)**:
     * *Контекст*: Основан в 1983 году. Именно в этих стенах впервые в мире смешали холодный черный чай со сладкими шариками тапиоки (*Fen Yuan*), создав оригинальный Bubble Tea.
     * *Обед (12:00 - 13:15)*:
         1. 🎁 **Оригинальный канон 1983 года:** Эталонный **Pearl Milk Tea (珍珠奶茶)**.
@@ -59,13 +59,13 @@
     * Возвращение в отель к **15:15–15:30**.
     * _Ссылка на локацию_: [Google Maps: Shenji New Village](https://maps.google.com/?q=Shenji+New+Village+Taichung)<iframe src="https://maps.google.com/maps?q=Shenji+New+Village+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **15:30 - 16:00** — ☕ **Комфортная подготовка к работе (30 мин):** душ, кофе в лаундже, настройка ноутбука в рабочей зоне отеля *Taichung Box Design Hotel*.
+* **15:30 - 16:00** — ☕ Подготовка к рабочему блоку:
 
 ---
 
 ### ОСНОВНОЙ РАБОЧИЙ СЛОТ (16:00 - 22:00: Удаленная работа в Тайчжуне)
 
-* **16:00 - 22:00** — Фокусированная удаленная работа за ноутбуком в номере / коворкинг-лаундже отеля.
+* **16:00 - 22:00** — 💻 Рабочий блок (Remote Work):
     * *Контекст*: Оптоволоконный Wi-Fi (300–500 Мбит/с), эргономичный стол, чай/кофе (**11:00 – 17:00 по Москве**). При необходимости 8-часового рабочего дня слот продлевается до 00:00 (11:00–19:00 МСК). Суммарно за день — 7 часов полноценного рабочего времени.
 
 ---
