@@ -24,19 +24,21 @@ jobs:
         with:
           bun-version: latest
 
-      - name: Install wander-mark-cli from JSR
+      - name: Install wander-mark-cli
         run: |
           mkdir -p /tmp/wm-cli
           cd /tmp/wm-cli
-          echo '{"name":"wm-cli","private":true}' > package.json
-          bun add npm:@jsr/injurka__wander-mark-cli
-          echo "Installed at /tmp/wm-cli"
+          # Настраиваем реестр JSR для скоупа @jsr
+          echo "@jsr:registry=https://npm.jsr.io" > .npmrc
+          # Инициализируем проект и ставим пакет
+          bun init -y
+          bun add @jsr/injurka__wander-mark-cli
 
       - name: Run wander-mark-cli (generate + deploy to S3)
         run: |
-          bun run \
-            --cwd /tmp/wm-cli \
-            node_modules/.bin/wander-mark \
+          cd /tmp/wm-cli
+          # Если в пакете есть bin "wander-mark":
+          bunx wander-mark \
             -c ${{ github.workspace }}/.obsidian/export/config.json \
             -d \
             -m s3
