@@ -28,16 +28,14 @@ jobs:
         run: |
           mkdir -p /tmp/wm-cli
           cd /tmp/wm-cli
-          # Настраиваем реестр JSR для скоупа @jsr
           echo "@jsr:registry=https://npm.jsr.io" > .npmrc
-          # Инициализируем проект и ставим пакет
           bun init -y
           bun add @jsr/injurka__wander-mark-cli
 
       - name: Run wander-mark-cli (generate + deploy to S3)
         run: |
           cd /tmp/wm-cli
-          bun ./node_modules/@jsr/injurka__wander-mark-cli/dist/index.js \
+          bun run ./node_modules/@jsr/injurka__wander-mark-cli/src/index.ts \
             -c ${{ github.workspace }}/.obsidian/export/config.json \
             -d \
             -m s3
