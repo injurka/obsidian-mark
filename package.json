@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@injurka/wander-mark-cli": "npm:@jsr/injurka__wander-mark-cli@1.0.2"
+    "@injurka/wander-mark-cli": "npm:@jsr/injurka__wander-mark-cli@1.1.1"
   }
 }
