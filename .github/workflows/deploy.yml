@@ -32,6 +32,12 @@ jobs:
           bun init -y
           bun add @jsr/injurka__wander-mark-cli
 
+      - name: Prepare config for CI paths
+        run: |
+          CONFIG="${{ github.workspace }}/.obsidian/export/config.json"
+          # Заменяем абсолютные пути /home/injurka/Documents/obsidian-mark на ${{ github.workspace }}
+          sed -i "s|/home/injurka/Documents/obsidian-mark|${{ github.workspace }}|g" "$CONFIG"
+
       - name: Run wander-mark-cli (generate + deploy to S3)
         run: |
           cd /tmp/wm-cli
