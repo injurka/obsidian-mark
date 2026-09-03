@@ -9,7 +9,7 @@ on:
 env:
   S3_ENDPOINT: "https://de-s3.storage.bunnycdn.com"
   S3_REGION: "default"
-  S3_BUCKET: "wander-mark"
+  S3_BUCKET: ""
 
 jobs:
   build-and-deploy:
