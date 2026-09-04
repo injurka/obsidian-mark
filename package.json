@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@injurka/obsidian-importer": "npm:@jsr/injurka__obsidian-importer@^1.0.0",
+    "@injurka/skills-installer": "npm:@jsr/injurka__skills-installer@^1.0.0",
     "@injurka/wander-mark-cli": "npm:@jsr/injurka__wander-mark-cli@1.1.1"
   }
 }
