@@ -4,7 +4,7 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "@injurka/obsidian-importer": "npm:@jsr/injurka__obsidian-importer@^1.0.0",
+        "@injurka/obsidian-importer": "npm:@jsr/injurka__obsidian-importer@^1.0.1",
         "@injurka/skills-installer": "npm:@jsr/injurka__skills-installer@^1.0.0",
         "@injurka/wander-mark-cli": "npm:@jsr/injurka__wander-mark-cli@1.1.2",
       },
@@ -47,7 +47,7 @@
 
     "@aws/lambda-invoke-store": ["@aws/lambda-invoke-store@0.3.0", "", {}, "sha512-sl4Bm6yiMNYrZKkqqDFWN0UfnWhlS8ivKxrYl+6t0gCLrqr8y3B2IqZZbFRkfaVVp7C/baApyh71P+LeE1A2sQ=="],
 
-    "@injurka/obsidian-importer": ["@jsr/injurka__obsidian-importer@1.0.0", "https://npm.jsr.io/~/11/@jsr/injurka__obsidian-importer/1.0.0.tgz", { "dependencies": { "@jsr/injurka__vault-locator": "^1.0.0", "@types/prompts": "^2.4.9", "prompts": "^2.4.2" } }, "sha512-k7ZELQO8ypWX6FXysAo3H/l9JxE4a5B+2KSWilTsdInqK0cEQucSkXIuMbwvlts96DFa5Je0M6wrwG2LdgxTYw=="],
+    "@injurka/obsidian-importer": ["@jsr/injurka__obsidian-importer@1.0.1", "https://npm.jsr.io/~/11/@jsr/injurka__obsidian-importer/1.0.1.tgz", { "dependencies": { "@jsr/injurka__vault-locator": "^1.0.0", "@types/prompts": "^2.4.9", "prompts": "^2.4.2" } }, "sha512-Pq40zpxpu6FsNSOBYLxnsAYRFhM+6rKsIX3HkNdj+iVo40xE5xXd0tvPjmHvssTpj/Owh0sCqUUYouMdvsbDpg=="],
 
     "@injurka/skills-installer": ["@jsr/injurka__skills-installer@1.0.0", "https://npm.jsr.io/~/11/@jsr/injurka__skills-installer/1.0.0.tgz", { "dependencies": { "@jsr/injurka__vault-locator": "^1.0.0", "@types/prompts": "^2.4.9", "prompts": "^2.4.2" } }, "sha512-CedkMZ70u0HAkJE7D/TSezh7LHncRJo1OxmJ2WZeC52PMX0i5/7hm3mcbemtfSuxWFQAefYA0UjN8WkyMRIU/g=="],
 
