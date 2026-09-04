@@ -10,6 +10,7 @@ env:
   S3_ENDPOINT: "https://de-s3.storage.bunnycdn.com"
   S3_REGION: "default"
   S3_BUCKET: "limited-dissolve"
+  S3_BASE_PATH: "wander-mark"
 
 jobs:
   build-and-deploy:
