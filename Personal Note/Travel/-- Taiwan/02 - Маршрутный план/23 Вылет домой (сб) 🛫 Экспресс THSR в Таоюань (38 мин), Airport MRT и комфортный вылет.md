@@ -21,13 +21,8 @@
 
 ### Часть 1: Утренний кофе и легкий чек-аут
 
-<<<<<<<< HEAD:Personal Note/Travel/-- Taiwan/02 - Маршрутный план/23 Вылет домой (сб) 🛫 Экспресс THSR в Таоюань (38 мин), Airport MRT и комфортный вылет.md
 * **09:30 - 11:00** — Неспешный утренний кофе со свежей выпечкой в отеле, упаковка багажа и чек-аут.
 * **11:00 - 11:35** — Поездка на экспресс-автобусе 159 / такси на вокзал **THSR Taichung Station (Xinwuri / 高鐵台中站)**.
-========
-* **09:00 - 10:00** — Утренний кофе, сборы и чек-аут:
-* **10:00 - 10:35** — Поездка на экспресс-автобусе 159 / такси на вокзал **THSR Taichung Station (Xinwuri / 高鐵台中站)**.
->>>>>>>> 724344d926b130c1333541e0ebcf4b66515dea5f:Personal Note/Travel/-- Taiwan/02 - Маршрутный план/22 Вылет домой (сб) 🛫 Скоростной экспресс и дорога домой.md
     * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=THSR+Taichung+Station)<iframe src="https://maps.google.com/maps?q=THSR+Taichung+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
