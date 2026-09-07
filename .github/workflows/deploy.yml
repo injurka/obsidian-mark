@@ -1,0 +1,51 @@
+name: Build & Deploy to S3
+
+on:
+  push:
+    branches:
+      - '**'
+  workflow_dispatch:
+
+env:
+  S3_ENDPOINT: "https://de-s3.storage.bunnycdn.com"
+  S3_REGION: "default"
+  S3_BUCKET: "limited-dissolve"
+  S3_BASE_PATH: "wander-mark"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install wander-mark-cli
+        run: |
+          mkdir -p /tmp/wm-cli
+          cd /tmp/wm-cli
+          echo "@jsr:registry=https://npm.jsr.io" > .npmrc
+          bun init -y
+          bun add @jsr/injurka__wander-mark-cli
+
+      - name: Prepare config for CI paths
+        run: |
+          CONFIG="${{ github.workspace }}/.obsidian/export/config.json"
+          # Заменяем абсолютные пути /home/injurka/Documents/obsidian-mark на ${{ github.workspace }}
+          sed -i "s|/home/injurka/Documents/obsidian-mark|${{ github.workspace }}|g" "$CONFIG"
+
+      - name: Run wander-mark-cli (generate + deploy to S3)
+        run: |
+          cd /tmp/wm-cli
+          bun run ./node_modules/@jsr/injurka__wander-mark-cli/src/index.ts \
+            -c ${{ github.workspace }}/.obsidian/export/config.json \
+            -d \
+            -m s3
+        env:
+          S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+          S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
