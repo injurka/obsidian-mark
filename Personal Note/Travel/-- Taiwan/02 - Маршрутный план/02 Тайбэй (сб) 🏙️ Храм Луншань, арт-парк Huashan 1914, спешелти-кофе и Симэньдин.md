@@ -60,7 +60,8 @@
     * _Ссылка на локацию_: [Google Maps: The Red House](https://maps.google.com/?q=The+Red+House+Taipei)<iframe src="https://maps.google.com/maps?q=The+Red+House+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!INFO]- Картинки
-> ![[03_ximending.jpg]]
+> ![[Pasted image 20260825155817.png]]
+> ![[Pasted image 20260825155901.png]]
 
 ---
 
@@ -106,7 +107,8 @@
         2. **Визитор-центр Дадаочэн:** Экспозиции о морской торговой истории района.
     * _Ссылка на локацию_: [Google Maps: Dadaocheng](https://maps.google.com/?q=Dadaocheng+Taipei)<iframe src="https://maps.google.com/maps?q=Dadaocheng+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
-> ![[Pasted image 20260908160446.png]]
+> ![[Pasted image 20260825160932.png]]
+> ![[Pasted image 20260825161130.png]]
 
 * **18:00 - 18:30** — Возвращение на метро MRT в сторону отеля у Taipei Main Station.
 

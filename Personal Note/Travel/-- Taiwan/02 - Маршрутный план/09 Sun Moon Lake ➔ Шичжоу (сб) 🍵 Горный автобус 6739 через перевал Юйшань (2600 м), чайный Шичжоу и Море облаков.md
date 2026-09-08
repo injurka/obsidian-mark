@@ -99,8 +99,6 @@
 > ![[Pasted image 20260907184944.png]]
 > ![[Pasted image 20260907185257.png]]
 > ![[Pasted image 20260907185305.png]]
-> ![[Pasted image 20260907180951.png]]
-> ![[Pasted image 20260907181006.png]]
 > ![[Pasted image 20260907180423.png]]
 
 ---

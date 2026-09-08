@@ -46,8 +46,6 @@
         2. **Сад на крыше (Sky Garden)**: Сюрреалистический ландшафтный парк с кратерообразными формами и панорамой небоскребов Седьмого района.
     * _Ссылка на локацию_: [Google Maps: National Taichung Theater](https://maps.google.com/?q=National+Taichung+Theater)<iframe src="https://maps.google.com/maps?q=National+Taichung+Theater&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-> [!INFO]- Картинки
-> ![[19_national_taichung_theater.jpg]]
 
 * **13:15 - 15:00** — **Дворец десертов Miyahara (宮原眼科)** и **Fourth Credit Union**:
     * *Контекст*: Бывшая японская глазная клиника 1927 года из красного кирпича, преобразованная в роскошный зал в стиле библиотеки Хогвартса с книжными полками высотой в три этажа.
