@@ -129,7 +129,14 @@ description: >-
     * *Контекст*: Историко-культурная справка.
     * *Маршрут*: Инструкции по проезду.
     * _Ссылка на локацию_: [Google Maps: Название](https://maps.google.com/?q=Запрос)<iframe src="https://maps.google.com/maps?q=Запрос&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [AllTrails: Название маршрута](https://www.alltrails.com/trail/taiwan/...)
+    * _Велотрек_: [Google Maps: Старт → Финиш](https://www.google.com/maps/dir/.../?travelmode=bicycling)
 ```
+
+> [!TIP]
+> Строки `_Хайкинг-трек_:` и `_Велотрек_:` автоматически преобразуются в интерактивный маршрут
+> на карте Trip Scheduler (`transportMode: foot` или `bike`). Поддерживаются ссылки AllTrails,
+> Hikingbook и Google Maps `/dir/` с несколькими точками.
 
 > [!TIP]
 > Локальный совет к этой активности.
@@ -219,3 +226,6 @@ description: >-
 4. [ ] Все Google Maps имеют responsive iframe `style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"`.
 5. [ ] В `Отели.md` есть сводная таблица с колонками `| Ночи | Локация | Отель ... |`.
 6. [ ] В `Финансы.md` заголовки содержат эмодзи ✈️, 🚄, 🏨, 🍜, 🎟️, 🎁.
+7. [ ] Все хайкинг-активности (тропы, горы, маршруты) содержат строку `_Хайкинг-трек_:` с 4-пробельным отступом.
+8. [ ] Все велосипедные маршруты содержат строку `_Велотрек_:` с URL `?travelmode=bicycling`.
+9. [ ] Строки `_Хайкинг-трек_:` и `_Велотрек_:` стоят ПОСЛЕ `_Ссылка на локацию_:` и ДО `> [!TIP]`.
