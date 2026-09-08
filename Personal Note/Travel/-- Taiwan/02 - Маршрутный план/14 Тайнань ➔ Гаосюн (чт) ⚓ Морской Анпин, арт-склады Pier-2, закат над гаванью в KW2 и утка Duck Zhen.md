@@ -48,7 +48,7 @@
 > [!INFO]- Картинки
 > ![[17_fort_zeelandia.jpg]]
 
-* **12:30 - 13:45** — 🦐 **Главный гастрономический обед в Анпине и шелковый десерт:**
+* **12:30 - 13:45** — Главный гастрономический обед в Анпине и шелковый десерт:
     1. **Легендарные креветочные рулетики Chou's Shrimp Rolls (周氏蝦捲):**
        * Рулетики из сочного фарша свежих креветок, сельдерея и свинины, завернутые в тончайшую пленку и обжаренные до золотистой корочки (`~85 NTD`). К ним отлично заказать устричный суп и лапшу с морепродуктами (`~250–350 NTD / ~700–980 ₽`).
        * _Ссылка на локацию_: [Google Maps: Chou's Shrimp Rolls Anping](https://maps.google.com/?q=Chou+Shrimp+Rolls+Anping)<iframe src="https://maps.google.com/maps?q=Chou+Shrimp+Rolls+Anping&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
