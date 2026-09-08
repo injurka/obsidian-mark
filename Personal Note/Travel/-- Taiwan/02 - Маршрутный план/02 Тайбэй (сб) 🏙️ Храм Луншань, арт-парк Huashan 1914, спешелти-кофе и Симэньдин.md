@@ -83,7 +83,7 @@
     * _Ссылка на локацию_: [Google Maps: Simple Kaffa](https://maps.google.com/?q=Simple+Kaffa+Taipei)<iframe src="https://maps.google.com/maps?q=Simple+Kaffa+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] ☕ Очередь выходного дня в Simple Kaffa
-> В воскресенье очередь за столик во флагманской кофейне чемпиона мира Simple Kaffa может составлять 20–30 минут. Стойка **Takeaway (на вынос)** обслуживается за 3–5 минут: возьмите авторский *Brown Sugar Latte* или пуровер *Geisha* с собой и выпейте на тенистых лужайках арт-парка Huashan 1914.
+> В выходные дни очередь за столик во флагманской кофейне чемпиона мира Simple Kaffa может составлять 20–30 минут. Стойка **Takeaway (на вынос)** обслуживается за 3–5 минут: возьмите авторский *Brown Sugar Latte* или пуровер *Geisha* с собой и выпейте на тенистых лужайках арт-парка Huashan 1914.
 
 > [!INFO]- Картинки
 > ![[Pasted image 20260825154753.png]]
