@@ -32,6 +32,7 @@
 * **09:30 - 10:30** — Зеленый коридор каллиграфии (Calligraphy Greenway / 草悟道):
     * *Контекст*: Пешеходный тенистый бульвар протяженностью 3.6 км, соединяющий музеи, парки скульптур и открытые галереи. Утренняя прогулка под кронами деревьев.
     * _Ссылка на локацию_: [Google Maps: Calligraphy Greenway](https://maps.google.com/?q=Calligraphy+Greenway+Taichung)<iframe src="https://maps.google.com/maps?q=Calligraphy+Greenway+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: National Museum of Natural Science → Calligraphy Greenway → Liuchuan Riverside](https://www.google.com/maps/dir/National+Museum+of+Natural+Science/National+Taiwan+Museum+of+Fine+Arts/@24.1525,120.6625,15z/?travelmode=walking)
 
 * **10:30 - 11:30** — Спешелти-кофе: **The Factory Mojocoffee** или **Hausinc Cafe**:
     * *Контекст*: Тайчжун знаменит просторными авторскими кофейнями мирового уровня. Фирменный пуровер V60, холодный колд-брю и свежая выпечка перед экскурсией.

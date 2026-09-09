@@ -30,6 +30,7 @@
         2. **«Поцелуй ангела» (Angel's Kiss):** Живописная световая арка в конце канала, где солнечные лучи пробиваются сквозь кроны и эффектно озаряют зеркальную воду.
         3. **Приливная фауна:** Манящие крабы с массивными алыми клешнями, забавные илистые прыгуны на илистых отмелях и грациозные белые цапли.
     * _Ссылка на локацию_: [Google Maps: Sicao Green Tunnel](https://maps.google.com/?q=Sicao+Green+Tunnel)<iframe src="https://maps.google.com/maps?q=Sicao+Green+Tunnel&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Sicao Dazhong Temple → Sicao Green Tunnel Pier](https://www.google.com/maps/dir/Sicao+Dazhong+Temple/Sicao+Green+Tunnel/@23.0195,120.1345,17z/?travelmode=walking)
 
 > [!TIP] 🦟 Защита от мелких мошек Сяохэйвэнь
 > В мангровых заводях и на влажных берегах Тайнаня водятся микроскопические кусачие мошки *Сяохэйвэнь (小黑蚊)*. Обычные репелленты от комаров против них малоэффективны. Перед посадкой на плот нанесите спрей с маслом лимонного эвкалипта (*Xiaoheiwen Repellent*, продается на кассе в любом 7-Eleven за ~120 NTD).

@@ -55,6 +55,7 @@
     * ⏱️ **Санитарные остановки (по 10 минут):**
         1. **Xinyi Township Farmers' Association (信義鄉農會):** Первая 10-минутная пауза в долине Синьи — возможность размять ноги и заглянуть в местный магазин сливовой продукции.
         2. **Перевал Татака (Tataka / 2610 м):** Вторая 10-минутная остановка на высшей точке маршрута в Национальном парке Юйшань. Кристально чистый разреженный воздух, прохладный ветер и панорама 360° на зубчатые хребты высочайшей вершины острова — Юйшань (3952 м).
+    * _Хайкинг-трек_: [Google Maps: Tataka Visitor Center → Tataka Observation Deck](https://www.google.com/maps/dir/Tataka+Visitor+Center/Tataka+Lookout/@23.4862,120.8879,16z/?travelmode=walking)
     * *Сканирование на выходе:* При прибытии на конечную станцию Alishan Transfer Station (No. 55, South Alishan, Zhongshan Village) приложите QR-код к сканеру у водителя.
     * _Ссылка на локацию_: [Google Maps: Alishan Station](https://maps.google.com/?q=Alishan+Railway+Station)<iframe src="https://maps.google.com/maps?q=Alishan+Railway+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
@@ -88,10 +89,12 @@
         3. **Закат над Морем облаков (Sea of Clouds / 雲海)**: С 16:30 до 17:45 вечерняя инверсия затягивает долину Цзяи густым одеялом облаков, а заходящее солнце заливает горизонт золотыми и пурпурными красками.
         4. **Пешая доступность**: После заката в 17:45 вы спокойно возвращаетесь в отель и к ресторанам пешком по освещённым деревенским улочкам за 10–15 минут.
     * _Ссылка на локацию_: [Google Maps: Sunset Trail Shizhuo](https://maps.google.com/?q=Sunset+Trail+Shizhuo)<iframe src="https://maps.google.com/maps?q=Sunset+Trail+Shizhuo&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Cloud Residents Tea Places → Sunset Trail Shizhuo](https://www.google.com/maps/dir/Cloud+Residents+Tea+Places/Sunset+Trail+Shizhuo/@23.4756,120.7028,16z/?travelmode=walking)
 
 > [!TIP] 🌅 Сравнение локаций для заката: Шичжоу (Сячжидао) vs Сидин (Эряньпин)
 > * **Тропа Сячжидао (霞之道, Шичжоу — Рекомендуемый выбор):** Находится прямо в вашем посёлке (10–15 мин пешком от отеля). Открывает точно такой же потрясающий вид на чайные плантации и закатное Море облаков. Главное преимущество — абсолютная безопасность и независимость от транспорта после наступления темноты.
 > * **Тропа Эряньпин (二延平步道, Сидин / Xiding):** Расположена в **11 км вниз по серпантину** от Шичжоу (на отметке 53 км шоссе 18). Знаменита открыточной деревянной лестницей на хребте. 
+>   * _Хайкинг-трек_: [Google Maps: Eryanping Trailhead → Eryanping Observation Deck](https://www.google.com/maps/dir/Eryanping+Trailhead/Eryanping+Observation+Deck/@23.4326,120.6558,16z/?travelmode=walking)
 >   * ⚠️ *Важное предупреждение по Эряньпин:* Автобусы снизу вверх в Шичжоу прекращают ходить уже к 16:30–17:00, такси на трассе в Сидине нет, а Uber в горах не работает. Если вы решите поехать именно на Эряньпин, **обязательно при заселении в миньсу договоритесь с хозяином о платном автотрансфере туда и обратно** (~400–600 NTD туда-обратно с забором ровно в 18:00), чтобы не остаться ночью на горной трассе!
 
 > [!INFO]- Картинки

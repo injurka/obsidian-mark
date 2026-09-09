@@ -22,6 +22,7 @@
     * *Вайб:* Один из четырех великих классических садов Тайваня, заложенный в 1830 году и спрятанный прямо за фасадами современных улиц. Никаких толп и очередей.
     * *Что здесь:* Каменный грот, пруд с черепахами и карпами кои, вековые раскидистые баньяны (дающие плотную прохладную тень), традиционные резные беседки и деревянный японский чайный домик 1930-х годов (*Shiba Mao Tea House*). Место создано для того, чтобы сесть в тени у воды с прохладным чаем и замедлиться.
     * _Ссылка на локацию_: [Google Maps: Wu Garden Tainan](https://maps.google.com/?q=Wu+Garden+Tainan)<iframe src="https://maps.google.com/maps?q=Wu+Garden+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Wu Garden → Snail Alley → The Spring Urban Lagoon](https://www.google.com/maps/dir/Wu+Garden+Tainan/Snail+Alley+Tainan/The+Spring+Tainan/@22.9942,120.2001,16z/?travelmode=walking)
 
 * **11:30 - 11:40** — Перемещение: Wu Garden ➔ Улица Синьмэй (Xinmei St):
     * *Тип активности:* Пеший переход (~500 м, 6–8 минут).
@@ -48,6 +49,7 @@
     * *Вайб:* Пешеходный оазис тишины, куда физически не могут заехать машины и скутеры. Свое название квартал получил в честь тайваньского писателя Е Ши-тао, писавшего о неспешной жизни в этих переулках.
     * *Что делать:* Рассматривать керамические фигурки улиток, спрятанные на ступеньках и водостоках, японские деревянные палисадники, винтажные таблички и зелень. Полное отсутствие туристической спешки.
     * _Ссылка на локацию_: [Google Maps: Snail Alley](https://maps.google.com/?q=Snail+Alley+Tainan)<iframe src="https://maps.google.com/maps?q=Snail+Alley+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Wu Garden → Snail Alley → The Spring Urban Lagoon](https://www.google.com/maps/dir/Wu+Garden+Tainan/Snail+Alley+Tainan/The+Spring+Tainan/@22.9942,120.2001,16z/?travelmode=walking)
 
 * **15:35 - 15:45** — Перемещение: Snail Alley ➔ Улица Чжэнсин (Zhengxing St):
     * *Тип активности:* Пеший переход (~450 м, около 6–8 минут).

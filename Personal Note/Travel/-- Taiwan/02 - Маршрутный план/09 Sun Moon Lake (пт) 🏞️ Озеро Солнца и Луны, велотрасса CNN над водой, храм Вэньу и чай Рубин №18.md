@@ -74,6 +74,7 @@
         2. **Парк Фусюн (Fusionun Park):** Живописная зона отдыха с цветниками и смотровой на южную часть озера.
         3. **Смотровая Xiangshan:** Открывается вид на весь остров Huodaō (Head Duck Island) — главный маяк озера.
     * _Ссылка на локацию_: [Google Maps: Sun Moon Lake Bike Trail](https://maps.google.com/?q=Sun+Moon+Lake+Bike+Trail)<iframe src="https://maps.google.com/maps?q=Sun+Moon+Lake+Bike+Trail&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Велотрек_: [Google Maps: Shuishe Pier → Baozuo Bridge → Xiangshan Visitor Center](https://www.google.com/maps/dir/Sun+Moon+Lake+Shuishe+Pier/Xiangshan+Visitor+Center/@23.8587,120.9082,15z/?travelmode=bicycling)
 
 > [!INFO]- Картинки
 > ![[Pasted image 20260908134022.png]]
@@ -87,6 +88,7 @@
     * *Контекст:* Скальный храм на северо-восточном берегу озера — монументальная лестница, панорамные виды на весь водоем и остров Huodaō. Спокойное время для осмотра, фотографирования и встречи заката без спешки.
     * 🎁 Бонус: чаем Рубин №18 можно угоститься прямо у пирса Шуйшэ — его подают во всех местных кафе набережной, так что отдельный визит на чайную фабрику не нужен.
     * _Ссылка на локацию_: [Google Maps: Wenwu Temple Sun Moon Lake](https://maps.google.com/?q=Wenwu+Temple+Sun+Moon+Lake)<iframe src="https://maps.google.com/maps?q=Wenwu+Temple+Sun+Moon+Lake&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Wenwu Temple Pier → Wenwu Temple Main Gate](https://www.google.com/maps/dir/Wenwu+Temple+Pier/Wenwu+Temple+Sun+Moon+Lake/@23.8703,120.9272,17z/?travelmode=walking)
 > [!INFO]- Картинки
 > ![[Pasted image 20260908134531.png]]
 > ![[Pasted image 20260908134541.png]]

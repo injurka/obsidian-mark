@@ -75,6 +75,7 @@
         4. Дизайнерский книжный пассаж **Eslite Bookstore Pier-2** с панорамными окнами на пирс.
     * _Ссылка на локацию_: [Google Maps: Pier-2 Art Center](https://maps.google.com/?q=Pier-2+Art+Center+Kaohsiung)<iframe src="https://maps.google.com/maps?q=Pier-2+Art+Center+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: Hamasen Railway Cultural Park](https://maps.google.com/?q=Hamasen+Railway+Cultural+Park+Kaohsiung)<iframe src="https://maps.google.com/maps?q=Hamasen+Railway+Cultural+Park+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/Pier-2+Art+Center+Kaohsiung/Great+Harbor+Bridge+Kaohsiung/KW2+Kaohsiung/@22.6198,120.2815,16z/?travelmode=walking)
 
 > [!TIP] 🍍 Ритуал гостеприимства SunnyHills
 > Посещение SunnyHills не обязывает к покупке. Это традиционный тайваньский ритуал знакомства с продуктом: вы садитесь за общий деревянный стол, спокойно пьете чай и пробуете пирожное из натуральных ананасов горы Багуа. Если сладости понравятся — на выходе можно приобрести подарочные наборы.
@@ -97,6 +98,7 @@
         * Встречайте закат: огромное солнце медленно опускается в воды Тайваньского пролива за маяком холма Цихоу, а на воде гавани отражаются силуэты заходящих паромов. В сумерках зажигается неоновая подсветка конструкций Great Harbor Bridge и галерей Dagang Cang 410.
     * _Ссылка на локацию_: [Google Maps: Great Harbor Bridge](https://maps.google.com/?q=Great+Harbor+Bridge+Kaohsiung)<iframe src="https://maps.google.com/maps?q=Great+Harbor+Bridge+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: KW2 Kaohsiung Port Warehouse No.2](https://maps.google.com/?q=KW2+Kaohsiung)<iframe src="https://maps.google.com/maps?q=KW2+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/Pier-2+Art+Center+Kaohsiung/Great+Harbor+Bridge+Kaohsiung/KW2+Kaohsiung/@22.6198,120.2815,16z/?travelmode=walking)
 
 > [!TIP] 🌉 Смотровая спираль Great Harbor Bridge
 > Поднимитесь по винтовой лестнице на центральную смотровую палубу моста: оттуда открывается круговой обзор на 360° на морские ворота города, футуристический музыкальный центр Kaohsiung Music Center и гору Шоушань. Сам мост совершает эффектный 3-минутный поворот ежедневно в 15:00 (а по пятницам и выходным — дополнительно в 19:00).
