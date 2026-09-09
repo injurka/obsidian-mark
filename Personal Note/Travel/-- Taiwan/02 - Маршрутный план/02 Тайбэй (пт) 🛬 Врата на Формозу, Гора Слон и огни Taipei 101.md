@@ -3,7 +3,7 @@
 > **Локация:** Прилет в TPE (Таоюань) ➔ Экспресс Airport MRT ➔ Тайбэй (Zhongzheng / Xinyi / Songshan).
 > **Фаза тура:** 🌴 Фаза 1 — Чистый отпуск (Прибытие на остров, наблюдение за зажиганием огней небоскреба Taipei 101 в «синий час» с горы Слон, огни Синьи и стритфуд на старейшем ночном рынке Жаохэ).
 > *(Примечание: Историческая торговая улица Дихуа перенесена на дневное время в последующие дни тура, когда открыты чайные лавки и ремесленные мануфактуры).*
-> **Проживание:** Отель у вокзала Taipei Main Station (*Morwing Hotel Fairy Tale* `3 183 ₽` , 1-я ночь в Тайбэе).
+> **Проживание:** Отель у вокзала Taipei Main Station (*Morwing Hotel Fairy Tale*, 1-я ночь в Тайбэе).
 > **Ключевой хайлайт:** Первое знакомство с Формозой: панорама зажигания огней Taipei 101 в синий час (Blue Hour) со смотровой горы Слон и аутентичный стритфуд на ночном рынке Жаохэ.
 
 ---
@@ -36,23 +36,25 @@
     3. **eSIM / SIM-карта**: Стойка оператора *Chunghwa Telecom* прямо в зале прибытия — оформление туристической SIM с безлимитным интернетом 4G/5G.
     4. **Снятие наличных**: Банкоматы в зале прилета (*Bank of Taiwan*, *Mega Bank* или *CTBC Bank*) — снимите базовые наличные (банкоматы тайваньских госбанков обычно не берут собственную межбанковскую комиссию).
     5. **Транспортная карта EasyCard (悠遊卡)**: Покупка карты в сервисной кассе Airport MRT (`~280 ₽` / NT$ 100 за пластик) и пополнение минимум на `~2 000–2 500 ₽` (если не выиграли в лотерее). Карта действует во всем общественном транспорте Тайваня и в магазинах 7-Eleven / FamilyMart.
-    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=Taoyuan+International+Airport)<iframe src="https://maps.google.com/maps?q=Taoyuan+International+Airport&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=25.079651,121.234217)<iframe src="https://maps.google.com/maps?q=25.079651,121.234217&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260825141150.png]]
 > ![[Pasted image 20260825141200.png]]
 > ![[Pasted image 20260825141550.png]]
 
-* **15:30 - 16:15** — Поезд-экспресс **Taoyuan Airport MRT** (станция A12/A13 ➔ A1 Taipei Main Station, время в пути 36–39 минут, `~450 ₽` / NT$ 150 по карте EasyCard).
+* **15:30 - 16:15** — Поезд-экспресс **Taoyuan Airport MRT** (станция A12/A13 ➔ A1 Taipei Main Station, время в пути 36–39 минут, по карте EasyCard).
     * *Посадка*: Спуститесь по указателям к перронам терминала Terminal 1 (A12) или Terminal 2 (A13).
     * *Тип поезда*: Садитесь строго на **Express Train (фиолетовый состав с надписью 直達車 / Express)** с багажными стеллажами. *Не садитесь на синий Commuter Train* (он останавливается на каждой станции и идет более 50 минут).
     * 🎁 **Первый гастро-ритуал:** В магазине 7-Eleven прямо перед турникетами станции возьмите горячее тайваньское чайное яйцо со специями (**Tea Egg / 茶葉蛋**, `~38 ₽` / NT$ 13) и бутылочку холодного улуна или жасминового чая без сахара (無糖).
     * *Навигация к отелю*: По прибытии на станцию A1 (Airport MRT) следуйте по подземным указателям в сторону **Taipei Main Station** и перейдите в подземный переход **Station Front Metro Mall (Z-Mall / 站前地下街)**. Поднимитесь на поверхность через **выход Z8 (с лифтом)** или **Z10** — отель находится в 180 метрах на юг по улице Kaifeng St.
-    * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://maps.google.com/?q=Taipei+Main+Station)<iframe src="https://maps.google.com/maps?q=Taipei+Main+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://maps.google.com/?q=25.047761,121.517049)<iframe src="https://maps.google.com/maps?q=25.047761,121.517049&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260825142447.png]]
 
 * **16:15 - 16:40** — Быстрое заселение в отель (*Morwing Hotel Fairytale*, ул. Kaifeng St, Sec. 1, No. 36), освежающий душ, смена одежды на легкую спортивную/походную для подъема на гору.
     * _Бронирование отеля:_ [Trip.com: Morwing Hotel Fairy Tale](https://www.trip.com/w/VfPGsYCo6W2) | [Trip.com: FX Hotel Taipei Nanjing East Road](https://www.trip.com/w/OjdqIBog6W2)
+
+    * _Ссылка на локацию_: [Google Maps: Morwing Hotel Fairy Tale](https://maps.google.com/?q=25.045610,121.513750)<iframe src="https://maps.google.com/maps?q=25.045610,121.513750&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -62,7 +64,7 @@
     * От отеля вернитесь через выход Z8/Z6 к станции MRT **Taipei Main Station (R10)**.
     * Сядьте на **Красную ветку (Tamsui-Xinyi Line / 淡水信義線)** в направлении конечной станции **Xiangshan (象山, R02)** — ехать без пересадок 10 остановок (~18 минут).
     * На станции Xiangshan выходите через **Выход 2 (Exit 2)**.
-    * _Ссылка на локацию_: [Google Maps: Xiangshan Station](https://maps.google.com/?q=Xiangshan+MRT+Station)<iframe src="https://maps.google.com/maps?q=Xiangshan+MRT+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Xiangshan Station](https://maps.google.com/?q=25.032999,121.569303)<iframe src="https://maps.google.com/maps?q=25.032999,121.569303&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **17:15 - 18:45** — Тропа горы Слон (**Elephant Mountain Trail / 象山親山步道**):
     * *Подход к тропе:* От выхода 2 станции метро пройдите вперед через парк Сяншань (Xiangshan Park) около 600 м (7–8 минут), следуя по нарисованным на тротуаре силуэтам слоников, до начала каменной лестницы возле храма Lingyun Temple (代天殿靈雲宮).
@@ -71,9 +73,9 @@
         1. **Смотровая терраса фотографов (Photographer's Platform / 攝手平台)**: Первая большая видовая палуба с открытым фронтальным видом на Taipei 101. Прибытие как раз к началу вечерних сумерек.
         2. **Шесть гигантских валунов (Six Giant Rocks / 六巨石)**: Знаменитые природные глыбы на хребте (можно подняться на площадку вокруг них).
         3. **«Синий час» (Blue Hour) и включение подсветки (17:30–18:15)**: Самое фотогеничное время дня, когда небо окрашивается в глубокий сапфировый цвет, а небоскреб Taipei 101 и деловой район Синьи зажигают вечернюю иллюминацию.
-    * _Ссылка на локацию_: [Google Maps: Elephant Mountain Trailhead](https://maps.google.com/?q=Elephant+Mountain+Trailhead+Taipei)<iframe src="https://maps.google.com/maps?q=Elephant+Mountain+Trailhead+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Elephant Mountain Trailhead](https://maps.google.com/?q=25.026541,121.575542)<iframe src="https://maps.google.com/maps?q=25.026541,121.575542&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Хайкинг-трек_: [AllTrails: Elephant Mountain Trail](https://www.alltrails.com/trail/taiwan/taipei-city/elephant-mountain-trail--2)
-    * _Хайкинг-трек (навигация)_: [Google Maps: Xiangshan Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/Xiangshan+Station,+Taipei/Elephant+Mountain+Trailhead,+Taipei/?travelmode=walking)
+    * _Хайкинг-трек_: [Google Maps: Xiangshan Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/25.032999,121.569303/25.026541,121.575542/?travelmode=walking)
 
 > [!TIP] 🦟 Защита от насекомых и питьевой режим
 > На лесных склонах в сумерках активны москиты — перед подъемом нанесите репеллент. Возьмите с собой бутылку воды (или купите в автомате у подножия тропы). Спускайтесь не спеша, держась за перила — каменные ступени могут быть гладкими.
@@ -90,7 +92,7 @@
 * **18:45 - 19:30** — Спуск с горы и прогулка к основанию небоскреба **Taipei 101 (台北101)**:
     * От подножия тропы пройдите пешком 12–14 минут на запад через район Xinyi к гигантской башне Taipei 101.
     * Осмотрите снаружи уникальную ступенчатую архитектуру здания в форме стебля бамбука и древнекитайских денежных слитков ямбов, а также знаменитую красную скульптуру Роберта Индианы «LOVE» на площади у южного входа.
-    * _Ссылка на локацию_: [Google Maps: Taipei 101](https://maps.google.com/?q=Taipei+101)<iframe src="https://maps.google.com/maps?q=Taipei+101&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taipei 101](https://maps.google.com/?q=25.033835,121.564499)<iframe src="https://maps.google.com/maps?q=25.033835,121.564499&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **19:30 - 20:00** — Переезд к Ночному рынку Жаохэ (Raohe):
     * **Вариант А (наиболее комфортный, на такси):** Возьмите желтое такси или вызовите Uber от Taipei 101 напрямую ко входу на рынок Raohe Night Market. Время в пути: ~8–10 минут, стоимость всего `~450–550 ₽` (NT$ 150–180).
@@ -107,7 +109,7 @@
         2. 🎁 **Освежающий напиток:** Возьмите свежевыжатый сок из сахарного тростника с соком каламанси/лайма (**Sugar Cane Juice / 甘蔗汁**, `~140 ₽` / NT$ 50) или классический чай с тапиокой (Bubble Tea).
         3. **Тайваньские морепродукты:** Жареные на углях щупальца кальмара со специей «пять ароматов», жареные перепелиные яйца на шпажках и мини-сосиски в клейком рисе («маленькая колбаска в большой» / 大腸包小腸).
         4. **Фруктовый десерт:** Ломтики сочной тайваньской восковой яблони (Wax Apple / 蓮霧) или хрустящей гуавы, посыпанной кисло-сладкой сливовой пудрой.
-    * _Ссылка на локацию_: [Google Maps: Raohe Night Market](https://maps.google.com/?q=Raohe+Night+Market)<iframe src="https://maps.google.com/maps?q=Raohe+Night+Market&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Raohe Night Market](https://maps.google.com/?q=25.050965,121.577543)<iframe src="https://maps.google.com/maps?q=25.050965,121.577543&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260825144106.png]]
 > ![[Pasted image 20260825144247.png]]
@@ -122,6 +124,8 @@
     * Сядьте на поезд **Зеленой ветки (Songshan-Xindian Line / 松山新店線)** в сторону станции *Xindian*.
     * Проедьте **без единой пересадки 6 остановок (13 минут)** до станции **Beimen (北門, G13)**.
     * Выйдите через **Выход 2** станции Beimen и пройдите неспешным шагом 600 м (7–8 минут) по улице Yanping South Rd прямо к вашему отелю *Morwing Hotel Fairy Tale*.
+
+    * _Ссылка на локацию_: [Google Maps: Songshan Station](https://maps.google.com/?q=25.049870,121.578110)<iframe src="https://maps.google.com/maps?q=25.049870,121.578110&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **22:15+** — Отдых в отеле, восстановление сил после перелета.
 

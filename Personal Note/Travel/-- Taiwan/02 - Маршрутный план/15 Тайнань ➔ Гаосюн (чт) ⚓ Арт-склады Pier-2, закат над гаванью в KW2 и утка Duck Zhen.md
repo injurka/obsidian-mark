@@ -4,7 +4,7 @@
 
 > **Локация:** Тайнань (Спокойное утро в центре) ➔ Скорый поезд TRA (25–30 мин) ➔ Гаосюн (Заселение у Pier-2 ➔ Обед в историческом Яньчэне ➔ Арт-центр Pier-2 ➔ Парк поездов Hamasen ➔ Мост Great Harbor Bridge ➔ Склады KW2 ➔ Закат над гаванью ➔ Утка Michelin Bib Gourmand Duck Zhen ➔ Огни Kaohsiung Music Center).
 > **Фаза тура:** 🌴 Фаза 1 — Чистый отпуск (100% Свобода от спешки, утренних будильников и лишней логистики: неспешный кофе в старом Тайнане, комфортный 25-минутный переезд к океану, заселение у гавани, расслабленный обед в квартале Яньчэн, арт-склады Pier-2, золотой закат над проливом в портовом пространстве KW2, утка Duck Zhen и огни залива Love River Bay).
-> **Проживание:** Отель у гавани в Гаосюне (*moon yancheg* `2 316 ₽`, 1-я ночь в Гаосюне).
+> **Проживание:** Отель у гавани в Гаосюне (*moon yancheg*, 1-я ночь в Гаосюне).
 > **Ключевой хайлайт:** Идеальный темп настоящего отдыха: никакого утреннего стресса с чемоданами, стремительный переезд в морской мегаполис, заселение в отель в первой половине дня, неспешный закатный чилл с крафтовым пивом у океана и легендарный гастрономический вечер!
 
 ---
@@ -13,7 +13,7 @@
 
 > [!IMPORTANT] Прямой переезд: Тайнань ➔ Гаосюн
 > * **Прямой маршрут без локеров:** Вам больше не нужно сдавать чемоданы в камеры хранения на вокзале и возвращаться за ними. Утром вы спокойно собираетесь, выселяетесь из отеля *WUYU*, берете такси на 5 минут до вокзала **Tainan Station (台南車站)** сразу со всеми вещами и садитесь на ближайший скорый поезд.
-> * **Поезда TRA Тайнань ➔ Гаосюн:** Экспрессы (*Tze-Chiang / EMU3000 / Local Express*) отправляются каждые 10–15 минут. Время в пути — всего **25–30 минут** (`~190–300 ₽` по карте EasyCard).
+> * **Поезда TRA Тайнань ➔ Гаосюн:** Экспрессы (*Tze-Chiang / EMU3000 / Local Express*) отправляются каждые 10–15 минут. Время в пути — всего **25–30 минут** (по карте EasyCard).
 > * **Прибытие в Гаосюн к полудню:** От вокзала Kaohsiung Main Station до отеля *moon yancheg* — всего 8 минут на метро (Красная линия ➔ пересадка на Formosa Boulevard ➔ Оранжевая линия до станции **Yanchengpu / O2, Выход 1**, пройти 350 м) либо 10 минут на такси (`~150 NTD / ~420 ₽`).
 > * **Багажная оптимизация на уикенд:** В субботу утром основные тяжелые чемоданы бесплатно останутся на хранении на стойке отеля *moon yancheg*, а на коралловый остров Сяолюцю вы отправитесь налегке с маленьким рюкзаком на 1 ночь.
 
@@ -34,8 +34,8 @@
 > ![[Pasted image 20260908164006.png]]
 
 * **11:15 - 11:45** — Скорый поезд TRA: Tainan Station ➔ Kaohsiung Main Station:
-    * *Контекст*: Стремительный 25-минутный перегон на скором экспрессе TRA вдоль зеленых равнин юго-запада острова прямо в центр Гаосюна (`~190–300 ₽`).
-    * _Ссылка на локацию_: [Google Maps: Kaohsiung Main Station](https://maps.google.com/?q=Kaohsiung+Main+Station)<iframe src="https://maps.google.com/maps?q=Kaohsiung+Main+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * *Контекст*: Стремительный 25-минутный перегон на скором экспрессе TRA вдоль зеленых равнин юго-запада острова прямо в центр Гаосюна.
+    * _Ссылка на локацию_: [Google Maps: Kaohsiung Main Station](https://maps.google.com/?q=22.639800,120.302200)<iframe src="https://maps.google.com/maps?q=22.639800,120.302200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260908164157.png]]
 > ![[Pasted image 20260908164320.png]]
@@ -50,7 +50,7 @@
     * *Маршрут*: 10 минут на такси от вокзала (`~150 NTD`) либо поездка на метро до станции **Yanchengpu (O2)** и 4 минуты пешком.
     * *Контекст*: Прибытие в отель *moon yancheg* в историческом районе Яньчэн у набережной гавани. Оформление заселения (или сдача вещей в комнату хранения, если номер еще готовится).
     * _Бронирование отеля:_ [Trip.com: moon yancheg](https://www.trip.com/w/9icz1Kpr6W2) | [Trip.com: Royal Fine Hotel](https://www.trip.com/w/zxtTnEqr6W2) | [Trip.com: Retro Kaohsiung](https://www.trip.com/w/3ipzd2qr6W2)
-    * _Ссылка на локацию_: [Google Maps: moon yancheg Kaohsiung](https://maps.google.com/?q=moon+yancheg+Kaohsiung)<iframe src="https://maps.google.com/maps?q=moon+yancheg+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: moon yancheng Kaohsiung](https://maps.google.com/?q=22.623500,120.283200)<iframe src="https://maps.google.com/maps?q=22.623500,120.283200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **12:20 - 13:45** — Гастрономический обед в историческом районе Яньчэн:
     * *Контекст*: Район Яньчэн (Yancheng) — старейший портовый квартал Гаосюна с высочайшей концентрацией культовых семейных заведений с историей в 50–70 лет. Все находится буквально в 3–5 минутах ходьбы от вашего отеля.
@@ -58,6 +58,8 @@
         1. **Суповые пельмени танбао и сяолунбао:** В легендарной лавке *Yanchengpu Steamed Dumplings* — тончайшее тесто, горячий бульон и сочная начинка (`~90–120 NTD`).
         2. **Тайваньская лапша с вонтонами или говядиной:** Ароматный прозрачный бульон, нежные вонтоны с креветкой и зеленью.
         3. 🧋 **Культ молочного чая:** В 200 метрах находится основанная в 1982 году чайная **Hwada Milk Tea (樺達奶茶)** — возьмите фирменный черный чай с молоком и мягкой тапиокой со льдом (`~60 NTD`).
+
+    * _Ссылка на локацию_: [Google Maps: Duck Zhen Kaohsiung](https://maps.google.com/?q=22.624800,120.281800)<iframe src="https://maps.google.com/maps?q=22.624800,120.281800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **13:45 - 15:30** — Полноценный дневной отдых в отеле:
     * *Релакс*: Освежающий душ, распаковка вещей, отдых в кондиционированном номере. Никакой спешки: солнце в зените, а вы спокойно восстанавливаете силы перед выходом к океану.
@@ -73,9 +75,9 @@
         2. **Железнодорожный парк Hamasen:** Бескрайнее зеленое поле из 38 сохранившихся путей старой товарной станции. Здесь выставлены настоящие паровозы начала XX века, а горожане запускают воздушных змеев на фоне портовых кранов.
         3. 🎁 **Бесплатное чаепитие в SunnyHills (微熱山丘 駁二門市):** В складах Dayi Warehouse зайдите в фирменный салон знаменитого бренда. Каждому гостю за массивным столом **бесплатно подают чашку горячего высокогорного улуна и целое свежее ананасовое пирожное Фэнлису**!
         4. Дизайнерский книжный пассаж **Eslite Bookstore Pier-2** с панорамными окнами на пирс.
-    * _Ссылка на локацию_: [Google Maps: Pier-2 Art Center](https://maps.google.com/?q=Pier-2+Art+Center+Kaohsiung)<iframe src="https://maps.google.com/maps?q=Pier-2+Art+Center+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: Hamasen Railway Cultural Park](https://maps.google.com/?q=Hamasen+Railway+Cultural+Park+Kaohsiung)<iframe src="https://maps.google.com/maps?q=Hamasen+Railway+Cultural+Park+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/Pier-2+Art+Center+Kaohsiung/Great+Harbor+Bridge+Kaohsiung/KW2+Kaohsiung/@22.6198,120.2815,16z/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Pier-2 Art Center Kaohsiung](https://maps.google.com/?q=22.620200,120.281500)<iframe src="https://maps.google.com/maps?q=22.620200,120.281500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Hamasen Railway Cultural Park](https://maps.google.com/?q=22.621800,120.276500)<iframe src="https://maps.google.com/maps?q=22.621800,120.276500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_:  [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/22.620200,120.281500/22.617800,120.282800/22.618500,120.279800/?travelmode=walking)
 
 > [!TIP] 🍍 Ритуал гостеприимства SunnyHills
 > Посещение SunnyHills не обязывает к покупке. Это традиционный тайваньский ритуал знакомства с продуктом: вы садитесь за общий деревянный стол, спокойно пьете чай и пробуете пирожное из натуральных ананасов горы Багуа. Если сладости понравятся — на выходе можно приобрести подарочные наборы.
@@ -96,9 +98,9 @@
         * Выходите на открытую дощатую набережную KW2 прямо к кромке воды.
         * Возьмите бокал холодного тайваньского крафтового пива от пивоварни *Zhang Men Brewing (掌門精釀啤酒)* на открытой террасе или свежий манговый смузи.
         * Встречайте закат: огромное солнце медленно опускается в воды Тайваньского пролива за маяком холма Цихоу, а на воде гавани отражаются силуэты заходящих паромов. В сумерках зажигается неоновая подсветка конструкций Great Harbor Bridge и галерей Dagang Cang 410.
-    * _Ссылка на локацию_: [Google Maps: Great Harbor Bridge](https://maps.google.com/?q=Great+Harbor+Bridge+Kaohsiung)<iframe src="https://maps.google.com/maps?q=Great+Harbor+Bridge+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: KW2 Kaohsiung Port Warehouse No.2](https://maps.google.com/?q=KW2+Kaohsiung)<iframe src="https://maps.google.com/maps?q=KW2+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/Pier-2+Art+Center+Kaohsiung/Great+Harbor+Bridge+Kaohsiung/KW2+Kaohsiung/@22.6198,120.2815,16z/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Great Harbor Bridge Kaohsiung](https://maps.google.com/?q=22.617800,120.282800)<iframe src="https://maps.google.com/maps?q=22.617800,120.282800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: KW2 Kaohsiung Port Warehouse No.2](https://maps.google.com/?q=22.618500,120.279800)<iframe src="https://maps.google.com/maps?q=22.618500,120.279800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_:  [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/22.620200,120.281500/22.617800,120.282800/22.618500,120.279800/?travelmode=walking)
 
 > [!TIP] 🌉 Смотровая спираль Great Harbor Bridge
 > Поднимитесь по винтовой лестнице на центральную смотровую палубу моста: оттуда открывается круговой обзор на 360° на морские ворота города, футуристический музыкальный центр Kaohsiung Music Center и гору Шоушань. Сам мост совершает эффектный 3-минутный поворот ежедневно в 15:00 (а по пятницам и выходным — дополнительно в 19:00).
@@ -118,8 +120,8 @@
         3. **Суп Сяшуйтан (Xia Shui Tang / 下水湯, `~60 NTD`):** Прозрачный имбирный бульон с потрошками, освежающий рецепторы.
     * 🍨 **Десерт с 90-летней историей (в 3 мин ходьбы): Kaohsiung Po-Po Shaved Ice (高雄婆婆冰):**
         * Работает с 1934 года! Миска струганного льда со свежими манго, кусочками фруктов, шариком мороженого и сгущенным молоком (`~100–130 NTD`).
-    * _Ссылка на локацию_: [Google Maps: Duck Zhen Kaohsiung](https://maps.google.com/?q=鴨肉珍+Kaohsiung)<iframe src="https://maps.google.com/maps?q=鴨肉珍+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: Kaohsiung Po-Po Shaved Ice](https://maps.google.com/?q=高雄婆婆冰+Kaohsiung)<iframe src="https://maps.google.com/maps?q=高雄婆婆冰+Kaohsiung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Duck Zhen Kaohsiung](https://maps.google.com/?q=22.624800,120.281800)<iframe src="https://maps.google.com/maps?q=22.624800,120.281800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Kaohsiung Po-Po Shaved Ice](https://maps.google.com/?q=22.624200,120.282500)<iframe src="https://maps.google.com/maps?q=22.624200,120.282500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🦆 Порядок заказа в Duck Zhen
 > В часы пик у Duck Zhen бывает очередь. Лайфхак: один человек сразу занимает свободный столик внутри зала, а второй делает заказ на стойке раздачи. Очередь движется стремительно (5–7 минут), а блюда нарезают и приносят к вашему столику за пару минут!
@@ -129,7 +131,7 @@
     * *Впечатления:*
         1. Комплекс **Kaohsiung Music Center (KMC)** от испанского бюро MADE IN: гигантские башни в форме морских волн и коралловых сот, переливающиеся цветной иллюминацией над ночной водой.
         2. Прогулка по набережной «Китового променада» (*Whale Promenade*) со свежим морским бризом и видом на огни круизного порта.
-    * _Ссылка на локацию_: [Google Maps: Kaohsiung Music Center](https://maps.google.com/?q=Kaohsiung+Music+Center)<iframe src="https://maps.google.com/maps?q=Kaohsiung+Music+Center&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Kaohsiung Music Center](https://maps.google.com/?q=22.618500,120.292500)<iframe src="https://maps.google.com/maps?q=22.618500,120.292500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🚋 Оплата проезда в трамвае Kaohsiung LRT
 > В трамваях LRT нет турникетов. Валидаторы карты EasyCard установлены прямо на посадочных платформах и внутри вагонов у дверей. Достаточно приложить карту один раз при посадке (фиксированный тариф).

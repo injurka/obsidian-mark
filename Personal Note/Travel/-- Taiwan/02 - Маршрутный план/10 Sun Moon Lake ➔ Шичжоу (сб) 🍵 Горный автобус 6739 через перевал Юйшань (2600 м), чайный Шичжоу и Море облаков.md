@@ -3,7 +3,7 @@
 
 > **Локация:** Sun Moon Lake ➔ Alishan ➔ Шичжоу (Shizhuo / 石棹, Алишань 1400 м).
 > **Фаза тура:** 🌴 Фаза 1 — Чистый отпуск (Горный автобус 6739 через перевал Татака 2610 м в Нацпарке Юйшань, заселение в чайный миньсу, тропы Сячжидао и Юньчжидао, закатное Море облаков, дегустация улуна Алишань).
-> **Проживание:** Аутентичный чайный миньсу в Шичжоу (*Cloud Residents Tea Places* `6 495 ₽`, 1 ночь на высоте 1400 м).
+> **Проживание:** Аутентичный чайный миньсу в Шичжоу (*Cloud Residents Tea Places*, 1 ночь на высоте 1400 м).
 > **Ключевой хайлайт:** Стремительный подъём на высоту 1400 м через горный перевал Татака 2610 м и Национальный парк Юйшань, золотой закат над Морем облаков на тропе Сячжидао (10 минут от отеля)!
 
 ---
@@ -48,16 +48,16 @@
     * Прибытие на остановку **строго к 07:45** (за 15 минут до рейса). Подготовьте QR-код бронирования на смартфоне с максимальной яркостью экрана.
     * Не забудьте захватить тёплые вещи в ручную кладь — на перевале Татака на высоте 2610 м температура составляет всего `+8...+12°C`.
     * *Адрес посадки:* No. 163, Zhongshan Road, Yuchi Township.
-    * _Ссылка на локацию_: [Google Maps: Sun Moon Lake Shuishe Bus Stop](https://maps.google.com/?q=Sun+Moon+Lake+Shuishe+Bus+Stop)<iframe src="https://maps.google.com/maps?q=Sun+Moon+Lake+Shuishe+Bus+Stop&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Sun Moon Lake Shuishe Bus Stop](https://maps.google.com/?q=23.865800,120.915700)<iframe src="https://maps.google.com/maps?q=23.865800,120.915700&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **08:00 - 11:10** — Taiwan Tourist Shuttle № 6739 (Sun Moon Lake Station ➔ Alishan Transfer Station):
     * 🏔️ **Подъем сквозь облака в Юйшань:** Автобус преодолевает один из самых зрелищных горных маршрутов Восточной Азии. За окном сменяются субтропические леса, рощи гигантского бамбука Мосо и вековые хвойные леса Центрального хребта.
     * ⏱️ **Санитарные остановки (по 10 минут):**
         1. **Xinyi Township Farmers' Association (信義鄉農會):** Первая 10-минутная пауза в долине Синьи — возможность размять ноги и заглянуть в местный магазин сливовой продукции.
         2. **Перевал Татака (Tataka / 2610 м):** Вторая 10-минутная остановка на высшей точке маршрута в Национальном парке Юйшань. Кристально чистый разреженный воздух, прохладный ветер и панорама 360° на зубчатые хребты высочайшей вершины острова — Юйшань (3952 м).
-    * _Хайкинг-трек_: [Google Maps: Tataka Visitor Center → Tataka Observation Deck](https://www.google.com/maps/dir/Tataka+Visitor+Center/Tataka+Lookout/@23.4862,120.8879,16z/?travelmode=walking)
+    * _Хайкинг-трек_:  [Google Maps: Tataka Visitor Center → Tataka Observation Deck](https://www.google.com/maps/dir/23.486200,120.887200/23.484500,120.889500/?travelmode=walking)
     * *Сканирование на выходе:* При прибытии на конечную станцию Alishan Transfer Station (No. 55, South Alishan, Zhongshan Village) приложите QR-код к сканеру у водителя.
-    * _Ссылка на локацию_: [Google Maps: Alishan Station](https://maps.google.com/?q=Alishan+Railway+Station)<iframe src="https://maps.google.com/maps?q=Alishan+Railway+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Alishan Station](https://maps.google.com/?q=23.510000,120.803800)<iframe src="https://maps.google.com/maps?q=23.510000,120.803800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **11:10 - 11:30** — Пересадка на локальный автобус **7322/7329** (Alishan Station ➔ Shizhuo):
     * Спуск по 50+ серпантинам горы Алишань — каждый поворот открывает новый вид на долину реки Цзяи, уходящую вдаль. Высота постепенно снижается от 2200 м до 1400 м.
@@ -69,9 +69,11 @@
 
 ### Часть 2: Заселение, тропы и закат
 
-* **12:30 - 13:30** — Заселение в чайный миньсу (*Cloud Residents Tea Places* `6 495 ₽`), распаковка и чашка горного чая:
+* **12:30 - 13:30** — Заселение в чайный миньсу (*Cloud Residents Tea Places*), распаковка и чашка горного чая:
     * *Контекст:* Уютный традиционный гостевой дом на чайной ферме. Свежий горный воздух (+18–20°C), вид на террасы и дегустационная чайная комната.
     * _Бронирование миньсу:_ [Trip.com: Cloud Residents Tea Places](https://www.trip.com/w/9DGJpynp6W2) | [Trip.com: Каталог миньсу в Шичжоу / Алишань](https://www.trip.com/hotels/alishan-hotels-list-1296/)
+
+    * _Ссылка на локацию_: [Google Maps: Cloud Residents Tea Places](https://maps.google.com/?q=23.476800,120.698500)<iframe src="https://maps.google.com/maps?q=23.476800,120.698500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **13:30 - 14:30** — Обед в ресторане при миньсу или в деревне Шичжоу:
     * 🍜 Фирменная местная курица с имбирём и диким базиликом, хрустящие побеги горного бамбука, свежий горный шпинат (`~560–700 ₽`).
@@ -79,6 +81,8 @@
 * **14:30 - 15:30** — Дегустация элитного высокогорного чая улун на чайной ферме:
     * 🍵 **Алишань Улун:** Легендарный тайваньский улун средней степени обжарки, выращенный на высоте 1200–1400 м. Имеет тонкий цветочный аромат (схожий с жасмином и орхидеей), мягкую сладость и долгое послевкусие с нотами крем-брюле.
     * Чайные мастер-классы Гунфу Ча проводятся в большинстве миньсу — можно заказать индивидуальную церемонию (часто включена в стоимость проживания или за дополнительную плату `~280–420 ₽`).
+
+    * _Ссылка на локацию_: [Google Maps: Shizhuo Tea Farm Tasting](https://maps.google.com/?q=23.479500,120.697000)<iframe src="https://maps.google.com/maps?q=23.479500,120.697000&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **15:30 - 17:45** — Тропа заката и чайные террасы Шичжоу (Sunset Trail / 霞之道 & Cloud Trail / 雲之道):
     * *Контекст:* Поселок Шичжоу знаменит легендарной «системой пяти троп» (*Shizhuo Trails*: Mist, Tea, Cloud, Sunset, Sakura). Тропа Заката **Сячжидао (Sunset Trail / 霞之道)** и Тропа Облаков **Юньчжидао (Cloud Trail / 雲之道)** начинаются прямо в 10–15 минутах ходьбы от вашего миньсу.
@@ -88,13 +92,13 @@
         2. **Бамбуковая роща Мосо**: Тенистый зелёный тоннель с прохладным лесным воздухом.
         3. **Закат над Морем облаков (Sea of Clouds / 雲海)**: С 16:30 до 17:45 вечерняя инверсия затягивает долину Цзяи густым одеялом облаков, а заходящее солнце заливает горизонт золотыми и пурпурными красками.
         4. **Пешая доступность**: После заката в 17:45 вы спокойно возвращаетесь в отель и к ресторанам пешком по освещённым деревенским улочкам за 10–15 минут.
-    * _Ссылка на локацию_: [Google Maps: Sunset Trail Shizhuo](https://maps.google.com/?q=Sunset+Trail+Shizhuo)<iframe src="https://maps.google.com/maps?q=Sunset+Trail+Shizhuo&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Cloud Residents Tea Places → Sunset Trail Shizhuo](https://www.google.com/maps/dir/Cloud+Residents+Tea+Places/Sunset+Trail+Shizhuo/@23.4756,120.7028,16z/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Sunset Trail Shizhuo](https://maps.google.com/?q=23.476800,120.698500)<iframe src="https://maps.google.com/maps?q=23.476800,120.698500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_:  [Google Maps: Cloud Residents Tea Places → Sunset Trail Shizhuo](https://www.google.com/maps/dir/23.476800,120.698500/23.474500,120.702000/?travelmode=walking)
 
 > [!TIP] 🌅 Сравнение локаций для заката: Шичжоу (Сячжидао) vs Сидин (Эряньпин)
 > * **Тропа Сячжидао (霞之道, Шичжоу — Рекомендуемый выбор):** Находится прямо в вашем посёлке (10–15 мин пешком от отеля). Открывает точно такой же потрясающий вид на чайные плантации и закатное Море облаков. Главное преимущество — абсолютная безопасность и независимость от транспорта после наступления темноты.
 > * **Тропа Эряньпин (二延平步道, Сидин / Xiding):** Расположена в **11 км вниз по серпантину** от Шичжоу (на отметке 53 км шоссе 18). Знаменита открыточной деревянной лестницей на хребте. 
->   * _Хайкинг-трек_: [Google Maps: Eryanping Trailhead → Eryanping Observation Deck](https://www.google.com/maps/dir/Eryanping+Trailhead/Eryanping+Observation+Deck/@23.4326,120.6558,16z/?travelmode=walking)
+>   * _Хайкинг-трек_: [Google Maps: Eryanping Trailhead → Eryanping Observation Deck](https://www.google.com/maps/dir/23.454200,120.662800/23.457800,120.668500/?travelmode=walking)
 >   * ⚠️ *Важное предупреждение по Эряньпин:* Автобусы снизу вверх в Шичжоу прекращают ходить уже к 16:30–17:00, такси на трассе в Сидине нет, а Uber в горах не работает. Если вы решите поехать именно на Эряньпин, **обязательно при заселении в миньсу договоритесь с хозяином о платном автотрансфере туда и обратно** (~400–600 NTD туда-обратно с забором ровно в 18:00), чтобы не остаться ночью на горной трассе!
 
 > [!INFO]- Картинки

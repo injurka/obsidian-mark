@@ -31,16 +31,16 @@
 
 * **09:30 - 11:00** — **Литературный музей Тайчжуна (Taichung Literature Museum / 臺中文學館):**
     * *Контекст:* Атмосферный комплекс тихих японских деревянных построек 1932 года, раскинувшийся вокруг колоссального векового баньяна, чьи кроны накрывают весь внутренний двор. Одно из самых спокойных и атмосферных мест центра — нет никаких музеев с стеклодувами, только тенистые дорожки, книги под открытым небом и гул листвы.
-    * _Ссылка на локацию_: [Google Maps: Taichung Literature Museum](https://maps.google.com/?q=Taichung+Literature+Museum)<iframe src="https://maps.google.com/maps?q=Taichung+Literature+Museum&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taichung Literature Museum](https://maps.google.com/?q=24.138500,120.673200)<iframe src="https://maps.google.com/maps?q=24.138500,120.673200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **11:00 - 12:30** — **Арт-кластер бывшей пивоварни (Taichung Cultural Heritage Park / 台中文創園區):**
     * *Контекст:* Тенистые фабричные склады бывшей тайчжунской пивоварни, возрождённые в просторный арт-кластер — стрит-арт на кирпичных стенах, дизайнерские концепт-сторы, винтажные магазинчики и кофейни. Без touristy толп: только местные жители с собаками и студенты с ноутбуками.
     * Обед: легкая еда в одной из кафетерий парка — сэндвичи с местными ингредиентами или рисовая лапша.
-    * _Ссылка на локацию_: [Google Maps: Taichung Cultural Heritage Park](https://maps.google.com/?q=Taichung+Cultural+Heritage+Park)<iframe src="https://maps.google.com/maps?q=Taichung+Cultural+Heritage+Park&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taichung Cultural Heritage Park](https://maps.google.com/?q=24.133200,120.682200)<iframe src="https://maps.google.com/maps?q=24.133200,120.682200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **12:30 - 13:30** — ☕ **Coffee Stopover:**
     * Одна из лучших независимых обжарок Тайваня — светлая обжарка, пурифер, уютное пространство с видом на зелень. Отличный повод выпить последний особенный кофе на острове перед рабочим спринтом.
-    * _Ссылка на локацию_: [Google Maps: Coffee Stopover Taichung](https://maps.google.com/?q=Coffee+Stopover+Taichung)<iframe src="https://maps.google.com/maps?q=Coffee+Stopover+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Coffee Stopover Taichung](https://maps.google.com/?q=24.148800,120.667200)<iframe src="https://maps.google.com/maps?q=24.148800,120.667200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **13:30 - 15:15** — Возвращение в отель, свободное время: душ, чай улун, настройка монитора.
 
@@ -59,6 +59,8 @@
 
 * **22:00 - 23:45** — 🥂 **Праздничный прощальный ужин в Тайчжуне:**
     * Празднование окончания насыщенного путешествия: изысканный тайваньский ресторан / крафтовый бар в районе Calligraphy Greenway, стейк или горячий котелок хого.
+    * _Ссылка на локацию_: [Google Maps: Karuizawa Hot Pot Taichung](https://maps.google.com/?q=24.151800,120.651200)<iframe src="https://maps.google.com/maps?q=24.151800,120.651200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
 * **23:45+** — Чек-лист перед вылетом (паспорта, посадочные, подарки) и спокойный отдых. Завтра — комфортный вылет домой!
 
 ---

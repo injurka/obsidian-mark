@@ -29,7 +29,7 @@
     * *Логистика*: Прибытие в Терминал С за 3 часа до вылета рейса CZ8028.
     * *Регистрация и багаж*: Регистрация на стойках China Southern. Чемодан оформляется **сквозной регистрацией напрямую до конечного пункта назначения — Тайбэй (TPE)**. В Гуанчжоу багаж получать не требуется!
     * *Ручная кладь*: В салон берется только легкий рюкзак с ноутбуком, зарядками GaN, пауэрбанком (провоз аккумуляторов в багаже запрещен!), сменной футболкой, дорожной подушкой и распечатками документов.
-    * _Ссылка на локацию_: [Google Maps: Sheremetyevo International Airport Terminal C](https://maps.google.com/?q=Sheremetyevo%20International%20Airport%20Terminal%20C)<iframe src="https://maps.google.com/maps?q=Sheremetyevo%20International%20Airport%20Terminal%20C&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Sheremetyevo International Airport Terminal C](https://maps.google.com/?q=55.975412,37.414603)<iframe src="https://maps.google.com/maps?q=55.975412,37.414603&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **14:50 - 23:59** — Дальнемагистральный ночной перелет Москва (SVO) ➔ Гуанчжоу (CAN):
     * *Контекст*: Ночной рейс CZ8028 авиакомпании China Southern Airlines. Время в воздухе — **9 часов 25 минут**.
@@ -45,7 +45,7 @@
     * *Транзитный коридор*: Следуйте по зеленым указателям **International Transfer (国际转机)**. Поскольку багаж летит транзитом до Тайбэя, проходится только скрининг безопасности с выходом в чистую зону вылетов T2.
     * *Отдых и комфорт*: В Терминале 2 работают лаунджи, зоны отдыха с мягкими креслами, бесплатный Wi-Fi (подключение по скану паспорта в инфокиосках) и кулеры с горячей питьевой водой.
     * *Гастрономический ритуал*: Утренний китайский чай и завтрак с кантонскими димсамами в транзитной зоне.
-    * _Ссылка на локацию_: [Google Maps: Guangzhou Baiyun International Airport Terminal 2](https://maps.google.com/?q=Guangzhou%20Baiyun%20International%20Airport%20Terminal%202)<iframe src="https://maps.google.com/maps?q=Guangzhou%20Baiyun%20International%20Airport%20Terminal%202&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Guangzhou Baiyun International Airport Terminal 2](https://maps.google.com/?q=23.392437,113.308779)<iframe src="https://maps.google.com/maps?q=23.392437,113.308779&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **12:00 - 14:15** — Стыковочный перелет Гуанчжоу (CAN-T2) ➔ Тайбэй (TPE-T2):
     * *Контекст*: Рейс CZ3097 на широкофюзеляжном Boeing 777-300 через Тайваньский пролив. Время в воздухе — **2 часа 15 минут**.

@@ -29,8 +29,8 @@
         1. **Изумрудный живой свод:** Ветви четырех видов древних мангровых деревьев смыкаются прямо над гладью воды, образуя сплошной прохладный растительный коридор.
         2. **«Поцелуй ангела» (Angel's Kiss):** Живописная световая арка в конце канала, где солнечные лучи пробиваются сквозь кроны и эффектно озаряют зеркальную воду.
         3. **Приливная фауна:** Манящие крабы с массивными алыми клешнями, забавные илистые прыгуны на илистых отмелях и грациозные белые цапли.
-    * _Ссылка на локацию_: [Google Maps: Sicao Green Tunnel](https://maps.google.com/?q=Sicao+Green+Tunnel)<iframe src="https://maps.google.com/maps?q=Sicao+Green+Tunnel&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Sicao Dazhong Temple → Sicao Green Tunnel Pier](https://www.google.com/maps/dir/Sicao+Dazhong+Temple/Sicao+Green+Tunnel/@23.0195,120.1345,17z/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Sicao Green Tunnel](https://maps.google.com/?q=23.019500,120.136200)<iframe src="https://maps.google.com/maps?q=23.019500,120.136200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_:  [Google Maps: Sicao Dazhong Temple → Sicao Green Tunnel Pier](https://www.google.com/maps/dir/23.019500,120.136200/23.020200,120.135100/?travelmode=walking)
 
 > [!TIP] 🦟 Защита от мелких мошек Сяохэйвэнь
 > В мангровых заводях и на влажных берегах Тайнаня водятся микроскопические кусачие мошки *Сяохэйвэнь (小黑蚊)*. Обычные репелленты от комаров против них малоэффективны. Перед посадкой на плот нанесите спрей с маслом лимонного эвкалипта (*Xiaoheiwen Repellent*, продается на кассе в любом 7-Eleven за ~120 NTD).
@@ -48,6 +48,8 @@
 * **12:00 - 13:00** — Аутентичный обед: Молочная рыба и дары моря:
     * *Главный хит:* Знаменитая тайнаньская молочная рыба на гриле (**Pan-Fried Milkfish Belly / 煎虱目魚肚**) с хрустящей золотистой кожицей, нежным филе и легким лимонным перцем.
     * *Дополнение:* Прозрачный суп с моллюсками, лапша с морепродуктами или порция риса с тушеной свининой луроуфань в кондиционированном зале без очередей (`~450–600 ₽`).
+
+    * _Ссылка на локацию_: [Google Maps: Wang's Fish Soup Anping](https://maps.google.com/?q=23.001200,120.163200)<iframe src="https://maps.google.com/maps?q=23.001200,120.163200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -67,7 +69,7 @@
         4. 🪂 **Зиплайн и свободное падение (Flying Fox & Free Fall):** Полет на тросе над промышленными силосами и прыжок с крыши завода на страховочной системе.
         5. 🌅 **Качели над бездной (Extreme Swing / 天堂上的鞦韆):** Панорамные качели на крыше высокого сахарного элеватора, откуда открывается круговой обзор южных равнин и монументального музея Чимей.
         6. ☕ **Honey Bridge Cafe (蜜糖罐咖啡館):** Уникальное кафе, обустроенное внутри гигантского стального резервуара для сахарной патоки 1983 года постройки со стеклянным полом.
-    * _Ссылка на локацию_: [Google Maps: Ten Drum Cultural Village](https://maps.google.com/?q=Ten+Drum+Cultural+Village)<iframe src="https://maps.google.com/maps?q=Ten+Drum+Cultural+Village&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Ten Drum Cultural Village](https://maps.google.com/?q=22.938800,120.228500)<iframe src="https://maps.google.com/maps?q=22.938800,120.228500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🥁 Главный тайминг: Шоу барабанщиков в 15:00
 > Шоу труппы *Ten Drum Art Percussion Group* включено в стоимость обычного входного билета. В будние дни дневной сеанс в театре Dream Sugar Theater начинается **ровно в 15:00**. Рекомендуется подойти ко входу в театр за 15–20 минут (к 14:40–14:45), чтобы занять удобные центральные места в зрительном зале!
@@ -104,7 +106,7 @@
         3. **Обжаренные во фритюре бататовые шарики (QQ Sweet Potato Balls):** Хрустящие полые шарики с пружинящей жевательной текстурой.
         4. **Свежевыжатый сок сахарного тростника с лаймом или арбузный фреш:** Идеальное освежающее завершение трапезы.
         5. **Соевый десерт Доухуа:** Нежнейший шелковистый тофу-пудинг с теплой сладкой фасолью адзуки и жемчужинами тапиоки.
-    * _Ссылка на локацию_: [Google Maps: Wusheng Night Market Tainan](https://maps.google.com/?q=Wusheng+Night+Market+Tainan)<iframe src="https://maps.google.com/maps?q=Wusheng+Night+Market+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Wusheng Night Market Tainan](https://maps.google.com/?q=23.002200,120.190800)<iframe src="https://maps.google.com/maps?q=23.002200,120.190800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **20:30 - 21:00** — Возвращение в отель WUYU:
     * *Вариант на такси:* Всего 5–7 минут на Uber (`~110 NT$` / `~300 ₽`).

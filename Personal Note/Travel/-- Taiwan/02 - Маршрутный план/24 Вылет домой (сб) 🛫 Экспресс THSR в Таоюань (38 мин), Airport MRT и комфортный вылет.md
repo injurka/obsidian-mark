@@ -9,7 +9,7 @@
 
 > [!IMPORTANT] Полная схема трансфера в международный аэропорт Таоюань (TPE)
 > 1. **Тайчжун ➔ Скоростной вокзал THSR Taichung (Xinwuri / 高鐵台中站):** От отеля на такси (~20 мин, `~840 ₽`) или на автобусе №159 от остановки CMP Park Lane.
-> 2. **Сверхскоростной поезд THSR:** Станция **THSR Taichung ➔ THSR Taoyuan Station (高鐵桃園站)** (в пути всего **38 минут**, `~1 510 ₽`, скорость 300 км/ч).
+> 2. **Сверхскоростной поезд THSR:** Станция **THSR Taichung ➔ THSR Taoyuan Station (高鐵桃園站)** (в пути всего **38 минут**, скорость 300 км/ч).
 > 3. **Пересадка на Taoyuan Airport MRT (Станция A18):** 
 >    * Выйдя из турникетов THSR Taoyuan, следуйте по указателям к станции метро **Airport MRT (A18 / 高鐵桃園站)** (прямой крытый переход 2 минуты).
 >    * Приложите карту EasyCard и садитесь на поезд в сторону аэропорта / Тайбэя.
@@ -23,8 +23,9 @@
 ### Часть 1: Утренний кофе и легкий чек-аут
 
 * **09:30 - 10:05** — Неспешный утренний кофе со свежей выпечкой в отеле, упаковка багажа и чек-аут.
+
 * **10:05 - 10:40** — Выезд из отеля на такси/экспресс-автобусе 159 на вокзал THSR Taichung Station (Xinwuri / 高鐵台中站) (~20 мин, `~840 ₽` для двоих).
-    * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=THSR+Taichung+Station)<iframe src="https://maps.google.com/maps?q=THSR+Taichung+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=24.112100,120.615800)<iframe src="https://maps.google.com/maps?q=24.112100,120.615800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -32,10 +33,10 @@
 
 * **11:00 - 11:38** — Поезд THSR: Тайчжун ➔ Таоюань:
     * *Контекст*: Безупречно пунктуальный японский поезд Shinkansen 700T, плавно и бесшумно доставляющий вас на станцию пересадки в аэропорт без пробок.
-    * _Ссылка на локацию_: [Google Maps: THSR Taoyuan Station](https://maps.google.com/?q=THSR+Taoyuan+Station)<iframe src="https://maps.google.com/maps?q=THSR+Taoyuan+Station&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: THSR Taoyuan Station](https://maps.google.com/?q=25.013200,121.214800)<iframe src="https://maps.google.com/maps?q=25.013200,121.214800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **11:40 - 11:55** — Поезд Airport MRT (THSR Taoyuan ➔ Терминалы 1/2):
-    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=Taoyuan+International+Airport)<iframe src="https://maps.google.com/maps?q=Taoyuan+International+Airport&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=25.079651,121.234217)<iframe src="https://maps.google.com/maps?q=25.079651,121.234217&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -45,6 +46,7 @@
     * 🎁 **Финальный ритуал в TPE:** В зоне вылетов загляните в бутик культового бренда **SunnyHills (微熱山丘)** — здесь каждому гостю бесплатно наливают пиалу тайваньского горного чая улун и дарят целое свежее теплое ананасовое пирожное из натуральных ананасов горы Багуа! Отличная возможность докупить свежие подарки перед посадкой в самолет.
     * Предполетный лаунж и вылет домой с незабываемыми впечатлениями о Формозе!
 
+    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport Terminal 2](https://maps.google.com/?q=25.079651,121.234217)<iframe src="https://maps.google.com/maps?q=25.079651,121.234217&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!TIP] 💳 Что делать с остатком на карте EasyCard?
 > * **Потратить перед вылетом:** В терминалах TPE карту EasyCard принимают магазины дьюти-фри, сувенирные бутики и кофейни.
 > * **Вернуть наличными:** В сервисной стойке MRT (*Information Counter*) в терминале аэропорта можно сдать карту и вернуть оставшийся баланс наличными NTD (комиссия за возврат составляет всего 20 NTD).

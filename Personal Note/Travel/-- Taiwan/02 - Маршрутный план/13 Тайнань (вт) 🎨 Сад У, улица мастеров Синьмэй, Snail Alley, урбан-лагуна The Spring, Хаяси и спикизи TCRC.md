@@ -21,8 +21,8 @@
 * **10:10 - 11:30** — Скрытый зеленый дзен: **Сад У и павильон Гунхуэй (Wu Garden / 吳園藝文中心)**:
     * *Вайб:* Один из четырех великих классических садов Тайваня, заложенный в 1830 году и спрятанный прямо за фасадами современных улиц. Никаких толп и очередей.
     * *Что здесь:* Каменный грот, пруд с черепахами и карпами кои, вековые раскидистые баньяны (дающие плотную прохладную тень), традиционные резные беседки и деревянный японский чайный домик 1930-х годов (*Shiba Mao Tea House*). Место создано для того, чтобы сесть в тени у воды с прохладным чаем и замедлиться.
-    * _Ссылка на локацию_: [Google Maps: Wu Garden Tainan](https://maps.google.com/?q=Wu+Garden+Tainan)<iframe src="https://maps.google.com/maps?q=Wu+Garden+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Wu Garden → Snail Alley → The Spring Urban Lagoon](https://www.google.com/maps/dir/Wu+Garden+Tainan/Snail+Alley+Tainan/The+Spring+Tainan/@22.9942,120.2001,16z/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Wu Garden Tainan](https://maps.google.com/?q=22.994326,120.206689)<iframe src="https://maps.google.com/maps?q=22.994326,120.206689&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_:  [Google Maps: Wu Garden → Snail Alley → The Spring Urban Lagoon](https://www.google.com/maps/dir/22.994326,120.206689/22.991823,120.200215/22.996150,120.193230/?travelmode=walking)
 
 * **11:30 - 11:40** — Перемещение: Wu Garden ➔ Улица Синьмэй (Xinmei St):
     * *Тип активности:* Пеший переход (~500 м, 6–8 минут).
@@ -31,11 +31,15 @@
 * **11:40 - 12:45** — Аутентичная улица Синьмэй (Xinmei Street / 新美街):
     * *Вайб:* Старейшая торговая улица Тайнаня эпохи династии Цин (раньше называлась «Улицей рисовых лавок»). Сейчас это тишайший переулок с фонариками, где вековые мастерские по плетению татами и изготовлению бумажных фонарей соседствуют с крошечными крафтовыми студиями и кофейнями. 
 
+    * _Ссылка на локацию_: [Google Maps: Xinmei Street Tainan](https://maps.google.com/?q=22.996100,120.201800)<iframe src="https://maps.google.com/maps?q=22.996100,120.201800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
 * **12:45 - 13:00** — Перемещение: Пешком к месту обеда:
     * *Тип активности:* Короткий переход (~300 м, 3–5 минут) к ресторану.
 
 * **13:00 - 14:15** — Спокойный обед без очередей:
     * Комфортный ланч с кондиционером без кулинарного культа и давки (японский удон/карри, свежие димсамы, боул с лососем или легкое европейско-тайваньское бистро, `~450–650 ₽`).
+
+    * _Ссылка на локацию_: [Google Maps: Chikan Peddler Noodle Tainan](https://maps.google.com/?q=22.997200,120.202500)<iframe src="https://maps.google.com/maps?q=22.997200,120.202500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -48,8 +52,8 @@
 * **14:25 - 15:35** — Переулок Улитки (Snail Alley / 蝸牛巷):
     * *Вайб:* Пешеходный оазис тишины, куда физически не могут заехать машины и скутеры. Свое название квартал получил в честь тайваньского писателя Е Ши-тао, писавшего о неспешной жизни в этих переулках.
     * *Что делать:* Рассматривать керамические фигурки улиток, спрятанные на ступеньках и водостоках, японские деревянные палисадники, винтажные таблички и зелень. Полное отсутствие туристической спешки.
-    * _Ссылка на локацию_: [Google Maps: Snail Alley](https://maps.google.com/?q=Snail+Alley+Tainan)<iframe src="https://maps.google.com/maps?q=Snail+Alley+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Wu Garden → Snail Alley → The Spring Urban Lagoon](https://www.google.com/maps/dir/Wu+Garden+Tainan/Snail+Alley+Tainan/The+Spring+Tainan/@22.9942,120.2001,16z/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Snail Alley Tainan](https://maps.google.com/?q=22.991823,120.200215)<iframe src="https://maps.google.com/maps?q=22.991823,120.200215&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_:  [Google Maps: Wu Garden → Snail Alley → The Spring Urban Lagoon](https://www.google.com/maps/dir/22.994326,120.206689/22.991823,120.200215/22.996150,120.193230/?travelmode=walking)
 
 * **15:35 - 15:45** — Перемещение: Snail Alley ➔ Улица Чжэнсин (Zhengxing St):
     * *Тип активности:* Пеший переход (~450 м, около 6–8 минут).
@@ -58,7 +62,7 @@
 * **15:45 - 16:45** — Улица Чжэнсин (Zhengxing Street / 正興街):
     * *Вайб:* Самая стильная улица района с локальными независимыми брендами: винтажная одежда, крафтовая канцелярия, стикеры, авторская керамика и чайные бары. Идеальное место для покупки классных сувениров не «для галочки».
     * Возьмите стакан холодного горного улуна со льдом или освежающее мороженое (`~180–300 ₽`).
-    * _Ссылка на локацию_: [Google Maps: Zhengxing Street](https://maps.google.com/?q=Zhengxing+Street+Tainan)<iframe src="https://maps.google.com/maps?q=Zhengxing+Street+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Zhengxing Street Tainan](https://maps.google.com/?q=22.994200,120.197500)<iframe src="https://maps.google.com/maps?q=22.994200,120.197500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **16:45 - 17:00** — Перемещение: Улица Чжэнсин ➔ Урбан-лагуна The Spring:
     * *Тип активности:* Пеший переход (~700 м, 10–12 минут).
@@ -67,7 +71,7 @@
 * **17:00 - 18:15** — Закат в урбан-оазисе: The Spring / Парк Хэлэ (河樂廣場):
     * *Контекст:* Проект мирового нидерландского бюро **MVRDV** (входит в список лучших мировых трансформаций общественных пространств по версии *Forbes*).
     * *Релакс:* Белоснежная искусственная лагуна, опущенная ниже уровня проезжей части, с чистой зеркальной водой (глубина ~20–30 см), бетонными колоннами-руинами и тропическими растениями. Разувайтесь, садитесь на белый парапет, опускайте ноги в прохладную воду и встречайте золотой закат над городом.
-    * _Ссылка на локацию_: [Google Maps: The Spring Tainan](https://maps.google.com/?q=The+Spring+Tainan)<iframe src="https://maps.google.com/maps?q=The+Spring+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: The Spring Tainan](https://maps.google.com/?q=22.996150,120.193230)<iframe src="https://maps.google.com/maps?q=22.996150,120.193230&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -79,10 +83,12 @@
 
 * **18:30 - 19:40** — Японский универмаг Хаяси (Hayashi Department Store / 林百貨, 1932 г.):
     * *Вайб:* Живой памятник японского модерна 1930-х годов. Здесь не нужно ничего покупать — сюда приходят ради эстетики: прокатитесь на историческом механическом лифте со стрелочным указателем этажей, посмотрите локальный крафт и поднимитесь на открытую крышу, где сохранилось подлинное синтоистское святилище Torii и следы авианалетов Второй мировой войны.
-    * _Ссылка на локацию_: [Google Maps: Hayashi Department Store](https://maps.google.com/?q=Hayashi+Department+Store+Tainan)<iframe src="https://maps.google.com/maps?q=Hayashi+Department+Store+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Hayashi Department Store Tainan](https://maps.google.com/?q=22.991900,120.202500)<iframe src="https://maps.google.com/maps?q=22.991900,120.202500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **19:40 - 21:00** — Спокойный вечерний ужин:
     * Ужин в уютном заведении без шума и очередей: японская идзакая, свежие спринг-роллы с рисом или паста в стильном тайваньском гастробаре (`~600–800 ₽`).
+
+    * _Ссылка на локацию_: [Google Maps: Hai'an Road Dining Tainan](https://maps.google.com/?q=22.995800,120.198500)<iframe src="https://maps.google.com/maps?q=22.995800,120.198500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **21:00 - 21:10** — Перемещение: Ужин ➔ Улица Шэньнун (Shennong St):
     * *Тип активности:* Короткий пеший переход (~400–500 м, 5–7 минут).
@@ -93,8 +99,8 @@
     * 🍸 **Авторский коктейль мирового уровня:**
         1. **Bar TCRC:** Легендарный спикизи-бар из рейтинга *Asia's 50 Best Bars*, спрятанный в старинном 300-летнем доме возле храма. Бармены готовят индивидуальные коктейли под ваши вкусы на основе редких тайваньских чаев и фруктов.
         2. **Moonrock:** Минималистичный дзен-бар с бруталистским бетонным дизайном, приглушенным теплым светом и концептуальной подачей коктейлей.
-    * _Ссылка на локацию_: [Google Maps: Shennong Street](https://maps.google.com/?q=Shennong+Street+Tainan)<iframe src="https://maps.google.com/maps?q=Shennong+Street+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: Bar TCRC](https://maps.google.com/?q=Bar+TCRC+Tainan)<iframe src="https://maps.google.com/maps?q=Bar+TCRC+Tainan&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Shennong Street Tainan](https://maps.google.com/?q=22.997800,120.196500)<iframe src="https://maps.google.com/maps?q=22.997800,120.196500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Bar TCRC Tainan](https://maps.google.com/?q=22.996800,120.201200)<iframe src="https://maps.google.com/maps?q=22.996800,120.201200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🍸 Лайфхак для бара
 > В Bar TCRC лист ожидания открывается на входе около **19:45–20:00**. Достаточно записать имя и тайваньский номер телефона (или спросить ориентировочное время), после чего спокойно гулять по освещенной фонарями улице Шэньнун. Если не хочется ждать ни минуты — сразу заходите в **Moonrock**, там обстановка еще более спокойная и медитативная.
@@ -102,6 +108,8 @@
 * **23:15 - 23:25** — Возвращение в отель WUYU:
     * *Тип активности:* Короткая пешая прогулка (~500–700 м, 7–10 минут). Отель находится прямо в этом же районе.
     * Завтра — водная «Тайваньская Амазонка» Сыцао на плоту, стимпанк-парк Ten Drum Cultural Village и вечерний ночной рынок Ушэн!
+
+    * _Ссылка на локацию_: [Google Maps: WUYU Hotel Tainan](https://maps.google.com/?q=22.994200,120.203500)<iframe src="https://maps.google.com/maps?q=22.994200,120.203500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 

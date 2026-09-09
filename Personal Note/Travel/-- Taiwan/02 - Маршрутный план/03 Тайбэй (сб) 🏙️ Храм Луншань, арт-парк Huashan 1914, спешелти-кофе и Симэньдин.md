@@ -32,7 +32,7 @@
         1. **Бронзовые резные колонны с драконами**: Единственные в своем роде четырехгранные бронзовые колонны в переднем зале.
         2. **Алтарь Богини Гуаньинь и Мацзу**: Десятки божеств трех религий (буддизм, даосизм, конфуцианство) под одной крышей.
         3. **Переулок травников (Herb Alley / 青草巷)**: Узкий аутентичный проход позади храма. 🎁 *Обязательно возьмите стаканчик ледяного травяного чая от жары (**Qingcao Tea / 青草茶**, `~85 ₽`) в 100-летней аптеке.*
-    * _Ссылка на локацию_: [Google Maps: Longshan Temple](https://maps.google.com/?q=Longshan+Temple+Taipei)<iframe src="https://maps.google.com/maps?q=Longshan+Temple+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Longshan Temple](https://maps.google.com/?q=25.036980,121.499933)<iframe src="https://maps.google.com/maps?q=25.036980,121.499933&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!INFO]- Картинки
 > ![[03_longshan_temple.jpg]]
@@ -42,7 +42,7 @@
 * **10:45 - 11:30** — Квартал Бопиляо (Bopiliao Historical Block / 剝皮寮歷史街區):
     * *Контекст*: Полностью сохраненный и отреставрированный ансамбль кирпичных торговых аркад рубежа XIX–XX веков в 3 минутах пешком от храма Луншань.
     * 🎁 **Бонус для блокнота:** В визитор-центре Bopiliao найдите столик со штампами путешественника (*Traveler Stamps*) — в Тайване очень развита культура памятных печатей на каждой исторической локации.
-    * _Ссылка на локацию_: [Google Maps: Bopiliao Historical Block](https://maps.google.com/?q=Bopiliao+Historical+Block)<iframe src="https://maps.google.com/maps?q=Bopiliao+Historical+Block&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Bopiliao Historical Block](https://maps.google.com/?q=25.037140,121.501990)<iframe src="https://maps.google.com/maps?q=25.037140,121.501990&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!INFO]- Картинки
 > ![[Pasted image 20260825154504.png]]
@@ -55,9 +55,9 @@
 
 * **11:30 - 13:15** — Квартал Симэньдин и Красный дом (Ximending / 西門町):
     * *Контекст*: Первый пешеходный торговый район Тайваня, центр аниме-культуры, уличных музыкантов, дизайнерских лавок и неоновых вывесок.
-    * **Исторический Красный театр (The Red House / 西門紅樓, 1908 г.):** Восьмиугольное краснокирпичное здание эпохи японского правления с рынком тайваньских хэндмейд-дизайнеров.
+    * **Исторический Красный театр (The Red House Taipei / 西門紅樓, 1908 г.):** Восьмиугольное краснокирпичное здание эпохи японского правления с рынком тайваньских хэндмейд-дизайнеров.
     * 🍜 **Культовый обед в Симэньдине:** Шелковистая рисовая лапша в наваристом бульоне из бонито **Ay-Chung Flour-Rice Noodles (阿宗麵線)** с добавлением чеснока, чили и черного уксуса (`~150 ₽`), и хрустящая гигантская куриная котлета Hot-Star.
-    * _Ссылка на локацию_: [Google Maps: The Red House](https://maps.google.com/?q=The+Red+House+Taipei)<iframe src="https://maps.google.com/maps?q=The+Red+House+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: The Red House Taipei](https://maps.google.com/?q=25.042500,121.506500)<iframe src="https://maps.google.com/maps?q=25.042500,121.506500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!INFO]- Картинки
 > ![[Pasted image 20260825155817.png]]
@@ -72,7 +72,7 @@
 
 * **13:30 - 14:15** — Спешелти-кофейня Simple Kaffa Flagship:
     * 🎁 *Закажите знаменитый Brown Sugar Latte или фильтр-кофе из зерен Geisha с фирменной матча-вафлей или рулетом с зеленым чаем.*
-    * _Ссылка на локацию_: [Google Maps: Simple Kaffa](https://maps.google.com/?q=Simple+Kaffa+Taipei)<iframe src="https://maps.google.com/maps?q=Simple+Kaffa+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Simple Kaffa Flagship](https://maps.google.com/?q=25.044100,121.528400)<iframe src="https://maps.google.com/maps?q=25.044100,121.528400&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] ☕ Очередь выходного дня в Simple Kaffa
 > В выходные дни очередь за столик во флагманской кофейне чемпиона мира Simple Kaffa может составлять 20–30 минут. Стойка **Takeaway (на вынос)** обслуживается за 3–5 минут: возьмите авторский *Brown Sugar Latte* или пуровер *Geisha* с собой и выпейте на тенистых лужайках арт-парка Huashan 1914.
@@ -86,7 +86,7 @@
     * *Ключевые точки*:
         1. **Кирпичные цеха и винные склады**: Стены, увитые плющом и корнями фикусов, в которых работают книжные и дизайн-лавки.
         2. **Дизайнерские выставки**: Экспозиции современных тайваньских иллюстраторов и ремесленников.
-    * _Ссылка на локацию_: [Google Maps: Huashan 1914 Creative Park](https://maps.google.com/?q=Huashan+1914+Creative+Park)<iframe src="https://maps.google.com/maps?q=Huashan+1914+Creative+Park&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Huashan 1914 Creative Park](https://maps.google.com/?q=25.044609,121.529183)<iframe src="https://maps.google.com/maps?q=25.044609,121.529183&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!INFO]- Картинки
 > ![[03_huashan_1914.jpg]]
@@ -105,7 +105,7 @@
     * *Ключевые точки:*
         1. **Улица Дихуа (迪化街):** Знаменитая пешеходная торговая улица старых чайных и хлопковых торговцев — атмосферный маршрут с сушеными морепродуктами, травами и старинными лавками улунов.
         2. **Визитор-центр Дадаочэн:** Экспозиции о морской торговой истории района.
-    * _Ссылка на локацию_: [Google Maps: Dadaocheng](https://maps.google.com/?q=Dadaocheng+Taipei)<iframe src="https://maps.google.com/maps?q=Dadaocheng+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Dadaocheng / Dihua Street](https://maps.google.com/?q=25.056173,121.510216)<iframe src="https://maps.google.com/maps?q=25.056173,121.510216&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260825160932.png]]
 > ![[Pasted image 20260825161130.png]]
@@ -115,6 +115,8 @@
 * **18:30 - 20:00** — Ужин в районе Чжуншань / Нанькин:
     * Неспешный ужин в одном из ресторанов квартала Чжуншань — популярного среди экспатов и местных с множеством вариантов от тайваньского фу-чжоу (Fuzhou cuisine) до итальянских бистро.
     * Или вернитесь в район Симэньдина на поздний ночной рынок (Ximending Night Market работает до 22:00–23:00).
+
+    * _Ссылка на локацию_: [Google Maps: Shin Yeh Taiwanese Cuisine Zhongshan](https://maps.google.com/?q=25.052600,121.520800)<iframe src="https://maps.google.com/maps?q=25.052600,121.520800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **20:00+** — Возвращение в отель. Отдых.
 

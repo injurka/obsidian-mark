@@ -31,12 +31,12 @@
 
 * **09:30 - 10:30** — Зеленый коридор каллиграфии (Calligraphy Greenway / 草悟道):
     * *Контекст*: Пешеходный тенистый бульвар протяженностью 3.6 км, соединяющий музеи, парки скульптур и открытые галереи. Утренняя прогулка под кронами деревьев.
-    * _Ссылка на локацию_: [Google Maps: Calligraphy Greenway](https://maps.google.com/?q=Calligraphy+Greenway+Taichung)<iframe src="https://maps.google.com/maps?q=Calligraphy+Greenway+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Calligraphy Greenway Taichung](https://maps.google.com/?q=24.150500,120.663800)<iframe src="https://maps.google.com/maps?q=24.150500,120.663800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Хайкинг-трек_: [Google Maps: National Museum of Natural Science → Calligraphy Greenway → Liuchuan Riverside](https://www.google.com/maps/dir/National+Museum+of+Natural+Science/National+Taiwan+Museum+of+Fine+Arts/@24.1525,120.6625,15z/?travelmode=walking)
 
 * **10:30 - 11:30** — Спешелти-кофе: **The Factory Mojocoffee** или **Hausinc Cafe**:
     * *Контекст*: Тайчжун знаменит просторными авторскими кофейнями мирового уровня. Фирменный пуровер V60, холодный колд-брю и свежая выпечка перед экскурсией.
-    * _Ссылка на локацию_: [Google Maps: The Factory Mojocoffee](https://maps.google.com/?q=The+Factory+Mojocoffee+Taichung)<iframe src="https://maps.google.com/maps?q=The+Factory+Mojocoffee+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: The Factory Mojocoffee Taichung](https://maps.google.com/?q=24.146200,120.658200)<iframe src="https://maps.google.com/maps?q=24.146200,120.658200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **11:30 - 13:15** — Национальный оперный театр Тайчжуна (National Taichung Theater / 臺中國家歌劇院):
     * *Контекст*: Футуристическое здание, спроектированное лауреатом Притцкеровской премии японцем Тойо Ито (Toyo Ito). Построено по уникальной технологии без единой прямой несущей колонны — сплошные изогнутые органические «звуковые пещеры».
@@ -45,7 +45,7 @@
     * *Ключевые точки*:
         1. **Изогнутый холл и водные каналы**: Перетекающее открытое пространство с арт-инсталляциями и книжными галереями.
         2. **Сад на крыше (Sky Garden)**: Сюрреалистический ландшафтный парк с кратерообразными формами и панорамой небоскребов Седьмого района.
-    * _Ссылка на локацию_: [Google Maps: National Taichung Theater](https://maps.google.com/?q=National+Taichung+Theater)<iframe src="https://maps.google.com/maps?q=National+Taichung+Theater&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: National Taichung Theater](https://maps.google.com/?q=24.162800,120.640500)<iframe src="https://maps.google.com/maps?q=24.162800,120.640500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 
 * **13:15 - 15:00** — **Дворец десертов Miyahara (宮原眼科)** и **Fourth Credit Union**:
@@ -54,8 +54,8 @@
         1. **Дворец Miyahara**: Архитектура, старинные резные деревянные шкафы и премиальные ананасовые пирожные Фэнлису. 🎁 *Купите чай или печенье в уникальной упаковке в виде старинного фолианта в твердом переплете.*
         2. **Fourth Credit Union**: Здание банка 1966 года со стальными сейфами в 200 метрах.
     * Обед: Традиционная лапша или сет в кафе рядом с рекой Лючуань.
-    * _Ссылка на локацию_: [Google Maps: Miyahara](https://maps.google.com/?q=Miyahara+Taichung)<iframe src="https://maps.google.com/maps?q=Miyahara+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: Fourth Credit Union](https://maps.google.com/?q=Fourth+Credit+Union+Taichung)<iframe src="https://maps.google.com/maps?q=Fourth+Credit+Union+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Miyahara Taichung](https://maps.google.com/?q=24.137800,120.683500)<iframe src="https://maps.google.com/maps?q=24.137800,120.683500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Fourth Credit Union Taichung](https://maps.google.com/?q=24.138800,120.681200)<iframe src="https://maps.google.com/maps?q=24.138800,120.681200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🍨 Секрет дегустации мороженого без уличной очереди
 > У оригинального дворца Miyahara за мороженым часто стоит длинная уличная очередь. В филиале *Fourth Credit Union* (в 200 метрах) точно такое же фирменное меню (улун Алишань, 70% шоколад, манго с посыпками и бесплатным пирожным Fengli Su), но есть просторные кондиционированные залы с удобными столиками внутри исторического банковского хранилища!
@@ -81,8 +81,8 @@
     * *Контекст*: Лючуань — великолепно ревитализированная речная набережная с ландшафтным освещением, каменными островками и мостиками.
     * *Ночной рынок Чжунсяо:* Традиционный гастрономический рынок, работающий до 00:30–01:00 ночи!
     * *Что попробовать ночью:* Фермерское соевое молоко, запеченная кукуруза на углях с кунжутом, жареный рис с говядиной и традиционный травяной чай Сяньцао.
-    * _Ссылка на локацию_: [Google Maps: Liuchuan Riverside Walk](https://maps.google.com/?q=Liuchuan+Riverside+Walk+Taichung)<iframe src="https://maps.google.com/maps?q=Liuchuan+Riverside+Walk+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: Zhongxiao Road Night Market](https://maps.google.com/?q=Zhongxiao+Road+Night+Market+Taichung)<iframe src="https://maps.google.com/maps?q=Zhongxiao+Road+Night+Market+Taichung&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Liuchuan Riverside Walk Taichung](https://maps.google.com/?q=24.141500,120.676500)<iframe src="https://maps.google.com/maps?q=24.141500,120.676500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Zhongxiao Road Night Market Taichung](https://maps.google.com/?q=24.129200,120.686800)<iframe src="https://maps.google.com/maps?q=24.129200,120.686800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **23:45+** — Возвращение в отель.
 
