@@ -74,7 +74,6 @@
         2. **Шесть гигантских валунов (Six Giant Rocks / 六巨石)**: Знаменитые природные глыбы на хребте (можно подняться на площадку вокруг них).
         3. **«Синий час» (Blue Hour) и включение подсветки (17:30–18:15)**: Самое фотогеничное время дня, когда небо окрашивается в глубокий сапфировый цвет, а небоскреб Taipei 101 и деловой район Синьи зажигают вечернюю иллюминацию.
     * _Ссылка на локацию_: [Google Maps: Elephant Mountain Trailhead](https://maps.google.com/?q=25.026541,121.575542)<iframe src="https://maps.google.com/maps?q=25.026541,121.575542&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [AllTrails: Elephant Mountain Trail](https://www.alltrails.com/trail/taiwan/taipei-city/elephant-mountain-trail--2)
     * _Хайкинг-трек_: [Google Maps: Xiangshan Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/25.032999,121.569303/25.026541,121.575542/?travelmode=walking)
 
 > [!TIP] 🦟 Защита от насекомых и питьевой режим
