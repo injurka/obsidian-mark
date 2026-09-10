@@ -22,9 +22,11 @@
 
 ### Часть 1: Утренний кофе и легкий чек-аут
 
-* **09:30 - 10:05** — Неспешный утренний кофе со свежей выпечкой в отеле, упаковка багажа и чек-аут.
+* **09:30 - 10:05** — Утренний кофе и чек-аут:
+    * Кофе со свежей выпечкой в отеле, упаковка багажа и чек-аут.
 
-* **10:05 - 10:40** — Выезд из отеля на такси/экспресс-автобусе 159 на вокзал THSR Taichung Station (Xinwuri / 高鐵台中站) (~20 мин, `~840 ₽` для двоих).
+* **10:05 - 10:40** — Выезд на вокзал THSR Taichung Station:
+    * Выезд из отеля на такси или экспресс-автобусе 159 на вокзал THSR Taichung Station (~20 мин, ~840 ₽ для двоих).
     * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=24.112100,120.615800)<iframe src="https://maps.google.com/maps?q=24.112100,120.615800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---

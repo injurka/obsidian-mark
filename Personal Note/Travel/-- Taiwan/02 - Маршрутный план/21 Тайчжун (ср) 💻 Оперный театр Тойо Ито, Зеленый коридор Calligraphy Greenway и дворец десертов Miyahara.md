@@ -34,11 +34,11 @@
     * _Ссылка на локацию_: [Google Maps: Calligraphy Greenway Taichung](https://maps.google.com/?q=24.150500,120.663800)<iframe src="https://maps.google.com/maps?q=24.150500,120.663800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Хайкинг-трек_: [Google Maps: National Museum of Natural Science → Calligraphy Greenway → Liuchuan Riverside](https://www.google.com/maps/dir/National+Museum+of+Natural+Science/National+Taiwan+Museum+of+Fine+Arts/@24.1525,120.6625,15z/?travelmode=walking)
 
-* **10:30 - 11:30** — Спешелти-кофе: **The Factory Mojocoffee** или **Hausinc Cafe**:
+* **10:30 - 11:30** — Спешелти-кофе: The Factory Mojocoffee:
     * *Контекст*: Тайчжун знаменит просторными авторскими кофейнями мирового уровня. Фирменный пуровер V60, холодный колд-брю и свежая выпечка перед экскурсией.
     * _Ссылка на локацию_: [Google Maps: The Factory Mojocoffee Taichung](https://maps.google.com/?q=24.146200,120.658200)<iframe src="https://maps.google.com/maps?q=24.146200,120.658200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **11:30 - 13:15** — Национальный оперный театр Тайчжуна (National Taichung Theater / 臺中國家歌劇院):
+* **11:30 - 13:15** — Национальный оперный театр (National Taichung Theater):
     * *Контекст*: Футуристическое здание, спроектированное лауреатом Притцкеровской премии японцем Тойо Ито (Toyo Ito). Построено по уникальной технологии без единой прямой несущей колонны — сплошные изогнутые органические «звуковые пещеры».
     * > [!NOTE] Часы работы
       > Здание Оперного театра открывается для публики ровно в **11:30** утра.
@@ -48,7 +48,7 @@
     * _Ссылка на локацию_: [Google Maps: National Taichung Theater](https://maps.google.com/?q=24.162800,120.640500)<iframe src="https://maps.google.com/maps?q=24.162800,120.640500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 
-* **13:15 - 15:00** — **Дворец десертов Miyahara (宮原眼科)** и **Fourth Credit Union**:
+* **13:15 - 15:00** — Дворец десертов Miyahara и Fourth Credit Union:
     * *Контекст*: Бывшая японская глазная клиника 1927 года из красного кирпича, преобразованная в роскошный зал в стиле библиотеки Хогвартса с книжными полками высотой в три этажа.
     * *Ключевые точки и бонусы:*
         1. **Дворец Miyahara**: Архитектура, старинные резные деревянные шкафы и премиальные ананасовые пирожные Фэнлису. 🎁 *Купите чай или печенье в уникальной упаковке в виде старинного фолианта в твердом переплете.*
@@ -77,7 +77,7 @@
 
 ### ВЕЧЕРНИЙ СЛОТ (После 22:00: Набережная реки Лючуань и Ночной рынок Чжунсяо)
 
-* **22:00 - 23:45** — **Набережная Лючуань (Liuchuan)** и **Ночной рынок Чжунсяо (Zhongxiao Night Market)**:
+* **22:00 - 23:45** — Набережная Лючуань и Ночной рынок Чжунсяо:
     * *Контекст*: Лючуань — великолепно ревитализированная речная набережная с ландшафтным освещением, каменными островками и мостиками.
     * *Ночной рынок Чжунсяо:* Традиционный гастрономический рынок, работающий до 00:30–01:00 ночи!
     * *Что попробовать ночью:* Фермерское соевое молоко, запеченная кукуруза на углях с кунжутом, жареный рис с говядиной и традиционный травяной чай Сяньцао.
