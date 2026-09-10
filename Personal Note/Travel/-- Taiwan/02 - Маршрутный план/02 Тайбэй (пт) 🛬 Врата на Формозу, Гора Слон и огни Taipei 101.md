@@ -128,7 +128,8 @@
 
     * _Ссылка на локацию_: [Google Maps: Songshan Station](https://maps.google.com/?q=25.049870,121.578110)<iframe src="https://maps.google.com/maps?q=25.049870,121.578110&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **22:15+** — Отдых в отеле, восстановление сил после перелета.
+* **22:15+** — Отдых в отеле и сон:
+    * Горячий душ, разбор вещей и крепкий восстановительный сон в отеле *Morwing Hotel Fairy Tale* после долгого перелета. Завтра — большой пеший день по историческим кварталам Тайбэя!
 
 ---
 
