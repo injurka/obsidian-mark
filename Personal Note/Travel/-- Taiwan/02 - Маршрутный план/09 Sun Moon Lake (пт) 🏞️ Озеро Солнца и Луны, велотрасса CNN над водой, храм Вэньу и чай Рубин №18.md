@@ -71,13 +71,13 @@
 
 * **13:45 - 15:15** — Велопрогулка по набережной Шуйшэ ➔ Xiangshan:
     * *Контекст:* Велодорожка вокруг озера Солнца и Луны длиной ~17 км признана одним из 10 лучших велосипедных маршрутов мира по версии CNN Travel. Первую половину пути вы проедете по набережной над водой — путь тянется буквально вдоль кромки озера с панорамными видами на горы.
-    * *Маршрут:* Шуйшэ Pier ➔ Мост Баосзуо (Baozuo Bridge) ➔ район Сюйсян (Xiangshan). Первые 5–6 км — самый живописный участок «над водой», где дорожка идёт прямо над поверхностью озера на сваях.
+    * *Маршрут:* Пирс Шуйшэ (Shuishe Pier) ➔ дамба Шуйшэ с деревянным настилом (Shuishe Dam) ➔ арочные мосты Тунсинь и Юнцзе (Tongxin & Yongjie Bridges) ➔ панорамный центр Сяншань (Xiangshan Visitor Center). Самый живописный участок идет прямо над зеркалом воды на сваях с круговой панорамой гор.
     * *Ключевые точки:*
-        1. **Мост Баосзуо:** Арочный пешеходно-велосипедный мост с красными арками через бухту — отличная фото-локация.
-        2. **Парк Фусюн (Fusionun Park):** Живописная зона отдыха с цветниками и смотровой на южную часть озера.
-        3. **Смотровая Xiangshan:** Открывается вид на весь остров Huodaō (Head Duck Island) — главный маяк озера.
-    * _Ссылка на локацию_: [Google Maps: Sun Moon Lake Bike Trail](https://maps.google.com/?q=23.864700,120.915200)<iframe src="https://maps.google.com/maps?q=23.864700,120.915200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Велотрек_:  [Google Maps: Shuishe Pier → Baozuo Bridge → Xiangshan Visitor Center](https://www.google.com/maps/dir/23.864700,120.915200/23.858200,120.908500/23.852800,120.901500/?travelmode=bicycling)
+        1. **Дамба Шуйшэ (Shuishe Dam):** Знаменитый деревянный настил над гладью озера с видом на остров Лалу.
+        2. **Мосты Тунсинь и Юнцзе (Tongxin Bridge):** Белоснежные изогнутые арочные мосты над бирюзовыми заливами.
+        3. **Центр Сяншань (Xiangshan Visitor Center):** Футуристический биоклиматический шедевр архитектора Дэна Норихико и консольная смотровая терраса над озером.
+    * _Ссылка на локацию_: [Google Maps: Sun Moon Lake Bikeway](https://maps.google.com/?q=23.864700,120.915200)<iframe src="https://maps.google.com/maps?saddr=23.864700,120.915200&daddr=23.852800,120.901500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Велотрек_: [Google Maps: Shuishe Pier → Shuishe Dam → Xiangshan Visitor Center](https://www.google.com/maps/dir/23.864700,120.915200/23.858200,120.908500/23.852800,120.901500/?travelmode=bicycling)
 
 > [!INFO]- Картинки
 > ![[Pasted image 20260908134022.png]]

@@ -77,7 +77,7 @@
         4. Дизайнерский книжный пассаж **Eslite Bookstore Pier-2** с панорамными окнами на пирс.
     * _Ссылка на локацию_: [Google Maps: Pier-2 Art Center Kaohsiung](https://maps.google.com/?q=22.620200,120.281500)<iframe src="https://maps.google.com/maps?q=22.620200,120.281500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Ссылка на локацию_: [Google Maps: Hamasen Railway Cultural Park](https://maps.google.com/?q=22.621800,120.276500)<iframe src="https://maps.google.com/maps?q=22.621800,120.276500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_:  [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/22.620200,120.281500/22.617800,120.282800/22.618500,120.279800/?travelmode=walking)
+    * _Хайкинг-трек_: [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/22.620200,120.281500/22.617875,120.283879/22.618816,120.279155/?travelmode=walking)
 
 > [!TIP] 🍍 Ритуал гостеприимства SunnyHills
 > Посещение SunnyHills не обязывает к покупке. Это традиционный тайваньский ритуал знакомства с продуктом: вы садитесь за общий деревянный стол, спокойно пьете чай и пробуете пирожное из натуральных ананасов горы Багуа. Если сладости понравятся — на выходе можно приобрести подарочные наборы.
@@ -97,10 +97,8 @@
     * 🌅 **Золотой закатный чилл у океана (17:35–18:15):**
         * Выходите на открытую дощатую набережную KW2 прямо к кромке воды.
         * Возьмите бокал холодного тайваньского крафтового пива от пивоварни *Zhang Men Brewing (掌門精釀啤酒)* на открытой террасе или свежий манговый смузи.
-        * Встречайте закат: огромное солнце медленно опускается в воды Тайваньского пролива за маяком холма Цихоу, а на воде гавани отражаются силуэты заходящих паромов. В сумерках зажигается неоновая подсветка конструкций Great Harbor Bridge и галерей Dagang Cang 410.
-    * _Ссылка на локацию_: [Google Maps: Great Harbor Bridge Kaohsiung](https://maps.google.com/?q=22.617800,120.282800)<iframe src="https://maps.google.com/maps?q=22.617800,120.282800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: KW2 Kaohsiung Port Warehouse No.2](https://maps.google.com/?q=22.618500,120.279800)<iframe src="https://maps.google.com/maps?q=22.618500,120.279800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_:  [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/22.620200,120.281500/22.617800,120.282800/22.618500,120.279800/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Great Harbor Bridge & KW2](https://maps.google.com/?q=22.617875,120.283879)<iframe src="https://maps.google.com/maps?saddr=22.617875,120.283879&daddr=22.618816,120.279155&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Хайкинг-трек_: [Google Maps: Pier-2 Art Center → Great Harbor Bridge → KW2 Waterfront](https://www.google.com/maps/dir/22.620200,120.281500/22.617875,120.283879/22.618816,120.279155/?travelmode=walking)
 
 > [!TIP] 🌉 Смотровая спираль Great Harbor Bridge
 > Поднимитесь по винтовой лестнице на центральную смотровую палубу моста: оттуда открывается круговой обзор на 360° на морские ворота города, футуристический музыкальный центр Kaohsiung Music Center и гору Шоушань. Сам мост совершает эффектный 3-минутный поворот ежедневно в 15:00 (а по пятницам и выходным — дополнительно в 19:00).

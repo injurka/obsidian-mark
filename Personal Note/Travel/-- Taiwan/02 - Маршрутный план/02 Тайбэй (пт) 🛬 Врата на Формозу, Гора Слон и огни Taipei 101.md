@@ -65,7 +65,7 @@
     * От отеля вернитесь через выход Z8/Z6 к станции MRT **Taipei Main Station (R10)**.
     * Сядьте на **Красную ветку (Tamsui-Xinyi Line / 淡水信義線)** в направлении конечной станции **Xiangshan (象山, R02)** — ехать без пересадок 10 остановок (~18 минут).
     * На станции Xiangshan выходите через **Выход 2 (Exit 2)**.
-    * _Ссылка на локацию_: [Google Maps: Xiangshan Station](https://maps.google.com/?q=25.032999,121.569303)<iframe src="https://maps.google.com/maps?q=25.032999,121.569303&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Xiangshan MRT Station](https://maps.google.com/?q=25.032645,121.569802)<iframe src="https://maps.google.com/maps?q=25.032645,121.569802&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **17:15 - 18:45** — Тропа горы Слон (**Elephant Mountain Trail / 象山親山步道**):
     * *Подход к тропе:* От выхода 2 станции метро пройдите вперед через парк Сяншань (Xiangshan Park) около 600 м (7–8 минут), следуя по нарисованным на тротуаре силуэтам слоников, до начала каменной лестницы возле храма Lingyun Temple (代天殿靈雲宮).
@@ -75,7 +75,7 @@
         2. **Шесть гигантских валунов (Six Giant Rocks / 六巨石)**: Знаменитые природные глыбы на хребте (можно подняться на площадку вокруг них).
         3. **«Синий час» (Blue Hour) и включение подсветки (17:30–18:15)**: Самое фотогеничное время дня, когда небо окрашивается в глубокий сапфировый цвет, а небоскреб Taipei 101 и деловой район Синьи зажигают вечернюю иллюминацию.
     * _Ссылка на локацию_: [Google Maps: Elephant Mountain Trailhead](https://maps.google.com/?q=25.026541,121.575542)<iframe src="https://maps.google.com/maps?q=25.026541,121.575542&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Xiangshan Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/25.032999,121.569303/25.026541,121.575542/?travelmode=walking)
+    * _Хайкинг-трек_: [Google Maps: Xiangshan MRT Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/25.032645,121.569802/25.026541,121.575542/?travelmode=walking)
 
 > [!TIP] 🦟 Защита от насекомых и питьевой режим
 > На лесных склонах в сумерках активны москиты — перед подъемом нанесите репеллент. Возьмите с собой бутылку воды (или купите в автомате у подножия тропы). Спускайтесь не спеша, держась за перила — каменные ступени могут быть гладкими.
@@ -94,9 +94,10 @@
     * Осмотрите снаружи уникальную ступенчатую архитектуру здания в форме стебля бамбука и древнекитайских денежных слитков ямбов, а также знаменитую красную скульптуру Роберта Индианы «LOVE» на площади у южного входа.
     * _Ссылка на локацию_: [Google Maps: Taipei 101](https://maps.google.com/?q=25.033835,121.564499)<iframe src="https://maps.google.com/maps?q=25.033835,121.564499&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **19:30 - 20:00** — Переезд к Ночному рынку Жаохэ (Raohe):
-    * **Вариант А (наиболее комфортный, на такси):** Возьмите желтое такси или вызовите Uber от Taipei 101 напрямую ко входу на рынок Raohe Night Market. Время в пути: ~8–10 минут, стоимость всего `~450–550 ₽` (NT$ 150–180).
-    * **Вариант Б (на метро MRT):** Сядьте на станции *Taipei 101/World Trade Center (R03)* на Красную ветку, проедьте 5 остановок до станции *Chiang Kai-shek Memorial Hall (R08)*, где действует удобная кросс-платформенная пересадка (просто перейти на противоположную сторону платформы) на Зеленую ветку (Songshan-Xindian Line), и доехать до конечной станции **Songshan (G19, Выход 1 или 5)**.
+* **19:30 - 20:00** — Переезд на метро MRT к Ночному рынку Жаохэ:
+    * Сядьте на станции **Taipei 101/World Trade Center (R03)** на **Красную ветку (Tamsui-Xinyi Line)**.
+    * Проедьте 5 остановок до станции **Chiang Kai-shek Memorial Hall (R08)**, где действует удобная кросс-платформенная пересадка (достаточно просто перейти на противоположную сторону той же платформы) на **Зеленую ветку (Songshan-Xindian Line)**.
+    * Доезжайте до конечной станции **Songshan (G19)** и выходите через **Выход 1 или 5** прямо ко входу на ночной рынок и к храму Ciyou Temple.
 
 ---
 
@@ -134,7 +135,6 @@
 ## 💰 Финансовые затраты на день (на 1 чел)
 
 * Поезд Taoyuan Express MRT (аэропорт ➔ город): `~450 ₽` (NT$ 150).
-* Поездки на городском метро MRT (Taipei Main ➔ Xiangshan + Songshan ➔ Beimen): `~145 ₽` (NT$ 50).
+* Поездки на городском метро MRT (Taipei Main ➔ Xiangshan + Taipei 101 ➔ Songshan + Songshan ➔ Beimen): `~220 ₽` (NT$ 75).
 * Ужин, снэки Michelin Bib Gourmand и напитки на рынке Жаохэ: `~850–1 050 ₽` (NT$ 280–350).
-* Опционально такси Taipei 101 ➔ Raohe (при поездке вдвоем): `~250 ₽` (NT$ 80).
-* **Итого за день (без отеля):** около **`~1 445 – 1 650 ₽` (NT$ 480–550)** *(без учета залога за пластик карты EasyCard)*.
+* **Итого за день (без отеля):** около **`~1 520 – 1 720 ₽` (NT$ 505–575)** *(без учета залога за пластик карты EasyCard)*.

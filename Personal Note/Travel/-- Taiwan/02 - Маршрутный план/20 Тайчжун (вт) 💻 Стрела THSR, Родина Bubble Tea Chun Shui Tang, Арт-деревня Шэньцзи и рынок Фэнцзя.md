@@ -41,12 +41,12 @@
     * _Бронирование отеля:_ [Trip.com: Taichung Box Design Hotel](https://www.trip.com/w/Ym798eAs6W2)
     * _Ссылка на локацию_: [Google Maps: Taichung Box Design Hotel](https://maps.google.com/?q=24.150800,120.686500)<iframe src="https://maps.google.com/maps?q=24.150800,120.686500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **11:30 - 13:15** — Чайный дом **Chun Shui Tang (春水堂 創始店)**:
+* **11:30 - 13:15** — Чайный дом Chun Shui Tang (春水堂 創始店):
     * *Контекст*: Основан в 1983 году. Именно в этих стенах впервые в мире смешали холодный черный чай со сладкими шариками тапиоки (*Fen Yuan*), создав оригинальный Bubble Tea.
     * *Обед (12:00 - 13:15)*:
         1. 🎁 **Оригинальный канон 1983 года:** Эталонный **Pearl Milk Tea (珍珠奶茶)**.
         2. Фирменная лапша с кунжутным соусом мацзян и хрустящие тайваньские димсамы с редькой.
-    * _Ссылка на локацию_: [Google Maps: Chun Shui Tang Siwei Original Store](https://maps.google.com/?q=24.137800,120.672800)<iframe src="https://maps.google.com/maps?q=24.137800,120.672800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Chun Shui Tang Siwei Original Store](https://maps.google.com/?q=24.137617,120.675601)<iframe src="https://maps.google.com/maps?q=24.137617,120.675601&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🍵 Канон заказа Bubble Tea («Wei Tang, Wei Bing»)
 > По умолчанию классический чай делают со 100% сахаром — это слишком приторно. Заказывайте по эталонной тайваньской формуле: **«Wei Tang, Wei Bing» (微糖微冰)** — 30% сладости и меньше льда. Так вы ощутите натуральный сливочно-чайный букет и нежную текстуру тапиоки!
