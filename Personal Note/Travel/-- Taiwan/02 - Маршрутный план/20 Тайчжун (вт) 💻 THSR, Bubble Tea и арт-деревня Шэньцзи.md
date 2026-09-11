@@ -44,9 +44,11 @@
     * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=24.112100,120.615800)<iframe src="https://maps.google.com/maps?q=24.112100,120.615800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Расписание_: [Официальный поиск поездов THSR](https://en.thsrc.com.tw/ArticleContent/a3b630bb-1066-4352-a1ef-58c7b4e8ef7c)
 
-* **10:50 - 11:20** — Такси в отель и сдача багажа:
-    * *Контекст*: Стильный арт-дизайн отель с удобными рабочими зонами, скоростным оптоволокном и быстрым доступом к арт-деревням и зеленым бульварам.
-    * *Маршрут:* От THSR Taichung до *Taichung Box Design Hotel* около 20–30 минут на такси. До времени чек-ина чемоданы остаются на ресепшене.
+* **10:50 - 11:15** — Трансфер на такси в Taichung Box Design Hotel:
+    * *Маршрут:* От THSR Taichung до *Taichung Box Design Hotel* около 20–30 минут на такси.
+
+* **11:15 - 11:20** — Сдача багажа в отеле:
+    * *Контекст:* До времени чек-ина оставьте чемоданы на ресепшене; отель с рабочими зонами и быстрым доступом к арт-деревням будет базой на следующие дни.
     * _Бронирование отеля:_ [Trip.com: Taichung Box Design Hotel](https://www.trip.com/w/Ym798eAs6W2)
     * _Ссылка на локацию_: [Google Maps: Taichung Box Design Hotel](https://maps.google.com/?q=24.150800,120.686500)<iframe src="https://maps.google.com/maps?q=24.150800,120.686500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
