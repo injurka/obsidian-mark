@@ -1,4 +1,13 @@
+# Frontend MOC
 
+> [!info] Карта знаний Frontend
+> Корневой хаб инженерных знаний по веб-технологиям, архитектуре, графике, Web GIS и GPS-трекингу.
+
+## Разделы
+- [[Web GIS MOC|10. Web GIS & Картография во Frontend]]
+- [[GPS & Tracking MOC|11. GPS, GNSS & Real-Time Tracking]]
+
+---
 
 ## Источники
 
