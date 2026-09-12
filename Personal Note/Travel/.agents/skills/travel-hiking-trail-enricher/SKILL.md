@@ -158,6 +158,15 @@ description: >-
 | Vase Rock to Geban Bay Coastal Walk | 🥾 foot | `_Хайкинг-трек_: [Google Maps: Xiaoliuqiu Vase Rock to Geban Bay](https://www.google.com/maps/dir/Vase+Rock+Xiaoliuqiu/Geban+Bay+Xiaoliuqiu/?travelmode=walking)` |
 | Houshi Fringing Reef Snorkeling Path | 🚶 walk | `_Хайкинг-трек_: [Google Maps: Houshi Reef Xiaoliuqiu](https://www.google.com/maps/dir/Houshi+Fringing+Reef+Xiaoliuqiu/Geban+Bay/?travelmode=walking)` |
 
+### 🌍 Региональные провайдеры для других направлений
+
+При работе с не-тайваньскими экспедициями (Япония, Европа, Север РФ) используй следующие источники:
+* **Япония:** прямые ссылки AllTrails (`/trail/japan/...`) или проверенные маршруты YAMAP. При отсутствии точной страницы — цепочка Google Maps Walking Directions.
+* **Европа и Альпы:** Komoot, Outdooractive или AllTrails (`/trail/germany/...`, `/trail/switzerland/...`).
+* **Россия и Арктика:** AllTrails, Nakarte.me (GPX) или цепочки ключевых ориентиров в Google Maps Walking.
+* **Золотой фоллбэк (Universal Fallback):** Если верифицированного URL на трек нет, СТРОГО используй многоточечный URL Google Maps:
+  `[Google Maps: <Старт → Вершина/Видовая → Финиш>](https://www.google.com/maps/dir/<Точка1>/<Точка2>/<Точка1>/?travelmode=walking)`.
+
 ---
 
 ## 🔄 5. Алгоритм работы агента (пошагово)
