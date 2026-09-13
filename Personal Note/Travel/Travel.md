@@ -11,7 +11,7 @@ mindmap
     🇹🇼 Восточная Азия
       ["🇯🇵 Япония: Золотое Кольцо (14 дней)"]
       ["🇹🇼 Тайвань: Остров Формоза (25 дней)"]
-      ["🇰🇷 Южная Корея: Сеул и Пусан (10 дней)"]
+      ["🇰🇷 Южная Корея: Гранд-Экспедиция (15 дней)"]
       ["🇨🇳 Юньнань: Southern Cloud Trail (12 дней)"]
       ["🇨🇳 Шанхай и Чжанцзяцзе"]
     🌴 Юго-Восточная и Южная Азия
@@ -42,7 +42,7 @@ mindmap
 |    🇵🇪 **Перу**     | **[[Personal Note/Travel/-- Peru/Peru\|Империя Инков и Анды]]**                                             | **10** | Лима (Мирафлорес), Куско, Мачу-Пикчу (ЮНЕСКО), поезд Vistadome, Соляные копи Марас, Радужные горы (5036 м) |
 |   🐉 **Вьетнам**   | **[[Personal Note/Travel/-- Vietnam/Vietnam\|Дракон Индокитая]]**                                           | **12** | Ханой, Транг Ан Ниньбинь, Круиз Халонг 5*, Хюэ, Хойан, Золотой Мост Дананга  |
 |  🏖️ **Таиланд**   | **[[Personal Note/Travel/-- Phuket/Phuket\|Пхукет и Андаман]]**                                             | **5**  | Ката Бич, Большой Будда, Black Rock, Промтхеп, Пхукет-таун, Freedom Beach    |
-|   🇰🇷 **Корея**   | **[[Personal Note/Travel/-- South Korea/South Korea\|Южная Корея]]**                                        | **10** | Сеул (дворцы, Каннам, Хондэ), DMZ, скоростной KTX, Пусан (Хэундэ, Гамчон)    |
+|   🇰🇷 **Корея**   | **[[Personal Note/Travel/-- South Korea/South Korea\|Южная Корея]]**                                        | **15** | Сеул (дворцы, неон), KTX, Пусан, древний Кёнджу (Силла), Чеджу (Халласан)    |
 | 🇸🇬 **Сингапур**  | **[[Personal Note/Travel/-- Singapore/Singapore\|Город Будущего]]**                                         | **4**  | Marina Bay Sands, Gardens by the Bay, Сентоза, Chinatown, Jewel Changi       |
 | 🇲🇾 **Малайзия**  | **[[Personal Note/Travel/-- Kuala Lumpur/Kuala Lumpur\|Куала-Лумпур]]**                                     | **3**  | Башни Петронас, пещеры Бату, Bukit Bintang, Merdeka 118, стритфуд Jalan Alor |
 |   🇨🇳 **Китай**   | **[[Personal Note/Travel/-- The Southern Cloud Trail/The Southern Cloud Trail\|The Southern Cloud Trail]]** | **12** | Куньмин, Каменный лес, Дали, Лицзян, Ущелье Прыгающего Тигра, Шангри-Ла      |
@@ -65,3 +65,52 @@ mindmap
 * 🇸🇬 [**-- Singapore**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Singapore/Singapore.md) — 4 дня в Сингапуре
 * 🇲🇾 [**-- Kuala Lumpur**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Kuala%20Lumpur/Kuala%20Lumpur.md) — 3 дня в Куала-Лумпуре
 * 🇨🇳 [**-- The Southern Cloud Trail**](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20The%20Southern%20Cloud%20Trail/The%20Southern%20Cloud%20Trail.md) — 12 дней по Юньнани
+
+
+
+## 🚀 Команды для валидации и загрузки контента (Trip Scheduler Importer)
+
+### 🇹🇼 Тайвань (Taiwan)
+```bash
+bunx --bun @limiteddissolve/obsidian-importer \
+  --api-url "https://trip-scheduler-api.limited-dissolve.ru" \
+  --dir "~/Documents/obsidian-mark/Personal Note/Travel/-- Taiwan" \
+  --start-date "2026-11-04" \
+  --status draft \
+  --visibility public \
+  --validate
+```
+
+### 🇰🇷 Южная Корея (South Korea)
+```bash
+bunx --bun @limiteddissolve/obsidian-importer \
+  --api-url "https://trip-scheduler-api.limited-dissolve.ru" \
+  --dir "~/Documents/obsidian-mark/Personal Note/Travel/-- South Korea" \
+  --start-date "2026-10-17" \
+  --status draft \
+  --visibility public \
+  --validate
+```
+
+### 🌌 Мурманск (Murmansk)
+```bash
+bunx --bun @limiteddissolve/obsidian-importer \
+  --api-url "https://trip-scheduler-api.limited-dissolve.ru" \
+  --dir "~/Documents/obsidian-mark/Personal Note/Travel/-- Murmansk" \
+  --start-date "2027-01-29" \
+  --status draft \
+  --visibility public \
+  --validate
+```
+
+### 🌲 Алтай (Altai)
+```bash
+bunx --bun @limiteddissolve/obsidian-importer \
+  --api-url "https://trip-scheduler-api.limited-dissolve.ru" \
+  --dir "~/Documents/obsidian-mark/Personal Note/Travel/-- Altai" \
+  --start-date "2026-08-05" \
+  --status draft \
+  --visibility public \
+  --validate
+```
+
