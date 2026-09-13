@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Importer Compatibility"
+  short_description: "Проверка совместимости с obsidian-importer"
+  default_prompt: "Используй $travel-importer-compatibility и проверь проект актуальным валидатором с датой старта."

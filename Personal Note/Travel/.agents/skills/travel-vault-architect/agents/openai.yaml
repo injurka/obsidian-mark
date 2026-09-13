@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Vault Architect"
+  short_description: "Структура, frontmatter и целостность Travel Vault"
+  default_prompt: "Используй $travel-vault-architect для создания или аудита структуры проекта поездки."

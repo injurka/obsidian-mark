@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Workation Designer"
+  short_description: "Воркейшн, часовые пояса и рабочая связь"
+  default_prompt: "Используй $travel-workation-designer для проектирования рабочего режима поездки."

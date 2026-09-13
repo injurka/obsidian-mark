@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Trail Enricher"
+  short_description: "Проверенные тропы и маршруты для карты"
+  default_prompt: "Используй $travel-hiking-trail-enricher для проверки и добавления треков к маршруту."

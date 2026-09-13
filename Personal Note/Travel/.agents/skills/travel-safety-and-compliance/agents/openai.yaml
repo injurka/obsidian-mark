@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Safety and Compliance"
+  short_description: "Въезд, законы, медицина и действия при ЧС"
+  default_prompt: "Используй $travel-safety-and-compliance для памятки по безопасности на конкретные даты."

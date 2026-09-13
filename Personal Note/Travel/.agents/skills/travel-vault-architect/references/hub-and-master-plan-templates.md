@@ -3,6 +3,14 @@
 ## 1. Шаблон Главного Хаба `<Страна>.md`
 
 ```markdown
+---
+cover: "_/all/<cover-file>.jpg"
+descriptionShort: >-
+  <Краткое описание поездки для карточки.>
+tags: [travel, <country>]
+cities: [<City 1>, <City 2>]
+---
+
 # <Название Страны / Экспедиции>
 
 ## 📝 Краткое описание

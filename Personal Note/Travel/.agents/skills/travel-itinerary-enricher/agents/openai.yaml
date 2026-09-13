@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Itinerary Enricher"
+  short_description: "Реалистичные и оформленные планы по дням"
+  default_prompt: "Используй $travel-itinerary-enricher для реалистичной доработки дневного маршрута."

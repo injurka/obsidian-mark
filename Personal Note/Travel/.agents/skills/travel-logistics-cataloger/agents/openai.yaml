@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Logistics Cataloger"
+  short_description: "Перелеты, отели и транспортные связки"
+  default_prompt: "Используй $travel-logistics-cataloger для проверки логистики и раздела бронирований."

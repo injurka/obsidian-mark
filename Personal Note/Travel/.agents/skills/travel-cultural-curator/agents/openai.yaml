@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Cultural Curator"
+  short_description: "Культура, история, гастрономия и покупки"
+  default_prompt: "Используй $travel-cultural-curator для подготовки проверенного культурного гида по маршруту."

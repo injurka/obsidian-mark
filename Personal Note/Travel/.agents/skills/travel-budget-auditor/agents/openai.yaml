@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Budget Auditor"
+  short_description: "Сверка бюджета, валют и финансов поездки"
+  default_prompt: "Используй $travel-budget-auditor для проверки бюджета и сходимости всех сумм."
