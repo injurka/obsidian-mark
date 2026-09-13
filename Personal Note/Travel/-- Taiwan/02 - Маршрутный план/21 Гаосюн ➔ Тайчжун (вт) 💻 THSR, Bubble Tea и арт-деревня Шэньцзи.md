@@ -111,7 +111,7 @@
         4. **Свежевыжатый сок из папайи с молоком** (Papaya Milk).
     * _Ссылка на локацию_: [Google Maps: Fengjia Night Market Taichung](https://maps.google.com/?q=24.179200,120.645500)<iframe src="https://maps.google.com/maps?q=24.179200,120.645500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **23:45 - 00:15** — Возвращение в отель и отдых:
+* **23:30 - 23:59** — Возвращение в отель и отдых:
     * После Фэнцзя — такси до отеля. При выборе варианта B этот слот начинается уже после 22:15: чай из FamilyMart, душ и сон.
 
 ---
