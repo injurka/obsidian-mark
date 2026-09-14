@@ -2,8 +2,7 @@
 
 > **Локация:** Гуанчжоу (CAN-T2) ➔ TPE (Таоюань) ➔ Airport MRT ➔ Тайбэй (Zhongzheng / Xinyi / Songshan).
 > **Фаза тура:** 🌴 Фаза 1 — Чистый отпуск (Прибытие на остров, мягкий вечер в Синьи и на рынке Жаохэ; гора Слон — бонус только при раннем заселении и нормальном самочувствии).
-> *(Примечание: Историческая торговая улица Дихуа перенесена на дневное время в последующие дни тура, когда открыты чайные лавки и ремесленные мануфактуры).*
-> **Проживание:** Отель у вокзала Taipei Main Station (*Morwing Hotel Fairy Tale*, 1-я ночь в Тайбэе).
+> **Проживание:** Отель *Dongmen Hotel* у станции MRT Dongmen (1-я ночь в Тайбэе).
 > **Ключевой хайлайт:** Первое знакомство с Формозой без гонки после перелёта: огни Taipei 101, район Синьи и стритфуд Жаохэ; панорама с горы Слон остается приятным бонусом.
 
 ---
@@ -68,16 +67,16 @@
     * *Посадка*: Спуститесь по указателям к перронам терминала Terminal 1 (A12) или Terminal 2 (A13).
     * *Тип поезда:* Экспресс до A1 Taipei Main Station; часовой слот включает подход к платформе и ожидание. При задержке прилёта сдвигайте вечер и пропускайте гору Слон.
     * 🎁 **Первый гастро-ритуал:** В магазине 7-Eleven прямо перед турникетами станции возьмите горячее тайваньское чайное яйцо со специями (**Tea Egg / 茶葉蛋**, `~38 ₽` / NT$ 13) и бутылочку холодного улуна или жасминового чая без сахара (無糖).
-    * *Навигация к отелю*: По прибытии на станцию A1 (Airport MRT) следуйте по подземным указателям в сторону **Taipei Main Station** и перейдите в подземный переход **Station Front Metro Mall (Z-Mall / 站前地下街)**. Поднимитесь на поверхность через **выход Z8 (с лифтом)** или **Z10** — отель находится в 180 метрах на юг по улице Kaifeng St.
+    * *Навигация к отелю*: По прибытии на станцию A1 (Airport MRT) перейдите по указателям на Красную ветку метро MRT (**Tamsui-Xinyi Line / Taipei Main Station, R10**). Садитесь на поезд в сторону Xiangshan / Daan и проедьте всего **3 остановки (6 минут)** до станции **Dongmen (東門, R07)**. Поднимитесь через **Выход 1 или 2** на улицу Linyi St / Xinyi Rd — отель **Dongmen Hotel** находится всего в 150 метрах (2–3 минуты пешком) к югу по тихой улице Linyi St.
     * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://maps.google.com/?q=25.047761,121.517049)<iframe src="https://maps.google.com/maps?q=25.047761,121.517049&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260825142447.png]]
 
-* **16:30 - 17:00** — Заселение в отель Morwing Hotel Fairytale:
-    * Быстрое заселение в отель (ул. Kaifeng St, Sec. 1, No. 36), душ и смена одежды для вечернего подъема на гору.
-    * _Бронирование отеля:_ [Trip.com: Morwing Hotel Fairy Tale](https://www.trip.com/w/VfPGsYCo6W2) | [Trip.com: FX Hotel Taipei Nanjing East Road](https://www.trip.com/w/OjdqIBog6W2)
-
-    * _Ссылка на локацию_: [Google Maps: Morwing Hotel Fairy Tale](https://maps.google.com/?q=25.045610,121.513750)<iframe src="https://maps.google.com/maps?q=25.045610,121.513750&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **16:30 - 17:00** — Заселение в отель Dongmen Hotel:
+    * Быстрое заселение в отель (No. 78, Linyi St, Zhongzheng District), душ и смена одежды для вечернего подъема на гору.
+    * _Бронирование отеля:_ [Dongmen Hotel (東門旅店)](https://maps.google.com/?q=25.0337,121.5285) *(оплачено онлайн: 17 500,72 ₽ / 4 ночи)*
+    * _Ваучер заселения:_ [Ваучер заселения (PDF)](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Taiwan/_/PrivateDocuments/Отели/Dongmen.pdf)
+    * _Ссылка на локацию_: [Google Maps: Dongmen Hotel](https://maps.google.com/?q=25.0337,121.5285)<iframe src="https://maps.google.com/maps?q=25.0337,121.5285&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -87,8 +86,8 @@
 > Если в отель попали **позже 16:30** или чувствуете сильную усталость, пропустите подъем. Сразу отправляйтесь к Taipei 101, спокойно прогуляйтесь по Xinyi и продолжайте к рынку Жаохэ. Гора Слон — бонус, а не обязательство первого вечера.
 
 * **17:00 - 17:40** — Поездка на метро MRT напрямую к подножию горы:
-    * От отеля вернитесь через выход Z8/Z6 к станции MRT **Taipei Main Station (R10)**.
-    * Красная линия от Taipei Main Station (R10) в направлении Xiangshan (R02); учитывайте подход к метро, ожидание и выход на улицу.
+    * От отеля вернитесь 2 минуты пешком к станции MRT **Dongmen (R07)**.
+    * Прямая Красная линия от Dongmen (R07) в направлении конечной Xiangshan (R02) — всего **5 остановок без пересадок (10 минут поездки)**.
     * На станции Xiangshan выходите через **Выход 2 (Exit 2)**.
     * _Ссылка на локацию_: [Google Maps: Xiangshan MRT Station](https://maps.google.com/?q=25.032645,121.569802)<iframe src="https://maps.google.com/maps?q=25.032645,121.569802&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
@@ -145,16 +144,15 @@
 
 ### Часть 5: Удобное возвращение в отель
 
-* **21:40 - 22:05** — Прямой возврат на метро MRT в отель (без пересадок!):
+* **21:40 - 22:05** — Возврат на метро MRT в отель Dongmen Hotel:
     * Спуститесь на станцию **Songshan Station (G19)**.
     * Сядьте на поезд **Зеленой ветки (Songshan-Xindian Line / 松山新店線)** в сторону станции *Xindian*.
-    * Проедьте **без единой пересадки 6 остановок (13 минут)** до станции **Beimen (北門, G13)**.
-    * Выйдите через **Выход 2** станции Beimen и пройдите неспешным шагом 600 м (7–8 минут) по улице Yanping South Rd прямо к вашему отелю *Morwing Hotel Fairy Tale*.
-
+    * Проедьте 6 остановок до пересадочной станции **Chiang Kai-shek Memorial Hall (G10/R08)**, совершите быструю кросс-платформенную пересадку на Красную ветку и проедьте всего **1 остановку** до станции **Dongmen (東門, R07)**.
+    * Выйдите через **Выход 1 или 2** станции Dongmen и пройдите 150 м (2 минуты) по улице Linyi St прямо ко входу в ваш отель *Dongmen Hotel*.
     * _Ссылка на локацию_: [Google Maps: Songshan Station](https://maps.google.com/?q=25.049870,121.578110)<iframe src="https://maps.google.com/maps?q=25.049870,121.578110&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **22:15+** — Отдых в отеле и сон:
-    * Горячий душ, разбор вещей и крепкий восстановительный сон в отеле *Morwing Hotel Fairy Tale* после долгого перелета. Завтра — большой пеший день по историческим кварталам Тайбэя!
+    * Горячий душ, разбор вещей и крепкий восстановительный сон в отеле *Dongmen Hotel* после долгого перелета. Завтра — большой пеший день по историческим кварталам Тайбэя!
 
 ---
 
