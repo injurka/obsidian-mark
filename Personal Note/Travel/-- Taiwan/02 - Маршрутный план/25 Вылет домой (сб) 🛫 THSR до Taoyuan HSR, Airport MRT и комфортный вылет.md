@@ -30,6 +30,13 @@
     * Поездка на Taichung MRT Green Line от станции Wenhua Senior High School (3 мин пешком от отеля) напрямую до конечной HSR Taichung Station (16 минут в пути) либо такси/Uber от отеля (~15–20 минут). Прибытие на вокзал скоростных поездов с запасом времени.
     * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=24.112100,120.615800)<iframe src="https://maps.google.com/maps?q=24.112100,120.615800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
+> [!METRO]- Метро
+> Taichung MRT
+>
+> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
+> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
+> | Wenhua Senior High School (108) | HSR Taichung (119) | Taichung MRT Green Line | G | #84BD00 | Beitun Main Station | 11 |
+
 ---
 
 * **10:30 - 11:00** — Навигация и посадка на THSR:
@@ -49,6 +56,13 @@
     * Садитесь на первый подходящий состав в сторону аэропорта, без ожидания конкретного Express. В пути около 17–20 минут; проверьте номер терминала в посадочном талоне до выхода из поезда.
     * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=25.079651,121.234217)<iframe src="https://maps.google.com/maps?q=25.079651,121.234217&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Расписание_: [Официальная страница Taoyuan Airport MRT](https://www.taoyuan-airport.com/airport_mrt?lang=en)
+
+> [!METRO]- Метро
+> Taoyuan Airport MRT
+>
+> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
+> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
+> | Airport MRT A18 (Taoyuan HSR) | Airport Terminal 2 (A13) | Taoyuan Airport MRT | A | #A93C93 | Airport Terminal 2 | 5 |
 
 ---
 

@@ -15,7 +15,27 @@
     разделитель перед названием. Формат `HH:MM - HH:MM — Название:` остается
     предпочтительным STYLE-стандартом Travel Vault.
 
-## 1.1. Frontmatter корневой заметки (`src/parsers/vault.ts`)
+## 1.1. Ручные секции метро (`src/parsers/activity.ts`)
+
+- Внутри активности поддерживается сворачиваемый callout:
+  ```markdown
+  > [!METRO]- Метро
+  > Taipei MRT
+  >
+  > | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
+  > | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
+  > | Taipei Main Station (R10) | Dongmen (R07) | Tamsui–Xinyi Line | R | #D2072A | Xiangshan | 3 |
+  ```
+- Заголовок `[!INFO]- Метро` поддерживается как совместимый вариант для
+  стандартного callout `INFO`. Строка с названием системы под заголовком
+  необязательна, служит только подписью для человека и не заполняет `systemId`.
+- Каждая строка данных превращается в `ActivitySectionMetro.rides[]` с
+  `mode: 'free'`, `systemId: null`, ручными `startStation`, `endStation`,
+  `lineName`, `lineNumber`, `lineColor`, `direction` и `stops`.
+- Callout удаляется из текстового description перед обогащением активности,
+  поэтому таблица не появляется второй раз в обычной заметке.
+
+## 1.2. Frontmatter корневой заметки (`src/parsers/vault.ts`)
 
 - Поддерживаются `cover` (и legacy `imageUrl`), `descriptionShort`, `tags`,
   `cities`.
