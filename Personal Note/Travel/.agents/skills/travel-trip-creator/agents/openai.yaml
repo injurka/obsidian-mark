@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Master Planner"
+  short_description: "Комплексное сквозное проектирование путешествия без сокращений"
+  default_prompt: "Используй $travel-trip-creator для проектирования масштабного путешествия под ключ."
