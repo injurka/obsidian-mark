@@ -29,10 +29,16 @@
 
 ## 1.2. Frontmatter корневой заметки (`src/parsers/vault.ts`)
 
-- Поддерживаются `cover` (и legacy `imageUrl`), `descriptionShort`, `tags`,
-  `cities`.
+- Поддерживаются `cover` (и legacy `imageUrl`), `descriptionShort`, `cities`.
 - Явные значения имеют приоритет над выводом из Markdown.
 - Локальный `cover` должен находиться внутри корня поездки.
+
+## 1.3. Frontmatter заметок дня (`src/parsers/vault.ts`)
+
+- Поддерживаются `day`, `date`, `weekday`, `title`, `location`, `phase`, `accommodation` (и `hotel`), `highlight` (и `description`).
+- Значения `highlight` и `phase` формируют `day.description`.
+- При наличии frontmatter цитаты `> **Фаза тура:**` и `> **Ключевой хайлайт:**` в шапке дня не требуются.
+- Перед парсингом активностей и инфо-бейджей frontmatter автоматически вырезается функцией `stripFrontmatter()`.
 
 ## 2. Инфо-бейджи дня (`src/parsers/day-meta.ts`)
 - **Регулярное выражение Callout:**
