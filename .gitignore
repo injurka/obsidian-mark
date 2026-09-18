@@ -12,3 +12,5 @@ workspace.json
 _Other_
 Todo
 node_modules
+.firecrawl
+.claude

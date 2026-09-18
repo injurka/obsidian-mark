@@ -28,14 +28,33 @@
 * **09:00 - 09:30** — Переезд на метро MRT к храму Луншань:
     * От отеля 2 минуты пешком до станции MRT Dongmen (R07), 1 остановка на Красной ветке до Chiang Kai-shek Memorial Hall (R08) и пересадка на Зеленую ветку до Ximen (1 остановка) / Синюю до станции **Longshan Temple (BL10, Выход 1)** — всего около 12–15 минут поездки.
 
-> [!METRO]- Метро
-> Taipei MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Dongmen (R07) | Chiang Kai-shek Memorial Hall (R08) | Tamsui–Xinyi Line | R | #D2072A | Tamsui | 1 |
-> | Chiang Kai-shek Memorial Hall (G10) | Ximen (G12) | Songshan–Xindian Line | G | #008659 | Songshan | 2 |
-> | Ximen (BL11) | Longshan Temple (BL10) | Bannan Line | BL | #0072BC | Dingpu | 1 |
+```transport
+type: metro
+title: "Taipei MRT"
+
+routes:
+  - from: "Dongmen (R07)"
+    to: "Chiang Kai-shek Memorial Hall (R08)"
+    line: "Tamsui–Xinyi Line"
+    code: "R"
+    color: "#D2072A"
+    direction: "Tamsui"
+    stops: 1
+  - from: "Chiang Kai-shek Memorial Hall (G10)"
+    to: "Ximen (G12)"
+    line: "Songshan–Xindian Line"
+    code: "G"
+    color: "#008659"
+    direction: "Songshan"
+    stops: 2
+  - from: "Ximen (BL11)"
+    to: "Longshan Temple (BL10)"
+    line: "Bannan Line"
+    code: "BL"
+    color: "#0072BC"
+    direction: "Dingpu"
+    stops: 1
+```
 
 * **09:30 - 10:20** — Храм Луншань (Longshan Temple / 艋舺龍山寺):
     * *Контекст*: Основан в 1738 году переселенцами из провинции Фуцзянь, пережил землетрясения, тайфуны и бомбардировки Второй мировой войны, став главным духовным центром тайваньской столицы.
@@ -76,12 +95,19 @@
 * **13:00 - 13:30** — Переезд в старый квартал Дадаочэн:
     * От станции **Ximen (BL11)** одна остановка до **Beimen (G13)** или около 15–20 минут пешком; от выхода Beimen — дальше пешком к улице Дихуа.
 
-> [!METRO]- Метро
-> Taipei MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Ximen (G12) | Beimen (G13) | Songshan–Xindian Line | G | #008659 | Songshan | 1 |
+```transport
+type: metro
+title: "Taipei MRT"
+
+routes:
+  - from: "Ximen (G12)"
+    to: "Beimen (G13)"
+    line: "Songshan–Xindian Line"
+    code: "G"
+    color: "#008659"
+    direction: "Songshan"
+    stops: 1
+```
 
 * **13:30 - 17:30** — Неспешный Дадаочэн и улица Дихуа:
     * *Контекст:* Колоритный исторический район старого Тайбэя на берегу реки Даньшуй. Здесь можно идти без фиксированного списка: рассматривать старые фасады, заглядывать в чайные магазины и сворачивать в переулки по интересу.
@@ -97,13 +123,26 @@
 * **22:30 - 22:45** — Возвращение в отель и отдых:
     * Возвращение к Dongmen Hotel (MRT Dongmen) пешком или на метро по самочувствию; оставшееся время — буфер для спонтанных остановок и отдыха.
 
-> [!METRO]- Метро
-> Taipei MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Beimen (G13) | Chiang Kai-shek Memorial Hall (G10) | Songshan–Xindian Line | G | #008659 | Xindian | 3 |
-> | Chiang Kai-shek Memorial Hall (R08) | Dongmen (R07) | Tamsui–Xinyi Line | R | #D2072A | Xiangshan | 1 |
+```transport
+type: metro
+title: "Taipei MRT"
+
+routes:
+  - from: "Beimen (G13)"
+    to: "Chiang Kai-shek Memorial Hall (G10)"
+    line: "Songshan–Xindian Line"
+    code: "G"
+    color: "#008659"
+    direction: "Xindian"
+    stops: 3
+  - from: "Chiang Kai-shek Memorial Hall (R08)"
+    to: "Dongmen (R07)"
+    line: "Tamsui–Xinyi Line"
+    code: "R"
+    color: "#D2072A"
+    direction: "Xiangshan"
+    stops: 1
+```
 
 ---
 

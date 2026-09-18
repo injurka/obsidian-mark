@@ -28,12 +28,19 @@
     * *Маршрут*: 12–15 минут на городском такси от отеля до улицы Сывэй (No. 30, Siwei Street, West District, `~160 NTD`).
     * Либо на MRT Green Line от Wenhua Senior High School до станции Nantun / Wenxin Forest Park и далее короткая пересадка, но утреннее такси экономит 20 минут времени.
 
-> [!METRO]- Метро
-> Taichung MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Wenhua Senior High School (108) | Nantun (110) | Taichung MRT Green Line | G | #84BD00 | Beitun Main Station | 2 |
+```transport
+type: metro
+title: "Taichung MRT"
+
+routes:
+  - from: "Wenhua Senior High School (108)"
+    to: "Nantun (110)"
+    line: "Taichung MRT Green Line"
+    code: "G"
+    color: "#84BD00"
+    direction: "Beitun Main Station"
+    stops: 2
+```
 
 * **09:40 - 10:45** — Чайный дом Chun Shui Tang (Родина Bubble Tea):
     * *Контекст*: Исторический магазин **Chun Shui Tang Original Store (春水堂 創始店)**, открытый в 1983 году. Именно здесь в 1987 году управляющая магазином Линь Сюхуэй впервые высыпала жевательные шарики тапиоки (*Fen Yuan*) в ледяной молочный ассамский чай — так родился всемирно знаменитый феномен **Bubble Tea**!

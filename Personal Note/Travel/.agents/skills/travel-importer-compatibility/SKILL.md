@@ -176,6 +176,14 @@ STYLE/семантические правила. Не выдавай их за �
 > Hikingbook и Google Maps `/dir/` с несколькими точками.
 
 > [!TIP]
+> Для автобусных и метро-маршрутов используй структурированный блок `transport`:
+> `type: metro|bus`, `title` и `routes` со свойствами `from`, `to`, `line`/`route`,
+> `code`, `color`, `direction`, `stops`; для автобуса также `operator` и `walk`.
+> Локальный плагин Travel Transport View показывает его как интерактивную карточку.
+> Importer преобразует метро в `sections[].type: metro`, а автобус пока сохраняет в
+> читаемом activity description, поскольку отдельной bus-секции в API ещё нет.
+
+> [!TIP]
 > Локальный совет к этой активности.
 
 > [!INFO]- Картинки

@@ -72,13 +72,26 @@
 > [!INFO]- Картинки
 > ![[Pasted image 20260825142447.png]]
 
-> [!METRO]- Метро
-> Taoyuan Airport MRT + Taipei MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Airport Terminal 2 (A13) | Taipei Main Station (A1) | Taoyuan Airport MRT | A | #A93C93 | Taipei Main Station | 2 |
-> | Taipei Main Station (R10) | Dongmen (R07) | Tamsui–Xinyi Line | R | #D2072A | Xiangshan | 3 |
+```transport
+type: metro
+title: "Taoyuan Airport MRT + Taipei MRT"
+
+routes:
+  - from: "Airport Terminal 2 (A13)"
+    to: "Taipei Main Station (A1)"
+    line: "Taoyuan Airport MRT"
+    code: "A"
+    color: "#A93C93"
+    direction: "Taipei Main Station"
+    stops: 2
+  - from: "Taipei Main Station (R10)"
+    to: "Dongmen (R07)"
+    line: "Tamsui–Xinyi Line"
+    code: "R"
+    color: "#D2072A"
+    direction: "Xiangshan"
+    stops: 3
+```
 
 * **16:30 - 17:00** — Заселение в отель Dongmen Hotel:
     * Быстрое заселение в отель (No. 78, Linyi St, Zhongzheng District), душ и смена одежды для вечернего подъема на гору.
@@ -95,12 +108,19 @@
     * Прямая Красная линия от Dongmen (R07) в направлении конечной Xiangshan (R02) — всего **5 остановок без пересадок (10 минут поездки)**.
     * На станции Xiangshan выходите через **Выход 2 (Exit 2)**.
     * _Ссылка на локацию_: [Google Maps: Xiangshan MRT Station](https://maps.google.com/?q=25.032645,121.569802)<iframe src="https://maps.google.com/maps?q=25.032645,121.569802&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-> [!METRO]- Метро
-> Taipei MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Dongmen (R07) | Xiangshan (R02) | Tamsui–Xinyi Line | R | #D2072A | Xiangshan | 5 |
+```transport
+type: metro
+title: "Taipei MRT"
+
+routes:
+  - from: "Dongmen (R07)"
+    to: "Xiangshan (R02)"
+    line: "Tamsui–Xinyi Line"
+    code: "R"
+    color: "#D2072A"
+    direction: "Xiangshan"
+    stops: 5
+```
 > [!IMPORTANT] Правило решения после перелёта
 > Если в отель попали **позже 16:30** или чувствуете сильную усталость, пропустите подъем. Сразу отправляйтесь к Taipei 101, спокойно прогуляйтесь по Xinyi и продолжайте к рынку Жаохэ. Гора Слон — бонус, а не обязательство первого вечера.
 
@@ -136,13 +156,26 @@
     * Проедьте 5 остановок до станции **Chiang Kai-shek Memorial Hall (R08)**, где действует удобная кросс-платформенная пересадка (достаточно просто перейти на противоположную сторону той же платформы) на **Зеленую ветку (Songshan-Xindian Line)**.
     * Доезжайте до конечной станции **Songshan (G19)** и выходите через **Выход 1 или 5** прямо ко входу на ночной рынок и к храму Ciyou Temple.
 
-> [!METRO]- Метро
-> Taipei MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Taipei 101/World Trade Center (R03) | Chiang Kai-shek Memorial Hall (R08) | Tamsui–Xinyi Line | R | #D2072A | Tamsui | 5 |
-> | Chiang Kai-shek Memorial Hall (G10) | Songshan (G19) | Songshan–Xindian Line | G | #008659 | Songshan | 9 |
+```transport
+type: metro
+title: "Taipei MRT"
+
+routes:
+  - from: "Taipei 101/World Trade Center (R03)"
+    to: "Chiang Kai-shek Memorial Hall (R08)"
+    line: "Tamsui–Xinyi Line"
+    code: "R"
+    color: "#D2072A"
+    direction: "Tamsui"
+    stops: 5
+  - from: "Chiang Kai-shek Memorial Hall (G10)"
+    to: "Songshan (G19)"
+    line: "Songshan–Xindian Line"
+    code: "G"
+    color: "#008659"
+    direction: "Songshan"
+    stops: 9
+```
 
 ---
 
@@ -172,13 +205,26 @@
     * Выйдите через **Выход 1 или 2** станции Dongmen и пройдите 150 м (2 минуты) по улице Linyi St прямо ко входу в ваш отель *Dongmen Hotel*.
     * _Ссылка на локацию_: [Google Maps: Songshan Station](https://maps.google.com/?q=25.049870,121.578110)<iframe src="https://maps.google.com/maps?q=25.049870,121.578110&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-> [!METRO]- Метро
-> Taipei MRT
->
-> | Откуда | Куда | Линия | Код | Цвет | Направление | Остановки |
-> | :--- | :--- | :--- | :---: | :---: | :--- | :---: |
-> | Songshan (G19) | Chiang Kai-shek Memorial Hall (G10) | Songshan–Xindian Line | G | #008659 | Xindian | 9 |
-> | Chiang Kai-shek Memorial Hall (R08) | Dongmen (R07) | Tamsui–Xinyi Line | R | #D2072A | Xiangshan | 1 |
+```transport
+type: metro
+title: "Taipei MRT"
+
+routes:
+  - from: "Songshan (G19)"
+    to: "Chiang Kai-shek Memorial Hall (G10)"
+    line: "Songshan–Xindian Line"
+    code: "G"
+    color: "#008659"
+    direction: "Xindian"
+    stops: 9
+  - from: "Chiang Kai-shek Memorial Hall (R08)"
+    to: "Dongmen (R07)"
+    line: "Tamsui–Xinyi Line"
+    code: "R"
+    color: "#D2072A"
+    direction: "Xiangshan"
+    stops: 1
+```
 
 * **22:15+** — Отдых в отеле и сон:
     * Горячий душ, разбор вещей и крепкий восстановительный сон в отеле *Dongmen Hotel* после долгого перелета. Завтра — большой пеший день по историческим кварталам Тайбэя!
