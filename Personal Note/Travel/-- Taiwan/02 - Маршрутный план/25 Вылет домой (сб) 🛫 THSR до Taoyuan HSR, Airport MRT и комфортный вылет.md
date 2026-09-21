@@ -9,6 +9,15 @@ accommodation: "Вылет домой (ночной перелет, без бр�
 highlight: >-
   Около 38 минут на THSR до Taoyuan HSR, нормальный переход на A18 и первый
   подходящий Airport MRT до терминала с прибытием примерно к 12:15–12:30!
+is_ready: false
+mode: transit
+base_city: Тайчжун
+transport_types:
+  - train
+  - metro
+  - flight
+booking_status: not_required
+
 ---
 
 # 🛫 День 25: Суббота (Вылет домой)
@@ -71,7 +80,7 @@ routes:
 
 * **12:05 - 12:30** — Поезд Airport MRT (A18 ➔ Терминалы 1/2):
     * Садитесь на первый подходящий состав в сторону аэропорта, без ожидания конкретного Express. В пути около 17–20 минут; проверьте номер терминала в посадочном талоне до выхода из поезда.
-    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=25.079651,121.234217)<iframe src="https://maps.google.com/maps?q=25.079651,121.234217&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Расписание_: [Официальная страница Taoyuan Airport MRT](https://www.taoyuan-airport.com/airport_mrt?lang=en)
 
 ```transport
@@ -96,7 +105,7 @@ routes:
     * 🎁 **Финальный ритуал в TPE:** В зоне вылетов загляните в бутик культового бренда **SunnyHills (微熱山丘)** — здесь каждому гостю бесплатно наливают пиалу тайваньского горного чая улун и дарят целое свежее теплое ананасовое пирожное из натуральных ананасов горы Багуа! Отличная возможность докупить свежие подарки перед посадкой в самолет.
     * Предполетный лаунж и вылет домой с незабываемыми впечатлениями о Формозе!
 
-    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport Terminal 2](https://maps.google.com/?q=25.079651,121.234217)<iframe src="https://maps.google.com/maps?q=25.079651,121.234217&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport Terminal 2](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!TIP] 💳 Что делать с остатком на карте EasyCard?
 > * **Потратить перед вылетом:** В терминалах TPE карту EasyCard принимают магазины дьюти-фри, сувенирные бутики и кофейни.
 > * **Вернуть наличными:** В сервисной стойке MRT (*Information Counter*) в терминале аэропорта можно сдать карту и вернуть оставшийся баланс наличными NTD (комиссия за возврат составляет всего 20 NTD).
@@ -126,7 +135,7 @@ routes:
 ---
 
 ## 💰 Финансовые затраты на день 
-* Трансфер Nagahiro Hotel ➔ THSR Taichung (MRT Green Line `~35 NTD` / такси `~300 NTD`): `~100–450 ₽`.
+* Трансфер Nagahiro Hotel ➔ THSR Taichung: MRT Green Line `~35 NTD` / `~100 ₽` на 1 человека; альтернативное такси `~300–350 NTD` / `~840–980 ₽` за машину.
 * Скоростной поезд THSR Тайчжун ➔ Таоюань: `~1 510 ₽`.
 * Метро Taoyuan Airport MRT (A18 ➔ A12/A13): `~70 ₽`.
 * Предполетный перекус и кофе в аэропорту: `~560 ₽`.

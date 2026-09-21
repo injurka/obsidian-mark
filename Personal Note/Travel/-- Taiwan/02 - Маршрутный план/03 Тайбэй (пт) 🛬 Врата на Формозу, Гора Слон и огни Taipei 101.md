@@ -1,15 +1,18 @@
 ---
 day: 3
-date: "2026-11-06"
-weekday: "Пятница"
-title: "Первые огни Тайбэя"
-location: "Гуанчжоу (CAN-T2) ➔ TPE (Таоюань) ➔ Airport MRT ➔ Тайбэй (Zhongzheng / Xinyi / Songshan)."
-phase: "🌴 Фаза 1 — Чистый отпуск (Прибытие на остров, мягкий вечер в Синьи и на рынке Жаохэ; гора Слон — бонус только при раннем заселении и нормальном самочувствии)."
-accommodation: "Отель *Dongmen Hotel* у станции MRT Dongmen (1-я ночь в Тайбэе)."
-highlight: >-
-  Первое знакомство с Формозой без гонки после перелёта: огни Taipei 101,
-  район Синьи и стритфуд Жаохэ; панорама с горы Слон остается приятным
-  бонусом.
+date: 2026-11-06
+weekday: Пятница
+title: Первые огни Тайбэя
+location: Гуанчжоу (CAN-T2) ➔ TPE (Таоюань) ➔ Airport MRT ➔ Тайбэй (Zhongzheng / Xinyi / Songshan).
+phase: 🌴 Фаза 1 — Чистый отпуск (Прибытие на остров, мягкий вечер в Синьи и на рынке Жаохэ; гора Слон — бонус только при раннем заселении и нормальном самочувствии).
+accommodation: Отель *Dongmen Hotel* у станции MRT Dongmen (1-я ночь в Тайбэе).
+highlight: "Первое знакомство с Формозой без гонки после перелёта: огни Taipei 101, район Синьи и стритфуд Жаохэ; панорама с горы Слон остается приятным бонусом."
+is_ready: true
+mode: vacation
+base_city: Тайбэй
+transport_types:
+  - metro
+booking_status: confirmed
 ---
 
 # 🗓️ День 03: Пятница (🌴 Врата на Формозу: Гора Слон, Taipei 101 и рынок Жаохэ)
@@ -66,7 +69,7 @@ highlight: >-
     * **eSIM / SIM-карта:** Стойка *Chunghwa Telecom* в зале прибытия — оформление туристической SIM с безлимитным интернетом 4G/5G.
     * **Снятие наличных:** Банкоматы *Bank of Taiwan*, *Mega Bank* или *CTBC Bank* в зале прилета.
     * **EasyCard (悠遊卡):** Покупка карты в кассе Airport MRT (`~280 ₽` / NT$ 100 за пластик) и пополнение на `~2 000–2 500 ₽` для первых поездок. Если выиграли в акции, призовой баланс оформляется позже по инструкции из email и не заменяет стартовое пополнение сразу после прилёта.
-    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://maps.google.com/?q=25.079651,121.234217)<iframe src="https://maps.google.com/maps?q=25.079651,121.234217&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260825141150.png]]
 > ![[Pasted image 20260825141200.png]]
@@ -77,7 +80,7 @@ highlight: >-
     * *Тип поезда:* Экспресс до A1 Taipei Main Station; часовой слот включает подход к платформе и ожидание. При задержке прилёта сдвигайте вечер и пропускайте гору Слон.
     * 🎁 **Первый гастро-ритуал:** В магазине 7-Eleven прямо перед турникетами станции возьмите горячее тайваньское чайное яйцо со специями (**Tea Egg / 茶葉蛋**, `~38 ₽` / NT$ 13) и бутылочку холодного улуна или жасминового чая без сахара (無糖).
     * *Навигация к отелю*: По прибытии на станцию A1 (Airport MRT) перейдите по указателям на Красную ветку метро MRT (**Tamsui-Xinyi Line / Taipei Main Station, R10**). Садитесь на поезд в сторону Xiangshan / Daan и проедьте всего **3 остановки (6 минут)** до станции **Dongmen (東門, R07)**. Поднимитесь через **Выход 1 или 2** на улицу Linyi St / Xinyi Rd — отель **Dongmen Hotel** находится всего в 150 метрах (2–3 минуты пешком) к югу по тихой улице Linyi St.
-    * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://maps.google.com/?q=25.047761,121.517049)<iframe src="https://maps.google.com/maps?q=25.047761,121.517049&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://www.google.com/maps/place/HSR+Taipei+Station/@25.047761,121.5144741,17z/data=!3m1!5s0x36ef31d83d17a355:0xa70111dae00d0c9f!4m12!1m5!3m4!2zMjXCsDAyJzUxLjkiTiAxMjHCsDMxJzAxLjQiRQ!8m2!3d25.047761!4d121.517049!3m5!1s0x3442a96ae3a027c9:0x71f799a0d10bd6fb!8m2!3d25.0472791!4d121.517643!16s%2Fg%2F11s93k17hw?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0472791,121.517643&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!INFO]- Картинки
 > ![[Pasted image 20260825142447.png]]
 
@@ -104,9 +107,9 @@ routes:
 
 * **16:30 - 17:00** — Заселение в отель Dongmen Hotel:
     * Быстрое заселение в отель (No. 78, Linyi St, Zhongzheng District), душ и смена одежды для вечернего подъема на гору.
-    * _Бронирование отеля:_ [Dongmen Hotel (東門旅店)](https://maps.google.com/?q=25.0337,121.5285)
+    * _Бронирование отеля:_ [Dongmen Hotel (東門旅店)](https://www.google.com/maps/place/Dongmen+Hotel/@25.0345055,121.5277674,20.42z/data=!4m15!1m5!3m4!2zMjXCsDAyJzAxLjMiTiAxMjHCsDMxJzQyLjYiRQ!8m2!3d25.0337!4d121.5285!3m8!1s0x3442a9828491bb8f:0x5c75086e47846928!5m2!4m1!1i2!8m2!3d25.0345085!4d121.5277939!16s%2Fg%2F11bbrjt950?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)
     * _Ваучер заселения:_ [Ваучер заселения (PDF)](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Taiwan/_/PrivateDocuments/Отели/Dongmen.pdf)
-    * _Ссылка на локацию_: [Google Maps: Dongmen Hotel](https://maps.google.com/?q=25.0337,121.5285)<iframe src="https://maps.google.com/maps?q=25.0337,121.5285&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Dongmen Hotel](https://www.google.com/maps/place/Dongmen+Hotel/@25.0345055,121.5277674,20.42z/data=!4m15!1m5!3m4!2zMjXCsDAyJzAxLjMiTiAxMjHCsDMxJzQyLjYiRQ!8m2!3d25.0337!4d121.5285!3m8!1s0x3442a9828491bb8f:0x5c75086e47846928!5m2!4m1!1i2!8m2!3d25.0345085!4d121.5277939!16s%2Fg%2F11bbrjt950?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0345085,121.5277939&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
 
@@ -141,7 +144,7 @@ routes:
         2. **Шесть гигантских валунов (Six Giant Rocks / 六巨石)**: Знаменитые природные глыбы на хребте (можно подняться на площадку вокруг них).
         3. **Ночная панорама Синьи:** К моменту выхода на площадку солнце уже зайдёт; главная сцена — огни Taipei 101, транспортные потоки и сияющий деловой район на фоне тёмного неба.
     * _Ссылка на локацию_: [Google Maps: Elephant Mountain Trailhead](https://maps.google.com/?q=25.026541,121.575542)<iframe src="https://maps.google.com/maps?q=25.026541,121.575542&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Хайкинг-трек_: [Google Maps: Xiangshan MRT Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/25.032645,121.569802/25.026541,121.575542/?travelmode=walking)
+    * _Хайкинг-трек_: [Google Maps: Xiangshan MRT Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/25.032645,121.569802/25.026541,121.575542/@25.0325877,121.5673612,17z/am=t/data=!4m7!4m6!3e2!5i1!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)
 
 > [!TIP] 🦟 Защита от насекомых и питьевой режим
 > На лесных склонах в сумерках активны москиты — перед подъемом нанесите репеллент. Возьмите с собой бутылку воды (или купите в автомате у подножия тропы). Спускайтесь не спеша, держась за перила — каменные ступени могут быть гладкими.

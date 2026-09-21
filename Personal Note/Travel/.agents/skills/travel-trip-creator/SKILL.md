@@ -92,7 +92,7 @@ Personal Note/Travel/-- <Название>/
     ├── all/
     └── hotels/
 ```
-Создай главный файл `<Название>.md` с Frontmatter (`trip_start`, `trip_end`, `currency_rate`, `total_budget_rub`) и обзорной концепцией.
+Создай главный файл `<Название>.md` с Frontmatter (`startDate`, `endDate`, `cover`, `descriptionShort`, `tags`, `cities`) и обзорной концепцией.
 
 ### Шаг 3: Каталоги бронирований (`travel-logistics-cataloger`)
 В папке `03 - Бронирования/` создай:

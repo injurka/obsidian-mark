@@ -35,7 +35,8 @@
 
 ## 1.3. Frontmatter заметок дня (`src/parsers/vault.ts`)
 
-- Поддерживаются `day`, `date`, `weekday`, `title`, `location`, `phase`, `accommodation` (и `hotel`), `highlight` (и `description`).
+- Поддерживаются `day`, `date`, `weekday`, `title`, `location`, `phase`, `accommodation` (и `hotel`), `highlight` (и `description`), `is_ready`.
+- `is_ready` (`boolean`) — статус готовности заметки дня: `true` — день проверен и готов к использованию, `false` — день на стадии проверки/редактирования.
 - Значения `highlight` и `phase` формируют `day.description`.
 - При наличии frontmatter цитаты `> **Фаза тура:**` и `> **Ключевой хайлайт:**` в шапке дня не требуются.
 - Перед парсингом активностей и инфо-бейджей frontmatter автоматически вырезается функцией `stripFrontmatter()`.

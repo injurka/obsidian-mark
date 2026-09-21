@@ -10,6 +10,15 @@ highlight: >-
   Утром — пагоды Дракона и Тигра, портовое искусство Pier-2 и обед в Duck
   Zhen; после возвращения городская программа уступает место спокойному
   рабочему спринту.
+is_ready: false
+mode: workation
+base_city: Тайнань
+transport_types:
+  - train
+  - metro
+  - taxi
+booking_status: confirmed
+
 ---
 
 # 🗓️ День 16: Четверг (19 ноября) (💻 Воркейшн)

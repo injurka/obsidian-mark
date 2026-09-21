@@ -9,6 +9,14 @@ accommodation: "Nagahiro Hotel- Taichung Wenxin (3-я ночь в Тайчжун
 highlight: >-
   Оригинальный Pearl Milk Tea в месте его рождения, прогулка сквозь арт-
   кварталы и футуристические био-пещеры Тойо Ито до рабочего спринта!
+is_ready: false
+mode: workation
+base_city: Тайчжун
+transport_types:
+  - metro
+  - walk
+booking_status: confirmed
+
 ---
 
 # 🗓️ День 21: Вторник (24 ноября) (💻 Воркейшн)
