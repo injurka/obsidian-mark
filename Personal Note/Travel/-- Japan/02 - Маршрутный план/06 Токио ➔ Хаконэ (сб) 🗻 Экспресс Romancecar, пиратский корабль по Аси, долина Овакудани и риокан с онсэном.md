@@ -24,28 +24,39 @@ is_ready: false
 
 * **07:30 - 09:00** — Romancecar Shinjuku ➔ Hakone-Yumoto:
     * *Маршрут:* все места резервируются; точный рейс выбрать после фиксации даты.
+
 * **09:00 - 09:20** — Багаж и пересадка:
     * *Маршрут:* оставить чемодан в риокане/камере хранения и купить или активировать pass.
+
 * **09:20 - 10:10** — Tozan Railway до Gora:
     * *Маршрут:* горная железная дорога; не объединять время дороги с осмотром.
+
 * **10:10 - 11:00** — Cable Car и Ropeway к Овакудани:
     * *Маршрут:* Gora ➔ Sounzan ➔ Owakudani; при ветре канатная дорога может остановиться.
+
 * **11:00 - 12:15** — Долина Овакудани:
     * *Контекст:* вулканическая зона; смотровые участки зависят от ограничений безопасности.
     * _Ссылка на локацию_: [Google Maps: Owakudani](https://maps.google.com/?q=Owakudani+Hakone)<iframe src="https://maps.google.com/maps?q=Owakudani+Hakone&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
 * **12:15 - 13:10** — Ropeway до Togendai:
     * *Маршрут:* спуск к порту; оставьте запас на очередь.
+
 * **13:10 - 13:50** — Круиз по озеру Аси:
     * *Контекст:* Hakone Sightseeing Cruise до Moto-Hakone; рейс зависит от погоды.
+
 * **13:50 - 14:30** — Тории у озера и храм Хаконэ:
     * *Маршрут:* короткий пеший участок от порта, без обещания вида на Фудзи.
     * _Ссылка на локацию_: [Google Maps: Hakone Shrine](https://maps.google.com/?q=Hakone+Shrine+Torii)<iframe src="https://maps.google.com/maps?q=Hakone+Shrine+Torii&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
 * **14:30 - 15:10** — Автобус в риокан:
     * *Маршрут:* Moto-Hakone ➔ Hakone-Yumoto/район размещения; уточнить остановку у отеля.
+
 * **15:10 - 18:30** — Заселение и онсэн:
     * *Ритуал:* душ до бассейна, тату-политику уточнить у конкретного риокана.
+
 * **18:30 - 20:00** — Кайсэки-ужин:
     * *Ритуал:* прийти к времени подачи; опоздание может сократить число курсов.
+
 * **20:00 - 20:30** — Отдых и сон:
     * *Буфер:* не добавлять ночную поездку после горной петли.
 
