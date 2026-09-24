@@ -1,40 +1,52 @@
-## Маршрут: teamLab Planets, Остров Одайба и Гиндза
-
-### Важная подготовка (Цифровой музей teamLab)
-
-> [!IMPORTANT] Билеты в teamLab Planets и Дресс-код
-> 1. **Билеты teamLab Planets (Тоёсу):** Бронируйте онлайн заранее за 1 месяц (`3 800 JPY`).
-> 2. **Одежда:** Внутри музея ходят босиком по воде — наденьте легко подворачивающиеся брюки.
-
+---
+day: 3
+date: "2026-09-30"
+weekday: "Среда"
+title: "teamLab Planets, Одайба, Гиндза и Синдзюку"
+location: "Tokyo: Toyosu ➔ Odaiba ➔ Ginza ➔ Shinjuku"
+phase: "🌴 Отпуск"
+accommodation: "Токио, базовый отель"
+highlight: >-
+  Утренний слот teamLab, затем Одайба и два разных вечерних городских района
+  без смешивания длинных переездов с музейным временем.
+is_ready: false
 ---
 
-### Часть 1: Сенсорный цифровой мир teamLab Planets
+# 🗓️ День 03: Среда — teamLab и Одайба
 
-* **09:30 - 12:30** — Посещение музея **teamLab Planets TOKYO** в Тоёсу:
-    * Прогулка босиком по воде среди цифровых карпов кои, бесконечный хрустальный мир «The Infinite Crystal Universe» и сад живых орхидей «Floating Flower Garden».
-    * _Ссылка на локацию_: [Google Maps: teamLab Planets](https://maps.google.com/?q=teamLab+Planets+TOKYO)<iframe src="https://maps.google.com/maps?q=teamLab+Planets+TOKYO&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+> [!IMPORTANT]
+> Официальный магазин teamLab Planets показывает взрослый билет от `4 200 JPY`;
+> купите слот заранее. В музее есть вода: одежда должна легко закатываться,
+> а ценные вещи оставляйте в шкафчике.
 
----
+## Маршрут
 
-### Часть 2: Остров Одайба, Робот Gundam и Статуя Свободы
+* **08:45 - 09:30** — Переезд в Toyosu:
+    * *Маршрут:* метро до Toyosu и Yurikamome до Shin-Toyosu; заложен запас до входного слота.
+* **09:30 - 11:30** — teamLab Planets:
+    * *Контекст:* босиком по воде и цифровым инсталляциям; билет привязан ко времени.
+    * _Ссылка на локацию_: [Google Maps: teamLab Planets](https://maps.google.com/?q=teamLab+Planets+TOKYO)<iframe src="https://maps.google.com/maps?q=teamLab+Planets+TOKYO&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **11:30 - 12:00** — Переезд на Одайбу:
+    * *Маршрут:* Yurikamome до Tokyo Teleport/Aomi; это отдельный транспортный слот.
+* **12:00 - 15:00** — Одайба и Unicorn Gundam:
+    * *Ритуал:* обед в DiverCity, Gundam и короткая прогулка к набережной.
+    * _Ссылка на локацию_: [Google Maps: DiverCity Tokyo Plaza](https://maps.google.com/?q=DiverCity+Tokyo+Plaza)<iframe src="https://maps.google.com/maps?q=DiverCity+Tokyo+Plaza&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **15:00 - 15:40** — Переезд в Гиндзу:
+    * *Маршрут:* Yurikamome/метро с пересадкой; не планируйте шопинг в этот слот.
+* **15:40 - 18:00** — Гиндза:
+    * *Контекст:* Ginza Six, Uniqlo Ginza и кофе; оставьте покупки в отеле, если они хрупкие.
+    * _Ссылка на локацию_: [Google Maps: Ginza Six](https://maps.google.com/?q=Ginza+Six+Tokyo)<iframe src="https://maps.google.com/maps?q=Ginza+Six+Tokyo&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **18:00 - 18:30** — Переезд в Синдзюку:
+    * *Маршрут:* Tokyo Metro Marunouchi Line до Shinjuku; проверьте последний поезд после ужина.
+* **18:30 - 20:30** — Omoide Yokocho:
+    * *Ритуал:* якитори и небольшие порции; узкие проходы требуют уважения к очередям.
+    * _Ссылка на локацию_: [Google Maps: Omoide Yokocho](https://maps.google.com/?q=Omoide+Yokocho+Tokyo)<iframe src="https://maps.google.com/maps?q=Omoide+Yokocho+Tokyo&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **20:30 - 21:00** — Возвращение в отель:
+    * *Буфер:* не оставлять финальный участок дня без обратного переезда.
 
-* **12:30 - 16:30** — Поездка на беспилотном поезде **Yurikamome** на насыпной остров **Одайба (Odaiba)**:
-    * Обед в комплексе *DiverCity Tokyo Plaza*.
-    * **Статуя робота Unicorn Gundam (19.7 м):** Световая трансформация под музыку.
-    * Вид на Радужный мост (Rainbow Bridge) и Статую Свободы.
-    * _Ссылка на локацию_: [Google Maps: Odaiba Statue of Liberty](https://maps.google.com/?q=Odaiba+Statue+of+Liberty)<iframe src="https://maps.google.com/maps?q=Odaiba+Statue+of+Liberty&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+## 💰 Финансовые затраты на день
 
----
-
-### Часть 3: Фешенебельная Гиндза и Переулок Omoide Yokocho
-
-* **16:30 - 19:30** — Переезд в район **Гиндза (Ginza)**: галерея *Ginza Six* и 12-этажный флагман *Uniqlo Ginza*.
-* **19:30 - 22:00** — Вечер в Синдзюку: атмосферный переулок **Omoide Yokocho** с шашлычками *якитори* на углях.
-
----
-
-## Финансовые затраты на день 
-* Билет в teamLab Planets: `3 800 JPY` (`~2 430 ₽`).
-* Монорельс Yurikamome и метро (Suica): `~1 100 JPY` (`~700 ₽`).
-* Обед и ужин якитори в Omoide Yokocho: `~3 800 JPY` (`~2 430 ₽`).
-* **Итого за день (без учета отеля):** около `8 700 JPY` (`~5 560 ₽`).
+* teamLab Planets: `~4 200 JPY` (`~2 268 ₽`).
+* Yurikamome и метро: `~1 100 JPY` (`~594 ₽`).
+* Еда и кофе: `~3 800 JPY` (`~2 052 ₽`).
+* **Итого без отеля:** около `~9 100 JPY` (`~4 914 ₽`).

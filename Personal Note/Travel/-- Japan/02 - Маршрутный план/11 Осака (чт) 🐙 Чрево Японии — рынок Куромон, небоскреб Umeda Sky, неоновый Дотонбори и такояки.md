@@ -1,38 +1,44 @@
-## Маршрут: Гастрономическая Осака (Куромон, Umeda Sky и Дотонбори)
-
-### Важная подготовка (Кулинарный день в Осаке)
-
-> [!IMPORTANT] Кулинарный рай Осаки
-> 1. Приходите на рынок Куромон голодными к 10:00 утра.
-> 2. Билеты на Umeda Sky Building покупайте онлайн (`1 500 JPY`).
-
+---
+day: 11
+date: "2026-10-08"
+weekday: "Четверг"
+title: "Куромон, Umeda Sky и Дотонбори"
+location: "Osaka: Kuromon ➔ Umeda ➔ Dotonbori"
+phase: "🌴 Отпуск"
+accommodation: "Осака, отель в районе Namba"
+highlight: >-
+  Гастрономический день с короткими понятными переездами между Kuromon,
+  Umeda и вечерним Дотонбори.
+is_ready: false
 ---
 
-### Часть 1: Рынок морепродуктов Куромон (Kuromon Ichiba)
+# 🗓️ День 11: Четверг — гастрономическая Осака
 
-* **10:00 - 13:00** — Рынок **Kuromon Ichiba**:
-    * Стейк из мраморного мяса **Вагю A5 Kobe**, сашими из тунца о-торо, морские ежи уни и свежевыжатый дынный сок.
-    * _Ссылка на локацию_: [Google Maps: Kuromon Market](https://maps.google.com/?q=Kuromon+Ichiba+Market+Osaka)<iframe src="https://maps.google.com/maps?q=Kuromon+Ichiba+Market+Osaka&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+## Маршрут
 
----
+* **09:30 - 10:00** — Переезд к Kuromon:
+    * *Маршрут:* пешком или одна остановка метро от Namba.
+* **10:00 - 12:00** — Kuromon Ichiba:
+    * *Контекст:* рынок с морепродуктами и готовой едой; цена вагю/уни зависит от продавца.
+    * _Ссылка на локацию_: [Google Maps: Kuromon Ichiba](https://maps.google.com/?q=Kuromon+Ichiba+Market+Osaka)<iframe src="https://maps.google.com/maps?q=Kuromon+Ichiba+Market+Osaka&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **12:00 - 12:30** — Nippombashi ➔ Umeda:
+    * *Маршрут:* метро Midosuji Line; пересадка и подъём к зданию не включены в осмотр.
+* **12:30 - 15:00** — Umeda Sky Building:
+    * *Контекст:* смотровая площадка и окрестности Umeda; билет проверяйте на дату.
+    * _Ссылка на локацию_: [Google Maps: Umeda Sky Building](https://maps.google.com/?q=Umeda+Sky+Building+Osaka)<iframe src="https://maps.google.com/maps?q=Umeda+Sky+Building+Osaka&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **15:00 - 15:40** — Umeda ➔ Namba:
+    * *Маршрут:* Midosuji Line; можно сделать остановку в отеле.
+* **15:40 - 17:30** — Отдых в отеле:
+    * *Буфер:* свободное окно перед вечерним потоком.
+* **17:30 - 20:30** — Дотонбори и ужин:
+    * *Ритуал:* Glico Man, канал, такояки и окономияки; не перегружать заказами.
+    * _Ссылка на локацию_: [Google Maps: Dotonbori](https://maps.google.com/?q=Dotonbori+Osaka)<iframe src="https://maps.google.com/maps?q=Dotonbori+Osaka&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **20:30 - 21:00** — Возвращение в отель:
+    * *Буфер:* ранняя упаковка для Хиросимы.
 
-### Часть 2: Небоскреб Umeda Sky Building и Парящий Сад
+## 💰 Финансовые затраты на день
 
-* **13:30 - 16:30** — Район Умэда:
-    * Подъем на прозрачном эскалаторе на смотровую площадку *Floating Garden Observatory* небоскреба **Umeda Sky Building** (173 м).
-    * _Ссылка на локацию_: [Google Maps: Umeda Sky Building](https://maps.google.com/?q=Umeda+Sky+Building+Osaka)<iframe src="https://maps.google.com/maps?q=Umeda+Sky+Building+Osaka&output=embed" style="width: 100%; min-width: 100%; height: 250px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-
----
-
-### Часть 3: Неоновый Дотонбори, Glico Man и Такояки
-
-* **17:00 - 22:00** — Вечер в Дотонбори:
-    * Фото с бегуном **Glico Running Man**, горячие шарики **Такояки** (`800 JPY`) и ужин лепешкой **Окономияки** в *Mizuno*.
-
----
-
-## Финансовые затраты на день 
-* Билет на Umeda Sky Building: `1 500 JPY` (`~960 ₽`).
-* Проезд на метро (Suica): `~600 JPY` (`~380 ₽`).
-* Дегустации вагю, такояки и ужин окономияки: `~5 500 JPY` (`~3 520 ₽`).
-* **Итого за день (без учета отеля):** около `7 600 JPY` (`~4 860 ₽`).
+* Метро: `~700 JPY` (`~378 ₽`).
+* Umeda Sky и другие билеты: `~2 000 JPY` (`~1 080 ₽`).
+* Еда и дегустации: `~5 000 JPY` (`~2 700 ₽`).
+* **Итого без отеля:** около `~7 700 JPY` (`~4 158 ₽`).
