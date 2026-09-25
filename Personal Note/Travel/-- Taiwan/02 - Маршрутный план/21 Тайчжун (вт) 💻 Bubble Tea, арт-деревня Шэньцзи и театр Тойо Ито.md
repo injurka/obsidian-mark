@@ -1,5 +1,6 @@
 ---
 day: 21
+cssclasses: activity-timeline
 date: "2026-11-24"
 weekday: "Вторник"
 title: "Bubble Tea, арт-деревня Шэньцзи и театр Тойо Ито"

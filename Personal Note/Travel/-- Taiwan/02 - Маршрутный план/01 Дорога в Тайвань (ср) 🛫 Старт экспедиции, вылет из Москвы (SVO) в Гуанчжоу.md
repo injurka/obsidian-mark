@@ -1,5 +1,6 @@
 ---
 day: 1
+cssclasses: activity-timeline
 date: 2026-11-04
 weekday: Среда
 title: Старт экспедиции, вылет из Москвы (SVO) в Гуанчжоу

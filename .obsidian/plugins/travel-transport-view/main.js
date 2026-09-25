@@ -1,4 +1,4 @@
-const { Component, Notice, Plugin, PluginSettingTab, Setting } = require("obsidian");
+const { Component, Modal, Plugin, PluginSettingTab, Setting } = require("obsidian");
 
 const DEFAULT_SETTINGS = {
   autoRefresh: true,
@@ -54,6 +54,57 @@ function parseYamlScalar(value) {
 function parseYamlPair(line) {
   const match = String(line || "").match(/^([A-Za-z][\w-]*)\s*:\s*(.*?)\s*$/);
   return match ? { key: match[1].toLowerCase(), value: parseYamlScalar(match[2]) } : null;
+}
+
+function parseGalleryYaml(source) {
+  const lines = String(source || "").split(/\r?\n/);
+  let title = "";
+  let imageSource = "";
+  let inImages = false;
+  let isFlowList = false;
+  const blockImages = [];
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#")) continue;
+
+    if (!inImages) {
+      const pair = parseYamlPair(line);
+      if (pair?.key === "title") title = pair.value;
+      if (pair?.key === "images") {
+        inImages = true;
+        imageSource = pair.value;
+        isFlowList = imageSource.startsWith("[");
+        if (!isFlowList && imageSource) blockImages.push(imageSource);
+        if (isFlowList && imageSource.includes("]")) inImages = false;
+      }
+      continue;
+    }
+
+    if (isFlowList) {
+      imageSource += `\n${line}`;
+      if (line.includes("]")) inImages = false;
+      continue;
+    }
+
+    const item = line.match(/^-[ \t]*(.+)$/);
+    if (item) blockImages.push(parseYamlScalar(item[1]));
+    else inImages = false;
+  }
+
+  let images = blockImages;
+  if (isFlowList || imageSource.startsWith("[")) {
+    try {
+      const list = JSON.parse(imageSource);
+      if (Array.isArray(list) && list.every((value) => typeof value === "string")) images = list;
+      else return { title, images: [], error: "images должен быть списком строк." };
+    } catch {
+      return { title, images: [], error: "Не удалось прочитать список images." };
+    }
+  }
+
+  images = [...new Set(images.map((image) => String(image).trim()).filter((image) => /\.(png|jpe?g|webp|gif|heic|heif|svg)$/i.test(image)))];
+  return { title, images, error: images.length ? "" : "Добавьте в images пути к файлам изображений." };
 }
 
 function parseTransportYaml(source, sourcePath, line, allowedTypes) {
@@ -238,6 +289,294 @@ class TransportViewMount extends Component {
   }
 }
 
+class GalleryImageModal extends Modal {
+  constructor(app, resourcePath, title) {
+    super(app);
+    this.resourcePath = resourcePath;
+    this.title = title;
+  }
+
+  onOpen() {
+    this.modalEl.addClass("tpv-gallery-modal");
+    this.contentEl.empty();
+    const image = createElement("img", "tpv-gallery-modal-image", this.contentEl);
+    image.src = this.resourcePath;
+    image.alt = this.title;
+    image.decoding = "async";
+    createElement("div", "tpv-gallery-modal-caption", this.contentEl, this.title);
+  }
+}
+
+class GalleryViewMount extends Component {
+  constructor(plugin, root, source, sourcePath) {
+    super();
+    this.plugin = plugin;
+    this.root = root;
+    this.source = source;
+    this.sourcePath = sourcePath;
+    this.galleryItems = [];
+    this.lastLayoutWidth = 0;
+  }
+
+  onunload() {
+    this.root.replaceChildren();
+  }
+
+  render() {
+    const gallery = parseGalleryYaml(this.source);
+    this.root.replaceChildren();
+    this.root.className = "tpv-gallery";
+
+    if (gallery.title) {
+      const header = createElement("div", "tpv-gallery-header", this.root);
+      createElement("div", "tpv-gallery-title", header, gallery.title);
+      createElement("span", "tpv-gallery-count", header, `${gallery.images.length} фото`);
+    }
+    if (gallery.error) {
+      createElement("div", "tpv-gallery-error", this.root, gallery.error);
+      return;
+    }
+
+    const grid = createElement("div", "tpv-gallery-grid", this.root);
+    gallery.images.forEach((imagePath) => {
+      const file = this.plugin.app.vault.getAbstractFileByPath(imagePath.replace(/^\.\//, ""))
+        || this.plugin.app.metadataCache.getFirstLinkpathDest(imagePath, this.sourcePath);
+      if (!file || !("extension" in file)) {
+        createElement("div", "tpv-gallery-missing", grid, `Файл не найден: ${imagePath}`);
+        return;
+      }
+
+      const resourcePath = this.plugin.app.vault.getResourcePath(file);
+      const button = createElement("button", "tpv-gallery-item", grid);
+      button.type = "button";
+      button.setAttribute("aria-label", `Открыть изображение ${file.basename}`);
+      const image = createElement("img", "tpv-gallery-image", button);
+      image.alt = file.basename;
+      image.loading = gallery.images.length <= 6 ? "eager" : "lazy";
+      image.decoding = "async";
+      const item = { button, image, ratio: 1, pixelArea: 0 };
+      this.galleryItems.push(item);
+      this.registerDomEvent(image, "load", () => {
+        item.ratio = image.naturalWidth / image.naturalHeight || 1;
+        item.pixelArea = image.naturalWidth * image.naturalHeight;
+        this.applyGalleryLayout(grid, true);
+      });
+      this.registerDomEvent(image, "error", () => {
+        item.ratio = 1;
+        this.applyGalleryLayout(grid, true);
+      });
+      this.registerDomEvent(button, "click", () => new GalleryImageModal(this.plugin.app, resourcePath, file.basename).open());
+      image.src = resourcePath;
+    });
+
+    this.applyGalleryLayout(grid, true);
+    if (typeof ResizeObserver !== "undefined") {
+      const observer = new ResizeObserver(() => this.applyGalleryLayout(grid));
+      observer.observe(grid);
+      this.register(() => observer.disconnect());
+    }
+  }
+
+  applyGalleryLayout(grid, force = false) {
+    const width = Math.round(grid.clientWidth);
+    if (!width || !this.galleryItems.length || (!force && Math.abs(width - this.lastLayoutWidth) < 8)) return;
+    this.lastLayoutWidth = width;
+
+    const items = this.galleryItems;
+    const ratios = items.map((item) => item.ratio || 1);
+    const count = items.length;
+    const meanRatio = ratios.reduce((sum, ratio) => sum + ratio, 0) / count;
+    const gap = 12;
+    const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+    const setObjectFit = (item, targetRatio) => {
+      const crop = Math.abs(Math.log(item.ratio / targetRatio));
+      item.image.style.objectFit = crop > 0.34 ? "contain" : "cover";
+      item.button.classList.toggle("tpv-gallery-item-contain", crop > 0.34);
+    };
+
+    grid.classList.remove("tpv-gallery-grid-single", "tpv-gallery-grid-pair", "tpv-gallery-grid-panorama", "tpv-gallery-grid-portrait", "tpv-gallery-grid-balanced", "tpv-gallery-grid-masonry", "tpv-gallery-grid-mobile-collage");
+    grid.style.gridTemplateColumns = "";
+    grid.style.gridTemplateRows = "";
+    grid.style.gridAutoRows = "";
+
+    items.forEach((item) => {
+      item.button.style.gridColumn = "";
+      item.button.style.gridRow = "";
+      item.button.style.aspectRatio = "";
+      item.button.style.height = "";
+      item.button.classList.remove("tpv-gallery-item-featured", "tpv-gallery-item-contain");
+      item.image.style.objectFit = "cover";
+    });
+
+    if (count === 1) {
+      const item = items[0];
+      const height = clamp(width / item.ratio, 240, Math.min(500, window.innerHeight * 0.62));
+      const targetRatio = width / height;
+      grid.classList.add("tpv-gallery-grid-single");
+      grid.style.gridTemplateColumns = "minmax(0, 1fr)";
+      grid.style.gridTemplateRows = `${height}px`;
+      item.button.style.gridColumn = "1";
+      item.button.style.gridRow = "1";
+      setObjectFit(item, targetRatio);
+      return;
+    }
+
+    if (count === 2) {
+      const weights = ratios.map((ratio) => clamp(ratio, 0.8, 1.9));
+      const rowHeight = clamp(width / (ratios[0] + ratios[1]), 220, Math.min(420, window.innerHeight * 0.55));
+      grid.classList.add("tpv-gallery-grid-pair");
+      grid.style.gridTemplateColumns = weights.map((weight) => `minmax(0, ${weight.toFixed(2)}fr)`).join(" ");
+      grid.style.gridTemplateRows = `${rowHeight}px`;
+      items.forEach((item, index) => {
+        item.button.style.gridColumn = `${index + 1}`;
+        item.button.style.gridRow = "1";
+        setObjectFit(item, (width * weights[index] / (weights[0] + weights[1])) / rowHeight);
+      });
+      return;
+    }
+
+    if (count === 3) {
+      const portraitIndex = ratios.reduce((best, ratio, index) => ratio < ratios[best] ? index : best, 0);
+      const panoramaIndex = ratios.reduce((best, ratio, index) => ratio > ratios[best] ? index : best, 0);
+
+      if (width < 700) {
+        const featuredIndex = ratios[panoramaIndex] > 1.9
+          ? panoramaIndex
+          : ratios[portraitIndex] < 0.78
+            ? portraitIndex
+            : items.reduce((best, item, index) => item.pixelArea > items[best].pixelArea ? index : best, 0);
+        const sideItems = items.filter((_, index) => index !== featuredIndex);
+        const sideRatio = sideItems.reduce((sum, item) => sum + item.ratio, 0) / sideItems.length;
+        const heroHeight = clamp(width / items[featuredIndex].ratio, 190, Math.min(330, window.innerHeight * 0.42));
+        const sideHeight = clamp(((width - gap) / 2) / sideRatio, 150, Math.min(230, window.innerHeight * 0.32));
+        grid.classList.add("tpv-gallery-grid-mobile-collage");
+        grid.style.gridTemplateColumns = "repeat(2, minmax(0, 1fr))";
+        grid.style.gridTemplateRows = `${heroHeight}px ${sideHeight}px`;
+        items.forEach((item, index) => {
+          if (index === featuredIndex) {
+            item.button.style.gridColumn = "1 / span 2";
+            item.button.style.gridRow = "1";
+            item.button.classList.add("tpv-gallery-item-featured");
+            setObjectFit(item, width / heroHeight);
+          }
+          else {
+            const sideColumn = sideItems.indexOf(item) + 1;
+            item.button.style.gridColumn = `${sideColumn}`;
+            item.button.style.gridRow = "2";
+            setObjectFit(item, ((width - gap) / 2) / sideHeight);
+          }
+        });
+        return;
+      }
+
+      if (ratios[portraitIndex] < 0.78) {
+        const sideItems = items.filter((_, index) => index !== portraitIndex);
+        const sideRatio = sideItems.reduce((sum, item) => sum + item.ratio, 0) / sideItems.length;
+        const rowHeight = clamp((width * 0.46 / ratios[portraitIndex] + width * 0.54 / sideRatio) / 4, 170, Math.min(300, window.innerHeight * 0.38));
+        grid.classList.add("tpv-gallery-grid-portrait");
+        grid.style.gridTemplateColumns = "minmax(0, 0.92fr) minmax(0, 1.08fr)";
+        grid.style.gridTemplateRows = `${rowHeight}px ${rowHeight}px`;
+        items.forEach((item, index) => {
+          if (index === portraitIndex) {
+            item.button.style.gridColumn = "1";
+            item.button.style.gridRow = "1 / span 2";
+            item.button.classList.add("tpv-gallery-item-featured");
+            setObjectFit(item, width * 0.46 / (rowHeight * 2 + gap));
+          }
+          else {
+            const sideRow = sideItems.indexOf(item) + 1;
+            item.button.style.gridColumn = "2";
+            item.button.style.gridRow = `${sideRow}`;
+            setObjectFit(item, width * 0.54 / rowHeight);
+          }
+        });
+        return;
+      }
+
+      if (ratios[panoramaIndex] > 1.9) {
+        const heroHeight = clamp(width / ratios[panoramaIndex], 230, Math.min(430, window.innerHeight * 0.5));
+        const sideItems = items.filter((_, index) => index !== panoramaIndex);
+        const sideRatio = sideItems.reduce((sum, item) => sum + item.ratio, 0) / sideItems.length;
+        const sideHeight = clamp((width / 2) / sideRatio, 180, Math.min(300, window.innerHeight * 0.36));
+        grid.classList.add("tpv-gallery-grid-panorama");
+        grid.style.gridTemplateColumns = "repeat(2, minmax(0, 1fr))";
+        grid.style.gridTemplateRows = `${heroHeight}px ${sideHeight}px`;
+        items.forEach((item, index) => {
+          if (index === panoramaIndex) {
+            item.button.style.gridColumn = "1 / span 2";
+            item.button.style.gridRow = "1";
+            item.button.classList.add("tpv-gallery-item-featured");
+            setObjectFit(item, width / heroHeight);
+          }
+          else {
+            const sideColumn = sideItems.indexOf(item) + 1;
+            item.button.style.gridColumn = `${sideColumn}`;
+            item.button.style.gridRow = "2";
+            setObjectFit(item, (width / 2 - gap / 2) / sideHeight);
+          }
+        });
+        return;
+      }
+
+      const featuredIndex = items.reduce((best, item, index) => item.pixelArea > items[best].pixelArea ? index : best, 0);
+      const tileHeight = clamp((width / 3) / meanRatio, 210, Math.min(330, window.innerHeight * 0.42));
+      grid.classList.add("tpv-gallery-grid-balanced");
+      grid.style.gridTemplateColumns = "repeat(3, minmax(0, 1fr))";
+      grid.style.gridTemplateRows = `${tileHeight}px`;
+      items.forEach((item, index) => {
+        item.button.style.gridColumn = `${index + 1}`;
+        item.button.style.gridRow = "1";
+        if (index === featuredIndex) item.button.classList.add("tpv-gallery-item-featured");
+        setObjectFit(item, (width / 3 - gap * 2 / 3) / tileHeight);
+      });
+      return;
+    }
+
+    const columnCount = width < 700 ? 2 : meanRatio > 1.7 && width > 1200 ? 4 : 3;
+    const gapSize = width < 700 ? 8 : 12;
+    const unitWidth = (width - gapSize * (columnCount - 1)) / columnCount;
+    const rowUnit = 12;
+    const targetHeight = clamp(width * 0.26, 220, 360);
+    const baseArea = width * targetHeight / count;
+    const featuredIndex = items.reduce((best, item, index) => item.pixelArea > items[best].pixelArea ? index : best, 0);
+    const occupied = [];
+    const place = (columnSpan, rowSpan) => {
+      for (let row = 0; ; row++) {
+        for (let column = 0; column <= columnCount - columnSpan; column++) {
+          let free = true;
+          for (let y = row; y < row + rowSpan && free; y++) {
+            for (let x = column; x < column + columnSpan; x++) {
+              if (occupied[y]?.[x]) { free = false; break; }
+            }
+          }
+          if (!free) continue;
+          for (let y = row; y < row + rowSpan; y++) {
+            occupied[y] ||= [];
+            for (let x = column; x < column + columnSpan; x++) occupied[y][x] = true;
+          }
+          return { row, column };
+        }
+      }
+    };
+
+    grid.classList.add("tpv-gallery-grid-masonry");
+    grid.style.gridTemplateColumns = `repeat(${columnCount}, minmax(0, 1fr))`;
+    grid.style.gridAutoRows = `${rowUnit}px`;
+    items.forEach((item, index) => {
+      const area = baseArea * (index === featuredIndex ? 1.35 : 0.85);
+      const desiredWidth = Math.sqrt(area * item.ratio);
+      const columnSpan = clamp(Math.round(desiredWidth / unitWidth), 1, columnCount);
+      const desiredHeight = desiredWidth / item.ratio;
+      const rowSpan = clamp(Math.round((desiredHeight + gapSize) / (rowUnit + gapSize)), 8, 30);
+      const position = place(columnSpan, rowSpan);
+      item.button.style.gridColumn = `${position.column + 1} / span ${columnSpan}`;
+      item.button.style.gridRow = `${position.row + 1} / span ${rowSpan}`;
+      if (index === featuredIndex) item.button.classList.add("tpv-gallery-item-featured");
+      setObjectFit(item, (unitWidth * columnSpan) / (rowUnit * rowSpan + gapSize * (rowSpan - 1)));
+    });
+  }
+}
+
 class TransportViewSettingTab extends PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
@@ -317,6 +656,13 @@ class TravelTransportView extends Plugin {
       this.entries.add(entry);
       context.addChild(new TransportViewMount(this, entry));
       void this.refreshEntry(entry);
+    });
+
+    this.registerMarkdownCodeBlockProcessor("gallery", (source, element, context) => {
+      const root = createElement("div", "tpv-gallery", element);
+      const gallery = new GalleryViewMount(this, root, source, context.sourcePath);
+      context.addChild(gallery);
+      gallery.render();
     });
 
     this.addCommand({

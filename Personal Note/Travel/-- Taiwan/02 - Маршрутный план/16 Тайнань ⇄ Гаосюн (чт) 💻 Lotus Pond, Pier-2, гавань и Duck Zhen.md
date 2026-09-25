@@ -1,5 +1,6 @@
 ---
 day: 16
+cssclasses: activity-timeline
 date: "2026-11-19"
 weekday: "Четверг"
 title: "Lotus Pond, Pier-2, гавань и Duck Zhen"
@@ -60,9 +61,13 @@ booking_status: confirmed
     * _Ссылка на локацию_: [Google Maps: Dragon and Tiger Pagodas](https://maps.google.com/?q=22.680200,120.291500)<iframe src="https://maps.google.com/maps?q=22.680200,120.291500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Хайкинг-трек_: [Google Maps: Lotus Pond walking route](https://www.google.com/maps/dir/Dragon+and+Tiger+Pagodas+Kaohsiung/Spring+and+Autumn+Pavilions/Zuoying+Yuandi+Temple/@22.6815,120.2925,16z/?travelmode=walking)
 
-> [!INFO]- Картинки
-> ![[Pasted image 20260908164157.png]]
-> ![[Pasted image 20260908164320.png]]
+```gallery
+title: "Lotus Pond и пагоды Дракона и Тигра"
+images: [
+  "Pasted image 20260908164157.png",
+  "Pasted image 20260908164320.png"
+]
+```
 
 * **09:25 - 10:00** — MRT до района Yancheng и Pier-2:
     * Такси или пеший переход до Ecological District (R15), Red Line до Formosa Boulevard, пересадка на Orange Line до Yanchengpu (O2). От выхода станции — пешком к Dayi Warehouse.

@@ -1,0 +1,71 @@
+/* Timed activities: support Obsidian's tight and loose Markdown lists. */
+.activity-timeline ul:has(> li > ul):has(> li > strong:first-child),
+.activity-timeline ul:has(> li > ul):has(> li > p > strong:first-child) {
+  list-style: none !important;
+  margin-block: 0.25rem 0.5rem;
+  padding-inline-start: 0;
+}
+
+.activity-timeline ul:has(> li > ul):has(> li > strong:first-child) > li,
+.activity-timeline ul:has(> li > ul):has(> li > p > strong:first-child) > li {
+  position: relative;
+  margin: 0;
+  padding: 0.05rem 0 1rem 0;
+  border-inline-start: 0;
+}
+
+.activity-timeline ul:has(> li > ul):has(> li > strong:first-child) > li:last-child,
+.activity-timeline ul:has(> li > ul):has(> li > p > strong:first-child) > li:last-child {
+  padding-bottom: 0.15rem;
+}
+
+.activity-timeline ul:has(> li > ul):has(> li > strong:first-child) > li > strong:first-child,
+.activity-timeline ul:has(> li > ul):has(> li > p > strong:first-child) > li > p > strong:first-child {
+  display: inline-block;
+  margin-inline-end: 0.35rem;
+  padding: 0.1em 0.55em;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  background: var(--background-secondary);
+  color: var(--text-accent);
+  font-size: 0.82em;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+/* Also style the time and hide its bullet in Live Preview / Source mode. */
+:is(
+  .activity-timeline.markdown-source-view.mod-cm6,
+  .activity-timeline .markdown-source-view.mod-cm6
+) .HyperMD-list-line-1:has(.cm-strong) {
+  position: relative;
+  border-inline-start: 0;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+}
+
+:is(
+  .activity-timeline.markdown-source-view.mod-cm6,
+  .activity-timeline .markdown-source-view.mod-cm6
+) .HyperMD-list-line-1:has(.cm-strong) .cm-formatting-list-ul,
+:is(
+  .activity-timeline.markdown-source-view.mod-cm6,
+  .activity-timeline .markdown-source-view.mod-cm6
+) .HyperMD-list-line-1:has(.cm-strong) .list-bullet {
+  display: none !important;
+}
+
+:is(
+  .activity-timeline.markdown-source-view.mod-cm6,
+  .activity-timeline .markdown-source-view.mod-cm6
+) .HyperMD-list-line-1:has(.cm-strong) .cm-strong:not(.cm-formatting) {
+  display: inline-block;
+  margin-inline-end: 0.35rem;
+  padding: 0.1em 0.55em;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  background: var(--background-secondary);
+  color: var(--text-accent);
+  font-variant-numeric: tabular-nums;
+}

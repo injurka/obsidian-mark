@@ -1,5 +1,6 @@
 ---
 day: 22
+cssclasses: activity-timeline
 date: "2026-11-25"
 weekday: "Среда"
 title: "Сладкий Тайчжун"

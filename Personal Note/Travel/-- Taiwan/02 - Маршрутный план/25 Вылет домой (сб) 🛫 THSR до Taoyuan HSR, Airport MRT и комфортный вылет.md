@@ -1,5 +1,6 @@
 ---
 day: 25
+cssclasses: activity-timeline
 date: "2026-11-28"
 weekday: "Суббота"
 title: "THSR до Taoyuan HSR, Airport MRT и комфортный вылет"

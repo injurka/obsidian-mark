@@ -1,5 +1,6 @@
 ---
 day: 3
+cssclasses: activity-timeline
 date: 2026-11-06
 weekday: Пятница
 title: Первые огни Тайбэя
@@ -70,10 +71,14 @@ booking_status: confirmed
     * **Снятие наличных:** Банкоматы *Bank of Taiwan*, *Mega Bank* или *CTBC Bank* в зале прилета.
     * **EasyCard (悠遊卡):** Покупка карты в кассе Airport MRT (`~280 ₽` / NT$ 100 за пластик) и пополнение на `~2 000–2 500 ₽` для первых поездок. Если выиграли в акции, призовой баланс оформляется позже по инструкции из email и не заменяет стартовое пополнение сразу после прилёта.
     * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-> [!INFO]- Картинки
-> ![[Pasted image 20260825141150.png]]
-> ![[Pasted image 20260825141200.png]]
-> ![[Pasted image 20260825141550.png]]
+```gallery
+title: "Прилет в Таоюань (TPE) и формальности в зале прилета"
+images: [
+  "Pasted image 20260825141150.png",
+  "Pasted image 20260825141200.png",
+  "Pasted image 20260825141550.png"
+]
+```
 
 * **15:30 - 16:30** — Экспресс Taoyuan Airport MRT ➔ Taipei Main Station:
     * *Посадка*: Спуститесь по указателям к перронам терминала Terminal 1 (A12) или Terminal 2 (A13).
@@ -81,8 +86,12 @@ booking_status: confirmed
     * 🎁 **Первый гастро-ритуал:** В магазине 7-Eleven прямо перед турникетами станции возьмите горячее тайваньское чайное яйцо со специями (**Tea Egg / 茶葉蛋**, `~38 ₽` / NT$ 13) и бутылочку холодного улуна или жасминового чая без сахара (無糖).
     * *Навигация к отелю*: По прибытии на станцию A1 (Airport MRT) перейдите по указателям на Красную ветку метро MRT (**Tamsui-Xinyi Line / Taipei Main Station, R10**). Садитесь на поезд в сторону Xiangshan / Daan и проедьте всего **3 остановки (6 минут)** до станции **Dongmen (東門, R07)**. Поднимитесь через **Выход 1 или 2** на улицу Linyi St / Xinyi Rd — отель **Dongmen Hotel** находится всего в 150 метрах (2–3 минуты пешком) к югу по тихой улице Linyi St.
     * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://www.google.com/maps/place/HSR+Taipei+Station/@25.047761,121.5144741,17z/data=!3m1!5s0x36ef31d83d17a355:0xa70111dae00d0c9f!4m12!1m5!3m4!2zMjXCsDAyJzUxLjkiTiAxMjHCsDMxJzAxLjQiRQ!8m2!3d25.047761!4d121.517049!3m5!1s0x3442a96ae3a027c9:0x71f799a0d10bd6fb!8m2!3d25.0472791!4d121.517643!16s%2Fg%2F11s93k17hw?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0472791,121.517643&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-> [!INFO]- Картинки
-> ![[Pasted image 20260825142447.png]]
+```gallery
+title: "Экспресс Taoyuan Airport MRT ➔ Taipei Main Station"
+images: [
+  "Pasted image 20260825142447.png"
+]
+```
 
 ```transport
 type: metro
@@ -149,10 +158,14 @@ routes:
 > [!TIP] 🦟 Защита от насекомых и питьевой режим
 > На лесных склонах в сумерках активны москиты — перед подъемом нанесите репеллент. Возьмите с собой бутылку воды (или купите в автомате у подножия тропы). Спускайтесь не спеша, держась за перила — каменные ступени могут быть гладкими.
 
-> [!INFO]- Картинки
-> ![[01_taipei101_sunset.jpg]]
-> ![[20260825143131.png]]
-> ![[Pasted image 20260825143148.png]]
+```gallery
+title: "Xiangshan"
+images: [
+  "_/03/01_taipei101_sunset.jpg",
+  "_/03/20260825143131.png",
+  "_/03/Pasted image 20260825143148.png"
+]
+```
 
 ---
 
@@ -201,10 +214,14 @@ routes:
         3. **Тайваньские морепродукты:** Жареные на углях щупальца кальмара со специей «пять ароматов», жареные перепелиные яйца на шпажках и мини-сосиски в клейком рисе («маленькая колбаска в большой» / 大腸包小腸).
         4. **Фруктовый десерт:** Ломтики сочной тайваньской восковой яблони (Wax Apple / 蓮霧) или хрустящей гуавы, посыпанной кисло-сладкой сливовой пудрой.
     * _Ссылка на локацию_: [Google Maps: Raohe Night Market](https://maps.google.com/?q=25.050965,121.577543)<iframe src="https://maps.google.com/maps?q=25.050965,121.577543&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-> [!INFO]- Картинки
-> ![[Pasted image 20260825144106.png]]
-> ![[Pasted image 20260825144247.png]]
-> ![[Pasted image 20260825144308.png]]
+```gallery
+title: "Ночной рынок Жаохэ (Raohe Night Market)"
+images: [
+  "Pasted image 20260825144106.png",
+  "Pasted image 20260825144247.png",
+  "Pasted image 20260825144308.png"
+]
+```
 
 ---
 

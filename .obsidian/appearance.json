@@ -12,7 +12,8 @@
     "recipe-layout",
     "recipe-layout-eat",
     "recipe-layout-drink",
-    "travel-rating"
+    "travel-rating",
+    "activity-timeline"
   ],
   "theme": "moonstone",
   "baseFontSize": 16,

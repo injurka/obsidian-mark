@@ -129,6 +129,120 @@
   font-size: 0.78rem;
 }
 
+.tpv-gallery {
+  margin: 0.65rem 0 1rem;
+}
+
+.tpv-gallery-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.tpv-gallery .tpv-gallery-title {
+  margin: 0;
+  color: var(--text-normal);
+  font-size: 0.95rem;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.tpv-gallery-count {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.tpv-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+  grid-auto-rows: clamp(210px, 25vw, 330px);
+  gap: 0.8rem;
+  align-items: stretch;
+}
+
+.tpv-gallery-grid-masonry {
+  grid-auto-flow: row;
+}
+
+.tpv-gallery-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  min-width: 0;
+  width: 100%;
+  height: 100% !important;
+  min-height: 0 !important;
+  aspect-ratio: auto;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--background-modifier-border) 75%, transparent);
+  border-radius: 14px;
+  background: var(--background-secondary);
+  cursor: zoom-in;
+  box-shadow: 0 5px 18px rgba(15, 23, 42, 0.10);
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.tpv-gallery-item-featured {
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.14);
+}
+
+.tpv-gallery-item-contain {
+  background: var(--background-primary);
+}
+
+.tpv-gallery-item:focus-visible {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 2px;
+}
+
+.tpv-gallery img.tpv-gallery-image {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 160ms ease;
+}
+
+.tpv-gallery-item:hover .tpv-gallery-image {
+  transform: scale(1.035);
+}
+
+.tpv-gallery-item:hover {
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
+  transform: translateY(-2px);
+}
+
+.tpv-gallery-error,
+.tpv-gallery-missing {
+  padding: 0.65rem 0.8rem;
+  border: 1px dashed var(--background-modifier-border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.tpv-gallery-modal .modal-content {
+  display: grid;
+  justify-items: center;
+  gap: 0.6rem;
+}
+
+.tpv-gallery-modal-image {
+  display: block;
+  max-width: 100%;
+  max-height: min(78vh, 900px);
+  object-fit: contain;
+}
+
+.tpv-gallery-modal-caption {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
 .tpv-header {
   display: flex;
   align-items: flex-end;
@@ -585,6 +699,10 @@
 
   .tpv-summary {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tpv-gallery-grid {
+    gap: 0.55rem;
   }
 
   .tpv-endpoints {

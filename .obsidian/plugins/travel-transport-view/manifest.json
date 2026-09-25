@@ -1,9 +1,9 @@
 {
   "id": "travel-transport-view",
   "name": "Travel Transport View",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minAppVersion": "1.5.0",
-  "description": "Interactive cards and journey boards for structured bus and metro transport blocks.",
+  "description": "Interactive bus and metro cards, journey boards, and image galleries from structured Markdown blocks.",
   "author": "Local vault",
   "isDesktopOnly": false
 }
