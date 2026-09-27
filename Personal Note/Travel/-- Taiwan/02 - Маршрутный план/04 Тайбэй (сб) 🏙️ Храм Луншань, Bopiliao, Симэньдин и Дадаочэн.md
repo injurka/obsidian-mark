@@ -160,7 +160,7 @@ images: [
 * **17:30 - 22:30** — Свободный вечер и ужин по ситуации:
     * Можно остаться в Дадаочэне, вернуться в Симэньдин, прогуляться по Чжуншаню или поужинать рядом с отелем и отдыхать. Ни один вариант не является обязательной частью маршрута.
 
-* **22:30 - 22:45** — Возвращение в отель и отдых:
+* **22:30 - 22:45** — Возвращение в отель Dongmen Hotel и отдых:
     * От Dihua Old Street пройдите пешком через Дадаочэн к станции метро жёлтой ветки, выход **D3**, затем используйте MRT до Dongmen Hotel; оставшееся время — буфер для спонтанных остановок и отдыха.
     * _Маршрут пешком_: [Google Maps: Dihua Old Street → MRT D3](https://www.google.com/maps/dir/Dihua+Old+Street,+No.+146%E8%99%9F,+Section+1,+Dihua+St,+Dayou+Village,+Datong+District,+Taipei+City,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C+103/25.0627303,121.510896/@25.058117,121.507176,1270m/am=t/data=!3m1!1e3!4m14!4m13!1m5!1m1!1s0x3442a91438867265:0xc524ad8c103e4a1e!2m2!1d121.5097835!2d25.0581195!1m0!3e2!5i1!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)
     * _Точка метро_: [Google Maps: MRT D3](https://www.google.com/maps/place/No.+284,+Section+2,+Yanping+N+Rd,+Nanfang+Village,+Datong+District,+Taipei+City,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C+103/@25.0627311,121.5102669,317m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3442a93e5672c3c5:0xff71f7e9594a7db8!8m2!3d25.0627299!4d121.510912!16s%2Fg%2F11csgyxhcv?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)

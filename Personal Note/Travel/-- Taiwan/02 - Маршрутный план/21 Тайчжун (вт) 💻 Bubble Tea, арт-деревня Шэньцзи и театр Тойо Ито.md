@@ -108,7 +108,7 @@ routes:
         3. **Сад на крыше (Sky Garden):** Сюрреалистический ландшафтный парк с белыми кратерообразными формами и панорамным видом на современные небоскребы Седьмого района.
     * _Ссылка на локацию_: [Google Maps: National Taichung Theater](https://maps.google.com/?q=24.162800,120.640500)<iframe src="https://maps.google.com/maps?q=24.162800,120.640500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **14:30 - 15:00** — Возвращение в Nagahiro Hotel:
+* **14:30 - 15:00** — Возвращение в отель Nagahiro Hotel:
     * *Маршрут*: Всего 7–10 минут на городском такси прямо ко входу в Nagahiro Hotel (`~120 NTD`), либо 20 минут пешком через зеленые кварталы Ситуня. Оперный театр находится в одном районе с вашим отелем!
     * Возвращение в отель к 14:45–15:00 оставляет надежный запас времени.
 
@@ -132,7 +132,7 @@ routes:
         3. 🐙 **Стритфуд-хиты:** Свежие горячие осьминожьи шарики такояки, блинчики Минлунь *Minglun Danbing*, печеный картофель с сыром и свежее папайя-молоко.
     * _Ссылка на локацию_: [Google Maps: Fengjia Night Market](https://maps.google.com/?q=24.179200,120.645500)<iframe src="https://maps.google.com/maps?q=24.179200,120.645500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **23:25 - 23:55** — Возвращение в отель и ночной отдых:
+* **23:25 - 23:55** — Возвращение в отель Nagahiro Hotel и ночной отдых:
     * Быстрая 5-минутная поездка обратно в Nagahiro Hotel, чашка ромашкового чая и здоровый крепкий сон.
     * Завтра — гибкое, свободное утро, неспешный кофе, набережная Лючуань и дворец десертов Miyahara!
 
