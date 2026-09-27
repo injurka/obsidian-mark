@@ -44,7 +44,7 @@ booking_status: confirmed
 
 * **07:00 - 07:15** — Такси к вокзалу Tainan Station:
     * 5–7 минут от Yoshi Hotel до центрального вокзала. Проходите на платформу по EasyCard и не ждете заранее выбранный состав.
-    * _Ссылка на локацию_: [Google Maps: Tainan Station](https://maps.google.com/?q=22.997200,120.212800)<iframe src="https://maps.google.com/maps?q=22.997200,120.212800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Tainan Station](https://www.google.com/maps/place/Tainan/@22.9969947,120.2121762,522m/data=!3m1!1e3!4m12!1m5!3m4!2zMjLCsDU5JzQ5LjkiTiAxMjDCsDEyJzQ2LjEiRQ!8m2!3d22.9972!4d120.2128!3m5!1s0x346e768cf38caa09:0xc3e9a28e4fd2ac46!8m2!3d22.9970861!4d120.2129832!16s%2Fm%2F04gn6kl?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=22.9970861,120.2129832&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **07:15 - 07:55** — Первый подходящий TRA до Xin Zuoying:
     * Ориентировочный путь Тайнань → Xin Zuoying — около 30–40 минут. При задержке сохраняем порядок точек, но сокращаем только длительность прогулки по Pier-2.
@@ -97,7 +97,7 @@ images: [
 
 * **13:05 - 13:45** — Первый подходящий TRA в Тайнань:
     * После выхода к платформе выбираем ближайшее отправление до Tainan Station по актуальному табло; конкретный номер поезда не фиксируем заранее.
-    * _Ссылка на локацию_: [Google Maps: Tainan Station](https://maps.google.com/?q=22.997200,120.212800)<iframe src="https://maps.google.com/maps?q=22.997200,120.212800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Tainan Station](https://www.google.com/maps/place/Tainan/@22.9969947,120.2121762,522m/data=!3m1!1e3!4m12!1m5!3m4!2zMjLCsDU5JzQ5LjkiTiAxMjDCsDEyJzQ2LjEiRQ!8m2!3d22.9972!4d120.2128!3m5!1s0x346e768cf38caa09:0xc3e9a28e4fd2ac46!8m2!3d22.9970861!4d120.2129832!16s%2Fm%2F04gn6kl?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=22.9970861,120.2129832&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **13:45 - 14:05** — Такси в Yoshi Hotel:
     * 5–7 минут от Tainan Station до Yoshi. Целевое возвращение — не позднее 14:05; при задержке пропускаем необязательную остановку в SunnyHills, но сохраняем Lotus Pond, Pier-2 и обед.
@@ -125,4 +125,4 @@ images: [
 * Такси и MRT по Гаосюну: `~250 NTD` (`~700 ₽`).
 * Завтрак и обед Duck Zhen: `~350 NTD` (`~980 ₽`).
 * Вода, чай и легкий ужин после работы: `~180 NTD` (`~500 ₽`).
-* **Итого за день (без отеля):** около `~1 020 NTD` (`~2 850 ₽`).
+* **Итого за день:** около `~1 020 NTD` (`~2 850 ₽`).
