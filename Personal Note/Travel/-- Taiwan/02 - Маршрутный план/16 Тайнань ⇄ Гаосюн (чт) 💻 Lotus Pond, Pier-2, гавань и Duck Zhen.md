@@ -1,17 +1,14 @@
 ---
 day: 16
 cssclasses: activity-timeline
-date: "2026-11-19"
-weekday: "Четверг"
-title: "Lotus Pond, Pier-2, гавань и Duck Zhen"
+date: 2026-11-19
+weekday: Четверг
+title: Lotus Pond, Pier-2, гавань и Duck Zhen
 location: "Тайнань ⇄ Гаосюн: Lotus Pond ➔ Pier-2 ➔ KW2 ➔ Duck Zhen ➔ Yoshi Hotel."
-phase: "💻 Фаза 2 — первый рабочий день (утренний радиальный выезд без багажа, возвращение в Yoshi к 14:05, буфер подготовки и работа 16:00–22:00)."
-accommodation: "Yoshi Hotel, Тайнань (3-я ночь из 4)."
-highlight: >-
-  Утром — пагоды Дракона и Тигра, портовое искусство Pier-2 и обед в Duck
-  Zhen; после возвращения городская программа уступает место спокойному
-  рабочему спринту.
-is_ready: false
+phase: 💻 Фаза 2 — первый рабочий день (утренний радиальный выезд без багажа, возвращение в Yoshi к 14:05, буфер подготовки и работа 16:00–22:00).
+accommodation: Yoshi Hotel, Тайнань (3-я ночь из 4).
+highlight: Утром — пагоды Дракона и Тигра, портовое искусство Pier-2 и обед в Duck Zhen; после возвращения городская программа уступает место спокойному рабочему спринту.
+is_ready: true
 mode: workation
 base_city: Тайнань
 transport_types:
@@ -19,7 +16,6 @@ transport_types:
   - metro
   - taxi
 booking_status: confirmed
-
 ---
 
 # 🗓️ День 16: Четверг (19 ноября) (💻 Воркейшн)
@@ -32,7 +28,7 @@ booking_status: confirmed
 > * **Граница экскурсионного окна:** все внешние активности заканчиваются на обеде. Целевой вход в Yoshi — **13:45–14:05**, чтобы оставить больше двух часов до работы в 16:00.
 > * **Путешествие без чемоданов:** большой багаж остается в номере Yoshi Hotel. С собой — легкий рюкзак, EasyCard, вода, пауэрбанк и ноутбук только для работы после возвращения.
 > * **TRA Тайнань ⇄ Гаосюн:** выбирайте первый подходящий поезд по актуальному табло; номер состава заранее не фиксируем. Закладываем около 30–40 минут с учетом посадки и выхода со станции.
-> * **Внутри Гаосюна:** от Xin Zuoying — такси или одна остановка MRT до Lotus Pond; затем Red Line → Formosa Boulevard → Orange Line до Yanchengpu (O2), откуда Pier-2 и KW2 проходят пешком.
+> * **Внутри Гаосюна:** от Xin Zuoying до Lotus Pond — 5–7 мин на такси или прямой автобус (Red 51 / 301); от пагод к Pier-2 — такси за 15–20 мин либо автобус Red 35 к метро (R15) ➔ Red Line до Formosa Boulevard ➔ Orange Line до Yanchengpu (O2).
 > * **Что сознательно убрано:** вечерний KMC и закатный слот больше не нужны. После работы — еда рядом с отелем и сон перед ранним Цицзинем в пятницу.
 
 ## Маршрут [🌊 06:30–14:05 Гаосюн / ☕ 14:05–16:00 буфер / 💻 16:00–22:00 работа]
@@ -48,40 +44,63 @@ booking_status: confirmed
 
 * **07:15 - 07:55** — Первый подходящий TRA до Xin Zuoying:
     * Ориентировочный путь Тайнань → Xin Zuoying — около 30–40 минут. При задержке сохраняем порядок точек, но сокращаем только длительность прогулки по Pier-2.
-    * _Ссылка на локацию_: [Google Maps: Xin Zuoying Station](https://maps.google.com/?q=22.687200,120.308200)<iframe src="https://maps.google.com/maps?q=22.687200,120.308200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Xin Zuoying Station](https://www.google.com/maps/place/Zuoying/@22.6872,120.3056251,1185m/data=!3m1!1e3!4m6!3m5!1s0x346e0571cfeac0d7:0x29fe170277256373!8m2!3d22.6874408!4d120.3073967!16s%2Fm%2F04g0c8s?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=22.6874408,120.3073967&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+```gallery
+title: "Xin Zuoying"
+images: [
+  "Pasted image 20260927190026.png",
+  "Pasted image 20260927190047.png"
+]
+```
 
 * **07:55 - 08:15** — Трансфер к Lotus Pond:
-    * От Xin Zuoying — короткое такси к пагодам или MRT R16 → R15 Ecological District с последующим переходом к озеру. Такси предпочтительнее ради рабочего буфера.
+    * *Быстрый вариант (рекомендуется):* такси от вокзала Xin Zuoying (следовать указателям Taxi) прямо ко входу в Пагоды Дракона и Тигра — 5–7 минут (~100–130 NTD). Максимально экономит время и силы перед рабочим днем.
+    * *Прямой автобус:* от выхода Exit 2 станции Xin Zuoying (автобусная платформа) сесть на автобус **Red 51 (紅51)**, **301** или **Red 35 (紅35)** до остановки *Lotus Pond (蓮池潭 / Shengli Rd)* у самых пагод — в пути 10–12 минут, оплата EasyCard.
+    * *Маршрут через метро (MRT):* от ст. *Zuoying (R16)* проехать 1 остановку до *Ecological District (R15)* (выход 2), где пересесть на автобус **Red 35** прямо к озеру (пешком от R15 идти 1.5 км / ~20 мин по улице не рекомендуется).
 
 ### Часть 2: Пагоды, Pier-2 и портовый кластер
 
 * **08:15 - 09:25** — Lotus Pond и пагоды Дракона и Тигра:
     * *Контекст*: Главное сакральное место северного Гаосюна — озеро, даосские павильоны и семиэтажные Dragon and Tiger Pagodas.
     * 🐉 **Ритуал:** входите через пасть Дракона и выходите через пасть Тигра. Если фасады закрыты реставрацией, сохраняем Spring and Autumn Pavilions и Yuandi Temple как полноценную замену.
-    * _Ссылка на локацию_: [Google Maps: Dragon and Tiger Pagodas](https://maps.google.com/?q=22.680200,120.291500)<iframe src="https://maps.google.com/maps?q=22.680200,120.291500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Хайкинг-трек_: [Google Maps: Lotus Pond walking route](https://www.google.com/maps/dir/Dragon+and+Tiger+Pagodas+Kaohsiung/Spring+and+Autumn+Pavilions/Zuoying+Yuandi+Temple/@22.6815,120.2925,16z/?travelmode=walking)
-
+    * _Ссылка на локацию_: [Google Maps: Dragon and Tiger Pagodas](https://www.google.com/maps/place/%D0%9F%D0%B0%D0%B3%D0%BE%D0%B4%D1%8B+%22%D0%94%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%22+%D0%B8+%22%D0%A2%D0%B8%D0%B3%D1%80%22/@22.6802,120.2889251,1185m/data=!3m1!1e3!4m12!1m5!3m4!2zMjLCsDQwJzQ4LjciTiAxMjDCsDE3JzI5LjQiRQ!8m2!3d22.6802!4d120.2915!3m5!1s0x346e05a18d40c025:0x526d3613753c80c7!8m2!3d22.6805033!4d120.2924777!16s%2Fm%2F02rxq9c?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=22.6805033,120.2924777&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 ```gallery
 title: "Lotus Pond и пагоды Дракона и Тигра"
 images: [
-  "Pasted image 20260908164157.png",
-  "Pasted image 20260908164320.png"
+	"Pasted image 20260927184133.png",
+	"Pasted image 20260927183946.png",
+	"Pasted image 20260927183934.png"
 ]
 ```
 
-* **09:25 - 10:00** — MRT до района Yancheng и Pier-2:
-    * Такси или пеший переход до Ecological District (R15), Red Line до Formosa Boulevard, пересадка на Orange Line до Yanchengpu (O2). От выхода станции — пешком к Dayi Warehouse.
+* **09:25 - 10:00** — Трансфер в район Yancheng и Pier-2:
+    * *Быстрый маршрут на такси (рекомендуется):* такси или Uber от пагод (Shengli Rd) прямо до арт-центра Pier-2 (Dayi Warehouse) — 15–20 минут (~220–250 NTD). Оптимально бережет время и силы перед вечерней работой.
+    * *Общественный транспорт (автобус + MRT):*
+        * **Подъезд к метро (7–8 мин):** от остановки у пагод на Shengli Rd сесть на автобус **Red 35 (紅35)** до станции метро **Ecological District (R15)** (или короткое такси до метро; пешком 1.6 км идти более 20 минут).
+        * **Метро Red Line (~10 мин):** от ст. *Ecological District (R15)* на юг (поезд в сторону Siaogang) до пересадочной станции **Formosa Boulevard (R10/O5)**.
+        * **Метро Orange Line (~4 мин):** пересадка на Orange Line (поезд в сторону Sizihwan) до станции **Yanchengpu (O2)** (2 остановки).
+        * **Пешком к Pier-2 (5–7 мин):** через **Exit 1** станции Yanchengpu пройти прямо по Dayong Rd (500 м) к арт-кварталу Pier-2 и набережной гавани.
 
 * **10:00 - 11:15** — Pier-2 и парк Hamasen:
     * *Контекст*: Бывшие портовые склады превращены в арт-кластер с муралами, скульптурами, магазинами дизайна и сохранившимися путями Hamasen Railway Cultural Park.
     * 🎁 **Ритуал:** если открыт салон SunnyHills, можно сделать короткую остановку на чай и ананасовое пирожное; при очереди не задерживаемся.
-    * _Ссылка на локацию_: [Google Maps: Pier-2 Art Center](https://maps.google.com/?q=22.620200,120.281500)<iframe src="https://maps.google.com/maps?q=22.620200,120.281500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: Hamasen Railway Cultural Park](https://maps.google.com/?q=22.621800,120.276500)<iframe src="https://maps.google.com/maps?q=22.621800,120.276500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Pier-2 Art Center](https://www.google.com/maps/place/The+Pier2+Art+Center/@22.6201264,120.2803064,647m/data=!3m1!1e3!4m12!1m5!3m4!2zMjLCsDM3JzEyLjciTiAxMjDCsDE2JzUzLjQiRQ!8m2!3d22.6202!4d120.2815!3m5!1s0x346e047620e1c45b:0xe6d6d1bd1c764df2!8m2!3d22.6199803!4d120.2815287!16s%2Fm%2F010glgxt?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=22.6199803,120.2815287&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Hamasen Railway Cultural Park](https://www.google.com/maps/place/Hamasen+Museum+of+Taiwan+Railway/@22.621137,120.2786697,969m/data=!3m1!1e3!4m12!1m5!3m4!2zMjLCsDM3JzE4LjUiTiAxMjDCsDE2JzM1LjQiRQ!8m2!3d22.6218!4d120.2765!3m5!1s0x346e0475890a5c45:0x57ba98a34770c24b!8m2!3d22.620827!4d120.2784493!16s%2Fg%2F11cp79ddr0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=22.620827,120.2784493&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+```gallery
+title: "Pier-2"
+images: [
+	"Pasted image 20260927184440.png",
+	"Pasted image 20260927184504.png",
+	"Pasted image 20260927184650.png",
+	"Pasted image 20260927184711.png"
+]
+```
 
 * **11:15 - 11:45** — Great Harbor Bridge и KW2:
     * Короткий переход от Pier-2 по поворотному Great Harbor Bridge к складу KW2. Утром это портовая прогулка и вид на гавань, а не попытка ждать закат или вечернее вращение моста.
-    * _Ссылка на локацию_: [Google Maps: Great Harbor Bridge and KW2](https://maps.google.com/?q=22.617875,120.283879)<iframe src="https://maps.google.com/maps?saddr=22.617875,120.283879&daddr=22.618816,120.279155&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Хайкинг-трек_: [Google Maps: Pier-2 to KW2](https://www.google.com/maps/dir/22.620200,120.281500/22.617875,120.283879/22.618816,120.279155/?travelmode=walking)
+    * _Ссылка на локацию_: [Google Maps: Great Harbor Bridge and KW2](https://maps.google.com/?q=22.617875,120.283879)<iframe src="https://maps.google.com/maps?saddr=22.617875,120.283879&daddr=22.618816,120.279155&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🌉 Портовый компромисс рабочего дня
 > Great Harbor Bridge связывает Pier-2 и KW2, поэтому его удобно оставить в утреннем маршруте. Закат, KMC и Love River лучше не пытаться добавлять после работы: они не стоят риска позднего сна перед Цицзинем.
