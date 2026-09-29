@@ -3,7 +3,7 @@ day: 3
 cssclasses: activity-timeline
 date: 2026-11-06
 weekday: Пятница
-title: Первые огни Тайбэя
+title: 🌃 Первые огни Тайбэя
 location: Гуанчжоу (CAN-T2) ➔ TPE (Таоюань) ➔ Airport MRT ➔ Тайбэй (Zhongzheng / Xinyi / Songshan).
 phase: 🌴 Фаза 1 — Чистый отпуск (Прибытие на остров, мягкий вечер в Синьи и на рынке Жаохэ; гора Слон — бонус только при раннем заселении и нормальном самочувствии).
 accommodation: Отель *Dongmen Hotel* у станции MRT Dongmen (1-я ночь в Тайбэе).

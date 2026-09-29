@@ -19,17 +19,3 @@
 - <span class="tp-rate r-top"><b class="tp-score">9.3</b><span class="tp-tag">MUST</span></span> **Ночной рынок Дундамэнь (Dongdamen Night Market / 東大門夜市):** Крупнейший гастрономический рынок востока с традиционными блюдами аборигенов (рис в бамбуковых стеблях, мясо дикого кабана на гриле, кукуруза на углях). *День 09.*
 - 🍲 **Гастрономия:** Фирменные вонтоны с креветкой и свининой *Hualien Xiangye Wanton (花蓮香扁食)*, чай из стальных кранов *Miaokou Black Tea (廟口紅茶)*, суп из моллюсков и свежая тихоокеанская рыба.
 
----
-
-## Фотогалерея локаций
-
-> [!INFO]- Картинки
-> ![[06_qingshui_cliff.jpg]]
-> ![[note_hualien_qingshui_ocean.jpg]]
-> ![[06_qixingtan_beach.jpg]]
-> ![[06_qixingtan_bikeway.jpg]]
-> ![[07_qixingtan_coast.jpg]]
-> ![[note_hualien_four_eight_highland.jpg]]
-> ![[07_pine_garden.jpg]]
-> ![[note_hualien_cultural_park.jpg]]
-> ![[07_dongdamen_market.jpg]]

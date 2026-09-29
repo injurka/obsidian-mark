@@ -1,0 +1,4 @@
+interface:
+  display_name: "Travel Field HUD Curator"
+  short_description: "Оперативный фокус дня (HUD) для условий стресса и спешки"
+  default_prompt: "Используй $travel-field-hud-curator для формирования или аудита оперативного блока HUD дня."

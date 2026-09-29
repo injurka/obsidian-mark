@@ -3,7 +3,7 @@ day: 16
 cssclasses: activity-timeline
 date: 2026-11-19
 weekday: Четверг
-title: Lotus Pond, Pier-2, гавань и Duck Zhen
+title: 🎨 Lotus Pond, Pier-2, гавань и Duck Zhen
 location: "Тайнань ⇄ Гаосюн: Lotus Pond ➔ Pier-2 ➔ KW2 ➔ Duck Zhen ➔ Yoshi Hotel."
 phase: 💻 Фаза 2 — первый рабочий день (утренний радиальный выезд без багажа, возвращение в Yoshi к 14:05, буфер подготовки и работа 16:00–22:00).
 accommodation: Yoshi Hotel, Тайнань (3-я ночь из 4).

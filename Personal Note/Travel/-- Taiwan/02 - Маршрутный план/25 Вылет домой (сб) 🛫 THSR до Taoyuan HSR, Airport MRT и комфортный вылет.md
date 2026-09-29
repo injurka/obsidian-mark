@@ -1,16 +1,14 @@
 ---
 day: 25
 cssclasses: activity-timeline
-date: "2026-11-28"
-weekday: "Суббота"
-title: "THSR до Taoyuan HSR, Airport MRT и комфортный вылет"
-location: "Тайчжун ➔ THSR Taoyuan HSR Station ➔ Airport MRT A18 ➔ Аэропорт Таоюань (TPE) ➔ Вылет домой."
-phase: "🛫 Фаза 3 — Финал и комфортный вылет."
-accommodation: "Вылет домой (ночной перелет, без бронирования отеля)."
-highlight: >-
-  Около 38 минут на THSR до Taoyuan HSR, нормальный переход на A18 и первый
-  подходящий Airport MRT до терминала с прибытием примерно к 12:15–12:30!
-is_ready: false
+date: 2026-11-28
+weekday: Суббота
+title: 🛫 THSR до Taoyuan HSR, Airport MRT и комфортный вылет
+location: Тайчжун ➔ THSR Taoyuan HSR Station ➔ Airport MRT A18 ➔ Аэропорт Таоюань (TPE) ➔ Вылет домой.
+phase: 🛫 Фаза 3 — Финал и комфортный вылет.
+accommodation: Вылет домой (ночной перелет, без бронирования отеля).
+highlight: Около 38 минут на THSR до Taoyuan HSR, нормальный переход на A18 и первый подходящий Airport MRT до терминала с прибытием примерно к 12:15–12:30!
+is_ready: true
 mode: transit
 base_city: Тайчжун
 transport_types:
@@ -18,7 +16,6 @@ transport_types:
   - metro
   - flight
 booking_status: not_required
-
 ---
 
 # 🛫 День 25: Суббота (Вылет домой)
@@ -47,8 +44,8 @@ booking_status: not_required
     * Кофе со свежей выпечкой в окрестностях Nagahiro Hotel, упаковка багажа и чек-аут (до 11:00).
 
 * **09:40 - 10:30** — Выезд на вокзал THSR Taichung Station:
-    * Поездка на Taichung MRT Green Line от станции Wenhua Senior High School (3 мин пешком от отеля) напрямую до конечной HSR Taichung Station (16 минут в пути) либо такси/Uber от отеля (~15–20 минут). Прибытие на вокзал скоростных поездов с запасом времени.
-    * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://maps.google.com/?q=24.112100,120.615800)<iframe src="https://maps.google.com/maps?q=24.112100,120.615800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * Поездка на Taichung MRT Green Line от станции Wenhua Senior High School (3 мин пешком от отеля) напрямую до конечной HSR Taichung Station (16 минут в пути). Прибытие на вокзал скоростных поездов с запасом времени.
+    * _Ссылка на локацию_: [Google Maps: THSR Taichung Station](https://www.google.com/maps/place/Taichung/@24.1121,120.6132251,17z/data=!4m12!1m5!3m4!2zMjTCsDA2JzQzLjYiTiAxMjDCsDM2JzU2LjkiRQ!8m2!3d24.1121!4d120.6158!3m5!1s0x34693ea1c71c133d:0x4cc0e3ea3d56e8b4!8m2!3d24.11214!4d120.61615!16s%2Fm%2F04g0tw2?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=24.112100,120.615800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ```transport
 type: metro
@@ -67,22 +64,22 @@ routes:
 ---
 
 * **10:30 - 11:00** — Навигация и посадка на THSR:
-    * Пройдите к платформе с багажом. 11:00–11:38 ниже — целевой слот; после открытия продаж выберите фактический поезд с прибытием в Taoyuan не позже 11:45 и обновите время. При отсутствии подходящего поезда выезжайте раньше.
+    * Пройдите к платформе с багажом. После открытия продаж выберите фактический поезд с прибытием в Taoyuan не позже 11:45 и обновите время. При отсутствии подходящего поезда выезжайте раньше.
 
 ### Часть 2: THSR до Taoyuan HSR и пересадка на Airport MRT
 
 * **11:00 - 11:38** — Поезд THSR: Тайчжун ➔ Таоюань:
     * *Контекст*: Безупречно пунктуальный японский поезд Shinkansen 700T, плавно и бесшумно доставляющий вас на станцию пересадки в аэропорт без пробок.
-    * _Ссылка на локацию_: [Google Maps: THSR Taoyuan Station](https://maps.google.com/?q=25.013200,121.214800)<iframe src="https://maps.google.com/maps?q=25.013200,121.214800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Расписание_: [Официальный поиск поездов THSR](https://en.thsrc.com.tw/ArticleContent/a3b630bb-1066-4352-a1ef-58c7b4e8ef7c)
+    * _Ссылка на локацию_: [Google Maps: THSR Taoyuan Station](https://maps.google.com/?q=25.013200,121.214800)<iframe src="https://maps.google.com/maps?q=25.013200,121.214800&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 * **11:38 - 12:05** — Переход THSR ➔ Airport MRT A18:
     * Спокойно следуйте по крытому переходу к A18, пройдите турникеты по EasyCard и садитесь на первый подходящий поезд в сторону аэропорта. Двухминутная пересадка здесь нереалистична, поэтому оставлен полноценный запас.
 
 * **12:05 - 12:30** — Поезд Airport MRT (A18 ➔ Терминалы 1/2):
     * Садитесь на первый подходящий состав в сторону аэропорта, без ожидания конкретного Express. В пути около 17–20 минут; проверьте номер терминала в посадочном талоне до выхода из поезда.
-    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Расписание_: [Официальная страница Taoyuan Airport MRT](https://www.taoyuan-airport.com/airport_mrt?lang=en)
+    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ```transport
 type: metro
@@ -105,8 +102,6 @@ routes:
 * **12:30 - 14:30** — Регистрация на международный рейс в аэропорту TPE:
     * 🎁 **Финальный ритуал в TPE:** В зоне вылетов загляните в бутик культового бренда **SunnyHills (微熱山丘)** — здесь каждому гостю бесплатно наливают пиалу тайваньского горного чая улун и дарят целое свежее теплое ананасовое пирожное из натуральных ананасов горы Багуа! Отличная возможность докупить свежие подарки перед посадкой в самолет.
     * Предполетный лаунж и вылет домой с незабываемыми впечатлениями о Формозе!
-
-    * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport Terminal 2](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 > [!TIP] 💳 Что делать с остатком на карте EasyCard?
 > * **Потратить перед вылетом:** В терминалах TPE карту EasyCard принимают магазины дьюти-фри, сувенирные бутики и кофейни.
 > * **Вернуть наличными:** В сервисной стойке MRT (*Information Counter*) в терминале аэропорта можно сдать карту и вернуть оставшийся баланс наличными NTD (комиссия за возврат составляет всего 20 NTD).
@@ -131,7 +126,7 @@ routes:
     * Подготовьте ручную кладь и подтвердите ранний трансфер с прибытием в терминал к 04:40. При задержке оформления сокращайте вечер.
 
 * **21:30 - 23:59** — Ночной отдых в Гуанчжоу:
-    * Продолжение сна и утренний вылет — в [[26 Возвращение в Москву (вс) 🛬 Утренний вылет из Гуанчжоу|Дне 26]]. Все часы Гуанчжоу — UTC+8.
+    * Продолжение сна и утренний вылет. Все часы Гуанчжоу — UTC+8.
 
 ---
 

@@ -133,7 +133,7 @@ bunx --bun @limiteddissolve/obsidian-importer \
 bunx --bun @limiteddissolve/obsidian-importer \
   --api-url "https://trip-scheduler-api.limited-dissolve.ru" \
   --dir "~/Documents/obsidian-mark/Personal Note/Travel/-- Japan" \
-  --start-date "2026-09-28" \
+  --start-date "2027-09-28" \
   --status draft \
   --visibility public \
   --validate
