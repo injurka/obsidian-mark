@@ -1,24 +1,20 @@
 ---
 day: 22
 cssclasses: activity-timeline
-date: "2026-11-25"
-weekday: "Среда"
-title: "Дворец десертов Miyahara, гибкое утро и релакс"
-location: "Тайчжун: набережная реки Лючуань ➔ Дворец сладостей Miyahara ➔ Fourth Credit Union."
-phase: "💻 Фаза 2 — Городской воркейшн (свободный и гибкий день воркейшна: неспешный подъем, спешелти-кофе, променад по набережной Лючуань, кондитерский дворец Miyahara и банк мороженого Fourth Credit Union, возврат в отель к 15:15, работа 16:00–22:00 и вечерний релакс)."
-accommodation: "Nagahiro Hotel- Taichung Wenxin (4-я ночь в Тайчжуне)."
-highlight: >-
-  Полная свобода от спешки, архитектурная сказка Хогвартса в Miyahara,
-  авторское мороженое в бывшем банковском хранилище и продуктивный рабочий
-  спринт!
-is_ready: false
+date: 2026-11-25
+weekday: Среда
+title: Дворец десертов Miyahara, гибкое утро и релакс
+location: "Тайчжун: набережная реки Лючуань ➔ Дворец сладостей Miyahara."
+phase: "💻 Фаза 2 — Городской воркейшн (свободное и гибкое утро: неспешный подъем, спешелти-кофе, променад по набережной Лючуань и визит в кондитерский дворец Miyahara; возвращение в отель к 15:15, работа 16:00–22:00 и вечерний релакс)."
+accommodation: Nagahiro Hotel- Taichung Wenxin (4-я ночь в Тайчжуне).
+highlight: Полная свобода от спешки, променад у Лючуань и архитектурная сказка Miyahara перед продуктивным рабочим спринтом.
+is_ready: true
 mode: workation
 base_city: Тайчжун
 transport_types:
   - taxi
   - walk
 booking_status: confirmed
-
 ---
 
 # 🗓️ День 22: Среда (25 ноября) (💻 Воркейшн)
@@ -29,9 +25,9 @@ booking_status: confirmed
 
 > [!IMPORTANT] Гибкий день: свобода выбора сценария по самочувствию
 > * **Философия дня:** После трех недель путешествия и вчерашнего насыщенного дня этот день оставляет полное право проснуться и решить программу по фактическому состоянию без обязательного чек-листа:
->   * *Сценарий А (есть силы и интерес):* променад у реки Лючуань ➔ дворец сладостей Miyahara ➔ Fourth Credit Union с мороженым ➔ неспешный авторский кофе.
+>   * *Сценарий А (есть силы и интерес):* променад у реки Лючуань ➔ дворец сладостей Miyahara ➔ неспешный авторский кофе.
 >   * *Сценарий Б (хочется отдохнуть и замедлиться):* неспешный кофе ➔ визит в Miyahara за подарками ➔ спокойный обед ➔ возвращение в отель.
-> * **Компактная география:** Лючуань, Miyahara и Fourth Credit Union находятся в центре Тайчжуна; между двумя кондитерскими можно пройти пешком. Набережная — отдельный прогулочный отрезок.
+> * **Компактная география:** Набережная Лючуань и Miyahara находятся в центре Тайчжуна; переход от набережной к Miyahara проходит пешком.
 > * **Тайминг возвращения:** Выезд обратно в отель около **14:45–15:00**, целевое возвращение в Nagahiro Hotel — около **15:15** (~15–20 мин на такси из центра в Ситунь). Это оставляет комфортный буфер времени на душ и чай перед началом работы в 16:00.
 > * **Miyahara:** По [городскому туристическому бюро](https://travel.taichung.gov.tw/en/attractions/intro/1239), открыт по средам 10:00–21:00; перепроверьте часы ближе к 25 ноября.
 
@@ -50,32 +46,45 @@ booking_status: confirmed
 
 * **10:30 - 11:00** — Такси к набережной Лючуань:
     * *Маршрут*: 12–15 минут на городском такси от дверей отеля на юго-восток к исторической набережной реки Лючуань (`~170 NTD`).
+    * _Маршрут на карте_: [Nagahiro Hotel → Liuchuan Riverside Walk](https://www.google.com/maps/dir/Nagahiro+Hotel+407,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C,+Taichung+City,+407+TW+%E5%8F%B0%E4%B8%AD%E5%B8%82+%E8%A5%BF%E5%B1%AF%E5%8D%80+%E8%A5%BF%E5%B1%AF%E5%8D%80+%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%89%E6%AE%B5362%E8%99%9F+No.362,+Sec.+2,+Wenxin+Rd.,+Xitun+Dist/24.144202,120.6777276/@24.1589308,120.6603013,15z/am=t/data=!4m13!4m12!1m5!1m1!1s0x346917499ace9bd3:0x965efbb2754a3fbf!2m2!1d120.662098!2d24.1717266!1m0!3e0!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)
 
 * **11:00 - 11:45** — Променад по набережной Лючуань:
     * *Контекст*: **Набережная реки Лючуань (Liuchuan Riverside Walk / 柳川水岸步道)** — бережно восстановленный и озелененный водный канал в центре Тайчжуна с тенистыми плакучими ивами, пешеходными мостиками и ландшафтными террасами.
     * *Ключевые точки:*
         1. **Речной променад:** Прогулка вдоль чистой воды вдали от оживленных автотрасс.
-    * _Ссылка на локацию_: [Google Maps: Liuchuan Riverside Walk](https://maps.google.com/?q=24.139800,120.678500)<iframe src="https://maps.google.com/maps?q=24.139800,120.678500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+    * _Ссылка на локацию_: [Google Maps: Liuchuan Riverside Walk](https://www.google.com/maps/place/Liuchuan+Riverside+Walk/@24.1419351,120.6659832,15.54z/data=!4m10!1m2!2m1!1sLiuchuan+Riverside+Walk!3m6!1s0x34693d0d456f46a9:0xabba2cfe5a6f1faa!8m2!3d24.1425521!4d120.6770216!15sChdMaXVjaHVhbiBSaXZlcnNpZGUgV2Fsa1oZIhdsaXVjaHVhbiByaXZlcnNpZGUgd2Fsa5IBEnRvdXJpc3RfYXR0cmFjdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSYWMyOU1SMWRSRUFF4AEA-gEFCP4BEDY!16s%2Fg%2F11c2mdb0mt?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=24.1425521,120.6770216&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+```gallery
+title: "Liuchuan Riverside Walk"
+images: [
+  "Pasted image 20261006114522.png",
+  "Pasted image 20261006114558.png",
+  "Pasted image 20261006114618.png"
+]
+```
 
 ---
 
-### Часть 2: Дворец десертов Miyahara и банк мороженого Fourth Credit Union
+### Часть 2: Дворец десертов Miyahara
 
 * **11:45 - 12:00** — Пешком от Лючуань к Miyahara:
     * Идите к Zhongshan Road; у вокзала можно взглянуть на историческое здание станции Тайчжун. Если хочется дольше погулять у воды, сократите время на кофе после десертов.
+    * _Маршрут пешком_: [Liuchuan Riverside Walk → Miyahara](https://www.google.com/maps/dir/24.1416139,120.6756313/Miyahara,+No.+20%E8%99%9F,+Zhongshan+Rd,+L%C3%BCchuan+Village,+Central+District,+Taichung+City,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C+400/@24.1378581,120.683336,19.49z/am=t/data=!3m1!5s0x34693d147a1b38c3:0xab27197e886f0628!4m13!4m12!1m0!1m5!1m1!1s0x346e90a75d09b2f9:0x46f404b3540f5b06!2m2!1d120.6835552!2d24.1378278!3e2!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)
 
-* **12:00 - 13:30** — Дворец десертов Miyahara и Fourth Credit Union:
+* **12:00 - 13:30** — Дворец десертов Miyahara:
     * *Контекст*: **Miyahara (宮原眼科)** — знаменитая бывшая японская офтальмологическая клиника доктора Мияхары 1927 года, превращенная премиальным брендом *Dawncake* в трехуровневый дворец сладостей с интерьером, напоминающим библиотеку Хогвартса.
     * *Ключевые впечатления:*
         1. **Дворец Miyahara:** Книжные стеллажи из темного дерева высотой до стеклянного потолка, зеркальные отражения, резные балюстрады и винтажная упаковка десертов в форме книг с мудрыми пословицами. На втором этаже работает ресторан изысканной тайваньской кухни *Moon Pavilion (醉月樓)*.
         2. 🎁 **Культовый сувенир Тайчжуна:** Фирменные ананасовые пирожные *Fengli Su* с начинкой из коренного тайваньского ананаса №2, традиционные солнечные лепешки *Taiyangbing* и миндально-финиковые конфеты.
         3. 🍨 **Авторское мороженое:** Выбирайте вкус на месте; ассортимент меняется. В прежнем плане отмечены чай *Tieguanyin*, зелёная слива и *Rum Rose Cheese* — проверьте их наличие у витрины.
-        4. **Fourth Credit Union (第四信用合作社):** После Miyahara пройдите к филиалу на Zhongshan Road, 72: бывшее банковское здание с сохранёнными деталями хранилища и залом для десерта.
-    * _Ссылка на локацию_: [Google Maps: Miyahara](https://maps.google.com/?q=24.137800,120.683500)<iframe src="https://maps.google.com/maps?q=24.137800,120.683500&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-    * _Ссылка на локацию_: [Google Maps: Fourth Credit Union](https://maps.google.com/?q=24.138800,120.681200)<iframe src="https://maps.google.com/maps?q=24.138800,120.681200&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
-
-> [!TIP] 🍨 Мороженое в Fourth Credit Union
-> Если у уличной стойки Miyahara очередь, загляните в соседний филиал Dawncake. Там тоже подают десерты; ассортимент, очередь и места в зале проверьте на месте.
+    * _Ссылка на локацию_: [Google Maps: Miyahara](https://www.google.com/maps/place/Miyahara/@24.1378327,120.6809749,17z/data=!3m2!4b1!5s0x34693d147a1b38c3:0xab27197e886f0628!4m6!3m5!1s0x346e90a75d09b2f9:0x46f404b3540f5b06!8m2!3d24.1378278!4d120.6835552!16s%2Fg%2F11cn2_fp_1?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=24.1378278,120.6835552&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+```gallery
+title: "Liuchuan Riverside Walk"
+images: [
+  "Pasted image 20261006114732.png",
+  "Pasted image 20261006115048.png",
+  "Pasted image 20261006115025.png"
+]
+```
 
 * **13:30 - 14:45** — Расслабленный обед и авторский кофе у реки:
     * *Обед*: Спокойный ланч в уютном ресторане у набережной (ароматная тайваньская лапша с говядиной или свежие паровые димсамы).
@@ -106,7 +115,6 @@ booking_status: confirmed
 ## 💰 Финансовые затраты на день
 * Городские поездки на такси (отель ⇄ центр): `~350–400 NTD` (`~980–1 120 ₽`) за машину; оценка для бюджета, фактическая стоимость зависит от маршрута и трафика.
 * Спокойный обед у реки (лапша с говядиной / димсамы): `~220 NTD` (`~620 ₽`).
-* Легендарное мороженое в Fourth Credit Union (2 шарика с топпингами): `~200 NTD` (`~560 ₽`).
 * Авторский кофе у набережной: `~150 NTD` (`~420 ₽`).
 * Вечерний легкий перекус в FamilyMart: `~120 NTD` (`~340 ₽`).
-* **Итого за день:** около `~1 060 NTD` (`~2 970 ₽`).
+* **Итого за день:** около `~860 NTD` (`~2 410 ₽`).
