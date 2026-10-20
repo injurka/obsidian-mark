@@ -3,7 +3,7 @@ day: 22
 cssclasses: activity-timeline
 date: 2026-11-25
 weekday: Среда
-title: Дворец десертов Miyahara, гибкое утро и релакс
+title: 🍨 Дворец десертов Miyahara, гибкое утро и релакс
 location: "Тайчжун: набережная реки Лючуань ➔ Дворец сладостей Miyahara."
 phase: "💻 Фаза 2 — Городской воркейшн (свободное и гибкое утро: неспешный подъем, спешелти-кофе, променад по набережной Лючуань и визит в кондитерский дворец Miyahara; возвращение в отель к 15:15, работа 16:00–22:00 и вечерний релакс)."
 accommodation: Nagahiro Hotel- Taichung Wenxin (4-я ночь в Тайчжуне).
@@ -46,7 +46,7 @@ booking_status: confirmed
 
 * **10:30 - 11:00** — Такси к набережной Лючуань:
     * *Маршрут*: 12–15 минут на городском такси от дверей отеля на юго-восток к исторической набережной реки Лючуань (`~170 NTD`).
-    * _Маршрут на карте_: [Nagahiro Hotel → Liuchuan Riverside Walk](https://www.google.com/maps/dir/Nagahiro+Hotel+407,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C,+Taichung+City,+407+TW+%E5%8F%B0%E4%B8%AD%E5%B8%82+%E8%A5%BF%E5%B1%AF%E5%8D%80+%E8%A5%BF%E5%B1%AF%E5%8D%80+%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%89%E6%AE%B5362%E8%99%9F+No.362,+Sec.+2,+Wenxin+Rd.,+Xitun+Dist/24.144202,120.6777276/@24.1589308,120.6603013,15z/am=t/data=!4m13!4m12!1m5!1m1!1s0x346917499ace9bd3:0x965efbb2754a3fbf!2m2!1d120.662098!2d24.1717266!1m0!3e0!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)
+    * _Маршрут на карте (авто)_: [Nagahiro Hotel → Liuchuan Riverside Walk](https://www.google.com/maps/dir/Nagahiro+Hotel+407,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C,+Taichung+City,+407+TW+%E5%8F%B0%E4%B8%AD%E5%B8%82+%E8%A5%BF%E5%B1%AF%E5%8D%80+%E8%A5%BF%E5%B1%AF%E5%8D%80+%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%89%E6%AE%B5362%E8%99%9F+No.362,+Sec.+2,+Wenxin+Rd.,+Xitun+Dist/24.144202,120.6777276/@24.1589308,120.6603013,15z/am=t/data=!4m13!4m12!1m5!1m1!1s0x346917499ace9bd3:0x965efbb2754a3fbf!2m2!1d120.662098!2d24.1717266!1m0!3e0!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)
 
 * **11:00 - 11:45** — Променад по набережной Лючуань:
     * *Контекст*: **Набережная реки Лючуань (Liuchuan Riverside Walk / 柳川水岸步道)** — бережно восстановленный и озелененный водный канал в центре Тайчжуна с тенистыми плакучими ивами, пешеходными мостиками и ландшафтными террасами.
@@ -68,7 +68,7 @@ images: [
 
 * **11:45 - 12:00** — Пешком от Лючуань к Miyahara:
     * Идите к Zhongshan Road; у вокзала можно взглянуть на историческое здание станции Тайчжун. Если хочется дольше погулять у воды, сократите время на кофе после десертов.
-    * _Маршрут пешком_: [Liuchuan Riverside Walk → Miyahara](https://www.google.com/maps/dir/24.1416139,120.6756313/Miyahara,+No.+20%E8%99%9F,+Zhongshan+Rd,+L%C3%BCchuan+Village,+Central+District,+Taichung+City,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C+400/@24.1378581,120.683336,19.49z/am=t/data=!3m1!5s0x34693d147a1b38c3:0xab27197e886f0628!4m13!4m12!1m0!1m5!1m1!1s0x346e90a75d09b2f9:0x46f404b3540f5b06!2m2!1d120.6835552!2d24.1378278!3e2!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)
+    * _Маршрут на карте (пешком)_: [Liuchuan Riverside Walk → Miyahara](https://www.google.com/maps/dir/24.1416139,120.6756313/Miyahara,+No.+20%E8%99%9F,+Zhongshan+Rd,+L%C3%BCchuan+Village,+Central+District,+Taichung+City,+%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C+400/@24.1378581,120.683336,19.49z/am=t/data=!3m1!5s0x34693d147a1b38c3:0xab27197e886f0628!4m13!4m12!1m0!1m5!1m1!1s0x346e90a75d09b2f9:0x46f404b3540f5b06!2m2!1d120.6835552!2d24.1378278!3e2!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)
 
 * **12:00 - 13:30** — Дворец десертов Miyahara:
     * *Контекст*: **Miyahara (宮原眼科)** — знаменитая бывшая японская офтальмологическая клиника доктора Мияхары 1927 года, превращенная премиальным брендом *Dawncake* в трехуровневый дворец сладостей с интерьером, напоминающим библиотеку Хогвартса.

@@ -24,11 +24,6 @@ booking_status: confirmed
 
 ### Важная подготовка перед вылетом и в зале прилета TPE
 
-> [!TIP] 🎁 Return to Taiwan, Double Your Luck — акция 2026–2027
-> * **Кто участвует:** Повторный гость с записью о въезде на Тайвань после 01.01.2023 может зарегистрировать себя и одного сопровождающего, который не посещал остров в этот период.
-> * **Регистрация:** За **7–90 дней до прилета** на [официальном сайте акции](https://5000.taiwan.net.tw/index_en.html). Розыгрыш проходит онлайн по средам до прибытия; результат приходит по email.
-> * **Если выиграли:** В течение 24 часов после въезда загрузите обратный билет по ссылке из письма, затем получите QR-код и обменяйте его в указанной точке. Приз — NT$5 000 повторному гостю и NT$3 000 сопровождающему. [Полные правила](https://5000.taiwan.net.tw/campaign_rules_en.html).
-
 > [!TIP] 🚲 Аренда городских велосипедов YouBike 2.0
 > Желтые велосипеды YouBike 2.0 расположены буквально на каждом перекрестке Тайбэя.
 > * **Как привязать к EasyCard:** В приложении *YouBike 2.0* зарегистрируйте аккаунт с тайваньским номером телефона (приобретенным на стойке мобильной связи) и привяжите карту EasyCard — после этого брать велосипед можно в одно касание к замку на руле.
@@ -66,10 +61,11 @@ booking_status: confirmed
 
 * **14:15 - 15:30** — Прилет в Таоюань (TPE) и формальности в зале прилета:
     * **Паспортный контроль и багаж:** Прохождение границы по электронной карте TWAC и получение багажа.
-    * **Акция Lucky Land:** Мгновенного розыгрыша на планшете больше нет. Победитель завершает онлайн-проверку после въезда и следует инструкции из email.
     * **eSIM / SIM-карта:** Стойка *Chunghwa Telecom* в зале прибытия — оформление туристической SIM с безлимитным интернетом 4G/5G.
     * **Снятие наличных:** Банкоматы *Bank of Taiwan*, *Mega Bank* или *CTBC Bank* в зале прилета.
-    * **EasyCard (悠遊卡):** Покупка карты в кассе Airport MRT (`~280 ₽` / NT$ 100 за пластик) и пополнение на `~2 000–2 500 ₽` для первых поездок. Если выиграли в акции, призовой баланс оформляется позже по инструкции из email и не заменяет стартовое пополнение сразу после прилёта.
+    * **EasyCard (悠遊卡) и Airport MRT — оплачено:** Комплект Trip.com: **EasyCard с предоплатой 200 TWD + Airport MRT в одну сторону**, 1 комплект. Стоимость **1 090,54 ₽** (карта «Мир» — 1 025,20 ₽, Trip Coins — 65,34 ₽). Покупать карту и аэропортовый билет повторно не нужно.
+    * **Получение комплекта:** После получения багажа предъявить электронный ваучер на стойке **Easy Fly / Ezfly Airport Express в Terminal 2**, ежедневно **07:00–23:00**. В инструкции продавца есть противоречие: заголовок указывает второй терминал, а текст повторяет «Terminal 1: B2»; этаж T2 по этому тексту не определён — ориентироваться по указателям Ezfly / Airport MRT и выбранному в заказе Terminal 2. Билет Airport MRT действует 30 дней после получения; разовый жетон забирает турникет на выходе.
+    * **Документы:** [[00 - Файлы и документы/PrivateDocument/Транспорт/EasyCard и Airport MRT/Voucher EasyCard и Airport MRT QR.png|Ваучер с QR-кодом]] · [[00 - Файлы и документы/PrivateDocument/Транспорт/EasyCard и Airport MRT/Чек Trip.com EasyCard и Airport MRT.pdf|Чек]] · [[00 - Файлы и документы/PrivateDocument/Транспорт/EasyCard и Airport MRT/Инструкция получения Ezfly.png|Инструкция выдачи]]. EasyCard уже имеет стартовый баланс **200 TWD**, далее пополнять по мере расходования.
     * _Ссылка на локацию_: [Google Maps: Taoyuan International Airport](https://www.google.com/maps/place/%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C-%D0%A2%D0%B0%D0%BE%D1%8E%D0%B0%D0%BD%D1%8C/@25.0803138,121.2311754,15.83z/data=!4m12!1m5!3m4!2zMjXCsDA0JzQ2LjciTiAxMjHCsDE0JzAzLjIiRQ!8m2!3d25.079651!4d121.234217!3m5!1s0x34429fc062d215d5:0x70a3b690a9b5b109!8m2!3d25.0804884!4d121.2311579!16zL20vMDFuZnBk?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0804884,121.2311579&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 ```gallery
 title: "Прилет в Таоюань (TPE) и формальности в зале прилета"
@@ -81,8 +77,10 @@ images: [
 ```
 
 * **15:30 - 16:30** — Экспресс Taoyuan Airport MRT ➔ Taipei Main Station:
+    * **Билет:** Поездка Airport MRT в одну сторону уже оплачена в комплекте Trip.com. Использовать полученный на стойке билет / жетон; не списывать эту поездку с EasyCard. Городской MRT после A1 оплачивать отдельно с EasyCard.
     * *Посадка*: Спуститесь по указателям к перронам терминала Terminal 1 (A12) или Terminal 2 (A13).
     * *Тип поезда:* Экспресс до A1 Taipei Main Station; часовой слот включает подход к платформе и ожидание. При задержке прилёта сдвигайте вечер и пропускайте гору Слон.
+    * **Оплата в 7-ELEVEN:** Уже куплена виртуальная товарная карта **1 000 TWD**. На кассе открыть оригинал ваучера в заказе Trip.com и показать штрихкоды с высокой яркостью; [[00 - Файлы и документы/PrivateDocument/Покупки/7-ELEVEN/Voucher 7-ELEVEN 1000 TWD штрихкоды.png|Ваучер со штрихкодами]] сохранён в приватных документах как резервная копия. Остаток после покупки проверить в чеке.
     * 🎁 **Первый гастро-ритуал:** В магазине 7-Eleven прямо перед турникетами станции возьмите горячее тайваньское чайное яйцо со специями (**Tea Egg / 茶葉蛋**, `~38 ₽` / NT$ 13) и бутылочку холодного улуна или жасминового чая без сахара (無糖).
     * *Навигация к отелю*: По прибытии на станцию A1 (Airport MRT) перейдите по указателям на Красную ветку метро MRT (**Tamsui-Xinyi Line / Taipei Main Station, R10**). Садитесь на поезд в сторону Xiangshan / Daan и проедьте всего **3 остановки (6 минут)** до станции **Dongmen (東門, R07)**. Поднимитесь через **Выход 1 или 2** на улицу Linyi St / Xinyi Rd — отель **Dongmen Hotel** находится всего в 150 метрах (2–3 минуты пешком) к югу по тихой улице Linyi St.
     * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://www.google.com/maps/place/HSR+Taipei+Station/@25.047761,121.5144741,17z/data=!3m1!5s0x36ef31d83d17a355:0xa70111dae00d0c9f!4m12!1m5!3m4!2zMjXCsDAyJzUxLjkiTiAxMjHCsDMxJzAxLjQiRQ!8m2!3d25.047761!4d121.517049!3m5!1s0x3442a96ae3a027c9:0x71f799a0d10bd6fb!8m2!3d25.0472791!4d121.517643!16s%2Fg%2F11s93k17hw?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0472791,121.517643&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
@@ -117,7 +115,7 @@ routes:
 * **16:30 - 17:00** — Заселение в отель Dongmen Hotel:
     * Быстрое заселение в отель (No. 78, Linyi St, Zhongzheng District), душ и смена одежды для вечернего подъема на гору.
     * _Бронирование отеля:_ [Dongmen Hotel (東門旅店)](https://www.google.com/maps/place/Dongmen+Hotel/@25.0345055,121.5277674,20.42z/data=!4m15!1m5!3m4!2zMjXCsDAyJzAxLjMiTiAxMjHCsDMxJzQyLjYiRQ!8m2!3d25.0337!4d121.5285!3m8!1s0x3442a9828491bb8f:0x5c75086e47846928!5m2!4m1!1i2!8m2!3d25.0345085!4d121.5277939!16s%2Fg%2F11bbrjt950?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)
-    * _Ваучер заселения:_ [Ваучер заселения (PDF)](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Taiwan/_/PrivateDocuments/Отели/Dongmen.pdf)
+    * _Ваучер заселения:_ [Ваучер заселения (PDF)](file:///home/injurka/Documents/obsidian-mark/Personal%20Note/Travel/--%20Taiwan/00%20-%20Файлы%20и%20документы/PrivateDocument/Отели/Dongmen.pdf)
     * _Ссылка на локацию_: [Google Maps: Dongmen Hotel](https://www.google.com/maps/place/Dongmen+Hotel/@25.0345055,121.5277674,20.42z/data=!4m15!1m5!3m4!2zMjXCsDAyJzAxLjMiTiAxMjHCsDMxJzQyLjYiRQ!8m2!3d25.0337!4d121.5285!3m8!1s0x3442a9828491bb8f:0x5c75086e47846928!5m2!4m1!1i2!8m2!3d25.0345085!4d121.5277939!16s%2Fg%2F11bbrjt950?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0345085,121.5277939&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 ---
@@ -262,8 +260,8 @@ routes:
 
 ## 💰 Финансовые затраты на день 
 
-* Поезд Taoyuan Express MRT (аэропорт ➔ город): `~450 ₽` (NT$ 150).
+* EasyCard с балансом 200 TWD + Airport MRT в одну сторону: **1 090,54 ₽**, уже оплачено заранее (1 025,20 ₽ картой + 65,34 ₽ Trip Coins).
 * Поездки на городском метро MRT (Taipei Main ➔ Xiangshan + Taipei 101 ➔ Songshan + Songshan ➔ Beimen): `~220 ₽` (NT$ 75).
 * Кофе и легкий завтрак в транзитной зоне аэропорта Гуанчжоу: `~650 ₽`.
 * Ужин, снэки Michelin Bib Gourmand и напитки на рынке Жаохэ: `~850–1 050 ₽` (NT$ 280–350).
-* **Итого за день:** около **`~2 170–2 370 ₽`** *(без учета пополнения и залога за EasyCard)*.
+* **Итого по указанным статьям:** около **`~2 810,54–3 010,54 ₽`**, включая оплаченный комплект; из них на месте — **`~1 720–1 920 ₽`**. Расходы городского MRT могут оплачиваться из включённого баланса 200 TWD и тогда не требуют отдельной доплаты; не учитывать их повторно как новый платёж.
