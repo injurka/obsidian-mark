@@ -12,6 +12,11 @@ env:
   S3_BUCKET: "limited-dissolve"
   S3_BASE_PATH: "wander-mark"
 
+# All branches deploy to the same S3 prefix. Never interrupt an active upload.
+concurrency:
+  group: wander-mark-s3-deploy
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -34,12 +39,21 @@ jobs:
           # Заменяем абсолютные пути /home/injurka/Documents/obsidian-mark на ${{ github.workspace }}
           sed -i "s|/home/injurka/Documents/obsidian-mark|${{ github.workspace }}|g" "$CONFIG"
 
-      - name: Run wander-mark-cli (generate + deploy to S3)
+      - name: Generate export
         run: |
           wander-mark \
-            --config "${{ github.workspace }}/.obsidian/export/config.json" \
-            --deploy \
-            --deploy-mode s3
+            --config "${{ github.workspace }}/.obsidian/export/config.json"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install S3 client
+        run: python -m pip install boto3
+
+      - name: Deploy changed export files
+        run: python .github/scripts/deploy.py
         env:
           S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
           S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
