@@ -18,6 +18,10 @@
       "exportPath": "/Chinese"
     },
     {
+      "sourcePath": "/Personal Note/Languages/English",
+      "exportPath": "/English"
+    },
+    {
       "sourcePath": "/Personal Note/Languages/Russian-CN",
       "exportPath": "/Russian"
     },
