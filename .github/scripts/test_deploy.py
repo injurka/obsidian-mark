@@ -61,6 +61,20 @@ class DeploymentTest(unittest.TestCase):
             self.assertNotIn('export/content/заметка.md', s3.objects)
             self.assertEqual(s3.objects['export/db/user.json'], b'keep')
 
+    def test_whitespace_path_rejected_before_remote_mutations(self):
+        for key in ('content/ note.md', 'content/folder /note.md'):
+            with self.subTest(key=key), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                note = root / key
+                note.parent.mkdir(parents=True)
+                note.write_text('note')
+                s3 = S3()
+                before = copy.deepcopy(s3.objects)
+                with self.assertRaisesRegex(ValueError, 'leading/trailing whitespace'):
+                    deploy(s3, 'bucket', 'export', root)
+                self.assertEqual(before, s3.objects)
+                self.assertEqual(s3.uploads, [])
+
     def test_invalid_manifest_and_empty_output(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

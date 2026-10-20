@@ -27,6 +27,10 @@ def deploy(s3, bucket, prefix, output):
             key = file.relative_to(output).as_posix()
             if not managed(key):
                 raise ValueError(f'Unexpected output file: {key}')
+            if any(part != part.strip() for part in key.split('/')):
+                raise ValueError(
+                    f'Bunny Storage rejects path segments with leading/trailing whitespace: {key!r}. '
+                    'Rename the source or set a unique Markdown sysname before exporting.')
             files[key] = hashlib.sha256(file.read_bytes()).hexdigest()
     if not files:
         raise ValueError('Refusing to deploy empty output')
