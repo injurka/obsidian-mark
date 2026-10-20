@@ -11,6 +11,7 @@ env:
   S3_REGION: "default"
   S3_BUCKET: "limited-dissolve"
   S3_BASE_PATH: "wander-mark"
+  SERVER_URL: "https://wander-api.limited-dissolve.ru"
 
 # All branches deploy to the same S3 prefix. Never interrupt an active upload.
 concurrency:

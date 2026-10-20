@@ -4,7 +4,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from deploy import deploy
+from deploy import deploy, managed, prepare_server_config
 
 
 class Missing(Exception):
@@ -60,6 +60,35 @@ class DeploymentTest(unittest.TestCase):
             run()
             self.assertNotIn('export/content/заметка.md', s3.objects)
             self.assertEqual(s3.objects['export/db/user.json'], b'keep')
+
+    def test_server_config_tracks_export_and_uploads_after_content(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = {'vaults': [{'exportPath': '/Chinese'}, {'exportPath': '/English'}]}
+            for folder in ('Chinese', 'English'):
+                meta = root / 'meta' / folder
+                meta.mkdir(parents=True)
+                for name in ('search.json', 'backlinks.json', 'graph.json'):
+                    (meta / name).write_text('{}')
+            prepare_server_config(config, root, 'https://example.test')
+            s3 = S3()
+            deploy(s3, 'bucket', 'export', root)
+            result = json.loads(s3.objects['export/config/server.json'])
+            self.assertEqual(result, {'url': 'https://example.test',
+                                      'vaults': ['Chinese', 'English']})
+            self.assertEqual(s3.uploads[-2], 'export/config/server.json')
+            s3.uploads.clear()
+            deploy(s3, 'bucket', 'export', root)
+            self.assertEqual(s3.uploads, [])
+            self.assertFalse(managed('config/private.json'))
+
+    def test_incomplete_export_does_not_generate_server_config(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with self.assertRaisesRegex(ValueError, 'Incomplete generation: English'):
+                prepare_server_config({'vaults': [{'exportPath': '/English'}]},
+                                      root, 'https://example.test')
+            self.assertFalse((root / 'config/server.json').exists())
 
     def test_whitespace_path_rejected_before_remote_mutations(self):
         for key in ('content/ note.md', 'content/folder /note.md'):
