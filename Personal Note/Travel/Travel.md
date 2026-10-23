@@ -78,7 +78,7 @@ mindmap
 bunx --bun @limiteddissolve/obsidian-importer \
   --api-url "https://trip-scheduler-api.limited-dissolve.ru" \
   --dir "~/Documents/obsidian-mark/Personal Note/Travel/-- Владивосток" \
-  --start-date "2026-09-05" \
+  --start-date "2027-09-05" \
   --status draft \
   --visibility public \
   --validate
