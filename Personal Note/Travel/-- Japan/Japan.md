@@ -21,7 +21,7 @@ cities:
   - Нара
   - Осака
   - Миноо
-  - Хиросима
+  - Hiroshima
   - Миядзима
   - Химэдзи
 content_ready: true
