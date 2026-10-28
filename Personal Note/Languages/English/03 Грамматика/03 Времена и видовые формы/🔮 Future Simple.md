@@ -46,13 +46,6 @@
 - ❌ *I will to be there.* → ✅ *I will be there.*
 - Не путайте *will* будущего с *would* в условных предложениях или вежливой просьбе; см. [[🤝 Will, would и вежливые просьбы]].
 
-## Мини-практика
-
-Выберите конструкцию в скобках. (1) The doorbell rang — I ___ (will / am going to) answer it. (2) I promise I ___ (won't / don't) be late. (3) We'll start when everyone ___ (will arrive / arrives). (4) I think their team ___ (will win / is winning) the final.
-
-> [!success] Ответы
-> (1) *will* — решение сейчас; (2) *won't* — обещание; (3) *arrives* — придаточное времени; (4) *will win* — прогноз/мнение.
-
 См. [[📅 Способы выражения будущего (Will, going to, Present)]], [[🚀 Future Continuous]], [[🏁 Future Perfect]] и [[🗺️ Система времён и аспектов английского глагола]].
 
 ![[Future Simple.webp]]

@@ -52,11 +52,4 @@ Question tag — короткий вопрос в конце утвержден�
 - ❌ *Let's go, will we?* → ✅ *shall we?*
 - Не забывайте согласовать местоимение с подлежащим: *The children are here, aren't they?*
 
-## Мини-практика
-
-Добавьте tag: (1) Your parents live nearby, ___? (2) I'm late, ___? (3) Nobody has seen the note, ___? (4) Let's order pizza, ___?
-
-> [!success] Ответы
-> (1) *don't they?* (2) *aren't I?* (3) *have they?* (4) *shall we?*
-
 См. [[❓ Общие, специальные и альтернативные вопросы]], [[⛔ Отрицания]] и [[🔗 Глагол to be]].

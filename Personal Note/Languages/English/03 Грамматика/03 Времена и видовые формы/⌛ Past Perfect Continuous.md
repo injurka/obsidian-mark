@@ -52,13 +52,6 @@ Past Perfect Continuous выделяет процесс или его длите
 - Не ставьте Past Perfect Continuous без причины, если важно лишь завершённое действие: *She had finished the report before I called* — естественнее Simple.
 - Уточняйте период: *for two hours* — «два часа», *since noon* — «с полудня».
 
-## Мини-практика
-
-(1) By the time the doctor arrived, we ___ (wait) for an hour. (2) The road was wet because it ___ (rain). (3) He ___ (own) the shop for years before he sold it.
-
-> [!success] Ответы
-> (1) *had been waiting*; (2) *had been raining*; (3) *had owned* — глагол состояния обычно остаётся в Simple.
-
 См. [[⏮️ Past Perfect]], [[🎞️ Past Continuous]] и [[🗺️ Система времён и аспектов английского глагола]].
 
 ![[Past Perfect Continuous.webp]]

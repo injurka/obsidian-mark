@@ -50,11 +50,4 @@
 
 Подробно: [[❓ Общие, специальные и альтернативные вопросы]], [[⛔ Отрицания]] и [[🗺️ Система времён и аспектов английского глагола]].
 
-## Мини-практика
-
-Исправьте ошибки: (1) *Does she is tired?* (2) *Did they went home?* (3) *Have you a car?* (нейтральный AmE) (4) *The house has built in 1990.*
-
-> [!success] Ответы
-> (1) *Is she tired?* (2) *Did they go home?* (3) *Do you have a car?* (4) *The house was built in 1990.* — пассив с *be* и V3.
-
 См. [[🔗 Глагол to be]], [[⛔ Отрицания]], [[☀️ Present Simple]] и [[📜 Past Simple]].

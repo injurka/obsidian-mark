@@ -52,13 +52,6 @@ Present Perfect Continuous показывает деятельность, кот
 - ❌ *I've been knowing him since school.* → ✅ *I've known him since school.*
 - Не подменяйте форму маркером *for*: сравните завершённый прошлый период (*I worked there for a year*) и период до настоящего (*I've been working here for a year*).
 
-## Мини-практика
-
-Выберите форму. (1) I ___ (wait) for you since 9 o'clock. (2) She ___ (write) four pages so far. (3) Why are your hands dirty? — I ___ (fix) the bike. (4) We ___ (know) each other for ten years.
-
-> [!success] Ответы
-> (1) *have been waiting* — длительность продолжается; (2) *has written* — количество результата; (3) *have been fixing* — недавний процесс/следы; (4) *have known* — глагол состояния.
-
 См. [[✅ Present Perfect]], [[🆚 Perfect vs Perfect Continuous]] и [[../06 Прилагательные, наречия и предлоги/⏰ Предлоги времени|⏰ Предлоги времени]].
 
 ![[Present Perfect Continuous.webp]]

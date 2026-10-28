@@ -48,11 +48,4 @@ Present Continuous подчёркивает личную договорённо�
 - Не ставьте Present Simple для личной договорённости, если хотите подчеркнуть, что вы договорились встретиться: *I'm meeting Alex tomorrow*.
 - Не считайте маркер *tomorrow* инструкцией к *will*: *The office opens tomorrow at 9* — будущее расписание.
 
-## Мини-практика
-
-Выберите естественную форму. (1) Someone's at the door — I ___ (get) it. (2) We ___ (have) lunch with Kate at 1; the table is booked. (3) The ferry ___ (leave) at 7:30. (4) Look at the sky! It ___ (rain). (5) I'll wait here until she ___ (come).
-
-> [!success] Ответы
-> (1) *will get* — решение сейчас; (2) *are having* — договорённость; (3) *leaves* — расписание; (4) *is going to rain* — очевидное свидетельство; (5) *comes* — после *until* форма настоящего.
-
 См. [[🔮 Future Simple]], [[🚀 Future Continuous]], [[🏁 Future Perfect]] и [[🗺️ Система времён и аспектов английского глагола]].

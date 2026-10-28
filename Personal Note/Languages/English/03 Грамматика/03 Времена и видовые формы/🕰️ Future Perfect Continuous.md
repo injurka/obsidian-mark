@@ -47,13 +47,6 @@ Future Perfect Continuous показывает, как долго процесс
 - ❌ *I'll have been knowing him for years.* → ✅ *I'll have known him for years.*
 - Не забывайте явный или понятный ориентир: форма отвечает на вопрос «к какому моменту?».
 
-## Мини-практика
-
-(1) By 10, they ___ (travel) for eight hours. (2) How long ___ she ___ (work) here by next April? (3) By Friday, I ___ (write) the whole report. (важен результат)
-
-> [!success] Ответы
-> (1) *will have been travelling*; (2) *will / have been working*; (3) *will have written* — результат, значит Future Perfect Simple.
-
 См. [[🏁 Future Perfect]], [[🚀 Future Continuous]], [[⏳ Present Perfect Continuous]] и [[🗺️ Система времён и аспектов английского глагола]].
 
 ![[Future Perfect Continuous.webp]]

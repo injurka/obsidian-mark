@@ -43,11 +43,4 @@
 - ❌ *We could find the hotel after an hour* (если подчёркнуто, что удалось в конкретном эпизоде) → чаще ✅ *We were able to find the hotel.*
 - Не ставьте *to* после *can/could*, но используйте его после *be able*: *can swim; able to swim.*
 
-## Мини-практика
-
-(1) At 8, I ___ (can) ride a bike. (2) After the storm, the crew ___ (manage) to reach the island. (3) I'll ___ (be able) to call after the meeting. (4) ___ you help me with this box? (вежливо)
-
-> [!success] Ответы
-> (1) *could*; (2) *was able to / managed*; (3) *be able*; (4) *Could*.
-
 См. [[🔮 May, might и вероятность]], [[🚫 Запрет и отсутствие необходимости]] и [[🧰 Вспомогательные глаголы do, be и have]].

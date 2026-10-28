@@ -44,11 +44,4 @@
 - ❌ *Do you have some questions?* — грамматически возможно при ожидании «да»; нейтральный общий вопрос: *any questions?*
 - Не забывайте *a* в *a few / a little*: оно меняет оттенок смысла.
 
-## Мини-практика
-
-(1) How ___ luggage do you have? (2) We have ___ chairs, so everyone can sit. (3) There isn't ___ sugar left. (4) ___ people came — almost nobody.
-
-> [!success] Ответы
-> (1) *much*; (2) *enough / a lot of* (а не *many*, если акцент на достаточности); (3) *any / much*; (4) *Few*.
-
 См. [[📦 Исчисляемые и неисчисляемые существительные]], [[⛔ Отрицания]] и [[🤝 Each, every, all, both, either и neither]].

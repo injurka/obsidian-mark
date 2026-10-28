@@ -47,13 +47,6 @@ Future Continuous представляет действие как процес�
 - ❌ *I'll be knowing him for years.* → ✅ *I'll have known him for years* (если важна длительность до будущей точки) или *I'll know him then*.
 - Не используйте Future Continuous просто потому, что русское предложение переведено через «буду»: выберите точку отсчёта и спросите, важен ли процесс в тот момент.
 
-## Мини-практика
-
-(1) This time tomorrow we ___ (sit) on the plane. (2) ___ you ___ (stay) for dinner? (вежливо уточните план) (3) I ___ (sleep) when you arrive, so don't ring the bell.
-
-> [!success] Ответы
-> (1) *will be sitting*; (2) *Will / be staying*; (3) *will be sleeping*.
-
 См. [[🔮 Future Simple]], [[🏁 Future Perfect]], [[📅 Способы выражения будущего (Will, going to, Present)]] и [[🗺️ Система времён и аспектов английского глагола]].
 
 ![[Future Continuous.webp]]

@@ -41,11 +41,4 @@ Genitive используется для людей и групп, а также
 - ❌ *the dog's tail's colour* (тяжеловесная цепочка) → ✅ *the colour of the dog's tail*.
 - Не считайте апостроф обязательным признаком притяжания: *its cover* — притяжательная форма без апострофа.
 
-## Мини-практика
-
-Перефразируйте: (1) the room of my parents; (2) the toys belonging to the children; (3) one of her colleagues; (4) a holiday that lasts two weeks.
-
-> [!success] Ответы
-> (1) *my parents' room*; (2) *the children's toys*; (3) *a colleague of hers*; (4) *a two weeks' holiday* или *a two-week holiday*.
-
 См. [[👜 Притяжательные определители и местоимения]], [[👥 Множественное число и исключения]] и [[../../02 Письменность и орфография/03 Пунктуация и оформление/🪝 Апостроф и притяжательные формы|🪝 Апостроф и притяжательные формы]].

@@ -66,11 +66,4 @@ Stative verbs могут употребляться в Perfect: *I've known her 
 - ❌ *How are you feeling about the proposal?* — грамматично и спрашивает о текущем впечатлении; *How do you feel?* тоже возможно. Не всякая форма *-ing* ошибка.
 - Не учите список как абсолютный: одна и та же форма может менять аспектуальный смысл.
 
-## Мини-практика
-
-Выберите форму. (1) I ___ (think) you're right. (2) She ___ (think) about your offer this week. (3) The soup ___ (taste) too salty. (4) The cook ___ (taste) the soup now. (5) We ___ (know) each other since 2018.
-
-> [!success] Ответы
-> (1) *think* — мнение; (2) *is thinking* — обдумывает; (3) *tastes* — характеристика; (4) *is tasting* — действие; (5) *have known* — состояние до настоящего.
-
 См. [[🆚 Present Simple vs Present Continuous]], [[✅ Present Perfect]] и [[⏳ Present Perfect Continuous]].

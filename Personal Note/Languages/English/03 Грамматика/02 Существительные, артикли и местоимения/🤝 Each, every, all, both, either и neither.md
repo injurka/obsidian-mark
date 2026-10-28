@@ -34,14 +34,9 @@
 - Каждый по отдельности → *each*.
 - Каждый в регулярно повторяющемся интервале → *every* (*every two days*).
 
-## Частые ошибки и мини-практика
+## Частые ошибки
 
 *Every students are ready* → *Every student is ready.*  
 *Both of them is ready* → *Both of them are ready.*
-
-(1) ___ of my parents speaks Spanish. (2) ___ the guests have arrived. (3) You can choose ___ of the two seats. (4) ___ candidate was selected — both were rejected.
-
-> [!success] Ответы
-> (1) *Each* — каждый отдельно; (2) *All*; (3) *either*; (4) *Neither*.
 
 См. [[⚖️ Some, any, no, much, many, few и little]], [[👥 Множественное число и исключения]] и [[👤 Личные и объектные местоимения]].

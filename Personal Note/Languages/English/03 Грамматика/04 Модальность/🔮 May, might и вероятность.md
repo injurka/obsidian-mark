@@ -46,11 +46,4 @@
 - ❌ *She might to come.* → ✅ *She might come.*
 - Не превращайте *may* в будущее время: оно модально — выражает возможность/разрешение, а не просто «завтра».
 
-## Мини-практика
-
-(1) The lights are off. They ___ (might / must) be asleep — это лишь одна гипотеза. (2) He isn't answering; he ___ (may / may have) left his phone at work. (3) ___ I borrow your pen? (вежливо/формально)
-
-> [!success] Ответы
-> (1) *might*; (2) *may have*; (3) *May*.
-
 См. [[💪 Can, could и be able to]], [[🕵️ Модальные глаголы о прошлом (Modal Perfect)]] и [[🤝 Will, would и вежливые просьбы]].

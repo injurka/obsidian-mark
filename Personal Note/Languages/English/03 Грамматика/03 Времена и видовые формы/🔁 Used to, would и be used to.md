@@ -56,11 +56,4 @@
 - Не используйте *would* для отдельного единичного факта о прошлом: *I used to live in Rome* (состояние), не *I would live in Rome*.
 - Не считайте «привык» тождественным «раньше делал»: сравните *I used to drive* и *I'm used to driving*.
 
-## Мини-практика
-
-Выберите правильный вариант. (1) I ___ (used to / am used to) work weekends, but now I have Saturdays off. (2) She is used to ___ (speak / speaking) in public. (3) It took me a month to ___ (get used to / used to) the cold. (4) When we were kids, Dad ___ (would / was used to) tell us stories every night.
-
-> [!success] Ответы
-> (1) *used to*; (2) *speaking*; (3) *get used to*; (4) *would tell*.
-
 См. [[📜 Past Simple]], [[🔄 Герундий и формы на -ing]] и [[♾️ Инфинитив с to и без to]].

@@ -39,13 +39,6 @@ Past Simple помещает действие или состояние в **з�
 - ❌ *I have seen him yesterday.* → ✅ *I saw him yesterday.* Законченная точная дата обычно требует Past Simple.
 - Не переводите русское «делал» только видом: *I worked all day* сообщает факт о целом завершённом дне; *I was working at six* выделяет процесс в момент.
 
-## Мини-практика
-
-(1) ___ you ___ (see) the message last night? (2) He ___ (not / be) at home. (3) We ___ (take) a taxi, ___ (arrive) early and ___ (wait) outside.
-
-> [!success] Ответы
-> (1) *Did / see*; (2) *wasn't*; (3) *took, arrived, waited*.
-
 См. [[🎞️ Past Continuous]], [[⏮️ Past Perfect]], [[🆚 Past Simple vs Present Perfect]] и [[⛔ Отрицания]].
 
 ![[Past Simple.webp]]

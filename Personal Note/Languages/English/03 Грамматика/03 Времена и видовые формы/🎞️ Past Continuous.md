@@ -54,13 +54,6 @@ Past Continuous показывает, что действие **было в пр
 - ❌ *He was know the answer.* → ✅ *He knew the answer.*
 - В отличие от русского, английская форма обязательно указывает помощника: *was/were + -ing*.
 
-## Мини-практика
-
-(1) I ___ (drive) home when I ___ (hear) the news. (2) While they ___ (wait), the children ___ (play) outside. (3) He ___ (not / listen) when the teacher asked him a question.
-
-> [!success] Ответы
-> (1) *was driving, heard*; (2) *were waiting, were playing*; (3) *wasn't listening*.
-
 См. [[📜 Past Simple]], [[⏮️ Past Perfect]] и [[🗺️ Система времён и аспектов английского глагола]].
 
 ![[Past Continuous.webp]]

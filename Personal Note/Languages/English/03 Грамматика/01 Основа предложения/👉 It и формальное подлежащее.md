@@ -47,11 +47,4 @@
 - Не путайте *it's* (= *it is/it has*) и притяжательное *its*: *It's raining; The dog wagged its tail.*
 - Не заменяйте экзистенциальное *there* на *it*: *There are two chairs*, не *It is two chairs*.
 
-## Мини-практика
-
-Переведите: (1) Вчера было холодно. (2) Выучить это правило легко. (3) До станции пять минут пешком. (4) Стало очевидно, что мы ошиблись.
-
-> [!success] Ответы
-> (1) *It was cold yesterday.* (2) *It's easy to learn this rule.* (3) *It's a five-minute walk to the station.* (4) *It became clear that we were wrong.*
-
 См. [[📍 There is и There are]], [[🏗️ Порядок слов и структура SVO]] и [[🎯 Эмфатические конструкции (Cleft Sentences)]].

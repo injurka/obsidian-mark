@@ -44,11 +44,4 @@ Perfect Simple часто употребляется с количеством/�
 4. Проверьте, допускает ли глагол длительную форму в этом значении.
 5. Смотрите на весь контекст: Present Perfect Continuous может описывать недавно завершённый процесс с нынешним следом.
 
-## Мини-практика
-
-(1) I ___ (write) four pages so far. (2) She ___ (run), that's why she's out of breath. (3) By noon, they ___ (wait) for three hours. (4) By noon, they ___ (finish) the project.
-
-> [!success] Ответы
-> (1) *have written* — результат и число; (2) *has been running* — недавний процесс/след; (3) *will have been waiting* — длительность до будущего срока; (4) *will have finished* — результат к сроку.
-
 См. [[✅ Present Perfect]], [[⏳ Present Perfect Continuous]], [[⏮️ Past Perfect]] и [[🏁 Future Perfect]].

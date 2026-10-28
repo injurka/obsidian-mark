@@ -46,11 +46,4 @@
 - Не выбирайте Present Perfect лишь потому, что результат «всё ещё важен»: если точный закрытый момент назван, Past Simple остаётся нормой.
 - Перевод «жил» зависит от того, закончился ли период: *I lived there for a year* / *I've lived there for a year.*
 
-## Мини-практика
-
-(1) I ___ (meet) her in 2019. (2) ___ you ever ___ (try) Thai food? (3) We ___ (not finish) the report yet. (4) She ___ (live) in Madrid from 2015 to 2018.
-
-> [!success] Ответы
-> (1) *met*; (2) *Have / tried*; (3) *haven't finished*; (4) *lived* — период явно завершён.
-
 См. [[📜 Past Simple]], [[✅ Present Perfect]] и [[🗺️ Система времён и аспектов английского глагола]].

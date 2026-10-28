@@ -46,11 +46,4 @@
 - ❌ *She said she had seen him tomorrow.* → если событие было после разговора: *She said she would see him the next day.*
 - Не заменяйте Past Simple на Past Perfect, если это не нужно для хронологии или согласования: ясный последовательный рассказ может оставаться в Past Simple.
 
-## Мини-практика
-
-Передайте косвенную речь. (1) “I'll email you tomorrow,” said Dana. (2) “I have already eaten,” he said. (3) “Water freezes at 0°C,” the teacher said. (4) We planned to move, but changed our minds.
-
-> [!success] Ответы
-> (1) *Dana said she would email me the next day.* (2) *He said he had already eaten.* (3) *The teacher said water freezes at 0°C.* (4) *We were going to move, but changed our minds.*
-
 См. [[💬 Косвенная речь (Reported Speech)]], [[🔮 Future Simple]] и [[🗺️ Система времён и аспектов английского глагола]].

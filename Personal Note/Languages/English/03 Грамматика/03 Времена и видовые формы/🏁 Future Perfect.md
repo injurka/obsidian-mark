@@ -51,13 +51,6 @@ Future Perfect показывает действие, которое будет 
 - Не употребляйте форму, если нет будущего ориентира и не важен результат к нему: обычное *I will send it tomorrow* короче и естественнее.
 - В разговорной речи Future Perfect встречается реже, чем Future Simple, но его полезно узнавать в сроках, проектах и прогнозах.
 
-## Мини-практика
-
-(1) By the end of the week, we ___ (complete) the first unit. (2) ___ you ___ (read) the book by Monday? (3) At 9 o'clock, she ___ (not / arrive) yet. (4) By the time the guests arrive, I ___ (make) dinner.
-
-> [!success] Ответы
-> (1) *will have completed*; (2) *Will / have read*; (3) *won't have arrived*; (4) *will have made*.
-
 См. [[🕰️ Future Perfect Continuous]], [[📅 Способы выражения будущего (Will, going to, Present)]], [[🗺️ Система времён и аспектов английского глагола]].
 
 ![[Future Perfect.webp]]

@@ -35,11 +35,4 @@ Continuous не всегда значит «в эту секунду»: *I'm tak
 - ❌ *The lesson is starting every day at 9.* (постоянное расписание) → ✅ *The lesson starts every day at 9.*
 - Не выбирайте форму исключительно по наречию: *always* возможно с обеими формами и меняет оттенок.
 
-## Мини-практика
-
-(1) My father usually ___ (drive) to work, but today he ___ (take) the bus. (2) The shop ___ (close) at 8 p.m. (3) Why ___ you ___ (smell) the flowers? They ___ (smell) wonderful. (4) We ___ (have) dinner with our neighbours tonight.
-
-> [!success] Ответы
-> (1) *drives, is taking*; (2) *closes* — график; (3) *are / smelling, smell* — действие и характеристика; (4) *are having* — договорённость.
-
 См. [[☀️ Present Simple]], [[🎬 Present Continuous]], [[🚫 Глаголы состояния (Stative Verbs)]] и [[🗺️ Система времён и аспектов английского глагола]].

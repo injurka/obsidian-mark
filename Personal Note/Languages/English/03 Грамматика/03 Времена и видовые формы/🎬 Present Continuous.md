@@ -46,13 +46,6 @@ Present Continuous представляет ситуацию как **разво
 - ❌ *We are going to the cinema every Friday.* (если это постоянная привычка) → ✅ *We go to the cinema every Friday.*
 - Не путайте кратковременное «сейчас» с будущим планом: *I'm seeing the doctor tomorrow* — встреча договорена, а не действие происходит завтра «прямо сейчас».
 
-## Мини-практика
-
-Выберите форму. (1) Be quiet, the baby ___ (sleep). (2) I usually ___ (take) the bus, but this week I ___ (drive). (3) Why ___ you ___ (smell) the milk? — I think it ___ (smell) strange. (4) We ___ (have) dinner with Sam tonight.
-
-> [!success] Ответы
-> (1) *is sleeping*; (2) *take, am driving*; (3) *are / smelling, smells* — намеренно нюхать и иметь запах; (4) *are having* — запланированная встреча.
-
 См. [[🆚 Present Simple vs Present Continuous]], [[🔄 Герундий и формы на -ing]] и [[🧰 Вспомогательные глаголы do, be и have]].
 
 ![[Present Continuous.webp]]

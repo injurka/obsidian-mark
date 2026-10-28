@@ -44,13 +44,9 @@
 > [!warning] Would имеет несколько значений
 > *I would go if I had time* — «я бы пошёл»; *She said she would go* — будущее из прошлого; *Would you go?* — просьба/вежливый вопрос. Определите конструкцию и временную точку.
 
-## Частые ошибки и мини-практика
+## Частые ошибки
 
 ❌ *Would you to help?* → ✅ *Would you help?*  
 ❌ *She would helps us.* → ✅ *She would help us.*  
-(1) ___ you like a cup of tea? (2) She said she ___ call later. (3) If I had time, I ___ learn Italian. (4) Would you mind ___ (wait) here?
-
-> [!success] Ответы
-> (1) *Would*; (2) *would*; (3) *would*; (4) *waiting*.
 
 См. [[🔮 Future Simple]], [[📍 Согласование времён и Future in the Past]], [[🧪 Условные предложения Second Conditional]] и [[❔ Косвенные вопросы]].

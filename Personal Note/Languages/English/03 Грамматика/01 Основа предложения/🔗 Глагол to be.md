@@ -49,11 +49,4 @@
 - ❌ *She is teacher.* → ✅ *She is a teacher.*
 - Не путайте *be* со вспомогательным *do*: *She is not working* vs *She doesn't work* — разные формы/аспекты.
 
-## Мини-практика
-
-(1) ___ you tired yesterday? (2) My parents ___ in the kitchen now. (3) The documents ___ (check) every morning. (4) Why ___ he ___ (wait) outside?
-
-> [!success] Ответы
-> (1) *Were*; (2) *are*; (3) *are checked* — пассив; (4) *is / waiting* — Continuous.
-
 См. [[🧰 Вспомогательные глаголы do, be и have]], [[⛔ Отрицания]], [[🎬 Present Continuous]] и [[🤕 Пассивный залог (Passive Voice)]].

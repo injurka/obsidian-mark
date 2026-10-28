@@ -36,13 +36,6 @@ Present Simple показывает ситуацию как факт, регул
 - ❌ *I live here since 2020.* → обычно ✅ *I have lived here since 2020*, если проживание продолжается сейчас. См. [[✅ Present Perfect]].
 - Не полагайтесь только на маркер: *now* не автоматически требует Continuous, если речь о состоянии: *I know it now*.
 
-## Мини-практика
-
-Поставьте глагол в нужную форму: (1) My sister ___ (study) biology. (2) ___ the shop ___ (open) on Sundays? (3) Water ___ (not boil) at room temperature. (4) I ___ (see) the dentist tomorrow — appointment is fixed.
-
-> [!success] Ответы
-> (1) *studies*; (2) *Does / open*; (3) *doesn't boil*; (4) *am seeing* — личная договорённость, а не расписание.
-
 См. также [[🆚 Present Simple vs Present Continuous]], [[⛔ Отрицания]], [[❓ Общие, специальные и альтернативные вопросы]] и [[📅 Способы выражения будущего (Will, going to, Present)]].
 
 ![[Present Simple.webp]]

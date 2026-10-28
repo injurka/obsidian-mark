@@ -41,13 +41,9 @@
 | предупредить о конкретном последствии | *had better* | *We'd better hurry, or we'll be late.* |
 | сожалеть о прошлом | *should have + V3* | *I should have checked the address.* |
 
-## Типичные ошибки и мини-практика
+## Типичные ошибки
 
 ❌ *She should to go.* → ✅ *She should go.*  
 ❌ *You had better to wait.* → ✅ *You had better wait.*  
-(1) You ___ see a doctor if the pain continues. (нейтральный совет) (2) We ___ leave now or we'll miss the bus. (предупреждение) (3) I ___ (check) the figures before I sent the email.
-
-> [!success] Ответы
-> (1) *should*; (2) *had better*; (3) *should have checked*.
 
 См. [[🚦 Must, have to и need to]], [[🕵️ Модальные глаголы о прошлом (Modal Perfect)]] и [[🤝 Will, would и вежливые просьбы]].

@@ -34,11 +34,4 @@
 - ❌ *Always I am tired.* → нейтрально ✅ *I'm always tired.*
 - Не вставляйте подлежащее после глагола только потому, что в русском порядок свободнее.
 
-## Мини-практика
-
-Расставьте слова: (1) always / she / breakfast / eats / at seven; (2) sent / a postcard / my cousin / I / yesterday; (3) explain / the rule / could / to me / you?
-
-> [!success] Ответы
-> (1) *She always eats breakfast at seven.* (2) *I sent my cousin a postcard yesterday.* (3) *Could you explain the rule to me?*
-
 См. [[❓ Общие, специальные и альтернативные вопросы]], [[✨ Наречия частоты, степени и образа действия]], [[⛔ Отрицания]] и [[📣 Повелительное наклонение]].

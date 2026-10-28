@@ -42,14 +42,9 @@
 
 *You needn't have bought milk* обычно значит: ты купил молоко, хотя необходимости не было. *You didn't need to buy milk* говорит, что обязанности/необходимости не было, но совершил ли говорящий покупку, может уточнять контекст. Эта разница особенно полезна для рассказа о потраченных усилиях.
 
-## Частые ошибки и мини-практика
+## Частые ошибки
 
 ❌ *She should had called.* → ✅ *She should have called.*  
 ❌ *He may has forgotten.* → ✅ *He may have forgotten.*
-
-(1) The ground is wet; it ___ (might / must have) rained. (уверенный вывод) (2) I ___ (should have / must have) studied more; I failed. (сожаление) (3) You ___ (needn't have / don't have to) bought that; we already had one. (покупка уже состоялась) (4) If I had seen the email, I ___ (would have / should have) replied.
-
-> [!success] Ответы
-> (1) *must have*; (2) *should have*; (3) *needn't have*; (4) *would have replied*.
 
 См. [[🔮 May, might и вероятность]], [[💡 Should, ought to и had better]], [[🚦 Must, have to и need to]] и [[⏪ Условные предложения Third и Mixed Conditionals]].

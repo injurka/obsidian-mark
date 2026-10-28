@@ -44,13 +44,6 @@ Past Perfect устанавливает порядок между двумя п�
 - ❌ *I had seen him yesterday* (без второй прошлой точки) → обычно ✅ *I saw him yesterday.*
 - Не ставьте Past Perfect автоматически в обеих частях: *I had finished before he arrived* — достаточно одной формы для более раннего действия; другая часть — Past Simple.
 
-## Мини-практика
-
-Соедините события, выделив раннее действие: (1) The guests arrived. We prepared dinner before that. (2) She couldn't open the door. She lost the key earlier. (3) I ___ never ___ (try) sushi before I went to Japan.
-
-> [!success] Ответы
-> (1) *We had prepared dinner before the guests arrived.* (2) *She couldn't open the door because she had lost the key.* (3) *I had never tried sushi before I went to Japan.*
-
 См. [[⌛ Past Perfect Continuous]], [[🎞️ Past Continuous]], [[📍 Согласование времён и Future in the Past]] и [[🗺️ Система времён и аспектов английского глагола]].
 
 ![[Past Perfect.webp]]

@@ -45,11 +45,4 @@
 - ❌ *Does there any milk?* → ✅ *Is there any milk?*
 - Для Perfect проверьте согласование: *There has been one change; There have been several changes.*
 
-## Мини-практика
-
-(1) ___ there ___ (be) any messages for me? (2) Yesterday ___ (be) a long queue. (3) ___ (be) two new cafés on our street. (4) ___ there ___ (be) enough time to finish?
-
-> [!success] Ответы
-> (1) *Are / any messages*; (2) *there was*; (3) *There are*; (4) *Will / be*.
-
 См. [[🔗 Глагол to be]], [[👉 It и формальное подлежащее]], [[📦 Исчисляемые и неисчисляемые существительные]] и [[❓ Общие, специальные и альтернативные вопросы]].

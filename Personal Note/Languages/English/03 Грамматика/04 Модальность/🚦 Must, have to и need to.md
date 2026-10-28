@@ -50,11 +50,4 @@
 - ❌ *You mustn't come if you don't want to* (если значит «необязательно») → ✅ *You don't have to come.*
 - Различайте запрет *mustn't* и отсутствие обязанности *don't have to*.
 
-## Мини-практика
-
-(1) I ___ wear safety glasses in the lab — это правило. (2) She ___ be at home; her car is here. (3) Yesterday we ___ (have) to change trains. (4) You ___ bring dessert; I've already bought one. (не обязательно)
-
-> [!success] Ответы
-> (1) *have to / must* (в зависимости от акцента); (2) *must* — вывод; (3) *had*; (4) *don't have to / needn't*.
-
 См. [[🚫 Запрет и отсутствие необходимости]], [[💡 Should, ought to и had better]] и [[🕵️ Модальные глаголы о прошлом (Modal Perfect)]].
