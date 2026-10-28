@@ -1,5 +1,9 @@
 # Техника Shadowing: теневой повтор
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:linear-gradient(120deg,rgba(119,145,198,.15),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">НЕ ЭХО СЛОВ — ЭХО РИТМА</div><div style="display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:12px;background:var(--background-primary);">🎧 услышать кусок</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:12px;background:rgba(119,145,198,.2);">🗣 повторить рядом</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:12px;background:var(--background-primary);">🎙 записать себя</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:12px;background:var(--background-primary);">👂 сравнить ритм</span></div><div style="font-size:.8rem;color:var(--text-muted);">Начни с короткого понятного фрагмента; скорость — только после точного повторения.</div>
+</div>
+
 **Shadowing** — повторение услышанной речи почти одновременно с диктором или сразу после короткого отрезка. Упражнение развивает ритм, интонацию, автоматизацию частотных сочетаний и способность удерживать звук в памяти. Оно не учит само по себе грамматике и не гарантирует естественный акцент: выбирайте небольшой фрагмент и работайте с конкретной целью.
 
 ## Пошаговая техника

@@ -1,5 +1,9 @@
 # Трудные звуки: th, w, v, r и l
 
+<div style="display:flex;flex-wrap:wrap;gap:.45rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 145px;padding:.8rem;border-radius:16px;background:var(--background-secondary);border-top:3px solid #d39b55;"><strong style="font-size:1.2rem;">TH</strong><div style="font-size:.82rem;">кончик языка слегка виден между зубами</div><small style="color:var(--text-muted);">think · this</small></div><div style="flex:1 1 145px;padding:.8rem;border-radius:16px;background:var(--background-secondary);border-top:3px solid #51a384;"><strong style="font-size:1.2rem;">W</strong><div style="font-size:.82rem;">губы округлены, зубы не касаются</div><small style="color:var(--text-muted);">west · we</small></div><div style="flex:1 1 145px;padding:.8rem;border-radius:16px;background:var(--background-secondary);border-top:3px solid #8e81bb;"><strong style="font-size:1.2rem;">V</strong><div style="font-size:.82rem;">нижняя губа касается верхних зубов</div><small style="color:var(--text-muted);">vest · very</small></div><div style="flex:1 1 145px;padding:.8rem;border-radius:16px;background:var(--background-secondary);border-top:3px solid #7791c6;"><strong style="font-size:1.2rem;">R / L</strong><div style="font-size:.82rem;">в английском /r/ язык не ударяет по нёбу; у /l/ есть контакт</div><small style="color:var(--text-muted);">right · light</small></div>
+</div>
+
 Некоторые английские звуки требуют нового движения языка или губ. Подбирайте положение артикуляции, а не ближайший русский звук: именно это отличие будет стабильным в любых словах.
 
 ## Межзубные /θ/ и /ð/

@@ -11,6 +11,13 @@
 
 Уровни — ориентир для планирования, а не ярлык личности. Переход между уровнями не происходит одновременно во всех навыках.
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:1rem 0 1.4rem;">
+  <div style="padding:.8rem;border:1px solid var(--background-modifier-border);border-radius:14px;background:var(--background-secondary);"><div style="font-size:1.15rem;">🔎</div><strong>Снимок сейчас</strong><div style="font-size:.76rem;color:var(--text-muted);">Что уже получается в 4 навыках?</div></div>
+  <div style="padding:.8rem;border:1px solid var(--background-modifier-border);border-radius:14px;background:var(--background-secondary);"><div style="font-size:1.15rem;">🎯</div><strong>Одна цель</strong><div style="font-size:.76rem;color:var(--text-muted);">Какое действие нужно улучшить?</div></div>
+  <div style="padding:.8rem;border:1px solid var(--background-modifier-border);border-radius:14px;background:var(--background-secondary);"><div style="font-size:1.15rem;">🛠️</div><strong>Маршрут</strong><div style="font-size:.76rem;color:var(--text-muted);">Какой следующий шаг посилен?</div></div>
+  <div style="padding:.8rem;border:1px solid var(--background-modifier-border);border-radius:14px;background:var(--background-secondary);"><div style="font-size:1.15rem;">↻</div><strong>Новая проверка</strong><div style="font-size:.76rem;color:var(--text-muted);">Повтори задачу и сравни результат.</div></div>
+</div>
+
 ## Как пользоваться дорожными картами
 
 Дорожная карта — последовательность опорных шагов, а не жёсткая программа. Возьмите один маршрут и для каждой темы выполните три действия: разберитесь в модели, найдите примеры в живом материале, попробуйте употребить форму самостоятельно. Если правило понятно только при чтении, оно ещё не стало активным навыком.

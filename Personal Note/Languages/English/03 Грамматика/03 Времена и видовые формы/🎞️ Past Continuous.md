@@ -1,5 +1,9 @@
 # Past Continuous — процесс в выбранный момент прошлого
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ДЛИННЫЙ КАДР + КОРОТКОЕ СОБЫТИЕ</div><div style="position:relative;margin:.85rem .15rem 1.4rem;height:46px;border-radius:13px;background:var(--background-primary);overflow:hidden;"><div style="position:absolute;left:5%;right:5%;top:8px;height:28px;border-radius:9px;background:rgba(119,145,198,.24);display:flex;align-items:center;padding-left:12px;font-size:.82rem;font-weight:800;">I was making coffee…</div><div style="position:absolute;left:62%;top:0;bottom:0;width:7px;border-radius:5px;background:#d39b55;"></div></div><div style="display:flex;gap:.5rem;align-items:center;font-size:.9rem;"><span>…when</span><strong style="color:#d39b55;">the phone rang.</strong><span style="font-size:.78rem;color:var(--text-muted);">короткий щелчок сюжета · Past Simple</span></div>
+</div>
+
 Past Continuous показывает, что действие **было в процессе** в определённый момент или промежуток прошлого. Говорящий как будто смотрит на ситуацию изнутри: сообщает, что происходило, не представляя само действие как завершённый факт. Формула: **was / were + глагол-ing**.
 
 ## Формы

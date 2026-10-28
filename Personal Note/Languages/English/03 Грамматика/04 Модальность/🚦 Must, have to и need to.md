@@ -2,6 +2,16 @@
 
 **Must, have to, need to** выражают необходимость, обязанность или сильный вывод, но различаются источником и оттенком. **Must** часто представляет требование как убеждение говорящего или строгую инструкцию; **have to** — как внешнее правило/обстоятельство; **need to** нейтрально говорит о практической необходимости. Значения пересекаются, поэтому контекст важен.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="margin-bottom:.65rem;font-size:.67rem;color:var(--text-muted);font-weight:800;letter-spacing:.12em;">КАК ЗВУЧИТ НЕОБХОДИМОСТЬ? ПОСМОТРИ НА ИСТОЧНИК</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:8px;">
+    <div style="padding:.75rem;border-radius:12px;background:var(--background-primary);border-left:4px solid #d8ae54;"><strong>I must finish this today.</strong><div style="margin-top:.3rem;font-size:.78rem;color:var(--text-muted);">моя настойчивая позиция / инструкция</div></div>
+    <div style="padding:.75rem;border-radius:12px;background:var(--background-primary);border-left:4px solid #7aa9d1;"><strong>I have to wear a uniform.</strong><div style="margin-top:.3rem;font-size:.78rem;color:var(--text-muted);">условие извне</div></div>
+    <div style="padding:.75rem;border-radius:12px;background:var(--background-primary);border-left:4px solid #51a384;"><strong>I need to charge my phone.</strong><div style="margin-top:.3rem;font-size:.78rem;color:var(--text-muted);">практическая потребность</div></div>
+  </div>
+  <div style="margin-top:.65rem;font-size:.78rem;color:var(--text-muted);">Это типичные акценты, а не жёсткое разделение: реальные контексты часто допускают несколько вариантов.</div>
+</div>
+
 ## Must: обязанность и сильный вывод
 
 - Личное требование/твёрдая рекомендация: *I must finish this today; You must see this film.*

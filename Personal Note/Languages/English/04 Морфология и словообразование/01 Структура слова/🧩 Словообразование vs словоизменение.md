@@ -1,5 +1,9 @@
 # Словообразование vs словоизменение
 
+<div style="display:flex;flex-wrap:wrap;gap:.55rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 220px;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СЛОВОИЗМЕНЕНИЕ · ТОТ ЖЕ УЧАСТНИК, ДРУГАЯ ФОРМА</div><div style="font-size:1.05rem;font-weight:900;margin:.65rem 0;">work → works → worked</div><div style="font-size:.8rem;color:var(--text-muted);">меняются грамматические признаки, часть речи остаётся той же</div></div><div style="flex:1 1 220px;padding:1rem;border-radius:18px;background:rgba(224,164,95,.13);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СЛОВООБРАЗОВАНИЕ · НОВАЯ РОЛЬ СЛОВА</div><div style="font-size:1.05rem;font-weight:900;margin:.65rem 0;">teach → teacher → teaching</div><div style="font-size:.8rem;color:var(--text-muted);">появляется новое слово или новая часть речи</div></div>
+</div>
+
 Аффикс может создать новое слово или показать грамматическую форму уже известного. Это два разных процесса: **словообразование** расширяет словарь и часто меняет часть речи или значение; **словоизменение** выражает грамматические признаки, не создавая отдельную словарную лексему.
 
 ## Словоизменение

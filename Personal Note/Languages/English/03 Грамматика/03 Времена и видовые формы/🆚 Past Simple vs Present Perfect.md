@@ -4,6 +4,15 @@
 
 ## Сравнение
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:10px;margin:1rem 0 1.4rem;">
+  <div style="padding:1rem;border-radius:16px;background:var(--background-secondary);border-left:4px solid #7aa9d1;">
+    <div style="font-size:.67rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">ЗАКРЫТЫЙ ЭПИЗОД · PAST SIMPLE</div><div style="margin:.6rem 0;padding:.55rem;border-radius:9px;background:var(--background-primary);"><strong>yesterday</strong><span style="color:var(--text-faint);"> ──●</span></div><strong>I lost my keys yesterday.</strong><div style="font-size:.78rem;color:var(--text-muted);margin-top:.3rem;">Отвечаю: когда это было?</div>
+  </div>
+  <div style="padding:1rem;border-radius:16px;background:var(--background-secondary);border-left:4px solid #51a384;">
+    <div style="font-size:.67rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">СВЯЗЬ СЕЙЧАС · PRESENT PERFECT</div><div style="margin:.6rem 0;padding:.55rem;border-radius:9px;background:var(--background-primary);"><strong>раньше</strong><span style="color:#51a384;"> ─────────→ ● NOW</span></div><strong>I’ve lost my keys.</strong><div style="font-size:.78rem;color:var(--text-muted);margin-top:.3rem;">Отвечаю: что важно сейчас? Ключей нет.</div>
+  </div>
+</div>
+
 | Past Simple | Present Perfect |
 |---|---|
 | Законченный период / дата | Период связан с настоящим |
@@ -34,6 +43,8 @@
 > В стандартной нейтральной речи не соединяйте Present Perfect и завершённую конкретную дату: *I've seen him yesterday* обычно исправляют на *I saw him yesterday*. Если нужно сообщить о самом опыте без даты: *I've seen him before.*
 
 ## Контраст в коротких диалогах
+
+В одной сцене реплика *“You left it under the menu a minute ago”* называет завершённый эпизод, а *“I’ve found it!”* сообщает о результате, актуальном сейчас. В этом сюжете временную точку легко представить: ключ уже найден, и кафе может открыться. См. [[🎬 Одна история — несколько грамматических форм]].
 
 - *Did you read the article?* — спрашиваю об определённом прошлом задании/эпизоде. *Have you read the article?* — важно сейчас, потому что можно обсуждать содержание.
 - *She was in Paris last summer.* — поездка относится к завершённому лету. *She's been to Paris.* — она там побывала хотя бы раз; дата не важна.

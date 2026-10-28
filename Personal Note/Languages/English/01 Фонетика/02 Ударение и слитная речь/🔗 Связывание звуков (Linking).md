@@ -1,5 +1,9 @@
 # Связывание звуков (Linking)
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СЛОВА СОЕДИНЯЮТСЯ ЧЕРЕЗ ГРАНИЦУ</div><div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);font-size:1.1rem;font-weight:850;">pick</span><span style="padding:.55rem .7rem;border-radius:13px;background:rgba(81,163,132,.19);font-size:1.1rem;font-weight:850;">it</span><span style="color:var(--text-muted);">→ без паузы →</span><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);font-size:1.1rem;font-weight:850;">pick‿it</span></div><div style="font-size:.8rem;color:var(--text-muted);">Финальный согласный мягко переходит к следующей гласной; граница слов остаётся в смысле, но не в паузе.</div>
+</div>
+
 В естественной английской речи слова не произносятся отдельными островками. Конец одного слова плавно соединяется с началом следующего, поэтому границы на слух часто менее заметны, чем на письме. **Linking** — общий термин для таких переходов. Он помогает говорить плавно и понимать быструю речь, но не означает, что нужно убирать пробелы или сливать слова до неузнаваемости.
 
 ## Согласный + гласный

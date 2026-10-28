@@ -2,6 +2,13 @@
 
 Навигатор по заметкам раздела **Грамматика**. Открывайте нужную тему и переходите между связанными страницами по внутренним ссылкам.
 
+<div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="flex:1 1 140px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">01 · КАРКАС</div><strong>S + V + дополнения</strong><small style="display:block;color:var(--text-muted);">кто, что делает, с чем</small></div><span style="font-size:1.2rem;color:var(--text-faint);">→</span>
+  <div style="flex:1 1 140px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">02 · ВЗГЛЯД</div><strong>время · вид · модальность</strong><small style="display:block;color:var(--text-muted);">когда и как это показать</small></div><span style="font-size:1.2rem;color:var(--text-faint);">→</span>
+  <div style="flex:1 1 140px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">03 · СВЯЗИ</div><strong>условие · причина · фокус</strong><small style="display:block;color:var(--text-muted);">как части мысли зависят друг от друга</small></div><span style="font-size:1.2rem;color:var(--text-faint);">→</span>
+  <div style="flex:1 1 140px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">04 · ТЕКСТ</div><strong>связность и тон</strong><small style="display:block;color:var(--text-muted);">как мысль звучит целиком</small></div>
+</div>
+
 ## Как пользоваться картой и в каком порядке изучать
 
 Этот раздел — справочник и последовательный курс одновременно. Если вы начинаете с основ, сначала закрепите структуру простого предложения, формы *to be*, вспомогательные глаголы, вопросы и отрицания. Затем разберите существительные и определители: число, исчисляемость, артикли и местоимения. Это даст слова и каркас, на которые опираются все последующие темы.
@@ -19,9 +26,13 @@
 4. Перейдите по ссылкам на соседние темы и сравните, какое значение меняется.
 5. Составьте собственные два примера: один о знакомой ситуации, второй с контрастной временной или смысловой точкой.
 
+Если правила пока ощущаются как разрозненные таблицы, начните с короткого сюжета [[01 Основа предложения/🎬 Одна история — несколько грамматических форм|Одна история — несколько грамматических форм]]: в одной сцене сравниваются SVO, вопросы, отрицания, артикли и временные ракурсы.
+
 Обозначения и примеры даны по-русски и по-английски. Английские фразы показывают не только перевод, но и роль формы в контексте; отдельные заметки указывают частые ошибки русскоязычных учащихся и типичные варианты в разговорной речи. Для повторения выбирайте не слово-маркер отдельно, а вопрос «что я хочу сообщить: факт, процесс, результат, длительность, обязанность или возможность?».
 
 ## 01 Основа предложения
+
+Для первого наглядного разбора откройте [[01 Основа предложения/🎬 Одна история — несколько грамматических форм|историю про Майю и ключ]] — она показывает, как меняется одна мысль, когда меняются время, вопрос или отрицание.
 
 - [[01 Основа предложения/⛔ Отрицания|⛔ Отрицания]]
 - [[01 Основа предложения/❓ Общие, специальные и альтернативные вопросы|❓ Общие, специальные и альтернативные вопросы]]

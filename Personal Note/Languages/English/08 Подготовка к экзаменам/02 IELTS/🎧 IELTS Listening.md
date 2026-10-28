@@ -1,5 +1,9 @@
 # IELTS Listening: подготовка
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ПРЕДСКАЖИ ФОРМУ ОТВЕТА ДО АУДИО</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);">прочитай пробел</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:rgba(119,145,198,.18);">ожидай число / имя / место</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);">услышь ответ и исправление</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);">проверь лимит слов</span></div><div style="font-size:.8rem;color:var(--text-muted);">В разговоре ответ могут уточнить или заменить — дождись завершения мысли.</div>
+</div>
+
 До записи прочитайте задание и подчеркните тип ожидаемого ответа: число, имя, место или короткая фраза. Во время прослушивания следите за перефразированием и переходом между вопросами; ответ может прозвучать иначе, чем сформулирован пункт.
 
 После выполнения проверьте орфографию, число слов, единицы и грамматическую форму. Разберите пропуски по причине: не узнали синоним, потеряли место, отвлеклись или ошиблись в написании.

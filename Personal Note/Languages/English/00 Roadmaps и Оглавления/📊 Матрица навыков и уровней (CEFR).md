@@ -1,5 +1,9 @@
 # Матрица навыков и уровней CEFR
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СРАВНИВАЙ ДЕЙСТВИЯ В КАЖДОМ НАВЫКЕ</div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.45rem;margin:.8rem 0;"><div style="padding:.7rem;border-radius:14px;background:rgba(81,163,132,.14);">👂<strong style="display:block;">СЛУШАЮ</strong><small>понимаю главное</small></div><div style="padding:.7rem;border-radius:14px;background:var(--background-primary);">📖<strong style="display:block;">ЧИТАЮ</strong><small>нахожу нужную мысль</small></div><div style="padding:.7rem;border-radius:14px;background:rgba(224,164,95,.14);">🗣️<strong style="display:block;">ГОВОРЮ</strong><small>развиваю ответ</small></div><div style="padding:.7rem;border-radius:14px;background:var(--background-primary);">✍️<strong style="display:block;">ПИШУ</strong><small>ясно связываю идеи</small></div></div><div style="font-size:.8rem;color:var(--text-muted);">Уровень — описание того, что получается сделать в контексте, а не перечень выученных правил.</div>
+</div>
+
 CEFR описывает, что человек может делать на языке. Уровни идут от базового A1 до свободного и гибкого владения C2. Это шкала коммуникативных задач, а не список обязательных слов или грамматических тем.
 
 | Уровень | Ориентир |

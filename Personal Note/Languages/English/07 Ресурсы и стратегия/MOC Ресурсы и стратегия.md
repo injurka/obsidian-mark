@@ -2,6 +2,13 @@
 
 Раздел помогает организовать самостоятельную практику, выбирать подходящие материалы и развивать аудирование, говорение, чтение и письмо. Сначала определите цель и уровень, затем выберите один ресурс для конкретной задачи. Не нужно одновременно использовать много пособий: ценность создаёт регулярная практика с обратной связью и повторением.
 
+<div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="flex:1 1 130px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">INPUT</div><strong>Послушай / прочитай</strong></div><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+  <div style="flex:1 1 130px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">NOTICE</div><strong>Заметь одну модель</strong></div><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+  <div style="flex:1 1 130px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">OUTPUT</div><strong>Перескажи / примени</strong></div><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+  <div style="flex:1 1 130px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">FEEDBACK</div><strong>Исправь и повтори</strong></div>
+</div>
+
 ## Рекомендуемый маршрут
 
 1. **Определите отправную точку.** Запишите цель, доступное время и текущие трудности. Если цель связана с экзаменом или работой, уточните формат и требования по официальному источнику.

@@ -2,6 +2,13 @@
 
 Этот раздел учит не «говорить без акцента», а надёжно различать и произносить звуки, понимать естественный ритм речи и не теряться при смене акцента. Двигайтесь от отдельных звуков к фразам: сначала слух и артикуляция, затем ударение и связная речь, после этого — акцентная вариативность. Возвращайтесь к заметкам с конкретным вопросом: какой звук не различаю, где теряю окончание, что не понял в аудио?
 
+<div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>👂 Услышать</strong><small style="display:block;color:var(--text-muted);">различить контраст</small></span><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+  <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>👄 Сформировать</strong><small style="display:block;color:var(--text-muted);">найти положение артикуляции</small></span><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+  <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>🥁 Встроить</strong><small style="display:block;color:var(--text-muted);">ударение и ритм фразы</small></span><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+  <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>🌍 Узнать</strong><small style="display:block;color:var(--text-muted);">тот же звук в разных акцентах</small></span>
+</div>
+
 ## Рекомендуемый маршрут
 
 1. Освойте обозначения в [[01 Звуки и транскрипция/🔤 Международный фонетический алфавит (IPA)|🔤 Международный фонетический алфавит (IPA)]] и положения языка в [[01 Звуки и транскрипция/🗣️ Артикуляция и речевой аппарат|🗣️ Артикуляция и речевой аппарат]].

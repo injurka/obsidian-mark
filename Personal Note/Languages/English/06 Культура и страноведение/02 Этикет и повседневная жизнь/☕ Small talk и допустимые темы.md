@@ -1,5 +1,9 @@
 # Small talk и безопасные темы
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:linear-gradient(135deg,rgba(224,164,95,.16),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">SMALL TALK — МАЛЕНЬКИЙ МОСТ К БЕСЕДЕ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">общая ситуация</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:rgba(224,164,95,.22);">открытый вопрос</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">слушай ответ</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">задай встречный</span></div><div style="font-size:.9rem;">“Have you been to this event before?” → “A couple of times.” → “What do you like most about it?”</div><div style="font-size:.8rem;color:var(--text-muted);margin-top:.5rem;">Если собеседник отвечает коротко и не развивает тему, спокойно смени тему или заверши разговор.</div>
+</div>
+
 Неформальная короткая беседа часто помогает начать встречу, но её нормы зависят от культуры и ситуации. Нейтральные темы: дорога, мероприятие, еда, место, общие интересы, планы на выходные. Открытый вопрос и короткий ответ о себе помогают поддержать разговор.
 
 Примеры: *How was your journey? Have you been here before? What did you think of the talk?* Если собеседник отвечает кратко, меняйте тему или дайте ему завершить разговор.

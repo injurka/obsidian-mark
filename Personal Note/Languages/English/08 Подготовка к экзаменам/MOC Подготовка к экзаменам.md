@@ -2,6 +2,13 @@
 
 Навигатор по заметкам раздела **Подготовка к экзаменам**. Открывайте нужную тему и переходите между связанными страницами по внутренним ссылкам.
 
+<div style="display:flex;align-items:stretch;gap:8px;flex-wrap:wrap;margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="flex:1 1 145px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">① ЗАДАНИЕ</div><strong>Что именно просят?</strong></div><span style="align-self:center;color:var(--text-faint);font-size:1.2rem;">→</span>
+  <div style="flex:1 1 145px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">② КРИТЕРИЙ</div><strong>За что дают баллы?</strong></div><span style="align-self:center;color:var(--text-faint);font-size:1.2rem;">→</span>
+  <div style="flex:1 1 145px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">③ ОТВЕТ</div><strong>Собери мысль в срок</strong></div><span style="align-self:center;color:var(--text-faint);font-size:1.2rem;">→</span>
+  <div style="flex:1 1 145px;padding:.7rem;border-radius:11px;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">④ РАЗБОР</div><strong>Найди один повторяемый пробел</strong></div>
+</div>
+
 ## 01 Выбор экзамена и общая стратегия
 
 - [[Personal Note/Languages/English/08 Подготовка к экзаменам/01 Выбор экзамена и общая стратегия/📅 План подготовки и пробные экзамены|📅 План подготовки и пробные экзамены]]

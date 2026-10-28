@@ -1,5 +1,9 @@
 # Past Perfect — что уже произошло к моменту в прошлом
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:linear-gradient(120deg,rgba(142,129,187,.14),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ОДНА ТОЧКА ПРОШЛОГО, ЕЩЁ ОДНА — РАНЬШЕ НЕЁ</div><div style="position:relative;height:48px;margin:.85rem .2rem .3rem;border-bottom:2px solid var(--background-modifier-border);"><div style="position:absolute;left:24%;bottom:-7px;width:13px;height:13px;border-radius:50%;background:#8e81bb;"></div><div style="position:absolute;left:72%;bottom:-7px;width:13px;height:13px;border-radius:50%;background:#d39b55;"></div><div style="position:absolute;left:14%;top:0;font-size:.85rem;font-weight:850;">had left</div><div style="position:absolute;left:62%;top:0;font-size:.85rem;font-weight:850;">arrived</div></div><div style="display:flex;justify-content:space-between;font-size:.78rem;color:var(--text-muted);"><span>раньше · Past Perfect</span><span>позже · Past Simple</span></div><div style="font-size:.86rem;margin-top:.55rem;">When we arrived, the train <strong>had left</strong>.</div>
+</div>
+
 Past Perfect устанавливает порядок между двумя прошлыми точками: одно действие произошло **раньше другой точки или события в прошлом**. Формула: **had + past participle (V3)**. Её смысл удобно представить как «прошлое до прошлого»: *When we arrived, the film had started* — к нашему приезду фильм уже начался.
 
 ## Форма

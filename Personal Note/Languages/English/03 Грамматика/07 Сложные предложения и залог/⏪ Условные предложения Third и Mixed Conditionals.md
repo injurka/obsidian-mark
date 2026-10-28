@@ -1,5 +1,9 @@
 # Third и Mixed Conditionals
 
+<div style="display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 235px;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ТРЕТЬЯ УСЛОВНАЯ · ПРОШЛОЕ ЗАКРЫТО</div><div style="margin:.6rem 0;font-weight:850;">IF <span style="color:#8e81bb;">had left earlier</span> → <span style="color:#d39b55;">would have caught it</span></div><div style="font-size:.8rem;color:var(--text-muted);">развилка, которую уже не изменить</div></div><div style="flex:1 1 235px;padding:1rem;border-radius:18px;background:rgba(81,163,132,.12);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">MIXED · МОСТ МЕЖДУ ВРЕМЕНАМИ</div><div style="margin:.6rem 0;font-weight:850;">прошлая причина → нынешний результат</div><div style="font-size:.8rem;color:var(--text-muted);">If I had slept well, I wouldn't be tired now.</div></div>
+</div>
+
 **Third Conditional** описывает нереализованную возможность в прошлом: **if + Past Perfect, would have + past participle** — *If we had left earlier, we would have caught the train.* Событие уже невозможно изменить; фраза может выражать сожаление, критику или анализ.
 
 В смешанном условии причина в прошлом связана с результатом сейчас: *If I had taken that job, I would be living abroad now.* Обратный вариант связывает общее настоящее условие с результатом прошлого и встречается реже.

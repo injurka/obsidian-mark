@@ -1,5 +1,9 @@
 # 🧲 Коллокации (Collocations)
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:linear-gradient(120deg,rgba(81,163,132,.15),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СЛОВА СЦЕПЛЯЮТСЯ ПО ПРИВЫЧКЕ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.75rem 0;"><span style="padding:.55rem .75rem;border-radius:12px;background:var(--background-primary);">heavy</span><span style="font-size:1.15rem;color:#51a384;">⊙</span><span style="padding:.55rem .75rem;border-radius:12px;background:var(--background-primary);">rain</span><span style="color:var(--text-muted);margin:0 .3rem;">✓</span><span style="padding:.45rem .65rem;border-radius:999px;background:rgba(81,163,132,.18);">heavy rain</span><span style="margin-left:auto;color:var(--text-faint);text-decoration:line-through;">strong rain</span></div><div style="font-size:.8rem;color:var(--text-muted);">Запоминай связку целиком — так легче быстро достать её в речи.</div>
+</div>
+
 Коллокация — типичное соседство слов, которое помогает речи звучать естественно. Записывайте глагол с существительным и прилагательное с существительным, а не отдельный перевод.
 
 | Выражение | Значение |

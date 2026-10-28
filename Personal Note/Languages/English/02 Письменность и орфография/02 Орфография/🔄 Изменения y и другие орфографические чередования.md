@@ -1,5 +1,9 @@
 # Изменения y и другие орфографические чередования
 
+<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 170px;padding:.9rem;border-radius:16px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;color:var(--text-muted);font-weight:800;">СОГЛАСНАЯ + Y</div><strong style="font-size:1.15rem;">study → studies</strong><div style="font-size:.8rem;color:var(--text-muted);">y меняется перед -es</div></div><div style="flex:1 1 170px;padding:.9rem;border-radius:16px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;color:var(--text-muted);font-weight:800;">ГЛАСНАЯ + Y</div><strong style="font-size:1.15rem;">play → plays</strong><div style="font-size:.8rem;color:var(--text-muted);">y остаётся на месте</div></div><div style="flex:1 1 170px;padding:.9rem;border-radius:16px;background:rgba(81,163,132,.12);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;color:var(--text-muted);font-weight:800;">СНАЧАЛА СМОТРИ</div><strong>на букву перед y</strong><div style="font-size:.8rem;color:var(--text-muted);">она включает правило</div></div>
+</div>
+
 При образовании новых форм некоторые конечные буквы меняются. Эти чередования не всегда слышны, поэтому важно видеть грамматическую форму и проверять написание. Самая частая закономерность касается конечной *y*: результат зависит от буквы перед ней и от суффикса.
 
 ## Конечная y

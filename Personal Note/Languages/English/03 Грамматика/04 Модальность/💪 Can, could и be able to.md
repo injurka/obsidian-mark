@@ -2,6 +2,15 @@
 
 **Can** выражает умение, доступную возможность, разрешение или просьбу. **Could** употребляется для общей способности в прошлом, мягких просьб и менее уверенной возможности. **Be able to** — конструкция «быть способным», которая позволяет выразить способность в тех формах, где *can* не имеет нужного грамматического варианта.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+    <div style="flex:1 1 155px;padding:.75rem;border-radius:12px;background:var(--background-primary);"><small style="color:var(--text-muted);font-weight:800;">УМЕЮ СЕЙЧАС</small><div><strong>I can swim.</strong></div></div><span style="font-size:1.2rem;color:var(--text-faint);">→</span>
+    <div style="flex:1 1 155px;padding:.75rem;border-radius:12px;background:var(--background-primary);"><small style="color:var(--text-muted);font-weight:800;">ОБЩЕЕ УМЕНИЕ РАНЬШЕ</small><div><strong>I could swim at six.</strong></div></div><span style="font-size:1.2rem;color:var(--text-faint);">→</span>
+    <div style="flex:1 1 185px;padding:.75rem;border-radius:12px;background:var(--background-primary);"><small style="color:var(--text-muted);font-weight:800;">ОДИН УСПЕШНЫЙ СЛУЧАЙ</small><div><strong>We were able to get in.</strong></div></div>
+  </div>
+  <div style="margin-top:.65rem;padding-top:.6rem;border-top:1px dashed var(--background-modifier-border);font-size:.8rem;color:var(--text-muted);">Could также смягчает просьбу: <em>Could you help me?</em> Для будущего и Perfect понадобятся формы <em>be able to</em>.</div>
+</div>
+
 ## Can: умение, возможность, разрешение
 
 - Способность: *She can speak three languages; I can't swim.*

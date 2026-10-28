@@ -1,5 +1,9 @@
 # There is и There are — сообщаем, что что-то существует или появляется
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СНАЧАЛА ОТКРЫВАЕМ СЦЕНУ, ПОТОМ НАЗЫВАЕМ НОВОЕ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.75rem 0;"><span style="padding:.55rem .75rem;border-radius:12px;background:rgba(81,163,132,.2);font-weight:850;">There is</span><span style="padding:.55rem .75rem;border-radius:12px;background:var(--background-primary);">a key</span><span style="color:var(--text-muted);">on the counter.</span><span style="margin-left:auto;padding:.4rem .65rem;border-radius:999px;background:var(--background-primary);font-size:.8rem;">один предмет</span></div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;"><span style="padding:.55rem .75rem;border-radius:12px;background:rgba(81,163,132,.2);font-weight:850;">There are</span><span style="padding:.55rem .75rem;border-radius:12px;background:var(--background-primary);">two keys</span><span style="color:var(--text-muted);">on the counter.</span><span style="margin-left:auto;padding:.4rem .65rem;border-radius:999px;background:var(--background-primary);font-size:.8rem;">несколько</span></div>
+</div>
+
 Конструкция **there + be** вводит в речь человека, предмет или факт, о котором прежде не говорили: *There is a book on the table.* Русский часто переводит её как «есть», «находится», «появился», но английский порядок слов другой. В нейтральной конструкции *there* стоит перед формой *be*, а новая информация (реальное подлежащее) следует после неё.
 
 ## Согласование и формы

@@ -2,6 +2,16 @@
 
 Навигатор по заметкам раздела **Систематизация и ошибки**. Открывайте нужную тему и переходите между связанными страницами по внутренним ссылкам.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:17px;background:var(--background-secondary);">
+  <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;">
+    <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>📍 Заметь</strong><small style="display:block;color:var(--text-muted);">где споткнулся?</small></span><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+    <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>🧩 Объясни</strong><small style="display:block;color:var(--text-muted);">какое правило нужно?</small></span><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+    <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>🛠️ Потренируй</strong><small style="display:block;color:var(--text-muted);">создай похожую задачу</small></span><span style="color:var(--text-faint);font-size:1.2rem;">→</span>
+    <span style="padding:.55rem .7rem;border-radius:10px;background:var(--background-primary);"><strong>↻ Вернись позже</strong><small style="display:block;color:var(--text-muted);">вызови знание без подсказки</small></span>
+  </div>
+  <div style="margin-top:.75rem;padding-top:.65rem;border-top:1px dashed var(--background-modifier-border);font-size:.82rem;color:var(--text-muted);">Ошибка становится полезной, когда цикл заканчивается новой попыткой в другом контексте.</div>
+</div>
+
 ## 01 Повторение и организация знаний
 
 - [[Personal Note/Languages/English/09 Систематизация и ошибки/01 Повторение и организация знаний/🃏 Карточки Anki для слов и фраз|🃏 Карточки Anki для слов и фраз]]

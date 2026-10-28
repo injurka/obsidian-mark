@@ -1,5 +1,9 @@
 # Косвенная речь
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:linear-gradient(120deg,rgba(224,164,95,.13),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">КАВЫЧКИ СНИМАЕМ, СЛОВА ПРИВЯЗЫВАЕМ К НОВОЙ ТОЧКЕ ЗРЕНИЯ</div><div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.75rem 0;"><span style="padding:.55rem .75rem;border-radius:12px;background:var(--background-primary);">“I am tired,”</span><span style="color:var(--text-muted);">said then</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .75rem;border-radius:12px;background:rgba(224,164,95,.2);font-weight:850;">She said she was tired.</span></div><div style="font-size:.8rem;color:var(--text-muted);">today/now, this/here и местоимения меняются по ситуации рассказчика; сдвиг времени нужен не всегда.</div>
+</div>
+
 Для пересказа слов используйте *say/tell* и содержание без кавычек: *“I’m tired,” she said → She said (that) she was tired.* После *tell* обычно нужен адресат: *She told me that…*, но *She said that…*.
 
 Если глагол пересказа в прошедшем, возможен сдвиг времени: *will → would, present → past, past → past perfect*. Он не обязателен, если факт всё ещё верен или контекст не требует сдвига. Меняются также местоимения и временные указатели: *here → there, tomorrow → the next day* — по ситуации.

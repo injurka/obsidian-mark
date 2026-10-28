@@ -1,5 +1,9 @@
 # Second Conditional
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:linear-gradient(135deg,rgba(142,129,187,.18),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ШАГ В ВООБРАЖЕНИЕ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.7rem 0;"><span style="padding:.55rem .75rem;border-radius:13px;background:var(--background-primary);">сейчас</span><span style="color:var(--text-muted);">— «если бы…» →</span><span style="padding:.55rem .75rem;border-radius:13px;background:rgba(142,129,187,.22);font-weight:850;">if I had time</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .75rem;border-radius:13px;background:var(--background-primary);font-weight:850;">I would travel</span></div><div style="font-size:.8rem;color:var(--text-muted);">Past Simple показывает дистанцию от реальности; речь может быть о настоящем или будущем.</div>
+</div>
+
 Модель **if + Past Simple, would + base verb** описывает воображаемую, маловероятную или контрфактическую ситуацию в настоящем/будущем: *If I had more time, I would learn Japanese.* Прошедшая форма здесь выражает дистанцию от реальности, а не обязательно прошлое.
 
 В формальном английском с *I/he/she/it* часто используется *were*: *If I were you…* В разговорной речи встречается *was*. В главной части возможны *could/might* вместо *would*, чтобы показать возможность или меньшую уверенность.

@@ -2,6 +2,13 @@
 
 Present Simple показывает ситуацию как факт, регулярность, характеристику или правило. Он не обязательно означает действие «прямо сейчас»: для процесса, происходящего в момент речи, обычно нужен [[🎬 Present Continuous]]. Сравните: *I work in a café* — это моя работа вообще; *I'm working now* — я сейчас на смене.
 
+<div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:1rem 0 1.4rem;padding:.95rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="flex:1 1 190px;padding:.8rem;border-radius:12px;background:var(--background-primary);"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">КАЛЕНДАРЬ · ПОВТОР</div><div style="display:flex;gap:6px;margin:.45rem 0;"><span style="padding:4px 7px;border-radius:7px;background:rgba(81,163,132,.15);">Mon ✓</span><span style="padding:4px 7px;border-radius:7px;background:rgba(81,163,132,.15);">Tue ✓</span><span style="padding:4px 7px;border-radius:7px;background:rgba(81,163,132,.15);">Wed ✓</span></div><strong>Maya opens the café every morning.</strong></div>
+  <div style="font-size:1.3rem;color:var(--text-faint);">+</div>
+  <div style="flex:1 1 190px;padding:.8rem;border-radius:12px;background:var(--background-primary);"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">ПРАВИЛО · ФАКТ</div><div style="margin:.45rem 0;font-size:1.25rem;">🌍</div><strong>Water boils at 100°C at sea level.</strong></div>
+  <div style="flex:1 1 100%;font-size:.8rem;color:var(--text-muted);">Календарь показывает повтор, а не действие в эту секунду. Если важно то, что происходит прямо сейчас, переключись на «камеру процесса»: [[🎬 Present Continuous]].</div>
+</div>
+
 ## Форма
 
 | Подлежащее | Утверждение | Отрицание | Общий вопрос |

@@ -2,6 +2,13 @@
 
 Структурированный справочник для изучения английского: от произношения и базовой грамматики до академического письма, профессиональной лексики и экзаменов. Материалы связаны внутренними ссылками; начинайте с карты раздела или выбирайте задачу, которую хотите решить.
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:1.1rem 0 1.5rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:18px;background:var(--background-secondary);">
+  <div style="padding:.75rem;border-radius:12px;border-top:3px solid #7aa9d1;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">01 · NOTICE</div><strong style="color:var(--text-normal);">Услышь или прочитай</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">Звук · буква · смысл</div></div>
+  <div style="padding:.75rem;border-radius:12px;border-top:3px solid #d8ae54;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">02 · MAP</div><strong style="color:var(--text-normal);">Заметь устройство</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">Форма · порядок · сочетание</div></div>
+  <div style="padding:.75rem;border-radius:12px;border-top:3px solid #51a384;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">03 · TRY</div><strong style="color:var(--text-normal);">Скажи или напиши</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">Примени в своей ситуации</div></div>
+  <div style="padding:.75rem;border-radius:12px;border-top:3px solid #a48bc9;background:var(--background-primary);"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">04 · TUNE</div><strong style="color:var(--text-normal);">Исправь одно место</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">Вернись к форме через время</div></div>
+</div>
+
 ## Навигация
 
 - [[00 Roadmaps и Оглавления/MOC Roadmaps и Оглавления|00. Уровень и маршрут обучения]] — диагностика, CEFR и дорожные карты.

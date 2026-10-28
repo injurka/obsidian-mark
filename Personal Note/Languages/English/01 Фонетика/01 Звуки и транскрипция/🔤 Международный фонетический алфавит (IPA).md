@@ -1,5 +1,9 @@
 # Международный фонетический алфавит (IPA)
 
+<div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="flex:1 1 120px;text-align:center;padding:.7rem;border-radius:14px;background:var(--background-primary);"><div style="font-size:.67rem;letter-spacing:.12em;color:var(--text-muted);">БУКВЫ</div><strong style="font-size:1.25rem;">see · sea</strong></div><span style="font-size:1.2rem;color:var(--text-muted);">→</span><div style="flex:1 1 120px;text-align:center;padding:.7rem;border-radius:14px;background:rgba(81,163,132,.16);"><div style="font-size:.67rem;letter-spacing:.12em;color:var(--text-muted);">ЗВУК</div><strong style="font-size:1.25rem;">/siː/</strong></div><span style="font-size:1.2rem;color:var(--text-muted);">→</span><div style="flex:1 1 145px;text-align:center;padding:.7rem;border-radius:14px;background:var(--background-primary);"><div style="font-size:.67rem;letter-spacing:.12em;color:var(--text-muted);">ПРОВЕРЬ</div><strong>аудио + IPA</strong></div>
+</div>
+
 **IPA** записывает произношение звуками, а не буквами. Это особенно полезно в английском: одна буква читается по-разному (*a* в *cat, name, father*), а один звук передаётся разными буквами (*see, sea*). Словарная транскрипция показывает, как слово произносят в выбранном варианте английского. Она помогает поставить произношение, различать похожие слова и не угадывать чтение по русским правилам.
 
 ## Как читать запись

@@ -2,6 +2,13 @@
 
 Навигатор по заметкам раздела **Лексика по темам**. Открывайте нужную тему и переходите между связанными страницами по внутренним ссылкам.
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;margin:1rem 0 1.4rem;">
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-top:3px solid #7aa9d1;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">1 · СЛОВО</div><strong>decision</strong><div style="font-size:.76rem;color:var(--text-muted);">значение и форма</div></div>
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-top:3px solid #d8ae54;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">2 · ПАРТНЁР</div><strong>make a decision</strong><div style="font-size:.76rem;color:var(--text-muted);">типичное сочетание</div></div>
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-top:3px solid #51a384;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">3 · КУСОК РЕЧИ</div><strong>make a decision by Friday</strong><div style="font-size:.76rem;color:var(--text-muted);">готовая модель в предложении</div></div>
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-top:3px solid #a48bc9;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">4 · СИТУАЦИЯ</div><strong>I need to make a decision by Friday.</strong><div style="font-size:.76rem;color:var(--text-muted);">смысл + грамматика + контекст</div></div>
+</div>
+
 ## 01 Быт и база
 
 - [[Personal Note/Languages/English/05 Лексика по темам/01 Быт и база/🆘 Экстренные ситуации|🆘 Экстренные ситуации]]

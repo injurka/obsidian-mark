@@ -1,5 +1,9 @@
 # Future Simple — will + начальная форма
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">WILL ЧАСТО ПОКАЗЫВАЕТ РЕАКЦИЮ ГОВОРЯЩЕГО</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;margin:.8rem 0;"><div style="flex:1 1 155px;padding:.7rem;border-radius:15px;background:rgba(81,163,132,.14);"><small>РЕШИЛ СЕЙЧАС</small><div style="font-weight:850;">I’ll answer it.</div></div><div style="flex:1 1 155px;padding:.7rem;border-radius:15px;background:var(--background-primary);"><small>ОБЕЩАНИЕ / ГОТОВНОСТЬ</small><div style="font-weight:850;">I’ll help you.</div></div><div style="flex:1 1 155px;padding:.7rem;border-radius:15px;background:rgba(224,164,95,.15);"><small>МНЕНИЕ / ПРОГНОЗ</small><div style="font-weight:850;">It’ll probably rain.</div></div></div><div style="font-size:.8rem;color:var(--text-muted);">Когда событие уже запланировано или есть видимое основание, сравни с [[📅 Способы выражения будущего (Will, going to, Present)]].</div>
+</div>
+
 **Will + base verb** — одна из основных конструкций для будущих событий, прогнозов и намерений. В учебниках её часто называют Future Simple, однако у английского смыслового глагола нет отдельного окончания будущего: *will* — модальный вспомогательный глагол. Поэтому будущее также выражают *be going to*, Present Continuous и расписной Present Simple. Выбирайте конструкцию по смыслу говорящего, а не только по русскому «буду/сделаю»; см. [[📅 Способы выражения будущего (Will, going to, Present)]].
 
 ## Форма

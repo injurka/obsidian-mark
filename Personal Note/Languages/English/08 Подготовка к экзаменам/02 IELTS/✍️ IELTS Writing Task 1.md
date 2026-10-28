@@ -1,5 +1,9 @@
 # IELTS Writing Task 1
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СНАЧАЛА УВИДЬ РИСУНОК, ПОТОМ НАЗЫВАЙ ЦИФРЫ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.8rem 0;"><div style="flex:1 1 95px;height:70px;display:flex;align-items:end;gap:7px;padding:.45rem;border-radius:12px;background:var(--background-primary);"><span style="flex:1;height:32%;background:#51a384;border-radius:4px 4px 0 0;"></span><span style="flex:1;height:50%;background:#51a384;border-radius:4px 4px 0 0;"></span><span style="flex:1;height:46%;background:#51a384;border-radius:4px 4px 0 0;"></span><span style="flex:1;height:78%;background:#51a384;border-radius:4px 4px 0 0;"></span></div><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:rgba(81,163,132,.18);font-weight:850;">overview: общий тренд</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);">пара ключевых деталей</span></div><div style="font-size:.8rem;color:var(--text-muted);">Не пересказывай каждую цифру: выбери заметные изменения, сравнения и исключения.</div>
+</div>
+
 В Academic Task 1 нужно ясно описать визуальные данные или процесс по конкретному заданию. В General Training соответствующая письменная задача имеет формат письма; сначала проверьте, какой модуль сдаёте.
 
 Для графика, диаграммы или таблицы обозначьте тему и период, затем выделите общую картину и несколько важных сравнений. Не пересказывайте все цифры и не придумывайте причины изменений. Для процесса соблюдайте логический порядок шагов.

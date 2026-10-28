@@ -2,6 +2,12 @@
 
 Эти конструкции помогают советовать, выражать моральную обязанность, ожидание или предупреждение. Они не полностью взаимозаменяемы: *should* обычно нейтральный совет, *ought to* часто подчёркивает норму/должное, а *had better* звучит как конкретное настоятельное предупреждение о последствиях.
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;margin:1rem 0 1.4rem;">
+  <div style="padding:.8rem;border-radius:14px;border:1px solid var(--background-modifier-border);background:var(--background-secondary);"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;">МЯГКИЙ СОВЕТ</div><strong style="font-size:1.05rem;">You should rest.</strong><div style="font-size:.77rem;color:var(--text-muted);margin-top:.3rem;">хорошая идея</div></div>
+  <div style="padding:.8rem;border-radius:14px;border:1px solid var(--background-modifier-border);background:var(--background-secondary);"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;">НОРМА / ДОЛЖНОЕ</div><strong style="font-size:1.05rem;">You ought to apologize.</strong><div style="font-size:.77rem;color:var(--text-muted);margin-top:.3rem;">правильно поступить</div></div>
+  <div style="padding:.8rem;border-radius:14px;border:1px solid rgba(211,126,91,.4);background:rgba(211,126,91,.08);"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;">СОВЕТ С ПОСЛЕДСТВИЕМ</div><strong style="font-size:1.05rem;">You’d better leave now.</strong><div style="font-size:.77rem;color:var(--text-muted);margin-top:.3rem;">иначе опоздаешь на поезд</div></div>
+</div>
+
 ## Should: совет, мнение, ожидание
 
 Форма: **should + базовый глагол**; для всех лиц одинаково. Отрицание — *should not / shouldn't*; вопрос — *Should I call?*:

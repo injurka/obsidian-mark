@@ -2,6 +2,15 @@
 
 Past Simple помещает действие или состояние в **законченный период прошлого**. Событие может быть мгновенным, долгим, повторявшимся или составлять целую последовательность; важно, что говорящий рассматривает его как факт прошлого, а не связывает через Perfect с настоящим. *I lived in Riga for a year* обычно означает, что я там жил, но этот период закончился. Если я до сих пор там живу, вероятнее *I've lived in Riga for a year*.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+    <span style="padding:.65rem .8rem;border-radius:11px;background:var(--background-primary);"><small style="display:block;color:var(--text-muted);font-weight:800;">ЗАКРЫТЫЙ МОМЕНТ</small><strong>Yesterday</strong></span><span style="font-size:1.3rem;color:var(--text-faint);">→</span>
+    <span style="padding:.65rem .8rem;border-radius:11px;background:var(--background-primary);"><small style="display:block;color:var(--text-muted);font-weight:800;">СОБЫТИЕ</small><strong>The café opened.</strong></span><span style="font-size:1.3rem;color:var(--text-faint);">→</span>
+    <span style="padding:.65rem .8rem;border-radius:11px;background:rgba(122,169,209,.12);border:1px solid rgba(122,169,209,.28);"><small style="display:block;color:var(--text-muted);font-weight:800;">ИСТОРИЯ ИДЁТ ДАЛЬШЕ</small><strong>Maya found the key.</strong></span>
+  </div>
+  <div style="margin-top:.65rem;font-size:.8rem;color:var(--text-muted);">Названное прошлое закрыто; следующее Past Simple-событие двигает рассказ вперёд.</div>
+</div>
+
 ## Формы
 
 У правильных глаголов добавляем *-ed*: *work → worked, clean → cleaned*. У неправильных используем вторую форму: *go → went, buy → bought, see → saw*. Для глагола *be* особые формы: *I/he/she/it was*, *you/we/they were*.

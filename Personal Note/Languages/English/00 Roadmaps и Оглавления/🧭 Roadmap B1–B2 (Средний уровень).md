@@ -1,5 +1,9 @@
 # Roadmap B1–B2: от среднего уровня к самостоятельности
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СЛЕДУЮЩИЙ УРОВЕНЬ НАХОДИТСЯ В САМОМ СЛАБОМ ЗВЕНЕ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;margin:.8rem 0;align-items:end;"><div style="flex:1 1 90px;padding:.65rem;border-radius:13px;background:rgba(81,163,132,.2);text-align:center;">чтение<small style="display:block;">сильное</small></div><div style="flex:1 1 90px;padding:.65rem;border-radius:13px;background:var(--background-primary);text-align:center;">аудирование<small style="display:block;">ровное</small></div><div style="flex:1 1 90px;padding:.45rem;border-radius:13px;background:rgba(224,164,95,.2);text-align:center;">говорение<small style="display:block;">узкое место</small></div><div style="flex:1 1 90px;padding:.65rem;border-radius:13px;background:var(--background-primary);text-align:center;">письмо<small style="display:block;">ровное</small></div></div><div style="font-size:.8rem;color:var(--text-muted);">Выбери один наблюдаемый сбой и проверь, исчезает ли он в новой задаче после практики.</div>
+</div>
+
 На этом этапе знакомые темы уже доступны, но речь часто замедляется из-за поиска слов, буквального перевода и неуверенного выбора формы. Главная задача — расширять диапазон и связывать мысли.
 
 - Закрепите контрасты времён, модальность, условные предложения, пассив и косвенную речь. См. [[MOC Грамматика]].

@@ -1,5 +1,9 @@
 # Some, any, no, much, many, few и little
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ВЫБОР СЛОВА ЗАВИСИТ ОТ ТИПА И КОЛИЧЕСТВА</div><div style="display:flex;flex-wrap:wrap;gap:.55rem;margin:.8rem 0;"><div style="flex:1 1 180px;padding:.75rem;border-radius:16px;background:rgba(81,163,132,.12);"><div style="font-size:1.25rem;">🍎🍎🍎</div><strong>many apples</strong><div style="font-size:.78rem;color:var(--text-muted);">считаем поштучно</div></div><div style="flex:1 1 180px;padding:.75rem;border-radius:16px;background:rgba(224,164,95,.13);"><div style="font-size:1.25rem;">☕☕☕</div><strong>much coffee</strong><div style="font-size:.78rem;color:var(--text-muted);">масса / количество</div></div></div><div style="font-size:.84rem;">some coffee — немного / некоторое количество · any coffee? — есть ли? · a few apples — несколько, достаточно</div>
+</div>
+
 Эти слова помогают назвать неопределённое количество и связаны с тем, можно ли пересчитать предметы. **Many/few** обычно употребляются с исчисляемым множественным числом; **much/little** — с неисчисляемым. **Some/any/no** возможны с обоими типами: *some books / some water; any questions / any time*. Сначала определите тип существительного, затем выберите количественное слово.
 
 ## Some и any

@@ -4,6 +4,14 @@
 
 ## Когда объект определён
 
+<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="flex:1 1 145px;padding:.75rem;border-radius:12px;background:var(--background-primary);border-top:3px solid #8f77c6;"><small style="color:var(--text-muted);font-weight:800;">ПЕРВЫЙ КАДР</small><div style="font-size:1.2rem;font-weight:800;">a key</div><div style="font-size:.78rem;color:var(--text-muted);">предмет вводится</div></div><span style="font-size:1.3rem;color:var(--text-faint);">→</span>
+  <div style="flex:1 1 145px;padding:.75rem;border-radius:12px;background:var(--background-primary);border-top:3px solid #d8ae54;"><small style="color:var(--text-muted);font-weight:800;">УЖЕ УЗНАЁМ</small><div style="font-size:1.2rem;font-weight:800;">the key</div><div style="font-size:.78rem;color:var(--text-muted);">тот самый предмет</div></div><span style="font-size:1.3rem;color:var(--text-faint);">→</span>
+  <div style="flex:1 1 145px;padding:.75rem;border-radius:12px;background:var(--background-primary);border-top:3px solid #51a384;"><small style="color:var(--text-muted);font-weight:800;">МОЖНО УКАЗАТЬ</small><div style="font-size:1.05rem;font-weight:800;">the key under the menu</div><div style="font-size:.78rem;color:var(--text-muted);">описание выбирает нужный</div></div>
+</div>
+
+Сначала вводим один ключ, затем возвращаемся к тому же предмету. Эта сцена продолжается в [[🎬 Одна история — несколько грамматических форм]].
+
 ### 1. Уже упоминался
 *I saw a dog. The dog was wet.* Первый раз вводим нового пса, второй раз говорим о том же самом.
 

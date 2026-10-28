@@ -2,6 +2,13 @@
 
 Навигатор по заметкам раздела **Разговорные стратегии**. Открывайте нужную тему и переходите между связанными страницами по внутренним ссылкам.
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:1rem 0 1.4rem;">
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-left:4px solid #7aa9d1;"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;">1 · OPEN</div><strong>Дай собеседнику зацепку</strong><div style="font-size:.76rem;color:var(--text-muted);">контекст или вопрос</div></div>
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-left:4px solid #d8ae54;"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;">2 · LISTEN</div><strong>Оставь место ответу</strong><div style="font-size:.76rem;color:var(--text-muted);">реакция показывает внимание</div></div>
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-left:4px solid #51a384;"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;">3 · BUILD</div><strong>Подхвати мысль</strong><div style="font-size:.76rem;color:var(--text-muted);">уточни, добавь, предложи</div></div>
+  <div style="padding:.8rem;border-radius:14px;background:var(--background-secondary);border-left:4px solid #a48bc9;"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;">4 · PASS</div><strong>Передай слово дальше</strong><div style="font-size:.76rem;color:var(--text-muted);">вопрос или мягкий переход</div></div>
+</div>
+
 ## 01 Повседневное общение
 
 - [[Personal Note/Languages/English/10 Разговорные стратегии/01 Повседневное общение/👋 Знакомство и поддержание беседы|👋 Знакомство и поддержание беседы]]

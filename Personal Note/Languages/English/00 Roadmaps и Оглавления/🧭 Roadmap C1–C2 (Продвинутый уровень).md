@@ -1,5 +1,9 @@
 # Roadmap C1–C2: точность, диапазон и естественность
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:linear-gradient(135deg,rgba(142,129,187,.14),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">УРОВЕНЬ РАСТЁТ ЧЕРЕЗ ПРОЕКТ И РЕДАКТУРУ</div><div style="display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">исследуй тему</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:rgba(142,129,187,.18);">создай текст / выступление</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">проверь точность и регистр</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">адаптируй под аудиторию</span></div><div style="font-size:.8rem;color:var(--text-muted);">Цель — не усложнять каждую фразу, а точнее выбирать форму под задачу и читателя.</div>
+</div>
+
 Продвинутый уровень строится не на редких словах ради самих слов, а на точном выборе формулировки, регистра и степени уверенности. Работа становится более предметной: язык для профессии, академической области или выбранной среды.
 
 1. Читайте и слушайте оригинальные материалы разных жанров, замечая аргументацию, связки, юмор и культурные отсылки.

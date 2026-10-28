@@ -1,5 +1,9 @@
 # IELTS Reading: подготовка
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ОТВЕТ ДОЛЖЕН ИМЕТЬ СЛЕД В ТЕКСТЕ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:13px;background:rgba(81,163,132,.16);">утверждение вопроса</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);">найди участок</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:var(--background-primary);">сверь смысл, не только слова</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:13px;background:rgba(224,164,95,.16);">выбери метку</span></div><div style="font-size:.8rem;color:var(--text-muted);">Для True / False / Not Given проверь, что текст подтверждает, опровергает или вообще не сообщает.</div>
+</div>
+
 Развивайте два режима: быстро находить нужный фрагмент и внимательно проверять точный смысл. Сначала посмотрите на структуру текста и вопросы, затем определите опорные имена, даты, термины и синонимы.
 
 В заданиях на утверждения различайте «совпадает», «противоречит тексту» и «не сказано»; не опирайтесь на внешние знания. Вопрос может использовать перефраз, а не буквальную цитату. Следите за ограничением числа слов.

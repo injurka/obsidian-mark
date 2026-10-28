@@ -1,5 +1,9 @@
 # Вспомогательные глаголы do, be и have
 
+<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 145px;padding:.85rem;border-radius:16px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:1.25rem;font-weight:900;color:#51a384;">DO</div><strong>вопрос · отрицание</strong><div style="font-size:.8rem;margin-top:.35rem;">Do you work? / I don't work.</div></div><div style="flex:1 1 145px;padding:.85rem;border-radius:16px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:1.25rem;font-weight:900;color:#d39b55;">BE</div><strong>состояние · процесс</strong><div style="font-size:.8rem;margin-top:.35rem;">Is she ready? / She's working.</div></div><div style="flex:1 1 145px;padding:.85rem;border-radius:16px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:1.25rem;font-weight:900;color:#8e81bb;">HAVE</div><strong>связь с прошлым</strong><div style="font-size:.8rem;margin-top:.35rem;">Have they finished?</div></div>
+</div>
+
 Английские **do, be, have** могут быть смысловыми глаголами и помощниками. Вспомогательный глагол строит время, вопрос, отрицание или пассив, а смысловой глагол несёт основное значение. Чтобы выбрать форму, сначала найдите главный глагол и определите, есть ли уже помощник. Это предотвращает частую ошибку: добавление *do* к конструкции, в которой оно не требуется.
 
 ## Do: вопрос, отрицание и эмфаза в Simple
@@ -47,6 +51,13 @@
 3. В вопросе перенесите первого помощника перед подлежащим.
 4. В отрицании поставьте *not* после первого помощника.
 5. Верните смысловой глагол к правильной форме: после *does/did* — базовая, после *have* — V3, после *be* в Continuous — *-ing*.
+
+> [!example] Один кадр, два разных помощника
+> *Maya left the key under the menu.* → *Did Maya leave the key under the menu?* / *Maya didn't leave the key under the menu.*
+>
+> *Maya has found the key.* → *Has Maya found the key?* / *Maya hasn't found the key.*
+>
+> В первой строке у исходного Past Simple не было помощника, поэтому он появляется (*did*) и забирает на себя прошедшее время. Во второй помощник уже есть (*has*), и именно он выходит вперёд в вопросе и принимает *not*. Эта сцена целиком разобрана в [[🎬 Одна история — несколько грамматических форм]].
 
 Подробно: [[❓ Общие, специальные и альтернативные вопросы]], [[⛔ Отрицания]] и [[🗺️ Система времён и аспектов английского глагола]].
 

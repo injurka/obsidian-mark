@@ -2,6 +2,16 @@
 
 Навигатор по заметкам раздела **Культура и страноведение**. Открывайте нужную тему и переходите между связанными страницами по внутренним ссылкам.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem 1.1rem;border:1px solid var(--background-modifier-border);border-radius:17px;background:var(--background-secondary);">
+  <div style="margin-bottom:.65rem;font-size:.68rem;color:var(--text-muted);font-weight:800;letter-spacing:.12em;">ПЕРЕД ВЫБОРОМ ФРАЗЫ СОВМЕСТИ ТРИ ЛИНЗЫ</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;">
+    <div style="padding:.7rem;border-radius:11px;background:var(--background-primary);"><strong>🌍 Где?</strong><div style="font-size:.76rem;color:var(--text-muted);">регион, вариант, среда</div></div>
+    <div style="padding:.7rem;border-radius:11px;background:var(--background-primary);"><strong>🤝 С кем?</strong><div style="font-size:.76rem;color:var(--text-muted);">отношения и дистанция</div></div>
+    <div style="padding:.7rem;border-radius:11px;background:var(--background-primary);"><strong>🎯 Зачем?</strong><div style="font-size:.76rem;color:var(--text-muted);">цель и тон общения</div></div>
+  </div>
+  <div style="margin-top:.7rem;text-align:center;font-size:.84rem;color:var(--text-normal);"><strong>Контекст</strong> помогает понять, почему одна и та же фраза может звучать дружелюбно, резко или слишком официально.</div>
+</div>
+
 ## 01 Англоязычный мир
 
 - [[01 Англоязычный мир/🇦🇺 Австралия и Новая Зеландия|🇦🇺 Австралия и Новая Зеландия]]

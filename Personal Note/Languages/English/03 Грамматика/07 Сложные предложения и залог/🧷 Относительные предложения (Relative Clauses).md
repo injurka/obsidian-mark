@@ -1,5 +1,9 @@
 # Относительные предложения
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СУЩЕСТВИТЕЛЬНОЕ + ЯРЛЫК, КОТОРЫЙ ЕГО УТОЧНЯЕТ</div><div style="display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .75rem;border-radius:12px;background:var(--background-primary);font-weight:850;">the barista</span><span style="padding:.4rem .6rem;border-radius:999px;background:rgba(81,163,132,.18);">who made this coffee</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .75rem;border-radius:12px;background:var(--background-primary);">the barista who made this coffee</span></div><div style="font-size:.8rem;color:var(--text-muted);">Ограничительная часть выбирает нужного человека; добавочная сообщает деталь и отделяется запятыми.</div>
+</div>
+
 Относительная часть уточняет существительное. **Who** обычно относится к людям, **which** — к предметам, **that** — к людям или вещам в ограничительной конструкции; **whose** показывает принадлежность: *the person who called; the book that I bought; a writer whose work I admire*.
 
 Ограничительная часть необходима для смысла и обычно не отделяется запятыми: *The files that are backed up can be deleted.* Добавочная часть сообщает дополнительную информацию и отделяется запятыми; *that* в ней обычно не используется.

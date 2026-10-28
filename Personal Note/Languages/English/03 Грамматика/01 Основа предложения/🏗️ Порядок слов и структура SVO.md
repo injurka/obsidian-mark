@@ -2,6 +2,23 @@
 
 Английский язык опирается на порядок слов сильнее, чем русский. В нейтральном утвердительном предложении базовая схема — **Subject + Verb + Object (SVO)**: сначала подлежащее (кто/что действует или находится в состоянии), затем сказуемое, потом прямое дополнение. Перестановка частей может изменить смысл или сделать фразу неестественной: *The dog chased the cat* — собака гналась за котом; *The cat chased the dog* — роли поменялись.
 
+<div style="margin:1.15rem 0 1.6rem;padding:1.1rem 1.2rem;border:1px solid var(--background-modifier-border);border-radius:18px;background:var(--background-secondary);">
+  <div style="margin-bottom:.85rem;color:var(--text-muted);font-size:.7rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;">ПОРЯДОК СЛОВ · СЛЕДИ ЗА РОЛЯМИ</div>
+  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+    <span style="padding:.68rem .8rem;border-left:4px solid #d8ae54;border-radius:9px;background:var(--background-primary);"><span style="display:block;color:var(--text-muted);font-size:.61rem;font-weight:800;letter-spacing:.1em;">SUBJECT · КТО?</span><strong style="color:var(--text-normal);font-size:1.08rem;">The dog</strong></span>
+    <span style="color:var(--text-faint);font-size:1.2rem;font-weight:900;">→</span>
+    <span style="padding:.68rem .8rem;border-left:4px solid #51a384;border-radius:9px;background:var(--background-primary);"><span style="display:block;color:var(--text-muted);font-size:.61rem;font-weight:800;letter-spacing:.1em;">VERB · ЧТО СДЕЛАЛ?</span><strong style="color:var(--text-normal);font-size:1.08rem;">chased</strong></span>
+    <span style="color:var(--text-faint);font-size:1.2rem;font-weight:900;">→</span>
+    <span style="padding:.68rem .8rem;border-left:4px solid #8f77c6;border-radius:9px;background:var(--background-primary);"><span style="display:block;color:var(--text-muted);font-size:.61rem;font-weight:800;letter-spacing:.1em;">OBJECT · КОГО?</span><strong style="color:var(--text-normal);font-size:1.08rem;">the cat</strong></span>
+  </div>
+  <div style="display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:.85rem;padding:.75rem .9rem;border-radius:11px;background:var(--background-primary);color:var(--text-normal);">
+    <strong style="font-size:1rem;">The dog chased the cat.</strong><span style="color:var(--text-muted);font-size:.82rem;">Собака — преследователь.</span><span style="color:var(--text-faint);">↔</span><strong style="font-size:1rem;">The cat chased the dog.</strong><span style="color:var(--text-muted);font-size:.82rem;">Теперь роли поменялись.</span>
+  </div>
+  <div style="margin-top:.7rem;font-size:.82rem;color:var(--text-muted);">SVO — базовый маршрут: участник → действие → объект. Место и время добавляют сцене детали; глагол может задавать и другой каркас.</div>
+</div>
+
+Полный разбор с историей про Майю, вопросами, отрицаниями и временной линией: [[🎬 Одна история — несколько грамматических форм]].
+
 ## Базовый каркас
 
 - Подлежащее + глагол: *Birds fly; The baby slept.*

@@ -1,5 +1,9 @@
 # IELTS Writing Task 2
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:linear-gradient(120deg,rgba(81,163,132,.14),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СОБЕРИ ЭССЕ КАК МАРШРУТ ОТ ВОПРОСА К ОТВЕТУ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:14px;background:rgba(81,163,132,.2);font-weight:850;">позиция</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">аргумент 1 + пример</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:var(--background-primary);">аргумент 2 + пример</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:14px;background:rgba(224,164,95,.17);">ответ на формулировку задания</span></div><div style="font-size:.8rem;color:var(--text-muted);">Сначала разверни каждую часть вопроса в план; красивый шаблон не заменит прямого ответа.</div>
+</div>
+
 Разберите формулировку: она может просить обсудить обе стороны, выразить мнение, оценить причины или предложить решение. Сформулируйте позицию до написания и проверьте, отвечает ли каждый абзац на задание.
 
 Рабочая структура: краткое введение с ясным тезисом, несколько развёрнутых аргументов с примерами, заключение без новых доводов. Используйте связки по смыслу и избегайте заученного шаблона, который не подходит вопросу.

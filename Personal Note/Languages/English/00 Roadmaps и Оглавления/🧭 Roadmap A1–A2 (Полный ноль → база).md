@@ -1,5 +1,9 @@
 # Roadmap A1–A2: от нуля к базовому общению
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:linear-gradient(135deg,rgba(81,163,132,.14),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ПЕРВЫЕ СТУПЕНИ К САМОСТОЯТЕЛЬНОЙ ФРАЗЕ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:end;margin:.8rem 0;"><div style="padding:.55rem .65rem;border-radius:11px;background:var(--background-primary);">🔊<small style="display:block;">звук</small></div><div style="padding:.7rem .65rem;border-radius:11px;background:var(--background-primary);">👋<small style="display:block;">фраза</small></div><div style="padding:.85rem .65rem;border-radius:11px;background:rgba(81,163,132,.18);">🧱<small style="display:block;">предложение</small></div><div style="padding:1rem .65rem;border-radius:11px;background:rgba(81,163,132,.24);">🗣️<small style="display:block;">ситуация</small></div></div><div style="font-size:.8rem;color:var(--text-muted);">Каждая ступень заканчивается действием: услышать, спросить, ответить, договориться.</div>
+</div>
+
 Цель этапа — понимать частые фразы и самостоятельно справляться с короткими бытовыми ситуациями. Лучше освоить небольшое ядро и часто его использовать, чем заучить длинные списки без повторения.
 
 1. **Звуки и чтение:** алфавит, базовые буквосочетания, ударение, числа и spelling. См. [[MOC Фонетика]] и [[MOC Письменность и орфография]].

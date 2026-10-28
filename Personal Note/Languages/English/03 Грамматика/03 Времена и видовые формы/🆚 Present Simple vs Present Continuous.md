@@ -8,12 +8,23 @@ Present Simple обычного глагола: *I work; she works*. Вопро�
 
 ## Сравнение значений
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:10px;margin:1rem 0 1.4rem;">
+  <div style="padding:1rem;border-radius:16px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+    <div style="font-size:.68rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">📅 КАЛЕНДАРЬ · SIMPLE</div><div style="display:flex;gap:5px;margin:.65rem 0;"><span style="padding:4px 7px;border-radius:7px;background:rgba(122,169,209,.14);">Mon</span><span style="padding:4px 7px;border-radius:7px;background:rgba(122,169,209,.14);">Tue</span><span style="padding:4px 7px;border-radius:7px;background:rgba(122,169,209,.14);">Wed</span></div><strong>Maya works at a café.</strong><div style="font-size:.78rem;color:var(--text-muted);margin-top:.3rem;">Повторяется / характеризует её.</div>
+  </div>
+  <div style="padding:1rem;border-radius:16px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+    <div style="font-size:.68rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">🎥 КАМЕРА · CONTINUOUS</div><div style="position:relative;margin:.8rem 0;height:10px;border-radius:999px;background:linear-gradient(90deg,rgba(81,163,132,.18),#51a384 42%,#51a384 69%,rgba(81,163,132,.18));"><span style="position:absolute;left:57%;top:-4px;width:18px;height:18px;border:3px solid var(--background-secondary);border-radius:50%;background:#51a384;"></span></div><strong>Maya is opening the café today.</strong><div style="font-size:.78rem;color:var(--text-muted);margin-top:.3rem;">Временный процесс в текущем кадре.</div>
+  </div>
+</div>
+
 | Simple | Continuous | Что меняется |
 |---|---|---|
 | *I work from home.* | *I'm working from home this month.* | обычная характеристика vs временный этап |
 | *She reads before bed.* | *She's reading a novel at the moment.* | привычка vs текущий процесс |
 | *The city grows quickly.* | *The city is growing quickly.* | общий факт/характеристика vs развитие |
 | *We meet on Fridays.* | *We're meeting on Friday.* | повторение vs конкретная договорённость |
+
+Та же разница в короткой сцене: *Maya works at a café* — это её обычная работа; *Today she's opening the café alone* — временная ситуация именно сегодня. Сюжет продолжается в заметке [[🎬 Одна история — несколько грамматических форм]].
 
 Continuous не всегда значит «в эту секунду»: *I'm taking a course this semester* описывает период, который длится сейчас. И наоборот, Simple не всегда означает постоянство: расписание *The train leaves at six* относится к конкретному будущему отправлению, но подаётся как установленный график.
 

@@ -2,6 +2,12 @@
 
 Present Continuous представляет ситуацию как **разворачивающийся процесс** в настоящем периоде. Часто он происходит ровно сейчас, но значение шире: процесс может относиться к текущей неделе, временному этапу, запланированной личной встрече или повторяющемуся действию, которое раздражает говорящего. Для привычек и устойчивых фактов обычно используется [[☀️ Present Simple]].
 
+<div style="margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="display:flex;justify-content:space-between;gap:8px;font-size:.66rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;"><span>НАЧАЛО ПРОЦЕССА</span><span>ТЕКУЩИЙ КАДР</span><span>ДАЛЬШЕ</span></div>
+  <div style="position:relative;height:12px;margin:.75rem 4px .55rem;border-radius:999px;background:linear-gradient(90deg,#d8ae54 0%,#51a384 48%,#51a384 74%,rgba(81,163,132,.18) 74%);"><span style="position:absolute;left:58%;top:-5px;width:22px;height:22px;border:4px solid var(--background-secondary);border-radius:50%;background:#51a384;"></span></div>
+  <div style="padding:.65rem .8rem;border-radius:10px;background:var(--background-primary);color:var(--text-normal);"><strong>Maya is opening the café alone today.</strong><span style="display:block;margin-top:.25rem;font-size:.78rem;color:var(--text-muted);">Действие ограничено текущим кадром/периодом; оно не обязано происходить ровно в момент речи.</span></div>
+</div>
+
 ## Форма
 
 **am / is / are + глагол с -ing**

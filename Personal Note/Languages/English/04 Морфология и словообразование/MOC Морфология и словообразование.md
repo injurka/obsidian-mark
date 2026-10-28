@@ -2,6 +2,21 @@
 
 Морфология показывает, из каких частей строится английское слово и как слово меняет форму. Словообразование расширяет словарь, а словоизменение выражает число, время, сравнение и другие грамматические признаки. Этот раздел помогает разбирать незнакомые формы, учить родственные слова вместе и понимать ограничения приставок и суффиксов.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:17px;background:var(--background-secondary);">
+  <div style="margin-bottom:.65rem;font-size:.68rem;color:var(--text-muted);font-weight:800;letter-spacing:.12em;">СЛОВО КАК КОНСТРУКТОР · UNHELPFULNESS</div>
+  <div style="display:flex;align-items:stretch;gap:7px;flex-wrap:wrap;">
+    <div style="padding:.65rem .8rem;border-radius:11px;background:rgba(143,119,198,.14);border-bottom:3px solid #8f77c6;"><strong style="font-size:1.1rem;">un-</strong><small style="display:block;color:var(--text-muted);">смысловой поворот</small></div>
+    <div style="align-self:center;color:var(--text-faint);">+</div>
+    <div style="padding:.65rem .8rem;border-radius:11px;background:rgba(81,163,132,.14);border-bottom:3px solid #51a384;"><strong style="font-size:1.1rem;">help</strong><small style="display:block;color:var(--text-muted);">корень: помощь</small></div>
+    <div style="align-self:center;color:var(--text-faint);">+</div>
+    <div style="padding:.65rem .8rem;border-radius:11px;background:rgba(216,174,84,.16);border-bottom:3px solid #d8ae54;"><strong style="font-size:1.1rem;">-ful</strong><small style="display:block;color:var(--text-muted);">строит прилагательное</small></div>
+    <div style="align-self:center;color:var(--text-faint);">+</div>
+    <div style="padding:.65rem .8rem;border-radius:11px;background:rgba(122,169,209,.15);border-bottom:3px solid #7aa9d1;"><strong style="font-size:1.1rem;">-ness</strong><small style="display:block;color:var(--text-muted);">делает признак понятием</small></div>
+    <div style="align-self:center;color:var(--text-faint);font-size:1.2rem;">→</div>
+    <div style="padding:.65rem .8rem;border-radius:11px;background:var(--background-primary);"><strong style="font-size:1.1rem;">unhelpfulness</strong><small style="display:block;color:var(--text-muted);">качество отсутствия помощи</small></div>
+  </div>
+</div>
+
 ## Рекомендуемый маршрут
 
 1. Начните с понятий «корень», «основа», «приставка», «суффикс» и «морфема».

@@ -1,5 +1,9 @@
 # Zero и First Conditional
 
+<div style="display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 230px;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ЗАКОН ПОВТОРЯЕТСЯ · ZERO</div><div style="font-size:1rem;font-weight:850;margin:.55rem 0;">IF: ice gets warm <span style="color:var(--text-muted);">→</span> RESULT: it melts</div><div style="font-size:.8rem;color:var(--text-muted);">общее правило · Present + Present</div></div><div style="flex:1 1 230px;padding:1rem;border-radius:18px;background:rgba(119,145,198,.13);border:1px solid var(--background-modifier-border);"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">ВОЗМОЖНЫЙ БУДУЩИЙ ШАГ · FIRST</div><div style="font-size:1rem;font-weight:850;margin:.55rem 0;">IF: it rains <span style="color:var(--text-muted);">→</span> RESULT: we'll stay in</div><div style="font-size:.8rem;color:var(--text-muted);">реальный шанс · Present + will</div></div>
+</div>
+
 **Zero Conditional** описывает закономерность или повторяемый результат: *If you heat ice, it melts.* Обе части обычно стоят в Present Simple. **First Conditional** говорит о реальной или возможной будущей ситуации: *If it rains tomorrow, we’ll stay home.* В условной части обычно Present Simple, в главной — *will* или другая подходящая форма.
 
 *If* может стоять в начале или середине; запятая обычно нужна, если условная часть стоит первой. После *if, when, unless* для будущего часто используется настоящее: *I’ll call if I have time*, не *if I will have time*.

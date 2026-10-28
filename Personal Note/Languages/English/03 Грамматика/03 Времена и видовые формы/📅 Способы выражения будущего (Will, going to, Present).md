@@ -4,6 +4,13 @@
 
 ## Основные конструкции
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:8px;margin:1rem 0 1.4rem;">
+  <div style="padding:.8rem;border-radius:13px;background:var(--background-secondary);border-top:3px solid #7aa9d1;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">РЕШИЛ СЕЙЧАС / ОБЕЩАЮ</div><strong>I’ll help you.</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">→ will</div></div>
+  <div style="padding:.8rem;border-radius:13px;background:var(--background-secondary);border-top:3px solid #d8ae54;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">УЖЕ НАМЕРЕН / ВИЖУ ПРИЗНАК</div><strong>It’s going to rain.</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">→ going to</div></div>
+  <div style="padding:.8rem;border-radius:13px;background:var(--background-secondary);border-top:3px solid #51a384;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">ДОГОВОРИЛИСЬ ЛИЧНО</div><strong>I’m meeting Jo at six.</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">→ Present Continuous</div></div>
+  <div style="padding:.8rem;border-radius:13px;background:var(--background-secondary);border-top:3px solid #a48bc9;"><div style="font-size:.64rem;color:var(--text-muted);font-weight:800;">ЕСТЬ РАСПИСАНИЕ</div><strong>The train leaves at 8:10.</strong><div style="font-size:.76rem;color:var(--text-muted);margin-top:.25rem;">→ Present Simple</div></div>
+</div>
+
 | Форма | Типичный фокус | Пример |
 |---|---|---|
 | *will + base verb* | решение сейчас, обещание, мнение-прогноз | *I'll answer the phone; I think it will rain.* |

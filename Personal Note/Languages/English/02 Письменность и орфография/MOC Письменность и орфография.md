@@ -2,6 +2,12 @@
 
 Этот раздел связывает чтение, правильное написание и оформление текста. Английские буквы не соответствуют звукам напрямую, а орфография хранит исторические и морфологические особенности. Поэтому изучайте не только набор правил, но и способ проверки: сначала сформулируйте гипотезу, затем сверяйтесь со словарём, грамматической формой и контекстом.
 
+<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:1rem 0 1.4rem;padding:1rem;border-radius:17px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="min-width:135px;padding:.7rem;border-radius:12px;background:var(--background-primary);text-align:center;"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">СЛЫШИМ</div><strong style="font-size:1.2rem;">/naɪt/</strong></div><span style="font-size:1.3rem;color:var(--text-faint);">→</span>
+  <div style="min-width:190px;padding:.7rem;border-radius:12px;background:var(--background-primary);text-align:center;"><div style="font-size:.65rem;color:var(--text-muted);font-weight:800;letter-spacing:.1em;">ПИШЕМ</div><strong style="font-size:1.2rem;letter-spacing:.12em;">N I G H T</strong></div><span style="font-size:1.3rem;color:var(--text-faint);">→</span>
+  <div style="flex:1 1 190px;padding:.7rem;border-left:4px solid #d8ae54;border-radius:0 12px 12px 0;background:var(--background-primary);font-size:.82rem;color:var(--text-muted);">Один звук не всегда равен одной букве: <strong style="color:var(--text-normal);">igh</strong> передаёт /aɪ/, а <strong style="color:var(--text-normal);">gh</strong> здесь не произносится.</div>
+</div>
+
 ## Рекомендуемый маршрут
 
 1. Начните с алфавита и названий букв, чтобы уметь читать, диктовать и уточнять написание.

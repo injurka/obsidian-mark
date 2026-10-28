@@ -1,5 +1,9 @@
 # Schwa и слабые формы слов
 
+<div style="display:flex;flex-wrap:wrap;gap:.55rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 190px;padding:.9rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);text-align:center;"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);">БЕЗ УДАРЕНИЯ</div><div style="font-size:1.55rem;font-weight:900;margin:.35rem;">ə</div><div>about · support · banana</div></div><div style="flex:1 1 190px;padding:.9rem;border-radius:18px;background:rgba(81,163,132,.13);border:1px solid var(--background-modifier-border);text-align:center;"><div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);">ПОТОК РЕЧИ</div><div style="font-size:1.1rem;font-weight:850;margin:.55rem;">strong — weak — strong</div><div style="font-size:.82rem;">to /tə/ · for /fə/ · and /ən/</div></div>
+</div>
+
 **Schwa**, или шва, — нейтральный безударный гласный /ə/. Он очень частотен в английской речи и помогает объяснить, почему буква в слабом слоге часто звучит не так, как ожидает начинающий читатель. Например, *about* начинается с /ə/, а в *support* первый слог тоже обычно безударный. Шва краткая и расслабленная: не заменяйте её чётким русским «а» или «э».
 
 ## Где встречается шва

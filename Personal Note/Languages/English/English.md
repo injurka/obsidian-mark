@@ -2,6 +2,17 @@
 
 Главная страница раздела английского языка.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem 1.1rem;border:1px solid var(--background-modifier-border);border-radius:18px;background:var(--background-secondary);">
+  <div style="margin-bottom:.7rem;color:var(--text-muted);font-size:.68rem;font-weight:800;letter-spacing:.13em;">ВЫБЕРИ СЦЕНУ, КОТОРУЮ ХОЧЕШЬ ОСВОИТЬ</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;">
+    <div style="padding:.7rem;border-radius:11px;background:var(--background-primary);border-left:4px solid #7aa9d1;"><strong>🎧 Понять</strong><div style="font-size:.76rem;color:var(--text-muted);">аудио и быструю речь</div></div>
+    <div style="padding:.7rem;border-radius:11px;background:var(--background-primary);border-left:4px solid #d8ae54;"><strong>📖 Найти</strong><div style="font-size:.76rem;color:var(--text-muted);">смысл в тексте</div></div>
+    <div style="padding:.7rem;border-radius:11px;background:var(--background-primary);border-left:4px solid #51a384;"><strong>🗣️ Сказать</strong><div style="font-size:.76rem;color:var(--text-muted);">мысль без долгой паузы</div></div>
+    <div style="padding:.7rem;border-radius:11px;background:var(--background-primary);border-left:4px solid #a48bc9;"><strong>✍️ Написать</strong><div style="font-size:.76rem;color:var(--text-muted);">ясно и по задаче</div></div>
+  </div>
+  <div style="margin-top:.8rem;padding:.65rem .8rem;border-radius:10px;background:var(--background-primary);text-align:center;color:var(--text-normal);font-size:.85rem;"><strong>Цель</strong> <span style="color:var(--text-muted);">→</span> маленькая практика <span style="color:var(--text-muted);">→</span> наблюдаемый результат <span style="color:var(--text-muted);">→</span> следующий шаг</div>
+</div>
+
 - [[English Knowledge Base]] — полное оглавление и тематические разделы.
 - [[English Knowledge Base#Навигация|Перейти к навигации по разделам]]
 - [[English Knowledge Base#Для начала|Как начать]]

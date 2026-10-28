@@ -2,6 +2,15 @@
 
 Present Perfect сообщает о событии до настоящего момента, но **не помещает его в законченный календарный момент**. Важна связь с настоящим: результат сейчас, жизненный опыт к сегодняшнему дню, изменение или период, который ещё продолжается. Поэтому перевод русского прошедшего сам по себе не определяет форму: *I have lost my keys* означает, что ключи потеряны и проблема актуальна сейчас; *I lost my keys yesterday* рассказывает о конкретном эпизоде вчера.
 
+<div style="margin:1rem 0 1.4rem;padding:1rem;border:1px solid var(--background-modifier-border);border-radius:16px;background:var(--background-secondary);">
+  <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+    <div style="flex:1 1 150px;padding:.7rem;border-radius:11px;background:var(--background-primary);text-align:center;"><small style="display:block;color:var(--text-muted);font-weight:800;">РАНЬШЕ</small><strong>lose the keys</strong></div>
+    <div style="flex:0 1 90px;text-align:center;color:#51a384;font-size:.78rem;font-weight:800;">HAVE / HAS<br>+ V3 →</div>
+    <div style="flex:1 1 170px;padding:.7rem;border-radius:11px;background:rgba(81,163,132,.12);border:1px solid rgba(81,163,132,.3);text-align:center;"><small style="display:block;color:var(--text-muted);font-weight:800;">СЕЙЧАС · РЕЗУЛЬТАТ</small><strong>I’ve lost my keys.</strong><div style="font-size:.76rem;color:var(--text-muted);">Их нет у меня сейчас.</div></div>
+  </div>
+  <div style="margin-top:.65rem;padding-top:.6rem;border-top:1px dashed var(--background-modifier-border);font-size:.8rem;color:var(--text-muted);">Past Simple поставил бы событие в закрытый эпизод: <em>I lost my keys yesterday.</em> Perfect соединяет прошлое с выбранным «сейчас».</div>
+</div>
+
 ## Форма
 
 **have / has + past participle (V3)**. Для правильных глаголов V3 обычно совпадает с формой на *-ed* (*work—worked—worked*), неправильные формы нужно учить (*go—went—gone; see—saw—seen*).

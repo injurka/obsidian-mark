@@ -1,5 +1,9 @@
 # Добавление окончаний -s, -ed и -ing
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.72rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">СНАЧАЛА ВЫБЕРИ ОКОНЧАНИЕ, ПОТОМ ПРОВЕРЬ ОСНОВУ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.75rem 0;"><span style="padding:.5rem .75rem;border-radius:12px;background:var(--background-primary);font-weight:850;">study</span><span style="color:var(--text-muted);">→</span><span style="padding:.5rem .75rem;border-radius:12px;background:rgba(81,163,132,.18);font-weight:850;">studies</span><span style="padding:.5rem .75rem;border-radius:12px;background:rgba(224,164,95,.18);font-weight:850;">studied</span><span style="padding:.5rem .75rem;border-radius:12px;background:rgba(119,145,198,.18);font-weight:850;">studying</span></div><div style="font-size:.8rem;color:var(--text-muted);">Форма подсказывает, какое орфографическое изменение применить: здесь y → i только перед -s и -ed.</div>
+</div>
+
 Окончания **-s, -ed, -ing** присоединяются к основе слова, но написание иногда меняется. Сначала определите грамматическую форму: *-s* может обозначать множественное число или третье лицо единственного числа; *-ed* образует прошедшее время и причастие правильных глаголов; *-ing* используется в длительных формах, герундиях и отглагольных существительных. Орфография зависит от последней буквы и слога.
 
 ## Основные шаблоны

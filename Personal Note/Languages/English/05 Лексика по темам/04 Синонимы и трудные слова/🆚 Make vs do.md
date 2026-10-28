@@ -1,5 +1,9 @@
 # 🆚 Make vs do
 
+<div style="display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0 1.25rem;">
+  <div style="flex:1 1 210px;padding:1rem;border-radius:20px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);text-align:center;"><div style="width:72px;height:72px;margin:0 auto .55rem;border-radius:22px;background:rgba(81,163,132,.2);display:grid;place-items:center;font-size:1.7rem;">✦</div><div style="font-size:1.15rem;font-weight:900;">MAKE</div><div style="font-size:.9rem;">создать результат</div><div style="margin-top:.5rem;padding:.45rem;border-radius:10px;background:var(--background-primary);">make a decision</div></div><div style="flex:1 1 210px;padding:1rem;border-radius:20px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);text-align:center;"><div style="width:72px;height:72px;margin:0 auto .55rem;border-radius:50%;background:rgba(224,164,95,.22);display:grid;place-items:center;font-size:1.7rem;">↻</div><div style="font-size:1.15rem;font-weight:900;">DO</div><div style="font-size:.9rem;">выполнить действие / задачу</div><div style="margin-top:.5rem;padding:.45rem;border-radius:10px;background:var(--background-primary);">do the shopping</div></div>
+</div>
+
 Оба глагола часто переводятся «делать», но устойчивые сочетания различаются: *make* чаще создаёт результат, *do* обозначает деятельность или задачу.
 
 | Выражение | Значение |

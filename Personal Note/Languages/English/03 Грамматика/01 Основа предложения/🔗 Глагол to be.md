@@ -1,5 +1,9 @@
 # Глагол to be: быть, находиться и вспомогательный глагол
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:18px;background:linear-gradient(120deg,rgba(81,163,132,.14),var(--background-secondary));border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">BE — МОСТ МЕЖДУ ПОДЛЕЖАЩИМ И ИНФОРМАЦИЕЙ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.75rem 0;"><span style="padding:.5rem .75rem;border-radius:12px;background:var(--background-primary);">Maya</span><span style="color:var(--text-muted);">→</span><span style="padding:.5rem .75rem;border-radius:12px;background:rgba(81,163,132,.2);font-weight:850;">is</span><span style="color:var(--text-muted);">→</span><span style="padding:.5rem .75rem;border-radius:12px;background:var(--background-primary);">ready</span><span style="color:var(--text-muted);font-size:.82rem;">качество</span><span style="padding:.5rem .75rem;border-radius:12px;background:var(--background-primary);">at the café</span><span style="color:var(--text-muted);font-size:.82rem;">место</span></div><div style="font-size:.8rem;color:var(--text-muted);">Вопрос и отрицание строятся прямо с be: Is Maya ready? · Maya isn't ready.</div>
+</div>
+
 *Be* — один из центральных глаголов английского языка. Он может соединять подлежащее с описанием (*She is tired*), сообщать о местонахождении (*They are at home*) и работать как вспомогательный глагол во временах Continuous и пассиве (*He is sleeping; The room was cleaned*). Его формы нужно выучить отдельно, потому что в настоящем и прошедшем они меняются по лицу и числу.
 
 ## Формы в настоящем и прошлом
@@ -35,6 +39,8 @@
 1. **Continuous:** *am/is/are + -ing* описывает процесс (*She is working; They were waiting*).
 2. **Passive:** *be + V3* показывает, что действие направлено на подлежащее (*The window was broken; The forms are checked every day*).
 3. **Инфинитивные/причастные конструкции:** *to be honest; being late; He is believed to be abroad.*
+
+В истории про Майю разница видна на одном и том же герое: *Maya works at a café* (обычная работа, без *be*) и *Maya is opening the café alone* (временный процесс, *be + -ing*). Вопрос и отрицание во второй фразе тоже строятся через *be*: *Is Maya opening...? Maya isn't opening...* См. [[🎬 Одна история — несколько грамматических форм]].
 
 Отличайте помощник от связки по следующему элементу: *She is happy* — после *is* прилагательное; *She is smiling* — форма *-ing* и Continuous; *The door is locked* — возможно пассив/состояние, зависит от контекста.
 

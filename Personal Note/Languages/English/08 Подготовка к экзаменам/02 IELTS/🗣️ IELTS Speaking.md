@@ -1,5 +1,9 @@
 # IELTS Speaking: подготовка
 
+<div style="margin:1rem 0 1.25rem;padding:1rem;border-radius:20px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);">
+  <div style="font-size:.7rem;letter-spacing:.12em;color:var(--text-muted);font-weight:800;">РАЗВЕРНИ ОТВЕТ НА ОДИН ШАГ</div><div style="display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin:.8rem 0;"><span style="padding:.55rem .7rem;border-radius:50%;background:rgba(81,163,132,.18);font-weight:850;">ответ</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:50%;background:var(--background-primary);">причина</span><span style="color:var(--text-muted);">→</span><span style="padding:.55rem .7rem;border-radius:50%;background:var(--background-primary);">деталь / пример</span><span style="margin-left:.3rem;color:var(--text-muted);font-size:.82rem;">без заученного монолога</span></div><div style="font-size:.88rem;">“Yes, I enjoy cooking because it helps me unwind. Last Sunday I tried making…”</div>
+</div>
+
 Практикуйте ответы разной длины: короткий ответ с уточнением, развёрнутое описание опыта и обсуждение более общих вопросов. Не заучивайте длинные тексты целиком — выученная реплика может звучать неестественно и плохо отвечать на уточнение.
 
 Используйте структуру: прямой ответ → причина → конкретный пример → короткое следствие. Если не уверены, перефразируйте вопрос или попросите повторить его. Сосредоточьтесь на понятности, связности, словарном диапазоне и грамматическом контроле.
