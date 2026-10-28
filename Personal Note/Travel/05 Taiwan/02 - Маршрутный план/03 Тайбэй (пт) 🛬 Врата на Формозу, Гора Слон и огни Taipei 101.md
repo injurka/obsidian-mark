@@ -4,10 +4,10 @@ cssclasses: activity-timeline
 date: 2026-11-06
 weekday: Пятница
 title: 🌃 Первые огни Тайбэя
-location: Гуанчжоу (CAN-T2) ➔ TPE (Таоюань) ➔ Airport MRT ➔ Тайбэй (Zhongzheng / Xinyi / Songshan).
-phase: 🌴 Фаза 1 — Чистый отпуск (Прибытие на остров, мягкий вечер в Синьи и на рынке Жаохэ; гора Слон — бонус только при раннем заселении и нормальном самочувствии).
+location: Гуанчжоу (CAN-T2) ➔ TPE (Таоюань) ➔ Airport MRT ➔ Тайбэй (Zhongzheng / Xinyi / Da’an).
+phase: 🌴 Фаза 1 — Чистый отпуск (Прибытие на остров, мягкий вечер в Синьи и на рынке Тунхуа; гора Слон — бонус только при раннем заселении и нормальном самочувствии).
 accommodation: Отель *Dongmen Hotel* у станции MRT Dongmen (1-я ночь в Тайбэе).
-highlight: "Первое знакомство с Формозой без гонки после перелёта: огни Taipei 101, район Синьи и стритфуд Жаохэ; панорама с горы Слон остается приятным бонусом."
+highlight: "Первое знакомство с Формозой без гонки после перелёта: огни Taipei 101, район Синьи и стритфуд Тунхуа; панорама с горы Слон остается приятным бонусом."
 is_ready: true
 mode: vacation
 base_city: Тайбэй
@@ -16,7 +16,7 @@ transport_types:
 booking_status: confirmed
 ---
 
-# 🗓️ День 03: Пятница (🌴 Врата на Формозу: Гора Слон, Taipei 101 и рынок Жаохэ)
+# 🗓️ День 03: Пятница (🌴 Врата на Формозу: Гора Слон, Taipei 101 и рынок Тунхуа)
 
 ---
 
@@ -82,7 +82,6 @@ images: [
     * *Тип поезда:* Экспресс до A1 Taipei Main Station; часовой слот включает подход к платформе и ожидание. При задержке прилёта сдвигайте вечер и пропускайте гору Слон.
     * **Оплата в 7-ELEVEN:** Уже куплена виртуальная товарная карта **1 000 TWD**. На кассе открыть оригинал ваучера в заказе Trip.com и показать штрихкоды с высокой яркостью; [[00 - Файлы и документы/PrivateDocument/Покупки/7-ELEVEN/Voucher 7-ELEVEN 1000 TWD штрихкоды.png|Ваучер со штрихкодами]] сохранён в приватных документах как резервная копия. Остаток после покупки проверить в чеке.
     * 🎁 **Первый гастро-ритуал:** В магазине 7-Eleven прямо перед турникетами станции возьмите горячее тайваньское чайное яйцо со специями (**Tea Egg / 茶葉蛋**, `~38 ₽` / NT$ 13) и бутылочку холодного улуна или жасминового чая без сахара (無糖).
-    * 💡 **Опция с билетом THSR:** В комплексе Taipei Main Station работают кассы **THSR Ticket Counter** (台灣高鐵售票處). При желании уже сегодня можно забрать бумажный билет на поезд 13 ноября Banqiao ➔ Chiayi ([[00 - Файлы и документы/PrivateDocument/Поезда/Banqiao-Chiayi.png|код WKW82GQT]]). Но если после перелёта хочется быстрее заселиться в отель — лучше сделать это без спешки утром 10 ноября (День 07) перед посадкой на поезд в Цзяоси.
     * *Навигация к отелю*: По прибытии на станцию A1 (Airport MRT) перейдите по указателям на Красную ветку метро MRT (**Tamsui-Xinyi Line / Taipei Main Station, R10**). Садитесь на поезд в сторону Xiangshan / Daan и проедьте всего **3 остановки (6 минут)** до станции **Dongmen (東門, R07)**. Поднимитесь через **Выход 1 или 2** на улицу Linyi St / Xinyi Rd — отель **Dongmen Hotel** находится всего в 150 метрах (2–3 минуты пешком) к югу по тихой улице Linyi St.
     * _Ссылка на локацию_: [Google Maps: Taipei Main Station](https://www.google.com/maps/place/HSR+Taipei+Station/@25.047761,121.5144741,17z/data=!3m1!5s0x36ef31d83d17a355:0xa70111dae00d0c9f!4m12!1m5!3m4!2zMjXCsDAyJzUxLjkiTiAxMjHCsDMxJzAxLjQiRQ!8m2!3d25.047761!4d121.517049!3m5!1s0x3442a96ae3a027c9:0x71f799a0d10bd6fb!8m2!3d25.0472791!4d121.517643!16s%2Fg%2F11s93k17hw?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=25.0472791,121.517643&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 ```gallery
@@ -142,7 +141,7 @@ routes:
     stops: 5
 ```
 > [!IMPORTANT] Правило решения после перелёта
-> Если в отель попали **позже 16:30** или чувствуете сильную усталость, пропустите подъем. Сразу отправляйтесь к Taipei 101, спокойно прогуляйтесь по Xinyi и продолжайте к рынку Жаохэ. Гора Слон — бонус, а не обязательство первого вечера.
+> Если в отель попали **позже 16:30** или чувствуете сильную усталость, пропустите подъем. Сразу отправляйтесь к Taipei 101, спокойно прогуляйтесь по Xinyi и продолжайте к рынку Тунхуа. Гора Слон — бонус, а не обязательство первого вечера.
 
 * **17:40 - 18:45** — Тропа горы Слон (Elephant Mountain Trail / 象山親山步道):
     * *Подход к тропе:* От выхода 2 станции метро пройдите вперед через парк Сяншань (Xiangshan Park) около 600 м (7–8 минут), следуя по нарисованным на тротуаре силуэтам слоников, до начала каменной лестницы возле храма Lingyun Temple (代天殿靈雲宮).
@@ -151,8 +150,8 @@ routes:
         1. **Смотровая терраса фотографов (Photographer's Platform / 攝手平台)**: Первая большая видовая палуба с открытым фронтальным видом на уже подсвеченный Taipei 101.
         2. **Шесть гигантских валунов (Six Giant Rocks / 六巨石)**: Знаменитые природные глыбы на хребте (можно подняться на площадку вокруг них).
         3. **Ночная панорама Синьи:** К моменту выхода на площадку солнце уже зайдёт; главная сцена — огни Taipei 101, транспортные потоки и сияющий деловой район на фоне тёмного неба.
-    * _Ссылка на локацию_: [Google Maps: Elephant Mountain Trailhead](https://maps.google.com/?q=25.026541,121.575542)<iframe src="https://maps.google.com/maps?q=25.026541,121.575542&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
     * _Хайкинг-трек_: [Google Maps: Xiangshan MRT Station → Elephant Mountain Trailhead](https://www.google.com/maps/dir/25.032645,121.569802/25.026541,121.575542/@25.0325877,121.5673612,17z/am=t/data=!4m7!4m6!3e2!5i1!6m3!1i0!2i0!3i0?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D)
+    * _Ссылка на локацию_: [Google Maps: Elephant Mountain Trailhead](https://maps.google.com/?q=25.026541,121.575542)<iframe src="https://maps.google.com/maps?q=25.026541,121.575542&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
 > [!TIP] 🦟 Защита от насекомых и питьевой режим
 > На лесных склонах в сумерках активны москиты — перед подъемом нанесите репеллент. Возьмите с собой бутылку воды (или купите в автомате у подножия тропы). Спускайтесь не спеша, держась за перила — каменные ступени могут быть гладкими.
@@ -175,10 +174,9 @@ images: [
     * Осмотрите снаружи уникальную ступенчатую архитектуру здания в форме стебля бамбука и древнекитайских денежных слитков ямбов, а также знаменитую красную скульптуру Роберта Индианы «LOVE» на площади у южного входа.
     * _Ссылка на локацию_: [Google Maps: Taipei 101](https://maps.google.com/?q=25.033835,121.564499)<iframe src="https://maps.google.com/maps?q=25.033835,121.564499&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
 
-* **19:30 - 20:00** — Переезд на метро MRT к Ночному рынку Жаохэ:
-    * Сядьте на станции **Taipei 101/World Trade Center (R03)** на **Красную ветку (Tamsui-Xinyi Line)**.
-    * Проедьте 5 остановок до станции **Chiang Kai-shek Memorial Hall (R08)**, где действует удобная кросс-платформенная пересадка (достаточно просто перейти на противоположную сторону той же платформы) на **Зеленую ветку (Songshan-Xindian Line)**.
-    * Доезжайте до конечной станции **Songshan (G19)** и выходите через **Выход 1 или 5** прямо ко входу на ночной рынок и к храму Ciyou Temple.
+* **19:30 - 20:00** — Метро и прогулка к ночному рынку Тунхуа:
+    * От **Taipei 101/World Trade Center (R03)** проедьте одну остановку по Красной линии в сторону **Tamsui** до **Xinyi Anhe (R04)**.
+    * От станции пройдите около 10 минут к **Linjiang Street Night Market / 臨江街觀光夜市**, также известному как **Tonghua Night Market / 通化夜市**. Полчаса включает подходы, ожидание и поездку.
 
 ```transport
 type: metro
@@ -186,83 +184,64 @@ title: "Taipei MRT"
 
 routes:
   - from: "Taipei 101/World Trade Center (R03)"
-    to: "Chiang Kai-shek Memorial Hall (R08)"
+    to: "Xinyi Anhe (R04)"
     line: "Tamsui–Xinyi Line"
     code: "R"
     color: "#D2072A"
     direction: "Tamsui"
-    stops: 5
-  - from: "Chiang Kai-shek Memorial Hall (G10)"
-    to: "Songshan (G19)"
-    line: "Songshan–Xindian Line"
-    code: "G"
-    color: "#008659"
-    direction: "Songshan"
-    stops: 9
+    stops: 1
 ```
 
 ---
 
-### Часть 4: Ночной рынок Жаохэ
+### Часть 4: Ужин на ночном рынке Тунхуа
 
-* **20:00 - 21:40** — Ночной рынок Жаохэ (Raohe Night Market):
-    * *Контекст:* Старейший и самый атмосферный туристический ночной рынок Тайбэя, протянувшийся прямой линией на 600 метров вдоль улицы Жаохэ.
-    * *Главные дегустации и гастрономические хиты:*
-        1. **Fuzhou Black Pepper Buns (福州世祖胡椒餅)**: Легендарные булочки со свининой, черным перцем и зеленым луком, выпекаемые прямо на глиняных стенках круглой тандырной печи (отмечены гидом Michelin Bib Gourmand). Очередь движется быстро (7–10 минут).
-        2. 🎁 **Освежающий напиток:** Возьмите свежевыжатый сок из сахарного тростника с соком каламанси/лайма (**Sugar Cane Juice / 甘蔗汁**, `~140 ₽` / NT$ 50) или классический чай с тапиокой (Bubble Tea).
-        3. **Тайваньские морепродукты:** Жареные на углях щупальца кальмара со специей «пять ароматов», жареные перепелиные яйца на шпажках и мини-сосиски в клейком рисе («маленькая колбаска в большой» / 大腸包小腸).
-        4. **Фруктовый десерт:** Ломтики сочной тайваньской восковой яблони (Wax Apple / 蓮霧) или хрустящей гуавы, посыпанной кисло-сладкой сливовой пудрой.
-    * _Ссылка на локацию_: [Google Maps: Raohe Night Market](https://maps.google.com/?q=25.050965,121.577543)<iframe src="https://maps.google.com/maps?q=25.050965,121.577543&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **20:00 - 21:00** — Ночной рынок Тунхуа (Linjiang / Tonghua Night Market):
+    * Небольшой рынок в жилом районе Даань: спокойный по темпу ужин после перелёта без дальнего переезда в Songshan. Выберите несколько закусок по аппетиту и очередям, без обязательного списка лавок.
+    * **Что попробовать:** омлет с устрицами, рисовую лапшу, тайваньскую булочку гуа-бао с тушёным мясом; на десерт — бисквит или напиток с собой.
+    * **Часы работы:** по расписанию Taipei Travel ежедневно **18:00–00:00**; отдельные лавки работают по своему графику. [Официальная страница рынка](https://www.travel.taipei/en/attraction/details/1688).
+    * **Если устали:** достаточно 30–45 минут на ужин; возвращайтесь раньше, оставшееся время — отдых.
+    * _Ссылка на локацию_: [Google Maps: Linjiang Street Night Market](https://www.google.com/maps/place/Linjiang+Night+Market/@25.030644,121.5536935,878m/data=!3m1!1e3!4m6!3m5!1s0x3442abcb3e5a8b07:0xba5d7dc78fba5d2e!8m2!3d25.0301412!4d121.5542672!16s%2Fm%2F0nbdb6l?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D)<iframe src="https://maps.google.com/maps?q=Linjiang+Street+Night+Market+Taipei&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+
 ```gallery
-title: "Ночной рынок Жаохэ (Raohe Night Market)"
+title: "Ночной рынок Тунхуа"
 images: [
-  "Pasted image 20260825144106.png",
-  "Pasted image 20260825144247.png",
-  "Pasted image 20260825144308.png"
+  "Pasted image 20261027222143.png",
+  "Pasted image 20261027221825.png"
 ]
 ```
 
 ---
 
-### Часть 5: Удобное возвращение в отель
+### Часть 5: Возвращение в отель без пересадок
 
-* **21:40 - 22:15** — Возвращение в отель Dongmen Hotel на метро MRT:
-    * Спуститесь на станцию **Songshan Station (G19)**.
-    * Сядьте на поезд **Зеленой ветки (Songshan-Xindian Line / 松山新店線)** в сторону станции *Xindian*.
-    * Проедьте 6 остановок до пересадочной станции **Chiang Kai-shek Memorial Hall (G10/R08)**, совершите быструю кросс-платформенную пересадку на Красную ветку и проедьте всего **1 остановку** до станции **Dongmen (東門, R07)**.
-    * Выйдите через **Выход 1 или 2** станции Dongmen и пройдите 150 м (2 минуты) по улице Linyi St прямо ко входу в ваш отель *Dongmen Hotel*.
-    * _Ссылка на локацию_: [Google Maps: Songshan Station](https://maps.google.com/?q=25.049870,121.578110)<iframe src="https://maps.google.com/maps?q=25.049870,121.578110&output=embed" style="width: 100%; min-width: 100%; height: 350px; display: block; border: 0; border-radius: 8px; margin-top: 10px; margin-bottom: 15px;" loading="lazy"></iframe>
+* **21:15 - 21:45** — Возвращение в Dongmen Hotel:
+    * Пройдите около 10 минут обратно к **Xinyi Anhe (R04)**. По Красной линии в сторону **Tamsui** проедьте **3 остановки** до **Dongmen (R07)**: Daan → Daan Park → Dongmen.
+    * От станции пройдите к отелю на Linyi St. Полчаса — ориентир на весь путь с ожиданием поезда и пешими подходами.
 
 ```transport
 type: metro
 title: "Taipei MRT"
 
 routes:
-  - from: "Songshan (G19)"
-    to: "Chiang Kai-shek Memorial Hall (G10)"
-    line: "Songshan–Xindian Line"
-    code: "G"
-    color: "#008659"
-    direction: "Xindian"
-    stops: 9
-  - from: "Chiang Kai-shek Memorial Hall (R08)"
+  - from: "Xinyi Anhe (R04)"
     to: "Dongmen (R07)"
     line: "Tamsui–Xinyi Line"
     code: "R"
     color: "#D2072A"
-    direction: "Xiangshan"
-    stops: 1
+    direction: "Tamsui"
+    stops: 3
 ```
 
-* **22:15+** — Отдых и сон:
-    * Горячий душ, разбор вещей и крепкий восстановительный сон после долгого перелета. Завтра — большой пеший день по историческим кварталам Тайбэя!
+* **21:45+** — Отдых и сон:
+    * Душ и отдых после перелёта. Завтра — прогулки по историческим кварталам Тайбэя.
 
 ---
 
 ## 💰 Финансовые затраты на день 
 
 * EasyCard с балансом 200 TWD + Airport MRT в одну сторону: **1 090,54 ₽**, уже оплачено заранее (1 025,20 ₽ картой + 65,34 ₽ Trip Coins).
-* Поездки на городском метро MRT (Taipei Main ➔ Xiangshan + Taipei 101 ➔ Songshan + Songshan ➔ Beimen): `~220 ₽` (NT$ 75).
+* Поездки на городском метро MRT (Taipei Main ➔ Dongmen ➔ Xiangshan + Taipei 101 ➔ Xinyi Anhe + Xinyi Anhe ➔ Dongmen): `~220 ₽` (NT$ 75).
 * Кофе и легкий завтрак в транзитной зоне аэропорта Гуанчжоу: `~650 ₽`.
-* Ужин, снэки Michelin Bib Gourmand и напитки на рынке Жаохэ: `~850–1 050 ₽` (NT$ 280–350).
+* Ужин, закуски и напитки на рынке Тунхуа: `~850–1 050 ₽` (NT$ 280–350).
 * **Итого по указанным статьям:** около **`~2 810,54–3 010,54 ₽`**, включая оплаченный комплект; из них на месте — **`~1 720–1 920 ₽`**. Расходы городского MRT могут оплачиваться из включённого баланса 200 TWD и тогда не требуют отдельной доплаты; не учитывать их повторно как новый платёж.
