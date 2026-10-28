@@ -100,7 +100,7 @@ bunx --bun @limiteddissolve/obsidian-importer \
 bunx --bun @limiteddissolve/obsidian-importer \
   --api-url "https://trip-scheduler-api.limited-dissolve.ru" \
   --dir "~/Documents/obsidian-mark/Personal Note/Travel/-- South Korea" \
-  --start-date "2026-10-17" \
+  --start-date "2027-10-17" \
   --status draft \
   --visibility public \
   --validate
