@@ -70,14 +70,30 @@ tags:
     </div>
     <div class="recipe-block">
         <h3 style="margin-top: 0;">🎨 Ожидаемый вкус</h3>
-        <p>Тёмный шоколад → смородина → сливки, кофе и виски.</p>
-        <p class="recipe-marker">Экспериментальная рецептура по предоставленному описанию. Профиль — ожидание, а не результат дегустации.</p>
+        <p style="font-size: 1.05rem; margin-bottom: 1rem;"><strong>Десертный и сливочный.</strong> Шоколадный сироп поддерживает горько-шоколадный характер кофе, смородина добавляет ягодный контраст, а виски — глубину. Сливки смягчают первое впечатление от насыщенной основы.</p>
+        <div class="recipe-meta-grid">
+            <div class="recipe-meta-item"><span class="recipe-meta-label">Аромат</span><p style="margin: 0.35rem 0 0;">Шоколад, кофе и чёрная смородина.</p></div>
+            <div class="recipe-meta-item"><span class="recipe-meta-label">Вкус и текстура</span><p style="margin: 0.35rem 0 0;">Сначала ощущается мягкий сливочный слой, затем — более яркая кисло-сладкая кофейно-ягодная основа.</p></div>
+            <div class="recipe-meta-item"><span class="recipe-meta-label">Послевкусие</span><p style="margin: 0.35rem 0 0;">Шоколадно-кофейное, с ягодной кислинкой и тёплым оттенком виски.</p></div>
+        </div>
+    </div>
+    <div class="recipe-block">
+        <h3 style="margin-top: 0;">🥃 Анатомия и подача напитка</h3>
+        <div class="recipe-cup-wrapper" style="display: flex; flex-direction: column; align-items: center; padding: 16px 0;">
+            <div role="img" aria-label="Схема подачи: коктейльный бокал со сливочным слоем" style="position: relative; width: 230px; max-width: 100%; border: 3px solid var(--text-muted); border-top: 1px solid var(--text-muted); border-radius: 12px 12px 38px 38px; overflow: hidden;">
+                <div style="height: 42px; display: flex; align-items: center; justify-content: center; background: #f3e5cc; color: #fff; text-align: center; font-size: 0.85rem; padding: 0 8px; box-sizing: border-box;"><span style="color: #402c25;">Сливочный слой</span></div><div style="height: 123px; display: flex; align-items: center; justify-content: center; background: #3f2429; color: #fff; text-align: center; font-size: 0.85rem; padding: 0 8px; box-sizing: border-box;">Кофе · смородина<br>виски · шоколад</div>
+            </div>
+            <div aria-hidden="true" style="width: 5px; height: 34px; background: var(--text-muted);"></div>
+            <div aria-hidden="true" style="width: 95px; height: 4px; border-radius: 50%; background: var(--text-muted);"></div>
+        </div>
+        <p style="text-align: center; color: var(--text-muted); font-size: 0.85rem;">Условная схема подачи: высота элементов не обозначает точные пропорции.</p>
+        <p>Сливки укладываются поверх смешанной кофейно-ягодной основы. Лёд после встряхивания удаляется процеживанием.</p>
     </div>
     <div class="recipe-block">
         <h3 style="margin-top: 0;">🛒 Ингредиенты на одну порцию</h3>
         <div class="recipe-ing-group">
             <ul class="recipe-ingredient-list">
-                <li><strong>Эспрессо Piazza del Caffè Espresso Forte</strong> — 25 г. <span class="recipe-marker">Вес готового кофе, без привязки к объёму пенки.</span></li>
+                <li><strong>Эспрессо Робуста</strong> — 25 г. <span class="recipe-marker">Вес готового кофе, без привязки к объёму пенки.</span></li>
                 <li><strong>Кисло-сладкая настойка чёрной смородины 25%</strong> — 25 мл.</li>
                 <li><strong>Fox &amp; Dogs Original Blended Whisky</strong> — 25 мл.</li>
                 <li><strong>Шоколадный сироп</strong> — 10 мл.</li>
