@@ -67,6 +67,11 @@ tags:
         </div>
     </div>
     <div class="recipe-block">
+        <h3 style="margin-top: 0;">🥃 Насколько заметен алкоголь</h3>
+        <p style="font-size: 1.05rem;"><strong>Умеренно–выраженно.</strong> Смородина и кофе смягчают впечатление от спирта, однако коктейль короткий и без безалкогольного наполнителя. Ягодно-можжевеловый аромат джина может быть заметнее собственно спиртовой резкости.</p>
+        <p style="margin-bottom: 0; color: var(--text-muted); font-size: 0.85rem;">Ориентир по ощущению спиртовой резкости при указанной подаче, а не оценка крепости. Восприятие зависит от температуры, разбавления и личной чувствительности.</p>
+    </div>
+    <div class="recipe-block">
         <h3 style="margin-top: 0;">🥃 Анатомия и подача напитка</h3>
         <div class="recipe-cup-wrapper" style="display: flex; flex-direction: column; align-items: center; padding: 16px 0;">
             <div role="img" aria-label="Схема подачи: коктейльный бокал с кофейной пенкой" style="position: relative; width: 230px; max-width: 100%; border: 3px solid var(--text-muted); border-top: 1px solid var(--text-muted); border-radius: 12px 12px 38px 38px; overflow: hidden;">

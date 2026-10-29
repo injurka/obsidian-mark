@@ -71,6 +71,11 @@ tags:
         </div>
     </div>
     <div class="recipe-block">
+        <h3 style="margin-top: 0;">🥃 Насколько заметен алкоголь</h3>
+        <p style="font-size: 1.05rem;"><strong>Слабо.</strong> Тоник, содовая, кофе и тающий лёд уменьшают концентрацию алкогольной основы в глотке. Смородиновая сладость и ягодный аромат смягчают резкость, при этом ботанический характер джина может оставаться заметным.</p>
+        <p style="margin-bottom: 0; color: var(--text-muted); font-size: 0.85rem;">Ориентир по ощущению спиртовой резкости при указанной подаче, а не оценка крепости. Восприятие зависит от температуры, разбавления и личной чувствительности.</p>
+    </div>
+    <div class="recipe-block">
         <h3 style="margin-top: 0;">🥃 Анатомия и подача напитка</h3>
         <div class="recipe-cup-wrapper" style="display: flex; flex-direction: column; align-items: center; padding: 16px 0;">
             <div role="img" aria-label="Схема подачи: высокий стакан со льдом" style="position: relative; width: 180px; max-width: 100%; border: 3px solid var(--text-muted); border-top: 1px solid var(--text-muted); border-radius: 8px 8px 22px 22px; overflow: hidden;">

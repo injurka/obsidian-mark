@@ -78,6 +78,11 @@ tags:
         </div>
     </div>
     <div class="recipe-block">
+        <h3 style="margin-top: 0;">🥃 Насколько заметен алкоголь</h3>
+        <p style="font-size: 1.05rem;"><strong>Умеренно.</strong> Шоколад, сливки и ягоды смягчают резкость, но в короткой кофейной основе виски сохраняет аромат и согревающий оттенок. Через сливочный слой первый глоток может восприниматься мягче последующих.</p>
+        <p style="margin-bottom: 0; color: var(--text-muted); font-size: 0.85rem;">Ориентир по ощущению спиртовой резкости при указанной подаче, а не оценка крепости. Восприятие зависит от температуры, разбавления и личной чувствительности.</p>
+    </div>
+    <div class="recipe-block">
         <h3 style="margin-top: 0;">🥃 Анатомия и подача напитка</h3>
         <div class="recipe-cup-wrapper" style="display: flex; flex-direction: column; align-items: center; padding: 16px 0;">
             <div role="img" aria-label="Схема подачи: коктейльный бокал со сливочным слоем" style="position: relative; width: 230px; max-width: 100%; border: 3px solid var(--text-muted); border-top: 1px solid var(--text-muted); border-radius: 12px 12px 38px 38px; overflow: hidden;">
